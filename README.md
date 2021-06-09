@@ -2,7 +2,7 @@
 
 This is an experimental translation of gold paths to OWL
 
-## Top leve;
+## Top level
 
 ![image](https://user-images.githubusercontent.com/50745/121285301-fe2bdd00-c892-11eb-92f6-5cf8c76bc284.png)
 
@@ -10,7 +10,12 @@ This is an experimental translation of gold paths to OWL
 
 ![image](https://user-images.githubusercontent.com/50745/121285351-1ac81500-c893-11eb-8ad6-d441765262ed.png)
 
+
 ## Atomic Elements
+
+![image](https://user-images.githubusercontent.com/50745/121285635-94600300-c893-11eb-8287-ba23a7bcfa8b.png)
+
+## Inspecting usage of atomic elements
 
 ![Uploading image.png…]()
 
