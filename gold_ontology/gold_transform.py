@@ -6,7 +6,8 @@ import hashlib
 from rdflib import Namespace, URIRef
 from rdflib.namespace import RDFS
 from typing import List
-from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, AnnotationAssertion, ObjectIntersectionOf, Prefix
+from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
+    ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix
 
 GOLD = Namespace('https://w3id.org/gold/')
 
@@ -46,10 +47,11 @@ def translate(f: str):
                 atoms.add(x)
             c = make_uri(id)
             row2id[tuple(row)] = c
+    RootAE = make_uri('AtomicElement')
     for a in atoms:
         c = make_uri_from_atom(a)
         o.axioms.append(AnnotationAssertion(RDFS.label, c, a))
-        o.subClassOf(c, make_uri('AtomicElement'))
+        o.axioms.append(ClassAssertion(RootAE, c))
     # fill in missing parts
     for row, id in row2id.copy().items():
         parent = row[0:-1]
@@ -73,7 +75,7 @@ def translate(f: str):
         for v in row:
             vc = make_uri_from_atom(v)
             vp = make_uri_from_atom(COLS[i])
-            svf = ObjectSomeValuesFrom(vp, vc)
+            svf = ObjectHasValue(vp, vc)
             xs.append(svf)
             i += 1
         if len(xs) > 1:
@@ -82,7 +84,7 @@ def translate(f: str):
             ixn = xs[0]
         o.equivalentClasses(c, ixn)
     for c in COLS:
-        vp = make_uri_from_atom(COLS[i])
+        vp = make_uri_from_atom(c)
         o.subObjectPropertyOf(vp, make_uri_from_atom('environmental_property'))
     return doc
 
