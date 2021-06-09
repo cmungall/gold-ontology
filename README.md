@@ -17,7 +17,7 @@ This is an experimental translation of gold paths to OWL
 
 ## Inspecting usage of atomic elements
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/50745/121285883-ec970500-c893-11eb-88d1-5a8d83fe9897.png)
 
 
 ## Queries
@@ -25,3 +25,5 @@ This is an experimental translation of gold paths to OWL
 ![image](https://user-images.githubusercontent.com/50745/121285430-3e8b5b00-c893-11eb-8466-5bfc128c7649.png)
 
 ![image](https://user-images.githubusercontent.com/50745/121285491-55ca4880-c893-11eb-9465-ddbd64120855.png)
+
+![Uploading image.png…]()
