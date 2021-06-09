@@ -1,0 +1,4 @@
+*.ofn
+.idea
+venv
+__pycache__

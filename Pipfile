@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+click = "~=7.0"
+funowl = "*"
+pytest = "*"
+
+
+[dev-packages]
+nbconvert = "*"
+nbformat = "*"
+ipykernel = "*"
+
+[pipenv]
+allow_prereleases = true
