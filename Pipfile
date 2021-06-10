@@ -8,11 +8,11 @@ click = "~=7.0"
 funowl = "*"
 pytest = "*"
 
-
 [dev-packages]
 nbconvert = "*"
 nbformat = "*"
 ipykernel = "*"
+pandas = "*"
 
 [pipenv]
 allow_prereleases = true
