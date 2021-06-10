@@ -6,3 +6,6 @@ gold.ofn: tests/inputs/goldpaths.tsv $(CODE)
 
 %.owl: %.ofn
 	robot convert -i $< -o $@
+
+data/gold-biosample-subset.db: data/gold-biosample-subset.tsv
+	sqlite3 $@ -cmd ".mode tabs" ".import $< biosample"
