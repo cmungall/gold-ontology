@@ -13,6 +13,7 @@ nbconvert = "*"
 nbformat = "*"
 ipykernel = "*"
 pandas = "*"
+git_root = "*"
 
 [pipenv]
 allow_prereleases = true
