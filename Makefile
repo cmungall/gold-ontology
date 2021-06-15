@@ -7,7 +7,7 @@ test:
 
 CODE = gold_ontology/gold_transform.py
 gold.ofn: tests/inputs/goldpaths.tsv $(CODE)
-	pipenv run python $(CODE)  $< -o $@
+	pipenv run python $(CODE) -s config/gold-env-synonyms.tsv  $< -o $@
 
 %.owl: %.ofn
 	robot convert -i $< -o $@

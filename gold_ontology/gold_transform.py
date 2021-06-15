@@ -11,6 +11,7 @@ from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssert
 
 GOLD_PATH = Namespace('https://w3id.org/gold.path/')
 GOLD_VOCAB = Namespace('https://w3id.org/gold.vocab/')
+OIO = Namespace('http://www.geneontology.org/formats/oboInOwl#')
 
 GOLDPATH_COLS = ['ECOSYSTEM PATH ID', 'ECOSYSTEM', 'ECOSYSTEM CATEGORY', 'ECOSYSTEM TYPE', 'ECOSYSTEM SUBTYPE', 'SPECIFIC ECOSYSTEM']
 UNC = 'Unclassified'
@@ -101,16 +102,28 @@ def translate_goldpaths(f: str):
         o.subObjectPropertyOf(vp, make_curie_for_atom('environmental_property'))
     return doc
 
+def parse_synonyms(doc: OntologyDocument, f: str) -> None:
+    o = doc.ontology
+    with open(f, 'r') as stream:
+        reader = csv.reader(stream, delimiter='\t')
+        for id, syn in reader:
+            if id == 'id':
+                continue
+            o.axioms.append(AnnotationAssertion(OIO.hasExactSynonym, id, syn))
 
 
 
 @click.command()
 @click.option('-o', '--output')
+@click.option('-s', '--synonyms')
 @click.argument('input')
-def cli(input: str, output: str):
+def cli(input: str, output: str, synonyms: str):
     doc = translate_goldpaths(input)
+    if synonyms is not None:
+        parse_synonyms(doc, synonyms)
     with open(output, 'w') as stream:
         stream.write(str(doc))
+
 
 if __name__ == '__main__':
     cli()
