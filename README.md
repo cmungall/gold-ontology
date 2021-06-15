@@ -27,3 +27,7 @@ This is an experimental translation of gold paths to OWL
 ![image](https://user-images.githubusercontent.com/50745/121285491-55ca4880-c893-11eb-9465-ddbd64120855.png)
 
 ![Uploading image.png…]()
+
+# Mapping
+
+https://github.com/EnvironmentOntology/envo/labels/GOLD%2FEBI-MGNIFY
