@@ -20,7 +20,7 @@ ONTS_OWL = $(patsubst %, downloads/%.owl, $(ONTS))
 downloads/%.owl:
 	robot merge -I $(OBO)/$*.owl -o $@
 downloads/ncbitaxon.owl:
-	curl -L -s $(OBO)/ncbitaxon/subsets/taxslim.obo
+	curl -L -s $(OBO)/ncbitaxon/subsets/taxslim.obo > $@
 
 downloads/obo.owl: $(ONTS_OWL)
 	robot merge $(patsubst %, -i downloads/%.owl, $(ONTS)) -o $@

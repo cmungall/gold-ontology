@@ -1,9 +1,10 @@
 #license: "https://creativecommons.org/publicdomain/zero/1.0/"
 #mapping_tool: "https://github.com/cmungall/rdf_matcher"
-#mapping_date: "2021-06-14"
+#mapping_date: "2021-06-15"
 #curie_map:
 #  CHEBI: "http://purl.obolibrary.org/obo/CHEBI_"
 #  ENVO: "http://purl.obolibrary.org/obo/ENVO_"
+#  FOODON: "http://purl.obolibrary.org/obo/FOODON_"
 #  OBI: "http://purl.obolibrary.org/obo/OBI_"
 #  PATO: "http://purl.obolibrary.org/obo/PATO_"
 #  PO: "http://purl.obolibrary.org/obo/PO_"
@@ -20,369 +21,332 @@
 #  skos: "http://www.w3.org/2004/02/skos/core#"
 #  xsd: "http://www.w3.org/2001/XMLSchema#"
 subject_id	subject_label	predicate_id	object_id	object_label	match_type	subject_source	object_source	mapping_tool	confidence	subject_match_field	object_match_field	subject_category	object_category	match_string	match_category	comment
-gold.vocab:Periprosthetic-joint	Periprosthetic joint	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Cave-water	Cave water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Amniotic-sac	Amniotic sac	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Passive-bioreactor	Passive bioreactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Mycelium	Mycelium	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Petrochemical	Petrochemical	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fermented-meat-products	Fermented meat products	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Epiphytes	Epiphytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Ice-accretions	Ice accretions	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Tobacco-product	Tobacco product	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Produced-water	Produced water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Reservoir-sediment-inoculum	Reservoir sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Endosphere	Endosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Bugs	Bugs	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Contaminated	Contaminated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Pulp-and-paper-wastewater	Pulp and paper wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Empyema	Empyema	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Extracellular	Extracellular	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Tropical-rainforest	Tropical rainforest	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Bioremediation	Bioremediation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Lobster	Lobster	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Green-algae	Green algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Invertebrates	Invertebrates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Desert-springs	Desert springs	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Fermented-dairy-products	Fermented dairy products	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Stem-tuber	Stem tuber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Photobioreactor	Photobioreactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ice-cream	Ice cream	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ectosymbionts	Ectosymbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Biological-phosphorus-removal	Biological phosphorus removal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Sugarcane-filter-cake	Sugarcane filter cake	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Nematoda	Nematoda	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mammals	Mammals	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Acid-mine-drainage-material	Acid mine drainage material	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Oyster	Oyster	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mixed-parts	Mixed parts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Caulosphere	Caulosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Red-algae	Red algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Chlorinated	Chlorinated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Nephridia	Nephridia	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Sclerotium	Sclerotium	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Gingival-crevice	Gingival crevice	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Phyllosphere	Phyllosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Metal-surface	Metal surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Built-environment	Built environment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Mangrove-sediment	Mangrove sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Brown-Algae	Brown Algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:P1-segment	P1 segment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Oil-contaminated	Oil-contaminated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Extracellular-symbionts	Extracellular symbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Anaerobic-digestor	Anaerobic digestor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Baby-formula	Baby formula	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Laryngopharyngeal	Laryngopharyngeal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Solar-panel	Solar panel	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Petromyzon	Petromyzon	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Tetrachloroethylene-and-derivatives	Tetrachloroethylene and derivatives	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Mine-water	Mine water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Marine-basin-floor	Marine basin floor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Dairy-processing-facility	Dairy processing facility	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Aphids	Aphids	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mollusca	Mollusca	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Marine-intertidal-flat-sediment-inoculum	Marine intertidal flat sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Spent-mushroom-substrate	Spent mushroom substrate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Outdoor-Air	Outdoor Air	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Petroleum-sludge	Petroleum sludge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Plankton	Plankton	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:P3-segment	P3 segment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Protists	Protists	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mycorrhiza	Mycorrhiza	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Plants	Plants	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Seed-radicle	Seed radicle	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Enriched-plant-cells	Enriched plant cells	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Intracellular	Intracellular	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Marine-sediment-inoculum	Marine sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Oomycetes	Oomycetes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Endoperitrophic-space	Endoperitrophic space	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Agricultural-wastewater	Agricultural wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Pit-mud	Pit mud	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Shipwreck	Shipwreck	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Wastewater-retentate	Wastewater retentate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Pessonella	Pessonella	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Aquaculture	Aquaculture	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Macrophytes	Macrophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:River-plume	River plume	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Landfill-leachate	Landfill leachate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Meat-products	Meat products	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Reptilia	Reptilia	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Oil-contaminated-sediment	Oil-contaminated sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Subtidal-zone	Subtidal zone	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Fermentation-pit	Fermentation pit	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Coalbed-water	Coalbed water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Sulphur-Autotrophic-Denitrification	Sulphur Autotrophic Denitrification	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Decomposed	Decomposed	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Phytoplankton-bloom	Phytoplankton bloom	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Dissolved-organics-%28aerobic%29	Dissolved organics (aerobic)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Dissolved-organics-%28anaerobic%29	Dissolved organics (anaerobic)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Cyanide/thiocyanate	Cyanide/thiocyanate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Unknown-material	Unknown material	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Riparian-soil	Riparian soil	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Attached/Keratinized-gingiva	Attached/Keratinized gingiva	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Beef	Beef	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fungi	Fungi	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Latrine-chamber	Latrine chamber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Diatoms	Diatoms	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Near-boiling-%28%3E90C%29	Near-boiling (>90C)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Sanger	Sanger	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Phylloplane/Leaf-surface	Phylloplane/Leaf surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Plant-pot	Plant pot	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Manure	Manure	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Sourdough	Sourdough	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Peat-moss	Peat moss	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Persistent-organic-pollutants-%28POP%29	Persistent organic pollutants (POP)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Haptophytes	Haptophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mites/Ticks	Mites/Ticks	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Simulated-communities-%28microbial-mixture%29	Simulated communities (microbial mixture)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Thiocyanate	Thiocyanate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Gulf	Gulf	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
 gold.vocab:Microbial-solubilization-of-coal	Microbial solubilization of coal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Crustacea	Crustacea	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Puddle	Puddle	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Simulated-communities-%28DNA-mixture%29	Simulated communities (DNA mixture)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Soil-%28non-planted%29	Soil (non-planted)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Anammox	Anammox	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Simulated-communities-%28sequence-read-mixture%29	Simulated communities (sequence read mixture)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Peritoneal-dialysate	Peritoneal dialysate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Phylloplane/Leaf-surface	Phylloplane/Leaf surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Microbial-enhanced-oil-recovery	Microbial enhanced oil recovery	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Sponge	Sponge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Rock-dwelling-%28subaerial-biofilms%29	Rock-dwelling (subaerial biofilms)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Rock-dwelling-%28endoliths%29	Rock-dwelling (endoliths)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Mealybug	Mealybug	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Mites/Ticks	Mites/Ticks	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Slime	Slime	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Sugarcane-filter-cake	Sugarcane filter cake	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Persistent-organic-pollutants-%28POP%29	Persistent organic pollutants (POP)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Periphyton	Periphyton	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Urban-waste	Urban waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Nitrogen-removal	Nitrogen removal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Dissolved-organics-%28anaerobic%29	Dissolved organics (anaerobic)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Volar-forearm	Volar forearm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Dissolved-organics-%28aerobic%29	Dissolved organics (aerobic)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Buffer	Buffer	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Nutrient-removal	Nutrient removal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Biotransformation	Biotransformation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Nitrogen-removal	Nitrogen removal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Urban-waste	Urban waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Tubeworm-bush	Tubeworm bush	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Tepid-%2825-34C%29	Tepid (25-34C)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Seat-surface	Seat surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fermented-seafood	Fermented seafood	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Warm-%2834-42C%29	Warm (34-42C)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Simulated-communities-%28sequence-read-mixture%29	Simulated communities (sequence read mixture)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Soil-%28non-planted%29	Soil (non-planted)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fruiting-body	Fruiting body	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Simulated-communities-%28DNA-mixture%29	Simulated communities (DNA mixture)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Slime	Slime	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Vegetable	Vegetable	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Horse	Horse	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Simulated-communities-%28microbial-mixture%29	Simulated communities (microbial mixture)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Rock-dwelling-%28endoliths%29	Rock-dwelling (endoliths)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Rock-dwelling-%28subaerial-biofilms%29	Rock-dwelling (subaerial biofilms)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Modeled	Modeled	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Leaf-lesion	Leaf lesion	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Soybean-paste	Soybean paste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Nectar	Nectar	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Dairy-products	Dairy products	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Artificial-ecosystem	Artificial ecosystem	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:retroauricular-crease	retroauricular crease	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Ant-dump	Ant dump	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Fermented-beverages	Fermented beverages	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ant	Ant	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Zoo-waste	Zoo waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:PCR-blank-control	PCR blank control	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Thermokarst-pond	Thermokarst pond	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Endosymbionts	Endosymbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Wooden-surface	Wooden surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Royal-jelly	Royal jelly	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Delivery-networks	Delivery networks	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Cryoconite	Cryoconite	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Butterfly	Butterfly	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Dinoflagellates	Dinoflagellates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Venous-leg-ulcers	Venous leg ulcers	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Shrimp	Shrimp	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Medial-distal-leg	Medial distal leg	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Crustal-Fluids	Crustal Fluids	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Plant-growth-chamber	Plant growth chamber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Cob	Cob	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Bench-surface	Bench surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Soft-drink-wastewater	Soft drink wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Bacteria	Bacteria	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Oxymonads	Oxymonads	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Municipal-landfill	Municipal landfill	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Uranium-contaminated	Uranium contaminated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Anaerobic-digester	Anaerobic digester	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Insecta	Insecta	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Defined-media	Defined media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:International-Space-Station	International Space Station	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Unchlorinated	Unchlorinated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Zooplankton	Zooplankton	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Indoor-Air	Indoor Air	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Thiocyanate	Thiocyanate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Microbial-enhanced-oil-recovery	Microbial enhanced oil recovery	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Anthosphere	Anthosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Air-scrubber	Air scrubber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Ancient-bone	Ancient bone	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Concrete-surface	Concrete surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Human	Human	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Water-tank	Water tank	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Sponge	Sponge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:DHS-reactor	DHS reactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Anammox	Anammox	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ear-fluid	Ear fluid	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mixed-alcohol-bioreactor	Mixed alcohol bioreactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Tunicates	Tunicates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Plastic-surface	Plastic surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Microbial	Microbial	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Stone-surface	Stone surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ascidians	Ascidians	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Duodenal	Duodenal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Vermicompost	Vermicompost	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Endophytes	Endophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Amphibia	Amphibia	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Swine-confinement-building	Swine confinement building	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Drinking-water-filter	Drinking water filter	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Mosquito	Mosquito	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Salt-crystallizer-ponds	Salt crystallizer ponds	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Drainage-pipe-biofilm	Drainage pipe biofilm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Chloroethene	Chloroethene	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Greenhouse	Greenhouse	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:River-biofilm	River biofilm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Fermentation-starter	Fermentation starter	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Salt-marsh-sediment	Salt marsh sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Water-treatment-plant	Water treatment plant	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Microalgae	Microalgae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Peritoneal-dialysate	Peritoneal dialysate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Paper	Paper	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Annelida	Annelida	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Thoracic-segments	Thoracic segments	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Soil-microcosm	Soil microcosm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Bioanode	Bioanode	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Breviatea	Breviatea	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Midpoint-vagina	Midpoint vagina	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Tetrachloroethylene	Tetrachloroethylene	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Soil-crust	Soil crust	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Buffer	Buffer	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Solid-waste	Solid waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Intracellular-endosymbionts	Intracellular endosymbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Sand-filter	Sand filter	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fly	Fly	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Bee	Bee	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Sewage-treatment-plant	Sewage treatment plant	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Mealybug	Mealybug	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Arthropoda	Arthropoda	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Cement-wall	Cement wall	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Soy-sauce	Soy sauce	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Peripheral-blood-mononuclear-cells	Peripheral blood mononuclear cells	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Periphyton	Periphyton	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Primate	Primate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Cellulose-associated-waste	Cellulose associated waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Beehive	Beehive	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Hadalpelagic	Hadalpelagic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Fermented-food	Fermented food	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Bedrock-saprolite-interface	Bedrock-saprolite interface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Neutral	Neutral	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Shale-carbon-reservoir	Shale carbon reservoir	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Sea-Urchin	Sea Urchin	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Oral-fluid	Oral fluid	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Digestate	Digestate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Pulmonary-fluid	Pulmonary fluid	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Marine-lake	Marine lake	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Lab-synthesis	Lab synthesis	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fecal	Fecal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Fermented-vegetables	Fermented vegetables	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Grass	Grass	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Birds	Birds	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Coral	Coral	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Gulf	Gulf	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Diffuse-flow	Diffuse flow	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Silage-fermentation	Silage fermentation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Floor	Floor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Echinodermata	Echinodermata	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Polycyclic-aromatic-hydrocarbons	Polycyclic aromatic hydrocarbons	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Manure-fertilized	Manure-fertilized	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:environmental_property		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:environmental_property	.	.	.	no match found
-gold.vocab:Gymnolaemates	Gymnolaemates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:ECOSYSTEM		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM	.	.	.	no match found
-gold.vocab:Bacterivore	Bacterivore	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Lichen	Lichen	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Subterranean-lake	Subterranean lake	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Submerged-macrophytes	Submerged macrophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Copepoda	Copepoda	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Moth	Moth	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Peat-moss	Peat moss	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Unknown-material	Unknown material	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Organic-layer	Organic layer	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Bryozoans	Bryozoans	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Cnidaria	Cnidaria	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Grasshopper	Grasshopper	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Fermentation	Fermentation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Terephthalate	Terephthalate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Emergent-macrophytes	Emergent macrophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Sea-cucumber	Sea cucumber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Hadalpelagic	Hadalpelagic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Microbial	Microbial	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Attached/Keratinized-gingiva	Attached/Keratinized gingiva	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Sea-Urchin	Sea Urchin	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
 gold.vocab:Room-surface	Room surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Peripheral-blood-mononuclear-cells	Peripheral blood mononuclear cells	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Cyanide/thiocyanate	Cyanide/thiocyanate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Dinoflagellates	Dinoflagellates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Latrine-chamber	Latrine chamber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Non-marine-Saline-and-Alkaline	Non-marine Saline and Alkaline	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Sea-Star	Sea Star	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Hospital-wastewater	Hospital wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Deep-subsurface	Deep subsurface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Freshwater-sediment-inoculum	Freshwater sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Seaweed	Seaweed	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Primate	Primate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Endosymbionts	Endosymbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Near-boiling-%28%3E90C%29	Near-boiling (>90C)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Cob	Cob	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Cement-wall	Cement wall	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Emergent-macrophytes	Emergent macrophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
 gold.vocab:SPECIFIC-ECOSYSTEM		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:SPECIFIC-ECOSYSTEM	.	.	.	no match found
-gold.vocab:Bivalves	Bivalves	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:ECOSYSTEM-TYPE		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM-TYPE	.	.	.	no match found
+gold.vocab:Thermokarst-pond	Thermokarst pond	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Fermentation-starter	Fermentation starter	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Mosquito	Mosquito	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Pulmonary-fluid	Pulmonary fluid	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Swine-confinement-building	Swine confinement building	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:ECOSYSTEM		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM	.	.	.	no match found
+gold.vocab:Microalgae	Microalgae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:environmental_property		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:environmental_property	.	.	.	no match found
+gold.vocab:Salt-marsh-sediment	Salt marsh sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Mixed-alcohol-bioreactor	Mixed alcohol bioreactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Drinking-water-filter	Drinking water filter	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Neutral	Neutral	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
 gold.vocab:ECOSYSTEM-SUBTYPE		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM-SUBTYPE	.	.	.	no match found
-gold.vocab:ECOSYSTEM-PATH-ID		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM-PATH-ID	.	.	.	no match found
-gold.vocab:Cephalochordata	Cephalochordata	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:ECOSYSTEM-TYPE		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM-TYPE	.	.	.	no match found
+gold.vocab:Marine-lake	Marine lake	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
 gold.vocab:ECOSYSTEM-CATEGORY		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM-CATEGORY	.	.	.	no match found
-gold.vocab:Mixed-liquor	Mixed liquor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Cephalochordata	Cephalochordata	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:ECOSYSTEM-PATH-ID		noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.vocab:ECOSYSTEM-PATH-ID	.	.	.	no match found
+gold.vocab:Plant-pot	Plant pot	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Puddle	Puddle	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:DHS-reactor	DHS reactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Indoor-Air	Indoor Air	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Fermented-seafood	Fermented seafood	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Shale-carbon-reservoir	Shale carbon reservoir	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Duodenal	Duodenal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Bedrock-saprolite-interface	Bedrock-saprolite interface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Soft-drink-wastewater	Soft drink wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Haptophytes	Haptophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Municipal-landfill	Municipal landfill	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Modeled	Modeled	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Fermented-vegetables	Fermented vegetables	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Submerged-macrophytes	Submerged macrophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Silage-fermentation	Silage fermentation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Copepoda	Copepoda	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Anaerobic-digester	Anaerobic digester	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Polycyclic-aromatic-hydrocarbons	Polycyclic aromatic hydrocarbons	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Floor	Floor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Subterranean-lake	Subterranean lake	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Crustacea	Crustacea	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Defined-media	Defined media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Medial-distal-leg	Medial distal leg	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Sea-Star	Sea Star	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:PCR-blank-control	PCR blank control	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Plant-growth-chamber	Plant growth chamber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Nectar	Nectar	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Venous-leg-ulcers	Venous leg ulcers	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Sanger	Sanger	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Sea-cucumber	Sea cucumber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Hospital-wastewater	Hospital wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Artificial-ecosystem	Artificial ecosystem	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Phytoplankton-bloom	Phytoplankton bloom	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Riparian-soil	Riparian soil	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Zoo-waste	Zoo waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Digestate	Digestate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Warm-%2834-42C%29	Warm (34-42C)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:retroauricular-crease	retroauricular crease	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Tepid-%2825-34C%29	Tepid (25-34C)	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:International-Space-Station	International Space Station	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Sewage-treatment-plant	Sewage treatment plant	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Intracellular-endosymbionts	Intracellular endosymbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Bee	Bee	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Beef	Beef	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Terephthalate	Terephthalate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Crustal-Fluids	Crustal Fluids	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Arthropoda	Arthropoda	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Water-treatment-plant	Water treatment plant	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Annelida	Annelida	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Fruiting-body	Fruiting body	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Leaf-lesion	Leaf lesion	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Thoracic-segments	Thoracic segments	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Tubeworm-bush	Tubeworm bush	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Unchlorinated	Unchlorinated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Seat-surface	Seat surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Ant	Ant	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Bacteriomes	Bacteriomes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Butterfly	Butterfly	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Amoebozoa	Amoebozoa	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Lab-synthesis	Lab synthesis	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Primary	Primary	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Plastic-surface	Plastic surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Amphibia	Amphibia	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Lab-enrichment	Lab enrichment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Diatoms	Diatoms	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Train-car	Train car	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Unclassified	Unclassified	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Ant-dump	Ant dump	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Deep-subsurface	Deep subsurface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Industrial-production	Industrial production	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Stone-surface	Stone surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Manure-fertilized	Manure-fertilized	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Bench-surface	Bench surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Fermentation	Fermentation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Subway	Subway	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Bryozoans	Bryozoans	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Ear-fluid	Ear fluid	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Gymnolaemates	Gymnolaemates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Zooplankton	Zooplankton	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Tetrachloroethylene	Tetrachloroethylene	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Soil-microcosm	Soil microcosm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Cnidaria	Cnidaria	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Anthosphere	Anthosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Grass	Grass	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Water-tank	Water tank	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Fecal	Fecal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Oxymonads	Oxymonads	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Diffuse-flow	Diffuse flow	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Ancient-bone	Ancient bone	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Bacterivore	Bacterivore	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Freshwater-sediment-inoculum	Freshwater sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Concrete-surface	Concrete surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Coral	Coral	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Engineered-product	Engineered product	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Metal-surface	Metal surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Salt-crystallizer-ponds	Salt crystallizer ponds	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Chloroethene	Chloroethene	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Periprosthetic-joint	Periprosthetic joint	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Oral-fluid	Oral fluid	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Midpoint-vagina	Midpoint vagina	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Drainage-pipe-biofilm	Drainage pipe biofilm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Cellulose-associated-waste	Cellulose associated waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Greenhouse	Greenhouse	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Tobacco-product	Tobacco product	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Cryoconite	Cryoconite	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Wooden-surface	Wooden surface	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Stem-tuber	Stem tuber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Solid-waste	Solid waste	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Beehive	Beehive	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Oil-refinery	Oil refinery	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Fermented-dairy-products	Fermented dairy products	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Epibionts	Epibionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Marine-water	Marine water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Petroleum-sludge	Petroleum sludge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Marine-intertidal-flat-sediment-inoculum	Marine intertidal flat sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Empyema	Empyema	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Protozoa	Protozoa	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Solar-panel	Solar panel	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Bugs	Bugs	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Nasopharyngeal	Nasopharyngeal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Nuclear-test-reactor	Nuclear test reactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Mixed-parts	Mixed parts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Nephridia	Nephridia	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Geologic	Geologic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Acid-mine-drainage-material	Acid mine drainage material	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Mine-pit-pond	Mine pit pond	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Proctodeal-segment	Proctodeal segment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
 gold.vocab:ICU	ICU	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Athalassic	Athalassic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Undefined-media	Undefined media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Sulphur-Autotrophic-Denitrification	Sulphur Autotrophic Denitrification	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Oil-contaminated	Oil-contaminated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Enriched-plant-cells	Enriched plant cells	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Sclerotium	Sclerotium	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Gingival-crevice	Gingival crevice	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
 gold.vocab:Hospital-bedroom	Hospital bedroom	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Marine-media	Marine media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Caulosphere	Caulosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Aerobic-media	Aerobic media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:P1-segment	P1 segment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Reservoir-sediment-inoculum	Reservoir sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Reptilia	Reptilia	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Porifera	Porifera	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Petromyzon	Petromyzon	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Subtidal-zone	Subtidal zone	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Fermentation-pit	Fermentation pit	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Oil-refinery-sediment	Oil refinery sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Anaerobic-media	Anaerobic media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Ear-discharge	Ear discharge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Mycorrhiza	Mycorrhiza	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Fermentation-cellar	Fermentation cellar	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Garden-dump	Garden dump	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Aphids	Aphids	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Anaerobic-digestor	Anaerobic digestor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Feedstock	Feedstock	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Seed-radicle	Seed radicle	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Fungus-gallery	Fungus gallery	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Microbialites	Microbialites	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Wastewater-retentate	Wastewater retentate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Pit-mud	Pit mud	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Marine-sediment-inoculum	Marine sediment inoculum	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Pessonella	Pessonella	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Periodontal-pockets	Periodontal pockets	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Gowning-room	Gowning room	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Athalassic	Athalassic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Spacecraft-Assembly-Cleanrooms	Spacecraft Assembly Cleanrooms	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Decomposed	Decomposed	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
 gold.vocab:Subcuticular-space	Subcuticular space	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Platyhelminthes	Platyhelminthes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Organic-dairy-farm	Organic dairy farm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Symbiotic-fungal-gardens-and-galleries	Symbiotic fungal gardens and galleries	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
 gold.vocab:Continuous-culture	Continuous culture	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Doormat	Doormat	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Bread-production	Bread production	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Proctodeal-segment	Proctodeal segment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Mine-pit-pond	Mine pit pond	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Nuclear-test-reactor	Nuclear test reactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Geologic	Geologic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Vinegar	Vinegar	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ear-discharge	Ear discharge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Epibionts	Epibionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Undefined-media	Undefined media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Ctenophora	Ctenophora	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Oil-refinery	Oil refinery	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Alligator-nest	Alligator nest	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Crude-oil-sludge	Crude oil sludge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Nasopharyngeal	Nasopharyngeal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Chordata	Chordata	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Organic-dairy-farm	Organic dairy farm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Limnetic-zone	Limnetic zone	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Pipeline	Pipeline	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Lymphatic	Lymphatic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Fungus-garden	Fungus garden	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Mixed-liquor	Mixed liquor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Mangrove-sediment	Mangrove sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Crude-oil-sludge	Crude oil sludge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Baby-formula	Baby formula	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Biocathode	Biocathode	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Intracellular	Intracellular	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Nematoda	Nematoda	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Dairy-processing-facility	Dairy processing facility	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Invertebrates	Invertebrates	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:HeLa	HeLa	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Laboratory-developed	Laboratory developed	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Golden-Algae	Golden Algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Endosphere	Endosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Petrochemical	Petrochemical	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Genetically-modified	Genetically modified	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Bioremediation	Bioremediation	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Oomycetes	Oomycetes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Tropical-rainforest	Tropical rainforest	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Extracellular	Extracellular	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Desert-springs	Desert springs	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Ctenophora	Ctenophora	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Photobioreactor	Photobioreactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Protists	Protists	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Pulp-and-paper-wastewater	Pulp and paper wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Ectosymbionts	Ectosymbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Cave-water	Cave water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Chordata	Chordata	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Amniotic-sac	Amniotic sac	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Meat-products	Meat products	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Cyanobacterial-bloom	Cyanobacterial bloom	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Extracellular-symbionts	Extracellular symbionts	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Passive-bioreactor	Passive bioreactor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Alligator-nest	Alligator nest	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Produced-water	Produced water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Mine-water	Mine water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Mud-microcosm	Mud microcosm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Leaf-nodule	Leaf nodule	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Pipeline	Pipeline	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Marine-media	Marine media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Gowning-room	Gowning room	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Periodontal-pockets	Periodontal pockets	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Cell-Line	Cell Line	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Genetic-cross	Genetic cross	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:HeLa	HeLa	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Primary	Primary	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Cyanobacterial-bloom	Cyanobacterial bloom	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Marine-water	Marine water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Spacecraft-Assembly-Cleanrooms	Spacecraft Assembly Cleanrooms	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Engineered-product	Engineered product	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Feedstock	Feedstock	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Mangrove-soil	Mangrove soil	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Cheese	Cheese	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Fungus-gallery	Fungus gallery	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Tailings-pond-sludge	Tailings pond sludge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Air-scrubber	Air scrubber	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Agricultural-wastewater	Agricultural wastewater	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Spider	Spider	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Genetically-modified	Genetically modified	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Bacteriomes	Bacteriomes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Biocathode	Biocathode	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Golden-Algae	Golden Algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Laboratory-developed	Laboratory developed	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Oil-refinery-sediment	Oil refinery sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Subway	Subway	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Microbialites	Microbialites	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Settled-granule	Settled granule	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Garden-dump	Garden dump	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Industrial-production	Industrial production	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Dairy-farm	Dairy farm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Aerobic-media	Aerobic media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Delivery-networks	Delivery networks	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Human	Human	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Epiphytes	Epiphytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Spent-mushroom-substrate	Spent mushroom substrate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Coalbed-water	Coalbed water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Platyhelminthes	Platyhelminthes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Landfill-leachate	Landfill leachate	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Doormat	Doormat	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Chlorinated	Chlorinated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Endoperitrophic-space	Endoperitrophic space	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Tailings-pond-sludge	Tailings pond sludge	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Outdoor-Air	Outdoor Air	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Cheese	Cheese	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Bioanode	Bioanode	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Plankton	Plankton	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Macrophytes	Macrophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Mangrove-soil	Mangrove soil	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:River-plume	River plume	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Plants	Plants	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Uranium-contaminated	Uranium contaminated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
 gold.vocab:Carposphere	Carposphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Food-production	Food production	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Protozoa	Protozoa	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Fermentation-cellar	Fermentation cellar	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Unclassified	Unclassified	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Fungus-garden	Fungus garden	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Beetle	Beetle	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Lab-enrichment	Lab enrichment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
-gold.vocab:Porifera	Porifera	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Yellow-green-algae	Yellow-green algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Filtered-water	Filtered water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
-gold.vocab:Train-car	Train car	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
 gold.vocab:Gastric-biopsy	Gastric biopsy	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Amoebozoa	Amoebozoa	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Lymphatic	Lymphatic	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
-gold.vocab:Anaerobic-media	Anaerobic media	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Laryngopharyngeal	Laryngopharyngeal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:P3-segment	P3 segment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Aquaculture	Aquaculture	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Dairy-farm	Dairy farm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Shipwreck	Shipwreck	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Settled-granule	Settled granule	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Bacteria	Bacteria	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Built-environment	Built environment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Breviatea	Breviatea	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Marine-basin-floor	Marine basin floor	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:River-biofilm	River biofilm	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Ice-accretions	Ice accretions	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Filtered-water	Filtered water	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
+gold.vocab:Sand-filter	Sand filter	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Tetrachloroethylene-and-derivatives	Tetrachloroethylene and derivatives	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Contaminated	Contaminated	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Environmental	.	.	.	no match found
 gold.vocab:Soft-tissue	Soft tissue	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Mycelium	Mycelium	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Biological-phosphorus-removal	Biological phosphorus removal	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Oil-contaminated-sediment	Oil-contaminated sediment	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Yellow-green-algae	Yellow-green algae	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Genetic-cross	Genetic cross	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Endophytes	Endophytes	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Vermicompost	Vermicompost	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Engineered	.	.	.	no match found
+gold.vocab:Cell-Line	Cell Line	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
+gold.vocab:Phyllosphere	Phyllosphere	noMatch	:NO_MATCH	.	Lexical	gold.vocab	-	rdf_matcher	0.5	.	.	gold.path:Host-associated	.	.	.	no match found
