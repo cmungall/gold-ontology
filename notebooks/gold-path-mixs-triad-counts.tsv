@@ -1,0 +1,1187 @@
+	ECOSYSTEM	ECOSYSTEM_CATEGORY	ECOSYSTEM_TYPE	ECOSYSTEM_SUBTYPE	SPECIFIC_ECOSYSTEM	ENV_BROAD_SCALE_LABEL	ENV_LOCAL_SCALE_LABEL	ENV_MEDIUM_LABEL	ENV_BROAD_SCALE	ENV_LOCAL_SCALE	ENV_MEDIUM	COUNT
+0	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	2754
+1	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	1496
+2	Environmental	Air	Outdoor Air	Unclassified	Unclassified		atmospheric layer	air		ENVO_01000543	ENVO_00002005	1117
+3	Environmental	Aquatic	Marine	Inlet	Unclassified	marine biome	coastal inlet	sea water	ENVO_00000447	ENVO_00000137	ENVO_00002149	1104
+4	Environmental	Aquatic	Marine	Epipelagic	Unclassified	oceanic epipelagic zone biome		sea water	ENVO_01000035		ENVO_00002149	1016
+5	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	lake water	ENVO_01000252	ENVO_00000021	ENVO_04000007	785
+6	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	coastal water body	coastal sea water	ENVO_00000447	ENVO_02000049	ENVO_00002150	677
+7	Environmental	Aquatic	Freshwater	River	Unclassified	freshwater river biome	river	river water	ENVO_01000253	ENVO_00000022	ENVO_01000599	644
+8	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	612
+9	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	peatland	peat soil	ENVO_00000446	ENVO_00000044	ENVO_00005774	512
+10	Environmental	Terrestrial	Plant litter	Unclassified	Unclassified	grassland biome	litter layer	plant litter	ENVO_01000177	ENVO_01000338	ENVO_01000628	505
+11	Environmental	Aquatic	Freshwater	Lake	Unclassified							426
+12	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	pedosphere	soil	ENVO_00000446	ENVO_01000820	ENVO_00001998	368
+13	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	freshwater lake	lake sediment	ENVO_01000252	ENVO_00000021	ENVO_00000546	311
+14	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	forest floor	forest soil	ENVO_01000174	ENVO_01001582	ENVO_00002261	310
+15	Environmental	Aquatic	Freshwater	Ice	Glacial lake	freshwater lake biome	ice-covered lake	microbial mat	ENVO_01000252	ENVO_00000198	ENVO_01000008	306
+16	Environmental	Terrestrial	Soil	Unclassified	Unclassified							273
+17	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	deep chlorophyll maximum layer	sea water	ENVO_00000447	ENVO_01000326	ENVO_00002149	255
+18	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Microbial mats	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	243
+19	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome		liquid water	ENVO_00002030		ENVO_00002006	232
+20	Environmental	Aquatic	Marine	Hydrothermal vents	Diffuse flow	marine hydrothermal vent biome	marine hydrothermal vent	hydrothermal fluid	ENVO_01000030	ENVO_01000122	ENVO_01000134	229
+21	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	subpolar coniferous forest biome	solid layer	forest soil	ENVO_01000250	ENVO_01001275	ENVO_00002261	212
+22	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline lake	saline water	ENVO_00002030	ENVO_00000019	ENVO_00002010	191
+23	Environmental	Aquatic	Marine	Harbor	Unclassified	marine biome	harbor	sea water	ENVO_00000447	ENVO_00000463	ENVO_00002149	186
+24	Environmental	Aquatic	Marine	Intertidal zone	Estuary	estuarine biome	estuary	estuarine water	ENVO_01000020	ENVO_00000045	ENVO_01000301	182
+25	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater lake biome	freshwater lake	lake sediment	ENVO_01000252	ENVO_00000021	ENVO_00000546	180
+26	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	lake	lake sediment	ENVO_01000252	ENVO_00000020	ENVO_00000546	173
+27	Environmental	Aquatic	Freshwater	Lake	Epilimnion	freshwater lake biome	epilimnion	lake water	ENVO_01000252	ENVO_00002131	ENVO_04000007	167
+28	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	165
+29	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	coastal inlet	sea water	ENVO_00000447	ENVO_00000137	ENVO_00002149	163
+30	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	land	forest soil	ENVO_01000174	ENVO_01001785	ENVO_00002261	155
+31	Environmental	Aquatic	Marine	Pelagic	Unclassified	marine biome	marine pelagic zone	sea water	ENVO_00000447	ENVO_00000208	ENVO_00002149	152
+32	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	wetland area	soil	ENVO_00000446	ENVO_00000043	ENVO_00001998	152
+33	Environmental	Terrestrial	Soil	Unclassified	Grasslands	grassland biome	biosphere reserve	grassland soil	ENVO_01000177	ENVO_00000376	ENVO_00005750	151
+34	Environmental	Terrestrial	Floodplain	Soil	Unclassified	terrestrial biome	flood plain	soil	ENVO_00000446	ENVO_00000255	ENVO_00001998	144
+35	Environmental	Aquatic	Marine	Intertidal zone	Coral reef	marine coral reef biome	coral reef	sea water	ENVO_01000049	ENVO_00000150	ENVO_00002149	142
+36	Environmental	Terrestrial	Soil	Unclassified	Grasslands							138
+37	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	136
+38	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	127
+39	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine salt marsh biome	saline marsh		ENVO_01000022	ENVO_00000054		126
+40	Environmental	Terrestrial	Peat	Unclassified	Unclassified	forest biome	peatland	peat soil	ENVO_01000174	ENVO_00000044	ENVO_00005774	126
+41	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	research facility	soil	ENVO_00000446	ENVO_00000469	ENVO_00001998	120
+42	Environmental	Aquatic	Marine	Coastal	Sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	117
+43	Environmental	Air	Indoor Air	Dust	Unclassified	anthropogenic terrestrial biome	sports facility	dust	ENVO_01000219	ENVO_00000565	ENVO_00002008	116
+44	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	agricultural field	bulk soil	ENVO_00000446	ENVO_00000114	ENVO_00005802	115
+45	Environmental	Aquatic	Freshwater	Wetlands	Soil	estuarine biome	wetland area	soil	ENVO_01000020	ENVO_00000043	ENVO_00001998	112
+46	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	oceanic gyre	sea water	ENVO_00000447	ENVO_01000074	ENVO_00002149	111
+47	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Unclassified	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		111
+48	Environmental	Terrestrial	Soil	Fossil	Unclassified	terrestrial biome	archeological site	fossil	ENVO_00000446	ENVO_00000564	ENVO_00002164	111
+49	Environmental	Aquatic	Marine	Hypoxic zone	Unclassified	marine biome	marine oxygen minimum zone	sea water	ENVO_00000447	ENVO_01000065	ENVO_00002149	110
+50	Environmental	Aquatic	Freshwater	River	Unclassified							109
+51	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	temperate coniferous forest biome	soil surface layer	forest soil	ENVO_01000211	ENVO_04000010	ENVO_00002261	109
+52	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	plateau	soil	ENVO_00000446	ENVO_00000182	ENVO_00001998	109
+53	Environmental	Aquatic	Freshwater	Pond	Sediment	freshwater biome	pond		ENVO_00000873	ENVO_00000033		108
+54	Environmental	Aquatic	Freshwater	River	Unclassified	freshwater river biome			ENVO_01000253			108
+55	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	tropical	forest soil	ENVO_01000174	ENVO_01000204	ENVO_00002261	105
+56	Environmental	Terrestrial	Soil	Loam	Forest soil	forest biome	land	forest soil	ENVO_01000174	ENVO_01001785	ENVO_00002261	103
+57	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	solid layer	forest soil	ENVO_01000174	ENVO_01001275	ENVO_00002261	102
+58	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine water body	surface water	ENVO_00000447	ENVO_00001999	ENVO_00002042	99
+59	Environmental	Terrestrial	Geologic	Sediment	Unclassified	terrestrial biome	archeological site	sediment	ENVO_00000446	ENVO_00000564	ENVO_00002007	99
+60	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	soil surface layer	forest soil	ENVO_01000174	ENVO_04000010	ENVO_00002261	98
+61	Environmental	Aquatic	Marine	Intertidal zone	Estuary	estuarine biome	estuary		ENVO_01000020	ENVO_00000045		94
+62	Environmental	Terrestrial	Soil	Loam	Forest soil	forest biome	tropical forest	forest soil	ENVO_01000174	ENVO_01001803	ENVO_00002261	94
+63	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	watershed	soil	ENVO_00000446	ENVO_00000292	ENVO_00001998	93
+64	Environmental	Aquatic	Marine	Seaweed	Unclassified	marine biome	marine water body	organism	ENVO_00000447	ENVO_00001999	OBI_0100026	90
+65	Environmental	Aquatic	Thermal springs	Unclassified	Unclassified	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		90
+66	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline lake	lake water	ENVO_00002030	ENVO_00000019	ENVO_04000007	89
+67	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent	hydrothermal fluid	ENVO_01000030	ENVO_01000122	ENVO_01000134	88
+68	Environmental	Aquatic	Marine	Mesopelagic	Unclassified	oceanic mesopelagic zone biome	marine mesopelagic zone	sea water	ENVO_01000036	ENVO_00000213	ENVO_00002149	88
+69	Environmental	Aquatic	Marine	Wetlands	Unclassified	marine biome	coastal wetland ecosystem		ENVO_00000447	ENVO_00000230		87
+70	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine salt marsh biome	saline marsh	sediment	ENVO_01000022	ENVO_00000054	ENVO_00002007	85
+71	Host-associated	Plants	Roots	Rhizosphere	Soil	terrestrial biome	rhizosphere	peat soil	ENVO_00000446	ENVO_00005801	ENVO_00005774	85
+72	Environmental	Aquatic	Freshwater	River	Sediment	freshwater river biome	river		ENVO_01000253	ENVO_00000022		84
+73	Environmental	Aquatic	Marine	Oceanic	Sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	84
+74	Environmental	Aquatic	Marine	Wetlands	Sediment	marine biome	coastal wetland ecosystem	sediment	ENVO_00000447	ENVO_00000230	ENVO_00002007	80
+75	Environmental	Terrestrial	Soil	Unclassified	Grasslands	grassland biome	land	grassland soil	ENVO_01000177	ENVO_01001785	ENVO_00005750	80
+76	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome		soil	ENVO_00000446		ENVO_00001998	80
+77	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	river bank	soil	ENVO_00000446	ENVO_00000143	ENVO_00001998	80
+78	Environmental	Aquatic	Freshwater	Creek	Unclassified	freshwater biome	bayou	fresh water	ENVO_00000873	ENVO_00000234	ENVO_00002011	79
+79	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	fen	permafrost	ENVO_00000446	ENVO_00000232	ENVO_00000134	78
+80	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	needleleaf forest	forest soil	ENVO_01000174	ENVO_01000433	ENVO_00002261	78
+81	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	mesocosm	greenhouse soil	ENVO_00000446	ENVO_01000620	ENVO_00005780	77
+82	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	polar	permafrost	ENVO_00000446	ENVO_01000238	ENVO_00000134	76
+83	Environmental	Aquatic	Marine	Oceanic	Photic zone	marine biome	marine photic zone	sea water	ENVO_00000447	ENVO_00000209	ENVO_00002149	75
+84	Environmental	Aquatic	Freshwater	Lake	Hypolimnion	freshwater lake biome	hypolimnion	lake water	ENVO_01000252	ENVO_00002130	ENVO_04000007	74
+85	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine water body	planktonic material	ENVO_00000447	ENVO_00001999	ENVO_01000063	74
+86	Environmental	Terrestrial	Soil	Loam	Forest soil	forest biome	solid layer	forest soil	ENVO_01000174	ENVO_01001275	ENVO_00002261	74
+87	Environmental	Terrestrial	Soil	Unclassified	Unclassified	grassland biome	biosphere reserve	grassland soil	ENVO_01000177	ENVO_00000376	ENVO_00005750	74
+88	Environmental	Terrestrial	Soil	Unclassified	Forest Soil							73
+89	Environmental	Aquatic	Marine	Unclassified	Unclassified	oceanic mesopelagic zone biome	marine mesopelagic zone	sea water	ENVO_01000036	ENVO_00000213	ENVO_00002149	72
+90	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	intertidal zone	sea water	ENVO_00000447	ENVO_00000316	ENVO_00002149	70
+91	Environmental	Aquatic	Marine	Sediment	Unclassified	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	69
+92	Environmental	Terrestrial	Soil	Sand	Desert	polar desert biome	desert	desert sand	ENVO_01000186	ENVO_01001357	ENVO_00005800	69
+93	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	vadose zone	soil	ENVO_00000446	ENVO_00000328	ENVO_00001998	68
+94	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	watershed	fresh water	ENVO_00000873	ENVO_00000292	ENVO_00002011	67
+95	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	river	sea water	ENVO_00000447	ENVO_00000022	ENVO_00002149	67
+96	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	blanket bog	permafrost	ENVO_00000446	ENVO_00000511	ENVO_00000134	65
+97	Environmental	Terrestrial	Soil	Glacier	Unclassified	terrestrial biome	glacial feature	soil	ENVO_00000446	ENVO_00000131	ENVO_00001998	65
+98	Environmental	Aquatic	Marine	Strait	Unclassified	marine biome	ocean strait	sea water	ENVO_00000447	ENVO_01000651	ENVO_00002149	64
+99	Environmental	Terrestrial	Geologic	Sediment	Unclassified	polar desert biome	desert	sediment	ENVO_01000186	ENVO_01001357	ENVO_00002007	64
+100	Environmental	Aquatic	Marine	Oceanic	Abyssal plane	oceanic abyssopelagic zone biome	marine benthic feature	sea water	ENVO_01000038	ENVO_01000105	ENVO_00002149	63
+101	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	solid layer	soil	ENVO_00000446	ENVO_01001275	ENVO_00001998	63
+102	Environmental	Terrestrial	Soil	Unclassified	Grasslands	tropical grassland biome	solid layer	grassland soil	ENVO_01000192	ENVO_01001275	ENVO_00005750	62
+103	Environmental	Air	Indoor Air	Unclassified	Unclassified		hospital	air		ENVO_00002173	ENVO_00002005	61
+104	Environmental	Aquatic	Freshwater	Ice	Glacier	aquatic biome	glacier ice field	ice	ENVO_00002030	ENVO_01001532	ENVO_01001125	61
+105	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	planktonic material	ENVO_01000252	ENVO_00000021	ENVO_01000063	61
+106	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	aquifer	groundwater	ENVO_00000873	ENVO_00012408	ENVO_01001004	60
+107	Environmental	Aquatic	Marine	Oceanic	Sediment	marine benthic biome	marine benthic feature	deep marine sediment	ENVO_01000024	ENVO_01000105	ENVO_00002113	60
+108	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	biosphere reserve	meadow soil	ENVO_00000446	ENVO_00000376	ENVO_00005761	60
+109	Environmental	Aquatic	Freshwater	Pond	Unclassified	aquatic biome	microcosm	fresh water	ENVO_00002030	ENVO_01000621	ENVO_00002011	59
+110	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	palsa	permafrost	ENVO_00000446	ENVO_00000489	ENVO_00000134	59
+111	Environmental	Terrestrial	Rock-dwelling (endoliths)	Unclassified	Unclassified	terrestrial biome	endolithic environment	rock	ENVO_00000446	ENVO_01000303	ENVO_00001995	59
+112	Environmental	Aquatic	Freshwater	Lake	Cyanobacterial bloom	freshwater lake biome		Cyanobacteria	ENVO_01000252		NCBITaxon_1117	58
+113	Environmental	Aquatic	Marine	Wetlands	Sediment	marine biome	saline wetland	sediment	ENVO_00000447	ENVO_00000240	ENVO_00002007	58
+114	Environmental	Terrestrial	Soil	Unclassified	Permafrost	polar biome	polar	peat soil	ENVO_01000339	ENVO_01000238	ENVO_00005774	57
+115	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater lake biome	freshwater lake	lake water	ENVO_01000252	ENVO_00000021	ENVO_04000007	56
+116	Environmental	Aquatic	Marine	Fjord	Unclassified	marine biome	fjord	sea water	ENVO_00000447	ENVO_00000039	ENVO_00002149	56
+117	Environmental	Aquatic	Marine	Oceanic	Aphotic zone	marine biome	marine aphotic zone	sea water	ENVO_00000447	ENVO_00000210	ENVO_00002149	56
+118	Environmental	Terrestrial	Plant litter	Unclassified	Unclassified	terrestrial biome	agricultural field	plant litter	ENVO_00000446	ENVO_00000114	ENVO_01000628	56
+119	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine salt marsh biome	intertidal zone	sediment	ENVO_01000022	ENVO_00000316	ENVO_00002007	55
+120	Environmental	Terrestrial	Oil reservoir	Unclassified	Unclassified	terrestrial biome	oil well	oil	ENVO_00000446	ENVO_01000003	ENVO_00002985	55
+121	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	hypersaline lake	lake water	ENVO_00002030	ENVO_01001020	ENVO_04000007	54
+122	Environmental	Aquatic	Freshwater	Wetlands	Sediment	aquatic biome	wetland area	sediment	ENVO_00002030	ENVO_00000043	ENVO_00002007	53
+123	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Sediment	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	53
+124	Environmental	Terrestrial	Plant litter	Unclassified	Unclassified	forest biome	litter layer	plant litter	ENVO_01000174	ENVO_01000338	ENVO_01000628	53
+125	Host-associated	Plants	Roots	Bulk soil	Unclassified	terrestrial biome	rhizosphere	bulk soil	ENVO_00000446	ENVO_00005801	ENVO_00005802	53
+126	Host-associated	Plants	Roots	Rhizosphere	Soil	terrestrial biome	rhizosphere	soil	ENVO_00000446	ENVO_00005801	ENVO_00001998	53
+127	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome	beach	beach sand	ENVO_00000446	ENVO_00000091	ENVO_00002138	52
+128	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome	river	sand	ENVO_00000446	ENVO_00000022	ENVO_01000017	50
+129	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	active permafrost layer	permafrost	ENVO_00000446	ENVO_04000009	ENVO_00000134	50
+130	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	surface water	ENVO_00000447	ENVO_00001999	ENVO_00002042	49
+131	Environmental	Terrestrial	Soil	Wetlands	Unclassified	tropical biome	peatland	peat soil	ENVO_01001830	ENVO_00000044	ENVO_00005774	49
+132	Environmental	Aquatic	Aquaculture	Shrimp pond	Unclassified	aquatic biome	shrimp pond	pond water	ENVO_00002030	ENVO_01000905	ENVO_00002228	48
+133	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	marine hydrothermal vent	sediment	ENVO_01000030	ENVO_01000122	ENVO_00002007	48
+134	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Sediment							48
+135	Environmental	Terrestrial	Soil	Unclassified	Orchard soil	terrestrial biome	orchard	orchard soil	ENVO_00000446	ENVO_00000115	ENVO_00005772	48
+136	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	lake	saline water	ENVO_00002030	ENVO_00000020	ENVO_00002010	47
+137	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	aquifer	sediment	ENVO_00002030	ENVO_00012408	ENVO_00002007	47
+138	Environmental	Terrestrial	Soil	Sand	Desert	desert biome	desert	soil	ENVO_01000179	ENVO_01001357	ENVO_00001998	47
+139	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	temperate broadleaf forest biome	temperate deciduous broadleaf forest	forest soil	ENVO_01000202	ENVO_01000385	ENVO_00002261	46
+140	Environmental	Aquatic	Freshwater	Pond	Unclassified	aquatic biome		pond water	ENVO_00002030		ENVO_00002228	45
+141	Environmental	Aquatic	Freshwater	Wetlands	Bog	freshwater biome	peatland	peat soil	ENVO_00000873	ENVO_00000044	ENVO_00005774	45
+142	Environmental	Terrestrial	Soil	Soil crust	Unclassified	desert biome	desert	soil biocrust	ENVO_01000179	ENVO_01001357	ENVO_01000910	45
+143	Environmental	Terrestrial	Soil	Unclassified	Unclassified	polar biome	polar	soil	ENVO_01000339	ENVO_01000238	ENVO_00001998	45
+144	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome		groundwater	ENVO_00000873		ENVO_01001004	44
+145	Environmental	Terrestrial	Soil	Unclassified	Grasslands	terrestrial biome	prairie	soil	ENVO_00000446	ENVO_00000260	ENVO_00001998	44
+146	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	polar	forest soil	ENVO_01000174	ENVO_01000238	ENVO_00002261	43
+147	Environmental	Aquatic	Marine	Hydrothermal vents	Microbial mats	marine hydrothermal vent biome	marine hydrothermal vent	microbial mat	ENVO_01000030	ENVO_01000122	ENVO_01000008	41
+148	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	planktonic material	ENVO_00000447	ENVO_00001999	ENVO_01000063	41
+149	Environmental	Terrestrial	Soil	Loam	Grasslands	grassland biome	land	fertilized soil	ENVO_01000177	ENVO_01001785	ENVO_00005754	41
+150	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	oligotrophic lake	lake water	ENVO_01000252	ENVO_01000774	ENVO_04000007	40
+151	Environmental	Aquatic	Freshwater	Wetlands	Bog	freshwater biome	blanket bog	peat soil	ENVO_00000873	ENVO_00000511	ENVO_00005774	40
+152	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	bay	sea water	ENVO_00000447	ENVO_00000032	ENVO_00002149	40
+153	Environmental	Terrestrial	Soil	Unclassified	Uranium contaminated	aquatic biome	flood plain	sediment	ENVO_00002030	ENVO_00000255	ENVO_00002007	40
+154	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	beach	liquid water	ENVO_00002030	ENVO_00000091	ENVO_00002006	39
+155	Environmental	Terrestrial	Soil	Unclassified	Unclassified	anthropogenic terrestrial biome	anthropogenic geographic feature	soil	ENVO_01000219	ENVO_00000002	ENVO_00001998	39
+156	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	freshwater biome	peatland	peat soil	ENVO_00000873	ENVO_00000044	ENVO_00005774	38
+157	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	river	fresh water	ENVO_00002030	ENVO_00000022	ENVO_00002011	38
+158	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	plain	soil	ENVO_00000446	ENVO_00000086	ENVO_00001998	38
+159	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	rhizosphere	soil	ENVO_00000446	ENVO_00005801	ENVO_00001998	38
+160	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	planetary subsurface zone	groundwater	ENVO_00000873	ENVO_01000941	ENVO_01001004	37
+161	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater river biome	river		ENVO_01000253	ENVO_00000022		37
+162	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater biome	pond	sediment	ENVO_00000873	ENVO_00000033	ENVO_00002007	36
+163	Environmental	Terrestrial	Floodplain	Sediment	Unclassified							36
+164	Environmental	Terrestrial	Soil	Unclassified	Oil-contaminated	terrestrial biome	land	oil contaminated soil	ENVO_00000446	ENVO_01001785	ENVO_00002875	35
+165	Environmental	Aquatic	Freshwater	Ice	Cryoconite	aquatic biome	cryoconite hole	cryoconite deposit	ENVO_00002030	ENVO_03000039	ENVO_03000038	34
+166	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	eutrophic lake	lake water	ENVO_01000252	ENVO_01000548	ENVO_04000007	34
+167	Environmental	Terrestrial	Nest	Alligator nest	Unclassified	terrestrial biome	animal habitation		ENVO_00000446	ENVO_00005803		34
+168	Environmental	Aquatic	Freshwater	Groundwater	Coalbed water	aquatic biome	coal mine	underground water	ENVO_00002030	ENVO_00002169	ENVO_00005792	33
+169	Environmental	Terrestrial	Agricultural field	Unclassified	Unclassified	terrestrial biome	paddy field	paddy field soil	ENVO_00000446	ENVO_00000297	ENVO_00005740	33
+170	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	paddy field	paddy field soil	ENVO_00000446	ENVO_00000297	ENVO_00005740	33
+171	Environmental	Aquatic	Marine	Intertidal zone	Coral reef	marine coral reef biome	coral reef	organism	ENVO_01000049	ENVO_00000150	OBI_0100026	32
+172	Environmental	Aquatic	Marine	Oceanic	Crustal Fluids	marine biome	marine water body		ENVO_00000447	ENVO_00001999		32
+173	Environmental	Aquatic	Freshwater	Ice	Unclassified	polar desert biome	desert	desert sand	ENVO_01000186	ENVO_01001357	ENVO_00005800	31
+174	Environmental	Terrestrial	Soil	Clay	Grasslands	grassland biome	land	bulk soil	ENVO_01000177	ENVO_01001785	ENVO_00005802	31
+175	Environmental	Air	Outdoor Air	Unclassified	Unclassified		troposphere	air		ENVO_01000540	ENVO_00002005	30
+176	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater biome	waterhole	fresh water	ENVO_00000873	ENVO_00000547	ENVO_00002011	30
+177	Environmental	Aquatic	Freshwater	Wetlands	Sediment	aquatic biome	island	sediment	ENVO_00002030	ENVO_00000098	ENVO_00002007	30
+178	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine biome	lagoon	microbial mat	ENVO_00000447	ENVO_00000038	ENVO_01000008	30
+179	Environmental	Terrestrial	Soil	Loam	Agricultural soil	terrestrial biome	agricultural field	bulk soil	ENVO_00000446	ENVO_00000114	ENVO_00005802	30
+180	Environmental	Terrestrial	Soil	Unclassified	Agricultural	cropland biome	area of cropland	agricultural soil	ENVO_01000245	ENVO_01000892	ENVO_00002259	30
+181	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	agricultural field	arable soil	ENVO_00000446	ENVO_00000114	ENVO_00005742	30
+182	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	fen	peat soil	ENVO_00000446	ENVO_00000232	ENVO_00005774	30
+183	Host-associated	Plants	Rhizosphere	Soil	Unclassified	terrestrial biome	rhizosphere	peat soil	ENVO_00000446	ENVO_00005801	ENVO_00005774	30
+184	Environmental	Aquatic	Freshwater	Wetlands	Sediment	freshwater biome	wetland area	sediment	ENVO_00000873	ENVO_00000043	ENVO_00002007	29
+185	Environmental	Aquatic	Marine	Bathypelagic	Unclassified	oceanic bathypelagic zone biome	marine bathypelagic zone	sea water	ENVO_01000037	ENVO_00000211	ENVO_00002149	29
+186	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	rock	ENVO_00000446	ENVO_01000941	ENVO_00001995	29
+187	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	hydrocarbon	ENVO_00000446	ENVO_01000941	CHEBI_24632	29
+188	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	aquatic biome		contaminated water	ENVO_00002030		ENVO_00002186	28
+189	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	freshwater biome		groundwater	ENVO_00000873		ENVO_01001004	28
+190	Environmental	Terrestrial	Soil	Soil crust	Unclassified	terrestrial biome	land	soil biocrust	ENVO_00000446	ENVO_01001785	ENVO_01000910	28
+191	Environmental	Terrestrial	Soil	Unclassified	Unclassified	freshwater river biome	river	sediment	ENVO_01000253	ENVO_00000022	ENVO_00002007	28
+192	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	active permafrost layer	permafrost	ENVO_00000446	ENVO_04000009	ENVO_00000134	28
+193	Environmental	Aquatic	Freshwater	Lake	Anoxic zone	freshwater lake biome	freshwater lake	anoxic water	ENVO_01000252	ENVO_00000021	ENVO_01000173	27
+194	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome		saline water	ENVO_00002030		ENVO_00002010	27
+195	Environmental	Terrestrial	Rock-dwelling (endoliths)	Unclassified	Unclassified	desert biome	endolithic environment		ENVO_01000179	ENVO_01000303		27
+196	Environmental	Terrestrial	Soil	Sand	Desert	terrestrial biome	plateau	soil	ENVO_00000446	ENVO_00000182	ENVO_00001998	27
+197	Environmental	Terrestrial	Soil	Unclassified	Desert	desert biome	desert	soil	ENVO_01000179	ENVO_01001357	ENVO_00001998	27
+198	Environmental	Aquatic	Freshwater	Tap water	Unclassified	freshwater biome		tap water	ENVO_00000873		ENVO_00003096	26
+199	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal plume	hydrothermal fluid	ENVO_01000030	ENVO_01000130	ENVO_01000134	26
+200	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	marine water body	planktonic material	ENVO_00000447	ENVO_00001999	ENVO_01000063	26
+201	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	hypersaline lake	hypersaline water	ENVO_00002030	ENVO_01001020	ENVO_00002012	26
+202	Environmental	Terrestrial	Agricultural field	Paddy soil	Unclassified	terrestrial biome	paddy field	paddy field soil	ENVO_00000446	ENVO_00000297	ENVO_00005740	26
+203	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	fracking liquid	ENVO_00000446	ENVO_01000941	ENVO_01001869	26
+204	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	microcosm	soil	ENVO_00000446	ENVO_01000621	ENVO_00001998	26
+205	Host-associated	Plants	Rhizosphere	Soil	Unclassified	terrestrial biome	rhizosphere	soil	ENVO_00000446	ENVO_00005801	ENVO_00001998	26
+206	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	sinkhole	microbial mat	ENVO_01000252	ENVO_00000195	ENVO_01000008	25
+207	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	coastal inlet	sea water	ENVO_00000447	ENVO_00000137	ENVO_00002149	25
+208	Environmental	Terrestrial	Plant litter	Unclassified	Unclassified	terrestrial biome	valley	plant litter	ENVO_00000446	ENVO_00000100	ENVO_01000628	25
+209	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	valley	bulk soil	ENVO_00000446	ENVO_00000100	ENVO_00005802	25
+210	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	palsa	permafrost	ENVO_00000446	ENVO_00000489	ENVO_00000134	25
+211	Environmental	Aquatic	Floodplain	Sediment	Unclassified	freshwater biome	flood plain	sediment	ENVO_00000873	ENVO_00000255	ENVO_00002007	24
+212	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	humic lake	lake water	ENVO_01000252	ENVO_01001021	ENVO_04000007	24
+213	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	estuary	coastal sea water	ENVO_00000447	ENVO_00000045	ENVO_00002150	24
+214	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	marine biome		limestone	ENVO_00000447		ENVO_00002053	24
+215	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	pond	pond water	ENVO_00002030	ENVO_00000033	ENVO_00002228	24
+216	Environmental	Terrestrial	Rock-dwelling (endoliths)	Unclassified	Unclassified	desert biome	endolithic environment	rock	ENVO_01000179	ENVO_01000303	ENVO_00001995	24
+217	Environmental	Terrestrial	Soil	Unclassified	Desert	desert biome	desert	soil biocrust	ENVO_01000179	ENVO_01001357	ENVO_01000910	24
+218	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	coniferous forest biome	land	forest soil	ENVO_01000196	ENVO_01001785	ENVO_00002261	24
+219	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	solid layer	heat stressed soil	ENVO_01000174	ENVO_01001275	ENVO_00005781	24
+220	Environmental	Terrestrial	Soil	Unclassified	Grasslands	terrestrial biome	prairie	bulk soil	ENVO_00000446	ENVO_00000260	ENVO_00005802	24
+221	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	biofilm	ENVO_00000446	ENVO_01001785	ENVO_00002034	24
+222	Environmental	Terrestrial	Soil	Unclassified	Unclassified	tundra biome	tundra	soil	ENVO_01000180	ENVO_00000112	ENVO_00001998	24
+223	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater biome		drinking water	ENVO_00000873		ENVO_00003064	23
+224	Environmental	Aquatic	Freshwater	Groundwater	Acid Mine Drainage	aquatic biome	acid mine drainage	acidic water	ENVO_00002030	ENVO_00001997	ENVO_01000358	23
+225	Environmental	Aquatic	Freshwater	Groundwater	Acid Mine Drainage	aquatic biome	acid mine drainage	biofilm	ENVO_00002030	ENVO_00001997	ENVO_00002034	23
+226	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine biome	intertidal zone	marine sediment	ENVO_00000447	ENVO_00000316	ENVO_03000033	23
+227	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	coastal water body	coastal sea water	ENVO_00000447	ENVO_02000049	ENVO_00002150	23
+228	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	oil shale	ENVO_00000446	ENVO_01000941	ENVO_02000119	23
+229	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	shale	ENVO_00000446	ENVO_01000941	ENVO_00002056	23
+230	Environmental	Terrestrial	Soil	Unclassified	Grasslands	grassland biome	soil surface layer	grassland soil	ENVO_01000177	ENVO_04000010	ENVO_00005750	23
+231	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	glacial lake	lake water	ENVO_01000252	ENVO_00000488	ENVO_04000007	22
+232	Environmental	Aquatic	Freshwater	Wetlands	Sediment	freshwater river biome	freshwater marsh	sediment	ENVO_01000253	ENVO_00000053	ENVO_00002007	22
+233	Environmental	Aquatic	Marine	River plume	Plankton	marine biome	plume front	planktonic material	ENVO_00000447	ENVO_01000085	ENVO_01000063	22
+234	Environmental	Terrestrial	Soil	Loam	Forest soil	forest biome	land	fertilized soil	ENVO_01000174	ENVO_01001785	ENVO_00005754	22
+235	Environmental	Aquatic	Freshwater	Drinking water	Delivery networks	freshwater biome		drinking water	ENVO_00000873		ENVO_00003064	21
+236	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome			ENVO_00000873			21
+237	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	lagoon	sea water	ENVO_00000447	ENVO_00000038	ENVO_00002149	21
+238	Environmental	Aquatic	Marine	Cold seeps	Sediment	marine cold seep biome	cold seep	marine sediment	ENVO_01000127	ENVO_01000263	ENVO_03000033	21
+239	Environmental	Terrestrial	Soil	Loam	Forest soil	coniferous forest biome	land	spruce forest soil	ENVO_01000196	ENVO_01001785	ENVO_00005784	21
+240	Environmental	Terrestrial	Soil	Loam	Unclassified	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	21
+241	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	organic feature	forest soil	ENVO_01000174	ENVO_01000159	ENVO_00002261	21
+242	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	organic feature	heat stressed soil	ENVO_01000174	ENVO_01000159	ENVO_00005781	21
+243	Environmental	Terrestrial	Soil	Unclassified	Tropical rainforest	forest biome	tropical forest	forest soil	ENVO_01000174	ENVO_01001803	ENVO_00002261	21
+244	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	hill	soil	ENVO_00000446	ENVO_00000083	ENVO_00001998	21
+245	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	university campus	soil	ENVO_00000446	ENVO_00000467	ENVO_00001998	21
+246	Environmental	Aquatic	Marine	Hydrothermal vents	Black smokers	marine black smoker biome	black smoker	sea water	ENVO_01000051	ENVO_00000218	ENVO_00002149	20
+247	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	marine neritic zone	sea water	ENVO_00000447	ENVO_00000206	ENVO_00002149	20
+248	Environmental	Aquatic	Marine	Oceanic	Sediment	marine biome	sea grass bed	marine sediment	ENVO_00000447	ENVO_01000059	ENVO_03000033	20
+249	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine water body	piece of plastic	ENVO_00000447	ENVO_00001999	ENVO_01000776	20
+250	Environmental	Aquatic	Marine	Sediment	Unclassified	marine biome	bay	sediment	ENVO_00000447	ENVO_00000032	ENVO_00002007	20
+251	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	bay	sea water	ENVO_00000447	ENVO_00000032	ENVO_00002149	20
+252	Environmental	Aquatic	Marine	Wetlands	Sediment	aquatic biome	canal	sediment	ENVO_00002030	ENVO_00000014	ENVO_00002007	20
+253	Environmental	Aquatic	Thermal springs	Warm (34-42C)	Neutral	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		20
+254	Environmental	Terrestrial	Soil	Unclassified	Unclassified	aquatic biome	river	soil	ENVO_00002030	ENVO_00000022	ENVO_00001998	20
+255	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	farm	bulk soil	ENVO_00000446	ENVO_00000078	ENVO_00005802	20
+256	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	farm	farm soil	ENVO_00000446	ENVO_00000078	ENVO_00005749	20
+257	Environmental	Aquatic	Aquaculture	Unclassified	Unclassified	aquatic biome			ENVO_00002030			19
+258	Environmental	Aquatic	Aquaculture	Unclassified	Unclassified	aquatic biome	aquarium		ENVO_00002030	ENVO_00002196		19
+259	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	estuary	estuarine water	ENVO_00000447	ENVO_00000045	ENVO_01000301	19
+260	Environmental	Aquatic	Marine	Unclassified	Unclassified	polar biome	polar	lake water	ENVO_01000339	ENVO_01000238	ENVO_04000007	19
+261	Environmental	Aquatic	Sediment	Unclassified	Unclassified	estuarine biome	estuary	sediment	ENVO_01000020	ENVO_00000045	ENVO_00002007	19
+262	Environmental	Aquatic	Thermal springs	Sediment	Unclassified	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	19
+263	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	cropland biome	farm	farm soil	ENVO_01000245	ENVO_00000078	ENVO_00005749	19
+264	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater algal bloom	planktonic material	ENVO_01000252	ENVO_2000005	ENVO_01000063	18
+265	Environmental	Aquatic	Marine	Coastal	Sediment	marine benthic biome	coastal water body	marine sediment	ENVO_01000024	ENVO_02000049	ENVO_03000033	18
+266	Environmental	Aquatic	Marine	Inlet	Unclassified							18
+267	Environmental	Aquatic	Marine	Neritic zone	Sediment	marine biome	marine neritic zone	marine sediment	ENVO_00000447	ENVO_00000206	ENVO_03000033	18
+268	Environmental	Aquatic	Marine	Oceanic	Unclassified	ocean biome	marine water body	sea water	ENVO_01000048	ENVO_00001999	ENVO_00002149	18
+269	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	manufactured product	ENVO_00000447	ENVO_00001999	ENVO_00003074	18
+270	Environmental	Aquatic	Non-marine Saline and Alkaline	Salt crystallizer ponds	Microbial mats	aquatic biome	saline evaporation pond	saline water	ENVO_00002030	ENVO_00000055	ENVO_00002010	18
+271	Environmental	Terrestrial	Soil	Loam	Forest soil	forest biome	soil surface layer	forest soil	ENVO_01000174	ENVO_04000010	ENVO_00002261	18
+272	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	rhizosphere	soil	ENVO_01000174	ENVO_00005801	ENVO_00001998	18
+273	Environmental	Terrestrial	Soil	Unclassified	Unclassified	anthropogenic terrestrial biome	anthropogenic environment	soil	ENVO_01000219	ENVO_01000313	ENVO_00001998	18
+274	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	freshwater biome	anthropogenic contamination feature	contaminated water	ENVO_00000873	ENVO_00002204	ENVO_00002186	17
+275	Environmental	Aquatic	Marine	Oceanic	Photic zone	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	17
+276	Environmental	Terrestrial	Oil reservoir	Unclassified	Unclassified	terrestrial biome	oil reservoir	sand	ENVO_00000446	ENVO_00002185	ENVO_01000017	17
+277	Environmental	Terrestrial	Soil	Loam	Grasslands	grassland biome	land	grassland soil	ENVO_01000177	ENVO_01001785	ENVO_00005750	17
+278	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	farm	greenhouse soil	ENVO_00000446	ENVO_00000078	ENVO_00005780	17
+279	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	polar	forest soil	ENVO_01000174	ENVO_01000238	ENVO_00002261	17
+280	Environmental	Aquatic	Freshwater	Pond	Unclassified	freshwater biome		planktonic material	ENVO_00000873		ENVO_01000063	16
+281	Environmental	Aquatic	Freshwater	River	Sediment	freshwater river biome	estuary	sediment	ENVO_01000253	ENVO_00000045	ENVO_00002007	16
+282	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	area of sea ice	brine	ENVO_00000447	ENVO_01001520	ENVO_00003044	16
+283	Environmental	Aquatic	Marine	Intertidal zone	Coral reef	marine coral reef biome	coral reef	biofilm	ENVO_01000049	ENVO_00000150	ENVO_00002034	16
+284	Environmental	Aquatic	Marine	Ocean trench	Unclassified	marine biome	ocean trench	sea water	ENVO_00000447	ENVO_00000275	ENVO_00002149	16
+285	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Sediment	aquatic biome	pond	sediment	ENVO_00002030	ENVO_00000033	ENVO_00002007	16
+286	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	vineyard	soil	ENVO_00000446	ENVO_00000116	ENVO_00001998	16
+287	Environmental	Terrestrial	Soil	Unclassified	Unclassified	grassland biome	land	grassland soil	ENVO_01000177	ENVO_01001785	ENVO_00005750	16
+288	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	active permafrost layer	soil	ENVO_00000446	ENVO_04000009	ENVO_00001998	16
+289	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	dairy	soil	ENVO_00000446	ENVO_00003862	ENVO_00001998	16
+290	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	feedlot	soil	ENVO_00000446	ENVO_01000627	ENVO_00001998	16
+291	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	sediment	ENVO_00000446	ENVO_01001785	ENVO_00002007	16
+292	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	eutrophic lake	lake sediment	ENVO_01000252	ENVO_01000548	ENVO_00000546	15
+293	Environmental	Aquatic	Freshwater	Lentic	Sediment	freshwater lake biome	freshwater lake	lake sediment	ENVO_01000252	ENVO_00000021	ENVO_00000546	15
+294	Environmental	Aquatic	Freshwater	River	Microbial mats	freshwater river biome	river	microbial mat	ENVO_01000253	ENVO_00000022	ENVO_01000008	15
+295	Environmental	Aquatic	Marine	Coastal	Unclassified	estuarine biome	estuary	estuarine water	ENVO_01000020	ENVO_00000045	ENVO_01000301	15
+296	Environmental	Aquatic	Marine	Gulf	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	15
+297	Environmental	Terrestrial	Deep subsurface	Fracking water	Unclassified	terrestrial biome	planetary subsurface zone	fracking liquid	ENVO_00000446	ENVO_01000941	ENVO_01001869	15
+298	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	sediment	ENVO_00000446	ENVO_01000941	ENVO_00002007	15
+299	Environmental	Terrestrial	Soil	Loam	Contaminated	terrestrial biome	bioreactor	contaminated soil	ENVO_00000446	ENVO_00002123	ENVO_00002116	15
+300	Environmental	Terrestrial	Soil	Unclassified	Desert	terrestrial biome	plateau	soil	ENVO_00000446	ENVO_00000182	ENVO_00001998	15
+301	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	tropical forest	forest soil	ENVO_01000174	ENVO_01001803	ENVO_00002261	15
+302	Environmental	Terrestrial	Soil	Unclassified	Unclassified	alpine tundra biome	alpine	alpine soil	ENVO_01001505	ENVO_01000340	ENVO_00005741	15
+303	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	prairie	soil	ENVO_00000446	ENVO_00000260	ENVO_00001998	15
+304	Environmental	Aquatic	Freshwater	Groundwater	Mine drainage	aquatic biome	acid mine drainage	acidic water	ENVO_00002030	ENVO_00001997	ENVO_01000358	14
+305	Environmental	Aquatic	Freshwater	Lake	Microbial mats	freshwater lake biome	freshwater lake	microbial mat	ENVO_01000252	ENVO_00000021	ENVO_01000008	14
+306	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater algal bloom	lake water	ENVO_01000252	ENVO_2000005	ENVO_04000007	14
+307	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	stream	microbial mat	ENVO_00000873	ENVO_00000023	ENVO_01000008	14
+308	Environmental	Aquatic	Marine	Deep subsurface	Deep subsurface	marine biome	oceanic subsurface zone	sea water	ENVO_00000447	ENVO_01001045	ENVO_00002149	14
+309	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Microbial mats	aquatic biome	hypersaline lake	microbial mat	ENVO_00002030	ENVO_01001020	ENVO_01000008	14
+310	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Unclassified	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	14
+311	Environmental	Aquatic	Thermal springs	Unclassified	Unclassified	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	14
+312	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	14
+313	Environmental	Terrestrial	Soil	Loam	Agricultural soil	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	14
+314	Environmental	Terrestrial	Soil	Loam	Grasslands	terrestrial biome	prairie	soil	ENVO_00000446	ENVO_00000260	ENVO_00001998	14
+315	Environmental	Terrestrial	Soil	Unclassified	Permafrost	polar biome	peatland	peat soil	ENVO_01000339	ENVO_00000044	ENVO_00005774	14
+316	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	wetland area	leachate	ENVO_00000446	ENVO_00000043	ENVO_00002141	14
+317	Environmental	Aquatic	Freshwater	Lotic	Unclassified	marine biome	plume front	planktonic material	ENVO_00000447	ENVO_01000085	ENVO_01000063	13
+318	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome		fresh water	ENVO_00000873		ENVO_00002011	13
+319	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	coastal water body	sea water	ENVO_00000447	ENVO_02000049	ENVO_00002149	13
+320	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Sediment	aquatic biome	hypersaline lake	lake sediment	ENVO_00002030	ENVO_01001020	ENVO_00000546	13
+321	Environmental	Aquatic	Non-marine Saline and Alkaline	Salt crystallizer ponds	Microbial mats	aquatic biome	saline evaporation pond	microbial mat	ENVO_00002030	ENVO_00000055	ENVO_01000008	13
+322	Environmental	Terrestrial	Plant litter	Unclassified	Unclassified	terrestrial biome	litter layer	plant litter	ENVO_00000446	ENVO_01000338	ENVO_01000628	13
+323	Environmental	Terrestrial	Soil	Unclassified	Desert	desert biome	endolithic environment	biofilm	ENVO_01000179	ENVO_01000303	ENVO_00002034	13
+324	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	solid layer	permafrost	ENVO_00000446	ENVO_01001275	ENVO_00000134	13
+325	Environmental	Aquatic	Aquaculture	Unclassified	Unclassified	freshwater biome	fish farm	fresh water	ENVO_00000873	ENVO_00000294	ENVO_00002011	12
+326	Environmental	Aquatic	Freshwater	Desert springs	Benthic	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		12
+327	Environmental	Aquatic	Freshwater	Ice	Cryoconite	aquatic biome	glacial feature	cryoconite deposit	ENVO_00002030	ENVO_00000131	ENVO_03000038	12
+328	Environmental	Aquatic	Freshwater	Lake	Microbial mats	freshwater lake biome	oligotrophic lake	microbial mat	ENVO_01000252	ENVO_01000774	ENVO_01000008	12
+329	Environmental	Aquatic	Freshwater	Sinkhole	Unclassified	freshwater lake biome	sinkhole	fresh water	ENVO_01000252	ENVO_00000195	ENVO_00002011	12
+330	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	bayou	fresh water	ENVO_00000873	ENVO_00000234	ENVO_00002011	12
+331	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	urban biome	watershed	contaminated water	ENVO_01000249	ENVO_00000292	ENVO_00002186	12
+332	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	urban biome	watershed	fresh water	ENVO_01000249	ENVO_00000292	ENVO_00002011	12
+333	Environmental	Aquatic	Freshwater	Wetlands	Bog	aquatic biome	wetland area	forest soil	ENVO_00002030	ENVO_00000043	ENVO_00002261	12
+334	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	aquatic biome	wetland area	sediment	ENVO_00002030	ENVO_00000043	ENVO_00002007	12
+335	Environmental	Aquatic	Marine	Coastal	Brine	marine biome	coastal water body	brine	ENVO_00000447	ENVO_02000049	ENVO_00003044	12
+336	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	bay	sea water	ENVO_00000447	ENVO_00000032	ENVO_00002149	12
+337	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent	rock	ENVO_01000030	ENVO_01000122	ENVO_00001995	12
+338	Environmental	Aquatic	Marine	Intertidal zone	Estuary	estuarine biome	estuary	sea water	ENVO_01000020	ENVO_00000045	ENVO_00002149	12
+339	Environmental	Aquatic	Marine	Oceanic	Abyssal plane	oceanic abyssopelagic zone biome	abyssal plain	sea water	ENVO_01000038	ENVO_00000244	ENVO_00002149	12
+340	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine water body	sea ice	ENVO_00000447	ENVO_00001999	ENVO_00002200	12
+341	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	ocean strait	surface water	ENVO_00000447	ENVO_01000651	ENVO_00002042	12
+342	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine cold-water sphere	sea water	ENVO_00000447	ENVO_01000108	ENVO_00002149	12
+343	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	particulate matter in a hydrosphere	ENVO_00000447	ENVO_00001999	ENVO_01001651	12
+344	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine cold seep biome	mesocosm	sediment	ENVO_01000127	ENVO_01000620	ENVO_00002007	12
+345	Environmental	Aquatic	Marine	Volcanic	Unclassified	marine biome	fumarole	sediment	ENVO_00000447	ENVO_00000216	ENVO_00002007	12
+346	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	watershed	sediment	ENVO_00002030	ENVO_00000292	ENVO_00002007	12
+347	Environmental	Aquatic	Sediment	Unclassified	Unclassified	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	12
+348	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	bayou	fresh water	ENVO_00002030	ENVO_00000234	ENVO_00002011	12
+349	Environmental	Terrestrial	Soil	Clay	Unclassified	terrestrial biome	research facility	clay	ENVO_00000446	ENVO_00000469	ENVO_00002982	12
+350	Environmental	Terrestrial	Soil	Sand	Desert	desert biome	carcass	soil	ENVO_01000179	ENVO_00002033	ENVO_00001998	12
+351	Environmental	Terrestrial	Soil	Unclassified	Boreal forest	forest biome	soil surface layer	forest soil	ENVO_01000174	ENVO_04000010	ENVO_00002261	12
+352	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	forest floor	wood	ENVO_01000174	ENVO_01001582	ENVO_00002040	12
+353	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	fungi-associated environment	forest soil	ENVO_01000174	ENVO_01001041	ENVO_00002261	12
+354	Environmental	Terrestrial	Soil	Unclassified	Unclassified	mangrove biome	intertidal zone	sediment	ENVO_01000181	ENVO_00000316	ENVO_00002007	12
+355	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	coal mine	surface soil	ENVO_00000446	ENVO_00002169	ENVO_02000059	12
+356	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	peatland	peat soil	ENVO_00000446	ENVO_00000044	ENVO_00005774	12
+357	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	river bank	bulk soil	ENVO_00000446	ENVO_00000143	ENVO_00005802	12
+358	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	borehole	groundwater	ENVO_00002030	ENVO_00002226	ENVO_01001004	11
+359	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	anoxic lake	lake sediment	ENVO_01000252	ENVO_01001072	ENVO_00000546	11
+360	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	manufactured product	ENVO_01000252	ENVO_00000021	ENVO_00003074	11
+361	Environmental	Aquatic	Freshwater	Pond	Sediment	freshwater biome	pond	microbial mat	ENVO_00000873	ENVO_00000033	ENVO_01000008	11
+362	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	burrow	marine sediment	ENVO_00000447	ENVO_01000429	ENVO_03000033	11
+363	Environmental	Aquatic	Marine	Deep subsurface	Rock	marine biome	oceanic subsurface zone	rock	ENVO_00000447	ENVO_01001045	ENVO_00001995	11
+364	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	undersea feature	deep marine sediment	ENVO_01000030	ENVO_00000104	ENVO_00002113	11
+365	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	11
+366	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated sediment	marine benthic biome	marine benthic feature		ENVO_01000024	ENVO_01000105		11
+367	Environmental	Aquatic	Marine	Unclassified	Unclassified	estuarine biome	estuary	estuarine water	ENVO_01000020	ENVO_00000045	ENVO_01000301	11
+368	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	island	highly saline water	ENVO_00002030	ENVO_00000098	ENVO_01001039	11
+369	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	river	river water	ENVO_00002030	ENVO_00000022	ENVO_01000599	11
+370	Environmental	Terrestrial	Soil	Unclassified	Contaminated	terrestrial biome	laboratory environment	contaminated soil	ENVO_00000446	ENVO_01001405	ENVO_00002116	11
+371	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	land	bulk soil	ENVO_01000174	ENVO_01001785	ENVO_00005802	11
+372	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	solid layer	eucalyptus forest soil	ENVO_01000174	ENVO_01001275	ENVO_00005787	11
+373	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	mixed forest biome	temperate forest	forest soil	ENVO_01000198	ENVO_01001805	ENVO_00002261	11
+374	Environmental	Terrestrial	Soil	Unclassified	Permafrost	tundra biome	tundra	permafrost	ENVO_01000180	ENVO_00000112	ENVO_00000134	11
+375	Environmental	Aquatic	Freshwater	Lake	Sediment	aquatic biome	lake	lake sediment	ENVO_00002030	ENVO_00000020	ENVO_00000546	10
+376	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater biome	bayou	sediment	ENVO_00000873	ENVO_00000234	ENVO_00002007	10
+377	Environmental	Aquatic	Marine	Intertidal zone	Estuary							10
+378	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	estuary	sea water	ENVO_00000447	ENVO_00000045	ENVO_00002149	10
+379	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	10
+380	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Microbial mats	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	10
+381	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome		hypersaline water	ENVO_00002030		ENVO_00002012	10
+382	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	alkaline salt lake	lake water	ENVO_00002030	ENVO_00002121	ENVO_04000007	10
+383	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	saline evaporation pond	hypersaline water	ENVO_00002030	ENVO_00000055	ENVO_00002012	10
+384	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	pond	saline water	ENVO_00002030	ENVO_00000033	ENVO_00002010	10
+385	Environmental	Terrestrial	Deep subsurface	Fracking water	Unclassified	terrestrial biome	gas well	fracking liquid	ENVO_00000446	ENVO_01001870	ENVO_01001869	10
+386	Environmental	Terrestrial	Soil	Clay	Agricultural land	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	10
+387	Environmental	Terrestrial	Soil	Unclassified	Contaminated	terrestrial biome	land	contaminated soil	ENVO_00000446	ENVO_01001785	ENVO_00002116	10
+388	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	cloud forest	forest soil	ENVO_01000174	ENVO_01001457	ENVO_00002261	10
+389	Environmental	Terrestrial	Soil	Unclassified	Permafrost	polar biome	polar	permafrost	ENVO_01000339	ENVO_01000238	ENVO_00000134	10
+390	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	area designated as a nature reserve	soil	ENVO_00000446	ENVO_00000363	ENVO_00001998	10
+391	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	meadow ecosystem	meadow soil	ENVO_00000446	ENVO_00000108	ENVO_00005761	10
+392	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	wetland area	permafrost	ENVO_00000446	ENVO_00000043	ENVO_00000134	10
+393	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	aquatic biome	acid mine drainage	acidic water	ENVO_00002030	ENVO_00001997	ENVO_01000358	9
+394	Environmental	Aquatic	Freshwater	River	River biofilm	freshwater river biome	river	biofilm	ENVO_01000253	ENVO_00000022	ENVO_00002034	9
+395	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	coastal water body	microbial mat	ENVO_00000447	ENVO_02000049	ENVO_01000008	9
+396	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent		ENVO_01000030	ENVO_01000122		9
+397	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine benthic biome	bay	marine sediment	ENVO_01000024	ENVO_00000032	ENVO_03000033	9
+398	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	estuary	estuarine water	ENVO_00000447	ENVO_00000045	ENVO_01000301	9
+399	Environmental	Aquatic	Marine	Mud volcano	Sediment	marine hydrothermal vent biome	mud volcano	marine sediment	ENVO_01000030	ENVO_00000402	ENVO_03000033	9
+400	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	oceanic subsurface zone	sea water	ENVO_00000447	ENVO_01001045	ENVO_00002149	9
+401	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine oxygen minimum zone	sea water	ENVO_00000447	ENVO_01000065	ENVO_00002149	9
+402	Environmental	Aquatic	Marine	Oceanic	Unclassified	oceanic mesopelagic zone biome	marine mesopelagic zone	sea water	ENVO_01000036	ENVO_00000213	ENVO_00002149	9
+403	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	island	sea water	ENVO_00000447	ENVO_00000098	ENVO_00002149	9
+404	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	mesocosm	sea water	ENVO_00000447	ENVO_01000620	ENVO_00002149	9
+405	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	pond	sediment	ENVO_00000447	ENVO_00000033	ENVO_00002007	9
+406	Environmental	Aquatic	Sediment	Unclassified	Unclassified	mangrove biome	mangrove swamp	sediment	ENVO_01000181	ENVO_00000057	ENVO_00002007	9
+407	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	oil well	manufactured product	ENVO_00002030	ENVO_01000003	ENVO_00003074	9
+408	Environmental	Terrestrial	Soil	Clay	Agricultural land	grassland biome	land	grassland soil	ENVO_01000177	ENVO_01001785	ENVO_00005750	9
+409	Environmental	Terrestrial	Soil	Loam	Agricultural soil	terrestrial biome	rhizosphere	bulk soil	ENVO_00000446	ENVO_00005801	ENVO_00005802	9
+410	Environmental	Terrestrial	Soil	Soil crust	Unclassified							9
+411	Environmental	Terrestrial	Soil	Unclassified	Contaminated	terrestrial biome	planetary subsurface zone	sediment	ENVO_00000446	ENVO_01000941	ENVO_00002007	9
+412	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	river	soil	ENVO_00000446	ENVO_00000022	ENVO_00001998	9
+413	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	wetland area	peat soil	ENVO_00000446	ENVO_00000043	ENVO_00005774	9
+414	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	aquatic biome		drinking water	ENVO_00002030		ENVO_00003064	8
+415	Environmental	Aquatic	Freshwater	Groundwater	Cave water	freshwater biome	aquifer	biofilm	ENVO_00000873	ENVO_00012408	ENVO_00002034	8
+416	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	geyser	groundwater	ENVO_00002030	ENVO_00000050	ENVO_01001004	8
+417	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	freshwater littoral zone	lake sediment	ENVO_01000252	ENVO_01000409	ENVO_00000546	8
+418	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	Cyanobacteria	ENVO_01000252	ENVO_00000021	NCBITaxon_1117	8
+419	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	meromictic lake	lake water	ENVO_01000252	ENVO_00000199	ENVO_04000007	8
+420	Environmental	Aquatic	Freshwater	Pond	Unclassified	freshwater biome	pond	pond water	ENVO_00000873	ENVO_00000033	ENVO_00002228	8
+421	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	stream	fresh water	ENVO_00000873	ENVO_00000023	ENVO_00002011	8
+422	Environmental	Aquatic	Marine	Archipelago	Sediment	marine biome	archipelago	marine sediment	ENVO_00000447	ENVO_00000220	ENVO_03000033	8
+423	Environmental	Aquatic	Marine	Coastal	"Sediment
+"	marine biome	coastal water body	marine sediment	ENVO_00000447	ENVO_02000049	ENVO_03000033	8
+424	Environmental	Aquatic	Marine	Marginal Sea	Unclassified	tropical marine coral reef biome	coral reef	sea water	ENVO_01000854	ENVO_00000150	ENVO_00002149	8
+425	Environmental	Aquatic	Marine	Oceanic	Sediment	marine benthic biome	oceanic subsurface zone	marine sediment	ENVO_01000024	ENVO_01001045	ENVO_03000033	8
+426	Environmental	Aquatic	Marine	Pelagic	Unclassified	marine biome	marine water body	particulate matter in a hydrosphere	ENVO_00000447	ENVO_00001999	ENVO_01001651	8
+427	Environmental	Aquatic	Marine	Volcanic	Unclassified	marine hydrothermal vent biome	volcano	hydrothermal fluid	ENVO_01000030	ENVO_00000247	ENVO_01000134	8
+428	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	coal mine	sediment	ENVO_00002030	ENVO_00002169	ENVO_00002007	8
+429	Environmental	Terrestrial	Deep subsurface	Fracking water	Unclassified	terrestrial biome	borehole	fracking liquid	ENVO_00000446	ENVO_00002226	ENVO_01001869	8
+430	Environmental	Terrestrial	Geologic	Mine	Unclassified	aquatic biome	mine	asbestos	ENVO_00002030	ENVO_00000076	CHEBI_46661	8
+431	Environmental	Terrestrial	Oil reservoir	Unclassified	Unclassified	terrestrial biome	oil reservoir	sandstone	ENVO_00000446	ENVO_00002185	ENVO_00002055	8
+432	Environmental	Terrestrial	Soil	Loam	Unclassified	terrestrial biome	land	sediment	ENVO_00000446	ENVO_01001785	ENVO_00002007	8
+433	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	agricultural field	bulk soil	ENVO_00000446	ENVO_00000114	ENVO_00005802	8
+434	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	land	agricultural soil	ENVO_00000446	ENVO_01001785	ENVO_00002259	8
+435	Environmental	Terrestrial	Soil	Unclassified	Grasslands	grassland biome	land	surface soil	ENVO_01000177	ENVO_01001785	ENVO_02000059	8
+436	Environmental	Terrestrial	Soil	Unclassified	Unclassified	anthropogenic terrestrial biome	house	soil	ENVO_01000219	ENVO_01000417	ENVO_00001998	8
+437	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	farm	agricultural soil	ENVO_00000446	ENVO_00000078	ENVO_00002259	8
+438	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	park	soil	ENVO_00000446	ENVO_00000562	ENVO_00001998	8
+439	Environmental	Terrestrial	Soil	Unclassified	Unclassified	urban biome	latrine	soil	ENVO_01000249	ENVO_01000519	ENVO_00001998	8
+440	Host-associated	Microbial	Bacteria	Unclassified	Unclassified	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	8
+441	Environmental	Aquatic	Freshwater	Lentic	Unclassified	aquatic biome	lake	lake water	ENVO_00002030	ENVO_00000020	ENVO_04000007	7
+442	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater lake biome	freshwater lake	lake water	ENVO_01000252	ENVO_00000021	ENVO_04000007	7
+443	Environmental	Aquatic	Marine	Coastal	Unclassified	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	7
+444	Environmental	Aquatic	Marine	Hydrothermal vents	Microbial mats	marine hydrothermal vent biome	ocean trench	microbial mat	ENVO_01000030	ENVO_00000275	ENVO_01000008	7
+445	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	marine hydrothermal vent	marine sediment	ENVO_01000030	ENVO_01000122	ENVO_03000033	7
+446	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	marine biome	intertidal zone		ENVO_00000447	ENVO_00000316		7
+447	Environmental	Aquatic	Marine	Oceanic	Sediment	aquatic biome	borehole	sediment	ENVO_00002030	ENVO_00002226	ENVO_00002007	7
+448	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	island	sea water	ENVO_00000447	ENVO_00000098	ENVO_00002149	7
+449	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine water body	mesotrophic water	ENVO_00000447	ENVO_00001999	ENVO_00002225	7
+450	Environmental	Aquatic	Marine	Unclassified	Unclassified							7
+451	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline evaporation pond	saline water	ENVO_00002030	ENVO_00000055	ENVO_00002010	7
+452	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Acidic	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		7
+453	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Alkaline	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		7
+454	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Neutral	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		7
+455	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Neutral	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	7
+456	Environmental	Terrestrial	Agricultural field	Unclassified	Unclassified	terrestrial biome	ranch	agricultural soil	ENVO_00000446	ENVO_01001207	ENVO_00002259	7
+457	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	natural gas	ENVO_00000446	ENVO_01000941	ENVO_01000552	7
+458	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	blanket bog	peat soil	ENVO_00000446	ENVO_00000511	ENVO_00005774	7
+459	Environmental	Terrestrial	Peat	Unclassified	Unclassified	terrestrial biome	fen	peat soil	ENVO_00000446	ENVO_00000232	ENVO_00005774	7
+460	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	desert biome	desert	rock	ENVO_01000179	ENVO_01001357	ENVO_00001995	7
+461	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	desert biome	pinnacle	biofilm	ENVO_01000179	ENVO_00000481	ENVO_00002034	7
+462	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome		sand	ENVO_00000446		ENVO_01000017	7
+463	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	7
+464	Environmental	Terrestrial	Soil	Unclassified	Contaminated	terrestrial biome		contaminated soil	ENVO_00000446		ENVO_00002116	7
+465	Environmental	Terrestrial	Soil	Unclassified	Oil-contaminated	terrestrial biome	field	contaminated soil	ENVO_00000446	ENVO_01000352	ENVO_00002116	7
+466	Environmental	Terrestrial	Soil	Unclassified	Unclassified	desert biome	desert	soil	ENVO_01000179	ENVO_01001357	ENVO_00001998	7
+467	Environmental	Terrestrial	Soil	Unclassified	Unclassified	grassland biome	land	bulk soil	ENVO_01000177	ENVO_01001785	ENVO_00005802	7
+468	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	rhizosphere	bulk soil	ENVO_00000446	ENVO_00005801	ENVO_00005802	7
+469	Environmental	Terrestrial	Soil	Unclassified	Uranium contaminated	terrestrial biome	drainage basin	contaminated soil	ENVO_00000446	ENVO_00000291	ENVO_00002116	7
+470	Environmental	Terrestrial	Volcanic	Fumaroles	Unclassified	terrestrial biome	volcano		ENVO_00000446	ENVO_00000247		7
+471	Environmental	Aquatic	Freshwater	Ice	Glacial lake	freshwater lake biome	glacial lake	meltwater	ENVO_01000252	ENVO_00000488	ENVO_01000722	6
+472	Environmental	Aquatic	Freshwater	Ice	Glacial lake	freshwater lake biome	glacial lake	microbial mat	ENVO_01000252	ENVO_00000488	ENVO_01000008	6
+473	Environmental	Aquatic	Freshwater	Ice	Glacier	polar biome	glacier ice field	sediment	ENVO_01000339	ENVO_01001532	ENVO_00002007	6
+474	Environmental	Aquatic	Freshwater	Ice	Unclassified	polar desert biome	desert	ice	ENVO_01000186	ENVO_01001357	ENVO_01001125	6
+475	Environmental	Aquatic	Freshwater	Lake	Algal bloom	freshwater lake biome	freshwater algal bloom	lake water	ENVO_01000252	ENVO_2000005	ENVO_04000007	6
+476	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	hydroelectric dam	lake water	ENVO_01000252	ENVO_00000468	ENVO_04000007	6
+477	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	thermokarst lake	lake water	ENVO_01000252	ENVO_03000082	ENVO_04000007	6
+478	Environmental	Aquatic	Freshwater	Lentic	Epilimnion	freshwater lake biome	epilimnion	planktonic material	ENVO_01000252	ENVO_00002131	ENVO_01000063	6
+479	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	bayou	surface water	ENVO_00000873	ENVO_00000234	ENVO_00002042	6
+480	Environmental	Aquatic	Freshwater	Pond	Sediment	freshwater biome	pond	sediment	ENVO_00000873	ENVO_00000033	ENVO_00002007	6
+481	Environmental	Aquatic	Freshwater	River	Sediment	estuarine biome	river	sediment	ENVO_01000020	ENVO_00000022	ENVO_00002007	6
+482	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater biome	aquifer	sediment	ENVO_00000873	ENVO_00012408	ENVO_00002007	6
+483	Environmental	Aquatic	Freshwater	Subglacial lake	Unclassified	freshwater lake biome	subglacial lake	lake water	ENVO_01000252	ENVO_03000120	ENVO_04000007	6
+484	Environmental	Aquatic	Freshwater	Wetlands	Sediment	aquatic biome	delta	sediment	ENVO_00002030	ENVO_00000101	ENVO_00002007	6
+485	Environmental	Aquatic	Freshwater	Wetlands	Sediment	aquatic biome	estuary	sediment	ENVO_00002030	ENVO_00000045	ENVO_00002007	6
+486	Environmental	Aquatic	Marine	Continental margin	Sediment	marine biome	continental margin	marine sediment	ENVO_00000447	ENVO_01000298	ENVO_03000033	6
+487	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	ocean trench	deep marine sediment	ENVO_01000030	ENVO_00000275	ENVO_00002113	6
+488	Environmental	Aquatic	Marine	Intertidal zone	Estuary	estuarine biome	intertidal zone	estuarine water	ENVO_01000020	ENVO_00000316	ENVO_01000301	6
+489	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	estuary	marine sediment	ENVO_00000447	ENVO_00000045	ENVO_03000033	6
+490	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine salt marsh biome	saline marsh	sea water	ENVO_01000022	ENVO_00000054	ENVO_00002149	6
+491	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine biome	fjord	sediment	ENVO_00000447	ENVO_00000039	ENVO_00002007	6
+492	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	6
+493	Environmental	Aquatic	Marine	Oceanic	Benthic	marine benthic biome	marine benthic feature	wood fall	ENVO_01000024	ENVO_01000105	ENVO_01000142	6
+494	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated	marine biome	oil spill	sea water	ENVO_00000447	ENVO_00002061	ENVO_00002149	6
+495	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated sediment	mangrove biome	mangrove swamp		ENVO_01000181	ENVO_00000057		6
+496	Environmental	Aquatic	Marine	Oceanic	Sediment	estuarine biome	estuary		ENVO_01000020	ENVO_00000045		6
+497	Environmental	Aquatic	Marine	Oceanic	Sediment	marine hydrothermal vent biome	marine hydrothermal vent	deep marine sediment	ENVO_01000030	ENVO_01000122	ENVO_00002113	6
+498	Environmental	Aquatic	Marine	Oil seeps	Unclassified	marine biome	oil seep	sea water	ENVO_00000447	ENVO_00002063	ENVO_00002149	6
+499	Environmental	Aquatic	Marine	Sea ice	Unclassified	marine biome	island	sea ice	ENVO_00000447	ENVO_00000098	ENVO_00002200	6
+500	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	tidal mudflat		ENVO_00000447	ENVO_00000241		6
+501	Environmental	Aquatic	Marine	Wetlands	Sediment	aquatic biome	wetland area		ENVO_00002030	ENVO_00000043		6
+502	Environmental	Aquatic	Marine	Wetlands	Sediment	aquatic biome	wetland area	gravel	ENVO_00002030	ENVO_00000043	ENVO_01000018	6
+503	Environmental	Aquatic	Marine	Wetlands	Sediment	aquatic biome	wetland area	sediment	ENVO_00002030	ENVO_00000043	ENVO_00002007	6
+504	Environmental	Aquatic	Marine	Wetlands	Unclassified	marine biome	saline wetland		ENVO_00000447	ENVO_00000240		6
+505	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Microbial mats	aquatic biome	lagoon	microbial mat	ENVO_00002030	ENVO_00000038	ENVO_01000008	6
+506	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Unclassified	aquatic biome	spring	alkaline water	ENVO_00002030	ENVO_00000027	ENVO_01000357	6
+507	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Sediment	aquatic biome	lake	lake sediment	ENVO_00002030	ENVO_00000020	ENVO_00000546	6
+508	Environmental	Aquatic	Non-marine Saline and Alkaline	Salt crystallizer ponds	Unclassified	aquatic biome	saline evaporation pond	hypersaline water	ENVO_00002030	ENVO_00000055	ENVO_00002012	6
+509	Environmental	Aquatic	Sediment	Unclassified	Unclassified	freshwater river biome	delta	microbial mat	ENVO_01000253	ENVO_00000101	ENVO_01000008	6
+510	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Unclassified							6
+511	Environmental	Terrestrial	Deep subsurface	Clay	Unclassified	terrestrial biome	borehole	clay	ENVO_00000446	ENVO_00002226	ENVO_00002982	6
+512	Environmental	Terrestrial	Deep subsurface	Clay	Unclassified	terrestrial biome	planetary subsurface zone	clay	ENVO_00000446	ENVO_01000941	ENVO_00002982	6
+513	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	gas well	sediment	ENVO_00000446	ENVO_01001870	ENVO_00002007	6
+514	Environmental	Terrestrial	Deep subsurface	Water well	Unclassified	terrestrial biome	gas well	fluid environmental material	ENVO_00000446	ENVO_01001870	ENVO_02000140	6
+515	Environmental	Terrestrial	Oil reservoir	Unclassified	Unclassified	terrestrial biome	oil reservoir		ENVO_00000446	ENVO_00002185		6
+516	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	desert biome	endolithic environment	rock	ENVO_01000179	ENVO_01000303	ENVO_00001995	6
+517	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome			ENVO_00000446			6
+518	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome		rock	ENVO_00000446		ENVO_00001995	6
+519	Environmental	Terrestrial	Soil	Clay	Unclassified	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	6
+520	Environmental	Terrestrial	Soil	Sand	Desert							6
+521	Environmental	Terrestrial	Soil	Sand	Desert	desert biome	research facility	soil	ENVO_01000179	ENVO_00000469	ENVO_00001998	6
+522	Environmental	Terrestrial	Soil	Unclassified	Agricultural land							6
+523	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	agricultural field	arable soil	ENVO_00000446	ENVO_00000114	ENVO_00005742	6
+524	Environmental	Terrestrial	Soil	Unclassified	Desert	desert biome	desert	bare soil	ENVO_01000179	ENVO_01001357	ENVO_01001616	6
+525	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	land	humus	ENVO_01000174	ENVO_01001785	ENVO_01000000	6
+526	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	litter layer	plant litter	ENVO_01000174	ENVO_01000338	ENVO_01000628	6
+527	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	peatland	peat soil	ENVO_01000174	ENVO_00000044	ENVO_00005774	6
+528	Environmental	Terrestrial	Soil	Unclassified	Unclassified	mangrove biome	bay	soil	ENVO_01000181	ENVO_00000032	ENVO_00001998	6
+529	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	drainage basin	contaminated soil	ENVO_00000446	ENVO_00000291	ENVO_00002116	6
+530	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	fen	permafrost	ENVO_00000446	ENVO_00000232	ENVO_00000134	6
+531	Environmental	Air	Indoor Air	Unclassified	Unclassified		closed animal house	aerosol		ENVO_01000921	ENVO_00010505	5
+532	Environmental	Aquatic	Freshwater	Creek	Sediment	aquatic biome	bayou	sediment	ENVO_00002030	ENVO_00000234	ENVO_00002007	5
+533	Environmental	Aquatic	Freshwater	Groundwater	Cave water	freshwater biome	cave	groundwater	ENVO_00000873	ENVO_00000067	ENVO_01001004	5
+534	Environmental	Aquatic	Freshwater	Groundwater	Mine drainage	aquatic biome	acid mine drainage	biofilm	ENVO_00002030	ENVO_00001997	ENVO_00002034	5
+535	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	mesotrophic lake	lake sediment	ENVO_01000252	ENVO_01000775	ENVO_00000546	5
+536	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	oligotrophic lake	lake sediment	ENVO_01000252	ENVO_01000774	ENVO_00000546	5
+537	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	microbial mat	ENVO_01000252	ENVO_00000021	ENVO_01000008	5
+538	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	stromatolite mat	ENVO_01000252	ENVO_00000021	ENVO_00002157	5
+539	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater lake biome	freshwater lake	lake sediment	ENVO_01000252	ENVO_00000021	ENVO_00000546	5
+540	Environmental	Aquatic	Freshwater	Microbialites	Unclassified	freshwater biome		rock	ENVO_00000873		ENVO_00001995	5
+541	Environmental	Aquatic	Freshwater	Microbialites	Unclassified	freshwater lake biome	crater lake	rock	ENVO_01000252	ENVO_01001062	ENVO_00001995	5
+542	Environmental	Aquatic	Freshwater	Sediment	Unclassified	aquatic biome	pond	sediment	ENVO_00002030	ENVO_00000033	ENVO_00002007	5
+543	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	aquatic biome	ballast tank	balast water	ENVO_00002030	ENVO_01000873	ENVO_01000872	5
+544	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	freshwater biome	wetland area	fresh water	ENVO_00000873	ENVO_00000043	ENVO_00002011	5
+545	Environmental	Aquatic	Marine	Coastal	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent	sediment	ENVO_01000030	ENVO_01000122	ENVO_00002007	5
+546	Environmental	Aquatic	Marine	Cold seeps	Sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	5
+547	Environmental	Aquatic	Marine	Intertidal zone	Mangrove sediment	mangrove biome	estuary		ENVO_01000181	ENVO_00000045		5
+548	Environmental	Aquatic	Marine	Ocean trench	Sediment	marine biome	ocean trench	deep marine sediment	ENVO_00000447	ENVO_00000275	ENVO_00002113	5
+549	Environmental	Aquatic	Marine	Oceanic	Plankton	marine biome	marine water body	planktonic material	ENVO_00000447	ENVO_00001999	ENVO_01000063	5
+550	Environmental	Aquatic	Marine	Oceanic	Sediment	marine biome	marine benthic feature	marine sediment	ENVO_00000447	ENVO_01000105	ENVO_03000033	5
+551	Environmental	Aquatic	Marine	Oceanic	Sediment	marine biome	oceanic subsurface zone	marine sediment	ENVO_00000447	ENVO_01001045	ENVO_03000033	5
+552	Environmental	Aquatic	Marine	Pelagic	Unclassified	marine biome	marine water body	planktonic material	ENVO_00000447	ENVO_00001999	ENVO_01000063	5
+553	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	sea ice	ENVO_00000447	ENVO_00001999	ENVO_00002200	5
+554	Environmental	Aquatic	Marine	Volcanic	Unclassified	marine hydrothermal vent biome	volcano	sea water	ENVO_01000030	ENVO_00000247	ENVO_00002149	5
+555	Environmental	Aquatic	Marine	Wetlands	Sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	5
+556	Environmental	Aquatic	Marine	Wetlands	Sediment	marine biome	saline marsh	sediment	ENVO_00000447	ENVO_00000054	ENVO_00002007	5
+557	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Sediment	aquatic biome	lake	lake sediment	ENVO_00002030	ENVO_00000020	ENVO_00000546	5
+558	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Microbial mats	marine biome		microbial mat	ENVO_00000447		ENVO_01000008	5
+559	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Sediment	aquatic biome	lagoon	sediment	ENVO_00002030	ENVO_00000038	ENVO_00002007	5
+560	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline evaporation pond	hypersaline water	ENVO_00002030	ENVO_00000055	ENVO_00002012	5
+561	Environmental	Aquatic	Non-marine Saline and Alkaline	Salt crystallizer ponds	Unclassified	aquatic biome	saline evaporation pond	saline water	ENVO_00002030	ENVO_00000055	ENVO_00002010	5
+562	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	sulfur spring	sediment	ENVO_00002030	ENVO_00000126	ENVO_00002007	5
+563	Environmental	Terrestrial	Asphalt lakes	Tar	Unclassified	terrestrial biome	asphalt lake	asphalt	ENVO_00000446	ENVO_00000165	ENVO_01000460	5
+564	Environmental	Terrestrial	Cave	Unclassified	Unclassified							5
+565	Environmental	Terrestrial	Oil reservoir	Unclassified	Unclassified	terrestrial biome	oil reservoir	oil	ENVO_00000446	ENVO_00002185	ENVO_00002985	5
+566	Environmental	Terrestrial	Rock-dwelling (endoliths)	Unclassified	Unclassified	terrestrial biome	endolithic environment	granite	ENVO_00000446	ENVO_01000303	ENVO_01000356	5
+567	Environmental	Terrestrial	Soil	Clay	Contaminated	terrestrial biome	agricultural field	soil	ENVO_00000446	ENVO_00000114	ENVO_00001998	5
+568	Environmental	Terrestrial	Soil	Unclassified	Agricultural							5
+569	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	agricultural field	fertilized soil	ENVO_00000446	ENVO_00000114	ENVO_00005754	5
+570	Environmental	Terrestrial	Soil	Unclassified	Contaminated	terrestrial biome	agricultural field	contaminated soil	ENVO_00000446	ENVO_00000114	ENVO_00002116	5
+571	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	mediterranean forest biome	mediterranean forest	forest soil	ENVO_01000199	ENVO_01001791	ENVO_00002261	5
+572	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	solid layer	forest soil	ENVO_01000174	ENVO_01001275	ENVO_00002261	5
+573	Environmental	Terrestrial	Soil	Unclassified	Unclassified	grassland biome	land	fertilized soil	ENVO_01000177	ENVO_01001785	ENVO_00005754	5
+574	Environmental	Terrestrial	Soil	Unclassified	Unclassified	polar biome	polar	permafrost	ENVO_01000339	ENVO_01000238	ENVO_00000134	5
+575	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	bulk soil	ENVO_00000446	ENVO_01001785	ENVO_00005802	5
+576	Environmental	Terrestrial	Soil	Unclassified	Unclassified	urban biome	anthropogenic environment	soil	ENVO_01000249	ENVO_01000313	ENVO_00001998	5
+577	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	blanket bog	permafrost	ENVO_00000446	ENVO_00000511	ENVO_00000134	5
+578	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	litter layer	soil	ENVO_00000446	ENVO_01000338	ENVO_00001998	5
+579	Environmental	Air	Indoor Air	Dust	Unclassified			dust			ENVO_00002008	4
+580	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater biome	laboratory facility	Cyanobacteria	ENVO_00000873	ENVO_01001406	NCBITaxon_1117	4
+581	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	freshwater biome	planetary subsurface zone	contaminated water	ENVO_00000873	ENVO_01000941	ENVO_00002186	4
+582	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	hot spring	groundwater	ENVO_00000873	ENVO_00000051	ENVO_01001004	4
+583	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	well	groundwater	ENVO_00000873	ENVO_00000026	ENVO_01001004	4
+584	Environmental	Aquatic	Freshwater	Ice	Glacier	aquatic biome	glacial valley	ice	ENVO_00002030	ENVO_00000248	ENVO_01001125	4
+585	Environmental	Aquatic	Freshwater	Lake	Hypolimnion	freshwater lake biome	humic lake	lake water	ENVO_01000252	ENVO_01001021	ENVO_04000007	4
+586	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	anoxic lake	anoxic water	ENVO_01000252	ENVO_01001072	ENVO_01000173	4
+587	Environmental	Aquatic	Freshwater	Pond	Unclassified	aquatic biome	pond	stormwater	ENVO_00002030	ENVO_00000033	ENVO_01001267	4
+588	Environmental	Aquatic	Freshwater	Sediment	Unclassified							4
+589	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater lake biome	lake	lake sediment	ENVO_01000252	ENVO_00000020	ENVO_00000546	4
+590	Environmental	Aquatic	Freshwater	Storm water	Drainage pipe biofilm	aquatic biome	artificial channel	biofilm	ENVO_00002030	ENVO_00000121	ENVO_00002034	4
+591	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	aquatic biome			ENVO_00002030			4
+592	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	geyser	underground water	ENVO_00000873	ENVO_00000050	ENVO_00005792	4
+593	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater lake biome	aquifer	fresh water	ENVO_01000252	ENVO_00012408	ENVO_00002011	4
+594	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater river biome	river	river water	ENVO_01000253	ENVO_00000022	ENVO_01000599	4
+595	Environmental	Aquatic	Freshwater	Wetlands	Sediment	aquatic biome	freshwater marsh	sediment	ENVO_00002030	ENVO_00000053	ENVO_00002007	4
+596	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	aquatic biome	wetland area	fresh water	ENVO_00002030	ENVO_00000043	ENVO_00002011	4
+597	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	freshwater biome	wetland area	mud	ENVO_00000873	ENVO_00000043	ENVO_01000001	4
+598	Environmental	Aquatic	Marine	Abyssopelagic	Unclassified	oceanic abyssopelagic zone biome		sea water	ENVO_01000038		ENVO_00002149	4
+599	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	coastal water body	brine	ENVO_00000447	ENVO_02000049	ENVO_00003044	4
+600	Environmental	Aquatic	Marine	Hydrothermal vents	Diffuse flow	marine hydrothermal vent biome	marine hydrothermal vent		ENVO_01000030	ENVO_01000122		4
+601	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine benthic biome	marine benthic feature	deep marine sediment	ENVO_01000024	ENVO_01000105	ENVO_00002113	4
+602	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	bay	estuarine water	ENVO_00000447	ENVO_00000032	ENVO_01000301	4
+603	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine benthic biome	coastal water body	intertidal sediment	ENVO_01000024	ENVO_02000049	ENVO_00002179	4
+604	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	plume front	saline water	ENVO_00000447	ENVO_01000085	ENVO_00002010	4
+605	Environmental	Aquatic	Marine	Neritic zone	Unclassified	estuarine biome	estuary	estuarine water	ENVO_01000020	ENVO_00000045	ENVO_01000301	4
+606	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine benthic biome	marine neritic zone	marine sediment	ENVO_01000024	ENVO_00000206	ENVO_03000033	4
+607	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine benthic biome	oceanic subsurface zone	marine sediment	ENVO_01000024	ENVO_01001045	ENVO_03000033	4
+608	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	plume front	sea water	ENVO_00000447	ENVO_01000085	ENVO_00002149	4
+609	Environmental	Aquatic	Marine	Oceanic	Photic zone	marine biome	marine photic zone	planktonic material	ENVO_00000447	ENVO_00000209	ENVO_01000063	4
+610	Environmental	Aquatic	Marine	Oceanic	Sediment	marine benthic biome	hydrothermal field	marine sediment	ENVO_01000024	ENVO_01001854	ENVO_03000033	4
+611	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine current	sea water	ENVO_00000447	ENVO_01000067	ENVO_00002149	4
+612	Environmental	Aquatic	Marine	Sediment	Unclassified							4
+613	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	cove	sea water	ENVO_00000447	ENVO_00000138	ENVO_00002149	4
+614	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	organism	ENVO_00000447	ENVO_00001999	OBI_0100026	4
+615	Environmental	Aquatic	Marine	Unclassified	Unclassified	ocean biome	marine water body	oligotrophic water	ENVO_01000048	ENVO_00001999	ENVO_00002223	4
+616	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	pond	hypersaline water	ENVO_00002030	ENVO_00000033	ENVO_00002012	4
+617	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome		hypersaline water	ENVO_00002030		ENVO_00002012	4
+618	Environmental	Aquatic	Thermal springs	Warm (34-42C)	Sediment	aquatic biome	sulfur spring	sediment	ENVO_00002030	ENVO_00000126	ENVO_00002007	4
+619	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	aquifer	groundwater	ENVO_00002030	ENVO_00012408	ENVO_01001004	4
+620	Environmental	Terrestrial	Deep subsurface	Oil well	Unclassified	terrestrial biome	oil well	biofilm	ENVO_00000446	ENVO_01000003	ENVO_00002034	4
+621	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	caldera	rock	ENVO_00000446	ENVO_00000096	ENVO_00001995	4
+622	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	cave	biofilm	ENVO_00000446	ENVO_00000067	ENVO_00002034	4
+623	Environmental	Terrestrial	Soil	Crop	Unclassified	forest biome	land	forest soil	ENVO_01000174	ENVO_01001785	ENVO_00002261	4
+624	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	farm	farm soil	ENVO_00000446	ENVO_00000078	ENVO_00005749	4
+625	Environmental	Terrestrial	Soil	Unclassified	Desert	desert biome	desert	sediment	ENVO_01000179	ENVO_01001357	ENVO_00002007	4
+626	Environmental	Terrestrial	Soil	Unclassified	Unclassified	mangrove biome	sea coast	soil	ENVO_01000181	ENVO_00000303	ENVO_00001998	4
+627	Environmental	Terrestrial	Soil	Unclassified	Unclassified	polar biome	polar	peat soil	ENVO_01000339	ENVO_01000238	ENVO_00005774	4
+628	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	mine	contaminated soil	ENVO_00000446	ENVO_00000076	ENVO_00002116	4
+629	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	rhizosphere	fertilized soil	ENVO_00000446	ENVO_00005801	ENVO_00005754	4
+630	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	peatland	permafrost	ENVO_00000446	ENVO_00000044	ENVO_00000134	4
+631	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	land	mud	ENVO_00000446	ENVO_01001785	ENVO_01000001	4
+632	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	saline marsh	soil	ENVO_00000446	ENVO_00000054	ENVO_00001998	4
+633	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	terrestrial biome	oil reservoir	oil	ENVO_00000446	ENVO_00002185	ENVO_00002985	4
+634	Environmental	Aquatic	Aquaculture	Unclassified	Unclassified	freshwater biome			ENVO_00000873			3
+635	Environmental	Aquatic	Freshwater	Drinking water	Delivery networks	freshwater biome		biofilm	ENVO_00000873		ENVO_00002034	3
+636	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	freshwater biome		contaminated water	ENVO_00000873		ENVO_00002186	3
+637	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	coal mine	underground water	ENVO_00002030	ENVO_00002169	ENVO_00005792	3
+638	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	mine	groundwater	ENVO_00002030	ENVO_00000076	ENVO_01001004	3
+639	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	aquifer	anoxic water	ENVO_00000873	ENVO_00012408	ENVO_01000173	3
+640	Environmental	Aquatic	Freshwater	Harbor	Unclassified	aquatic biome	harbor	fresh water	ENVO_00002030	ENVO_00000463	ENVO_00002011	3
+641	Environmental	Aquatic	Freshwater	Ice	Glacial lake	freshwater lake biome	subglacial lake	lake water	ENVO_01000252	ENVO_03000120	ENVO_04000007	3
+642	Environmental	Aquatic	Freshwater	Ice	Unclassified	aquatic biome	saline lake	ice	ENVO_00002030	ENVO_00000019	ENVO_01001125	3
+643	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	freshwater lake	anaerobic sediment	ENVO_01000252	ENVO_00000021	ENVO_00002045	3
+644	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	soil	ENVO_01000252	ENVO_00000021	ENVO_00001998	3
+645	Environmental	Aquatic	Freshwater	Lentic	Epilimnion	freshwater lake biome	freshwater lake	lake sediment	ENVO_01000252	ENVO_00000021	ENVO_00000546	3
+646	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater biome	lentic water body	fresh water	ENVO_00000873	ENVO_01000617	ENVO_00002011	3
+647	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater river biome	river	river water	ENVO_01000253	ENVO_00000022	ENVO_01000599	3
+648	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater river biome	river	surface water	ENVO_01000253	ENVO_00000022	ENVO_00002042	3
+649	Environmental	Aquatic	Freshwater	Pond	Unclassified	freshwater biome	pond	fresh water	ENVO_00000873	ENVO_00000033	ENVO_00002011	3
+650	Environmental	Aquatic	Freshwater	River	Unclassified	freshwater river biome	river	acidic water	ENVO_01000253	ENVO_00000022	ENVO_01000358	3
+651	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater lake biome	lake bed	lake sediment	ENVO_01000252	ENVO_00000268	ENVO_00000546	3
+652	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater lake biome	subglacial lake	lake sediment	ENVO_01000252	ENVO_03000120	ENVO_00000546	3
+653	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	aquatic biome	geyser	groundwater	ENVO_00002030	ENVO_00000050	ENVO_01001004	3
+654	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	aquatic biome	hydraulic fracturing	fresh water	ENVO_00002030	ENVO_01001868	ENVO_00002011	3
+655	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	aquatic biome	mountain	fresh water	ENVO_00002030	ENVO_00000081	ENVO_00002011	3
+656	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	drainage basin	fresh water	ENVO_00000873	ENVO_00000291	ENVO_00002011	3
+657	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	research facility	fresh water	ENVO_00000873	ENVO_00000469	ENVO_00002011	3
+658	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	reservoir	fresh water	ENVO_00000873	ENVO_00000025	ENVO_00002011	3
+659	Environmental	Aquatic	Marine	Coastal	Sediment							3
+660	Environmental	Aquatic	Marine	Coastal	Sediment	marine benthic biome	coastal water body	intertidal sediment	ENVO_01000024	ENVO_02000049	ENVO_00002179	3
+661	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	coastal water body	marine sediment	ENVO_00000447	ENVO_02000049	ENVO_03000033	3
+662	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	intertidal zone	marine sediment	ENVO_00000447	ENVO_00000316	ENVO_03000033	3
+663	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	oceanic subsurface zone	marine sediment	ENVO_00000447	ENVO_01001045	ENVO_03000033	3
+664	Environmental	Aquatic	Marine	Coastal	Unclassified							3
+665	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	coastal water body	surface water	ENVO_00000447	ENVO_02000049	ENVO_00002042	3
+666	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	oil spill	surface water	ENVO_00000447	ENVO_00002061	ENVO_00002042	3
+667	Environmental	Aquatic	Marine	Hydrothermal vents	Microbial mats	marine hydrothermal vent biome	marine hydrothermal vent chimney	microbial mat	ENVO_01000030	ENVO_01000129	ENVO_01000008	3
+668	Environmental	Aquatic	Marine	Intertidal zone	Coral reef	marine coral reef biome	coral reef	Cnidaria	ENVO_01000049	ENVO_00000150	NCBITaxon_6073	3
+669	Environmental	Aquatic	Marine	Intertidal zone	Sediment	estuarine biome	estuary		ENVO_01000020	ENVO_00000045		3
+670	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine salt marsh biome	saline marsh	sediment	ENVO_01000022	ENVO_00000054	ENVO_00002007	3
+671	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine coral reef biome	coral reef	Cnidaria	ENVO_01000049	ENVO_00000150	NCBITaxon_6073	3
+672	Environmental	Aquatic	Marine	Neritic zone	Sediment	marine benthic biome	marine neritic zone	marine sediment	ENVO_01000024	ENVO_00000206	ENVO_03000033	3
+673	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	marine pelagic zone	marine sediment	ENVO_00000447	ENVO_00000208	ENVO_03000033	3
+674	Environmental	Aquatic	Marine	Oceanic	Benthic	marine coral reef biome	coral reef	microbial mat	ENVO_01000049	ENVO_00000150	ENVO_01000008	3
+675	Environmental	Aquatic	Marine	Oceanic	Oceanic crust	marine biome	oceanic zone	oceanic crust	ENVO_00000447	ENVO_00000207	ENVO_01000749	3
+676	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated	marine biome	marine water body	contaminated water	ENVO_00000447	ENVO_00001999	ENVO_00002186	3
+677	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	3
+678	Environmental	Aquatic	Marine	Oceanic	Plankton							3
+679	Environmental	Aquatic	Marine	Oceanic	Sediment	marine biome	marine benthic feature	sediment	ENVO_00000447	ENVO_01000105	ENVO_00002007	3
+680	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	oceanic zone	sea water	ENVO_00000447	ENVO_00000207	ENVO_00002149	3
+681	Environmental	Aquatic	Marine	Subtidal zone	Sediment	marine subtidal rocky reef biome	marine subtidal rocky reef	marine sediment	ENVO_01000050	ENVO_01000150	ENVO_03000033	3
+682	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	3
+683	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	aquifer	oceanic crust	ENVO_00000447	ENVO_00012408	ENVO_01000749	3
+684	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	harbor	sea water	ENVO_00000447	ENVO_00000463	ENVO_00002149	3
+685	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine tidal flow zone	sea water	ENVO_00000447	ENVO_01001341	ENVO_00002149	3
+686	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	eutrophic water	ENVO_00000447	ENVO_00001999	ENVO_00002224	3
+687	Environmental	Aquatic	Marine	Unclassified	Unclassified	mediterranean sea biome	marine benthic feature	sea water	ENVO_01000047	ENVO_01000105	ENVO_00002149	3
+688	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Sediment	aquatic biome	bioreactor	sediment	ENVO_00002030	ENVO_00002123	ENVO_00002007	3
+689	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Unclassified	aquatic biome	spring	sediment	ENVO_00002030	ENVO_00000027	ENVO_00002007	3
+690	Environmental	Aquatic	Non-marine Saline and Alkaline	Lake	Brine	aquatic biome	lake	brine	ENVO_00002030	ENVO_00000020	ENVO_00003044	3
+691	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Athalassic	aquatic biome	hypersaline lake	hypersaline water	ENVO_00002030	ENVO_01001020	ENVO_00002012	3
+692	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	lake	lake water	ENVO_00002030	ENVO_00000020	ENVO_04000007	3
+693	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	spring	microbial mat	ENVO_00002030	ENVO_00000027	ENVO_01000008	3
+694	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	mine	sediment	ENVO_00002030	ENVO_00000076	ENVO_00002007	3
+695	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome		drinking water	ENVO_00002030		ENVO_00003064	3
+696	Environmental	Terrestrial	Agricultural field	Unclassified	Unclassified	terrestrial biome	plant structure	fruit or fruit product (us cfr)	ENVO_00000446	PO_0009011	FOODON_03400143	3
+697	Environmental	Terrestrial	Cave	Unclassified	Unclassified	terrestrial biome	cave wall	rock	ENVO_00000446	ENVO_00002144	ENVO_00001995	3
+698	Environmental	Terrestrial	Deep subsurface	Aquifer	Unclassified	terrestrial biome	aquifer	sediment	ENVO_00000446	ENVO_00012408	ENVO_00002007	3
+699	Environmental	Terrestrial	Deep subsurface	Fracking water	Unclassified	terrestrial biome	planetary subsurface zone	brine	ENVO_00000446	ENVO_01000941	ENVO_00003044	3
+700	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	mine	brine	ENVO_00000446	ENVO_00000076	ENVO_00003044	3
+701	Environmental	Terrestrial	Geologic	Mine	Unclassified	terrestrial biome	mine	mine tailing	ENVO_00000446	ENVO_00000076	ENVO_00000003	3
+702	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	3
+703	Environmental	Terrestrial	Oil reservoir	Unclassified	Unclassified	terrestrial biome	oil reservoir	oil field production water	ENVO_00000446	ENVO_00002185	ENVO_00002194	3
+704	Environmental	Terrestrial	Plant litter	Unclassified	Unclassified	terrestrial biome	land	plant litter	ENVO_00000446	ENVO_01001785	ENVO_01000628	3
+705	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	grassland biome		biofilm	ENVO_01000177		ENVO_00002034	3
+706	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome		limestone	ENVO_00000446		ENVO_00002053	3
+707	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	cave wall	biofilm	ENVO_00000446	ENVO_00002144	ENVO_00002034	3
+708	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	cave wall	rock	ENVO_00000446	ENVO_00002144	ENVO_00001995	3
+709	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	park	sandstone	ENVO_00000446	ENVO_00000562	ENVO_00002055	3
+710	Environmental	Terrestrial	Soil	Clay	Unclassified	terrestrial biome	land	acidic soil	ENVO_00000446	ENVO_01001785	ENVO_01001185	3
+711	Environmental	Terrestrial	Soil	Sand	Desert	desert biome	plateau	soil	ENVO_01000179	ENVO_00000182	ENVO_00001998	3
+712	Environmental	Terrestrial	Soil	Soil crust	Unclassified	polar biome		soil	ENVO_01000339		ENVO_00001998	3
+713	Environmental	Terrestrial	Soil	Soil crust	Unclassified	terrestrial biome	mountain	soil biocrust	ENVO_00000446	ENVO_00000081	ENVO_01000910	3
+714	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	rhizosphere	bulk soil	ENVO_00000446	ENVO_00005801	ENVO_00005802	3
+715	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	forest floor	burned soil	ENVO_01000174	ENVO_01001582	ENVO_00005760	3
+716	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	terrestrial biome	laboratory facility	Cyanobacteria	ENVO_00000446	ENVO_01001406	NCBITaxon_1117	3
+717	Environmental	Terrestrial	Soil	Unclassified	Mine drainage	terrestrial biome	mine drainage	contaminated soil	ENVO_00000446	ENVO_00001996	ENVO_00002116	3
+718	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	glacial lake	permafrost	ENVO_00000446	ENVO_00000488	ENVO_00000134	3
+719	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	terrestrial mountain	permafrost	ENVO_00000446	ENVO_01001453	ENVO_00000134	3
+720	Environmental	Terrestrial	Soil	Unclassified	Unclassified	aquatic biome	bayou	sediment	ENVO_00002030	ENVO_00000234	ENVO_00002007	3
+721	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	tropical forest	forest soil	ENVO_01000174	ENVO_01001803	ENVO_00002261	3
+722	Environmental	Terrestrial	Soil	Unclassified	Unclassified	savanna biome	savanna	savanna soil	ENVO_01000178	ENVO_00000261	ENVO_00005746	3
+723	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	animal cage	soil	ENVO_00000446	ENVO_01000922	ENVO_00001998	3
+724	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land		ENVO_00000446	ENVO_01001785		3
+725	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	contaminated soil	ENVO_00000446	ENVO_01001785	ENVO_00002116	3
+726	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	paddy field	paddy field soil	ENVO_00000446	ENVO_00000297	ENVO_00005740	3
+727	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	ridge	surface soil	ENVO_00000446	ENVO_00000283	ENVO_02000059	3
+728	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	palsa mire	permafrost	ENVO_00000446	ENVO_00000188	ENVO_00000134	3
+729	Environmental	Terrestrial	Soil	Wetlands	Unclassified	forest biome	wetland area	forest soil	ENVO_01000174	ENVO_00000043	ENVO_00002261	3
+730	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	terrestrial biome		mud	ENVO_00000446		ENVO_01000001	3
+731	Environmental	Air	Indoor Air	Dust	Unclassified		laboratory facility	dust		ENVO_01001406	ENVO_00002008	2
+732	Environmental	Aquatic	Freshwater	Groundwater	Acid Mine Drainage	aquatic biome	acid mine drainage	sediment	ENVO_00002030	ENVO_00001997	ENVO_00002007	2
+733	Environmental	Aquatic	Freshwater	Groundwater	Acid Mine Drainage	aquatic biome	coal mine	acidic water	ENVO_00002030	ENVO_00002169	ENVO_01000358	2
+734	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	freshwater biome	aquifer	groundwater	ENVO_00000873	ENVO_00012408	ENVO_01001004	2
+735	Environmental	Aquatic	Freshwater	Groundwater	Mine	freshwater biome	mine drainage	groundwater	ENVO_00000873	ENVO_00001996	ENVO_01001004	2
+736	Environmental	Aquatic	Freshwater	Groundwater	Mine drainage	aquatic biome	mine	microbial mat	ENVO_00002030	ENVO_00000076	ENVO_01000008	2
+737	Environmental	Aquatic	Freshwater	Groundwater	Spring	aquatic biome	spring	groundwater	ENVO_00002030	ENVO_00000027	ENVO_01001004	2
+738	Environmental	Aquatic	Freshwater	Groundwater	Unclassified							2
+739	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	acid mine drainage	acidic water	ENVO_00002030	ENVO_00001997	ENVO_01000358	2
+740	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	spring	groundwater	ENVO_00002030	ENVO_00000027	ENVO_01001004	2
+741	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	bayou	groundwater	ENVO_00000873	ENVO_00000234	ENVO_01001004	2
+742	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	landfill	groundwater	ENVO_00000873	ENVO_00000533	ENVO_01001004	2
+743	Environmental	Aquatic	Freshwater	Ice	Glacier	aquatic biome	cryoconite hole	cryoconite deposit	ENVO_00002030	ENVO_03000039	ENVO_03000038	2
+744	Environmental	Aquatic	Freshwater	Ice	Unclassified	freshwater biome	mesotrophic lake	ice	ENVO_00000873	ENVO_01000775	ENVO_01001125	2
+745	Environmental	Aquatic	Freshwater	Lake	Unclassified	aquatic biome	lake	lake water	ENVO_00002030	ENVO_00000020	ENVO_04000007	2
+746	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	chemocline	lake water	ENVO_01000252	ENVO_00002270	ENVO_04000007	2
+747	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	hypolimnion	lake water	ENVO_01000252	ENVO_00002130	ENVO_04000007	2
+748	Environmental	Aquatic	Freshwater	Lentic	Hypolimnion	freshwater lake biome	freshwater lake	lake sediment	ENVO_01000252	ENVO_00000021	ENVO_00000546	2
+749	Environmental	Aquatic	Freshwater	Lentic	Littoral zone	freshwater lake biome	freshwater littoral zone	lake water	ENVO_01000252	ENVO_01000409	ENVO_04000007	2
+750	Environmental	Aquatic	Freshwater	Lentic	Sediment	freshwater biome	lentic water body	sediment	ENVO_00000873	ENVO_01000617	ENVO_00002007	2
+751	Environmental	Aquatic	Freshwater	Lentic	Unclassified	aquatic biome	rift lake	lake water	ENVO_00002030	ENVO_00000203	ENVO_04000007	2
+752	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater lake biome	freshwater lake	planktonic material	ENVO_01000252	ENVO_00000021	ENVO_01000063	2
+753	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	lotic water body	fresh water	ENVO_00000873	ENVO_01000618	ENVO_00002011	2
+754	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	waterfall	fresh water	ENVO_00000873	ENVO_00000040	ENVO_00002011	2
+755	Environmental	Aquatic	Freshwater	Microbialites	Unclassified	freshwater lake biome	underground lake	stromatolite mat	ENVO_01000252	ENVO_00000058	ENVO_00002157	2
+756	Environmental	Aquatic	Freshwater	River	Unclassified	freshwater river biome	river		ENVO_01000253	ENVO_00000022		2
+757	Environmental	Aquatic	Freshwater	Sinkhole	Microbial mats	freshwater biome	sinkhole	microbial mat	ENVO_00000873	ENVO_00000195	ENVO_01000008	2
+758	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	channel of a watercourse	fresh water	ENVO_00000873	ENVO_00000395	ENVO_00002011	2
+759	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	water body	fresh water	ENVO_00000873	ENVO_00000063	ENVO_00002011	2
+760	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	coastal water body		ENVO_00000447	ENVO_02000049		2
+761	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	coastal water body	Cyanobacteria	ENVO_00000447	ENVO_02000049	NCBITaxon_1117	2
+762	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	2
+763	Environmental	Aquatic	Marine	Cold seeps	Unclassified	marine cold seep biome	cold seep	sea water	ENVO_01000127	ENVO_01000263	ENVO_00002149	2
+764	Environmental	Aquatic	Marine	Fossil	Whale fall	marine biome	marine benthic feature	fossil	ENVO_00000447	ENVO_01000105	ENVO_00002164	2
+765	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	marine hydrothermal vent	deep marine sediment	ENVO_01000030	ENVO_01000122	ENVO_00002113	2
+766	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent	organism	ENVO_01000030	ENVO_01000122	OBI_0100026	2
+767	Environmental	Aquatic	Marine	Intertidal zone	Beach	marine biome	beach	sea water	ENVO_00000447	ENVO_00000091	ENVO_00002149	2
+768	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	well-mixed estuary	sea water	ENVO_00000447	ENVO_01001653	ENVO_00002149	2
+769	Environmental	Aquatic	Marine	Intertidal zone	Mangrove swamp	mangrove biome	estuary		ENVO_01000181	ENVO_00000045		2
+770	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	aquatic biome	hypersaline lake	hypersaline water	ENVO_00002030	ENVO_01001020	ENVO_00002012	2
+771	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	marine biome	intertidal zone	rock	ENVO_00000447	ENVO_00000316	ENVO_00001995	2
+772	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	marine biome	intertidal zone	stromatolite mat	ENVO_00000447	ENVO_00000316	ENVO_00002157	2
+773	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine biome	estuary	sea water	ENVO_00000447	ENVO_00000045	ENVO_00002149	2
+774	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine coral reef biome	marine benthic feature	sea water	ENVO_01000049	ENVO_01000105	ENVO_00002149	2
+775	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	marine neritic zone	surface water	ENVO_00000447	ENVO_00000206	ENVO_00002042	2
+776	Environmental	Aquatic	Marine	Oceanic	Aphotic zone	marine biome	marine aphotic zone	planktonic material	ENVO_00000447	ENVO_00000210	ENVO_01000063	2
+777	Environmental	Aquatic	Marine	Oceanic	Aphotic zone	marine hydrothermal vent biome	marine hydrothermal vent	sea water	ENVO_01000030	ENVO_01000122	ENVO_00002149	2
+778	Environmental	Aquatic	Marine	Oceanic	Benthic	ocean biome	marine benthic feature	basalt	ENVO_01000048	ENVO_01000105	ENVO_01000236	2
+779	Environmental	Aquatic	Marine	Oceanic	Microbial mats	marine biome	oceanic zone	microbial mat	ENVO_00000447	ENVO_00000207	ENVO_01000008	2
+780	Environmental	Aquatic	Marine	Oceanic	Photic zone	marine biome	marine water body	planktonic material	ENVO_00000447	ENVO_00001999	ENVO_01000063	2
+781	Environmental	Aquatic	Marine	Oceanic	Photic zone	ocean biome	marine photic zone	sea water	ENVO_01000048	ENVO_00000209	ENVO_00002149	2
+782	Environmental	Aquatic	Marine	Oceanic	Sediment	mangrove biome	mangrove swamp	sediment	ENVO_01000181	ENVO_00000057	ENVO_00002007	2
+783	Environmental	Aquatic	Marine	Oceanic	Sediment	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	2
+784	Environmental	Aquatic	Marine	Oceanic	Unclassified	aquatic biome	saline evaporation pond	saline water	ENVO_00002030	ENVO_00000055	ENVO_00002010	2
+785	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	bay	sea water	ENVO_00000447	ENVO_00000032	ENVO_00002149	2
+786	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine hydrothermal vent biome	marine hydrothermal plume	hydrothermal fluid	ENVO_01000030	ENVO_01000130	ENVO_01000134	2
+787	Environmental	Aquatic	Marine	Oceanic	Unclassified	ocean biome	marine water body	planktonic material	ENVO_01000048	ENVO_00001999	ENVO_01000063	2
+788	Environmental	Aquatic	Marine	Pelagic	Unclassified	marine biome	marine pelagic zone	Cyanobacteria	ENVO_00000447	ENVO_00000208	NCBITaxon_1117	2
+789	Environmental	Aquatic	Marine	Pelagic	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	2
+790	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine benthic biome	marine benthic feature	hypersaline water	ENVO_01000024	ENVO_01000105	ENVO_00002012	2
+791	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome		biofilm	ENVO_00000447		ENVO_00002034	2
+792	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	intertidal zone	sea water	ENVO_00000447	ENVO_00000316	ENVO_00002149	2
+793	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine benthic feature	organism	ENVO_00000447	ENVO_01000105	OBI_0100026	2
+794	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine mud	sea water	ENVO_00000447	ENVO_00005795	ENVO_00002149	2
+795	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent chimney	hydrothermal fluid	ENVO_01000030	ENVO_01000129	ENVO_01000134	2
+796	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent chimney	hydrothermally-influenced sediment	ENVO_01000030	ENVO_01000129	ENVO_01001821	2
+797	Environmental	Aquatic	Marine	Unclassified	Unclassified	mediterranean sea biome	marine water body	hypersaline water	ENVO_01000047	ENVO_00001999	ENVO_00002012	2
+798	Environmental	Aquatic	Marine	Wetlands	Sediment	mangrove biome	coastal wetland ecosystem	marine sediment	ENVO_01000181	ENVO_00000230	ENVO_03000033	2
+799	Environmental	Aquatic	Marine	Wetlands	Unclassified	marine biome	wetland area	sea water	ENVO_00000447	ENVO_00000043	ENVO_00002149	2
+800	Environmental	Aquatic	Marine	Wetlands	Unclassified	marine biome	wetland area	soil	ENVO_00000447	ENVO_00000043	ENVO_00001998	2
+801	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Sediment	aquatic biome	saline lake	lake sediment	ENVO_00002030	ENVO_00000019	ENVO_00000546	2
+802	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Unclassified	aquatic biome	saline lake	lake water	ENVO_00002030	ENVO_00000019	ENVO_04000007	2
+803	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Microbial mats	aquatic biome	saline lake	microbial mat	ENVO_00002030	ENVO_00000019	ENVO_01000008	2
+804	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	hypersaline lake	microbial mat	ENVO_00002030	ENVO_01001020	ENVO_01000008	2
+805	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	meromictic lake	hypersaline water	ENVO_00002030	ENVO_00000199	ENVO_00002012	2
+806	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	saline evaporation pond	saline water	ENVO_00002030	ENVO_00000055	ENVO_00002010	2
+807	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Epilimnion	aquatic biome	lagoon	saline water	ENVO_00002030	ENVO_00000038	ENVO_00002010	2
+808	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Microbial mats	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	2
+809	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Microbial mats	estuarine biome	estuary	microbial mat	ENVO_01000020	ENVO_00000045	ENVO_01000008	2
+810	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Sediment	aquatic biome	saline lake	lake sediment	ENVO_00002030	ENVO_00000019	ENVO_00000546	2
+811	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	lagoon	saline water	ENVO_00002030	ENVO_00000038	ENVO_00002010	2
+812	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	acid mine drainage	sediment	ENVO_00002030	ENVO_00001997	ENVO_00002007	2
+813	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Acidic	aquatic biome	sulfur spring	acid	ENVO_00002030	ENVO_00000126	CHEBI_37527	2
+814	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Sediment	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	2
+815	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Unclassified	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	2
+816	Environmental	Aquatic	Thermal springs	Near-boiling (>90C)	Alkaline	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	2
+817	Environmental	Aquatic	Thermal springs	Near-boiling (>90C)	Alkaline	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	2
+818	Environmental	Aquatic	Thermal springs	Warm (34-42C)	Unclassified	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		2
+819	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome	oil tank	oil	ENVO_00002030	ENVO_00002183	ENVO_00002985	2
+820	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	freshwater biome	bayou	fresh water	ENVO_00000873	ENVO_00000234	ENVO_00002011	2
+821	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	freshwater biome	constructed swimming pool	fresh water	ENVO_00000873	ENVO_01000965	ENVO_00002011	2
+822	Environmental	Terrestrial	Agricultural field	Unclassified	Unclassified	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	2
+823	Environmental	Terrestrial	Asphalt lakes	Unclassified	Unclassified	aquatic biome	asphalt lake	contaminated water	ENVO_00002030	ENVO_00000165	ENVO_00002186	2
+824	Environmental	Terrestrial	Cave	Unclassified	Unclassified	terrestrial biome	cave	biofilm material	ENVO_00000446	ENVO_00000067	ENVO_01000156	2
+825	Environmental	Terrestrial	Cave	Unclassified	Unclassified	terrestrial biome	cave	microbial mat	ENVO_00000446	ENVO_00000067	ENVO_01000008	2
+826	Environmental	Terrestrial	Deep subsurface	Aquifer	Unclassified	terrestrial biome	aquifer	rock	ENVO_00000446	ENVO_00012408	ENVO_00001995	2
+827	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone	fluid environmental material	ENVO_00000446	ENVO_01000941	ENVO_02000140	2
+828	Environmental	Terrestrial	Deep subsurface	Water well	Unclassified	aquatic biome	water well	biofilm	ENVO_00002030	ENVO_01000002	ENVO_00002034	2
+829	Environmental	Terrestrial	Desert	Unclassified	Unclassified	desert biome	desert		ENVO_01000179	ENVO_01001357		2
+830	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	desert biome	desert	rock	ENVO_01000179	ENVO_01001357	ENVO_00001995	2
+831	Environmental	Terrestrial	Oil reservoir	Sediment	Unclassified	terrestrial biome	oil reservoir	sediment	ENVO_00000446	ENVO_00002185	ENVO_00002007	2
+832	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	natural monument	biofilm	ENVO_00000446	ENVO_00000359	ENVO_00002034	2
+833	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	speleothem	rock	ENVO_00000446	ENVO_00000327	ENVO_00001995	2
+834	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	stone exterior wall	biofilm	ENVO_00000446	ENVO_01000495	ENVO_00002034	2
+835	Environmental	Terrestrial	Soil	Clay	Contaminated	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	2
+836	Environmental	Terrestrial	Soil	Clay	Grasslands	grassland biome	land	grassland soil	ENVO_01000177	ENVO_01001785	ENVO_00005750	2
+837	Environmental	Terrestrial	Soil	Glacier	Unclassified	terrestrial biome	glacial feature	cryoconite deposit	ENVO_00000446	ENVO_00000131	ENVO_03000038	2
+838	Environmental	Terrestrial	Soil	Loam	Agricultural soil	terrestrial biome	rhizosphere	soil	ENVO_00000446	ENVO_00005801	ENVO_00001998	2
+839	Environmental	Terrestrial	Soil	Loam	Grasslands	grassland biome	biosphere reserve	loam	ENVO_01000177	ENVO_00000376	ENVO_00002258	2
+840	Environmental	Terrestrial	Soil	Loam	Grasslands	terrestrial biome	land	bulk soil	ENVO_00000446	ENVO_01001785	ENVO_00005802	2
+841	Environmental	Terrestrial	Soil	Sand	Desert	desert biome	research facility	soil biocrust	ENVO_01000179	ENVO_00000469	ENVO_01000910	2
+842	Environmental	Terrestrial	Soil	Sand	Forest soil	forest biome	land	forest soil	ENVO_01000174	ENVO_01001785	ENVO_00002261	2
+843	Environmental	Terrestrial	Soil	Sand	Oil-contaminated	terrestrial biome	outcrop	sand	ENVO_00000446	ENVO_01000302	ENVO_01000017	2
+844	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome	park	soil	ENVO_00000446	ENVO_00000562	ENVO_00001998	2
+845	Environmental	Terrestrial	Soil	Silt	Unclassified							2
+846	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	field	contaminated soil	ENVO_00000446	ENVO_01000352	ENVO_00002116	2
+847	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	land	biochar	ENVO_00000446	ENVO_01001785	ENVO_2000007	2
+848	Environmental	Terrestrial	Soil	Unclassified	Desert	arid biome	arid	soil	ENVO_01001838	ENVO_01000230	ENVO_00001998	2
+849	Environmental	Terrestrial	Soil	Unclassified	Grasslands	terrestrial biome	rhizosphere	bulk soil	ENVO_00000446	ENVO_00005801	ENVO_00005802	2
+850	Environmental	Terrestrial	Soil	Unclassified	Mine	terrestrial biome	mine	soil	ENVO_00000446	ENVO_00000076	ENVO_00001998	2
+851	Environmental	Terrestrial	Soil	Unclassified	Permafrost	polar biome	polar	sediment	ENVO_01000339	ENVO_01000238	ENVO_00002007	2
+852	Environmental	Terrestrial	Soil	Unclassified	Permafrost	polar desert biome	desert	permafrost	ENVO_01000186	ENVO_01001357	ENVO_00000134	2
+853	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	bayou	permafrost	ENVO_00000446	ENVO_00000234	ENVO_00000134	2
+854	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	peninsula	permafrost	ENVO_00000446	ENVO_00000305	ENVO_00000134	2
+855	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	thermokarst	permafrost	ENVO_00000446	ENVO_03000085	ENVO_00000134	2
+856	Environmental	Terrestrial	Soil	Unclassified	Tropical rainforest	forest biome	land	forest soil	ENVO_01000174	ENVO_01001785	ENVO_00002261	2
+857	Environmental	Terrestrial	Soil	Unclassified	Unclassified	alpine biome	alpine	alpine soil	ENVO_01001835	ENVO_01000340	ENVO_00005741	2
+858	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	land	forest soil	ENVO_01000174	ENVO_01001785	ENVO_00002261	2
+859	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	soil surface layer	forest soil	ENVO_01000174	ENVO_04000010	ENVO_00002261	2
+860	Environmental	Terrestrial	Soil	Unclassified	Unclassified	shrubland biome	land	soil	ENVO_01000176	ENVO_01001785	ENVO_00001998	2
+861	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome		compost	ENVO_00000446		ENVO_00002170	2
+862	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	agricultural field	composted animal manure	ENVO_00000446	ENVO_00000114	ENVO_01001119	2
+863	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	agricultural field	poultry litter	ENVO_00000446	ENVO_00000114	ENVO_00002192	2
+864	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	agricultural field	soil	ENVO_00000446	ENVO_00000114	ENVO_00001998	2
+865	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	garden	garden soil	ENVO_00000446	ENVO_00000011	ENVO_00002263	2
+866	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	surface soil	ENVO_00000446	ENVO_01001785	ENVO_02000059	2
+867	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	mine drainage	contaminated soil	ENVO_00000446	ENVO_00001996	ENVO_00002116	2
+868	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	ridge	soil	ENVO_00000446	ENVO_00000283	ENVO_00001998	2
+869	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	stream bank	soil	ENVO_00000446	ENVO_00000142	ENVO_00001998	2
+870	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	wetland area	soil	ENVO_00000446	ENVO_00000043	ENVO_00001998	2
+871	Environmental	Terrestrial	Soil	Unclassified	Uranium contaminated	terrestrial biome	land	contaminated soil	ENVO_00000446	ENVO_01001785	ENVO_00002116	2
+872	Host-associated	Plants	Roots	Rhizosphere	Unclassified	terrestrial biome	rhizosphere	rhizosphere	ENVO_00000446	ENVO_00005801	ENVO_00005801	2
+873	Environmental	Air	Indoor Air	Unclassified	Unclassified			air			ENVO_00002005	1
+874	Environmental	Air	Indoor Air	Unclassified	Unclassified		building	air		ENVO_00000073	ENVO_00002005	1
+875	Environmental	Air	Indoor Air	Unclassified	Unclassified		troposphere	air		ENVO_01000540	ENVO_00002005	1
+876	Environmental	Aquatic	Aquaculture	Unclassified	Unclassified	aquatic biome		sediment	ENVO_00002030		ENVO_00002007	1
+877	Environmental	Aquatic	Aquaculture	Unclassified	Unclassified	marine biome	fish farm	sediment	ENVO_00000447	ENVO_00000294	ENVO_00002007	1
+878	Environmental	Aquatic	Freshwater	Drinking water	Chlorinated	freshwater biome	well	drinking water	ENVO_00000873	ENVO_00000026	ENVO_00003064	1
+879	Environmental	Aquatic	Freshwater	Drinking water	Chlorinated	freshwater biome	well	groundwater	ENVO_00000873	ENVO_00000026	ENVO_01001004	1
+880	Environmental	Aquatic	Freshwater	Drinking water	Delivery networks	freshwater biome	laboratory facility	drinking water	ENVO_00000873	ENVO_01001406	ENVO_00003064	1
+881	Environmental	Aquatic	Freshwater	Drinking water	Unchlorinated	aquatic biome		drinking water	ENVO_00002030		ENVO_00003064	1
+882	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater biome			ENVO_00000873			1
+883	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater biome		fresh water	ENVO_00000873		ENVO_00002011	1
+884	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater biome	hospital	drinking water	ENVO_00000873	ENVO_00002173	ENVO_00003064	1
+885	Environmental	Aquatic	Freshwater	Drinking water	Unclassified	freshwater river biome		biofilm	ENVO_01000253		ENVO_00002034	1
+886	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	aquatic biome	planetary structural layer	contaminated water	ENVO_00002030	ENVO_01000639	ENVO_00002186	1
+887	Environmental	Aquatic	Freshwater	Groundwater	Contaminated	freshwater biome	well	contaminated water	ENVO_00000873	ENVO_00000026	ENVO_00002186	1
+888	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	hydraulic fracturing	fresh water	ENVO_00002030	ENVO_01001868	ENVO_00002011	1
+889	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	aquatic biome	wetland area	groundwater	ENVO_00002030	ENVO_00000043	ENVO_01001004	1
+890	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome		fresh water	ENVO_00000873		ENVO_00002011	1
+891	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	cave	groundwater	ENVO_00000873	ENVO_00000067	ENVO_01001004	1
+892	Environmental	Aquatic	Freshwater	Groundwater	Unclassified	freshwater biome	planetary subsurface zone	contaminated water	ENVO_00000873	ENVO_01000941	ENVO_00002186	1
+893	Environmental	Aquatic	Freshwater	Ice	Glacier	freshwater biome	glacier ice field	ice	ENVO_00000873	ENVO_01001532	ENVO_01001125	1
+894	Environmental	Aquatic	Freshwater	Ice	Glacier	polar biome	glacier ice field	ice	ENVO_01000339	ENVO_01001532	ENVO_01001125	1
+895	Environmental	Aquatic	Freshwater	Ice	Ice accretions	polar biome	glacial lake	ice	ENVO_01000339	ENVO_00000488	ENVO_01001125	1
+896	Environmental	Aquatic	Freshwater	Ice	Unclassified	aquatic biome		ice	ENVO_00002030		ENVO_01001125	1
+897	Environmental	Aquatic	Freshwater	Ice	Unclassified	freshwater lake biome	freshwater lake	ice	ENVO_01000252	ENVO_00000021	ENVO_01001125	1
+898	Environmental	Aquatic	Freshwater	Ice	Unclassified	freshwater lake biome	ice-covered lake	ice	ENVO_01000252	ENVO_00000198	ENVO_01001125	1
+899	Environmental	Aquatic	Freshwater	Lake	Microbial mats	aquatic biome	lake	microbial mat	ENVO_00002030	ENVO_00000020	ENVO_01000008	1
+900	Environmental	Aquatic	Freshwater	Lake	Sediment	freshwater lake biome	polluted lake	lake sediment	ENVO_01000252	ENVO_01000680	ENVO_00000546	1
+901	Environmental	Aquatic	Freshwater	Lake	Unclassified	aquatic biome	hypersaline lake	lake water	ENVO_00002030	ENVO_01001020	ENVO_04000007	1
+902	Environmental	Aquatic	Freshwater	Lake	Unclassified	aquatic biome	lake	fresh water	ENVO_00002030	ENVO_00000020	ENVO_00002011	1
+903	Environmental	Aquatic	Freshwater	Lake	Unclassified	aquatic biome	puddle of water	Cyanobacteria	ENVO_00002030	ENVO_01000871	NCBITaxon_1117	1
+904	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater biome	anoxic lake	anoxic water	ENVO_00000873	ENVO_01001072	ENVO_01000173	1
+905	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome		lake water	ENVO_01000252		ENVO_04000007	1
+906	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	epilimnion	lake water	ENVO_01000252	ENVO_00002131	ENVO_04000007	1
+907	Environmental	Aquatic	Freshwater	Lake	Unclassified	freshwater lake biome	freshwater lake	anoxic water	ENVO_01000252	ENVO_00000021	ENVO_01000173	1
+908	Environmental	Aquatic	Freshwater	Lentic	Limnetic zone	aquatic biome	rift lake	fresh water	ENVO_00002030	ENVO_00000203	ENVO_00002011	1
+909	Environmental	Aquatic	Freshwater	Lentic	Limnetic zone	aquatic biome	rift lake	lake water	ENVO_00002030	ENVO_00000203	ENVO_04000007	1
+910	Environmental	Aquatic	Freshwater	Lentic	Limnetic zone	freshwater lake biome	freshwater lake	lake water	ENVO_01000252	ENVO_00000021	ENVO_04000007	1
+911	Environmental	Aquatic	Freshwater	Lentic	Limnetic zone	polar biome	peninsula	fresh water	ENVO_01000339	ENVO_00000305	ENVO_00002011	1
+912	Environmental	Aquatic	Freshwater	Lentic	Sediment	aquatic biome	lentic water body	sediment	ENVO_00002030	ENVO_01000617	ENVO_00002007	1
+913	Environmental	Aquatic	Freshwater	Lentic	Sediment	aquatic biome	saline lake	lake sediment	ENVO_00002030	ENVO_00000019	ENVO_00000546	1
+914	Environmental	Aquatic	Freshwater	Lentic	Sediment	marine benthic biome	marine benthic feature	marine sediment	ENVO_01000024	ENVO_01000105	ENVO_03000033	1
+915	Environmental	Aquatic	Freshwater	Lentic	Unclassified							1
+916	Environmental	Aquatic	Freshwater	Lentic	Unclassified	aquatic biome	lake	brackish water	ENVO_00002030	ENVO_00000020	ENVO_00002019	1
+917	Environmental	Aquatic	Freshwater	Lentic	Unclassified	aquatic biome	rift lake	fresh water	ENVO_00002030	ENVO_00000203	ENVO_00002011	1
+918	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater biome	lentic water body	Cyanobacteria	ENVO_00000873	ENVO_01000617	NCBITaxon_1117	1
+919	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater lake biome	freshwater algal bloom	planktonic material	ENVO_01000252	ENVO_2000005	ENVO_01000063	1
+920	Environmental	Aquatic	Freshwater	Lentic	Unclassified	freshwater lake biome	glacial lake	microbial mat	ENVO_01000252	ENVO_00000488	ENVO_01000008	1
+921	Environmental	Aquatic	Freshwater	Lotic	Unclassified	aquatic biome	aquifer	groundwater	ENVO_00002030	ENVO_00012408	ENVO_01001004	1
+922	Environmental	Aquatic	Freshwater	Lotic	Unclassified	aquatic biome	lake	lake water	ENVO_00002030	ENVO_00000020	ENVO_04000007	1
+923	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	aquifer	sediment	ENVO_00000873	ENVO_00012408	ENVO_00002007	1
+924	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	delta	fresh water	ENVO_00000873	ENVO_00000101	ENVO_00002011	1
+925	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	hydrothermal vent	fresh water	ENVO_00000873	ENVO_00000215	ENVO_00002011	1
+926	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	reservoir	fresh water	ENVO_00000873	ENVO_00000025	ENVO_00002011	1
+927	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	sinkhole	microbial mat	ENVO_00000873	ENVO_00000195	ENVO_01000008	1
+928	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater biome	tributary	surface water	ENVO_00000873	ENVO_00000495	ENVO_00002042	1
+929	Environmental	Aquatic	Freshwater	Lotic	Unclassified	freshwater lake biome	freshwater lake	lake water	ENVO_01000252	ENVO_00000021	ENVO_04000007	1
+930	Environmental	Aquatic	Freshwater	Microbialites	Unclassified	freshwater lake biome	anoxic lake	lake water	ENVO_01000252	ENVO_01001072	ENVO_04000007	1
+931	Environmental	Aquatic	Freshwater	Microbialites	Unclassified	freshwater lake biome	freshwater lake	biofilm	ENVO_01000252	ENVO_00000021	ENVO_00002034	1
+932	Environmental	Aquatic	Freshwater	Pond	Sediment	freshwater biome	pond	contaminated water	ENVO_00000873	ENVO_00000033	ENVO_00002186	1
+933	Environmental	Aquatic	Freshwater	Pond	Unclassified	freshwater biome		pond water	ENVO_00000873		ENVO_00002228	1
+934	Environmental	Aquatic	Freshwater	Pond	Unclassified	freshwater biome	waterfall	fresh water	ENVO_00000873	ENVO_00000040	ENVO_00002011	1
+935	Environmental	Aquatic	Freshwater	Sediment	Unclassified	aquatic biome	hydraulic fracturing	sediment	ENVO_00002030	ENVO_01001868	ENVO_00002007	1
+936	Environmental	Aquatic	Freshwater	Sediment	Unclassified	aquatic biome	lake	lake sediment	ENVO_00002030	ENVO_00000020	ENVO_00000546	1
+937	Environmental	Aquatic	Freshwater	Sediment	Unclassified	freshwater biome	canal	sediment	ENVO_00000873	ENVO_00000014	ENVO_00002007	1
+938	Environmental	Aquatic	Freshwater	Subglacial lake	Unclassified	freshwater lake biome	subglacial lake	microbial mat	ENVO_01000252	ENVO_03000120	ENVO_01000008	1
+939	Environmental	Aquatic	Freshwater	Unclassified	Unclassified							1
+940	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome		sediment	ENVO_00000873		ENVO_00002007	1
+941	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	botanical garden	fresh water	ENVO_00000873	ENVO_00010624	ENVO_00002011	1
+942	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	freshwater biome	planetary subsurface zone	fresh water	ENVO_00000873	ENVO_01000941	ENVO_00002011	1
+943	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	polar biome	polar	fresh water	ENVO_01000339	ENVO_01000238	ENVO_00002011	1
+944	Environmental	Aquatic	Freshwater	Unclassified	Unclassified	terrestrial biome	construction	waste material	ENVO_00000446	ENVO_00000070	ENVO_00002264	1
+945	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	aquatic biome	lagoon	fresh water	ENVO_00002030	ENVO_00000038	ENVO_00002011	1
+946	Environmental	Aquatic	Freshwater	Wetlands	Unclassified	aquatic biome	peatland		ENVO_00002030	ENVO_00000044		1
+947	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	bay	biofilm	ENVO_00000447	ENVO_00000032	ENVO_00002034	1
+948	Environmental	Aquatic	Marine	Coastal	Sediment	marine biome	marine benthic feature	marine sediment	ENVO_00000447	ENVO_01000105	ENVO_03000033	1
+949	Environmental	Aquatic	Marine	Coastal	Unclassified	marine biome	marine water body	surface water	ENVO_00000447	ENVO_00001999	ENVO_00002042	1
+950	Environmental	Aquatic	Marine	Cold seeps	Unclassified	marine cold seep biome	cold seep		ENVO_01000127	ENVO_01000263		1
+951	Environmental	Aquatic	Marine	Cold seeps	Unclassified	marine cold seep biome	cold seep	marine sediment	ENVO_01000127	ENVO_01000263	ENVO_03000033	1
+952	Environmental	Aquatic	Marine	Cold seeps	Unclassified	marine cold seep biome	mud volcano		ENVO_01000127	ENVO_00000402		1
+953	Environmental	Aquatic	Marine	Fossil	Whale fall	marine biome	coastal water body	fossil	ENVO_00000447	ENVO_02000049	ENVO_00002164	1
+954	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	marine hydrothermal vent	hydrothermal fluid	ENVO_01000030	ENVO_01000122	ENVO_01000134	1
+955	Environmental	Aquatic	Marine	Hydrothermal vents	Sediment	marine hydrothermal vent biome	volcano	deep marine sediment	ENVO_01000030	ENVO_00000247	ENVO_00002113	1
+956	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent chimney		ENVO_01000030	ENVO_01000129		1
+957	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	marine hydrothermal vent chimney	hydrothermal fluid	ENVO_01000030	ENVO_01000129	ENVO_01000134	1
+958	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	marine hydrothermal vent biome	volcano	hydrothermal fluid	ENVO_01000030	ENVO_00000247	ENVO_01000134	1
+959	Environmental	Aquatic	Marine	Hydrothermal vents	Unclassified	oceanic bathypelagic zone biome	caldera	sea water	ENVO_01000037	ENVO_00000096	ENVO_00002149	1
+960	Environmental	Aquatic	Marine	Intertidal zone	Beach	marine biome	beach	coastal sea water	ENVO_00000447	ENVO_00000091	ENVO_00002150	1
+961	Environmental	Aquatic	Marine	Intertidal zone	Beach	marine biome	beach	sand	ENVO_00000447	ENVO_00000091	ENVO_01000017	1
+962	Environmental	Aquatic	Marine	Intertidal zone	Beach	marine biome	intertidal zone	sea water	ENVO_00000447	ENVO_00000316	ENVO_00002149	1
+963	Environmental	Aquatic	Marine	Intertidal zone	Estuary	estuarine biome	estuary	organism	ENVO_01000020	ENVO_00000045	OBI_0100026	1
+964	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	algal bloom	sea water	ENVO_00000447	ENVO_2000004	ENVO_00002149	1
+965	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	harbor	sea water	ENVO_00000447	ENVO_00000463	ENVO_00002149	1
+966	Environmental	Aquatic	Marine	Intertidal zone	Estuary	marine biome	intertidal zone	estuarine water	ENVO_00000447	ENVO_00000316	ENVO_01000301	1
+967	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	aquatic biome	island		ENVO_00002030	ENVO_00000098		1
+968	Environmental	Aquatic	Marine	Intertidal zone	Microbialites	marine biome	fjord	rock	ENVO_00000447	ENVO_00000039	ENVO_00001995	1
+969	Environmental	Aquatic	Marine	Intertidal zone	Oil-contaminated	marine biome	oil spill	sea water	ENVO_00000447	ENVO_00002061	ENVO_00002149	1
+970	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine biome	saline marsh		ENVO_00000447	ENVO_00000054		1
+971	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine salt marsh biome	saline evaporation pond	saline water	ENVO_01000022	ENVO_00000055	ENVO_00002010	1
+972	Environmental	Aquatic	Marine	Intertidal zone	Salt marsh	marine salt marsh biome	saline marsh	microbial mat	ENVO_01000022	ENVO_00000054	ENVO_01000008	1
+973	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine biome	bay	marine sediment	ENVO_00000447	ENVO_00000032	ENVO_03000033	1
+974	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine biome	intertidal zone	sediment	ENVO_00000447	ENVO_00000316	ENVO_00002007	1
+975	Environmental	Aquatic	Marine	Intertidal zone	Sediment	marine salt marsh biome	saline marsh	salt glacier	ENVO_01000022	ENVO_00000054	ENVO_01000450	1
+976	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	mangrove biome	mangrove swamp		ENVO_01000181	ENVO_00000057		1
+977	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	artificial lake	sea water	ENVO_00000447	ENVO_00000377	ENVO_00002149	1
+978	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	intertidal zone	microbial mat	ENVO_00000447	ENVO_00000316	ENVO_01000008	1
+979	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	intertidal zone	salt glacier	ENVO_00000447	ENVO_00000316	ENVO_01000450	1
+980	Environmental	Aquatic	Marine	Intertidal zone	Unclassified	marine biome	lagoon	sea water	ENVO_00000447	ENVO_00000038	ENVO_00002149	1
+981	Environmental	Aquatic	Marine	Mud volcano	Unclassified	marine benthic biome	mud volcano	marine sediment	ENVO_01000024	ENVO_00000402	ENVO_03000033	1
+982	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	marine neritic zone	planktonic material	ENVO_00000447	ENVO_00000206	ENVO_01000063	1
+983	Environmental	Aquatic	Marine	Neritic zone	Unclassified	marine biome	marine pelagic zone	sea water	ENVO_00000447	ENVO_00000208	ENVO_00002149	1
+984	Environmental	Aquatic	Marine	Oceanic	Abyssal plane	oceanic abyssopelagic zone biome	abyssal plain	planktonic material	ENVO_01000038	ENVO_00000244	ENVO_01000063	1
+985	Environmental	Aquatic	Marine	Oceanic	Aphotic zone	marine biome	marine photic zone	sea water	ENVO_00000447	ENVO_00000209	ENVO_00002149	1
+986	Environmental	Aquatic	Marine	Oceanic	Aphotic zone	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	1
+987	Environmental	Aquatic	Marine	Oceanic	Aphotic zone	ocean biome	marine aphotic zone	sea water	ENVO_01000048	ENVO_00000210	ENVO_00002149	1
+988	Environmental	Aquatic	Marine	Oceanic	Benthic	marine benthic biome	marine benthic feature	sea water	ENVO_01000024	ENVO_01000105	ENVO_00002149	1
+989	Environmental	Aquatic	Marine	Oceanic	Crustal Fluids	marine biome	oceanic subsurface zone		ENVO_00000447	ENVO_01001045		1
+990	Environmental	Aquatic	Marine	Oceanic	Microbial mats	ocean biome	oceanic zone	microbial mat	ENVO_01000048	ENVO_00000207	ENVO_01000008	1
+991	Environmental	Aquatic	Marine	Oceanic	Oil-contaminated	ocean biome	oil well	oil field production water	ENVO_01000048	ENVO_01000003	ENVO_00002194	1
+992	Environmental	Aquatic	Marine	Oceanic	Sediment	marine biome	marine benthic feature	deep marine sediment	ENVO_00000447	ENVO_01000105	ENVO_00002113	1
+993	Environmental	Aquatic	Marine	Oceanic	Sediment	oceanic abyssopelagic zone biome	marine benthic feature	marine sediment	ENVO_01000038	ENVO_01000105	ENVO_03000033	1
+994	Environmental	Aquatic	Marine	Oceanic	Unclassified							1
+995	Environmental	Aquatic	Marine	Oceanic	Unclassified	freshwater biome	borehole	groundwater	ENVO_00000873	ENVO_00002226	ENVO_01001004	1
+996	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine benthic biome	sea floor	marine sediment	ENVO_01000024	ENVO_00000482	ENVO_03000033	1
+997	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	area of sea ice	sea water	ENVO_00000447	ENVO_01001520	ENVO_00002149	1
+998	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	coastal water body	sea water	ENVO_00000447	ENVO_02000049	ENVO_00002149	1
+999	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	intertidal zone	sea water	ENVO_00000447	ENVO_00000316	ENVO_00002149	1
+1000	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	island	planktonic material	ENVO_00000447	ENVO_00000098	ENVO_01000063	1
+1001	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	marine benthic feature	sea water	ENVO_00000447	ENVO_01000105	ENVO_00002149	1
+1002	Environmental	Aquatic	Marine	Oceanic	Unclassified	marine biome	oceanic zone	Cyanobacteria	ENVO_00000447	ENVO_00000207	NCBITaxon_1117	1
+1003	Environmental	Aquatic	Marine	Oceanic	Unclassified	ocean biome	marine benthic feature	sea water	ENVO_01000048	ENVO_01000105	ENVO_00002149	1
+1004	Environmental	Aquatic	Marine	Oceanic	Unclassified	ocean biome	mid-ocean ridge	sea water	ENVO_01000048	ENVO_00000406	ENVO_00002149	1
+1005	Environmental	Aquatic	Marine	Oceanic	Unclassified	ocean biome	oceanic zone	planktonic material	ENVO_01000048	ENVO_00000207	ENVO_01000063	1
+1006	Environmental	Aquatic	Marine	Oceanic	Unclassified	oceanic abyssopelagic zone biome	abyssal plain	sea water	ENVO_01000038	ENVO_00000244	ENVO_00002149	1
+1007	Environmental	Aquatic	Marine	Pelagic	Unclassified	marine biome	marine water body	surface water	ENVO_00000447	ENVO_00001999	ENVO_00002042	1
+1008	Environmental	Aquatic	Marine	Pelagic	Unclassified	oceanic bathypelagic zone biome	marine bathypelagic zone	sea water	ENVO_01000037	ENVO_00000211	ENVO_00002149	1
+1009	Environmental	Aquatic	Marine	Sediment	Unclassified	marine biome	continental margin	marine sediment	ENVO_00000447	ENVO_01000298	ENVO_03000033	1
+1010	Environmental	Aquatic	Marine	Unclassified	Oil-contaminated sediment	aquatic biome	island		ENVO_00002030	ENVO_00000098		1
+1011	Environmental	Aquatic	Marine	Unclassified	Unclassified	aquatic biome		hypersaline water	ENVO_00002030		ENVO_00002012	1
+1012	Environmental	Aquatic	Marine	Unclassified	Unclassified	aquatic biome	lagoon	hypersaline water	ENVO_00002030	ENVO_00000038	ENVO_00002012	1
+1013	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine benthic biome	marine benthic feature	deep marine sediment	ENVO_01000024	ENVO_01000105	ENVO_00002113	1
+1014	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine benthic biome	oil spill	sea water	ENVO_01000024	ENVO_00002061	ENVO_00002149	1
+1015	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	area of rocky shore	sea water	ENVO_00000447	ENVO_01000428	ENVO_00002149	1
+1016	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	bay	sediment	ENVO_00000447	ENVO_00000032	ENVO_00002007	1
+1017	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	bayou	sea water	ENVO_00000447	ENVO_00000234	ENVO_00002149	1
+1018	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	beach		ENVO_00000447	ENVO_00000091		1
+1019	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	coastal water body	sea water	ENVO_00000447	ENVO_02000049	ENVO_00002149	1
+1020	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	coastal water body	surface water	ENVO_00000447	ENVO_02000049	ENVO_00002042	1
+1021	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	estuary	sea water	ENVO_00000447	ENVO_00000045	ENVO_00002149	1
+1022	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine benthic feature	brine	ENVO_00000447	ENVO_01000105	ENVO_00003044	1
+1023	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine benthic feature	marine sediment	ENVO_00000447	ENVO_01000105	ENVO_03000033	1
+1024	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	Cyanobacteria	ENVO_00000447	ENVO_00001999	NCBITaxon_1117	1
+1025	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	brine	ENVO_00000447	ENVO_00001999	ENVO_00003044	1
+1026	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	marine water body	mesotrophic water	ENVO_00000447	ENVO_00001999	ENVO_00002225	1
+1027	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine biome	rocky reef	sea water	ENVO_00000447	ENVO_00000130	ENVO_00002149	1
+1028	Environmental	Aquatic	Marine	Unclassified	Unclassified	marine coral reef biome	coral reef	sea sand	ENVO_01000049	ENVO_00000150	ENVO_00002118	1
+1029	Environmental	Aquatic	Marine	Unclassified	Unclassified	ocean biome	marine water body	sea water	ENVO_01000048	ENVO_00001999	ENVO_00002149	1
+1030	Environmental	Aquatic	Marine	Unclassified	Unclassified	oceanic abyssopelagic zone biome	sea floor	deep marine sediment	ENVO_01000038	ENVO_00000482	ENVO_00002113	1
+1031	Environmental	Aquatic	Marine	Unclassified	Unclassified	polar biome	glacial lake	meltwater	ENVO_01000339	ENVO_00000488	ENVO_01000722	1
+1032	Environmental	Aquatic	Marine	Volcanic	Unclassified	marine biome	hydrothermal field	hydrothermal fluid	ENVO_00000447	ENVO_01001854	ENVO_01000134	1
+1033	Environmental	Aquatic	Marine	Volcanic	Unclassified	marine hydrothermal vent biome	volcano	microbial mat	ENVO_01000030	ENVO_00000247	ENVO_01000008	1
+1034	Environmental	Aquatic	Marine	Wetlands	Unclassified	aquatic biome	wetland area	microbial mat	ENVO_00002030	ENVO_00000043	ENVO_01000008	1
+1035	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Microbial mats	freshwater lake biome	freshwater lake	microbial mat	ENVO_01000252	ENVO_00000021	ENVO_01000008	1
+1036	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Sediment	aquatic biome		brine	ENVO_00002030		ENVO_00003044	1
+1037	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Unclassified	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		1
+1038	Environmental	Aquatic	Non-marine Saline and Alkaline	Alkaline	Unclassified	aquatic biome	saline lake	lake sediment	ENVO_00002030	ENVO_00000019	ENVO_00000546	1
+1039	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Microbial mats	aquatic biome	lake	biofilm	ENVO_00002030	ENVO_00000020	ENVO_00002034	1
+1040	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Microbial mats	aquatic biome	spring	microbial mat	ENVO_00002030	ENVO_00000027	ENVO_01000008	1
+1041	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	1
+1042	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	hypersaline lake	brine	ENVO_00002030	ENVO_01001020	ENVO_00003044	1
+1043	Environmental	Aquatic	Non-marine Saline and Alkaline	Hypersaline	Unclassified	aquatic biome	saline evaporation pond		ENVO_00002030	ENVO_00000055		1
+1044	Environmental	Aquatic	Non-marine Saline and Alkaline	Near-boiling (>90C)	Alkaline	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		1
+1045	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Thalassic	marine biome	lagoon	saline water	ENVO_00000447	ENVO_00000038	ENVO_00002010	1
+1046	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	brackish water body	biofilm	ENVO_00002030	ENVO_01001321	ENVO_00002034	1
+1047	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	hypersaline lake	saline water	ENVO_00002030	ENVO_01001020	ENVO_00002010	1
+1048	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	island	saline water	ENVO_00002030	ENVO_00000098	ENVO_00002010	1
+1049	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	lake	brackish water	ENVO_00002030	ENVO_00000020	ENVO_00002019	1
+1050	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline evaporation pond		ENVO_00002030	ENVO_00000055		1
+1051	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline evaporation pond	sediment	ENVO_00002030	ENVO_00000055	ENVO_00002007	1
+1052	Environmental	Aquatic	Non-marine Saline and Alkaline	Saline	Unclassified	aquatic biome	saline lake	brackish water	ENVO_00002030	ENVO_00000019	ENVO_00002019	1
+1053	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	bay	sea water	ENVO_00002030	ENVO_00000032	ENVO_00002149	1
+1054	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	geyser	hypersaline water	ENVO_00002030	ENVO_00000050	ENVO_00002012	1
+1055	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	geyser	microbial mat	ENVO_00002030	ENVO_00000050	ENVO_01000008	1
+1056	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	aquatic biome	spring		ENVO_00002030	ENVO_00000027		1
+1057	Environmental	Aquatic	Non-marine Saline and Alkaline	Unclassified	Unclassified	estuarine biome	estuary	estuarine water	ENVO_01000020	ENVO_00000045	ENVO_01000301	1
+1058	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome		sediment	ENVO_00002030		ENVO_00002007	1
+1059	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	cryoconite hole	cryoconite deposit	ENVO_00002030	ENVO_03000039	ENVO_03000038	1
+1060	Environmental	Aquatic	Sediment	Unclassified	Unclassified	aquatic biome	mudflat	sediment	ENVO_00002030	ENVO_00000192	ENVO_00002007	1
+1061	Environmental	Aquatic	Sediment	Unclassified	Unclassified	estuarine biome	estuary		ENVO_01000020	ENVO_00000045		1
+1062	Environmental	Aquatic	Sediment	Unclassified	Unclassified	freshwater biome	watershed	sediment	ENVO_00000873	ENVO_00000292	ENVO_00002007	1
+1063	Environmental	Aquatic	Sediment	Unclassified	Unclassified	marine benthic biome	marine benthic feature	deep marine sediment	ENVO_01000024	ENVO_01000105	ENVO_00002113	1
+1064	Environmental	Aquatic	Sediment	Unclassified	Unclassified	marine hydrothermal vent biome	mud volcano	marine sediment	ENVO_01000030	ENVO_00000402	ENVO_03000033	1
+1065	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Acidic	aquatic biome	geyser		ENVO_00002030	ENVO_00000050		1
+1066	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Acidic	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	1
+1067	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Acidic	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	1
+1068	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Acidic	freshwater lake biome	freshwater lake	microbial mat	ENVO_01000252	ENVO_00000021	ENVO_01000008	1
+1069	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Alkaline							1
+1070	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Alkaline	aquatic biome	hot spring	alkaline water	ENVO_00002030	ENVO_00000051	ENVO_01000357	1
+1071	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Alkaline	aquatic biome	hot spring	microbial mat	ENVO_00002030	ENVO_00000051	ENVO_01000008	1
+1072	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Alkaline	aquatic biome	hot spring	sediment	ENVO_00002030	ENVO_00000051	ENVO_00002007	1
+1073	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Alkaline	aquatic biome	pond	sediment	ENVO_00002030	ENVO_00000033	ENVO_00002007	1
+1074	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Neutral	aquatic biome	hydrothermal vent		ENVO_00002030	ENVO_00000215		1
+1075	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Unclassified	aquatic biome	geothermally active field	hydrothermal fluid	ENVO_00002030	ENVO_01001851	ENVO_01000134	1
+1076	Environmental	Aquatic	Thermal springs	Hot (42-90C)	Unclassified	aquatic biome	hypersaline lake	microbial mat	ENVO_00002030	ENVO_01001020	ENVO_01000008	1
+1077	Environmental	Aquatic	Thermal springs	Sediment	Unclassified	aquatic biome	acid hot spring	sediment	ENVO_00002030	ENVO_00002120	ENVO_00002007	1
+1078	Environmental	Aquatic	Thermal springs	Tepid (25-34C)	Sediment	aquatic biome	volcano	sediment	ENVO_00002030	ENVO_00000247	ENVO_00002007	1
+1079	Environmental	Aquatic	Thermal springs	Tepid (25-34C)	Unclassified	aquatic biome	hot spring		ENVO_00002030	ENVO_00000051		1
+1080	Environmental	Aquatic	Thermal springs	Unclassified	Unclassified	aquatic biome	calcite hot spring	rock	ENVO_00002030	ENVO_00002143	ENVO_00001995	1
+1081	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome			ENVO_00002030			1
+1082	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome		Cyanobacteria	ENVO_00002030		NCBITaxon_1117	1
+1083	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	aquatic biome		biofilm	ENVO_00002030		ENVO_00002034	1
+1084	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	marine biome		microbial mat	ENVO_00000447		ENVO_01000008	1
+1085	Environmental	Aquatic	Unclassified	Unclassified	Unclassified	marine biome		sea water	ENVO_00000447		ENVO_00002149	1
+1086	Environmental	Terrestrial	Agricultural field	Unclassified	Unclassified	terrestrial biome	industrial building		ENVO_00000446	ENVO_00003861		1
+1087	Environmental	Terrestrial	Cave	Unclassified	Unclassified	terrestrial biome	cave	biofilm	ENVO_00000446	ENVO_00000067	ENVO_00002034	1
+1088	Environmental	Terrestrial	Cave	Unclassified	Unclassified	terrestrial biome	lava tunnel	lava	ENVO_00000446	ENVO_00000110	ENVO_01000231	1
+1089	Environmental	Terrestrial	Deep subsurface	Aquifer	Unclassified	terrestrial biome	aquifer	groundwater	ENVO_00000446	ENVO_00012408	ENVO_01001004	1
+1090	Environmental	Terrestrial	Deep subsurface	Oil well	Unclassified	terrestrial biome	borehole	rock	ENVO_00000446	ENVO_00002226	ENVO_00001995	1
+1091	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	aquatic biome	aquifer	groundwater	ENVO_00002030	ENVO_00012408	ENVO_01001004	1
+1092	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	gas well		ENVO_00000446	ENVO_01001870		1
+1093	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	planetary subsurface zone		ENVO_00000446	ENVO_01000941		1
+1094	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	speleothem	limestone	ENVO_00000446	ENVO_00000327	ENVO_00002053	1
+1095	Environmental	Terrestrial	Deep subsurface	Unclassified	Unclassified	terrestrial biome	village	sediment	ENVO_00000446	ENVO_01000773	ENVO_00002007	1
+1096	Environmental	Terrestrial	Geologic	Mine	Unclassified	terrestrial biome	gold mine	fracking liquid	ENVO_00000446	ENVO_00002168	ENVO_01001869	1
+1097	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	desert biome	endolithic environment		ENVO_01000179	ENVO_01000303		1
+1098	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	desert biome	endolithic environment	rock	ENVO_01000179	ENVO_01000303	ENVO_00001995	1
+1099	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	polar biome	polar	permafrost	ENVO_01000339	ENVO_01000238	ENVO_00000134	1
+1100	Environmental	Terrestrial	Geologic	Unclassified	Unclassified	terrestrial biome	saline evaporation pond		ENVO_00000446	ENVO_00000055		1
+1101	Environmental	Terrestrial	Nest	Alligator nest	Unclassified	terrestrial biome		soil	ENVO_00000446		ENVO_00001998	1
+1102	Environmental	Terrestrial	Rock-dwelling (endoliths)	Unclassified	Unclassified	terrestrial biome	aquifer	rock	ENVO_00000446	ENVO_00012408	ENVO_00001995	1
+1103	Environmental	Terrestrial	Rock-dwelling (endoliths)	Unclassified	Unclassified	terrestrial biome	endolithic environment		ENVO_00000446	ENVO_01000303		1
+1104	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	acid mine drainage	rock	ENVO_00000446	ENVO_00001997	ENVO_00001995	1
+1105	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	geyser	microbial mat	ENVO_00000446	ENVO_00000050	ENVO_01000008	1
+1106	Environmental	Terrestrial	Rock-dwelling (subaerial biofilms)	Unclassified	Unclassified	terrestrial biome	waterfall	rock	ENVO_00000446	ENVO_00000040	ENVO_00001995	1
+1107	Environmental	Terrestrial	Soil	Bulk soil	Agricultural land	terrestrial biome	agricultural field	bulk soil	ENVO_00000446	ENVO_00000114	ENVO_00005802	1
+1108	Environmental	Terrestrial	Soil	Clay	Contaminated	forest biome	land	contaminated soil	ENVO_01000174	ENVO_01001785	ENVO_00002116	1
+1109	Environmental	Terrestrial	Soil	Clay	Contaminated	terrestrial biome		contaminated soil	ENVO_00000446		ENVO_00002116	1
+1110	Environmental	Terrestrial	Soil	Clay	Contaminated	terrestrial biome	land	contaminated soil	ENVO_00000446	ENVO_01001785	ENVO_00002116	1
+1111	Environmental	Terrestrial	Soil	Clay	Grasslands	grassland biome	fumarole	sediment	ENVO_01000177	ENVO_00000216	ENVO_00002007	1
+1112	Environmental	Terrestrial	Soil	Clay	Unclassified	terrestrial biome	land	clay	ENVO_00000446	ENVO_01001785	ENVO_00002982	1
+1113	Environmental	Terrestrial	Soil	Fossil	Unclassified	terrestrial biome	cave	fossil	ENVO_00000446	ENVO_00000067	ENVO_00002164	1
+1114	Environmental	Terrestrial	Soil	Fossil	Unclassified	terrestrial biome	river	fossil	ENVO_00000446	ENVO_00000022	ENVO_00002164	1
+1115	Environmental	Terrestrial	Soil	Loam	Contaminated	mangrove biome	mangrove swamp	sediment	ENVO_01000181	ENVO_00000057	ENVO_00002007	1
+1116	Environmental	Terrestrial	Soil	Loam	Contaminated	terrestrial biome	land	contaminated soil	ENVO_00000446	ENVO_01001785	ENVO_00002116	1
+1117	Environmental	Terrestrial	Soil	Loam	Grasslands	grassland biome	lake	grassland soil	ENVO_01000177	ENVO_00000020	ENVO_00005750	1
+1118	Environmental	Terrestrial	Soil	Loam	Unclassified	grassland biome	land	loam	ENVO_01000177	ENVO_01001785	ENVO_00002258	1
+1119	Environmental	Terrestrial	Soil	Loam	Unclassified	terrestrial biome	land	loam	ENVO_00000446	ENVO_01001785	ENVO_00002258	1
+1120	Environmental	Terrestrial	Soil	Loam	Unclassified	terrestrial biome	rhizosphere	bulk soil	ENVO_00000446	ENVO_00005801	ENVO_00005802	1
+1121	Environmental	Terrestrial	Soil	Sand	Desert	desert biome	desert	desert sand	ENVO_01000179	ENVO_01001357	ENVO_00005800	1
+1122	Environmental	Terrestrial	Soil	Sand	Desert	terrestrial biome	dry valley	permafrost	ENVO_00000446	ENVO_00000128	ENVO_00000134	1
+1123	Environmental	Terrestrial	Soil	Sand	Forest soil	forest biome	soil surface layer	forest soil	ENVO_01000174	ENVO_04000010	ENVO_00002261	1
+1124	Environmental	Terrestrial	Soil	Sand	Grasslands	grassland biome	land	grassland soil	ENVO_01000177	ENVO_01001785	ENVO_00005750	1
+1125	Environmental	Terrestrial	Soil	Sand	Unclassified	desert biome	desert	desert sand	ENVO_01000179	ENVO_01001357	ENVO_00005800	1
+1126	Environmental	Terrestrial	Soil	Sand	Unclassified	forest biome	sea coast	sand	ENVO_01000174	ENVO_00000303	ENVO_01000017	1
+1127	Environmental	Terrestrial	Soil	Sand	Unclassified	mangrove biome	mangrove swamp	soil	ENVO_01000181	ENVO_00000057	ENVO_00001998	1
+1128	Environmental	Terrestrial	Soil	Sand	Unclassified	marine biome	marine water body	sea water	ENVO_00000447	ENVO_00001999	ENVO_00002149	1
+1129	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome	glacial feature	sand	ENVO_00000446	ENVO_00000131	ENVO_01000017	1
+1130	Environmental	Terrestrial	Soil	Sand	Unclassified	terrestrial biome	land	sand	ENVO_00000446	ENVO_01001785	ENVO_01000017	1
+1131	Environmental	Terrestrial	Soil	Silt	Unclassified	terrestrial biome	land	silt	ENVO_00000446	ENVO_01001785	ENVO_01000016	1
+1132	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	garden	garden soil	ENVO_00000446	ENVO_00000011	ENVO_00002263	1
+1133	Environmental	Terrestrial	Soil	Unclassified	Agricultural	terrestrial biome	paddy field	paddy field soil	ENVO_00000446	ENVO_00000297	ENVO_00005740	1
+1134	Environmental	Terrestrial	Soil	Unclassified	Agricultural land	terrestrial biome	land	soil	ENVO_00000446	ENVO_01001785	ENVO_00001998	1
+1135	Environmental	Terrestrial	Soil	Unclassified	Contaminated	terrestrial biome	agricultural field	agricultural soil	ENVO_00000446	ENVO_00000114	ENVO_00002259	1
+1136	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	mangrove swamp	forest soil	ENVO_01000174	ENVO_00000057	ENVO_00002261	1
+1137	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	forest biome	temperate forest	forest soil	ENVO_01000174	ENVO_01001805	ENVO_00002261	1
+1138	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	freshwater river biome	river	sediment	ENVO_01000253	ENVO_00000022	ENVO_00002007	1
+1139	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	mixed forest biome	area of mixed forest	forest soil	ENVO_01000198	ENVO_01000855	ENVO_00002261	1
+1140	Environmental	Terrestrial	Soil	Unclassified	Forest Soil	terrestrial biome	plateau	soil	ENVO_00000446	ENVO_00000182	ENVO_00001998	1
+1141	Environmental	Terrestrial	Soil	Unclassified	Permafrost	polar biome	active permafrost layer	permafrost	ENVO_01000339	ENVO_04000009	ENVO_00000134	1
+1142	Environmental	Terrestrial	Soil	Unclassified	Permafrost	terrestrial biome	river	permafrost	ENVO_00000446	ENVO_00000022	ENVO_00000134	1
+1143	Environmental	Terrestrial	Soil	Unclassified	Shrubland	terrestrial biome	rhizosphere	soil	ENVO_00000446	ENVO_00005801	ENVO_00001998	1
+1144	Environmental	Terrestrial	Soil	Unclassified	Unclassified	aquatic biome	river	sediment	ENVO_00002030	ENVO_00000022	ENVO_00002007	1
+1145	Environmental	Terrestrial	Soil	Unclassified	Unclassified	desert biome	desert	surface soil	ENVO_01000179	ENVO_01001357	ENVO_02000059	1
+1146	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	forest floor	burned soil	ENVO_01000174	ENVO_01001582	ENVO_00005760	1
+1147	Environmental	Terrestrial	Soil	Unclassified	Unclassified	forest biome	temperate forest	forest soil	ENVO_01000174	ENVO_01001805	ENVO_00002261	1
+1148	Environmental	Terrestrial	Soil	Unclassified	Unclassified	grassland biome	wetland area	soil	ENVO_01000177	ENVO_00000043	ENVO_00001998	1
+1149	Environmental	Terrestrial	Soil	Unclassified	Unclassified	polar biome	active permafrost layer	soil	ENVO_01000339	ENVO_04000009	ENVO_00001998	1
+1150	Environmental	Terrestrial	Soil	Unclassified	Unclassified	temperate coniferous forest biome	land	forest soil	ENVO_01000211	ENVO_01001785	ENVO_00002261	1
+1151	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome		contaminated soil	ENVO_00000446		ENVO_00002116	1
+1152	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	archeological site	fossil	ENVO_00000446	ENVO_00000564	ENVO_00002164	1
+1153	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	bayou	soil	ENVO_00000446	ENVO_00000234	ENVO_00001998	1
+1154	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	glacial feature	sediment	ENVO_00000446	ENVO_00000131	ENVO_00002007	1
+1155	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	glacial feature	soil	ENVO_00000446	ENVO_00000131	ENVO_00001998	1
+1156	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	glacier	soil	ENVO_00000446	ENVO_00000133	ENVO_00001998	1
+1157	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	lake	soil	ENVO_00000446	ENVO_00000020	ENVO_00001998	1
+1158	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	land	clay	ENVO_00000446	ENVO_01001785	ENVO_00002982	1
+1159	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	marsh	soil	ENVO_00000446	ENVO_00000035	ENVO_00001998	1
+1160	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	mine	soil	ENVO_00000446	ENVO_00000076	ENVO_00001998	1
+1161	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	nest of termite	soil	ENVO_00000446	ENVO_2000006	ENVO_00001998	1
+1162	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	orchard	orchard soil	ENVO_00000446	ENVO_00000115	ENVO_00005772	1
+1163	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	orchard	surface soil	ENVO_00000446	ENVO_00000115	ENVO_02000059	1
+1164	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	paddy field	bulk soil	ENVO_00000446	ENVO_00000297	ENVO_00005802	1
+1165	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	park	soil biocrust	ENVO_00000446	ENVO_00000562	ENVO_01000910	1
+1166	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	pond	soil	ENVO_00000446	ENVO_00000033	ENVO_00001998	1
+1167	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	spring	soil	ENVO_00000446	ENVO_00000027	ENVO_00001998	1
+1168	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	terrestrial mountain	soil	ENVO_00000446	ENVO_01001453	ENVO_00001998	1
+1169	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	track	soil	ENVO_00000446	ENVO_00000122	ENVO_00001998	1
+1170	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	valley	soil	ENVO_00000446	ENVO_00000100	ENVO_00001998	1
+1171	Environmental	Terrestrial	Soil	Unclassified	Unclassified	terrestrial biome	well	soil	ENVO_00000446	ENVO_00000026	ENVO_00001998	1
+1172	Environmental	Terrestrial	Soil	Wetlands	Permafrost	terrestrial biome	palsa mire	soil	ENVO_00000446	ENVO_00000188	ENVO_00001998	1
+1173	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	saline wetland	soil	ENVO_00000446	ENVO_00000240	ENVO_00001998	1
+1174	Environmental	Terrestrial	Soil	Wetlands	Unclassified	terrestrial biome	sphagnum bog	peat soil	ENVO_00000446	ENVO_00002268	ENVO_00005774	1
+1175	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	polar biome	cryoconite hole	ice	ENVO_01000339	ENVO_03000039	ENVO_01001125	1
+1176	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	polar biome	glacier ice field	ice	ENVO_01000339	ENVO_01001532	ENVO_01001125	1
+1177	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	terrestrial biome			ENVO_00000446			1
+1178	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	terrestrial biome	oil reservoir	oil field production water	ENVO_00000446	ENVO_00002185	ENVO_00002194	1
+1179	Environmental	Terrestrial	Unclassified	Unclassified	Unclassified	terrestrial biome	stalagmite	rock	ENVO_00000446	ENVO_00000330	ENVO_00001995	1
+1180	Environmental	Terrestrial	Volcanic	Fumaroles	Unclassified	terrestrial biome	volcano	sediment	ENVO_00000446	ENVO_00000247	ENVO_00002007	1
+1181	Environmental	Terrestrial	Volcanic	Unclassified	Unclassified	terrestrial biome	mud volcano	sediment	ENVO_00000446	ENVO_00000402	ENVO_00002007	1
+1182	Environmental	Unclassified	Unclassified	Unclassified	Unclassified							1
+1183	Environmental	Unclassified	Unclassified	Unclassified	Unclassified	terrestrial biome	fen	surface soil	ENVO_00000446	ENVO_00000232	ENVO_02000059	1
+1184	Environmental	Unclassified	Unclassified	Unclassified	Unclassified	terrestrial biome	rhizosphere	rhizosphere	ENVO_00000446	ENVO_00005801	ENVO_00005801	1
