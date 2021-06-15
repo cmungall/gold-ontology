@@ -4,14 +4,15 @@ import re
 import urllib
 import hashlib
 from rdflib import Namespace, URIRef
-from rdflib.namespace import RDFS
+from rdflib.namespace import RDFS, SKOS
 from typing import List
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
-    ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix
+    SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix
 
-GOLD = Namespace('https://w3id.org/gold/')
+GOLD_PATH = Namespace('https://w3id.org/gold.path/')
+GOLD_VOCAB = Namespace('https://w3id.org/gold.vocab/')
 
-COLS = ['ECOSYSTEM PATH ID','ECOSYSTEM', 'ECOSYSTEM CATEGORY', 'ECOSYSTEM TYPE', 'ECOSYSTEM SUBTYPE', 'SPECIFIC ECOSYSTEM']
+GOLDPATH_COLS = ['ECOSYSTEM PATH ID', 'ECOSYSTEM', 'ECOSYSTEM CATEGORY', 'ECOSYSTEM TYPE', 'ECOSYSTEM SUBTYPE', 'SPECIFIC ECOSYSTEM']
 UNC = 'Unclassified'
 Label = str
 
@@ -19,23 +20,29 @@ def make_label(row: List[str]) -> Label:
     n = " > ".join(row)
     return n
 
+def safe_id(atom: str) -> str:
+    return urllib.parse.quote(atom.replace(' ', '-'))
+
 def make_uri(id: str) -> str:
     return f'gold.path:{id}'
-def make_uri_from_atom(atom: str) -> str:
+def make_curie_for_atom(atom: str) -> str:
     #return make_uri(urllib.parse.quote(atom))
-    return make_uri(urllib.parse.quote(atom.replace(' ', '-')))
+    id = safe_id(atom)
+    return f'gold.vocab:{id}'
 
-def translate(f: str):
+def translate_goldpaths(f: str):
     o = Ontology("http://purl.obolibrary.org/obo/gold.owl")
     o.annotation(RDFS.label, 'gold')
-    doc = OntologyDocument(GOLD, o)
-    doc.prefixDeclarations.append(Prefix('gold.path', GOLD))
+    doc = OntologyDocument(GOLD_PATH, o)
+    doc.prefixDeclarations.append(Prefix('gold.path', GOLD_PATH))
+    doc.prefixDeclarations.append(Prefix('gold.vocab', GOLD_VOCAB))
     row2id = {}
+    atom2ecosystem = {}
     atoms = set()
     with open(f, 'r') as stream:
         reader = csv.reader(stream, delimiter='\t')
         for row in reader:
-            if row[0] == COLS[0]:
+            if row[0] == GOLDPATH_COLS[0]:
                 continue
             while row[-1] == UNC:
                 row.pop()
@@ -43,21 +50,27 @@ def translate(f: str):
             if id == '':
                 continue
             row = row[1:]
-            for x in row:
-                atoms.add(x)
+            for a in row:
+                atoms.add(a)
+                if a not in atom2ecosystem:
+                    atom2ecosystem[a] = {}
+                atom2ecosystem[a][row[0]] = True
             c = make_uri(id)
             row2id[tuple(row)] = c
     RootAE = make_uri('AtomicElement')
     for a in atoms:
-        c = make_uri_from_atom(a)
+        c = make_curie_for_atom(a)
         o.axioms.append(AnnotationAssertion(RDFS.label, c, a))
-        o.axioms.append(ClassAssertion(RootAE, c))
+        #o.axioms.append(ClassAssertion(RootAE, c))
+        o.axioms.append(SubClassOf(c, RootAE))
+        for e in atom2ecosystem[a].keys():
+            o.axioms.append(AnnotationAssertion(SKOS.inScheme, c, make_uri(e)))
     # fill in missing parts
     for row, id in row2id.copy().items():
         parent = row[0:-1]
         while parent != ():
             if parent not in row2id:
-                row2id[parent] = make_uri_from_atom('-'.join(parent))
+                row2id[parent] = make_uri(safe_id('-'.join(parent)))
             parent = parent[0:-1]
     # tree
     for row, id in row2id.items():
@@ -73,9 +86,9 @@ def translate(f: str):
         i = 0
         xs = []
         for v in row:
-            vc = make_uri_from_atom(v)
-            vp = make_uri_from_atom(COLS[i])
-            svf = ObjectHasValue(vp, vc)
+            vc = make_curie_for_atom(v)
+            vp = make_curie_for_atom(GOLDPATH_COLS[i])
+            svf = ObjectSomeValuesFrom(vp, vc)
             xs.append(svf)
             i += 1
         if len(xs) > 1:
@@ -83,9 +96,9 @@ def translate(f: str):
         elif len(xs) == 1:
             ixn = xs[0]
         o.equivalentClasses(c, ixn)
-    for c in COLS:
-        vp = make_uri_from_atom(c)
-        o.subObjectPropertyOf(vp, make_uri_from_atom('environmental_property'))
+    for c in GOLDPATH_COLS:
+        vp = make_curie_for_atom(c)
+        o.subObjectPropertyOf(vp, make_curie_for_atom('environmental_property'))
     return doc
 
 
@@ -95,7 +108,7 @@ def translate(f: str):
 @click.option('-o', '--output')
 @click.argument('input')
 def cli(input: str, output: str):
-    doc = translate(input)
+    doc = translate_goldpaths(input)
     with open(output, 'w') as stream:
         stream.write(str(doc))
 
