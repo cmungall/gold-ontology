@@ -1,8 +1,10 @@
 *.ofn
 .idea
 venv
-__pycache_
 .DS_Store
 .ipynb_checkpoints
 .idea
 *~
+__pycache__
+RDF-Cache/
+*.tmp
