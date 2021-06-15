@@ -30,8 +30,10 @@ downloads/ncbitaxon.owl:
 downloads/obo.owl: $(ONTS_OWL)
 	robot merge $(patsubst %, -i downloads/%.owl, $(ONTS)) -o $@
 
+mappings/gold-to-%.sssom.tsv: mappings/auto-gold-to-%.sssom.tsv
+	python -m sssom.cli dedupe -i $< > $@
 
-mappings/gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl config/envo_weights.pro
+mappings/auto-gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl config/envo_weights.pro
 	rdfmatch -p gold.vocab -i $< -i gold.owl -i config/prefixes.ttl -w config/envo_weights.pro match > $@.tmp && mv $@.tmp $@
 
 mappings/nomatch-gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl config/envo_weights.pro

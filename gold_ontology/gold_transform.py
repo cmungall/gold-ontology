@@ -9,16 +9,19 @@ from typing import List
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
     SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix
 
+ENVO = Namespace('http://purl.obolibrary.org/obo/ENVO_')
 GOLD_PATH = Namespace('https://w3id.org/gold.path/')
+ENVO_PATH = Namespace('https://w3id.org/gold.path/')
 GOLD_VOCAB = Namespace('https://w3id.org/gold.vocab/')
 OIO = Namespace('http://www.geneontology.org/formats/oboInOwl#')
 
 GOLDPATH_COLS = ['ECOSYSTEM PATH ID', 'ECOSYSTEM', 'ECOSYSTEM CATEGORY', 'ECOSYSTEM TYPE', 'ECOSYSTEM SUBTYPE', 'SPECIFIC ECOSYSTEM']
+ENVOPATH_COLS = ['env_package', 'env_broad_scale', 'env_local_scale', 'env_medium']
 UNC = 'Unclassified'
 Label = str
 
-def make_label(row: List[str]) -> Label:
-    n = " > ".join(row)
+def make_label(row: List[str], sep=' > ') -> Label:
+    n = sep.join(row)
     return n
 
 def safe_id(atom: str) -> str:
@@ -88,6 +91,56 @@ def translate_goldpaths(f: str):
         xs = []
         for v in row:
             vc = make_curie_for_atom(v)
+            vp = make_curie_for_atom(GOLDPATH_COLS[i])
+            svf = ObjectSomeValuesFrom(vp, vc)
+            xs.append(svf)
+            i += 1
+        if len(xs) > 1:
+            ixn = ObjectIntersectionOf(*xs)
+        elif len(xs) == 1:
+            ixn = xs[0]
+        o.equivalentClasses(c, ixn)
+    for c in GOLDPATH_COLS:
+        vp = make_curie_for_atom(c)
+        o.subObjectPropertyOf(vp, make_curie_for_atom('environmental_property'))
+    return doc
+
+def translate_envopaths(f: str):
+    o = Ontology("http://purl.obolibrary.org/obo/envo/paths.owl")
+    o.annotation(RDFS.label, 'envo pahs')
+    doc = OntologyDocument(ENVO, o)
+    doc.prefixDeclarations.append(Prefix('envo.path', ENVO_PATH))
+    doc.prefixDeclarations.append(Prefix('ENVO', ENVO))
+    row2id = {}
+    atom2ecosystem = {}
+    atoms = set()
+    with open(f, 'r') as stream:
+        reader = csv.DictReader(stream, delimiter='\t')
+        for item in reader:
+            row = [item[k] for k in ENVOPATH_COLS]
+            id = make_envopath_id(row)
+            row2id[tuple(row)] = c
+    # fill in missing parts
+    for row, id in row2id.copy().items():
+        parent = row[0:-1]
+        while parent != ():
+            if parent not in row2id:
+                row2id[parent] = make_envopath_id(parent)
+            parent = parent[0:-1]
+    # tree
+    for row, id in row2id.items():
+        parent = row[0:-1]
+        if parent != ():
+            o.subClassOf(id, row2id[parent])
+    # labels
+    for t, c in row2id.items():
+        row = list(t)
+        label = make_label(row, '/') + ' sample'
+        o.axioms.append(AnnotationAssertion(RDFS.label, c, label))
+        i = 0
+        xs = []
+        for v in row:
+            vc = envo_id(v)
             vp = make_curie_for_atom(GOLDPATH_COLS[i])
             svf = ObjectSomeValuesFrom(vp, vc)
             xs.append(svf)
