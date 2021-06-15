@@ -35277,7 +35277,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bathypelagic">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
-        <oboInOwl:hasExactSynonym> marine bathypelagic zoneBathypelagic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>marine bathypelagic zone</oboInOwl:hasExactSynonym>
         <rdfs:label>Bathypelagic</rdfs:label>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
