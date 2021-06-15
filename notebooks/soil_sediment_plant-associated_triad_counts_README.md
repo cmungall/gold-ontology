@@ -1,0 +1,4 @@
+- rename to reflect INSDC origin
+- indicate source of data
+    - I used a local SQLite db, but the TSV is avaialble at XXX
+    - 
