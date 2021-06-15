@@ -15,6 +15,11 @@ gold.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv
 data/gold-biosample-subset.db: data/gold-biosample-subset.tsv
 	sqlite3 $@ -cmd ".mode tabs" ".import $< biosample"
 
+.PHONY: requirements-file
+requirements-file:
+# calls pipenv to generate the requirements.txt and requirements-dev.txt files
+        pipenv run pipenv_to_requirements
+
 ONTS = envo uberon po obi pato foodon ncbitaxon
 ONTS_OWL = $(patsubst %, downloads/%.owl, $(ONTS))
 downloads/%.owl:
@@ -31,3 +36,4 @@ mappings/gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl confi
 
 mappings/nomatch-gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl config/envo_weights.pro
 	rdfmatch -p gold.vocab -i $< -i gold.owl -i config/prefixes.ttl -w config/envo_weights.pro nomatch > $@.tmp && mv $@.tmp $@
+
