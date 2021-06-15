@@ -1,0 +1,480 @@
+env_package	env_broad_scale	env_broad_scale_label	env_local_scale	env_local_scale_label	env_medium	env_medium_label	count(1)
+soil	ENVO:01000245	cropland biome			ENVO:00001998	soil	4739
+sediment	ENVO:01000027	marine abyssal zone biome	ENVO:01000073	marine oligotrophic desert	ENVO:01000001	mud	3917
+soil					ENVO:00001998	soil	1222
+soil	ENVO:01000249	urban biome	ENVO:00005755	field soil	ENVO:00001998	soil	708
+plant-associated	ENVO:00005801	rhizosphere	NCBITaxon:1	root			558
+soil	ENVO:01000180	tundra biome	ENVO:00000112	tundra	ENVO:00001998	soil	442
+plant-associated	ENVO:00005801	rhizosphere					346
+soil	ENVO:01000245	cropland biome	ENVO:00005759	alluvial paddy field soil	ENVO:00001998	soil	320
+plant-associated	ENVO:01000245	cropland biome	ENVO:00000296	rice field	ENVO:00005801	rhizosphere	310
+soil	ENVO:01000245	cropland biome	ENVO:00000113	cultivated habitat	ENVO:00001998	soil	295
+sediment	ENVO:00000447	marine biome	ENVO:00000206	marine neritic zone	ENVO:03000033	marine sediment	276
+soil	ENVO:01000245	cropland biome	ENVO:00000116	vineyard	ENVO:00001998	soil	239
+sediment					ENVO:00002007	sediment	221
+plant-associated	ENVO:00000114	agricultural field					220
+plant-associated	PO:0025034	leaf					219
+soil	ENVO:01000174	forest biome	ENVO:00002261	forest soil	ENVO:00001998	soil	207
+soil	ENVO:01000194	montane grassland biome	ENVO:00005777	steppe soil	ENVO:00001998	soil	206
+soil							203
+plant-associated	ENVO:01001794	temperate broadleaf forest			ENVO:00002040	wood	198
+sediment	ENVO:01000020	estuarine biome	ENVO:00002160	estuarine mud	ENVO:00002007	sediment	193
+soil	ENVO:00000873	freshwater biome	ENVO:00000243	freshwater wetland	ENVO:00001998	soil	192
+soil			ENVO:00001998	soil	ENVO:00001998	soil	185
+soil	ENVO:01000245	cropland biome			ENVO:00005801	rhizosphere	180
+plant-associated	ENVO:01000245	cropland biome			ENVO:01000155	organic material	176
+soil	ENVO:00000446	terrestrial biome	ENVO:00005755	field soil	ENVO:00001998	soil	170
+soil	ENVO:01000389	temperate mixed broadleaf forest	ENVO:00002261	forest soil	ENVO:00005783	leafy wood soil	162
+soil	ENVO:01000249	urban biome	ENVO:00002263	garden soil	ENVO:00001998	soil	151
+soil	ENVO:01001811	temperate grassland	ENVO:01001206	grassland ecosystem	ENVO:00001998	soil	150
+soil	ENVO:00000134	permafrost	ENVO:01001610	active layer in a cryosphere	ENVO:00001998	soil	146
+soil	ENVO:01000245	cropland biome	ENVO:00002259	agricultural soil	ENVO:00001998	soil	146
+sediment			ENVO:01000774	oligotrophic lake	ENVO:00002007	sediment	140
+sediment	ENVO:00000447	marine biome	ENVO:00000316	intertidal zone	ENVO:03000033	marine sediment	140
+sediment	ENVO:01000024	marine benthic biome	ENVO:01000105	marine benthic feature	ENVO:00002113	deep marine sediment	138
+soil	ENVO:01000176	shrubland biome	ENVO:00005750	grassland soil	ENVO:00001998	soil	128
+soil	ENVO:01000214	tropical shrubland biome	ENVO:00000247	volcano	ENVO:00001998	soil	127
+soil	ENVO:01000186	polar desert biome			ENVO:01000017	sand	119
+soil	ENVO:01000245	cropland biome	ENVO:01000352	field	ENVO:00005802	bulk soil	117
+plant-associated					NCBITaxon:1	root	115
+soil	ENVO:00002261	forest soil			ENVO:00001998	soil	113
+soil	ENVO:01001805	temperate forest			ENVO:00001998	soil	111
+soil	ENVO:01001811	temperate grassland	ENVO:00005750	grassland soil	ENVO:00001998	soil	109
+plant-associated	ENVO:00000446	terrestrial biome	ENVO:00000011	garden	ENVO:00001998	soil	108
+plant-associated	ENVO:01000206	temperate			ENVO:00002005	air	108
+soil			ENVO:00002259	agricultural soil	ENVO:00001998	soil	108
+soil	ENVO:01000193	temperate grassland biome	ENVO:00002268	sphagnum bog	ENVO:00005774	peat soil	108
+soil	ENVO:01000195	flooded grassland biome	ENVO:00000232	fen	ENVO:00005774	peat soil	108
+sediment	ENVO:01000024	marine benthic biome	ENVO:03000033	marine sediment	ENVO:00002114	contaminated sediment	106
+soil	ENVO:01000249	urban biome	ENVO:00000469	research facility	ENVO:00001998	soil	105
+plant-associated							103
+sediment	ENVO:00000873	freshwater biome			ENVO:00002007	sediment	101
+plant-associated	ENVO:01000211	temperate coniferous forest biome	ENVO:01000433	needleleaf forest	ENVO:00002040	wood	99
+soil			ENVO:00002261	forest soil	ENVO:00001998	soil	98
+soil	ENVO:00002988	obsolete Temperate grasslands			ENVO:00001998	soil	96
+soil	ENVO:01000024	marine benthic biome	ENVO:00000318	high tide zone			96
+soil	ENVO:00000887	large river biome	ENVO:00000074	dam	ENVO:00001998	soil	95
+soil	ENVO:00000051	hot spring	ENVO:00000051	hot spring	ENVO:00002007	sediment	90
+soil	PCO:1000004	microbial community			ENVO:00000003	mine tailing	90
+soil	ENVO:01001357	desert	ENVO:03000116	snowpack	ENVO:00001998	soil	88
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat			87
+plant-associated			ENVO:00000260	prairie			85
+soil			ENVO:01000910	soil biocrust	ENVO:00001998	soil	84
+soil	ENVO:01000017	sand	ENVO:01000017	sand	ENVO:01000017	sand	81
+sediment							79
+soil	ENVO:00000446	terrestrial biome	ENVO:00001998	soil	ENVO:00002243	histosol	78
+plant-associated	ENVO:00000446	terrestrial biome					77
+soil	ENVO:01000179	desert biome	ENVO:00002000	slope	ENVO:00001998	soil	74
+soil			ENVO:01000687	coast	ENVO:00001998	soil	72
+soil	ENVO:01000193	temperate grassland biome	ENVO:00002875	oil contaminated soil	ENVO:00001998	soil	72
+soil	ENVO:01000193	temperate grassland biome	ENVO:00005755	field soil	ENVO:00001998	soil	72
+soil	ENVO:01001805	temperate forest	ENVO:01001209	wetland ecosystem			72
+soil	ENVO:01001357	desert			ENVO:00001998	soil	69
+sediment	ENVO:00000045	estuary	ENVO:00000022	river	ENVO:00002007	sediment	67
+soil	ENVO:00000446	terrestrial biome	ENVO:00000077	agricultural feature	ENVO:00005786	upland soil	66
+sediment	ENVO:01000249	urban biome	ENVO:00000469	research facility	ENVO:03000033	marine sediment	65
+soil	ENVO:01000245	cropland biome	ENVO:01000352	field	ENVO:00001998	soil	65
+plant-associated			ENVO:01000352	field			64
+soil	ENVO:00001998	soil					64
+soil	ENVO:00005784	spruce forest soil			ENVO:00001998	soil	64
+sediment	ENVO:01000024	marine benthic biome	ENVO:00000150	coral reef	ENVO:03000033	marine sediment	62
+soil	ENVO:00002261	forest soil	ENVO:01001804	subtropical forest	ENVO:00001998	soil	62
+soil	ENVO:01000196	coniferous forest biome	ENVO:00002261	forest soil	ENVO:00001998	soil	62
+soil	ENVO:01000245	cropland biome	ENVO:00000163	coffee plantation	ENVO:00001998	soil	62
+sediment	ENVO:01000024	marine benthic biome	ENVO:00002114	contaminated sediment	ENVO:03000033	marine sediment	61
+sediment	ENVO:00000447	marine biome	ENVO:00000223	continental shelf	ENVO:03000033	marine sediment	60
+soil	ENVO:01000228	tropical moist broadleaf forest biome	ENVO:00002261	forest soil	ENVO:00001998	soil	60
+sediment	ENVO:01000184	subtropical desert biome	ENVO:00000279	saline pan	ENVO:00002209	saline lake sediment	59
+soil	ENVO:01000245	cropland biome	ENVO:00000077	agricultural feature	ENVO:00001998	soil	58
+soil	ENVO:01000180	tundra biome	ENVO:00000277	dry lake	ENVO:00001998	soil	56
+plant-associated	ENVO:00000873	freshwater biome	ENVO:00000023	stream	ENVO:01000155	organic material	55
+sediment	ENVO:00000873	freshwater biome	ENVO:00000023	stream	ENVO:00002127	stream sediment	55
+plant-associated	ENVO:01000221	temperate woodland biome	ENVO:00000116	vineyard			54
+soil	ENVO:00000051	hot spring	ENVO:00000051	hot spring	ENVO:00001998	soil	54
+soil	ENVO:00001998	soil	ENVO:00002040	wood	ENVO:00001998	soil	54
+sediment	ENVO:00002030	aquatic biome			ENVO:00002007	sediment	51
+plant-associated	ENVO:00002011	fresh water	ENVO:01000966	private swimming pool	ENVO:00002224	eutrophic water	50
+sediment	ENVO:00000892	small lake biome			ENVO:00000546	lake sediment	50
+soil	ENVO:01000177	grassland biome	ENVO:00005750	grassland soil	ENVO:00001998	soil	50
+soil			ENVO:01001209	wetland ecosystem			49
+sediment	ENVO:00000447	marine biome	ENVO:01000105	marine benthic feature	ENVO:03000033	marine sediment	48
+soil	ENVO:01000186	polar desert biome	ENVO:00002236	cryosol	ENVO:00001998	soil	48
+soil	ENVO:01000245	cropland biome	ENVO:00000077	agricultural feature	ENVO:00002259	agricultural soil	48
+soil	ENVO:01000385	temperate deciduous broadleaf forest			ENVO:00001998	soil	48
+soil	ENVO:01000245	cropland biome	ENVO:00000469	research facility	ENVO:00001998	soil	47
+soil	ENVO:01000196	coniferous forest biome	ENVO:00005801	rhizosphere	ENVO:00005801	rhizosphere	46
+sediment			ENVO:00002007	sediment	ENVO:00002007	sediment	45
+sediment	ENVO:00000890	small river biome	ENVO:00002011	fresh water	ENVO:00002127	stream sediment	44
+soil	ENVO:01000174	forest biome			ENVO:00001998	soil	43
+sediment	ENVO:01000024	marine benthic biome	ENVO:01000105	marine benthic feature	ENVO:00002007	sediment	42
+soil			ENVO:00000134	permafrost	ENVO:00001998	soil	42
+sediment	ENVO:01000252	freshwater lake biome	ENVO:00000546	lake sediment	ENVO:00000546	lake sediment	41
+sediment	ENVO:00002113	deep marine sediment	ENVO:00002113	deep marine sediment	ENVO:00002007	sediment	40
+soil	ENVO:00000446	terrestrial biome	ENVO:00005750	grassland soil	ENVO:00002259	agricultural soil	40
+soil	ENVO:00001998	soil	ENVO:01000352	field	ENVO:00001998	soil	40
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:01001209	wetland ecosystem			40
+soil	ENVO:01000193	temperate grassland biome	ENVO:01000888	area of gramanoid or herbaceous vegetation	ENVO:02000059	surface soil	39
+sediment			ENVO:00002007	sediment	ENVO:00001998	soil	38
+soil	ENVO:00000876	obsolete Temperate broadleaf and mixed forest biome	ENVO:00000078	farm	ENVO:00002259	agricultural soil	38
+sediment	ENVO:00002007	sediment	NCBITaxon:1566338	enrichment culture	NCBITaxon:1566338	enrichment culture	36
+soil	ENVO:00001998	soil			ENVO:00005774	peat soil	36
+soil	ENVO:01000247	rangeland biome	ENVO:00005749	farm soil	ENVO:00001998	soil	35
+soil	ENVO:01000211	temperate coniferous forest biome	ENVO:00002261	forest soil	ENVO:00005784	spruce forest soil	34
+soil					NCBITaxon:2	Bacteria	33
+soil	ENVO:01000211	temperate coniferous forest biome	ENVO:00002261	forest soil	ENVO:00005769	mountain forest soil	33
+soil	ENVO:00000115	orchard	NCBITaxon:35925	Diospyros kaki	ENVO:00001998	soil	32
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:01000250	subpolar coniferous forest biome			31
+soil	ENVO:01000186	polar desert biome	ENVO:01000747	regolith	ENVO:00001998	soil	30
+sediment			ENVO:00000038	lagoon	ENVO:00002007	sediment	29
+sediment	ENVO:00000316	intertidal zone	ENVO:01000687	coast	ENVO:00001995	rock	29
+soil	ENVO:01001811	temperate grassland	ENVO:00000260	prairie	ENVO:00001998	soil	29
+sediment	ENVO:01000027	marine abyssal zone biome	ENVO:00000244	abyssal plain	ENVO:03000033	marine sediment	28
+soil	ENVO:00000051	hot spring	ENVO:00000051	hot spring			28
+soil	ENVO:00000446	terrestrial biome	ENVO:01000891	area of pastureland or hayfields	ENVO:02000059	surface soil	28
+soil	ENVO:00001998	soil	ENVO:01001785	land	ENVO:00001998	soil	28
+soil	ENVO:01000228	tropical moist broadleaf forest biome	ENVO:00005778	tropical soil	ENVO:00001998	soil	28
+soil	ENVO:01000245	cropland biome	ENVO:00005750	grassland soil	ENVO:00001998	soil	28
+sediment	ENVO:01000017	sand	ENVO:01000017	sand	ENVO:01000017	sand	27
+soil	NCBITaxon:2	Bacteria					27
+soil	ENVO:00005750	grassland soil			ENVO:00001998	soil	26
+soil	ENVO:01000228	tropical moist broadleaf forest biome	ENVO:00000367	IUCN national park	ENVO:00001998	soil	26
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:01000250	subpolar coniferous forest biome	ENVO:01000000	humus	26
+sediment	ENVO:00000447	marine biome			ENVO:03000033	marine sediment	25
+soil	ENVO:00001998	soil			ENVO:00001998	soil	25
+soil	ENVO:00005802	bulk soil					25
+sediment			ENVO:01001192	sediment surface	ENVO:00002007	sediment	24
+sediment	ENVO:00000447	marine biome	ENVO:00000482	sea floor	ENVO:03000033	marine sediment	24
+soil	ENVO:01000245	cropland biome	ENVO:00000266	pasture	ENVO:00001998	soil	24
+soil	ENVO:01000339	polar biome	ENVO:00002875	oil contaminated soil	ENVO:00001998	soil	24
+plant-associated	ENVO:00001998	soil	ENVO:00005801	rhizosphere			23
+sediment	ENVO:01000020	estuarine biome	ENVO:00000887	large river biome			23
+sediment	ENVO:01000174	forest biome	ENVO:00000067	cave	UBERON:0001988	feces	23
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:00001998	soil	ENVO:00001998	soil	23
+soil	ENVO:01000216	montane shrubland biome	ENVO:00000081	mountain	ENVO:00001998	soil	22
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:00000489	palsa			22
+sediment	ENVO:00000447	marine biome	ENVO:00000469	research facility	ENVO:03000033	marine sediment	21
+sediment	ENVO:01000026	marine bathyal zone biome			ENVO:00002017	metamorphic rock	21
+soil			ENVO:00002007	sediment	ENVO:00001998	soil	21
+soil	ENVO:00000044	peatland	ENVO:00000044	peatland	ENVO:00001998	soil	21
+soil	ENVO:01000250	subpolar coniferous forest biome					21
+soil	NCBITaxon:2	Bacteria	AGRO:00000481	monoculture			21
+soil	NCBITaxon:5506	Fusarium	AGRO:00000481	monoculture			21
+sediment			ENVO:00000020	lake	ENVO:00002007	sediment	20
+sediment	ENVO:03000033	marine sediment			ENVO:00002007	sediment	20
+soil			ENVO:00002248	luvisol	ENVO:00001998	soil	20
+soil	ENVO:00001998	soil	ENVO:00000086	plain	ENVO:00002229	arenosol	20
+soil	ENVO:00002259	agricultural soil			ENVO:00001998	soil	20
+soil	ENVO:01000179	desert biome	ENVO:00005748	dry soil	ENVO:00001998	soil	20
+soil	ENVO:01000193	temperate grassland biome	ENVO:01000892	area of cropland	ENVO:02000059	surface soil	20
+sediment			NCBITaxon:1566338	enrichment culture	ENVO:00002007	sediment	19
+sediment	ENVO:00000892	small lake biome	ENVO:00000020	lake	ENVO:00000546	lake sediment	18
+sediment	ENVO:01000022	marine salt marsh biome			ENVO:00001998	soil	18
+sediment	ENVO:01000022	marine salt marsh biome	ENVO:01000138	plant matter fall	ENVO:00001998	soil	18
+sediment	ENVO:03000033	marine sediment	ENVO:01000160	marine pockmark	ENVO:00002007	sediment	18
+soil	ENVO:00000446	terrestrial biome	ENVO:00000119	planted forest	ENVO:00001998	soil	18
+soil	ENVO:01001811	temperate grassland	ENVO:00005755	field soil	ENVO:00001998	soil	18
+sediment	ENVO:01001805	temperate forest	ENVO:00000020	lake	ENVO:00002007	sediment	17
+sediment	NCBITaxon:2157	Archaea	ENVO:00000020	lake	ENVO:00002007	sediment	17
+soil	ENVO:01000209	subtropical coniferous forest biome	ENVO:00001998	soil	ENVO:00001998	soil	17
+soil	ENVO:01000245	cropland biome	ENVO:00005749	farm soil	ENVO:00001998	soil	17
+sediment	ENVO:00000890	small river biome	ENVO:00000022	river	ENVO:00002007	sediment	16
+sediment	ENVO:00000893	xeric basin biome	ENVO:00000279	saline pan	ENVO:00002209	saline lake sediment	16
+soil			ENVO:00000112	tundra			16
+soil	ENVO:00002988	obsolete Temperate grasslands					16
+soil	ENVO:01000179	desert biome	ENVO:01001357	desert	ENVO:00001995	rock	16
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat	CHEBI:15377	water	15
+sediment	ENVO:00002007	sediment	ENVO:00000022	river	ENVO:00001998	soil	15
+soil			ENVO:00005750	grassland soil	ENVO:00005750	grassland soil	15
+soil	ENVO:00000446	terrestrial biome	ENVO:00000109	woodland	ENVO:00001998	soil	15
+soil	ENVO:00000446	terrestrial biome	ENVO:00000297	paddy field	ENVO:00005740	paddy field soil	15
+soil	ENVO:00000446	terrestrial biome	ENVO:01000855	area of mixed forest	ENVO:02000059	surface soil	15
+soil	ENVO:00000446	terrestrial biome	ENVO:01001206	grassland ecosystem	ENVO:00001998	soil	15
+soil	ENVO:01001206	grassland ecosystem	ENVO:01000352	field	ENVO:00001998	soil	15
+sediment	ENVO:01000027|ENVO:01000339	marine abyssal zone biome|polar biome	ENVO:00000244|ENVO:01001192	abyssal plain|sediment surface	ENVO:00002113	deep marine sediment	14
+sediment	ENVO:01000250	subpolar coniferous forest biome	ENVO:00000020	lake	ENVO:00002007	sediment	14
+soil			CHEBI:46662	mineral	ENVO:00001998	soil	14
+soil	ENVO:00000446	terrestrial biome	ENVO:01000843	area of evergreen forest	ENVO:02000059	surface soil	14
+soil	ENVO:00002007	sediment	ENVO:00000015	ocean	ENVO:00001998	soil	14
+soil	ENVO:00000446	terrestrial biome					13
+soil	ENVO:00000446	terrestrial biome	ENVO:00001998	soil	ENVO:00005742	arable soil	13
+soil	ENVO:00002875	oil contaminated soil			ENVO:00001998	soil	13
+soil	ENVO:01001206	grassland ecosystem	CHEBI:46662	mineral	ENVO:00001998	soil	13
+plant-associated	ENVO:00000446	terrestrial biome	ENVO:00000469	research facility	ENVO:00002034	biofilm	12
+sediment			ENVO:01000262	seep	ENVO:00002007	sediment	12
+sediment	ENVO:00000873	freshwater biome	ENVO:00001996	mine drainage	ENVO:00002007	sediment	12
+sediment	ENVO:00000887	large river biome	ENVO:02000049	coastal water body	ENVO:03000033	marine sediment	12
+soil			ENVO:00002259	agricultural soil	ENVO:00005801	rhizosphere	12
+soil	ENVO:00000446	terrestrial biome	ENVO:00000258	alluvial plain	ENVO:00005740	paddy field soil	12
+soil	ENVO:00001998	soil	ENVO:01001206	grassland ecosystem	ENVO:00001998	soil	12
+soil	ENVO:01000180	tundra biome	ENVO:00000134	permafrost	ENVO:00001998	soil	12
+soil	ENVO:01000194	montane grassland biome	ENVO:00002261	forest soil	ENVO:00001998	soil	12
+soil	ENVO:01000194	montane grassland biome	ENVO:00002273	fluvisol	ENVO:00001998	soil	12
+soil	ENVO:01000196	coniferous forest biome	ENVO:00005801	rhizosphere	ENVO:00001998	soil	12
+soil	ENVO:01000206	temperate	ENVO:00000044	peatland	ENVO:00001998	soil	12
+soil	ENVO:01000628	plant litter					12
+soil	ENVO:01001804	subtropical forest			ENVO:00001998	soil	12
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat	ENVO:00002007	sediment	11
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat	ENVO:01000008	microbial mat	11
+sediment	ENVO:00002011	fresh water	ENVO:00000022	river	ENVO:00002007	sediment	11
+sediment	ENVO:01000027|ENVO:01000053	marine abyssal zone biome|marine ultramafic hydrothermal vent biome	ENVO:02000044	siliceous ooze	ENVO:00002113	deep marine sediment	11
+soil	ENVO:00005740	paddy field soil	ENVO:00000296	rice field	ENVO:00001998	soil	11
+plant-associated			FAO:0000026	urediniospore	FAO:0000026	urediniospore	10
+plant-associated	ENVO:00000116	vineyard					10
+plant-associated	ENVO:01000220	tropical woodland biome			CHEBI:15377	water	10
+plant-associated	ENVO:01000249	urban biome			ENVO:01000155	organic material	10
+sediment	ENVO:00000873	freshwater biome	ENVO:00000023	stream	ENVO:00002034	biofilm	10
+sediment	ENVO:00000887	large river biome			ENVO:03000033	marine sediment	10
+sediment	ENVO:00002046	activated sludge			ENVO:00002046	activated sludge	10
+soil			ENVO:00005740	paddy field soil			10
+soil			ENVO:00005778	tropical soil	ENVO:00002246	ferralsol	10
+soil	ENVO:00001998	soil	ENVO:00002259	agricultural soil	ENVO:00001998	soil	10
+soil	ENVO:01001805	temperate forest					10
+soil	ENVO:01001805	temperate forest	ENVO:01001209	wetland ecosystem	ENVO:00002007	sediment	10
+plant-associated	ENVO:01000245	cropland biome			ENVO:00001998	soil	9
+plant-associated	ENVO:01000245	cropland biome			ENVO:00005801	rhizosphere	9
+plant-associated	ENVO:01000245	cropland biome	ENVO:00005802	bulk soil	ENVO:00001998	soil	9
+sediment					ENVO:03000033	marine sediment	9
+sediment	ENVO:00002007	sediment			ENVO:00001998	soil	9
+soil					ENVO:01000018	gravel	9
+soil					ENVO:01001526	frozen soil	9
+soil	ENVO:00000446	terrestrial biome			ENVO:00001998	soil	9
+soil	ENVO:00001998	soil	ENVO:01001209	wetland ecosystem	ENVO:00001998	soil	9
+soil	ENVO:01000186	polar desert biome			ENVO:00001998	soil	9
+soil	ENVO:01000228	tropical moist broadleaf forest biome	ENVO:00000120	oil palm plantation	ENVO:00001998	soil	9
+soil	ENVO:01001206	grassland ecosystem					9
+soil	NCBITaxon:2	Bacteria			ENVO:00005802	bulk soil	9
+plant-associated			ENVO:01000352	field	PO:0025034	leaf	8
+plant-associated	ENVO:01001811	temperate grassland					8
+sediment					ENVO:01000236	basalt	8
+sediment	ENVO:00000054	saline marsh					8
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat	ENVO:00005750	grassland soil	8
+sediment	ENVO:00000892	small lake biome			ENVO:00002209	saline lake sediment	8
+sediment	ENVO:01000027	marine abyssal zone biome	ENVO:00000426	ocean floor			8
+sediment	ENVO:03000033	marine sediment	ENVO:01000206	temperate	ENVO:03000033	marine sediment	8
+soil			ENVO:01001209	wetland ecosystem	ENVO:00002007	sediment	8
+soil	ENVO:00001998	soil	ENVO:00001998	soil	ENVO:00001998	soil	8
+soil	ENVO:00001998	soil	NCBITaxon:256318	metagenome			8
+soil	ENVO:00005774	peat soil	ENVO:00001998	soil	ENVO:00005774	peat soil	8
+soil	ENVO:01000209	subtropical coniferous forest biome					8
+soil	ENVO:01000249	urban biome	ENVO:01000352	field	ENVO:00001998	soil	8
+soil	ENVO:01001805	temperate forest	ENVO:01001206	grassland ecosystem			8
+plant-associated	ENVO:00000446	terrestrial biome	ENVO:00005801	rhizosphere	ENVO:00001998	soil	7
+plant-associated	ENVO:01000320	marine environment	ENVO:01000159	organic feature	ENVO:00002034	biofilm	7
+sediment	ENVO:01000024	marine benthic biome	ENVO:00000426	ocean floor	ENVO:03000033	marine sediment	7
+sediment	ENVO:01000024	marine benthic biome	ENVO:00005795	marine mud	ENVO:00002113	deep marine sediment	7
+sediment	ENVO:01000044	marine pelagic feature	ENVO:01000007	organic object formed through microbial activity	ENVO:00002113	deep marine sediment	7
+soil			ENVO:00001998	soil	ENVO:00005774	peat soil	7
+soil	ENVO:00001998	soil	ENVO:00000078	farm	ENVO:00001998	soil	7
+soil	ENVO:01000179	desert biome			ENVO:00001998	soil	7
+soil	ENVO:01000221	temperate woodland biome	ENVO:01000816	area of deciduous forest	ENVO:02000059	surface soil	7
+soil	ENVO:01000433	needleleaf forest	CHEBI:46662	mineral	ENVO:00001998	soil	7
+soil	ENVO:01001206	grassland ecosystem	ENVO:00001998	soil	ENVO:00001998	soil	7
+plant-associated	ENVO:01000221	temperate woodland biome					6
+plant-associated	ENVO:01000221	temperate woodland biome			CHEBI:15377	water	6
+sediment					ENVO:00002982	clay	6
+sediment	ENVO:00000892	small lake biome	ENVO:00000020	lake	ENVO:00002007	sediment	6
+sediment	ENVO:01000020	estuarine biome	ENVO:00000035	marsh			6
+sediment	ENVO:01000020	estuarine biome	ENVO:00000091	beach			6
+sediment	ENVO:01001192	sediment surface			ENVO:00002007	sediment	6
+soil	ENVO:00000266	pasture			ENVO:00001998	soil	6
+soil	ENVO:00000446	terrestrial biome	ENVO:01000437	lava field	ENVO:00002232	andosol	6
+soil	ENVO:00001998	soil	FOODON:03530253	organic plant cultivation	ENVO:00001998	soil	6
+soil	ENVO:01000177	grassland biome					6
+soil	ENVO:01000339	polar biome	ENVO:02000059	surface soil	ENVO:00001998	soil	6
+soil	ENVO:01000628	plant litter	ENVO:00005742	arable soil			6
+soil	NCBITaxon:1767996	Deyeuxia arundinacea	ENVO:00000081	mountain	ENVO:00001998	soil	6
+soil	NCBITaxon:457792	Clypeola jonthlaspi			ENVO:00001998	soil	6
+plant-associated					PO:0025034	leaf	5
+sediment	ENVO:00002007	sediment			ENVO:00002007	sediment	5
+sediment	ENVO:00002011	fresh water	ENVO:00000045	estuary	ENVO:00002007	sediment	5
+soil	ENVO:00000446	terrestrial biome	ENVO:01000816	area of deciduous forest	ENVO:02000059	surface soil	5
+soil	ENVO:00001998	soil	AGRO:00000301	agricultural experimental plot			5
+soil	ENVO:00001998	soil	ENVO:00005801	rhizosphere	NCBITaxon:2	Bacteria	5
+soil	ENVO:00003009	obsolete Subtropical Division (230)	ENVO:00005755	field soil	ENVO:00002259	agricultural soil	5
+soil	ENVO:01000221	temperate woodland biome	ENVO:01000855	area of mixed forest	ENVO:02000059	surface soil	5
+soil	ENVO:01001206	grassland ecosystem	ENVO:00000171	river valley	ENVO:00001998	soil	5
+plant-associated	ENVO:01001811	temperate grassland			ENVO:00001998	soil	4
+plant-associated	ENVO:01001811	temperate grassland			ENVO:00002005	air	4
+sediment					ENVO:00001998	soil	4
+sediment	ENVO:00000112	tundra	ENVO:00000020	lake	ENVO:00002007	sediment	4
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat	ENVO:00003044	brine	4
+sediment	ENVO:00000892	small lake biome	ENVO:00000021	freshwater lake	ENVO:00000546	lake sediment	4
+sediment	ENVO:01000215	temperate shrubland biome	ENVO:00000067	cave	UBERON:0001988	feces	4
+sediment	ENVO:01000221	temperate woodland biome	ENVO:00000109	woodland	ENVO:00001998	soil	4
+soil			ENVO:00000133	glacier			4
+soil			ENVO:01001206	grassland ecosystem			4
+soil	ENVO:00000291	drainage basin			ENVO:00001998	soil	4
+soil	ENVO:00000296	rice field			ENVO:00001998	soil	4
+soil	ENVO:00000446	terrestrial biome	ENVO:00002031	anthropogenic habitat	ENVO:00002875	oil contaminated soil	4
+soil	ENVO:00001998	soil	ENVO:00000233	swamp ecosystem	ENVO:00001998	soil	4
+soil	ENVO:01000174	forest biome	ENVO:01000250	subpolar coniferous forest biome	ENVO:00001998	soil	4
+soil	ENVO:01000192	tropical grassland biome	ENVO:00005750	grassland soil	ENVO:00001998	soil	4
+soil	ENVO:01000193	temperate grassland biome	ENVO:00000291	drainage basin	ENVO:00001998	soil	4
+soil	ENVO:01000200	tropical broadleaf forest biome	ENVO:00002261	forest soil	ENVO:00001998	soil	4
+soil	ENVO:01000211	temperate coniferous forest biome	ENVO:00002257	podzol	ENVO:00001998	soil	4
+soil	ENVO:01000221	temperate woodland biome	ENVO:01000843	area of evergreen forest	ENVO:02000059	surface soil	4
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:01001209	wetland ecosystem	ENVO:00002007	sediment	4
+soil	ENVO:01000389	temperate mixed broadleaf forest	ENVO:00000297	paddy field	ENVO:00001998	soil	4
+soil	ENVO:01000389	temperate mixed broadleaf forest	ENVO:00002261	forest soil	ENVO:00001998	soil	4
+plant-associated					ENVO:00001998	soil	3
+plant-associated	AGRO:00000363	greenhouse	AGRO:00000363	greenhouse	PO:0025034	leaf	3
+plant-associated	ENVO:00000117	plantation	ENVO:01000352	field	ENVO:01000164	root nodule	3
+plant-associated	ENVO:00000447	marine biome			ENVO:01000059	sea grass bed	3
+plant-associated	ENVO:00000469	research facility			ENVO:02000047	animal feed	3
+plant-associated	ENVO:01000249	urban biome	AGRO:00000363	greenhouse			3
+sediment			ENVO:00000241	tidal mudflat	ENVO:00002007	sediment	3
+sediment			MICRO:0000504	obligately anaerobic	ENVO:00002007	sediment	3
+sediment	ENVO:00000054	saline marsh	ENVO:00000054	saline marsh	ENVO:00002007	sediment	3
+sediment	ENVO:00000447	marine biome			ENVO:00002209	saline lake sediment	3
+sediment	ENVO:00000873	freshwater biome	ENVO:00012408	aquifer	ENVO:00002007	sediment	3
+sediment	ENVO:01000024	marine benthic biome	ENVO:00002149	sea water	ENVO:03000033	marine sediment	3
+sediment	ENVO:01000024	marine benthic biome	ENVO:01000105	marine benthic feature	ENVO:00001995	rock	3
+sediment	ENVO:01000027	marine abyssal zone biome	ENVO:01000112	polymetallic nodule	ENVO:00002113	deep marine sediment	3
+sediment	ENVO:01000027	marine abyssal zone biome	ENVO:02000044	siliceous ooze	ENVO:00002113	deep marine sediment	3
+sediment	ENVO:03000033	marine sediment			ENVO:03000033	marine sediment	3
+soil					ENVO:00002261	forest soil	3
+soil			ENVO:00000081	mountain	ENVO:00001998	soil	3
+soil			ENVO:00002007	sediment	ENVO:00002007	sediment	3
+soil			ENVO:00005801	rhizosphere	ENVO:00001998	soil	3
+soil			ENVO:01001206	grassland ecosystem	ENVO:00001998	soil	3
+soil			NCBITaxon:49838	Retama sphaerocarpa	ENVO:00001998	soil	3
+soil	ENVO:00000134	permafrost	ENVO:00000134	permafrost	ENVO:00001998	soil	3
+soil	ENVO:00000428	biome	ENVO:01000408	environmental zone	ENVO:00001998	soil	3
+soil	ENVO:00000446	terrestrial biome	ENVO:00001998	soil	ENVO:00001998	soil	3
+soil	ENVO:00000446	terrestrial biome	FOODON:03310113	ryegrass	ENVO:00001998	soil	3
+soil	ENVO:00001998	soil	ENVO:00000081	mountain	ENVO:00001998	soil	3
+soil	ENVO:00001998	soil	NCBITaxon:32644	unidentified	ENVO:00001998	soil	3
+soil	ENVO:01000180	tundra biome	ENVO:00002261	forest soil	ENVO:00001998	soil	3
+soil	ENVO:01000183	tropical desert biome	ENVO:01001357	desert	ENVO:00001998	soil	3
+soil	ENVO:01000210	tropical coniferous forest biome			ENVO:00001998	soil	3
+soil	ENVO:01000210	tropical coniferous forest biome	ENVO:00002261	forest soil	ENVO:00001998	soil	3
+soil	ENVO:01000221	temperate woodland biome	ENVO:01000893	area of woody wetland	ENVO:02000059	surface soil	3
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:00000489	palsa	ENVO:00002007	sediment	3
+soil	ENVO:01000313	anthropogenic environment	ENVO:00005801	rhizosphere	ENVO:00001998	soil	3
+soil	ENVO:01000739	habitat	ENVO:01000408	environmental zone	ENVO:00001998	soil	3
+plant-associated			AGRO:00000363	greenhouse	CHEBI:15377	water	2
+plant-associated			ENVO:00000116	vineyard			2
+sediment			ENVO:00000045	estuary	ENVO:00002007	sediment	2
+sediment			ENVO:00000426	ocean floor			2
+sediment	ENVO:00000546	lake sediment	ENVO:00000020	lake	ENVO:00002007	sediment	2
+sediment	ENVO:00002030	aquatic biome	ENVO:00000195	sinkhole	ENVO:00002007	sediment	2
+sediment	ENVO:01000024	marine benthic biome	ENVO:00000032	bay			2
+sediment	ENVO:01000024	marine benthic biome	ENVO:00000138	cove			2
+sediment	ENVO:01000024	marine benthic biome	ENVO:01000105	marine benthic feature	ENVO:03000033	marine sediment	2
+sediment	ENVO:01000127	marine cold seep biome	ENVO:00002063	oil seep	ENVO:03000033	marine sediment	2
+sediment	ENVO:01000263	cold seep	ENVO:01000298	continental margin	ENVO:00002007	sediment	2
+sediment	ENVO:01000313	anthropogenic environment	ENVO:01000159	organic feature	ENVO:00002007	sediment	2
+sediment	NCBITaxon:2	Bacteria					2
+sediment	NCBITaxon:256318	metagenome					2
+sediment	NCBITaxon:256318	metagenome			ENVO:00002982	clay	2
+soil			ENVO:00000232	fen	ENVO:00001998	soil	2
+soil	ENVO:00000876	obsolete Temperate broadleaf and mixed forest biome	ENVO:00000047	obsolete canopy	ENVO:00005783	leafy wood soil	2
+soil	ENVO:00000883	obsolete Deserts and xeric shrubland biome	ENVO:00000156	desert oasis	ENVO:00002245	gypsisol	2
+soil	ENVO:00001998	soil	ENVO:00000020	lake	ENVO:00001998	soil	2
+soil	ENVO:00001998	soil	ENVO:00002267	industrial waste material	ENVO:00001998	soil	2
+soil	ENVO:01000177	grassland biome	ENVO:00001998	soil	ENVO:00001998	soil	2
+soil	ENVO:01000180	tundra biome	ENVO:00002262	clay soil	ENVO:00001998	soil	2
+soil	ENVO:01000248	dense settlement biome	ENVO:00005755	field soil	ENVO:00001998	soil	2
+soil	ENVO:01000250	subpolar coniferous forest biome	ENVO:00000020	lake	ENVO:00002007	sediment	2
+soil	ENVO:01000313	anthropogenic environment	ENVO:01000408	environmental zone	ENVO:00001998	soil	2
+soil	ENVO:01000389	temperate mixed broadleaf forest	ENVO:00002875	oil contaminated soil	ENVO:00001998	soil	2
+soil	ENVO:01000433	needleleaf forest			ENVO:00001998	soil	2
+plant-associated					ENVO:00002005	air	1
+plant-associated					FOODON:00002753	bean (whole)	1
+plant-associated					FOODON:00003630	bean leaf (whole)	1
+plant-associated			ENVO:00000081	mountain			1
+plant-associated			ENVO:00000116	vineyard	ENVO:00002040	wood	1
+plant-associated			ENVO:00000117	plantation			1
+plant-associated			ENVO:00005801	rhizosphere	ENVO:00001998	soil	1
+plant-associated	ENVO:00000446	terrestrial biome			ENVO:00001998	soil	1
+plant-associated	ENVO:00005801	rhizosphere	ENVO:00005801	rhizosphere	ENVO:00001998	soil	1
+plant-associated	ENVO:01000251	subpolar					1
+plant-associated	ENVO:01000311	cultivated environment	AGRO:00000363	greenhouse			1
+plant-associated	ENVO:01000816	area of deciduous forest			ENVO:00001998	soil	1
+plant-associated	ENVO:01001206	grassland ecosystem					1
+plant-associated	GAZ:00056663	Parana Delta					1
+plant-associated	NCBITaxon:2157	Archaea					1
+plant-associated	NCBITaxon:3193	Embryophyta					1
+plant-associated	NCBITaxon:4751	Fungi	ENVO:01000352	field			1
+plant-associated	PO:0009001	fruit			ENVO:00002005	air	1
+sediment					ENVO:00000546	lake sediment	1
+sediment					ENVO:01001192	sediment surface	1
+sediment			ENVO:00000015	ocean	ENVO:00002984	petroleum	1
+sediment			ENVO:00000016	sea	ENVO:00002007	sediment	1
+sediment			ENVO:00000022	river	ENVO:00002007	sediment	1
+sediment			ENVO:00000039	fjord	ENVO:00002007	sediment	1
+sediment			ENVO:00000091	beach	ENVO:00002007	sediment	1
+sediment			ENVO:00000485	sea shore	ENVO:00002007	sediment	1
+sediment			ENVO:00002061	oil spill	ENVO:00002007	sediment	1
+sediment			ENVO:01001043	hypersaline water environment	ENVO:00002007	sediment	1
+sediment			ENVO:02000049	coastal water body	ENVO:00002113	deep marine sediment	1
+sediment			ENVO:03000033	marine sediment	ENVO:00002007	sediment	1
+sediment	ENVO:00000016	sea	ENVO:00000038	lagoon			1
+sediment	ENVO:00000016	sea	ENVO:00000092	sea beach			1
+sediment	ENVO:00000045	estuary	ENVO:00002007	sediment	ENVO:00002007	sediment	1
+sediment	ENVO:00000054	saline marsh	ENVO:00000054	saline marsh			1
+sediment	ENVO:00000126	sulfur spring	ENVO:00002007	sediment			1
+sediment	ENVO:00000215	hydrothermal vent	UBERON:0012464	cloacal vent	ENVO:00002007	sediment	1
+sediment	ENVO:00000316	intertidal zone			ENVO:00002007	sediment	1
+sediment	ENVO:00000447	marine biome			ENVO:01000008	microbial mat	1
+sediment	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	ENVO:00002022	obsolete alkaline habitat	ENVO:00001998	soil	1
+sediment	ENVO:00000893	xeric basin biome	ENVO:00000279	saline pan			1
+sediment	ENVO:00002007	sediment					1
+sediment	ENVO:00002007	sediment	ENVO:00000015	ocean			1
+sediment	ENVO:00002007	sediment	ENVO:00012408	aquifer	ENVO:00002007	sediment	1
+sediment	ENVO:00002010	saline water	ENVO:00000045	estuary	ENVO:00002007	sediment	1
+sediment	ENVO:00002199	sandy beach	ENVO:00000091	beach	ENVO:00002007	sediment	1
+sediment	ENVO:01000020	estuarine biome	ENVO:00000045	estuary			1
+sediment	ENVO:01000024	marine benthic biome	ENVO:03000033	marine sediment	ENVO:00002113	deep marine sediment	1
+sediment	ENVO:01000026	marine bathyal zone biome	ENVO:01000026	marine bathyal zone biome	ENVO:00002017	metamorphic rock	1
+sediment	ENVO:01000027	marine abyssal zone biome	ENVO:01000120	clay sediment	ENVO:00002113	deep marine sediment	1
+sediment	ENVO:01000186	polar desert biome	ENVO:00000021	freshwater lake	ENVO:00002007	sediment	1
+sediment	ENVO:01000263	cold seep	ENVO:00000402	mud volcano	ENVO:00002007	sediment	1
+sediment	ENVO:01000320	marine environment	ENVO:01000408	environmental zone	ENVO:00002007	sediment	1
+sediment	ENVO:03000033	marine sediment	ENVO:00000016	sea	ENVO:00001998	soil	1
+sediment	ENVO:03000033	marine sediment	ENVO:03000033	marine sediment	ENVO:00002007	sediment	1
+sediment	GAZ:00008673	Barents Sea			ENVO:03000033	marine sediment	1
+sediment	NCBITaxon:1566338	enrichment culture			ENVO:00001998	soil	1
+sediment	NCBITaxon:2157	Archaea					1
+soil					ENVO:00002230	anthrosol	1
+soil			ENVO:00000033	pond			1
+soil			ENVO:00000117	plantation			1
+soil			ENVO:00000469	research facility	ENVO:00001998	soil	1
+soil			ENVO:00005742	arable soil			1
+soil			ENVO:00005747	compost soil	ENVO:00001998	soil	1
+soil			ENVO:00005750	grassland soil	ENVO:00001998	soil	1
+soil			ENVO:00005802	bulk soil	ENVO:00005802	bulk soil	1
+soil			ENVO:01001357	desert	ENVO:00001998	soil	1
+soil			NCBITaxon:296924	Grimmia montana			1
+soil	ENVO:00000035	marsh	ENVO:00000035	marsh	CHEBI:15377	water	1
+soil	ENVO:00000091	beach	ENVO:00000091	beach	ENVO:01000017	sand	1
+soil	ENVO:00000098	island	ENVO:00001998	soil	ENVO:00001998	soil	1
+soil	ENVO:00000446	terrestrial biome	ENVO:00002031	anthropogenic habitat	ENVO:00005780	greenhouse soil	1
+soil	ENVO:00000446	terrestrial biome	ENVO:01000893	area of woody wetland	ENVO:02000059	surface soil	1
+soil	ENVO:00000873	freshwater biome			ENVO:00002007	sediment	1
+soil	ENVO:00001998	soil			NCBITaxon:2	Bacteria	1
+soil	ENVO:00001998	soil	ENVO:00000087	cliff	ENVO:00001998	soil	1
+soil	ENVO:00001998	soil	ENVO:00002263	garden soil	ENVO:00001998	soil	1
+soil	ENVO:00001998	soil	ENVO:00005801	rhizosphere			1
+soil	ENVO:00001998	soil	SO:0002237	rRNA_16S_gene	ENVO:00001998	soil	1
+soil	ENVO:00002043	wastewater treatment plant	ENVO:00002044	sludge	CHEBI:15377	water	1
+soil	ENVO:00002116	contaminated soil	ENVO:00002116	contaminated soil	ENVO:00001998	soil	1
+soil	ENVO:00005740	paddy field soil	ENVO:00005740	paddy field soil	ENVO:00005740	paddy field soil	1
+soil	ENVO:00005742	arable soil	ENVO:00005742	arable soil	ENVO:00001998	soil	1
+soil	ENVO:00005801	rhizosphere	ENVO:01000352	field	ENVO:00001998	soil	1
+soil	ENVO:01000180	tundra biome	ENVO:00000044	peatland	ENVO:00001998	soil	1
+soil	ENVO:01000198	mixed forest biome	ENVO:01000855	area of mixed forest	ENVO:02000059	surface soil	1
+soil	ENVO:01000211	temperate coniferous forest biome	ENVO:00002261	forest soil	ENVO:00001998	soil	1
+soil	ENVO:01000216	montane shrubland biome	ENVO:00005801	rhizosphere	ENVO:00005801	rhizosphere	1
+soil	ENVO:01000216	montane shrubland biome	ENVO:01001209	wetland ecosystem	ENVO:00001998	soil	1
+soil	ENVO:01000221	temperate woodland biome	ENVO:00000189	peat swamp			1
+soil	ENVO:01000245	cropland biome	ENVO:00005755	field soil	ENVO:00002258	loam	1
+soil	ENVO:01000248	dense settlement biome	ENVO:00005747	compost soil	ENVO:00001998	soil	1
+soil	ENVO:01000249	urban biome	ENVO:00000011	garden	ENVO:00001998	soil	1
+soil	ENVO:01000382	cold desert					1
+soil	ENVO:01000389	temperate mixed broadleaf forest	ENVO:00002061	oil spill	ENVO:00001998	soil	1
+soil	ENVO:01000892	area of cropland	ENVO:01000007	organic object formed through microbial activity	ENVO:00001998	soil	1
+soil	ENVO:01001791	mediterranean forest	ENVO:00002261	forest soil	ENVO:00001998	soil	1
+soil	ENVO:01001804	subtropical forest	NCBITaxon:256318	metagenome	ENVO:00001998	soil	1
+soil	NCBITaxon:1224	Proteobacteria			ENVO:00001998	soil	1
+soil	NCBITaxon:2	Bacteria			ENVO:00001998	soil	1
