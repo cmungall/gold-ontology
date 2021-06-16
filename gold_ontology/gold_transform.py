@@ -34,6 +34,10 @@ def make_curie_for_atom(atom: str) -> str:
     id = safe_id(atom)
     return f'gold.vocab:{id}'
 
+def make_envo_path_id(row: List[str]) -> str:
+    id = safe_id('-'.join(row))
+    return f'envo.path{id}'
+
 def translate_goldpaths(f: str):
     o = Ontology("http://purl.obolibrary.org/obo/gold.owl")
     o.annotation(RDFS.label, 'gold')
@@ -118,8 +122,10 @@ def translate_envopaths(f: str):
         reader = csv.DictReader(stream, delimiter='\t')
         for item in reader:
             row = [item[k] for k in ENVOPATH_COLS]
-            id = make_envopath_id(row)
-            row2id[tuple(row)] = c
+            if None not in row:
+                # todo: do something with blank IDs
+                id = make_envopath_id(row)
+                row2id[tuple(row)] = c
     # fill in missing parts
     for row, id in row2id.copy().items():
         parent = row[0:-1]
