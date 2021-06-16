@@ -9,6 +9,7 @@ from typing import List
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
     SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix
 
+OBO_PREFIXES = ['UBERON', 'ENVO', 'PR', 'CHEBI', 'FOODON', 'PATO', 'NCBITaxon', 'PO', 'OBI']
 ENVO = Namespace('http://purl.obolibrary.org/obo/ENVO_')
 GOLD_PATH = Namespace('https://w3id.org/gold.path/')
 ENVO_PATH = Namespace('https://w3id.org/gold.path/')
@@ -44,6 +45,8 @@ def translate_goldpaths(f: str):
     doc = OntologyDocument(GOLD_PATH, o)
     doc.prefixDeclarations.append(Prefix('gold.path', GOLD_PATH))
     doc.prefixDeclarations.append(Prefix('gold.vocab', GOLD_VOCAB))
+    for p in OBO_PREFIXES:
+        doc.prefixDeclarations.append(Prefix(p, Namespace(f'http://purl.obolibrary.org/obo/{p}_')))
     row2id = {}
     atom2ecosystem = {}
     atoms = set()
@@ -170,16 +173,29 @@ def parse_synonyms(doc: OntologyDocument, f: str) -> None:
                 continue
             o.axioms.append(AnnotationAssertion(OIO.hasExactSynonym, id, syn))
 
+def parse_sssom(doc: OntologyDocument, f: str) -> None:
+    o = doc.ontology
+    with open(f, 'r') as stream:
+        reader = csv.DictReader(stream, delimiter='\t')
+        for row in reader:
+            subject_id = row['subject_id']
+            object_id = row['object_id']
+            #pred = row['predicate_id']
+            pred = SKOS.exactMatch
+            o.axioms.append(AnnotationAssertion(pred, subject_id, object_id))
 
 
 @click.command()
 @click.option('-o', '--output')
 @click.option('-s', '--synonyms')
+@click.option('-m', '--mappings')
 @click.argument('input')
-def cli(input: str, output: str, synonyms: str):
+def cli(input: str, output: str, synonyms: str, mappings: str):
     doc = translate_goldpaths(input)
     if synonyms is not None:
         parse_synonyms(doc, synonyms)
+    if mappings is not None:
+        parse_sssom(doc, mappings)
     with open(output, 'w') as stream:
         stream.write(str(doc))
 

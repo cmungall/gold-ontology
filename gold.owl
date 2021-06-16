@@ -31,6 +31,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
@@ -190,6 +196,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Hot</oboInOwl:hasExactSynonym>
         <rdfs:label>Hot (42-90C)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -200,6 +207,7 @@
     <owl:Class rdf:about="gold.vocab:Mites/Ticks">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mites/Ticks</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6933"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -221,6 +229,7 @@
     <owl:Class rdf:about="gold.vocab:Paddy-field/soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Paddy field/soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005740"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -252,6 +261,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>headwater</oboInOwl:hasExactSynonym>
         <rdfs:label>River&apos;s source/headwaters</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34650,6 +34660,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Abdomen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Abdomen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -34661,6 +34672,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>abyssal plain</oboInOwl:hasExactSynonym>
         <rdfs:label>Abyssal plane</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000244"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34672,6 +34684,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>oceanic abyssopelagic zone biome</oboInOwl:hasExactSynonym>
         <rdfs:label>Abyssopelagic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000038"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34682,6 +34695,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Acid-Mine-Drainage">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Acid Mine Drainage</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001997"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34692,6 +34706,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Acid-mine-drainage">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Acid mine drainage</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001997"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -34712,6 +34727,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Acidic">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Acidic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001429"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34722,6 +34738,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Activated-Sludge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Activated Sludge</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002046"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -34732,6 +34749,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Activated-sludge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Activated sludge</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002046"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -34742,6 +34760,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Aerobic">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Aerobic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001455"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -34762,6 +34781,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Agricultural">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Agricultural</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001442"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34772,6 +34792,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Agricultural-field">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Agricultural field</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000114"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34782,6 +34803,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Agricultural-land">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Agricultural land</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000077"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34792,6 +34814,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Agricultural-soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Agricultural soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002259"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34802,6 +34825,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Agricultural-waste">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Agricultural waste</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000371"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -34822,6 +34846,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Air">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Air</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002005"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -34843,6 +34868,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Algae">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Algae</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2864"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -34853,6 +34879,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Algal-bloom">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Algal bloom</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000004"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34863,6 +34890,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Alkaline">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Alkaline</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34883,6 +34911,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Alpine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Alpine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000340"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -34893,6 +34922,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Amniotic-fluid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Amniotic fluid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000173"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -34913,6 +34943,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Amoebozoa">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Amoebozoa</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_554915"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -34923,6 +34954,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Amphibia">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Amphibia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8292"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -34933,6 +34965,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Anaerobic">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Anaerobic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001456"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -34993,6 +35026,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Animal-waste">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Animal waste</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002276"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35003,6 +35037,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Annelida">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Annelida</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6340"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35014,6 +35049,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Anoxic water</oboInOwl:hasExactSynonym>
         <rdfs:label>Anoxic zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000173"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35024,6 +35060,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ant">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ant</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36668"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35054,6 +35091,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Aphids">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Aphids</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27482"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35064,6 +35102,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Aphotic-zone">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Aphotic zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000210"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35085,6 +35124,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Aquatic biome</oboInOwl:hasExactSynonym>
         <rdfs:label>Aquatic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002030"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35095,6 +35135,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Aquifer">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Aquifer</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00012408"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -35106,6 +35147,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Arable">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Arable</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001184"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35116,6 +35158,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Archipelago">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Archipelago</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000220"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35126,6 +35169,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Arthropoda">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Arthropoda</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6656"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35146,6 +35190,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Asbestos">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Asbestos</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46661"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35156,6 +35201,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ascidians">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ascidians</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414467"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35166,6 +35212,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ascites">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ascites</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35177,6 +35224,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Asphalt lakes</rdfs:label>
         <rdfs:label>Asphalt-lakes</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000165"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -35198,6 +35246,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Aviation-fuel">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Aviation fuel</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003903"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35208,6 +35257,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Axilla">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Axilla</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009472"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35228,6 +35278,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bacteria">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bacteria</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35258,6 +35309,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bagasse">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bagasse</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002872"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35268,6 +35320,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bark">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bark</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0004518"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35279,6 +35332,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>marine bathypelagic zone</oboInOwl:hasExactSynonym>
         <rdfs:label>Bathypelagic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000211"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35289,6 +35343,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Beach">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Beach</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000091"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35309,6 +35364,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bee">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bee</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34735"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35318,6 +35374,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Beef">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
+        <oboInOwl:hasExactSynonym>beef food product</oboInOwl:hasExactSynonym>
         <rdfs:label>Beef</rdfs:label>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
@@ -35339,6 +35396,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Beetle">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Beetle</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7041"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35360,6 +35418,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>marine benthic biome</oboInOwl:hasExactSynonym>
         <rdfs:label>Benthic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35370,6 +35429,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Benzene">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Benzene</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16716"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35380,6 +35440,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bile">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bile</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35410,6 +35471,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Biochar">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Biochar</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000007"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -35421,6 +35483,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Biocrust">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Biocrust</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000909"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
@@ -35432,6 +35495,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Biofilm">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Biofilm</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
@@ -35444,6 +35508,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Biogas">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Biogas</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000556"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35464,6 +35529,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bioreactor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bioreactor</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002123"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35494,6 +35560,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Birds">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Birds</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35504,6 +35571,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bivalves">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bivalves</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6544"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35514,6 +35582,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Black-smokers">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Black smokers</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000218"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35524,6 +35593,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Blood">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Blood</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35534,6 +35604,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bog">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bog</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35544,6 +35615,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bone">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35554,6 +35626,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bone-marrow">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bone marrow</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35564,6 +35637,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Boreal-forest">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Boreal forest</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000250"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35574,6 +35648,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Brain">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Brain</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35584,6 +35659,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bread-production">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bread production</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03312035"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35594,6 +35670,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Breast">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Breast</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000310"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35614,6 +35691,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Brine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Brine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003044"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35624,6 +35702,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bronchi">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bronchi</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002185"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35634,6 +35713,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Brown-Algae">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Brown Algae</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2870"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35654,6 +35734,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Buccal-mucosa">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Buccal mucosa</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006956"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35674,6 +35755,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bugs">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bugs</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33343"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35684,6 +35766,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Building">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Building</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35704,6 +35787,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bulb">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bulb</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0025356"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35714,6 +35798,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Bulk-soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Bulk soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005802"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
@@ -35726,6 +35811,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Butterfly">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Butterfly</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37572"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35736,6 +35822,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Canal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Canal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000014"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35746,6 +35833,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Carbonate">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Carbonate</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_41609"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35756,6 +35844,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Carcass">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Carcass</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008979"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35786,6 +35875,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cave">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cave</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000067"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35806,6 +35896,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ceca">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ceca</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35816,6 +35907,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cecum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cecum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35856,6 +35948,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cephalochordata">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cephalochordata</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7735"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35866,6 +35959,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cerebrospinal-fluid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cerebrospinal fluid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35876,6 +35970,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cervix">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cervix</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000002"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35896,6 +35991,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Chemical-products">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Chemical products</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000000"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35926,6 +36022,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Chordata">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Chordata</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7711"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35936,6 +36033,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Circulatory-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Circulatory system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001009"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35946,6 +36044,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/City">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>City</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000856"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35956,6 +36055,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Clay">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Clay</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002982"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -35966,6 +36066,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cloaca">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cloaca</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000162"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35976,6 +36077,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cnidaria">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cnidaria</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6073"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -35986,6 +36088,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Coal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Coal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000091"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -35996,6 +36099,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Coal-mine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Coal mine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002169"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36017,6 +36121,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Coast</oboInOwl:hasExactSynonym>
         <rdfs:label>Coastal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000687"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36037,6 +36142,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cold-seeps">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cold seeps</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000263"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36047,6 +36153,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Colon">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Colon</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001155"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36057,6 +36164,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Compost">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Compost</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002170"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36067,6 +36175,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Composting">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Composting</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002170"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36087,6 +36196,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Conjunctiva">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Conjunctiva</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001811"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36107,6 +36217,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Continental-margin">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Continental margin</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000298"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36127,6 +36238,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cooling-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cooling water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600002"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36137,6 +36249,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Copepoda">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Copepoda</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6830"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36157,6 +36270,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Coral-reef">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Coral reef</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000150"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36167,6 +36281,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cow-Dung">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cow Dung</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36177,6 +36292,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Creek">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Creek</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36187,6 +36303,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Crop">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Crop</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007356"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36207,6 +36324,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Crustacea">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Crustacea</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6657"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36247,6 +36365,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Currency-notes">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Currency notes</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003896"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36257,6 +36376,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Cuticle">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Cuticle</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001002"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36308,6 +36428,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Dairy-products">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Dairy products</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001256"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36358,6 +36479,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Dental-plaque">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Dental plaque</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016482"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36368,6 +36490,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Dental-pulp">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Dental pulp</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001754"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36378,6 +36501,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Descending-colon">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Descending colon</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001158"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36388,6 +36512,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Desert">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Desert</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001357"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36408,6 +36533,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Diatoms">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Diatoms</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2836"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36438,6 +36564,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Digestive-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Digestive system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001007"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36448,6 +36575,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Digestive-tube">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Digestive tube</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001555"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36458,6 +36586,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Dinoflagellates">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Dinoflagellates</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2864"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36488,6 +36617,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Drinking-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Drinking water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -36509,6 +36639,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Drinking-water-pipeline">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Drinking water pipeline</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600003"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36519,6 +36650,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Drinking-water-treatment-plant">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Drinking water treatment plant</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600004"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36539,6 +36671,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Duodenum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Duodenum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002114"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36549,6 +36682,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Dust">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Dust</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002008"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -36560,6 +36694,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ear">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ear</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001690"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36590,6 +36725,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Echinodermata">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Echinodermata</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7586"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36610,6 +36746,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Egg-capsule">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Egg capsule</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_3010636"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36640,6 +36777,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Enamel">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Enamel</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001752"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36690,6 +36828,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Engineered">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Engineered</rdfs:label>
+        <skos:exactMatch rdf:resource="https://w3id.org/gold.path/4292"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36720,6 +36859,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Environmental">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Environmental</rdfs:label>
+        <skos:exactMatch rdf:resource="https://w3id.org/gold.path/3964"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36740,6 +36880,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Epidermal-mucus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Epidermal mucus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010152"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36750,6 +36891,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Epilimnion">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Epilimnion</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002131"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36761,6 +36903,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>oceanic epipelagic zone biome</oboInOwl:hasExactSynonym>
         <rdfs:label>Epipelagic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000035"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36781,6 +36924,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Estuary">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Estuary</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000045"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36791,6 +36935,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ethmoid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ethmoid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001679"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36801,6 +36946,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Excretory-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Excretory system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001008"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36831,6 +36977,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Eye">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Eye</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000970"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -36841,6 +36988,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Farm">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Farm</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000078"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36861,6 +37009,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Feces">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Feces</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36871,6 +37020,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Feedlot">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Feedlot</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000627"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36891,6 +37041,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000232"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -36941,6 +37092,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fermented-beverages">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fermented beverages</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001094"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36961,6 +37113,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fermented-food">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fermented food</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001258"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -36971,6 +37124,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fermented-meat-products">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fermented meat products</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001314"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37011,6 +37165,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fish">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fish</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_118072"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37021,6 +37176,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fjord">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fjord</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000039"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37031,6 +37187,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Floodplain">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Floodplain</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000255"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37051,6 +37208,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fly">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fly</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002717"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37061,6 +37219,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Food-production">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Food production</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530206"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37071,6 +37230,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Food-waste">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Food waste</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600006"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37081,6 +37241,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Foregut">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Foregut</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001041"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37090,7 +37251,9 @@
 
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Forest">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
+        <oboInOwl:hasExactSynonym>forest ecosystem</oboInOwl:hasExactSynonym>
         <rdfs:label>Forest</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000111"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37101,6 +37264,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Forest-Soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Forest Soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002261"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37111,6 +37275,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Forest-soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Forest soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002261"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37121,6 +37286,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Formation-fluid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Formation fluid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600007"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37131,6 +37297,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fossil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fossil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001112"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37141,6 +37308,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fracking-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fracking water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001869"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37151,6 +37319,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Freshwater">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Freshwater</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002011"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -37182,6 +37351,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fumaroles">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fumaroles</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000216"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37192,6 +37362,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Fungi">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Fungi</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37222,6 +37393,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gallbladder">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gallbladder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002110"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37232,6 +37404,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Galls">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Galls</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37242,6 +37415,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Garden">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Garden</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000011"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37272,6 +37446,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gastric-mucosa">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gastric mucosa</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001199"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37282,6 +37457,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gastrointestinal-tract">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gastrointestinal tract</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005409"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37322,6 +37498,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gill">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gill</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002535"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37332,6 +37509,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gills">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gills</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002535"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37342,6 +37520,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gingiva">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gingiva</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001828"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37362,6 +37541,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gingival-sulcus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gingival sulcus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008805"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37372,6 +37552,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Glacial-lake">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Glacial lake</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000488"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37382,6 +37563,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Glacier">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Glacier</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000133"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37392,6 +37574,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Glands">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Glands</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37432,6 +37615,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Grasshopper">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Grasshopper</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7001"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37442,6 +37626,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Grasslands">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Grasslands</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001206"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37452,6 +37637,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Green-algae">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Green algae</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3041"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37472,6 +37658,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Groundwater">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Groundwater</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37492,6 +37679,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Gut">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Gut</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001007"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37523,6 +37711,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hair">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hair</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001037"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37533,6 +37722,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Haptophytes">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Haptophytes</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2830"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37543,6 +37733,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Harbor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Harbor</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000463"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37553,6 +37744,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hard-palate">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hard palate</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003216"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37573,6 +37765,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Heart">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Heart</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37583,6 +37776,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Heart-valve">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Heart valve</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000946"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37593,6 +37787,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hemolymph">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hemolymph</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001011"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37603,6 +37798,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hepatopancreas">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hepatopancreas</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010264"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37613,6 +37809,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hindgut">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hindgut</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001046"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37623,6 +37820,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Honey">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Honey</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036016"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37633,6 +37831,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hoof">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hoof</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008963"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37643,6 +37842,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Horse">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Horse</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37653,6 +37853,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hospital">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hospital</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002173"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37683,6 +37884,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Host-associated">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Host-associated</rdfs:label>
+        <skos:exactMatch rdf:resource="https://w3id.org/gold.path/4086"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37693,6 +37895,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/House">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>House</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000417"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37703,6 +37906,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Household-waste">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Household waste</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000372"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37713,6 +37917,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Human">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Human</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37723,6 +37928,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hydrocarbon">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hydrocarbon</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -37734,6 +37940,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hydrothermal-vents">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hydrothermal vents</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000215"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37745,6 +37952,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Hypersaline water</oboInOwl:hasExactSynonym>
         <rdfs:label>Hypersaline</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002012"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37755,6 +37963,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Hypolimnion">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Hypolimnion</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002130"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37766,6 +37975,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Hypoxic water</oboInOwl:hasExactSynonym>
         <rdfs:label>Hypoxic zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001064"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37786,6 +37996,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ice">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ice</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001125"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37807,6 +38018,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ice-cream">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ice cream</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001045"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37817,6 +38029,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ileum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ileum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002116"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37846,7 +38059,9 @@
 
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Industrial-waste">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
+        <oboInOwl:hasExactSynonym>industrial waste material</oboInOwl:hasExactSynonym>
         <rdfs:label>Industrial waste</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002267"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37857,6 +38072,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Industrial-wastewater">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Industrial wastewater</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000964"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37867,6 +38083,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Inlet">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Inlet</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000475"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37877,6 +38094,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Insecta">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Insecta</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37887,6 +38105,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Integument">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Integument</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0020021"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37907,6 +38126,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Interstitial-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Interstitial water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600009"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37917,6 +38137,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Intertidal-sediment">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Intertidal sediment</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002179"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37927,6 +38148,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Intertidal-zone">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Intertidal zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000316"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -37937,6 +38159,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Intestine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Intestine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000160"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37967,6 +38190,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Introitus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Introitus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008330"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -37987,6 +38211,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Irrigation-canal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Irrigation canal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000036"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -37997,6 +38222,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Jejunum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Jejunum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002115"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38007,6 +38233,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Kidney">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Kidney</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38017,6 +38244,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Kidneys">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Kidneys</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38057,6 +38285,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lake">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lake</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38067,6 +38296,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Landfill">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Landfill</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000533"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38087,6 +38317,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Large-intestine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Large intestine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000059"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38097,6 +38328,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Larvae">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Larvae</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002548"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38127,6 +38359,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Leachate">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Leachate</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002141"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38137,6 +38370,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Leaf">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Leaf</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38168,6 +38402,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>lentic water body</oboInOwl:hasExactSynonym>
         <rdfs:label>Lentic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38178,6 +38413,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lichen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lichen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412345"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38199,6 +38435,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Littoral-zone">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Littoral zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000407"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38209,6 +38446,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Liver">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Liver</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38219,6 +38457,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Loam">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Loam</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002258"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38229,6 +38468,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lobster">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lobster</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6693"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38240,6 +38480,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Lotic water body</oboInOwl:hasExactSynonym>
         <rdfs:label>Lotic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000618"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38250,6 +38491,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lumen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lumen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000464"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38260,6 +38502,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lung">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lung</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38270,6 +38513,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lymph-node">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lymph node</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000029"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38280,6 +38524,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lymph-nodes">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lymph nodes</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000029"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38300,6 +38545,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Lymphatic-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Lymphatic system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006558"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38320,6 +38566,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mammals">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mammals</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38351,6 +38598,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mangrove-swamp">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mangrove swamp</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000057"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38361,6 +38609,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Manure">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Manure</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003031"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38381,6 +38630,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Marginal-Sea">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Marginal Sea</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000016"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38392,6 +38642,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Marine biome</oboInOwl:hasExactSynonym>
         <rdfs:label>Marine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000447"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38443,6 +38694,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Marine-sediment">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Marine sediment</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000033"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38473,6 +38725,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Marsh">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Marsh</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000035"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38483,6 +38736,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Meadow">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Meadow</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000108"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38523,6 +38777,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Melt-pond">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Melt pond</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000040"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38533,6 +38788,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Membrane-bioreactor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Membrane bioreactor</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600010"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38544,6 +38800,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>marine mesopelagic zone</oboInOwl:hasExactSynonym>
         <rdfs:label>Mesopelagic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000213"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38554,6 +38811,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Metal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Metal</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001069"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38574,6 +38832,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Methane">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Methane</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16183"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38614,6 +38873,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Microbial-mats">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Microbial mats</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38644,6 +38904,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Midgut">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Midgut</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001045"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38664,6 +38925,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Milk">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Milk</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38674,6 +38936,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000076"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -38685,6 +38948,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mine-drainage">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mine drainage</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001996"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38715,6 +38979,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mineral-horizon">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mineral horizon</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600011"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38725,6 +38990,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mire">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mire</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38775,6 +39041,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mollusca">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mollusca</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6447"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38785,6 +39052,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mosquito">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mosquito</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7157"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38795,6 +39063,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Moth">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Moth</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7088"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38805,6 +39074,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mud">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mud</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -38825,6 +39095,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Mud-volcano">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Mud volcano</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000402"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38865,6 +39136,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Naris">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Naris</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000003"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38875,6 +39147,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nasal-cavity">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nasal cavity</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001707"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38895,6 +39168,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nature-reserve">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nature reserve</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000363"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38915,6 +39189,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nematoda">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nematoda</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6231"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38936,6 +39211,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>marine neritic zone</oboInOwl:hasExactSynonym>
         <rdfs:label>Neritic zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000206"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38946,6 +39222,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nervous-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nervous system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -38956,6 +39233,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nest">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nest</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005803"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -38986,6 +39264,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nodule">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nodule</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010754"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39006,6 +39285,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Nose">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Nose</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000004"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39036,6 +39316,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ocean-trench">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ocean trench</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000275"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39046,6 +39327,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oceanic">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oceanic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000015"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39056,6 +39338,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oceanic-crust">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oceanic crust</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000749"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39066,6 +39349,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002985"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39097,6 +39381,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil-palm">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil palm</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310232"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -39127,6 +39412,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil-reservoir">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil reservoir</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002185"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39137,6 +39423,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil-sands">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil sands</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600013"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -39147,6 +39434,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil-seeps">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil seeps</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002063"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39157,6 +39445,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil-sludge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil sludge</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002060"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -39167,6 +39456,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oil-well">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oil well</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000003"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39177,6 +39467,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oomycetes">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oomycetes</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4762"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39187,6 +39478,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oral-cavity">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oral cavity</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000167"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39207,6 +39499,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Orchard-soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Orchard soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005772"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39247,6 +39540,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ovaries">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ovaries</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000992"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39267,6 +39561,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Oyster">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Oyster</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6563"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39307,6 +39602,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Palatine-tonsils">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Palatine tonsils</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002373"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39317,6 +39613,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Palm-oil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Palm oil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310232"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -39327,6 +39624,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Palsa">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Palsa</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000489"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39337,6 +39635,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Paper">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Paper</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03500039"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -39347,6 +39646,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Park">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Park</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000562"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -39367,6 +39667,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Pasture">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Pasture</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000266"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39377,6 +39678,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Peat">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Peat</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005774"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39398,6 +39700,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>marine pelagic zone</oboInOwl:hasExactSynonym>
         <rdfs:label>Pelagic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000208"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39408,6 +39711,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Penis">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Penis</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000989"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39468,6 +39772,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Peritoneal-fluid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Peritoneal fluid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39478,6 +39783,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Permafrost">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Permafrost</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000134"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39498,6 +39804,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Petiole">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Petiole</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0020038"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39528,6 +39835,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Petromyzon">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Petromyzon</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7756"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39538,6 +39846,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Pharynx">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Pharynx</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006562"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39548,6 +39857,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Photic-zone">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Photic zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000209"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39620,6 +39930,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Plant-callus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Plant callus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0005052"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39640,6 +39951,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Plant-litter">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Plant litter</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000628"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39660,6 +39972,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Plants">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Plants</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3193"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39670,6 +39983,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Plasma">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Plasma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000798"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39690,6 +40004,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Platyhelminthes">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Platyhelminthes</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6157"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39700,6 +40015,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Pleural-fluid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Pleural fluid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001087"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39710,6 +40026,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Pollen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Pollen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0025281"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39730,6 +40047,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Pond">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Pond</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39740,6 +40058,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Porifera">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Porifera</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6040"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39750,6 +40069,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Potting-soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Potting soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000133"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39770,6 +40090,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Primate">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Primate</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39801,6 +40122,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Prostate">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Prostate</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002367"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39861,6 +40183,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Pus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Pus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000177"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39871,6 +40194,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Ranch">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Ranch</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001207"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39881,6 +40205,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rectum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rectum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001052"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39891,6 +40216,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Red-algae">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Red algae</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2763"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39901,6 +40227,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Reproductive-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Reproductive system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000990"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39911,6 +40238,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Reptilia">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Reptilia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8504"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39921,6 +40249,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Reservoir">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Reservoir</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000025"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -39941,6 +40270,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Respiratory-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Respiratory system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001004"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39951,6 +40281,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rhizoid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rhizoid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0030078"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39961,6 +40292,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rhizome">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rhizome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0004542"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39971,6 +40303,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rhizoplane">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rhizoplane</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001181"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -39981,6 +40314,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rhizosphere">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rhizosphere</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005801"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
@@ -40002,6 +40336,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/River">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>River</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -40033,6 +40368,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rock">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rock</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001995"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -40054,6 +40390,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Roots">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Roots</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40064,6 +40401,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Royal-jelly">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Royal jelly</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301033"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40074,6 +40412,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Rumen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Rumen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007365"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40084,6 +40423,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Saline">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Saline</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0085001"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40094,6 +40434,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Saline-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Saline water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002010"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40104,6 +40445,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Saliva">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Saliva</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40125,6 +40467,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Salt-marsh">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Salt marsh</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000054"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40145,6 +40488,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sand">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sand</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000017"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40175,6 +40519,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Saprolite">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Saprolite</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600016"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40185,6 +40530,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Scales">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Scales</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007380"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40205,6 +40551,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sea-Star">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sea Star</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7588"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40215,6 +40562,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sea-Urchin">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sea Urchin</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7625"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40225,6 +40573,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sea-cucumber">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sea cucumber</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2032702"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40235,6 +40584,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sea-ice">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sea ice</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40245,6 +40595,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sea-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sea water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002149"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40265,6 +40616,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Seaweed">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Seaweed</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412266"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40275,6 +40627,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Secondary">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Secondary</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0002632"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40285,6 +40638,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sediment">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sediment</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002007"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -40306,6 +40660,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Seeds">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Seeds</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40316,6 +40671,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Serum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Serum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001977"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40336,6 +40692,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sewage">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sewage</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002018"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40366,6 +40723,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Shell">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Shell</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006612"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40386,6 +40744,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Shrimp">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Shrimp</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411237"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40396,6 +40755,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Shrimp-pond">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Shrimp pond</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000905"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40406,6 +40766,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Shrubland">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Shrubland</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000300"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40416,6 +40777,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sigmoid-colon">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sigmoid colon</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001159"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40436,6 +40798,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Silt">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Silt</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000016"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40446,6 +40809,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sinkhole">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sinkhole</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000195"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40456,6 +40820,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Skeletal-system">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Skeletal system</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001434"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40466,6 +40831,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Skin">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Skin</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40486,6 +40852,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sludge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sludge</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002044"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40496,6 +40863,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Small-intestine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Small intestine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002108"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40506,6 +40874,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Snow">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Snow</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000406"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40536,6 +40905,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Soil">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Soil</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
@@ -40587,6 +40957,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sourdough">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sourdough</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302481"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40597,6 +40968,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Soy-sauce">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Soy sauce</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301115"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40607,6 +40979,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Soybean-paste">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Soybean paste</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03310002"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40637,6 +41010,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Spider">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Spider</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6893"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40647,6 +41021,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Spleen">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Spleen</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002106"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40657,6 +41032,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sponge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sponge</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6040"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40667,6 +41043,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Spring">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Spring</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000027"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40677,6 +41054,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Sputum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Sputum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007311"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40697,6 +41075,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Stomach">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Stomach</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000945"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40717,6 +41096,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Storm-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Storm water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001267"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40727,6 +41107,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Strait">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Strait</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000394"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40747,6 +41128,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Subgingival-plaque">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Subgingival plaque</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016484"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40757,6 +41139,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Subglacial-lake">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Subglacial lake</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000120"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40827,6 +41210,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Supragingival-plaque">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Supragingival plaque</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016485"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40837,6 +41221,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Surface">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Surface</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002416"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40847,6 +41232,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Swamp">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Swamp</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000233"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40857,6 +41243,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Swimming-pool">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Swimming pool</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000965"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40887,6 +41274,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Synovial-fluid">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Synovial fluid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40897,6 +41285,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Synovial-membrane">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Synovial membrane</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007616"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -40907,6 +41296,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Tailings-pond">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Tailings pond</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600021"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -40927,6 +41317,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Tap-water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Tap water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003096"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40937,6 +41328,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Tar">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Tar</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/OBI_0000326"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -40959,6 +41351,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Terrestrial biome</oboInOwl:hasExactSynonym>
         <rdfs:label>Terrestrial</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40989,6 +41382,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Thalassic">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Thalassic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001667"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -40999,6 +41393,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Thermal-springs">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Thermal springs</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000051"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
@@ -41040,6 +41435,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Thorax">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Thorax</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000915"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41050,6 +41446,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Throat">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Throat</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000341"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41060,6 +41457,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Tissue">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Tissue</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41080,6 +41478,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Tooth">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Tooth</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001091"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41090,6 +41489,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Trachea">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Trachea</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003126"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41110,6 +41510,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Trophosome">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Trophosome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012644"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41141,6 +41542,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Tunicates">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Tunicates</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7712"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41151,6 +41553,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Udder">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Udder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013216"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41161,6 +41564,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Umbilicus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Umbilicus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007118"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41181,6 +41585,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Unclassified">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Unclassified</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12908"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
@@ -41232,6 +41637,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Urethra">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Urethra</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000057"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41242,6 +41648,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Urinary-bladder">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Urinary bladder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001255"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41252,6 +41659,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Urinary-tract">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Urinary tract</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001008"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41262,6 +41670,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Urine">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Urine</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001088"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41272,6 +41681,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Uterus">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Uterus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000995"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41282,6 +41692,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Vadose-zone">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Vadose zone</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000328"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41292,6 +41703,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Vagina">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Vagina</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000996"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41302,6 +41714,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Vegetable">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Vegetable</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003816"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -41332,6 +41745,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Vinegar">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Vinegar</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301705"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -41353,6 +41767,7 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <oboInOwl:hasExactSynonym>Volcano</oboInOwl:hasExactSynonym>
         <rdfs:label>Volcanic</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000247"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41363,6 +41778,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/WWTP">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>WWTP</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002272"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -41373,6 +41789,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Wall">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Wall</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41383,6 +41800,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Wastewater">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Wastewater</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -41403,6 +41821,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Water">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Water</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -41433,6 +41852,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Water-well">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Water well</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41443,6 +41863,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Watershed">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Watershed</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000292"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41453,6 +41874,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Wetlands">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Wetlands</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41463,6 +41885,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Whale-fall">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Whale fall</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000140"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41473,6 +41896,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Whole-body">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Whole body</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41483,6 +41907,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Wood">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Wood</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002040"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
@@ -41494,6 +41919,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Wood-fall">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Wood fall</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000142"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Environmental"/>
     </owl:Class>
     
@@ -41514,6 +41940,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Xylem-vessels">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Xylem vessels</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PO_0025417"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41524,6 +41951,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/Xylene">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>Xylene</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27338"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Engineered"/>
     </owl:Class>
     
@@ -41564,6 +41992,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/anterior-nares">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>anterior nares</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005928"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41574,6 +42003,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/posterior-fornix">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>posterior fornix</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016486"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
     
@@ -41594,6 +42024,7 @@
     <owl:Class rdf:about="https://w3id.org/gold.vocab/tongue-dorsum">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/AtomicElement"/>
         <rdfs:label>tongue dorsum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009471"/>
         <skos:inScheme rdf:resource="https://w3id.org/gold.path/Host-associated"/>
     </owl:Class>
 </rdf:RDF>

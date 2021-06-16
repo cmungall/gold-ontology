@@ -1,15 +1,16 @@
 OBO = http://purl.obolibrary.org/obo
+MAPPINGS = mappings/filtered-gold-to-obo.sssom.tsv 
 
-all: gold.owl mappings/gold-to-obo.sssom.tsv mappings/nomatch-gold-to-obo.sssom.tsv
+all: gold.owl mappings/gold-to-obo.sssom.tsv mappings/nomatch-gold-to-obo.sssom.tsv $(MAPPINGS)
 
 test:
 	pipenv run pytest
 
 CODE = gold_ontology/gold_transform.py
-gold.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv
-	pipenv run python $(CODE) -s config/gold-env-synonyms.tsv  $< -o $@
+gold.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv $(MAPPINGS)
+	pipenv run python $(CODE) -s config/gold-env-synonyms.tsv -m $(MAPPINGS)  $< -o $@
 
-%.owl: %.ofn
+gold.owl: gold.ofn
 	robot convert -i $< -o $@
 
 data/gold-biosample-subset.db: data/gold-biosample-subset.tsv
@@ -39,10 +40,10 @@ mappings/filtered-gold-to-%.sssom.tsv: mappings/gold-to-%.sssom.tsv
 mappings/gold-to-%.sssom.tsv: mappings/auto-gold-to-%.sssom.tsv
 	python -m sssom.cli dedupe -i $< > $@
 
-mappings/auto-gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl config/envo_weights.pro
+mappings/auto-gold-to-%.sssom.tsv: downloads/%.owl  config/prefixes.ttl config/envo_weights.pro
 	rdfmatch -p gold.vocab -i $< -i gold.owl -i config/prefixes.ttl -w config/envo_weights.pro match > $@.tmp && mv $@.tmp $@
 
-mappings/nomatch-gold-to-%.sssom.tsv: downloads/%.owl gold.owl config/prefixes.ttl config/envo_weights.pro
+mappings/nomatch-gold-to-%.sssom.tsv: downloads/%.owl  config/prefixes.ttl config/envo_weights.pro
 	rdfmatch -p gold.vocab -i $< -i gold.owl -i config/prefixes.ttl -w config/envo_weights.pro nomatch > $@.tmp && mv $@.tmp $@
 
 mappings/gold-to-%.ptable.tsv: mappings/gold-to-%.sssom.tsv
