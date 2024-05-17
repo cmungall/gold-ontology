@@ -1,19 +1,22 @@
 import csv
+from collections import defaultdict
+from copy import copy
+
 import click
-import re
 import urllib
 import hashlib
 from rdflib import Namespace, URIRef
 from rdflib.namespace import RDFS, SKOS
-from typing import List
+from typing import List, Dict, Tuple
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
-    SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix
+    SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix, AnnotationSubject, Annotation
 
 OBO_PREFIXES = ['UBERON', 'ENVO', 'PR', 'CHEBI', 'FOODON', 'PATO', 'NCBITaxon', 'PO', 'OBI']
 ENVO = Namespace('http://purl.obolibrary.org/obo/ENVO_')
 GOLD_PATH = Namespace('https://w3id.org/gold.path/')
-ENVO_PATH = Namespace('https://w3id.org/gold.path/')
+GOLD_PATH_PREFIX = "GOLDTERMS"
 GOLD_VOCAB = Namespace('https://w3id.org/gold.vocab/')
+GOLD_VOCAB_PREFIX = "GOLDVOCAB"
 OIO = Namespace('http://www.geneontology.org/formats/oboInOwl#')
 
 GOLDPATH_COLS = ['ECOSYSTEM PATH ID', 'ECOSYSTEM', 'ECOSYSTEM CATEGORY', 'ECOSYSTEM TYPE', 'ECOSYSTEM SUBTYPE', 'SPECIFIC ECOSYSTEM']
@@ -21,7 +24,11 @@ ENVOPATH_COLS = ['env_package', 'env_broad_scale', 'env_local_scale', 'env_mediu
 UNC = 'Unclassified'
 Label = str
 
-def make_label(row: List[str], sep=' > ') -> Label:
+def make_label(row: List[str], sep=' > ', rev=False) -> Label:
+    if rev:
+        row = list(row)
+        row.reverse()
+        row = tuple(row)
     n = sep.join(row)
     return n
 
@@ -29,25 +36,43 @@ def safe_id(atom: str) -> str:
     return urllib.parse.quote(atom.replace(' ', '-'))
 
 def make_uri(id: str) -> str:
-    return f'gold.path:{id}'
+    return f'{GOLD_PATH_PREFIX}:{id}'
+
 def make_curie_for_atom(atom: str) -> str:
     #return make_uri(urllib.parse.quote(atom))
     id = safe_id(atom)
-    return f'gold.vocab:{id}'
+    return f'{GOLD_VOCAB_PREFIX}:{id}'
 
 def make_envo_path_id(row: List[str]) -> str:
     id = safe_id('-'.join(row))
     return f'envo.path{id}'
 
+
+def subtuples(row: tuple) -> List[tuple]:
+    return [tuple(row[i:]) for i in range(0, len(row))]
+
+def count_distinct_subtuples(row2id: dict) -> Dict[tuple, int]:
+    subtuple_counts = defaultdict(int)
+    for row in row2id.keys():
+        for subt in subtuples(row):
+            subtuple_counts[subt] += 1
+    return subtuple_counts
+
 def translate_goldpaths(f: str):
+    """
+    Translate a GOLD path file into an ontology
+
+    :param f:
+    :return:
+    """
     o = Ontology("http://purl.obolibrary.org/obo/gold.owl")
     o.annotation(RDFS.label, 'gold')
     doc = OntologyDocument(GOLD_PATH, o)
-    doc.prefixDeclarations.append(Prefix('gold.path', GOLD_PATH))
-    doc.prefixDeclarations.append(Prefix('gold.vocab', GOLD_VOCAB))
+    doc.prefixDeclarations.append(Prefix(GOLD_PATH_PREFIX, GOLD_PATH))
+    doc.prefixDeclarations.append(Prefix(GOLD_VOCAB_PREFIX, GOLD_VOCAB))
     for p in OBO_PREFIXES:
         doc.prefixDeclarations.append(Prefix(p, Namespace(f'http://purl.obolibrary.org/obo/{p}_')))
-    row2id = {}
+    row2id = {} # maps vocab tuple to a gold path ID
     atom2ecosystem = {}
     atoms = set()
     with open(f, 'r') as stream:
@@ -88,12 +113,20 @@ def translate_goldpaths(f: str):
         parent = row[0:-1]
         if parent != ():
             o.subClassOf(id, row2id[parent])
+    # find unique subtuples
+    subtuples_counts = count_distinct_subtuples(row2id)
     # labels
     for t, c in row2id.items():
         row = list(t)
         label = make_label(row)
         #print(f'{c} Label = {label}')
         o.axioms.append(AnnotationAssertion(RDFS.label, c, label))
+        # synonyms (unique only)
+        for subt in subtuples(row):
+            if subtuples_counts[subt] == 1:
+                syn = make_label(subt, sep=", ", rev=True)
+                if syn and syn != label:
+                    o.axioms.append(AnnotationAssertion(OIO.hasExactSynonym, c, syn))
         i = 0
         xs = []
         for v in row:
@@ -114,7 +147,7 @@ def translate_goldpaths(f: str):
 
 def translate_envopaths(f: str):
     o = Ontology("http://purl.obolibrary.org/obo/envo/paths.owl")
-    o.annotation(RDFS.label, 'envo pahs')
+    o.annotation(RDFS.label, 'envo paths')
     doc = OntologyDocument(ENVO, o)
     doc.prefixDeclarations.append(Prefix('envo.path', ENVO_PATH))
     doc.prefixDeclarations.append(Prefix('ENVO', ENVO))
@@ -165,37 +198,65 @@ def translate_envopaths(f: str):
     return doc
 
 def parse_synonyms(doc: OntologyDocument, f: str) -> None:
-    o = doc.ontology
-    with open(f, 'r') as stream:
-        reader = csv.reader(stream, delimiter='\t')
-        for id, syn in reader:
-            if id == 'id':
-                continue
-            o.axioms.append(AnnotationAssertion(OIO.hasExactSynonym, id, syn))
+    """
+    Parse a file with synonyms and inject them into the ontology
 
-def parse_sssom(doc: OntologyDocument, f: str) -> None:
+    :param doc:
+    :param f: file to parse (2 col TSV)
+    :return:
+    """
     o = doc.ontology
     with open(f, 'r') as stream:
         reader = csv.DictReader(stream, delimiter='\t')
         for row in reader:
+            id, syn = (row['id'], row['synonym'])
+            if id and syn:
+                o.axioms.append(AnnotationAssertion(OIO.hasExactSynonym, make_curie_for_atom(id), syn))
+
+def parse_sssom(doc: OntologyDocument, f: str) -> None:
+    """
+    Parse a file with SSSOM mappings and inject them into the ontology
+
+    :param doc:
+    :param f:
+    :return:
+    """
+    o = doc.ontology
+    with open(f, 'r') as stream:
+        # ignore comment lines starting with #
+        # stream = filter(lambda x: not x.startswith('#'), stream)
+        reader = csv.DictReader(stream, delimiter='\t')
+        for row in reader:
             subject_id = row['subject_id']
             object_id = row['object_id']
-            #pred = row['predicate_id']
+            if row['predicate_id'] != 'skos:exactMatch':
+                continue
             pred = SKOS.exactMatch
-            o.axioms.append(AnnotationAssertion(pred, subject_id, object_id))
+            anns = [Annotation(RDFS.label, row['object_label'])]
+            aa = AnnotationAssertion(pred, subject_id, object_id, anns)
+            o.axioms.append(aa)
+            print(aa)
 
 
 @click.command()
 @click.option('-o', '--output')
-@click.option('-s', '--synonyms')
-@click.option('-m', '--mappings')
+@click.option('-s', '--synonyms',
+              help="Manually created synonyms for each GOLD vocab element",
+              )
+@click.option('-m', '--mappings', multiple=True)
 @click.argument('input')
-def cli(input: str, output: str, synonyms: str, mappings: str):
+def cli(input: str, output: str, synonyms: str, mappings: Tuple[str]):
+    """
+
+    """
     doc = translate_goldpaths(input)
     if synonyms is not None:
+        # inject synonyms
         parse_synonyms(doc, synonyms)
     if mappings is not None:
-        parse_sssom(doc, mappings)
+        # inject mappings
+        for mappings_file in mappings:
+            parse_sssom(doc, mappings_file)
     with open(output, 'w') as stream:
         stream.write(str(doc))
 

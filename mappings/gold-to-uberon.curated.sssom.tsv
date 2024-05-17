@@ -1,0 +1,200 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+GOLDTERMS:3911	Host-associated > Human > Digestive system > Oral cavity > tongue dorsum	skos:exactMatch	UBERON:0009471	dorsum of tongue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tongue dorsum
+GOLDTERMS:3913	Host-associated > Human > Digestive system > Oral cavity > Subgingival plaque	skos:exactMatch	UBERON:0016484	subgingival dental plaque	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	subgingival plaque
+GOLDTERMS:3916	Host-associated > Human > Digestive system > Oral cavity > Supragingival plaque	skos:exactMatch	UBERON:0016485	supragingival dental plaque	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	supragingival plaque
+GOLDTERMS:3918	Host-associated > Human > Digestive system > Oral cavity > Hard palate	skos:exactMatch	UBERON:0003216	hard palate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hard palate
+GOLDTERMS:3921	Host-associated > Human > Digestive system > Large intestine > Sigmoid colon	skos:exactMatch	UBERON:0001159	sigmoid colon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sigmoid colon
+GOLDTERMS:3925	Host-associated > Human > Skin > Umbilicus	skos:exactMatch	UBERON:0007118	umbilicus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	umbilicus
+GOLDTERMS:3926	Host-associated > Human > Skin > Axilla	skos:exactMatch	UBERON:0009472	axilla	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	axilla
+GOLDTERMS:3929	Host-associated > Human > Skin > Naris	skos:exactMatch	UBERON:0005928	external naris	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	naris
+GOLDTERMS:4121	Host-associated > Mammals > Respiratory system > Nasopharyngeal > Nasal cavity	skos:exactMatch	UBERON:0001707	nasal cavity	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nasal cavity
+GOLDTERMS:4130	Host-associated > Human > Respiratory system > Nasopharyngeal > anterior nares	skos:closeMatch	UBERON:0005928	external naris	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	anterior nares
+GOLDTERMS:4132	Host-associated > Human > Respiratory system > Nasopharyngeal > Pharynx	skos:exactMatch	UBERON:0006562	pharynx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pharynx
+GOLDTERMS:4141	Host-associated > Human > Reproductive system > Vagina > Introitus	skos:closeMatch	UBERON:0012317	vagina orifice	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	introitus
+GOLDTERMS:4142	Host-associated > Human > Reproductive system > Vagina > posterior fornix	skos:exactMatch	UBERON:0016486	posterior fornix of vagina	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	posterior fornix
+GOLDTERMS:4328	Host-associated > Mollusca > Shell	skos:exactMatch	UBERON:0006612	shell	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	shell
+GOLDTERMS:4333	Host-associated > Annelida > Reproductive system > Egg capsule	skos:exactMatch	UBERON:3010636	egg capsule	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	egg capsule
+GOLDTERMS:4334	Host-associated > Annelida > Intracellular endosymbionts > Trophosome	skos:exactMatch	UBERON:0012644	trophosome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	trophosome
+GOLDTERMS:4416	Host-associated > Human > Circulatory system > Blood > Plasma	skos:exactMatch	UBERON:0001969	blood plasma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	plasma
+GOLDTERMS:4422	Host-associated > Fish > Skin > Epidermal mucus	skos:closeMatch	UBERON:0010152	skin mucus	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	epidermal mucus
+GOLDTERMS:4429	Host-associated > Arthropoda > Reproductive system > Ovaries	skos:exactMatch	UBERON:0000992	ovary	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	ovaries
+GOLDTERMS:4430	Host-associated > Human > Circulatory system > Blood > Serum	skos:exactMatch	UBERON:0001977	blood serum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	serum
+GOLDTERMS:4584	Host-associated > Human > Hair	skos:broadMatch	UBERON:8420000	hair of scalp	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	hair
+GOLDTERMS:4641	Host-associated > Birds > Digestive system > Cloaca	skos:exactMatch	UBERON:0000162	cloaca	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cloaca
+GOLDTERMS:4651	Host-associated > Invertebrates > Cnidaria > Coral > Surface	owl:differentFrom	UBERON:0002416	integumental system	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	surface
+GOLDTERMS:4701	Host-associated > Mammals > Hoof	skos:exactMatch	UBERON:0008963	hoof	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hoof
+GOLDTERMS:4740	Host-associated > Fish > Skin > Scales	skos:exactMatch	UBERON:0007380	dermal scale	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	scales
+GOLDTERMS:4794	Host-associated > Fish > Whole body > Carcass	skos:exactMatch	UBERON:0008979	carcass	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	carcass
+GOLDTERMS:4822	Environmental > Terrestrial > Cave > Wall	owl:differentFrom	UBERON:0000060	anatomical wall	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	wall
+GOLDTERMS:4858	Host-associated > Mammals > Digestive system > Large intestine > Cow Dung	skos:narrowMatch	UBERON:0001988	feces	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasNarrowSynonym	cow dung
+GOLDTERMS:4870	Host-associated > Human > Reproductive system > Amniotic sac > Amniotic fluid	skos:exactMatch	UBERON:0000173	amniotic fluid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	amniotic fluid
+GOLDTERMS:4880	Host-associated > Arthropoda > Bee > Beehive > Honey	skos:exactMatch	UBERON:0036016	honey	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	honey
+GOLDTERMS:4900	Host-associated > Human > Reproductive system > Penis	skos:exactMatch	UBERON:0000989	penis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	penis
+GOLDTERMS:4921	Host-associated > Fish > Respiratory system > Gill	skos:exactMatch	UBERON:0002535	gill	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	gill
+GOLDTERMS:4970	Host-associated > Mammals > Respiratory system > Laryngopharyngeal > Lymph node	skos:exactMatch	UBERON:0000029	lymph node	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lymph node
+GOLDTERMS:4972	Host-associated > Mammals > Reproductive system > Uterus	skos:exactMatch	UBERON:0000995	uterus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	uterus
+GOLDTERMS:4978	Host-associated > Mollusca > Circulatory system > Hemolymph	skos:exactMatch	UBERON:0001011	hemolymph	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hemolymph
+GOLDTERMS:4980	Host-associated > Mammals > Respiratory system > Nose	skos:closeMatch	UBERON:0007827	external nose	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	nose
+GOLDTERMS:4982	Host-associated > Human > Reproductive system > Cervix	skos:exactMatch	UBERON:0000002	uterine cervix	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	cervix
+GOLDTERMS:4986	Host-associated > Mammals > Reproductive system > Udder	skos:exactMatch	UBERON:0013216	udder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	udder
+GOLDTERMS:4996	Host-associated > Human > Excretory system > Urinary bladder	skos:exactMatch	UBERON:0001255	urinary bladder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	urinary bladder
+GOLDTERMS:5005	Host-associated > Human > Respiratory system > Lung > Pleural fluid	skos:exactMatch	UBERON:0001087	pleural fluid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pleural fluid
+GOLDTERMS:5009	Host-associated > Human > Respiratory system > Sputum	skos:exactMatch	UBERON:0007311	sputum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sputum
+GOLDTERMS:5019	Host-associated > Human > Reproductive system > Prostate	skos:exactMatch	UBERON:0002367	prostate gland	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prostate
+GOLDTERMS:5023	Host-associated > Human > Digestive system > Small intestine > Duodenum	skos:exactMatch	UBERON:0002114	duodenum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	duodenum
+GOLDTERMS:5024	Host-associated > Human > Excretory system > Liver > Bile	skos:exactMatch	UBERON:0001970	bile	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bile
+GOLDTERMS:5025	Host-associated > Human > Digestive system > Small intestine > Ileum	skos:exactMatch	UBERON:0002116	ileum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ileum
+GOLDTERMS:5027	Host-associated > Human > Excretory system > Gallbladder	skos:exactMatch	UBERON:0002110	gallbladder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	gallbladder
+GOLDTERMS:5028	Host-associated > Human > Digestive system > Large intestine > Descending colon	skos:exactMatch	UBERON:0001158	descending colon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	descending colon
+GOLDTERMS:5037	Host-associated > Human > Abdomen > Peritoneal fluid	skos:exactMatch	UBERON:0001268	peritoneal fluid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	peritoneal fluid
+GOLDTERMS:5054	Host-associated > Fish > Abdomen > Ascites	owl:differentFrom	UBERON:0007795	ascitic fluid	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	ascites
+GOLDTERMS:5075	Host-associated > Human > Circulatory system > Heart > Heart valve	skos:exactMatch	UBERON:0000946	cardiac valve	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	heart valve
+GOLDTERMS:5082	Host-associated > Human > Excretory system > Urinary tract	skos:exactMatch	UBERON:0001008	renal system	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	urinary tract
+GOLDTERMS:5083	Host-associated > Human > Digestive system > Oral cavity > Dental pulp	skos:exactMatch	UBERON:0001754	dental pulp	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dental pulp
+GOLDTERMS:5089	Host-associated > Human > Reproductive system > Breast	skos:exactMatch	UBERON:0000310	breast	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	breast
+GOLDTERMS:5091	Host-associated > Human > Tooth > Enamel	skos:exactMatch	UBERON:0001752	enamel	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	enamel
+GOLDTERMS:5097	Host-associated > Mammals > Digestive system > Oral cavity > Gingival sulcus	skos:exactMatch	UBERON:0008805	gingival groove	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	gingival sulcus
+GOLDTERMS:5121	Host-associated > Mammals > Digestive system > Oral cavity > Gingiva	skos:exactMatch	UBERON:0001828	gingiva	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	gingiva
+GOLDTERMS:5148	Host-associated > Amphibia > Excretory system > Kidney	skos:exactMatch	UBERON:0002113	kidney	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	kidney
+GOLDTERMS:5213	Host-associated > Human > Skeletal system > Synovial membrane > Synovial fluid	skos:exactMatch	UBERON:0001090	synovial fluid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	synovial fluid
+GOLDTERMS:5220	Host-associated > Arthropoda > Shrimp > Hepatopancreas	skos:exactMatch	UBERON:0010264	hepatopancreas	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hepatopancreas
+GOLDTERMS:5240	Host-associated > Human > Eye > Conjunctiva	skos:exactMatch	UBERON:0001811	conjunctiva	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	conjunctiva
+GOLDTERMS:5251	Host-associated > Human > Respiratory system > Lung > Bronchi	skos:exactMatch	UBERON:0002185	bronchus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bronchi
+GOLDTERMS:5253	Host-associated > Mammals > Digestive system > Small intestine > Jejunum	skos:exactMatch	UBERON:0002115	jejunum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	jejunum
+GOLDTERMS:5256	Host-associated > Human > Thorax	skos:exactMatch	UBERON:0000915	thoracic segment of trunk	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	thorax
+GOLDTERMS:5312	Host-associated > Human > Skeletal system > Bone > Ethmoid	skos:exactMatch	UBERON:0001679	ethmoid bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ethmoid
+GOLDTERMS:5314	Host-associated > Human > Skeletal system > Bone > Bone marrow	skos:exactMatch	UBERON:0002371	bone marrow	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bone marrow
+GOLDTERMS:5416	Host-associated > Plants > Rhizome > Bulb	owl:differentFrom	UBERON:0001896	medulla oblongata	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	bulb
+GOLDTERMS:5690	Engineered > Lab enrichment > Defined media > Anaerobic media > Feces	skos:exactMatch	UBERON:0001988	feces	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	feces
+GOLDTERMS:Host-associated-Human-Skeletal-system	Host-associated > Human > Skeletal system	skos:exactMatch	UBERON:0001434	skeletal system	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	skeletal system
+GOLDTERMS:Host-associated-Human-Skeletal-system-Synovial-membrane	Host-associated > Human > Skeletal system > Synovial membrane	skos:exactMatch	UBERON:0002018	synovial membrane of synovial joint	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	synovial membrane
+GOLDTERMS:Host-associated-Mammals-Gastrointestinal-tract	Host-associated > Mammals > Gastrointestinal tract	skos:exactMatch	UBERON:0005409	alimentary part of gastrointestinal system	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	gastrointestinal tract
+GOLDVOCAB:Abdomen	Abdomen	skos:exactMatch	UBERON:0000916	abdomen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	abdomen
+GOLDVOCAB:Amniotic-fluid	Amniotic fluid	skos:exactMatch	UBERON:0000173	amniotic fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	amniotic fluid
+GOLDVOCAB:Ascites	Ascites	owl:differentFrom	UBERON:0007795	ascitic fluid	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	ascites
+GOLDVOCAB:Axilla	Axilla	skos:exactMatch	UBERON:0009472	axilla	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	axilla
+GOLDVOCAB:Bile	Bile	skos:exactMatch	UBERON:0001970	bile	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bile
+GOLDVOCAB:Blood	Blood	skos:exactMatch	UBERON:0000178	blood	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	blood
+GOLDVOCAB:Bone	Bone	skos:exactMatch	UBERON:0002481	bone tissue	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	bone
+GOLDVOCAB:Bone-marrow	Bone marrow	skos:exactMatch	UBERON:0002371	bone marrow	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bone marrow
+GOLDVOCAB:Brain	Brain	skos:exactMatch	UBERON:0000955	brain	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	brain
+GOLDVOCAB:Breast	Breast	skos:exactMatch	UBERON:0000310	breast	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	breast
+GOLDVOCAB:Bronchi	Bronchi	skos:exactMatch	UBERON:0002185	bronchus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	bronchi
+GOLDVOCAB:Buccal-mucosa	Buccal mucosa	skos:exactMatch	UBERON:0006956	buccal mucosa	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	buccal mucosa
+GOLDVOCAB:Bulb	Bulb	owl:differentFrom	UBERON:0001896	medulla oblongata	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	bulb
+GOLDVOCAB:Carcass	Carcass	skos:exactMatch	UBERON:0008979	carcass	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	carcass
+GOLDVOCAB:Ceca	Ceca	skos:exactMatch	UBERON:0001153	caecum	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	ceca
+GOLDVOCAB:Cecum	Cecum	skos:exactMatch	UBERON:0001153	caecum	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cecum
+GOLDVOCAB:Cerebrospinal-fluid	Cerebrospinal fluid	skos:exactMatch	UBERON:0001359	cerebrospinal fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cerebrospinal fluid
+GOLDVOCAB:Cervix	Cervix	skos:broadMatch	UBERON:0000002	uterine cervix	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	cervix
+GOLDVOCAB:Circulatory-system	Circulatory system	skos:exactMatch	UBERON:0001009	circulatory system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	circulatory system
+GOLDVOCAB:Cloaca	Cloaca	skos:exactMatch	UBERON:0000162	cloaca	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cloaca
+GOLDVOCAB:Colon	Colon	skos:exactMatch	UBERON:0001155	colon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	colon
+GOLDVOCAB:Conjunctiva	Conjunctiva	skos:exactMatch	UBERON:0001811	conjunctiva	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	conjunctiva
+GOLDVOCAB:Cow-Dung	Cow Dung	skos:exactMatch	UBERON:0001988	feces	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	cow dung
+GOLDVOCAB:Crop	Crop	skos:exactMatch	UBERON:0007356	crop	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	crop
+GOLDVOCAB:Cuticle	Cuticle	skos:exactMatch	UBERON:0001002	cuticle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cuticle
+GOLDVOCAB:Dental-plaque	Dental plaque	skos:exactMatch	UBERON:0016482	dental plaque	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dental plaque
+GOLDVOCAB:Dental-pulp	Dental pulp	skos:exactMatch	UBERON:0001754	dental pulp	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dental pulp
+GOLDVOCAB:Descending-colon	Descending colon	skos:exactMatch	UBERON:0001158	descending colon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	descending colon
+GOLDVOCAB:Digestive-system	Digestive system	skos:exactMatch	UBERON:0001007	digestive system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	digestive system
+GOLDVOCAB:Digestive-tube	Digestive tube	skos:exactMatch	UBERON:0001555	digestive tract	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	digestive tube
+GOLDVOCAB:Duodenum	Duodenum	skos:exactMatch	UBERON:0002114	duodenum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	duodenum
+GOLDVOCAB:Ear	Ear	skos:exactMatch	UBERON:0001690	ear	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ear
+GOLDVOCAB:Egg-capsule	Egg capsule	skos:exactMatch	UBERON:3010636	egg capsule	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	egg capsule
+GOLDVOCAB:Enamel	Enamel	skos:exactMatch	UBERON:0001752	enamel	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	enamel
+GOLDVOCAB:Epidermal-mucus	Epidermal mucus	skos:closeMatch	UBERON:0010152	skin mucus	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	epidermal mucus
+GOLDVOCAB:Ethmoid	Ethmoid	skos:exactMatch	UBERON:0001679	ethmoid bone	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ethmoid
+GOLDVOCAB:Excretory-system	Excretory system	skos:exactMatch	UBERON:8450002	excretory system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	excretory system
+GOLDVOCAB:Eye	Eye	skos:exactMatch	UBERON:0000970	eye	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	eye
+GOLDVOCAB:Feces	Feces	skos:exactMatch	UBERON:0001988	feces	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	feces
+GOLDVOCAB:Foregut	Foregut	skos:exactMatch	UBERON:0001041	foregut	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	foregut
+GOLDVOCAB:Gallbladder	Gallbladder	skos:exactMatch	UBERON:0002110	gallbladder	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gallbladder
+GOLDVOCAB:Gastric-mucosa	Gastric mucosa	skos:exactMatch	UBERON:0001199	mucosa of stomach	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	gastric mucosa
+GOLDVOCAB:Gastrointestinal-tract	Gastrointestinal tract	skos:closeMatch	UBERON:0005409	alimentary part of gastrointestinal system	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	gastrointestinal tract
+GOLDVOCAB:Gill	Gill	skos:exactMatch	UBERON:0002535	gill	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gill
+GOLDVOCAB:Gills	Gills	skos:exactMatch	UBERON:0002535	gill	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	gills
+GOLDVOCAB:Gingiva	Gingiva	skos:exactMatch	UBERON:0001828	gingiva	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	gingiva
+GOLDVOCAB:Gingival-sulcus	Gingival sulcus	skos:exactMatch	UBERON:0008805	gingival groove	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	gingival sulcus
+GOLDVOCAB:Gut	Gut	skos:exactMatch	UBERON:0001555	digestive tract	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	gut
+GOLDVOCAB:Hair	Hair	skos:exactMatch	UBERON:0001037	strand of hair	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hair
+GOLDVOCAB:Hard-palate	Hard palate	skos:exactMatch	UBERON:0003216	hard palate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hard palate
+GOLDVOCAB:Heart	Heart	skos:exactMatch	UBERON:0000948	heart	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	heart
+GOLDVOCAB:Heart-valve	Heart valve	skos:closeMatch	UBERON:0000946	cardiac valve	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	heart valve
+GOLDVOCAB:Heart-valve	Heart valve	skos:exactMatch	UBERON:0000946	cardiac valve	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	heart valve
+GOLDVOCAB:Hemolymph	Hemolymph	skos:exactMatch	UBERON:0001011	hemolymph	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hemolymph
+GOLDVOCAB:Hepatopancreas	Hepatopancreas	skos:exactMatch	UBERON:0010264	hepatopancreas	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hepatopancreas
+GOLDVOCAB:Hindgut	Hindgut	skos:exactMatch	UBERON:0001046	hindgut	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hindgut
+GOLDVOCAB:Honey	Honey	skos:exactMatch	UBERON:0036016	honey	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	honey
+GOLDVOCAB:Hoof	Hoof	skos:exactMatch	UBERON:0008963	hoof	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hoof
+GOLDVOCAB:Ileum	Ileum	skos:exactMatch	UBERON:0002116	ileum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ileum
+GOLDVOCAB:Integument	Integument	skos:exactMatch	UBERON:0002199	integument	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	integument
+GOLDVOCAB:Intestine	Intestine	skos:exactMatch	UBERON:0000160	intestine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intestine
+GOLDVOCAB:Introitus	Introitus	skos:exactMatch	UBERON:0012317	vagina orifice	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	introitus
+GOLDVOCAB:Jejunum	Jejunum	skos:exactMatch	UBERON:0002115	jejunum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	jejunum
+GOLDVOCAB:Kidney	Kidney	skos:exactMatch	UBERON:0002113	kidney	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	kidney
+GOLDVOCAB:Large-intestine	Large intestine	skos:exactMatch	UBERON:0000059	large intestine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	large intestine
+GOLDVOCAB:Liver	Liver	skos:exactMatch	UBERON:0002107	liver	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	liver
+GOLDVOCAB:Lumen	Lumen	skos:broadMatch	UBERON:0000464	anatomical space	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	lumen
+GOLDVOCAB:Lung	Lung	skos:exactMatch	UBERON:0002048	lung	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lung
+GOLDVOCAB:Lymph-node	Lymph node	skos:exactMatch	UBERON:0000029	lymph node	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lymph node
+GOLDVOCAB:Lymphatic-system	Lymphatic system	skos:exactMatch	UBERON:0006558	lymphatic part of lymphoid system	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lymphatic system
+GOLDVOCAB:Midgut	Midgut	skos:exactMatch	UBERON:0001045	midgut	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	midgut
+GOLDVOCAB:Milk	Milk	skos:exactMatch	UBERON:0001913	milk	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	milk
+GOLDVOCAB:Naris	Naris	skos:exactMatch	UBERON:0005928	external naris	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	naris
+GOLDVOCAB:Nasal-cavity	Nasal cavity	skos:exactMatch	UBERON:0001707	nasal cavity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nasal cavity
+GOLDVOCAB:Nervous-system	Nervous system	skos:exactMatch	UBERON:0001016	nervous system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nervous system
+GOLDVOCAB:Nodule	Nodule	owl:differentFrom	UBERON:0004083	cerebellum vermis lobule X	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	nodule
+GOLDVOCAB:Nodule	Nodule	owl:differentFrom	UBERON:0010754	germinal center	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	nodule
+GOLDVOCAB:Nose	Nose	skos:exactMatch	UBERON:0007827	external nose	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	nose
+GOLDVOCAB:Oral-cavity	Oral cavity	skos:exactMatch	UBERON:0000167	oral cavity	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oral cavity
+GOLDVOCAB:Ovaries	Ovaries	skos:closeMatch	UBERON:0000992	ovary	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	ovaries
+GOLDVOCAB:Penis	Penis	skos:exactMatch	UBERON:0000989	penis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	penis
+GOLDVOCAB:Peritoneal-fluid	Peritoneal fluid	skos:exactMatch	UBERON:0001268	peritoneal fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	peritoneal fluid
+GOLDVOCAB:Pharynx	Pharynx	skos:exactMatch	UBERON:0001042	chordate pharynx	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	pharynx
+GOLDVOCAB:Plasma	Plasma	skos:broadMatch	UBERON:0001969	blood plasma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	plasma
+GOLDVOCAB:Pleural-fluid	Pleural fluid	skos:exactMatch	UBERON:0001087	pleural fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pleural fluid
+GOLDVOCAB:Prostate	Prostate	skos:exactMatch	UBERON:0002367	prostate gland	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	prostate
+GOLDVOCAB:Pus	Pus	skos:exactMatch	UBERON:0000177	pus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pus
+GOLDVOCAB:Rectum	Rectum	skos:exactMatch	UBERON:0001052	rectum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rectum
+GOLDVOCAB:Reproductive-system	Reproductive system	skos:exactMatch	UBERON:0000990	reproductive system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reproductive system
+GOLDVOCAB:Respiratory-system	Respiratory system	skos:exactMatch	UBERON:0001004	respiratory system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	respiratory system
+GOLDVOCAB:Rumen	Rumen	skos:exactMatch	UBERON:0007365	rumen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rumen
+GOLDVOCAB:Saliva	Saliva	skos:exactMatch	UBERON:0001836	saliva	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	saliva
+GOLDVOCAB:Scales	Scales	skos:exactMatch	UBERON:0007380	dermal scale	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	scales
+GOLDVOCAB:Serum	Serum	skos:exactMatch	UBERON:0001977	blood serum	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	serum
+GOLDVOCAB:Shell	Shell	skos:exactMatch	UBERON:0006612	shell	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shell
+GOLDVOCAB:Sigmoid-colon	Sigmoid colon	skos:exactMatch	UBERON:0001159	sigmoid colon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sigmoid colon
+GOLDVOCAB:Skeletal-system	Skeletal system	skos:exactMatch	UBERON:0001434	skeletal system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	skeletal system
+GOLDVOCAB:Skin	Skin	skos:exactMatch	UBERON:0000014	zone of skin	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	skin
+GOLDVOCAB:Small-intestine	Small intestine	skos:exactMatch	UBERON:0002108	small intestine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	small intestine
+GOLDVOCAB:Spleen	Spleen	skos:exactMatch	UBERON:0002106	spleen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	spleen
+GOLDVOCAB:Sputum	Sputum	skos:exactMatch	UBERON:0007311	sputum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sputum
+GOLDVOCAB:Stomach	Stomach	skos:exactMatch	UBERON:0000945	stomach	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	stomach
+GOLDVOCAB:Subgingival-plaque	Subgingival plaque	skos:closeMatch	UBERON:0016484	subgingival dental plaque	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	subgingival plaque
+GOLDVOCAB:Supragingival-plaque	Supragingival plaque	skos:closeMatch	UBERON:0016485	supragingival dental plaque	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	supragingival plaque
+GOLDVOCAB:Surface	Surface	skos:closeMatch	UBERON:0002416	integumental system	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	surface
+GOLDVOCAB:Synovial-fluid	Synovial fluid	skos:exactMatch	UBERON:0001090	synovial fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	synovial fluid
+GOLDVOCAB:Synovial-membrane	Synovial membrane	skos:broadMatch	UBERON:0002018	synovial membrane of synovial joint	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	synovial membrane
+GOLDVOCAB:Synovial-membrane	Synovial membrane	skos:narrowMatch	UBERON:0007616	layer of synovial tissue	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	synovial membrane
+GOLDVOCAB:Thorax	Thorax	skos:closeMatch	UBERON:0001443	chest	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	thorax
+GOLDVOCAB:Thorax	Thorax	skos:exactMatch	UBERON:0000915	thoracic segment of trunk	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	thorax
+GOLDVOCAB:Throat	Throat	skos:exactMatch	UBERON:0000341	throat	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	throat
+GOLDVOCAB:Tissue	Tissue	skos:exactMatch	UBERON:0000479	tissue	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tissue
+GOLDVOCAB:Tooth	Tooth	skos:exactMatch	UBERON:0001091	calcareous tooth	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	tooth
+GOLDVOCAB:Trachea	Trachea	skos:exactMatch	UBERON:0003126	trachea	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	trachea
+GOLDVOCAB:Trophosome	Trophosome	skos:exactMatch	UBERON:0012644	trophosome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	trophosome
+GOLDVOCAB:Udder	Udder	skos:exactMatch	UBERON:0013216	udder	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	udder
+GOLDVOCAB:Umbilicus	Umbilicus	skos:exactMatch	UBERON:0007118	umbilicus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	umbilicus
+GOLDVOCAB:Urethra	Urethra	skos:exactMatch	UBERON:0000057	urethra	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	urethra
+GOLDVOCAB:Urinary-bladder	Urinary bladder	skos:exactMatch	UBERON:0001255	urinary bladder	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	urinary bladder
+GOLDVOCAB:Urinary-tract	Urinary tract	skos:exactMatch	UBERON:0001008	renal system	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	urinary tract
+GOLDVOCAB:Urine	Urine	skos:exactMatch	UBERON:0001088	urine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	urine
+GOLDVOCAB:Uterus	Uterus	skos:exactMatch	UBERON:0000995	uterus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	uterus
+GOLDVOCAB:Vagina	Vagina	skos:exactMatch	UBERON:0000996	vagina	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vagina
+GOLDVOCAB:Wall	Wall	owl:differentFrom	UBERON:0000060	anatomical wall	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	wall
+GOLDVOCAB:Whole-body	Whole body	skos:closeMatch	UBERON:0000468	multicellular organism	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	whole body
+GOLDVOCAB:anterior-nares	anterior nares	skos:closeMatch	UBERON:0005928	external naris	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	anterior nares
+GOLDVOCAB:posterior-fornix	posterior fornix	skos:broadMatch	UBERON:0016486	posterior fornix of vagina	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	posterior fornix
+GOLDVOCAB:tongue-dorsum	tongue dorsum	skos:exactMatch	UBERON:0009471	dorsum of tongue	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	tongue dorsum
+

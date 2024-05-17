@@ -1,0 +1,18 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+GOLDTERMS:3943	Host-associated > Plants > Rhizome	skos:exactMatch	PO:0004542	rhizome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	rhizome
+GOLDTERMS:4401	Engineered > Built environment > Canal	owl:differentFrom	PO:0025132	canal	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	canal
+GOLDTERMS:5269	Host-associated > Plants > Phyllosphere > Leaf	skos:exactMatch	PO:0025034	leaf	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	leaf
+GOLDTERMS:5277	Host-associated > Plants > Plant callus	skos:exactMatch	PO:0005052	plant callus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	plant callus
+GOLDTERMS:5320	Host-associated > Plants > Phyllosphere > Petiole	skos:exactMatch	PO:0020038	petiole	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	petiole
+GOLDTERMS:5416	Host-associated > Plants > Rhizome > Bulb	skos:exactMatch	PO:0025356	bulb	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bulb
+GOLDTERMS:5796	Host-associated > Plants > Rhizoid	skos:exactMatch	PO:0030078	rhizoid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	rhizoid
+GOLDVOCAB:Bark	Bark	skos:exactMatch	PO:0004518	bark	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bark
+GOLDVOCAB:Bulb	Bulb	skos:exactMatch	PO:0025356	bulb	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bulb
+GOLDVOCAB:Canal	Canal	owl:differentFrom	PO:0025132	canal	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	canal
+GOLDVOCAB:Leaf	Leaf	skos:exactMatch	PO:0025034	leaf	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	leaf
+GOLDVOCAB:Petiole	Petiole	skos:exactMatch	PO:0020038	petiole	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	petiole
+GOLDVOCAB:Plant-callus	Plant callus	skos:exactMatch	PO:0005052	plant callus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plant callus
+GOLDVOCAB:Pollen	Pollen	skos:exactMatch	PO:0025281	pollen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pollen
+GOLDVOCAB:Rhizoid	Rhizoid	skos:exactMatch	PO:0030078	rhizoid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rhizoid
+GOLDVOCAB:Rhizome	Rhizome	skos:exactMatch	PO:0004542	rhizome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rhizome
+
