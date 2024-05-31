@@ -142,7 +142,7 @@ def create_template(gold: MappingProviderInterface) -> Iterator[GoldTerm]:
 
     Based on rules/heuristics about the mapped terms, different slots
     are filled in.
-    
+
     :param gold:
     :return:
     """
