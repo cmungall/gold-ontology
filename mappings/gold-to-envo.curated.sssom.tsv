@@ -2,6 +2,8 @@ subject_id	subject_label	predicate_id	object_id	object_label	mapping_justificati
 GOLDTERMS:3965	Environmental > Aquatic > Aquaculture	skos:exactMatch	ENVO:03600074	aquaculture farm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	aquaculture
 GOLDTERMS:3976	Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Thalassic	owl:differentFrom	ENVO:01001667	thalassic	semapv:LexicalMatching	oaklib	0.0	oio:hasExactSynonym	rdfs:label	thalassic
 GOLDTERMS:4000	Environmental > Aquatic > Marine > Fossil > Whale fall	skos:exactMatch	ENVO:01000140	whale fall	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	whale fall
+GOLDTERMS:4004	Environmental > Aquatic > Marine > Oceanic > Photic zone	skos:exactMatch	ENVO:00000209	marine photic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	whale fall
+GOLDTERMS:4010	Environmental > Aquatic > Marine > Oceanic > Aphotic zone	skos:exactMatch	ENVO:00000210	marine aphotic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	whale fall
 GOLDTERMS:4012	Environmental > Aquatic > Marine > Intertidal zone > Salt marsh	skos:exactMatch	ENVO:00000054	saline marsh	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	salt marsh
 GOLDTERMS:4013	Environmental > Aquatic > Marine > Intertidal zone	skos:exactMatch	ENVO:00000316	intertidal zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intertidal zone
 GOLDTERMS:4014	Environmental > Aquatic > Marine > Intertidal zone > Coral reef	skos:exactMatch	ENVO:00000150	coral reef	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	coral reef
@@ -20,8 +22,8 @@ GOLDTERMS:4189	Environmental > Aquatic > Freshwater > Storm water	skos:exactMatc
 GOLDTERMS:4194	Environmental > Terrestrial > Oil reservoir	skos:exactMatch	ENVO:00002185	oil reservoir	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oil reservoir
 GOLDTERMS:4203	Environmental > Terrestrial > Soil > Sand	skos:exactMatch	ENVO:01000017	sand	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sand
 GOLDTERMS:4205	Environmental > Terrestrial > Soil > Unclassified > Forest Soil	skos:exactMatch	ENVO:00002261	forest soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	forest soil
-GOLDTERMS:4214	Environmental > Terrestrial > Soil > Unclassified > Shrubland	skos:closeMatch	ENVO:00000300	scrubland area	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	shrubland
-GOLDTERMS:4217	Environmental > Terrestrial > Soil > Unclassified > Boreal forest	skos:narrowMatch	ENVO:01000250	subpolar coniferous forest biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasNarrowSynonym	boreal forest
+GOLDTERMS:4214	Environmental > Terrestrial > Soil > Unclassified > Shrubland	skos:exactMatch	ENVO:00000300	scrubland area	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	shrubland
+GOLDTERMS:4217	Environmental > Terrestrial > Soil > Unclassified > Boreal forest	skos:exactMatch	ENVO:01000250	subpolar coniferous forest biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasNarrowSynonym	boreal forest
 GOLDTERMS:4227	Environmental > Terrestrial > Soil > Silt	skos:exactMatch	ENVO:01000016	silt	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	silt
 GOLDTERMS:4241	Environmental > Terrestrial > Soil > Loam	skos:exactMatch	ENVO:00002258	loam	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	loam
 GOLDTERMS:4244	Environmental > Terrestrial > Soil > Loam > Agricultural soil	skos:exactMatch	ENVO:00002259	agricultural soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	agricultural soil
@@ -77,7 +79,7 @@ GOLDTERMS:5564	Engineered > Industrial production > Engineered product > Aviatio
 GOLDTERMS:5566	Engineered > Bioreactor > Anaerobic > Biogas	skos:exactMatch	ENVO:01000556	biogas	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	biogas
 GOLDTERMS:5572	Engineered > Built environment > Building	skos:exactMatch	ENVO:00000073	building	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	building
 GOLDTERMS:5606	Engineered > Modeled > Simulated communities (microbial mixture) > Sea water	skos:closeMatch	ENVO:00002149	sea water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sea water
-GOLDTERMS:5615	Environmental > Terrestrial > Soil > Watershed	skos:closeMatch	ENVO:00000292	watershed	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	watershed
+GOLDTERMS:5615	Environmental > Terrestrial > Soil > Watershed	skos:exactMatch	ENVO:00000292	watershed	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	watershed
 GOLDTERMS:5628	Environmental > Aquatic > Marine > Sea ice > Melt pond	skos:exactMatch	ENVO:03000040	melt pond	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	melt pond
 GOLDTERMS:5660	Engineered > Wastewater > Industrial wastewater > Petrochemical > Oil sludge	skos:exactMatch	ENVO:00002060	oil sludge	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oil sludge
 GOLDTERMS:5662	Engineered > Bioreactor > Sulphur Autotrophic Denitrification > Interstitial water	skos:closeMatch	ENVO:03600009	interstitial water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	interstitial water
@@ -97,7 +99,7 @@ GOLDTERMS:5817	Environmental > Terrestrial > Soil > Peat > Forest	skos:closeMatc
 GOLDTERMS:5820	Environmental > Terrestrial > Soil > Vadose zone	skos:exactMatch	ENVO:00000328	vadose zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vadose zone
 GOLDTERMS:5821	Environmental > Terrestrial > Soil > Vadose zone > Saprolite	skos:exactMatch	ENVO:03600016	saprolite	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	saprolite
 GOLDTERMS:5823	Environmental > Terrestrial > Soil > Bulk soil > Plant pot	skos:closeMatch	ENVO:03600045	plant pot	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	plant pot
-GOLDTERMS:5841	Engineered > Built environment > Mine > Oil sands	skos:closeMatch	ENVO:03600013	bituminous sand	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	oil sands
+GOLDTERMS:5841	Engineered > Built environment > Mine > Oil sands	skos:exactMatch	ENVO:03600013	bituminous sand	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	oil sands
 GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor	Engineered > Bioreactor > Membrane bioreactor	skos:exactMatch	ENVO:03600010	membrane bioreactor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	membrane bioreactor
 GOLDTERMS:Engineered-Bioreactor-Photobioreactor	Engineered > Bioreactor > Photobioreactor	skos:exactMatch	ENVO:03600077	photobioreactor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	photobioreactor
 GOLDTERMS:Engineered-Built-environment-Canal-Irrigation-canal	Engineered > Built environment > Canal > Irrigation canal	skos:exactMatch	ENVO:00000036	irrigation canal	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	irrigation canal
@@ -118,23 +120,43 @@ GOLDTERMS:Engineered-WWTP	Engineered > WWTP	skos:exactMatch	ENVO:00002272	waste 
 GOLDTERMS:Environmental-Aquatic-Marine-Archipelago	Environmental > Aquatic > Marine > Archipelago	skos:exactMatch	ENVO:00000220	archipelago	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	archipelago
 GOLDTERMS:Environmental-Aquatic-Marine-Continental-margin	Environmental > Aquatic > Marine > Continental margin	skos:exactMatch	ENVO:01000298	continental margin	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	continental margin
 GOLDTERMS:Environmental-Aquatic-Marine-River-plume	Environmental > Aquatic > Marine > River plume	skos:exactMatch	ENVO:03600070	river plume	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	river plume
-GOLDTERMS:Environmental-Terrestrial-Nest	Environmental > Terrestrial > Nest	skos:narrowMatch	ENVO:00005803	animal habitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasNarrowSynonym	nest
+GOLDTERMS:Environmental-Terrestrial-Nest	Environmental > Terrestrial > Nest	skos:closeMatch	ENVO:00005803	animal habitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasNarrowSynonym	nest
 GOLDTERMS:Environmental-Terrestrial-Soil-Arable	Environmental > Terrestrial > Soil > Arable	skos:exactMatch	ENVO:00005742	arable soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	arable
 GOLDTERMS:Environmental-Terrestrial-Soil-Mineral-horizon	Environmental > Terrestrial > Soil > Mineral horizon	skos:exactMatch	ENVO:03600011	mineral horizon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mineral horizon
 GOLDTERMS:Environmental-Terrestrial-Soil-Nature-reserve	Environmental > Terrestrial > Soil > Nature reserve	skos:exactMatch	ENVO:00000363	area designated as a nature reserve	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	nature reserve
 GOLDTERMS:Environmental-Terrestrial-Soil-Pasture	Environmental > Terrestrial > Soil > Pasture	skos:exactMatch	ENVO:00005773	pasture soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pasture
 GOLDTERMS:Environmental-Terrestrial-Soil-Ranch	Environmental > Terrestrial > Soil > Ranch	skos:closeMatch	ENVO:01001207	ranch	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ranch
+GOLDTERMS:3984	Environmental > Aquatic	skos:exactMatch	ENVO:00002030	aquatic biome	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	aquatic		semapv:RegularExpressionReplacement
+GOLDTERMS:4003	Environmental > Aquatic > Marine	skos:exactMatch	ENVO:00000447	marine biome	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	marine		semapv:RegularExpressionReplacement
+GOLDTERMS:4023	Environmental > Aquatic > Marine > Cold seeps	skos:exactMatch	ENVO:01000263	cold seep	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	cold seep	semapv:RegularExpressionReplacement	
+GOLDTERMS:4026	Environmental > Aquatic > Marine > Oil seeps	skos:exactMatch	ENVO:00002063	oil seep	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	oil seep	semapv:RegularExpressionReplacement	
+GOLDTERMS:4027	Environmental > Aquatic > Marine > Hydrothermal vents	skos:exactMatch	ENVO:00000215	hydrothermal vent	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	hydrothermal vent	semapv:RegularExpressionReplacement	
+GOLDTERMS:4031	Environmental > Aquatic > Marine > Hydrothermal vents > Black smokers	skos:exactMatch	ENVO:00000218	black smoker	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	black smoker	semapv:RegularExpressionReplacement	
+GOLDTERMS:4044	Environmental > Aquatic > Marine > Coastal	skos:exactMatch	ENVO:00000303	sea coast	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	coastal		semapv:RegularExpressionReplacement
+GOLDTERMS:4138	Host-associated > Human	owl:differentFrom	ENVO:01000219	anthropogenic terrestrial biome	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	human		semapv:RegularExpressionReplacement
+GOLDTERMS:4196	Environmental > Terrestrial > Volcanic > Fumaroles	skos:exactMatch	ENVO:00000216	fumarole	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fumarole	semapv:RegularExpressionReplacement	
+GOLDTERMS:4198	Environmental > Terrestrial	skos:exactMatch	ENVO:00000446	terrestrial biome	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	terrestrial		semapv:RegularExpressionReplacement
+GOLDTERMS:4237	Environmental > Terrestrial > Soil > Loam > Agricultural	skos:closeMatch	ENVO:00000077	agricultural ecosystem	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	agricultural		semapv:RegularExpressionReplacement
+GOLDTERMS:4306	Engineered > Bioremediation > Metal	skos:exactMatch	ENVO:01001069	metallic material	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	metal		
+GOLDTERMS:4390	Engineered > Paper > Currency notes	skos:exactMatch	ENVO:00003896	currency note	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	currency note	semapv:RegularExpressionReplacement	
+GOLDTERMS:4656	Environmental > Aquatic > Marine > Oceanic > Crustal Fluids	skos:exactMatch	ENVO:03600082	crustal fluid	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	crustal fluid	semapv:RegularExpressionReplacement	
+GOLDTERMS:4718	Environmental > Terrestrial > Asphalt lakes	skos:exactMatch	ENVO:00000165	asphalt lake	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	asphalt lake	semapv:RegularExpressionReplacement	
+GOLDTERMS:5786	Host-associated > Plants > Roots > Galls	owl:differentFrom	ENVO:02000023	bile material	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	gall	semapv:RegularExpressionReplacement	
+GOLDTERMS:5788	Engineered > Industrial production > Chemical products	skos:exactMatch	ENVO:2000000	chemical product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	chemical product	semapv:RegularExpressionReplacement	
+GOLDTERMS:5809	Environmental > Terrestrial > Soil > Peat > Mire	skos:closeMatch	ENVO:00000044	peatland	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	mire		
+GOLDTERMS:5809	Environmental > Terrestrial > Soil > Peat > Mire	skos:closeMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasNarrowSynonym	mire		
+GOLDVOCAB:Acid-mine-Drainage	Acid Mine Drainage	skos:exactMatch	ENVO:00001997	acid mine drainage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	acid mine drainage
 GOLDVOCAB:Acid-Mine-Drainage	Acid Mine Drainage	skos:exactMatch	ENVO:00001997	acid mine drainage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	acid mine drainage
 GOLDVOCAB:Activated-Sludge	Activated Sludge	skos:exactMatch	ENVO:00002046	activated sludge	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	activated sludge
 GOLDVOCAB:Agricultural-field	Agricultural field	skos:exactMatch	ENVO:00000114	agricultural field	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	agricultural field
 GOLDVOCAB:Agricultural-land	Agricultural land	skos:closeMatch	ENVO:00000077	agricultural ecosystem	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	agricultural land
 GOLDVOCAB:Agricultural-soil	Agricultural soil	skos:exactMatch	ENVO:00002259	agricultural soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	agricultural soil
-GOLDVOCAB:Agricultural-waste	Agricultural waste	skos:broadMatch	ENVO:01000371	agricultural waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	agricultural waste
+GOLDVOCAB:Agricultural-waste	Agricultural waste	skos:exactMatch	ENVO:01000371	agricultural waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	agricultural waste
 GOLDVOCAB:Air	Air	skos:exactMatch	ENVO:00002005	air	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	air
 GOLDVOCAB:Algal-bloom	Algal bloom	skos:exactMatch	ENVO:2000004	algal bloom	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	algal bloom
 GOLDVOCAB:Alpine	Alpine	skos:exactMatch	ENVO:01001835	alpine biome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alpine
-GOLDVOCAB:Animal-waste	Animal waste	skos:broadMatch	ENVO:00002276	animal waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	animal waste
-GOLDVOCAB:Aquaculture	Aquaculture	skos:broadMatch	ENVO:03600074	aquaculture farm	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	aquaculture
+GOLDVOCAB:Animal-waste	Animal waste	skos:exactMatch	ENVO:00002276	animal waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	animal waste
+GOLDVOCAB:Aquaculture	Aquaculture	skos:exactMatch	ENVO:03600074	aquaculture farm	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	aquaculture
 GOLDVOCAB:Aquifer	Aquifer	skos:exactMatch	ENVO:00012408	aquifer	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	aquifer
 GOLDVOCAB:Arable	Arable	skos:exactMatch	ENVO:01001177	arable land	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	arable
 GOLDVOCAB:Archipelago	Archipelago	skos:exactMatch	ENVO:00000220	archipelago	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	archipelago
@@ -147,8 +169,8 @@ GOLDVOCAB:Biofilm	Biofilm	skos:exactMatch	ENVO:00002034	biofilm	semapv:LexicalMa
 GOLDVOCAB:Biogas	Biogas	skos:exactMatch	ENVO:01000556	biogas	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	biogas
 GOLDVOCAB:Bioreactor	Bioreactor	skos:exactMatch	ENVO:00002123	bioreactor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bioreactor
 GOLDVOCAB:Bog	Bog	skos:closeMatch	ENVO:00000044	peatland	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	bog
-GOLDVOCAB:Bog	Bog	skos:narrowMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	bog
-GOLDVOCAB:Boreal-forest	Boreal forest	skos:narrowMatch	ENVO:01000250	subpolar coniferous forest biome	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	boreal forest
+GOLDVOCAB:Bog	Bog	skos:closeMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	bog
+GOLDVOCAB:Boreal-forest	Boreal forest	skos:closeMatch	ENVO:01000250	subpolar coniferous forest biome	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	boreal forest
 GOLDVOCAB:Brine	Brine	skos:exactMatch	ENVO:00003044	brine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	brine
 GOLDVOCAB:Building	Building	skos:exactMatch	ENVO:00000073	building	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	building
 GOLDVOCAB:Bulk-soil	Bulk soil	skos:exactMatch	ENVO:00005802	bulk soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bulk soil
@@ -163,12 +185,12 @@ GOLDVOCAB:Compost	Compost	skos:exactMatch	ENVO:00002170	compost	semapv:LexicalMa
 GOLDVOCAB:Continental-margin	Continental margin	skos:exactMatch	ENVO:01000298	continental margin	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	continental margin
 GOLDVOCAB:Cooling-water	Cooling water	skos:exactMatch	ENVO:03600002	cooling water	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cooling water
 GOLDVOCAB:Coral-reef	Coral reef	skos:exactMatch	ENVO:00000150	coral reef	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	coral reef
-GOLDVOCAB:Creek	Creek	skos:closeMatch	ENVO:00000023	stream	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	creek
+GOLDVOCAB:Creek	Creek	skos:exactMatch	ENVO:00000023	stream	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	creek
 GOLDVOCAB:Cyanobacterial-bloom	Cyanobacterial bloom	skos:exactMatch	ENVO:03600071	cyanobacterial bloom	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cyanobacterial bloom
 GOLDVOCAB:Dairy-farm	Dairy farm	skos:exactMatch	ENVO:03501120	dairy farm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dairy farm
 GOLDVOCAB:Desert	Desert	skos:exactMatch	ENVO:01001357	desert	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	desert
 GOLDVOCAB:Drinking-water	Drinking water	skos:exactMatch	ENVO:00003064	drinking water	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drinking water
-GOLDVOCAB:Drinking-water-pipeline	Drinking water pipeline	skos:broadMatch	ENVO:03600003	drinking water pipeline network	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	drinking water pipeline
+GOLDVOCAB:Drinking-water-pipeline	Drinking water pipeline	skos:exactMatch	ENVO:03600003	drinking water pipeline network	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	drinking water pipeline
 GOLDVOCAB:Drinking-water-treatment-plant	Drinking water treatment plant	skos:exactMatch	ENVO:03600004	drinking water treatment plant	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drinking water treatment plant
 GOLDVOCAB:Dust	Dust	skos:exactMatch	ENVO:00002008	dust	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dust
 GOLDVOCAB:Epilimnion	Epilimnion	skos:exactMatch	ENVO:00002131	epilimnion	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	epilimnion
@@ -181,10 +203,10 @@ GOLDVOCAB:Fermentation-starter	Fermentation starter	skos:exactMatch	ENVO:0360004
 GOLDVOCAB:Fjord	Fjord	skos:exactMatch	ENVO:00000039	fjord	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fjord
 GOLDVOCAB:Floodplain	Floodplain	skos:exactMatch	ENVO:00000255	flood plain	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	floodplain
 GOLDVOCAB:Food-waste	Food waste	skos:exactMatch	ENVO:03600006	food waste	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	food waste
-GOLDVOCAB:Forest	Forest	skos:closeMatch	ENVO:00000111	forested area	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	forest
+GOLDVOCAB:Forest	Forest	skos:exactMatch	ENVO:01001243	forested ecosystem	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	forest
 GOLDVOCAB:Forest-soil	Forest soil	skos:exactMatch	ENVO:00002261	forest soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	forest soil
 GOLDVOCAB:Formation-fluid	Formation fluid	skos:exactMatch	ENVO:03600007	formation fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	formation fluid
-GOLDVOCAB:Fracking-water	Fracking water	skos:narrowMatch	ENVO:01001869	fracking liquid	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	fracking water
+GOLDVOCAB:Fracking-water	Fracking water	skos:exactMatch	ENVO:01001869	fracking liquid	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	fracking water
 GOLDVOCAB:Freshwater	Freshwater	skos:exactMatch	ENVO:00002011	fresh water	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	freshwater
 GOLDVOCAB:Garden	Garden	skos:exactMatch	ENVO:00000011	garden	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	garden
 GOLDVOCAB:Glacial-lake	Glacial lake	skos:exactMatch	ENVO:00000488	glacial lake	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	glacial lake
@@ -195,11 +217,11 @@ GOLDVOCAB:Gut	Gut	owl:differentFrom	ENVO:00000029	watercourse	semapv:LexicalMatc
 GOLDVOCAB:Harbor	Harbor	skos:exactMatch	ENVO:00000463	harbour	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	harbor
 GOLDVOCAB:Hospital	Hospital	skos:exactMatch	ENVO:00002173	hospital	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hospital
 GOLDVOCAB:House	House	skos:exactMatch	ENVO:01000417	house	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	house
-GOLDVOCAB:Household-waste	Household waste	skos:broadMatch	ENVO:01000372	household waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	household waste
+GOLDVOCAB:Household-waste	Household waste	skos:exactMatch	ENVO:01000372	household waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	household waste
 GOLDVOCAB:Hypolimnion	Hypolimnion	skos:exactMatch	ENVO:00002130	hypolimnion	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hypolimnion
 GOLDVOCAB:ICU	ICU	skos:exactMatch	ENVO:03501152	intensive care unit facility	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	icu
-GOLDVOCAB:Ice	Ice	skos:closeMatch	ENVO:01000277	water ice	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	ice
-GOLDVOCAB:Industrial-waste	Industrial waste	skos:broadMatch	ENVO:00002267	industrial waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	industrial waste
+GOLDVOCAB:Ice	Ice	skos:exactMatch	ENVO:01000277	water ice	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	ice
+GOLDVOCAB:Industrial-waste	Industrial waste	skos:exactMatch	ENVO:00002267	industrial waste material	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	industrial waste
 GOLDVOCAB:Industrial-wastewater	Industrial wastewater	skos:exactMatch	ENVO:01000964	industrial wastewater	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	industrial wastewater
 GOLDVOCAB:Inlet	Inlet	skos:exactMatch	ENVO:00000475	inlet	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	inlet
 GOLDVOCAB:Interstitial-water	Interstitial water	skos:exactMatch	ENVO:03600009	interstitial water	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	interstitial water
@@ -221,7 +243,7 @@ GOLDVOCAB:Marsh	Marsh	skos:exactMatch	ENVO:00000035	marsh	semapv:LexicalMatching
 GOLDVOCAB:Meadow	Meadow	skos:exactMatch	ENVO:00000108	meadow ecosystem	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	meadow
 GOLDVOCAB:Melt-pond	Melt pond	skos:exactMatch	ENVO:03000040	melt pond	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	melt pond
 GOLDVOCAB:Membrane-bioreactor	Membrane bioreactor	skos:exactMatch	ENVO:03600010	membrane bioreactor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	membrane bioreactor
-GOLDVOCAB:Metal	Metal	skos:closeMatch	ENVO:01001069	metallic material	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	metal
+GOLDVOCAB:Metal	Metal	skos:exactMatch	ENVO:01001069	metallic material	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	metal
 GOLDVOCAB:Mine	Mine	skos:exactMatch	ENVO:00000076	mine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mine
 GOLDVOCAB:Mine-drainage	Mine drainage	skos:exactMatch	ENVO:00001996	mine drainage	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mine drainage
 GOLDVOCAB:Mineral-horizon	Mineral horizon	skos:exactMatch	ENVO:03600011	mineral horizon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mineral horizon
@@ -229,8 +251,8 @@ GOLDVOCAB:Mire	Mire	skos:closeMatch	ENVO:00000044	peatland	semapv:LexicalMatchin
 GOLDVOCAB:Mire	Mire	skos:narrowMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	mire
 GOLDVOCAB:Mud	Mud	skos:exactMatch	ENVO:01000001	mud	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mud
 GOLDVOCAB:Mud-volcano	Mud volcano	skos:exactMatch	ENVO:00000402	mud volcano	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mud volcano
-GOLDVOCAB:Nature-reserve	Nature reserve	skos:closeMatch	ENVO:00000363	area designated as a nature reserve	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	nature reserve
-GOLDVOCAB:Nest	Nest	skos:narrowMatch	ENVO:00005803	animal habitation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	nest
+GOLDVOCAB:Nature-reserve	Nature reserve	skos:exactMatch	ENVO:00000363	area designated as a nature reserve	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	nature reserve
+GOLDVOCAB:Nest	Nest	skos:closeMatch	ENVO:00005803	animal habitation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	nest
 GOLDVOCAB:Nuclear-test-reactor	Nuclear test reactor	skos:exactMatch	ENVO:02000136	research nuclear reactor	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	nuclear test reactor
 GOLDVOCAB:Ocean-trench	Ocean trench	skos:exactMatch	ENVO:00000275	ocean trench	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ocean trench
 GOLDVOCAB:Oceanic-crust	Oceanic crust	skos:exactMatch	ENVO:01000749	oceanic crust	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oceanic crust
@@ -245,8 +267,8 @@ GOLDVOCAB:Palsa	Palsa	skos:exactMatch	ENVO:00000489	palsa	semapv:LexicalMatching
 GOLDVOCAB:Paper	Paper	skos:exactMatch	ENVO:03501256	sheet of paper	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	paper
 GOLDVOCAB:Park	Park	skos:exactMatch	ENVO:00000562	park	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	park
 GOLDVOCAB:Pasture	Pasture	skos:exactMatch	ENVO:00000266	pasture	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pasture
-GOLDVOCAB:Peat	Peat	skos:closeMatch	ENVO:00005774	peat soil	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	peat
-GOLDVOCAB:Periphyton	Periphyton	skos:closeMatch	ENVO:03605000	periphytic biofilm	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	periphyton
+GOLDVOCAB:Peat	Peat	skos:exactMatch	ENVO:00005774	peat soil	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	peat
+GOLDVOCAB:Periphyton	Periphyton	skos:exactMatch	ENVO:03605000	periphytic biofilm	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	periphyton
 GOLDVOCAB:Permafrost	Permafrost	skos:exactMatch	ENVO:00000134	permafrost	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	permafrost
 GOLDVOCAB:Photobioreactor	Photobioreactor	skos:exactMatch	ENVO:03600077	photobioreactor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	photobioreactor
 GOLDVOCAB:Plant-litter	Plant litter	skos:exactMatch	ENVO:01000628	plant litter	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	plant litter
@@ -272,7 +294,7 @@ GOLDVOCAB:Sewage	Sewage	skos:exactMatch	ENVO:00002018	sewage	semapv:LexicalMatch
 GOLDVOCAB:Sewage-treatment-plant	Sewage treatment plant	skos:exactMatch	ENVO:00003043	sewage plant	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	sewage treatment plant
 GOLDVOCAB:Shipwreck	Shipwreck	skos:exactMatch	ENVO:03600061	shipwreck	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shipwreck
 GOLDVOCAB:Shrimp-pond	Shrimp pond	skos:exactMatch	ENVO:01000905	shrimp pond	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shrimp pond
-GOLDVOCAB:Shrubland	Shrubland	skos:closeMatch	ENVO:00000300	scrubland area	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	shrubland
+GOLDVOCAB:Shrubland	Shrubland	skos:exactMatch	ENVO:00000300	scrubland area	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	shrubland
 GOLDVOCAB:Silt	Silt	skos:exactMatch	ENVO:01000016	silt	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	silt
 GOLDVOCAB:Sinkhole	Sinkhole	skos:exactMatch	ENVO:00000195	sinkhole	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sinkhole
 GOLDVOCAB:Sludge	Sludge	skos:exactMatch	ENVO:00002044	sludge	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sludge
@@ -294,11 +316,78 @@ GOLDVOCAB:Train-car	Train car	skos:exactMatch	ENVO:03600051	train car	semapv:Lex
 GOLDVOCAB:Trophosome	Trophosome	skos:exactMatch	ENVO:01000165	trophosome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	trophosome
 GOLDVOCAB:Vadose-zone	Vadose zone	skos:exactMatch	ENVO:00000328	vadose zone	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vadose zone
 GOLDVOCAB:WWTP	WWTP	skos:exactMatch	ENVO:00002272	waste treatment plant	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	wwtp
-GOLDVOCAB:Water	Water	skos:broadMatch	ENVO:00002006	liquid water	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	water
+GOLDVOCAB:Water	Water	skos:exactMatch	ENVO:00002006	liquid water	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	water
 GOLDVOCAB:Water-tank	Water tank	skos:exactMatch	ENVO:03501254	water tank	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	water tank
 GOLDVOCAB:Water-well	Water well	skos:exactMatch	ENVO:01000002	water well	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	water well
 GOLDVOCAB:Watershed	Watershed	skos:exactMatch	ENVO:00000292	watershed	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	watershed
 GOLDVOCAB:Whale-fall	Whale fall	skos:exactMatch	ENVO:01000140	whale fall	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	whale fall
 GOLDVOCAB:Wood	Wood	skos:exactMatch	ENVO:00002040	wood	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	wood
 GOLDVOCAB:Wood-fall	Wood fall	skos:exactMatch	ENVO:01000142	wood fall	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	wood fall
-
+GOLDVOCAB:Abyssal-plane	Abyssal plane	skos:exactMatch	ENVO:00000244	abyssal plain	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	abyssal plain
+GOLDVOCAB:Abyssopelagic	Abyssopelagic	skos:exactMatch	ENVO:01000038	oceanic abyssopelagic zone biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oceanic abyssopelagic zone biome
+GOLDVOCAB:Anoxic-zone	Anoxic zone	skos:exactMatch	ENVO:01000173	anoxic water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anoxic water
+GOLDVOCAB:Aquatic	Aquatic	skos:exactMatch	ENVO:00002030	aquatic biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	aquatic biome
+GOLDVOCAB:Bathypelagic	Bathypelagic	skos:exactMatch	ENVO:00000211	marine bathypelagic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine bathypelagic zone
+GOLDVOCAB:Benthic	Benthic	skos:exactMatch	ENVO:01000024	marine benthic biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine benthic biome
+GOLDVOCAB:Coastal	Coastal	skos:exactMatch	ENVO:01000687	coast	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	coast
+GOLDVOCAB:Epipelagic	Epipelagic	skos:exactMatch	ENVO:01000035	oceanic epipelagic zone biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oceanic epipelagic zone biome
+GOLDVOCAB:Hypersaline	Hypersaline	skos:exactMatch	ENVO:00002012	hypersaline water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hypersaline water
+GOLDVOCAB:Hypoxic-zone	Hypoxic zone	skos:exactMatch	ENVO:01001064	hypoxic water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hypoxic water
+GOLDVOCAB:Lentic	Lentic	skos:exactMatch	ENVO:01000617	lentic water body	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lentic water body
+GOLDVOCAB:Lotic	Lotic	skos:exactMatch	ENVO:01000618	lotic water body	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lotic water body
+GOLDVOCAB:Marine	Marine	skos:exactMatch	ENVO:00000447	marine biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine biome
+GOLDVOCAB:Mesopelagic	Mesopelagic	skos:exactMatch	ENVO:00000213	marine mesopelagic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine mesopelagic zone
+GOLDVOCAB:Neritic-zone	Neritic zone	skos:exactMatch	ENVO:00000206	marine neritic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine neritic zone
+GOLDVOCAB:Pelagic	Pelagic	skos:exactMatch	ENVO:00000208	marine pelagic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine pelagic zone
+GOLDVOCAB:Terrestrial	Terrestrial	skos:exactMatch	ENVO:00000446	terrestrial biome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	terrestrial biome
+GOLDVOCAB:Volcanic	Volcanic	skos:exactMatch	ENVO:00000247	volcano	semapv:ManuallyCurated	oaklib	0.8497788951776651	rdfs:label	rdfs:label	-
+GOLDVOCAB:Fumaroles	Fumaroles	skos:exactMatch	ENVO:00000216	fumarole	semapv:ManuallyCurated	oaklib	0.8497788951776651	rdfs:label	rdfs:label	-
+GOLDVOCAB:Asphalt-lakes	Asphalt lakes	skos:exactMatch	ENVO:00000165	asphalt lake	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	asphalt lake	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Black-smokers	Black smokers	skos:exactMatch	ENVO:00000218	black smoker	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	black smoker	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Chemical-products	Chemical products	skos:exactMatch	ENVO:2000000	chemical product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	chemical product	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Cold-seeps	Cold seeps	skos:exactMatch	ENVO:01000263	cold seep	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	cold seep	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Crustal-Fluids	Crustal Fluids	skos:exactMatch	ENVO:03600082	crustal fluid	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	crustal fluid	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Currency-notes	Currency notes	skos:exactMatch	ENVO:00003896	currency note	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	currency note	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Galls	Galls	owl:differentFrom	ENVO:02000023	bile material	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	gall	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Grasslands	Grasslands	skos:exactMatch	ENVO:01000177	grassland biome	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	grassland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Hydrothermal-vents	Hydrothermal vents	skos:exactMatch	ENVO:00000215	hydrothermal vent	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	hydrothermal vent	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Microbial-mats	Microbial mats	skos:exactMatch	ENVO:01000008	microbial mat	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	microbial mat	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Microbialites	Microbialites	skos:exactMatch	ENVO:03600064	microbialite	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	microbialite	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Oil-seeps	Oil seeps	skos:exactMatch	ENVO:00002063	oil seep	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	oil seep	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Thermal-springs	Thermal springs	skos:exactMatch	ENVO:00000051	hot spring	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	thermal spring	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Wetlands	Wetlands	skos:exactMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Environmental	Environmental	skos:exactMatch	ENVO:01000254	environmental system	semapv:ManuallyCurated	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDTERMS:4034	Environmental > Aquatic > Marine > Neritic zone	skos:exactMatch	ENVO:00000206	marine neritic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine neritic zone		
+GOLDTERMS:4179	Environmental > Aquatic > Freshwater > Lake	skos:exactMatch	ENVO:00000021	freshwater lake	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	freshwater lake		
+GOLDTERMS:4202	Environmental > Terrestrial > Soil > Sand > Desert	skos:exactMatch	ENVO:00005800	desert sand	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	desert sand		
+GOLDTERMS:4229	Environmental > Terrestrial > Soil > Clay	skos:exactMatch	ENVO:00002262	clay soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	clay soil		
+GOLDTERMS:4426	Environmental > Aquatic > Freshwater > Lake > Sediment	skos:exactMatch	ENVO:00000546	lake sediment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lake sediment		
+GOLDTERMS:4442	Engineered > Bioreactor > Anaerobic	skos:exactMatch	ENVO:00002124	anaerobic bioreactor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anaerobic bioreactor		
+GOLDTERMS:4512	Environmental > Aquatic > Freshwater > River	skos:exactMatch	ENVO:01000297	freshwater river	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	freshwater river		
+GOLDTERMS:4523	Host-associated > Plants > Roots > Nodule	skos:closeMatch	ENVO:01000164	root nodule	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	nodule root	semapv:RegularExpressionReplacement	
+GOLDTERMS:4536	Engineered > Bioreactor > Aerobic	skos:exactMatch	ENVO:00002126	aerobic bioreactor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	aerobic bioreactor		
+GOLDTERMS:4564	Environmental > Aquatic > Marine > Sediment	skos:exactMatch	ENVO:03000033	marine sediment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine sediment		
+GOLDTERMS:4711	Environmental > Terrestrial > Soil > Biocrust	skos:exactMatch	ENVO:01000910	soil biocrust	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	biocrust soil		
+GOLDTERMS:4822	Environmental > Terrestrial > Cave > Wall	skos:exactMatch	ENVO:00002144	cave wall	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cave wall		
+GOLDTERMS:5482	Engineered > Bioreactor > Anaerobic > Sludge	skos:exactMatch	ENVO:00002129	anaerobic sludge	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anaerobic sludge		
+GOLDTERMS:5803	Environmental > Terrestrial > Soil > Peat	skos:exactMatch	ENVO:00005774	peat soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	peat soil		
+GOLDTERMS:5822	Environmental > Terrestrial > Soil > Organic layer	skos:exactMatch	ENVO:03600018	organic horizon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	layer organic soil		
+GOLDTERMS:Environmental-Aquatic-Marine-Benthic	Environmental > Aquatic > Marine > Benthic	skos:closeMatch	ENVO:01000024	marine benthic biome	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	benthic marine		semapv:RegularExpressionReplacement
+GOLDTERMS:4008	Environmental > Aquatic > Marine > Oceanic	skos:exactMatch	ENVO:00000207	oceanic zone	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	oceanic		semapv:RegularExpressionReplacement
+GOLDTERMS:4021	Environmental > Aquatic > Marine > Pelagic	skos:exactMatch	ENVO:00000208	marine pelagic zone	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	marine pelagic		semapv:RegularExpressionReplacement
+GOLDTERMS:4048	Environmental > Aquatic > Marine > Neritic zone > Sediment	skos:exactMatch	ENVO:03000034	shallow marine sediment	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	marine neritic sediment	semapv:RegularExpressionReplacement	
+GOLDTERMS:5333	Environmental > Aquatic > Marine > Mesopelagic	skos:exactMatch	ENVO:00000213	marine mesopelagic zone	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	marine mesopelagic		semapv:RegularExpressionReplacement
+GOLDTERMS:5338	Environmental > Aquatic > Marine > Bathypelagic	skos:exactMatch	ENVO:00000211	marine bathypelagic zone	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	bathypelagic marine		semapv:RegularExpressionReplacement
+GOLDTERMS:5344	Environmental > Aquatic > Marine > Hadalpelagic	skos:exactMatch	ENVO:00000214	hadalpelagic zone	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	hadalpelagic		semapv:RegularExpressionReplacement
+GOLDTERMS:5392	Environmental > Aquatic > Freshwater > Lake > Anoxic zone	skos:exactMatch	ENVO:01001072	anoxic lake	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	anoxic lake	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Artificial-ecosystem	Artificial ecosystem	skos:exactMatch	ENVO:00010622	vivarium	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vivarium		
+GOLDVOCAB:Hadalpelagic	Hadalpelagic	skos:exactMatch	ENVO:00000214	hadalpelagic zone	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	hadalpelagic		semapv:RegularExpressionReplacement
+GOLDVOCAB:Oceanic	Oceanic	skos:exactMatch	ENVO:00000015	ocean	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ocean		
+GOLDVOCAB:Oil-contaminated	Oil-contaminated	skos:exactMatch	ENVO:00002061	oil spill	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oil spill		
+GOLDVOCAB:Plankton	Plankton	skos:exactMatch	ENVO:01000063	planktonic material	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	material planktonic		
+GOLDVOCAB:Puddle	Puddle	skos:exactMatch	ENVO:01000871	puddle of water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	of puddle water		
+GOLDVOCAB:Shale-carbon-reservoir	Shale carbon reservoir	skos:exactMatch	ENVO:02000119	oil shale	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oil shale		
+GOLDVOCAB:Thermokarst-pond	Thermokarst pond	skos:exactMatch	ENVO:03000085	thermokarst	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	thermokarst		
+GOLDVOCAB:Wastewater	Wastewater	skos:exactMatch	ENVO:00002001	waste water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	waste water		
+GOLDVOCAB:Engineered	Engineered	skos:closeMatch	ENVO:01000313	anthropogenic environment	semapv:ManuallyCurated	cjm	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	plant	semapv:RegularExpressionReplacement
+GOLDVOCAB:Built-environment	Built environment	skos:closeMatch	ENVO:01000313	built environment	semapv:ManuallyCurated	cjm	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	plant	semapv:RegularExpressionReplacement

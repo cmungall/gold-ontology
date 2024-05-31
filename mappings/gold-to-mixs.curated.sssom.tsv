@@ -1,0 +1,27 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing
+GOLDTERMS:3928	Host-associated > Human > Skin	skos:exactMatch	MIXS:HumanSkin	Human Skin	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	human skin	
+GOLDTERMS:4086	Host-associated	skos:exactMatch	MIXS:HostAssociated	Host-Associated	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	host-associated	
+GOLDTERMS:4279	Engineered > Built environment	skos:exactMatch	MIXS:BuiltEnvironment	Built Environment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	built environment	
+GOLDTERMS:5554	Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Soil (non-planted)	skos:exactMatch	MIXS:Soil	Soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	soil	semapv:RegularExpressionReplacement
+GOLDTERMS:5562	Engineered > Built environment > Canal > Water	skos:exactMatch	MIXS:Water	Water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	water	
+GOLDVOCAB:Air	Air	skos:exactMatch	MIXS:Air	Air	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	air	
+GOLDVOCAB:Built-environment	Built environment	skos:exactMatch	MIXS:BuiltEnvironment	Built Environment	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	built environment	
+GOLDVOCAB:Host-associated	Host-associated	skos:exactMatch	MIXS:HostAssociated	Host-Associated	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	host-associated	
+GOLDVOCAB:Sediment	Sediment	skos:exactMatch	MIXS:Sediment	Sediment	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sediment	
+GOLDVOCAB:Soil	Soil	skos:exactMatch	MIXS:Soil	Soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soil	
+GOLDVOCAB:Soil-%28non-planted%29	Soil (non-planted)	skos:exactMatch	MIXS:Soil	Soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soil	semapv:RegularExpressionReplacement
+GOLDVOCAB:Water	Water	skos:exactMatch	MIXS:Water	Water	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	water	
+GOLDTERMS:3919	Host-associated > Human > Digestive system	skos:exactMatch	MIXS:HumanGut	Human Gut	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	digestive host-associated human system	
+GOLDTERMS:3938	Host-associated > Plants	skos:exactMatch	MIXS:PlantAssociated	Plant-Associated	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	host-associated plant	semapv:RegularExpressionReplacement
+GOLDTERMS:3985	Environmental > Aquatic > Sediment	skos:exactMatch	MIXS:Sediment	Sediment	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	aquatic environmental sediment	
+GOLDTERMS:4138	Host-associated > Human	skos:exactMatch	MIXS:HumanAssociated	Human-Associated	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	human	
+GOLDTERMS:4140	Host-associated > Human > Reproductive system > Vagina	skos:exactMatch	MIXS:HumanVaginal	Human Vaginal	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	host-associated human reproductive system vagina	
+GOLDTERMS:4250	Engineered > Food production	skos:exactMatch	MIXS:FoodFoodProductionFacility	Food Production Facility	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	food production	
+GOLDTERMS:5503	Engineered > Wastewater > Sludge	skos:exactMatch	MIXS:WastewaterSludge	Wastewater Sludge	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	engineered sludge wastewater	
+GOLDVOCAB:Agricultural	Agricultural	skos:exactMatch	MIXS:Agriculture	Agriculture	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	agricultural	
+GOLDVOCAB:Food-production	Food production	skos:exactMatch	MIXS:FoodFoodProductionFacility	Food Production Facility	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	food production	
+GOLDVOCAB:Human	Human	skos:exactMatch	MIXS:HumanAssociated	Human-Associated	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	human	
+GOLDVOCAB:Hydrocarbon	Hydrocarbon	skos:exactMatch	MIXS:HydrocarbonResourcesCores	Hydrocarbon Resources Cores	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hydrocarbon	
+GOLDVOCAB:Plants	Plants	skos:exactMatch	MIXS:PlantAssociated	Plant-Associated	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	plant	semapv:RegularExpressionReplacement
+GOLDVOCAB:Engineered	Engineered	skos:closeMatch	MIXS:MiscellaneousNaturalOrArtificialEnvironment	Miscellaneous Natural Or Artificial Environment	semapv:ManuallyCurated	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	plant	semapv:RegularExpressionReplacement
+

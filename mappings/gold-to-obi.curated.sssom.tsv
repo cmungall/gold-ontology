@@ -1,4 +1,6 @@
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 GOLDVOCAB:Bioreactor	Bioreactor	skos:exactMatch	OBI:0001046	bioreactor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bioreactor
 GOLDVOCAB:Tar	Tar	owl:differentFrom	OBI:0000326	tar	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tar
+GOLDTERMS:4832	Host-associated > Human > Cell Line > HeLa	skos:exactMatch	OBI:1110032	HeLa cell line	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cell hela line	
+
 

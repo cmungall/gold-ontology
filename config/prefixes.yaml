@@ -1,0 +1,15 @@
+GO: http://purl.obolibrary.org/obo/GO_
+ENVO: http://purl.obolibrary.org/obo/ENVO_
+CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+UBERON: http://purl.obolibrary.org/obo/UBERON_
+PO: http://purl.obolibrary.org/obo/PO_
+PATO: http://purl.obolibrary.org/obo/PATO_
+FOODON: http://purl.obolibrary.org/obo/FOODON_
+NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+OBI: http://purl.obolibrary.org/obo/OBI_
+gold.vocab: https://w3id.org/gold.vocab/
+gold.path: https://w3id.org/gold.path/
+RHEA: http://rdf.rhea-db.org/
+EC: http://purl.uniprot.org/enzyme/
+REACTOME: http://reactome.org/
+METACYC: http://metacyc.org/

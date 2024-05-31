@@ -11,7 +11,7 @@ from typing import List, Dict, Tuple
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
     SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix, AnnotationSubject, Annotation
 
-OBO_PREFIXES = ['UBERON', 'ENVO', 'PR', 'CHEBI', 'FOODON', 'PATO', 'NCBITaxon', 'PO', 'OBI']
+OBO_PREFIXES = ['UBERON', 'ENVO', 'PR', 'CHEBI', 'FOODON', 'PATO', 'NCBITaxon', 'PO', 'OBI', 'FAO', 'MIXS']
 ENVO = Namespace('http://purl.obolibrary.org/obo/ENVO_')
 GOLD_PATH = Namespace('https://w3id.org/gold.path/')
 GOLD_PATH_PREFIX = "GOLDTERMS"
@@ -32,16 +32,22 @@ def make_label(row: List[str], sep=' > ', rev=False) -> Label:
     n = sep.join(row)
     return n
 
+
 def safe_id(atom: str) -> str:
     return urllib.parse.quote(atom.replace(' ', '-'))
+
 
 def make_uri(id: str) -> str:
     return f'{GOLD_PATH_PREFIX}:{id}'
 
+
 def make_curie_for_atom(atom: str) -> str:
     #return make_uri(urllib.parse.quote(atom))
+    if atom.startswith("gold.vocab:"):
+        atom = atom.replace("gold.vocab:", "")
     id = safe_id(atom)
     return f'{GOLD_VOCAB_PREFIX}:{id}'
+
 
 def make_envo_path_id(row: List[str]) -> str:
     id = safe_id('-'.join(row))
@@ -50,6 +56,7 @@ def make_envo_path_id(row: List[str]) -> str:
 
 def subtuples(row: tuple) -> List[tuple]:
     return [tuple(row[i:]) for i in range(0, len(row))]
+
 
 def count_distinct_subtuples(row2id: dict) -> Dict[tuple, int]:
     subtuple_counts = defaultdict(int)
@@ -229,13 +236,21 @@ def parse_sssom(doc: OntologyDocument, f: str) -> None:
         for row in reader:
             subject_id = row['subject_id']
             object_id = row['object_id']
-            if row['predicate_id'] != 'skos:exactMatch':
+            p = row['predicate_id']
+            if p == 'skos:exactMatch':
+                pred = SKOS.exactMatch
+            elif p == 'skos:closeMatch':
+                pred = SKOS.closeMatch
+            elif p == 'skos:narrowMatch':
+                pred = SKOS.narrowMatch
+            elif p == 'skos:broadMatch':
+                pred = SKOS.broadMatch
+            else:
                 continue
-            pred = SKOS.exactMatch
             anns = [Annotation(RDFS.label, row['object_label'])]
             aa = AnnotationAssertion(pred, subject_id, object_id, anns)
             o.axioms.append(aa)
-            print(aa)
+
 
 
 @click.command()

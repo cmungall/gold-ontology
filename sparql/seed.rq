@@ -1,0 +1,9 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+# get all objects, casting to a string, removing quotes
+SELECT DISTINCT ?n
+WHERE {
+  ?subject ?predicate ?object .
+  FILTER (isIRI(?object))
+  BIND(STR(?object) AS ?n)
+}

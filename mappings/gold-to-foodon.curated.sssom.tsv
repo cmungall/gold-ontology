@@ -1,0 +1,69 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+GOLDTERMS:3957	Host-associated > Algae	skos:closeMatch	FOODON:03411301	algae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	algae
+GOLDTERMS:3959	Host-associated > Algae > Red algae	skos:closeMatch	FOODON:03411743	red algae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	red algae
+GOLDTERMS:3960	Host-associated > Algae > Brown Algae	skos:closeMatch	FOODON:03412395	brown algae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	brown algae
+GOLDTERMS:4095	Host-associated > Fish	skos:closeMatch	FOODON:03411222	fish	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fish
+GOLDTERMS:4250	Engineered > Food production	skos:closeMatch	FOODON:03530206	food production	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	food production
+GOLDTERMS:4324	Host-associated > Mollusca	skos:closeMatch	FOODON:03412112	mollusc	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mollusca
+GOLDTERMS:4412	Host-associated > Fungi > Lichen	skos:closeMatch	FOODON:03412345	lichen	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lichen
+GOLDTERMS:4476	Host-associated > Horse	skos:closeMatch	FOODON:03411229	horse	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	horse
+GOLDTERMS:4603	Host-associated > Arthropoda > Beetle	skos:closeMatch	FOODON:03414645	beetle	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	beetle
+GOLDTERMS:4686	Environmental > Aquatic > Marine > Seaweed	skos:closeMatch	FOODON:03412266	seaweed	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	seaweed
+GOLDTERMS:4760	Host-associated > Algae > Green algae	skos:closeMatch	FOODON:03412502	green algae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	green algae
+GOLDTERMS:4882	Host-associated > Arthropoda > Bee > Royal jelly	skos:exactMatch	FOODON:03301033	royal jelly	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	royal jelly
+GOLDTERMS:5105	Host-associated > Arthropoda > Moth	skos:closeMatch	FOODON:03414644	moth	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	moth
+GOLDTERMS:5108	Host-associated > Arthropoda > Grasshopper	skos:closeMatch	FOODON:03412496	grasshopper	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	grasshopper
+GOLDTERMS:5198	Host-associated > Mollusca > Oyster	skos:closeMatch	FOODON:03411224	oyster	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	oyster
+GOLDTERMS:5202	Host-associated > Arthropoda > Lobster	skos:closeMatch	FOODON:03411505	lobster	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lobster
+GOLDTERMS:5329	Engineered > Food production > Sourdough	skos:exactMatch	FOODON:03302481	sourdough bread	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sourdough
+GOLDTERMS:5400	Host-associated > Arthropoda > Shrimp	skos:closeMatch	FOODON:03411237	shrimp	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	shrimp
+GOLDTERMS:5419	Host-associated > Arthropoda > Fly	skos:closeMatch	FOODON:00002717	fly	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fly
+GOLDTERMS:5458	Engineered > Food production > Dairy products > Ice cream	skos:exactMatch	FOODON:00004500	ice cream	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ice cream
+GOLDTERMS:5509	Engineered > Food production > Dairy products > Fermented dairy products > Cheese	skos:exactMatch	FOODON:00001013	cheese food product	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cheese
+GOLDTERMS:5532	Engineered > Food production > Fermented beverages > Vinegar	skos:exactMatch	FOODON:03301705	vinegar	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vinegar
+GOLDTERMS:5599	Engineered > Food production > Fermented food > Soy sauce	skos:exactMatch	FOODON:03301115	soy sauce	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	soy sauce
+GOLDTERMS:5750	Engineered > Food production > Fermented food > Soybean paste	skos:exactMatch	FOODON:03310002	soybean paste	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	soybean paste
+GOLDTERMS:Engineered-Solid-waste-Vegetable	Engineered > Solid waste > Vegetable	skos:closeMatch	FOODON:00003816	vegetable	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vegetable
+GOLDVOCAB:Algae	Algae	skos:closeMatch	FOODON:03411301	algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	algae
+GOLDVOCAB:Beetle	Beetle	skos:closeMatch	FOODON:03414645	beetle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	beetle
+GOLDVOCAB:Brown-Algae	Brown Algae	skos:closeMatch	FOODON:03412395	brown algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	brown algae
+GOLDVOCAB:Cheese	Cheese	skos:exactMatch	FOODON:00001013	cheese food product	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cheese
+GOLDVOCAB:Echinodermata	Echinodermata	skos:narrowMatch	FOODON:03412115	echinoderm	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	echinodermata
+GOLDVOCAB:Fish	Fish	skos:closeMatch	FOODON:03411222	fish	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fish
+GOLDVOCAB:Fly	Fly	skos:closeMatch	FOODON:00002717	fly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fly
+GOLDVOCAB:Food-production	Food production	skos:exactMatch	FOODON:03530206	food production	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	food production
+GOLDVOCAB:Fungi	Fungi	skos:closeMatch	FOODON:03411261	fungus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	fungi
+GOLDVOCAB:Grasshopper	Grasshopper	skos:closeMatch	FOODON:03412496	grasshopper	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	grasshopper
+GOLDVOCAB:Green-algae	Green algae	skos:closeMatch	FOODON:03412502	green algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	green algae
+GOLDVOCAB:Horse	Horse	skos:closeMatch	FOODON:03411229	horse	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	horse
+GOLDVOCAB:Ice-cream	Ice cream	skos:exactMatch	FOODON:00001045	ice cream food product	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ice cream
+GOLDVOCAB:Insecta	Insecta	skos:narrowMatch	FOODON:03411220	insect	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	insecta
+GOLDVOCAB:Lichen	Lichen	skos:closeMatch	FOODON:03412345	lichen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lichen
+GOLDVOCAB:Lobster	Lobster	skos:closeMatch	FOODON:00002468	lobster	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lobster
+GOLDVOCAB:Milk	Milk	skos:exactMatch	FOODON:03307455	cow milk (raw)	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	milk
+GOLDVOCAB:Mollusca	Mollusca	skos:closeMatch	FOODON:03412112	mollusc	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mollusca
+GOLDVOCAB:Moth	Moth	skos:closeMatch	FOODON:03414644	moth	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	moth
+GOLDVOCAB:Oyster	Oyster	skos:closeMatch	FOODON:03411224	oyster	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oyster
+GOLDVOCAB:Palm-oil	Palm oil	skos:closeMatch	FOODON:03310232	palm oil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	palm oil
+GOLDVOCAB:Red-algae	Red algae	skos:closeMatch	FOODON:03411743	red algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	red algae
+GOLDVOCAB:Royal-jelly	Royal jelly	skos:exactMatch	FOODON:03301033	royal jelly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	royal jelly
+GOLDVOCAB:Seaweed	Seaweed	skos:exactMatch	FOODON:03412266	seaweed	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	seaweed
+GOLDVOCAB:Shrimp	Shrimp	skos:closeMatch	FOODON:03411237	shrimp	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	shrimp
+GOLDVOCAB:Sourdough	Sourdough	skos:exactMatch	FOODON:03302481	sourdough bread	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	sourdough
+GOLDVOCAB:Soy-sauce	Soy sauce	skos:exactMatch	FOODON:03301115	soy sauce	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soy sauce
+GOLDVOCAB:Soybean-paste	Soybean paste	skos:exactMatch	FOODON:03310002	soybean paste	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soybean paste
+GOLDVOCAB:Vegetable	Vegetable	skos:exactMatch	FOODON:03315308	vegetable (whole or pieces)	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	vegetable
+GOLDVOCAB:Vinegar	Vinegar	skos:exactMatch	FOODON:03301705	vinegar	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vinegar
+GOLDTERMS:4252	Engineered > Food production > Fermented beverages	skos:exactMatch	FOODON:00001094	fermented beverage	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fermented beverage	semapv:RegularExpressionReplacement	
+GOLDTERMS:4253	Engineered > Food production > Dairy products	skos:exactMatch	FOODON:00001256	dairy food product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dairy product	semapv:RegularExpressionReplacement	
+GOLDTERMS:4488	Engineered > Food production > Meat products	skos:exactMatch	FOODON:03317170	meat (whole or pieces)	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	meat product	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDTERMS:5454	Engineered > Food production > Meat products > Fermented meat products	skos:exactMatch	FOODON:00001314	fermented meat product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fermented meat product	semapv:RegularExpressionReplacement	
+GOLDTERMS:5469	Engineered > Food production > Meat products > Beef	skos:exactMatch	FOODON:00001041	cow food product	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	beef		semapv:RegularExpressionReplacement
+GOLDVOCAB:Beef	Beef	skos:exactMatch	FOODON:00001041	cow food product	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	beef food product		
+GOLDVOCAB:Dairy-products	Dairy products	skos:exactMatch	FOODON:00001256	dairy food product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dairy product	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Fermented-beverages	Fermented beverages	skos:exactMatch	FOODON:00001094	fermented beverage	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fermented beverage	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Fermented-meat-products	Fermented meat products	skos:exactMatch	FOODON:00001314	fermented meat product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fermented meat product	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Meat-products	Meat products	skos:exactMatch	FOODON:03317170	meat (whole or pieces)	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	meat product	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Nectar	Nectar	skos:exactMatch	FOODON:03315553	nectar (food product)	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nectar		semapv:RegularExpressionReplacement
+
+

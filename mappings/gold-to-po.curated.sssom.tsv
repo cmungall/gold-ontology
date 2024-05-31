@@ -15,4 +15,13 @@ GOLDVOCAB:Plant-callus	Plant callus	skos:exactMatch	PO:0005052	plant callus	sema
 GOLDVOCAB:Pollen	Pollen	skos:exactMatch	PO:0025281	pollen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pollen
 GOLDVOCAB:Rhizoid	Rhizoid	skos:exactMatch	PO:0030078	rhizoid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rhizoid
 GOLDVOCAB:Rhizome	Rhizome	skos:exactMatch	PO:0004542	rhizome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rhizome
-
+GOLDTERMS:4466	Host-associated > Plants > Roots	skos:exactMatch	PO:0009005	root	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	root	semapv:RegularExpressionReplacement	
+GOLDTERMS:4572	Host-associated > Plants > Seeds	skos:exactMatch	PO:0009010	seed	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	seed	semapv:RegularExpressionReplacement	
+GOLDTERMS:5270	Host-associated > Plants > Phyllosphere > Leaf > Xylem vessels	skos:exactMatch	PO:0025417	xylem vessel	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	xylem vessel	semapv:RegularExpressionReplacement	
+GOLDTERMS:5740	Host-associated > Plants > Phyllosphere > Cob	skos:exactMatch	PO:0025623	ear infructescence axis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cob		semapv:RegularExpressionReplacement
+GOLDVOCAB:Nodule	Nodule	skos:broadMatch	PO:0003023	root nodule	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	nodule		semapv:RegularExpressionReplacement
+GOLDVOCAB:Roots	Roots	skos:exactMatch	PO:0009005	root	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	root	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Seeds	Seeds	skos:exactMatch	PO:0009010	seed	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	seed	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Wood	Wood	skos:exactMatch	PO:0005848	secondary xylem	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	wood		semapv:RegularExpressionReplacement
+GOLDVOCAB:Xylem-vessels	Xylem vessels	skos:exactMatch	PO:0025417	xylem vessel	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	xylem vessel	semapv:RegularExpressionReplacement	
+GOLDTERMS:4523	Host-associated > Plants > Roots > Nodule	skos:exactMatch	PO:0003023	root nodule	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	nodule root	semapv:RegularExpressionReplacement

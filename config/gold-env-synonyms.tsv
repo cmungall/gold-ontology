@@ -31,6 +31,36 @@ gold.vocab:Warm-%2834-42C%29	Warm
 gold.vocab:Limnetic-zone	Limnetic zone
 gold.vocab:Hypersaline	Hypersaline water
 gold.vocab:Industrial-waste	industrial waste material
-gold.vocab:Forest	forest ecosystem
+gold.vocab:Forest	forest biome
 gold.vocab:Beef	beef food product
-gold.vocab:Acid-mine-drainage-material acid mine drainage
+gold.vocab:Acid-mine-drainage-material	acid mine drainage
+gold.vocab:Artificial-ecosystem	vivarium
+gold.vocab:Wastewater	waste water
+gold.vocab:Puddle	puddle of water
+gold.vocab:River%27s-source/headwaters	headwater
+gold.vocab:Phytoplankton-bloom	algal bloom
+gold.vocab:gulf	inlet
+gold.vocab:Oil-contaminated	oil spill
+gold.vocab:Oceanic	ocean
+gold.vocab:Plankton	planktonic material
+gold.vocab:Shale-carbon-reservoir	oil shale
+gold.vocab:Rock-dwelling-%28endoliths%29	endolithic environment
+gold.vocab:Thermokarst-pond	thermokarst
+gold.vocab:Fecal	feces
+gold.vocab:Solar-panel	solar panel array
+gold.vocab:Floor	building floor
+gold.vocab:International-space-station	space station
+gold.vocab:Galls	plant gall
+gold.vocab:Nasopharyngeal	nasopharynx
+gold.vocab:Laryngopharyngeal	laryngoopharynx
+gold.vocab:Larvae	larva
+gold.vocab:Nephridia	nephridium
+gold.vocab:Thoracic-segments	insect thoracic segment
+gold.vocab:Oral-fluid	oral cavity
+gold.vocab:Engineered	human construction
+gold.vocab:Pulp-and-paper-wastewater	pulp-bleaching waste water
+
+
+
+
+

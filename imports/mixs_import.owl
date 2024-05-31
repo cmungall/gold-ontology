@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/.owl#"
+     xml:base="http://purl.obolibrary.org/obo/.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_Agriculture -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_Agriculture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>agricultural</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:Agriculture</oboInOwl:id>
+        <rdfs:label>Agriculture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_Air -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_Air">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:id>MIXS:Air</oboInOwl:id>
+        <rdfs:label>Air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_BuiltEnvironment -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_BuiltEnvironment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:id>MIXS:BuiltEnvironment</oboInOwl:id>
+        <rdfs:label>Built Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_Extension -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_FoodFoodProductionFacility -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_FoodFoodProductionFacility">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>food production</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:FoodFoodProductionFacility</oboInOwl:id>
+        <rdfs:label>Food Production Facility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_HostAssociated -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_HostAssociated">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>Host</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:HostAssociated</oboInOwl:id>
+        <rdfs:label>Host-Associated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_HumanAssociated -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_HumanAssociated">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>host-associated, human</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>human</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:HumanAssociated</oboInOwl:id>
+        <rdfs:label>Human-Associated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_HumanGut -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_HumanGut">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>digestive system, human</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>host-associated human digestive system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>human digestive system</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:HumanGut</oboInOwl:id>
+        <rdfs:label>Human Gut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_HumanSkin -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_HumanSkin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>host-associated human skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>human skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin, human</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:HumanSkin</oboInOwl:id>
+        <rdfs:label>Human Skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_HumanVaginal -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_HumanVaginal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>host-associated human reproductive system, vagina</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>human reproductive system, vagina</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>reproductive system, vagina, human</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:HumanVaginal</oboInOwl:id>
+        <rdfs:label>Human Vaginal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_HydrocarbonResourcesCores -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_HydrocarbonResourcesCores">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>hydrocarbon</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:HydrocarbonResourcesCores</oboInOwl:id>
+        <rdfs:label>Hydrocarbon Resources Cores</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_PlantAssociated -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_PlantAssociated">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>host-associated, plant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>plant</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:PlantAssociated</oboInOwl:id>
+        <rdfs:label>Plant-Associated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_Sediment -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_Sediment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasRelatedSynonym>environmental, aquatic, sediment</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MIXS:Sediment</oboInOwl:id>
+        <rdfs:label>Sediment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_Soil -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_Soil">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasRelatedSynonym>environmental, terrestrial, soil</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MIXS:Soil</oboInOwl:id>
+        <rdfs:label>Soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_WastewaterSludge -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_WastewaterSludge">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>engineered, wastewater, sludge</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:WastewaterSludge</oboInOwl:id>
+        <rdfs:label>Wastewater Sludge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIXS_Water -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIXS_Water">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIXS_Extension"/>
+        <oboInOwl:hasExactSynonym>environmental, aquatic</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MIXS:Water</oboInOwl:id>
+        <rdfs:label>Water</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

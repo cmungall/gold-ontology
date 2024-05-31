@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gold-ontology"
+version = "0.1.0"
+description = ""
+authors = ["Chris Mungall <cjm@berkeleybop.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+oaklib = "^0.6.6"
+funowl = "^0.2.3"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+create-template = "gold_ontology.create_template:cli"
