@@ -1,0 +1,1116 @@
+id,label,level,parent,mixs_extension,env_broad,env_local,env_medium,host_taxon,anatomical_site,other,interpretation
+ID,LABEL,A oboInOwl:inSubset,C %,C RO:0001000 some %,C RO:0001025 some %,C RO:0002507 some %,C RO:0002219 some %,C RO:0002162 some %,C BFO:0000050 some %,C RO:0002321 some %,CLASS_TYPE
+GOLDTERMS:4292,Engineered,1,,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,equivalent
+GOLDTERMS:Engineered-Artificial-ecosystem,Engineered > Artificial ecosystem,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00010622,equivalent
+GOLDTERMS:4845,Engineered > Artificial ecosystem > Mud microcosm,3,GOLDTERMS:Engineered-Artificial-ecosystem,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00010622,subclass
+GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber,Engineered > Artificial ecosystem > Plant growth chamber,3,GOLDTERMS:Engineered-Artificial-ecosystem,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00010622,subclass
+GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media,Engineered > Artificial ecosystem > Plant growth chamber > Defined media,4,GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00010622,subclass
+GOLDTERMS:5553,Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Bulk soil,5,GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00005802,,,ENVO:00010622,subclass
+GOLDTERMS:5552,Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Enriched plant cells,5,GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00010622,subclass
+GOLDTERMS:5568,Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Rhizosphere,5,GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00005801,,,,ENVO:00010622,subclass
+GOLDTERMS:5554,Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Soil (non-planted),5,GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media,MIXS:Soil,ENVO:01000313,,,,,ENVO:00010622,subclass
+GOLDTERMS:5849,Engineered > Artificial ecosystem > Soil microcosm,3,GOLDTERMS:Engineered-Artificial-ecosystem,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00010622,subclass
+GOLDTERMS:4280,Engineered > Bioreactor,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,equivalent
+GOLDTERMS:4536,Engineered > Bioreactor > Aerobic,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002126,equivalent
+GOLDTERMS:5471,Engineered > Bioreactor > Aerobic > Activated sludge,4,GOLDTERMS:4536,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002126,subclass
+GOLDTERMS:5473,Engineered > Bioreactor > Aerobic > Biofilm,4,GOLDTERMS:4536,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002034,equivalent
+GOLDTERMS:5830,Engineered > Bioreactor > Aerobic > Sludge,4,GOLDTERMS:4536,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002044,,,ENVO:00002126,equivalent
+GOLDTERMS:4442,Engineered > Bioreactor > Anaerobic,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,equivalent
+GOLDTERMS:5557,Engineered > Bioreactor > Anaerobic > Acid mine drainage material,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,subclass
+GOLDTERMS:5475,Engineered > Bioreactor > Anaerobic > Activated sludge,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,subclass
+GOLDTERMS:5566,Engineered > Bioreactor > Anaerobic > Biogas,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:01000556,,,ENVO:00002124,equivalent
+GOLDTERMS:5583,Engineered > Bioreactor > Anaerobic > Digestate,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,subclass
+GOLDTERMS:4912,Engineered > Bioreactor > Anaerobic > Food waste,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:03600006,,,ENVO:00002124,equivalent
+GOLDTERMS:5669,Engineered > Bioreactor > Anaerobic > Leachate,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002141,,,ENVO:00002124,equivalent
+GOLDTERMS:4914,Engineered > Bioreactor > Anaerobic > Manure,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:03501300,,,ENVO:00002124,equivalent
+GOLDTERMS:5591,Engineered > Bioreactor > Anaerobic > Manure > Composting,5,GOLDTERMS:4914,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:03501300,,,ENVO:00002124,subclass
+GOLDTERMS:5639,Engineered > Bioreactor > Anaerobic > Reservoir sediment inoculum,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,subclass
+GOLDTERMS:5608,Engineered > Bioreactor > Anaerobic > Settled granule,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,subclass
+GOLDTERMS:5482,Engineered > Bioreactor > Anaerobic > Sludge,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002044,,,ENVO:00002124,equivalent
+GOLDTERMS:5567,Engineered > Bioreactor > Anaerobic > Sludge > Manure,5,GOLDTERMS:5482,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:03501300,,,ENVO:00002124,equivalent
+GOLDTERMS:5699,Engineered > Bioreactor > Anaerobic > Sludge > Palm oil,5,GOLDTERMS:5482,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,FOODON:03310232,,,ENVO:00002124,equivalent
+GOLDTERMS:Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater,Engineered > Bioreactor > Anaerobic > Soft drink wastewater,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002124,subclass
+GOLDTERMS:5641,Engineered > Bioreactor > Anaerobic > Soft drink wastewater > Biofilm,5,GOLDTERMS:Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002034,subclass
+GOLDTERMS:5679,Engineered > Bioreactor > Anaerobic > Wastewater,4,GOLDTERMS:4442,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002124,equivalent
+GOLDTERMS:4283,Engineered > Bioreactor > Continuous culture,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:5843,Engineered > Bioreactor > Continuous culture > Freshwater sediment inoculum,4,GOLDTERMS:4283,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:4860,Engineered > Bioreactor > Continuous culture > Marine intertidal flat sediment inoculum,4,GOLDTERMS:4283,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:4853,Engineered > Bioreactor > Continuous culture > Marine sediment inoculum,4,GOLDTERMS:4283,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:5604,Engineered > Bioreactor > Continuous culture > Tailings pond sludge,4,GOLDTERMS:4283,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Bioreactor-DHS-reactor,Engineered > Bioreactor > DHS reactor,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:5836,Engineered > Bioreactor > DHS reactor > Sludge,4,GOLDTERMS:Engineered-Bioreactor-DHS-reactor,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002044,,,ENVO:00002123,subclass
+GOLDTERMS:5838,Engineered > Bioreactor > DHS reactor > Wastewater,4,GOLDTERMS:Engineered-Bioreactor-DHS-reactor,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor,Engineered > Bioreactor > Membrane bioreactor,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:03600010,equivalent
+GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor-Produced-water,Engineered > Bioreactor > Membrane bioreactor > Produced water,4,GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:03600010,subclass
+GOLDTERMS:5506,Engineered > Bioreactor > Membrane bioreactor > Produced water > Sludge,5,GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor-Produced-water,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002044,,,ENVO:03600010,subclass
+GOLDTERMS:5549,Engineered > Bioreactor > Membrane bioreactor > Wastewater retentate,4,GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:03600010,subclass
+GOLDTERMS:Engineered-Bioreactor-Passive-bioreactor,Engineered > Bioreactor > Passive bioreactor,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:5560,Engineered > Bioreactor > Passive bioreactor > Acid mine drainage material,4,GOLDTERMS:Engineered-Bioreactor-Passive-bioreactor,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Bioreactor-Photobioreactor,Engineered > Bioreactor > Photobioreactor,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:03600077,equivalent
+GOLDTERMS:5846,Engineered > Bioreactor > Photobioreactor > Biofilm,4,GOLDTERMS:Engineered-Bioreactor-Photobioreactor,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002034,equivalent
+GOLDTERMS:5637,Engineered > Bioreactor > Sulphur Autotrophic Denitrification,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:5662,Engineered > Bioreactor > Sulphur Autotrophic Denitrification > Interstitial water,4,GOLDTERMS:5637,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:03600009,,,ENVO:00002123,subclass
+GOLDTERMS:5828,Engineered > Bioreactor > Wastewater,3,GOLDTERMS:4280,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002123,equivalent
+GOLDTERMS:5681,Engineered > Bioreactor > Wastewater > Activated sludge,4,GOLDTERMS:5828,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002123,subclass
+GOLDTERMS:5684,Engineered > Bioreactor > Wastewater > Cyanide/thiocyanate,4,GOLDTERMS:5828,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002123,subclass
+GOLDTERMS:5602,Engineered > Bioreactor > Wastewater > Sludge,4,GOLDTERMS:5828,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002044,,,ENVO:00002123,equivalent
+GOLDTERMS:4304,Engineered > Bioremediation,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4300,Engineered > Bioremediation > Hydrocarbon,3,GOLDTERMS:4304,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Asphalt-lakes,Engineered > Bioremediation > Hydrocarbon > Asphalt-lakes,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,ENVO:00000165,,,,,subclass
+GOLDTERMS:5647,Engineered > Bioremediation > Hydrocarbon > Asphalt-lakes > Tar,5,GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Asphalt-lakes,MIXS:HydrocarbonResourcesCores,ENVO:01000313,ENVO:00000165,ENVO:01000460,,,,subclass
+GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Benzene,Engineered > Bioremediation > Hydrocarbon > Benzene,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4299,Engineered > Bioremediation > Hydrocarbon > Benzene > Bioreactor,5,GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Benzene,MIXS:HydrocarbonResourcesCores,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:5643,Engineered > Bioremediation > Hydrocarbon > Coal,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,ENVO:02000091,,,,subclass
+GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine,Engineered > Bioremediation > Hydrocarbon > Coal mine,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,ENVO:00002169,,,,,subclass
+GOLDTERMS:5651,Engineered > Bioremediation > Hydrocarbon > Coal mine > Coal,5,GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine,MIXS:HydrocarbonResourcesCores,ENVO:01000313,ENVO:00002169,ENVO:02000091,,,,subclass
+GOLDTERMS:5650,Engineered > Bioremediation > Hydrocarbon > Coal mine > Produced water,5,GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine,MIXS:HydrocarbonResourcesCores,ENVO:01000313,ENVO:00002169,,,,,subclass
+GOLDTERMS:5686,Engineered > Bioremediation > Hydrocarbon > Marine sediment,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,ENVO:03000033,,,,subclass
+GOLDTERMS:4452,Engineered > Bioremediation > Hydrocarbon > Methane,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5645,Engineered > Bioremediation > Hydrocarbon > Wastewater,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:5087,Engineered > Bioremediation > Hydrocarbon > Xylene,4,GOLDTERMS:4300,MIXS:HydrocarbonResourcesCores,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4306,Engineered > Bioremediation > Metal,3,GOLDTERMS:4304,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01001069,,,,subclass
+GOLDTERMS:4724,Engineered > Bioremediation > Persistent organic pollutants (POP),3,GOLDTERMS:4304,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4305,Engineered > Bioremediation > Persistent organic pollutants (POP) > Polycyclic aromatic hydrocarbons,4,GOLDTERMS:4724,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4722,Engineered > Bioremediation > Terephthalate,3,GOLDTERMS:4304,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4303,Engineered > Bioremediation > Terephthalate > Wastewater,4,GOLDTERMS:4722,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4301,Engineered > Bioremediation > Terephthalate > Wastewater > Activated sludge,5,GOLDTERMS:4303,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4302,Engineered > Bioremediation > Terephthalate > Wastewater > Bioreactor,5,GOLDTERMS:4303,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives,Engineered > Bioremediation > Tetrachloroethylene and derivatives,3,GOLDTERMS:4304,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4298,Engineered > Bioremediation > Tetrachloroethylene and derivatives > Chloroethene,4,GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4297,Engineered > Bioremediation > Tetrachloroethylene and derivatives > Chloroethene > Bioreactor,5,GOLDTERMS:4298,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:4296,Engineered > Bioremediation > Tetrachloroethylene and derivatives > Tetrachloroethylene,4,GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4295,Engineered > Bioremediation > Tetrachloroethylene and derivatives > Tetrachloroethylene > Bioreactor,5,GOLDTERMS:4296,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:4436,Engineered > Bioremediation > Thiocyanate,3,GOLDTERMS:4304,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5498,Engineered > Bioremediation > Thiocyanate > Biofilm,4,GOLDTERMS:4436,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00002034,subclass
+GOLDTERMS:4314,Engineered > Biotransformation,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5395,Engineered > Biotransformation > Coal,3,GOLDTERMS:4314,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:02000091,,,,subclass
+GOLDTERMS:4313,Engineered > Biotransformation > Microbial enhanced oil recovery,3,GOLDTERMS:4314,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4312,Engineered > Biotransformation > Microbial solubilization of coal,3,GOLDTERMS:4314,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4315,Engineered > Biotransformation > Mixed alcohol bioreactor,3,GOLDTERMS:4314,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4279,Engineered > Built environment,2,GOLDTERMS:4292,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,equivalent
+GOLDTERMS:5572,Engineered > Built environment > Building,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000073,,,,,equivalent
+GOLDTERMS:4401,Engineered > Built environment > Canal,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000014,,,,,equivalent
+GOLDTERMS:Engineered-Built-environment-Canal-Irrigation-canal,Engineered > Built environment > Canal > Irrigation canal,4,GOLDTERMS:4401,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000036,,,,,equivalent
+GOLDTERMS:5111,Engineered > Built environment > Canal > Irrigation canal > Sediment,5,GOLDTERMS:Engineered-Built-environment-Canal-Irrigation-canal,MIXS:Sediment,ENVO:01000313,ENVO:00000036,ENVO:00002007,,,,equivalent
+GOLDTERMS:5562,Engineered > Built environment > Canal > Water,4,GOLDTERMS:4401,MIXS:Water,ENVO:01000313,ENVO:00000014,ENVO:00002006,,,,equivalent
+GOLDTERMS:4812,Engineered > Built environment > Cement wall,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4403,Engineered > Built environment > City,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000856,,,,,equivalent
+GOLDTERMS:4398,Engineered > Built environment > City > Park,4,GOLDTERMS:4403,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000562,,,,,equivalent
+GOLDTERMS:4396,Engineered > Built environment > City > Subway,4,GOLDTERMS:4403,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,equivalent
+GOLDTERMS:5464,Engineered > Built environment > City > Subway > Bench surface,5,GOLDTERMS:4396,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,subclass
+GOLDTERMS:5465,Engineered > Built environment > City > Subway > Concrete surface,5,GOLDTERMS:4396,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,subclass
+GOLDTERMS:5462,Engineered > Built environment > City > Subway > Metal surface,5,GOLDTERMS:4396,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,subclass
+GOLDTERMS:5466,Engineered > Built environment > City > Subway > Plastic surface,5,GOLDTERMS:4396,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,subclass
+GOLDTERMS:5467,Engineered > Built environment > City > Subway > Stone surface,5,GOLDTERMS:4396,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,subclass
+GOLDTERMS:5463,Engineered > Built environment > City > Subway > Wooden surface,5,GOLDTERMS:4396,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501109,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Coal-mine,Engineered > Built environment > Coal mine,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00002169,,,,,equivalent
+GOLDTERMS:5704,Engineered > Built environment > Coal mine > Produced water,4,GOLDTERMS:Engineered-Built-environment-Coal-mine,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00002169,,,,,subclass
+GOLDTERMS:5715,Engineered > Built environment > Dairy processing facility,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Drinking-water-treatment-plant,Engineered > Built environment > Drinking water treatment plant,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600004,,,,,equivalent
+GOLDTERMS:5500,Engineered > Built environment > Drinking water treatment plant > Drinking water,4,GOLDTERMS:Engineered-Built-environment-Drinking-water-treatment-plant,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600004,ENVO:00003064,,,,equivalent
+GOLDTERMS:5493,Engineered > Built environment > Drinking water treatment plant > Drinking water filter,4,GOLDTERMS:Engineered-Built-environment-Drinking-water-treatment-plant,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600004,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Fermentation-pit,Engineered > Built environment > Fermentation pit,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600039,,,,,equivalent
+GOLDTERMS:5452,Engineered > Built environment > Fermentation pit > Mud,4,GOLDTERMS:Engineered-Built-environment-Fermentation-pit,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600039,ENVO:01000001,,,,equivalent
+GOLDTERMS:4494,Engineered > Built environment > Hospital,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00002173,,,,,equivalent
+GOLDTERMS:Engineered-Built-environment-Hospital-Hospital-bedroom,Engineered > Built environment > Hospital > Hospital bedroom,4,GOLDTERMS:4494,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00002173,,,,,subclass
+GOLDTERMS:5490,Engineered > Built environment > Hospital > Hospital bedroom > Room surface,5,GOLDTERMS:Engineered-Built-environment-Hospital-Hospital-bedroom,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00002173,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Hospital-ICU,Engineered > Built environment > Hospital > ICU,4,GOLDTERMS:4494,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501152,,,,,equivalent
+GOLDTERMS:5574,Engineered > Built environment > Hospital > ICU > Floor,5,GOLDTERMS:Engineered-Built-environment-Hospital-ICU,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03501152,,,,,subclass
+GOLDTERMS:4405,Engineered > Built environment > House,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:01000417,,,,,equivalent
+GOLDTERMS:4847,Engineered > Built environment > House > Doormat,4,GOLDTERMS:4405,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:01000417,,,,,subclass
+GOLDTERMS:5534,Engineered > Built environment > House > Dust,4,GOLDTERMS:4405,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:01000417,ENVO:00002008,,,,equivalent
+GOLDTERMS:4659,Engineered > Built environment > International Space Station,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Mine,Engineered > Built environment > Mine,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000076,,,,,equivalent
+GOLDTERMS:5841,Engineered > Built environment > Mine > Oil sands,4,GOLDTERMS:Engineered-Built-environment-Mine,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:00000076,ENVO:03600013,,,,equivalent
+GOLDTERMS:Engineered-Built-environment-Nuclear-test-reactor,Engineered > Built environment > Nuclear test reactor,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000136,,,,,equivalent
+GOLDTERMS:5710,Engineered > Built environment > Nuclear test reactor > Cooling water,4,GOLDTERMS:Engineered-Built-environment-Nuclear-test-reactor,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000136,ENVO:03600002,,,,equivalent
+GOLDTERMS:4817,Engineered > Built environment > Oil refinery,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000142,,,,,equivalent
+GOLDTERMS:Engineered-Built-environment-Oil-refinery-Crude-oil-sludge,Engineered > Built environment > Oil refinery > Crude oil sludge,4,GOLDTERMS:4817,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000142,,,,,subclass
+GOLDTERMS:4868,Engineered > Built environment > Oil refinery > Crude oil sludge > Petroleum sludge,5,GOLDTERMS:Engineered-Built-environment-Oil-refinery-Crude-oil-sludge,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000142,,,,,subclass
+GOLDTERMS:5766,Engineered > Built environment > Oil refinery > Oil-contaminated sediment,4,GOLDTERMS:4817,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000142,,,,,subclass
+GOLDTERMS:4519,Engineered > Built environment > Oil refinery > Petroleum sludge,4,GOLDTERMS:4817,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:02000142,,,,,subclass
+GOLDTERMS:4665,Engineered > Built environment > Pipeline,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Pipeline-Drinking-water-pipeline,Engineered > Built environment > Pipeline > Drinking water pipeline,4,GOLDTERMS:4665,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600003,,,,,subclass
+GOLDTERMS:5701,Engineered > Built environment > Pipeline > Drinking water pipeline > Biofilm,5,GOLDTERMS:Engineered-Built-environment-Pipeline-Drinking-water-pipeline,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600003,,,,ENVO:00002034,subclass
+GOLDTERMS:4639,Engineered > Built environment > Solar panel,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4635,Engineered > Built environment > Spacecraft Assembly Cleanrooms,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5308,Engineered > Built environment > Spacecraft Assembly Cleanrooms > Air,4,GOLDTERMS:4635,MIXS:Air,ENVO:01000313,,ENVO:00002005,,,,subclass
+GOLDTERMS:5488,Engineered > Built environment > Spacecraft Assembly Cleanrooms > Floor,4,GOLDTERMS:4635,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Spacecraft-Assembly-Cleanrooms-Gowning-room,Engineered > Built environment > Spacecraft Assembly Cleanrooms > Gowning room,4,GOLDTERMS:4635,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5486,Engineered > Built environment > Spacecraft Assembly Cleanrooms > Gowning room > Floor,5,GOLDTERMS:Engineered-Built-environment-Spacecraft-Assembly-Cleanrooms-Gowning-room,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Built-environment-Swimming-pool,Engineered > Built environment > Swimming pool,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:01000965,,,,,equivalent
+GOLDTERMS:5596,Engineered > Built environment > Swimming pool > Sand filter,4,GOLDTERMS:Engineered-Built-environment-Swimming-pool,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:01000965,,,,,subclass
+GOLDTERMS:4704,Engineered > Built environment > Swine confinement building,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4469,Engineered > Built environment > Tailings pond,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600021,,,,,equivalent
+GOLDTERMS:5850,Engineered > Built environment > Tailings pond > Petrochemical,4,GOLDTERMS:4469,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600021,,,,,subclass
+GOLDTERMS:5694,Engineered > Built environment > Tailings pond > Petrochemical > Wastewater,5,GOLDTERMS:5850,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600021,ENVO:00002001,,,,subclass
+GOLDTERMS:5656,Engineered > Built environment > Tailings pond > Wastewater,4,GOLDTERMS:4469,MIXS:BuiltEnvironment,ENVO:01000313,ENVO:03600021,ENVO:00002001,,,,equivalent
+GOLDTERMS:4407,Engineered > Built environment > Water treatment plant,3,GOLDTERMS:4279,MIXS:BuiltEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5527,Engineered > Built environment > Water treatment plant > Wastewater,4,GOLDTERMS:4407,MIXS:BuiltEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:Engineered-Feedstock,Engineered > Feedstock,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4897,Engineered > Feedstock > Composting,3,GOLDTERMS:Engineered-Feedstock,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4250,Engineered > Food production,2,GOLDTERMS:4292,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,equivalent
+GOLDTERMS:5627,Engineered > Food production > Baby formula,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:5284,Engineered > Food production > Bread production,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:4253,Engineered > Food production > Dairy products,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001256,,,,equivalent
+GOLDTERMS:5456,Engineered > Food production > Dairy products > Fermented dairy products,4,GOLDTERMS:4253,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001256,,,,subclass
+GOLDTERMS:5509,Engineered > Food production > Dairy products > Fermented dairy products > Cheese,5,GOLDTERMS:5456,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001013,,,,subclass
+GOLDTERMS:5458,Engineered > Food production > Dairy products > Ice cream,4,GOLDTERMS:4253,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001045,,,,equivalent
+GOLDTERMS:Engineered-Food-production-Fermentation-cellar,Engineered > Food production > Fermentation cellar,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:5634,Engineered > Food production > Fermentation cellar > Pit mud,4,GOLDTERMS:Engineered-Food-production-Fermentation-cellar,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:5496,Engineered > Food production > Fermentation starter,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,ENVO:03600040,equivalent
+GOLDTERMS:4252,Engineered > Food production > Fermented beverages,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001094,,,,equivalent
+GOLDTERMS:5532,Engineered > Food production > Fermented beverages > Vinegar,4,GOLDTERMS:4252,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03301705,,,,equivalent
+GOLDTERMS:5744,Engineered > Food production > Fermented food,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:5599,Engineered > Food production > Fermented food > Soy sauce,4,GOLDTERMS:5744,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03301115,,,,subclass
+GOLDTERMS:5750,Engineered > Food production > Fermented food > Soybean paste,4,GOLDTERMS:5744,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03310002,,,,subclass
+GOLDTERMS:4251,Engineered > Food production > Fermented seafood,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:4249,Engineered > Food production > Fermented vegetables,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:4488,Engineered > Food production > Meat products,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03317170,,,,equivalent
+GOLDTERMS:5469,Engineered > Food production > Meat products > Beef,4,GOLDTERMS:4488,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001041,,,,equivalent
+GOLDTERMS:5454,Engineered > Food production > Meat products > Fermented meat products,4,GOLDTERMS:4488,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:00001314,,,,equivalent
+GOLDTERMS:4248,Engineered > Food production > Silage fermentation,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03530206,,,,subclass
+GOLDTERMS:5329,Engineered > Food production > Sourdough,3,GOLDTERMS:4250,MIXS:FoodFoodProductionFacility,ENVO:01000313,,FOODON:03302481,,,,equivalent
+GOLDTERMS:4293,Engineered > Industrial production,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4618,Engineered > Industrial production > Biochar,3,GOLDTERMS:4293,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:2000007,,,,subclass
+GOLDTERMS:5788,Engineered > Industrial production > Chemical products,3,GOLDTERMS:4293,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:2000000,subclass
+GOLDTERMS:5692,Engineered > Industrial production > Chemical products > Buffer,4,GOLDTERMS:5788,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:2000000,subclass
+GOLDTERMS:5581,Engineered > Industrial production > Chemical products > PCR blank control,4,GOLDTERMS:5788,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:2000000,subclass
+GOLDTERMS:4294,Engineered > Industrial production > Engineered product,3,GOLDTERMS:4293,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5564,Engineered > Industrial production > Engineered product > Aviation fuel,4,GOLDTERMS:4294,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00003903,,,,subclass
+GOLDTERMS:4595,Engineered > Industrial production > Engineered product > Bioanode,4,GOLDTERMS:4294,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5648,Engineered > Industrial production > Engineered product > Bioanode > Biofilm,5,GOLDTERMS:4595,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00002034,subclass
+GOLDTERMS:4612,Engineered > Industrial production > Engineered product > Biocathode,4,GOLDTERMS:4294,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5682,Engineered > Industrial production > Engineered product > Biocathode > Biofilm,5,GOLDTERMS:4612,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00002034,subclass
+GOLDTERMS:5310,Engineered > Industrial production > Engineered product > Tobacco product,4,GOLDTERMS:4294,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Industrial-production-Train-car,Engineered > Industrial production > Train car,3,GOLDTERMS:4293,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:03600051,subclass
+GOLDTERMS:5578,Engineered > Industrial production > Train car > Seat surface,4,GOLDTERMS:Engineered-Industrial-production-Train-car,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:03600051,subclass
+GOLDTERMS:4285,Engineered > Lab enrichment,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4287,Engineered > Lab enrichment > Defined media,3,GOLDTERMS:4285,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4288,Engineered > Lab enrichment > Defined media > Aerobic media,4,GOLDTERMS:4287,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5695,Engineered > Lab enrichment > Defined media > Aerobic media > Marine water,5,GOLDTERMS:4288,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5569,Engineered > Lab enrichment > Defined media > Aerobic media > Plankton,5,GOLDTERMS:4288,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000063,,,,subclass
+GOLDTERMS:4289,Engineered > Lab enrichment > Defined media > Anaerobic media,4,GOLDTERMS:4287,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5690,Engineered > Lab enrichment > Defined media > Anaerobic media > Feces,5,GOLDTERMS:4289,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,UBERON:0001988,,subclass
+GOLDTERMS:5706,Engineered > Lab enrichment > Defined media > Anaerobic media > Intertidal sediment,5,GOLDTERMS:4289,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002179,,,,subclass
+GOLDTERMS:5707,Engineered > Lab enrichment > Defined media > Anaerobic media > Marine sediment,5,GOLDTERMS:4289,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:03000033,,,,subclass
+GOLDTERMS:5698,Engineered > Lab enrichment > Defined media > Anaerobic media > Oil refinery sediment,5,GOLDTERMS:4289,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5705,Engineered > Lab enrichment > Defined media > Anaerobic media > Sediment,5,GOLDTERMS:4289,MIXS:Sediment,ENVO:01000313,,ENVO:00002007,,,,subclass
+GOLDTERMS:Engineered-Lab-enrichment-Defined-media-Compost,Engineered > Lab enrichment > Defined media > Compost,4,GOLDTERMS:4287,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002170,,,,subclass
+GOLDTERMS:5664,Engineered > Lab enrichment > Defined media > Compost > Grass,5,GOLDTERMS:Engineered-Lab-enrichment-Defined-media-Compost,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002170,,,,subclass
+GOLDTERMS:4291,Engineered > Lab enrichment > Defined media > Marine media,4,GOLDTERMS:4287,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5671,Engineered > Lab enrichment > Defined media > Marine sediment,4,GOLDTERMS:4287,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:03000033,,,,subclass
+GOLDTERMS:Engineered-Lab-enrichment-Freshwater,Engineered > Lab enrichment > Freshwater,3,GOLDTERMS:4285,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002011,,,,subclass
+GOLDTERMS:5689,Engineered > Lab enrichment > Freshwater > Aquifer,4,GOLDTERMS:Engineered-Lab-enrichment-Freshwater,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002011,,,ENVO:00012408,subclass
+GOLDTERMS:Engineered-Lab-enrichment-Rock,Engineered > Lab enrichment > Rock,3,GOLDTERMS:4285,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00001995,,,,subclass
+GOLDTERMS:5677,Engineered > Lab enrichment > Rock > Bedrock-saprolite interface,4,GOLDTERMS:Engineered-Lab-enrichment-Rock,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00001995,,,,subclass
+GOLDTERMS:5539,Engineered > Lab enrichment > Thermal springs,3,GOLDTERMS:4285,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00000051,,,,,subclass
+GOLDTERMS:4286,Engineered > Lab enrichment > Undefined media,3,GOLDTERMS:4285,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4247,Engineered > Lab synthesis,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4720,Engineered > Lab synthesis > Genetic cross,3,GOLDTERMS:4247,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4729,Engineered > Laboratory developed,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4726,Engineered > Laboratory developed > Genetically modified,3,GOLDTERMS:4729,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4307,Engineered > Modeled,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4311,Engineered > Modeled > Simulated communities (DNA mixture),3,GOLDTERMS:4307,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4308,Engineered > Modeled > Simulated communities (microbial mixture),3,GOLDTERMS:4307,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5606,Engineered > Modeled > Simulated communities (microbial mixture) > Sea water,4,GOLDTERMS:4308,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002149,,,,subclass
+GOLDTERMS:4309,Engineered > Modeled > Simulated communities (sequence read mixture),3,GOLDTERMS:4307,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4310,Engineered > Modeled > Simulated communities (sequence read mixture) > Sanger,4,GOLDTERMS:4309,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Paper,Engineered > Paper,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:03501256,equivalent
+GOLDTERMS:4390,Engineered > Paper > Currency notes,3,GOLDTERMS:Engineered-Paper,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,ENVO:00003896,equivalent
+GOLDTERMS:Engineered-Sewage-treatment-plant,Engineered > Sewage treatment plant,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00003043,,,,,equivalent
+GOLDTERMS:5624,Engineered > Sewage treatment plant > Activated sludge,3,GOLDTERMS:Engineered-Sewage-treatment-plant,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00003043,,,,,subclass
+GOLDTERMS:5520,Engineered > Sewage treatment plant > Sludge,3,GOLDTERMS:Engineered-Sewage-treatment-plant,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00003043,ENVO:00002044,,,,equivalent
+GOLDTERMS:5523,Engineered > Sewage treatment plant > Wastewater,3,GOLDTERMS:Engineered-Sewage-treatment-plant,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00003043,ENVO:00002001,,,,equivalent
+GOLDTERMS:5593,Engineered > Sewage treatment plant > Wastewater > Activated sludge,4,GOLDTERMS:5523,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00003043,ENVO:00002001,,,,subclass
+GOLDTERMS:4276,Engineered > Solid waste,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Agricultural-waste,Engineered > Solid waste > Agricultural waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000371,,,,subclass
+GOLDTERMS:4910,Engineered > Solid waste > Agricultural waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Agricultural-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000371,,,,subclass
+GOLDTERMS:5735,Engineered > Solid waste > Agricultural waste > Composting > Sugarcane filter cake,5,GOLDTERMS:4910,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000371,,,,subclass
+GOLDTERMS:5802,Engineered > Solid waste > Agricultural waste > Spent mushroom substrate,4,GOLDTERMS:Engineered-Solid-waste-Agricultural-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000371,,,,subclass
+GOLDTERMS:4278,Engineered > Solid waste > Animal waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002276,,,,subclass
+GOLDTERMS:4936,Engineered > Solid waste > Animal waste > Composting,4,GOLDTERMS:4278,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002276,,,,subclass
+GOLDTERMS:4916,Engineered > Solid waste > Animal waste > Manure,4,GOLDTERMS:4278,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:03501300,,,,subclass
+GOLDTERMS:5758,Engineered > Solid waste > Bagasse,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002872,,,,subclass
+GOLDTERMS:4927,Engineered > Solid waste > Bagasse > Composting,4,GOLDTERMS:5758,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002872,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Cellulose-associated-waste,Engineered > Solid waste > Cellulose associated waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4930,Engineered > Solid waste > Cellulose associated waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Cellulose-associated-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4273,Engineered > Solid waste > Composting,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5756,Engineered > Solid waste > Composting > Oil palm,4,GOLDTERMS:4273,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Feedstock,Engineered > Solid waste > Feedstock,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4893,Engineered > Solid waste > Feedstock > Composting,4,GOLDTERMS:Engineered-Solid-waste-Feedstock,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Food-waste,Engineered > Solid waste > Food waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:03600006,,,,subclass
+GOLDTERMS:4948,Engineered > Solid waste > Food waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Food-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:03600006,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Grass,Engineered > Solid waste > Grass,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4874,Engineered > Solid waste > Grass > Composting,4,GOLDTERMS:Engineered-Solid-waste-Grass,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4873,Engineered > Solid waste > Grass > Composting > Bioreactor,5,GOLDTERMS:4874,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Solid-waste-Grass-Fermentation,Engineered > Solid waste > Grass > Fermentation,4,GOLDTERMS:Engineered-Solid-waste-Grass,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:5508,Engineered > Solid waste > Grass > Fermentation > Bioreactor,5,GOLDTERMS:Engineered-Solid-waste-Grass-Fermentation,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Solid-waste-Household-waste,Engineered > Solid waste > Household waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000372,,,,subclass
+GOLDTERMS:4907,Engineered > Solid waste > Household waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Household-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000372,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Industrial-waste,Engineered > Solid waste > Industrial waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002267,,,,subclass
+GOLDTERMS:4939,Engineered > Solid waste > Industrial waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Industrial-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002267,,,,subclass
+GOLDTERMS:4277,Engineered > Solid waste > Landfill,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00000533,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Latrine-chamber,Engineered > Solid waste > Latrine chamber,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4954,Engineered > Solid waste > Latrine chamber > Composting,4,GOLDTERMS:Engineered-Solid-waste-Latrine-chamber,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Unknown-material,Engineered > Solid waste > Unknown material,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4967,Engineered > Solid waste > Unknown material > Composting,4,GOLDTERMS:Engineered-Solid-waste-Unknown-material,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4966,Engineered > Solid waste > Unknown material > Composting > Bioreactor,5,GOLDTERMS:4967,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,,,,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Solid-waste-Urban-waste,Engineered > Solid waste > Urban waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4945,Engineered > Solid waste > Urban waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Urban-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Vegetable,Engineered > Solid waste > Vegetable,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,FOODON:03315308,,,,subclass
+GOLDTERMS:4934,Engineered > Solid waste > Vegetable > Composting,4,GOLDTERMS:Engineered-Solid-waste-Vegetable,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,FOODON:03315308,,,,subclass
+GOLDTERMS:4942,Engineered > Solid waste > Vermicompost,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-Solid-waste-Wood,Engineered > Solid waste > Wood,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002040,,PO:0005848,,subclass
+GOLDTERMS:4857,Engineered > Solid waste > Wood > Composting,4,GOLDTERMS:Engineered-Solid-waste-Wood,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002040,,PO:0005848,,subclass
+GOLDTERMS:4856,Engineered > Solid waste > Wood > Composting > Bioreactor,5,GOLDTERMS:4857,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002040,,PO:0005848,ENVO:00002123,subclass
+GOLDTERMS:Engineered-Solid-waste-Zoo-waste,Engineered > Solid waste > Zoo waste,3,GOLDTERMS:4276,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:4924,Engineered > Solid waste > Zoo waste > Composting,4,GOLDTERMS:Engineered-Solid-waste-Zoo-waste,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,,,,,subclass
+GOLDTERMS:Engineered-WWTP,Engineered > WWTP,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,equivalent
+GOLDTERMS:5530,Engineered > WWTP > Activated sludge,3,GOLDTERMS:Engineered-WWTP,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,subclass
+GOLDTERMS:Engineered-WWTP-Aerobic,Engineered > WWTP > Aerobic,3,GOLDTERMS:Engineered-WWTP,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,subclass
+GOLDTERMS:5674,Engineered > WWTP > Aerobic > Activated sludge,4,GOLDTERMS:Engineered-WWTP-Aerobic,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,subclass
+GOLDTERMS:Engineered-WWTP-Anaerobic-digester,Engineered > WWTP > Anaerobic digester,3,GOLDTERMS:Engineered-WWTP,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,subclass
+GOLDTERMS:5478,Engineered > WWTP > Anaerobic digester > Activated sludge,4,GOLDTERMS:Engineered-WWTP-Anaerobic-digester,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,subclass
+GOLDTERMS:5791,Engineered > WWTP > Mixed liquor,3,GOLDTERMS:Engineered-WWTP,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,,,,,subclass
+GOLDTERMS:4672,Engineered > WWTP > Wastewater,3,GOLDTERMS:Engineered-WWTP,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00002272,ENVO:00002001,,,,equivalent
+GOLDTERMS:4264,Engineered > Wastewater,2,GOLDTERMS:4292,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,equivalent
+GOLDTERMS:4254,Engineered > Wastewater > Activated Sludge,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002046,,,,equivalent
+GOLDTERMS:4271,Engineered > Wastewater > Anaerobic digestor,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:5480,Engineered > Wastewater > Anaerobic digestor > Sludge,4,GOLDTERMS:4271,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002044,,,,subclass
+GOLDTERMS:5833,Engineered > Wastewater > Digestate,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4267,Engineered > Wastewater > Industrial wastewater,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,equivalent
+GOLDTERMS:4268,Engineered > Wastewater > Industrial wastewater > Agricultural wastewater,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:5514,Engineered > Wastewater > Industrial wastewater > Dairy farm,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:03501120,,ENVO:01000964,,,,equivalent
+GOLDTERMS:5516,Engineered > Wastewater > Industrial wastewater > Feedlot,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000627,,ENVO:01000964,,,,equivalent
+GOLDTERMS:4918,Engineered > Wastewater > Industrial wastewater > Hospital wastewater,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:4269,Engineered > Wastewater > Industrial wastewater > Landfill leachate,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:4270,Engineered > Wastewater > Industrial wastewater > Mine water,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:5555,Engineered > Wastewater > Industrial wastewater > Mine water > Acid mine drainage,5,GOLDTERMS:4270,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00001997,ENVO:01000964,,,,subclass
+GOLDTERMS:4690,Engineered > Wastewater > Industrial wastewater > Mine water > Sediment,5,GOLDTERMS:4270,MIXS:Sediment,ENVO:01000313,,ENVO:00002007,,,,subclass
+GOLDTERMS:5536,Engineered > Wastewater > Industrial wastewater > Organic dairy farm,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:4265,Engineered > Wastewater > Industrial wastewater > Petrochemical,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:5660,Engineered > Wastewater > Industrial wastewater > Petrochemical > Oil sludge,5,GOLDTERMS:4265,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002060,,,,subclass
+GOLDTERMS:4266,Engineered > Wastewater > Industrial wastewater > Pulp and paper wastewater,4,GOLDTERMS:4267,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:01000964,,,,subclass
+GOLDTERMS:Engineered-Wastewater-Municipal-landfill,Engineered > Wastewater > Municipal landfill,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:5667,Engineered > Wastewater > Municipal landfill > Leachate,4,GOLDTERMS:Engineered-Wastewater-Municipal-landfill,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002141,,,,subclass
+GOLDTERMS:4261,Engineered > Wastewater > Nutrient removal,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4730,Engineered > Wastewater > Nutrient removal > Biological phosphorus removal,4,GOLDTERMS:4261,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4262,Engineered > Wastewater > Nutrient removal > Biological phosphorus removal > Activated sludge,5,GOLDTERMS:4730,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4263,Engineered > Wastewater > Nutrient removal > Biological phosphorus removal > Bioreactor,5,GOLDTERMS:4730,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,OBI:0001046,ENVO:00002001,,,ENVO:00002123,subclass
+GOLDTERMS:4258,Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic),4,GOLDTERMS:4261,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4257,Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic) > Activated sludge,5,GOLDTERMS:4258,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4260,Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic),4,GOLDTERMS:4261,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4259,Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic) > Activated sludge,5,GOLDTERMS:4260,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4255,Engineered > Wastewater > Nutrient removal > Nitrogen removal,4,GOLDTERMS:4261,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:4256,Engineered > Wastewater > Nutrient removal > Nitrogen removal > Anammox,5,GOLDTERMS:4255,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002001,,,,subclass
+GOLDTERMS:5547,Engineered > Wastewater > River,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,ENVO:00000022,ENVO:00002001,,,,equivalent
+GOLDTERMS:4662,Engineered > Wastewater > Sewage,3,GOLDTERMS:4264,MIXS:MiscellaneousNaturalOrArtificialEnvironment,ENVO:01000313,,ENVO:00002018,,,,equivalent
+GOLDTERMS:5503,Engineered > Wastewater > Sludge,3,GOLDTERMS:4264,MIXS:WastewaterSludge,ENVO:01000313,,ENVO:00002044,,,,equivalent
+GOLDTERMS:3964,Environmental,1,,,ENVO:01000254,,,,,,equivalent
+GOLDTERMS:3963,Environmental > Air,2,GOLDTERMS:3964,MIXS:Air,ENVO:01000254,,ENVO:00002005,,,,equivalent
+GOLDTERMS:3961,Environmental > Air > Indoor Air,3,GOLDTERMS:3963,MIXS:Air,ENVO:01000254,,ENVO:00002005,,,,subclass
+GOLDTERMS:Environmental-Air-Indoor-Air-Air-scrubber,Environmental > Air > Indoor Air > Air scrubber,4,GOLDTERMS:3961,MIXS:Air,ENVO:01000254,,ENVO:00002005,,,,subclass
+GOLDTERMS:5806,Environmental > Air > Indoor Air > Air scrubber > Biofilm,5,GOLDTERMS:Environmental-Air-Indoor-Air-Air-scrubber,MIXS:Air,ENVO:01000254,,ENVO:00002005,,,ENVO:00002034,subclass
+GOLDTERMS:4620,Environmental > Air > Indoor Air > Dust,4,GOLDTERMS:3961,MIXS:Air,ENVO:01000254,,ENVO:00002008,,,,subclass
+GOLDTERMS:3962,Environmental > Air > Outdoor Air,3,GOLDTERMS:3963,MIXS:Air,ENVO:01000254,,ENVO:00002005,,,,subclass
+GOLDTERMS:3984,Environmental > Aquatic,2,GOLDTERMS:3964,,ENVO:01000254,ENVO:00002030,,,,,equivalent
+GOLDTERMS:3965,Environmental > Aquatic > Aquaculture,3,GOLDTERMS:3984,,ENVO:03600074,ENVO:00002030,,,,,equivalent
+GOLDTERMS:5363,Environmental > Aquatic > Aquaculture > Shrimp pond,4,GOLDTERMS:3965,,ENVO:03600074,ENVO:01000905,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Floodplain,Environmental > Aquatic > Floodplain,3,GOLDTERMS:3984,,ENVO:01000254,ENVO:00000255,,,,,equivalent
+GOLDTERMS:5413,Environmental > Aquatic > Floodplain > Sediment,4,GOLDTERMS:Environmental-Aquatic-Floodplain,MIXS:Sediment,ENVO:01000254,ENVO:00000255,ENVO:00002007,,,,equivalent
+GOLDTERMS:4159,Environmental > Aquatic > Freshwater,3,GOLDTERMS:3984,,ENVO:01000254,ENVO:00002030,ENVO:00002011,,,,equivalent
+GOLDTERMS:5742,Environmental > Aquatic > Freshwater > Agricultural field,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000114,ENVO:00002011,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer,Environmental > Aquatic > Freshwater > Aquifer,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:00002011,,,ENVO:00012408,equivalent
+GOLDTERMS:5446,Environmental > Aquatic > Freshwater > Aquifer > Biofilm,5,GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer,,ENVO:01000254,ENVO:00002030,ENVO:00002011,,,ENVO:00002034,equivalent
+GOLDTERMS:5374,Environmental > Aquatic > Freshwater > Aquifer > Sediment,5,GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer,MIXS:Sediment,ENVO:01000254,ENVO:00002030,ENVO:00002007,,,ENVO:00012408,equivalent
+GOLDTERMS:4514,Environmental > Aquatic > Freshwater > Creek,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000023,ENVO:00002011,,,,equivalent
+GOLDTERMS:5385,Environmental > Aquatic > Freshwater > Creek > Sediment,5,GOLDTERMS:4514,MIXS:Sediment,ENVO:01000254,ENVO:00000023,ENVO:00002007,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs,Environmental > Aquatic > Freshwater > Desert springs,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:00002011,,,,subclass
+GOLDTERMS:5402,Environmental > Aquatic > Freshwater > Desert springs > Benthic,5,GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs,,ENVO:01000254,ENVO:01000024,ENVO:00002011,,,,subclass
+GOLDTERMS:4057,Environmental > Aquatic > Freshwater > Drinking water,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:00003064,,,,equivalent
+GOLDTERMS:4059,Environmental > Aquatic > Freshwater > Drinking water > Chlorinated,5,GOLDTERMS:4057,,ENVO:01000254,ENVO:00002030,ENVO:00003064,,,,subclass
+GOLDTERMS:4058,Environmental > Aquatic > Freshwater > Drinking water > Delivery networks,5,GOLDTERMS:4057,,ENVO:01000254,ENVO:00002030,ENVO:00003064,,,,subclass
+GOLDTERMS:5122,Environmental > Aquatic > Freshwater > Drinking water > Filtered water,5,GOLDTERMS:4057,,ENVO:01000254,ENVO:00002030,ENVO:00003064,,,,subclass
+GOLDTERMS:4547,Environmental > Aquatic > Freshwater > Drinking water > Unchlorinated,5,GOLDTERMS:4057,,ENVO:01000254,ENVO:00002030,ENVO:00003064,,,,subclass
+GOLDTERMS:4165,Environmental > Aquatic > Freshwater > Groundwater,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:01001004,,,,equivalent
+GOLDTERMS:4164,Environmental > Aquatic > Freshwater > Groundwater > Acid Mine Drainage,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00001997,ENVO:01001004,,,,equivalent
+GOLDTERMS:5430,Environmental > Aquatic > Freshwater > Groundwater > Aquifer,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00002030,ENVO:01001004,,,ENVO:00012408,equivalent
+GOLDTERMS:4167,Environmental > Aquatic > Freshwater > Groundwater > Cave water,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00002030,ENVO:01001004,,,,subclass
+GOLDTERMS:4169,Environmental > Aquatic > Freshwater > Groundwater > Coalbed water,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00002030,ENVO:01001004,,,,subclass
+GOLDTERMS:4166,Environmental > Aquatic > Freshwater > Groundwater > Contaminated,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00002030,ENVO:01001004,,,,subclass
+GOLDTERMS:4168,Environmental > Aquatic > Freshwater > Groundwater > Mine,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00000076,ENVO:01001004,,,,equivalent
+GOLDTERMS:4170,Environmental > Aquatic > Freshwater > Groundwater > Mine drainage,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00001996,ENVO:01001004,,,,equivalent
+GOLDTERMS:4654,Environmental > Aquatic > Freshwater > Groundwater > Spring,5,GOLDTERMS:4165,,ENVO:01000254,ENVO:00000027,ENVO:01001004,,,,equivalent
+GOLDTERMS:4420,Environmental > Aquatic > Freshwater > Harbor,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000463,ENVO:00002011,,,,equivalent
+GOLDTERMS:4061,Environmental > Aquatic > Freshwater > Ice,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:01000277,,,,equivalent
+GOLDTERMS:5379,Environmental > Aquatic > Freshwater > Ice > Cryoconite,5,GOLDTERMS:4061,,ENVO:01000254,ENVO:00002030,ENVO:01000277,,,,subclass
+GOLDTERMS:4060,Environmental > Aquatic > Freshwater > Ice > Glacial lake,5,GOLDTERMS:4061,,ENVO:01000254,ENVO:00000488,ENVO:01000277,,,,equivalent
+GOLDTERMS:4063,Environmental > Aquatic > Freshwater > Ice > Glacier,5,GOLDTERMS:4061,,ENVO:01000254,ENVO:00002030,ENVO:01000277,,,ENVO:00000133,equivalent
+GOLDTERMS:4062,Environmental > Aquatic > Freshwater > Ice > Ice accretions,5,GOLDTERMS:4061,,ENVO:01000254,ENVO:00002030,ENVO:01000277,,,,subclass
+GOLDTERMS:5544,Environmental > Aquatic > Freshwater > Ice > Snow,5,GOLDTERMS:4061,,ENVO:01000254,ENVO:00002030,ENVO:01000406,,,,equivalent
+GOLDTERMS:4179,Environmental > Aquatic > Freshwater > Lake,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000020,ENVO:00002011,,,,equivalent
+GOLDTERMS:5349,Environmental > Aquatic > Freshwater > Lake > Algal bloom,5,GOLDTERMS:4179,,ENVO:01000254,ENVO:2000004,ENVO:00002011,,,,equivalent
+GOLDTERMS:5392,Environmental > Aquatic > Freshwater > Lake > Anoxic zone,5,GOLDTERMS:4179,,ENVO:01000254,ENVO:01001072,ENVO:01000173,,,,equivalent
+GOLDTERMS:5356,Environmental > Aquatic > Freshwater > Lake > Cyanobacterial bloom,5,GOLDTERMS:4179,,ENVO:01000254,ENVO:03600071,ENVO:00002011,,,,equivalent
+GOLDTERMS:5357,Environmental > Aquatic > Freshwater > Lake > Epilimnion,5,GOLDTERMS:4179,,ENVO:01000254,ENVO:00002131,ENVO:00002011,,,,equivalent
+GOLDTERMS:5358,Environmental > Aquatic > Freshwater > Lake > Hypolimnion,5,GOLDTERMS:4179,,ENVO:01000254,ENVO:00002130,ENVO:00002011,,,,equivalent
+GOLDTERMS:5375,Environmental > Aquatic > Freshwater > Lake > Microbial mats,5,GOLDTERMS:4179,,ENVO:01000254,ENVO:00000020,ENVO:00002011,,,ENVO:01000008,equivalent
+GOLDTERMS:4426,Environmental > Aquatic > Freshwater > Lake > Sediment,5,GOLDTERMS:4179,MIXS:Sediment,ENVO:01000254,ENVO:00000020,ENVO:00002007,,,,equivalent
+GOLDTERMS:4174,Environmental > Aquatic > Freshwater > Lentic,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:01000617,ENVO:00002011,,,,equivalent
+GOLDTERMS:4177,Environmental > Aquatic > Freshwater > Lentic > Epilimnion,5,GOLDTERMS:4174,,ENVO:01000254,ENVO:00002131,ENVO:00002011,,,,equivalent
+GOLDTERMS:4173,Environmental > Aquatic > Freshwater > Lentic > Hypolimnion,5,GOLDTERMS:4174,,ENVO:01000254,ENVO:00002130,ENVO:00002011,,,,equivalent
+GOLDTERMS:4176,Environmental > Aquatic > Freshwater > Lentic > Limnetic zone,5,GOLDTERMS:4174,,ENVO:01000254,ENVO:01000617,ENVO:00002011,,,,subclass
+GOLDTERMS:4178,Environmental > Aquatic > Freshwater > Lentic > Littoral zone,5,GOLDTERMS:4174,,ENVO:01000254,ENVO:01000407,ENVO:00002011,,,,equivalent
+GOLDTERMS:4175,Environmental > Aquatic > Freshwater > Lentic > Sediment,5,GOLDTERMS:4174,MIXS:Sediment,ENVO:01000254,ENVO:01000617,ENVO:00002007,,,,equivalent
+GOLDTERMS:4645,Environmental > Aquatic > Freshwater > Lotic,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:01000618,ENVO:00002011,,,,equivalent
+GOLDTERMS:4191,Environmental > Aquatic > Freshwater > Microbialites,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:03600064,,,,equivalent
+GOLDTERMS:4380,Environmental > Aquatic > Freshwater > Pond,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000033,ENVO:00002011,,,,equivalent
+GOLDTERMS:4180,Environmental > Aquatic > Freshwater > Pond > Sediment,5,GOLDTERMS:4380,MIXS:Sediment,ENVO:01000254,ENVO:00000033,ENVO:00002007,,,,equivalent
+GOLDTERMS:5747,Environmental > Aquatic > Freshwater > Puddle,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:01000871,ENVO:00002011,,,,equivalent
+GOLDTERMS:5748,Environmental > Aquatic > Freshwater > Puddle > Microbial mats,5,GOLDTERMS:5747,,ENVO:01000254,ENVO:01000871,ENVO:00002011,,,ENVO:01000008,equivalent
+GOLDTERMS:5237,Environmental > Aquatic > Freshwater > Reservoir,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000025,ENVO:00002011,,,,equivalent
+GOLDTERMS:4512,Environmental > Aquatic > Freshwater > River,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000022,ENVO:00002011,,,,equivalent
+GOLDTERMS:5347,Environmental > Aquatic > Freshwater > River > Microbial mats,5,GOLDTERMS:4512,,ENVO:01000254,ENVO:00000022,ENVO:00002011,,,ENVO:01000008,equivalent
+GOLDTERMS:5345,Environmental > Aquatic > Freshwater > River > Periphyton,5,GOLDTERMS:4512,,ENVO:01000254,ENVO:00000022,ENVO:03605000,,,,equivalent
+GOLDTERMS:5346,Environmental > Aquatic > Freshwater > River > Plankton,5,GOLDTERMS:4512,,ENVO:01000254,ENVO:00000022,ENVO:01000063,,,,equivalent
+GOLDTERMS:5348,Environmental > Aquatic > Freshwater > River > River biofilm,5,GOLDTERMS:4512,,ENVO:01000254,ENVO:00000022,ENVO:00002011,,,,subclass
+GOLDTERMS:5575,Environmental > Aquatic > Freshwater > River > River's source/headwaters,5,GOLDTERMS:4512,,ENVO:01000254,ENVO:00000022,ENVO:00002011,,,,subclass
+GOLDTERMS:5109,Environmental > Aquatic > Freshwater > River > Sediment,5,GOLDTERMS:4512,MIXS:Sediment,ENVO:01000254,ENVO:00000022,ENVO:00002007,,,,equivalent
+GOLDTERMS:4171,Environmental > Aquatic > Freshwater > Sediment,4,GOLDTERMS:4159,MIXS:Sediment,ENVO:01000254,ENVO:00002030,ENVO:00002007,,,,equivalent
+GOLDTERMS:4653,Environmental > Aquatic > Freshwater > Sinkhole,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00000195,ENVO:00002011,,,,equivalent
+GOLDTERMS:5361,Environmental > Aquatic > Freshwater > Sinkhole > Microbial mats,5,GOLDTERMS:4653,,ENVO:01000254,ENVO:00000195,ENVO:00002011,,,ENVO:01000008,equivalent
+GOLDTERMS:4189,Environmental > Aquatic > Freshwater > Storm water,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:01001267,,,,equivalent
+GOLDTERMS:4190,Environmental > Aquatic > Freshwater > Storm water > Drainage pipe biofilm,5,GOLDTERMS:4189,,ENVO:01000254,ENVO:00002030,ENVO:01001267,,,,subclass
+GOLDTERMS:4737,Environmental > Aquatic > Freshwater > Subglacial lake,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:03000120,ENVO:00002011,,,,equivalent
+GOLDTERMS:4562,Environmental > Aquatic > Freshwater > Subterranean lake,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:00002011,,,,subclass
+GOLDTERMS:5360,Environmental > Aquatic > Freshwater > Tap water,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:00003096,,,,equivalent
+GOLDTERMS:5210,Environmental > Aquatic > Freshwater > Water tank,4,GOLDTERMS:4159,,ENVO:01000254,ENVO:00002030,ENVO:00002011,,,ENVO:03501254,equivalent
+GOLDTERMS:4181,Environmental > Aquatic > Freshwater > Wetlands,4,GOLDTERMS:4159,,ENVO:01001209,ENVO:00002030,ENVO:00002011,,,,equivalent
+GOLDTERMS:4185,Environmental > Aquatic > Freshwater > Wetlands > Bog,5,GOLDTERMS:4181,,ENVO:01001209,ENVO:00002030,ENVO:00002011,,,,equivalent
+GOLDTERMS:5285,Environmental > Aquatic > Freshwater > Wetlands > Fen,5,GOLDTERMS:4181,,ENVO:00000232,ENVO:00002030,ENVO:00002011,,,,equivalent
+GOLDTERMS:4184,Environmental > Aquatic > Freshwater > Wetlands > Marsh,5,GOLDTERMS:4181,,ENVO:00000035,ENVO:00002030,ENVO:00002011,,,,equivalent
+GOLDTERMS:4183,Environmental > Aquatic > Freshwater > Wetlands > Sediment,5,GOLDTERMS:4181,MIXS:Sediment,ENVO:01001209,ENVO:00002030,ENVO:00002007,,,,equivalent
+GOLDTERMS:5376,Environmental > Aquatic > Freshwater > Wetlands > Soil,5,GOLDTERMS:4181,MIXS:Soil,ENVO:01001209,ENVO:00002030,ENVO:00001998,,,,equivalent
+GOLDTERMS:4182,Environmental > Aquatic > Freshwater > Wetlands > Swamp,5,GOLDTERMS:4181,,ENVO:00000233,ENVO:00002030,ENVO:00002011,,,,equivalent
+GOLDTERMS:4003,Environmental > Aquatic > Marine,3,GOLDTERMS:3984,,ENVO:01000254,ENVO:00000447,,,,,equivalent
+GOLDTERMS:5340,Environmental > Aquatic > Marine > Abyssopelagic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:01000038,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Aquifer,Environmental > Aquatic > Marine > Aquifer,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,ENVO:00012408,equivalent
+GOLDTERMS:5737,Environmental > Aquatic > Marine > Aquifer > Formation fluid,5,GOLDTERMS:Environmental-Aquatic-Marine-Aquifer,,ENVO:01000254,ENVO:00000447,ENVO:03600007,,,ENVO:00012408,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Archipelago,Environmental > Aquatic > Marine > Archipelago,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000220,,,,,equivalent
+GOLDTERMS:5383,Environmental > Aquatic > Marine > Archipelago > Sediment,5,GOLDTERMS:Environmental-Aquatic-Marine-Archipelago,MIXS:Sediment,ENVO:01000254,ENVO:00000220,ENVO:00002007,,,,equivalent
+GOLDTERMS:5338,Environmental > Aquatic > Marine > Bathypelagic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000211,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Benthic,Environmental > Aquatic > Marine > Benthic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:01000024,,,,,equivalent
+GOLDTERMS:5712,Environmental > Aquatic > Marine > Benthic > Wood fall,5,GOLDTERMS:Environmental-Aquatic-Marine-Benthic,,ENVO:01000254,ENVO:01000024,,,,ENVO:01000142,equivalent
+GOLDTERMS:4044,Environmental > Aquatic > Marine > Coastal,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:01000687,,,,,equivalent
+GOLDTERMS:5391,Environmental > Aquatic > Marine > Coastal > Brine,5,GOLDTERMS:4044,,ENVO:01000254,ENVO:01000687,ENVO:00003044,,,,equivalent
+GOLDTERMS:5825,Environmental > Aquatic > Marine > Coastal > Phytoplankton bloom,5,GOLDTERMS:4044,,ENVO:01000254,ENVO:01000687,,,,,subclass
+GOLDTERMS:4045,Environmental > Aquatic > Marine > Coastal > Sediment,5,GOLDTERMS:4044,MIXS:Sediment,ENVO:01000254,ENVO:01000687,ENVO:00002007,,,,equivalent
+GOLDTERMS:4023,Environmental > Aquatic > Marine > Cold seeps,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:01000263,,,,,equivalent
+GOLDTERMS:4024,Environmental > Aquatic > Marine > Cold seeps > Sediment,5,GOLDTERMS:4023,MIXS:Sediment,ENVO:01000254,ENVO:01000263,ENVO:00002007,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Continental-margin,Environmental > Aquatic > Marine > Continental margin,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:01000298,,,,,equivalent
+GOLDTERMS:5387,Environmental > Aquatic > Marine > Continental margin > Sediment,5,GOLDTERMS:Environmental-Aquatic-Marine-Continental-margin,MIXS:Sediment,ENVO:01000254,ENVO:01000298,ENVO:00002007,,,,equivalent
+GOLDTERMS:5369,Environmental > Aquatic > Marine > Deep subsurface,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,,subclass
+GOLDTERMS:5723,Environmental > Aquatic > Marine > Deep subsurface > Hydrocarbon,5,GOLDTERMS:5369,MIXS:HydrocarbonResourcesCores,ENVO:01000254,ENVO:00000447,,,,,subclass
+GOLDTERMS:5370,Environmental > Aquatic > Marine > Deep subsurface > Rock,5,GOLDTERMS:5369,,ENVO:01000254,ENVO:00000447,ENVO:00001995,,,,subclass
+GOLDTERMS:5331,Environmental > Aquatic > Marine > Epipelagic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:01000035,,,,,equivalent
+GOLDTERMS:5355,Environmental > Aquatic > Marine > Fjord,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000039,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Fossil,Environmental > Aquatic > Marine > Fossil,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,,subclass
+GOLDTERMS:4000,Environmental > Aquatic > Marine > Fossil > Whale fall,5,GOLDTERMS:Environmental-Aquatic-Marine-Fossil,,ENVO:01000254,ENVO:00000447,,,,ENVO:01000140,subclass
+GOLDTERMS:4576,Environmental > Aquatic > Marine > Gulf,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,,subclass
+GOLDTERMS:5344,Environmental > Aquatic > Marine > Hadalpelagic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000214,,,,,equivalent
+GOLDTERMS:4454,Environmental > Aquatic > Marine > Harbor,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000463,,,,,equivalent
+GOLDTERMS:4027,Environmental > Aquatic > Marine > Hydrothermal vents,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000215,,,,,equivalent
+GOLDTERMS:4031,Environmental > Aquatic > Marine > Hydrothermal vents > Black smokers,5,GOLDTERMS:4027,,ENVO:01000254,ENVO:00000218,,,,,equivalent
+GOLDTERMS:4030,Environmental > Aquatic > Marine > Hydrothermal vents > Diffuse flow,5,GOLDTERMS:4027,,ENVO:01000254,ENVO:00000215,,,,,subclass
+GOLDTERMS:4028,Environmental > Aquatic > Marine > Hydrothermal vents > Microbial mats,5,GOLDTERMS:4027,,ENVO:01000254,ENVO:00000215,,,,ENVO:01000008,equivalent
+GOLDTERMS:4029,Environmental > Aquatic > Marine > Hydrothermal vents > Sediment,5,GOLDTERMS:4027,MIXS:Sediment,ENVO:01000254,ENVO:00000215,ENVO:00002007,,,,equivalent
+GOLDTERMS:5751,Environmental > Aquatic > Marine > Hydrothermal vents > Tubeworm bush,5,GOLDTERMS:4027,,ENVO:01000254,ENVO:00000215,,,,,subclass
+GOLDTERMS:5351,Environmental > Aquatic > Marine > Hypoxic zone,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,ENVO:01001064,,,,equivalent
+GOLDTERMS:4574,Environmental > Aquatic > Marine > Inlet,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000475,,,,,equivalent
+GOLDTERMS:4013,Environmental > Aquatic > Marine > Intertidal zone,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000316,,,,,equivalent
+GOLDTERMS:4017,Environmental > Aquatic > Marine > Intertidal zone > Beach,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000091,,,,,equivalent
+GOLDTERMS:4014,Environmental > Aquatic > Marine > Intertidal zone > Coral reef,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000150,,,,,equivalent
+GOLDTERMS:4015,Environmental > Aquatic > Marine > Intertidal zone > Estuary,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000045,,,,,equivalent
+GOLDTERMS:5364,Environmental > Aquatic > Marine > Intertidal zone > Mangrove sediment,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000316,,,,,subclass
+GOLDTERMS:5422,Environmental > Aquatic > Marine > Intertidal zone > Mangrove soil,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000316,ENVO:02000138,,,,equivalent
+GOLDTERMS:4018,Environmental > Aquatic > Marine > Intertidal zone > Mangrove swamp,5,GOLDTERMS:4013,,ENVO:00000057,ENVO:00000316,,,,,equivalent
+GOLDTERMS:4019,Environmental > Aquatic > Marine > Intertidal zone > Microbialites,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000316,ENVO:03600064,,,,equivalent
+GOLDTERMS:4020,Environmental > Aquatic > Marine > Intertidal zone > Oil-contaminated,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00002061,,,,,equivalent
+GOLDTERMS:4012,Environmental > Aquatic > Marine > Intertidal zone > Salt marsh,5,GOLDTERMS:4013,,ENVO:00000054,ENVO:00000316,,,,,equivalent
+GOLDTERMS:5590,Environmental > Aquatic > Marine > Intertidal zone > Salt marsh sediment,5,GOLDTERMS:4013,,ENVO:01000254,ENVO:00000316,,,,,subclass
+GOLDTERMS:4016,Environmental > Aquatic > Marine > Intertidal zone > Sediment,5,GOLDTERMS:4013,MIXS:Sediment,ENVO:01000254,ENVO:00000316,ENVO:00002007,,,,equivalent
+GOLDTERMS:4032,Environmental > Aquatic > Marine > Marginal Sea,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000016,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Marine-basin-floor,Environmental > Aquatic > Marine > Marine basin floor,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,,subclass
+GOLDTERMS:5353,Environmental > Aquatic > Marine > Marine basin floor > Sediment,5,GOLDTERMS:Environmental-Aquatic-Marine-Marine-basin-floor,MIXS:Sediment,ENVO:01000254,ENVO:00000447,ENVO:00002007,,,,subclass
+GOLDTERMS:5342,Environmental > Aquatic > Marine > Marine lake,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:03600041,,,,,equivalent
+GOLDTERMS:5333,Environmental > Aquatic > Marine > Mesopelagic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000213,,,,,equivalent
+GOLDTERMS:4545,Environmental > Aquatic > Marine > Mud volcano,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000402,,,,,equivalent
+GOLDTERMS:5377,Environmental > Aquatic > Marine > Mud volcano > Sediment,5,GOLDTERMS:4545,MIXS:Sediment,ENVO:01000254,ENVO:00000402,ENVO:00002007,,,,equivalent
+GOLDTERMS:4034,Environmental > Aquatic > Marine > Neritic zone,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000206,,,,,equivalent
+GOLDTERMS:4033,Environmental > Aquatic > Marine > Neritic zone > Oil-contaminated sediment,5,GOLDTERMS:4034,,ENVO:01000254,ENVO:00000206,,,,,subclass
+GOLDTERMS:4048,Environmental > Aquatic > Marine > Neritic zone > Sediment,5,GOLDTERMS:4034,MIXS:Sediment,ENVO:01000254,ENVO:00000206,ENVO:00002007,,,,equivalent
+GOLDTERMS:5389,Environmental > Aquatic > Marine > Ocean trench,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000275,,,,,equivalent
+GOLDTERMS:5390,Environmental > Aquatic > Marine > Ocean trench > Sediment,5,GOLDTERMS:5389,MIXS:Sediment,ENVO:01000254,ENVO:00000275,ENVO:00002007,,,,equivalent
+GOLDTERMS:4008,Environmental > Aquatic > Marine > Oceanic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000015,,,,,equivalent
+GOLDTERMS:4006,Environmental > Aquatic > Marine > Oceanic > Abyssal plane,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000244,,,,,equivalent
+GOLDTERMS:4010,Environmental > Aquatic > Marine > Oceanic > Aphotic zone,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000210,,,,,equivalent
+GOLDTERMS:4040,Environmental > Aquatic > Marine > Oceanic > Benthic,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:01000024,,,,,equivalent
+GOLDTERMS:4656,Environmental > Aquatic > Marine > Oceanic > Crustal Fluids,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000015,ENVO:03600082,,,,equivalent
+GOLDTERMS:4557,Environmental > Aquatic > Marine > Oceanic > Microbial mats,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000015,,,,ENVO:01000008,equivalent
+GOLDTERMS:4636,Environmental > Aquatic > Marine > Oceanic > Oceanic crust,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:01000749,,,,,equivalent
+GOLDTERMS:4011,Environmental > Aquatic > Marine > Oceanic > Oil-contaminated,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00002061,,,,,equivalent
+GOLDTERMS:4007,Environmental > Aquatic > Marine > Oceanic > Oil-contaminated sediment,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000015,,,,,subclass
+GOLDTERMS:4004,Environmental > Aquatic > Marine > Oceanic > Photic zone,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000209,,,,,equivalent
+GOLDTERMS:5378,Environmental > Aquatic > Marine > Oceanic > Plankton,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000015,ENVO:01000063,,,,equivalent
+GOLDTERMS:5738,Environmental > Aquatic > Marine > Oceanic > Rock,5,GOLDTERMS:4008,,ENVO:01000254,ENVO:00000015,ENVO:00001995,,,,equivalent
+GOLDTERMS:4009,Environmental > Aquatic > Marine > Oceanic > Sediment,5,GOLDTERMS:4008,MIXS:Sediment,ENVO:01000254,ENVO:00000015,ENVO:00002007,,,,equivalent
+GOLDTERMS:4026,Environmental > Aquatic > Marine > Oil seeps,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00002063,,,,,equivalent
+GOLDTERMS:4021,Environmental > Aquatic > Marine > Pelagic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000208,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-River-plume,Environmental > Aquatic > Marine > River plume,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,ENVO:03600070,equivalent
+GOLDTERMS:5367,Environmental > Aquatic > Marine > River plume > Plankton,5,GOLDTERMS:Environmental-Aquatic-Marine-River-plume,,ENVO:01000254,ENVO:00000447,ENVO:01000063,,,ENVO:03600070,equivalent
+GOLDTERMS:5384,Environmental > Aquatic > Marine > Sea ice,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,ENVO:00002200,,,,equivalent
+GOLDTERMS:5381,Environmental > Aquatic > Marine > Sea ice > Cryoconite,5,GOLDTERMS:5384,,ENVO:01000254,ENVO:00000447,ENVO:00002200,,,,subclass
+GOLDTERMS:5628,Environmental > Aquatic > Marine > Sea ice > Melt pond,5,GOLDTERMS:5384,,ENVO:01000254,ENVO:03000040,ENVO:00002200,,,,equivalent
+GOLDTERMS:4686,Environmental > Aquatic > Marine > Seaweed,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,FOODON:03412266,,,,equivalent
+GOLDTERMS:4564,Environmental > Aquatic > Marine > Sediment,4,GOLDTERMS:4003,MIXS:Sediment,ENVO:01000254,ENVO:00000447,ENVO:00002007,,,,equivalent
+GOLDTERMS:5722,Environmental > Aquatic > Marine > Shipwreck,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,ENVO:03600061,equivalent
+GOLDTERMS:4516,Environmental > Aquatic > Marine > Strait,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000394,,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Marine-Subtidal-zone,Environmental > Aquatic > Marine > Subtidal zone,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000447,,,,,subclass
+GOLDTERMS:4647,Environmental > Aquatic > Marine > Subtidal zone > Sediment,5,GOLDTERMS:Environmental-Aquatic-Marine-Subtidal-zone,MIXS:Sediment,ENVO:01000254,ENVO:00000447,ENVO:00002007,,,,subclass
+GOLDTERMS:4022,Environmental > Aquatic > Marine > Volcanic,4,GOLDTERMS:4003,,ENVO:01000254,ENVO:00000247,,,,,equivalent
+GOLDTERMS:4055,Environmental > Aquatic > Marine > Wetlands,4,GOLDTERMS:4003,,ENVO:01001209,ENVO:00000447,,,,,equivalent
+GOLDTERMS:4056,Environmental > Aquatic > Marine > Wetlands > Sediment,5,GOLDTERMS:4055,MIXS:Sediment,ENVO:01001209,ENVO:00000447,ENVO:00002007,,,,equivalent
+GOLDTERMS:3970,Environmental > Aquatic > Non-marine Saline and Alkaline,3,GOLDTERMS:3984,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3966,Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline,4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3969,Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Carbonate,5,GOLDTERMS:3966,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3967,Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Microbial mats,5,GOLDTERMS:3966,,ENVO:01000254,ENVO:00002030,,,,ENVO:01000008,subclass
+GOLDTERMS:5720,Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Mine pit pond,5,GOLDTERMS:3966,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3968,Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Sediment,5,GOLDTERMS:3966,MIXS:Sediment,ENVO:01000254,ENVO:00002030,ENVO:00002007,,,,subclass
+GOLDTERMS:4695,Environmental > Aquatic > Non-marine Saline and Alkaline > Fracking water,4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00002030,ENVO:01001869,,,,subclass
+GOLDTERMS:3978,Environmental > Aquatic > Non-marine Saline and Alkaline > Hypersaline,4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00002030,ENVO:00002012,,,,subclass
+GOLDTERMS:3979,Environmental > Aquatic > Non-marine Saline and Alkaline > Hypersaline > Microbial mats,5,GOLDTERMS:3978,,ENVO:01000254,ENVO:00002030,ENVO:00002012,,,ENVO:01000008,subclass
+GOLDTERMS:3980,Environmental > Aquatic > Non-marine Saline and Alkaline > Hypersaline > Sediment,5,GOLDTERMS:3978,MIXS:Sediment,ENVO:01000254,ENVO:00002030,ENVO:00002007,,,,subclass
+GOLDTERMS:5410,Environmental > Aquatic > Non-marine Saline and Alkaline > Lake,4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00000020,,,,,subclass
+GOLDTERMS:5372,Environmental > Aquatic > Non-marine Saline and Alkaline > Lake > Brine,5,GOLDTERMS:5410,,ENVO:01000254,ENVO:00000020,ENVO:00003044,,,,subclass
+GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29,Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C),4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3983,Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C) > Alkaline,5,GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3973,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline,4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3971,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Athalassic,5,GOLDTERMS:3973,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3977,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Epilimnion,5,GOLDTERMS:3973,,ENVO:01000254,ENVO:00002131,,,,,subclass
+GOLDTERMS:3972,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Hypolimnion,5,GOLDTERMS:3973,,ENVO:01000254,ENVO:00002130,,,,,subclass
+GOLDTERMS:3974,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Microbial mats,5,GOLDTERMS:3973,,ENVO:01000254,ENVO:00002030,,,,ENVO:01000008,subclass
+GOLDTERMS:3975,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Sediment,5,GOLDTERMS:3973,MIXS:Sediment,ENVO:01000254,ENVO:00002030,ENVO:00002007,,,,subclass
+GOLDTERMS:3976,Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Thalassic,5,GOLDTERMS:3973,,ENVO:01000254,ENVO:00002030,,,,ENVO:01001667,subclass
+GOLDTERMS:3981,Environmental > Aquatic > Non-marine Saline and Alkaline > Salt crystallizer ponds,4,GOLDTERMS:3970,,ENVO:01000254,ENVO:00002030,,,,,subclass
+GOLDTERMS:3982,Environmental > Aquatic > Non-marine Saline and Alkaline > Salt crystallizer ponds > Microbial mats,5,GOLDTERMS:3981,,ENVO:01000254,ENVO:00002030,,,,ENVO:01000008,subclass
+GOLDTERMS:5807,Environmental > Aquatic > Non-marine Saline and Alkaline > Salt crystallizer ponds > Saline water,5,GOLDTERMS:3981,,ENVO:01000254,ENVO:00002030,ENVO:00002010,,,,subclass
+GOLDTERMS:3985,Environmental > Aquatic > Sediment,3,GOLDTERMS:3984,MIXS:Sediment,ENVO:01000254,ENVO:00002030,ENVO:00002007,,,,equivalent
+GOLDTERMS:Environmental-Aquatic-Spring,Environmental > Aquatic > Spring,3,GOLDTERMS:3984,,ENVO:01000254,ENVO:00000027,,,,,equivalent
+GOLDTERMS:5437,Environmental > Aquatic > Spring > Sediment,4,GOLDTERMS:Environmental-Aquatic-Spring,MIXS:Sediment,ENVO:01000254,ENVO:00000027,ENVO:00002007,,,,equivalent
+GOLDTERMS:3991,Environmental > Aquatic > Thermal springs,3,GOLDTERMS:3984,,ENVO:01000254,ENVO:00000051,,,,,equivalent
+GOLDTERMS:3992,Environmental > Aquatic > Thermal springs > Hot (42-90C),4,GOLDTERMS:3991,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3995,Environmental > Aquatic > Thermal springs > Hot (42-90C) > Acidic,5,GOLDTERMS:3992,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3994,Environmental > Aquatic > Thermal springs > Hot (42-90C) > Alkaline,5,GOLDTERMS:3992,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:4655,Environmental > Aquatic > Thermal springs > Hot (42-90C) > Microbial mats,5,GOLDTERMS:3992,,ENVO:01000254,ENVO:00000051,,,,ENVO:01000008,subclass
+GOLDTERMS:3998,Environmental > Aquatic > Thermal springs > Hot (42-90C) > Neutral,5,GOLDTERMS:3992,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3997,Environmental > Aquatic > Thermal springs > Hot (42-90C) > Sediment,5,GOLDTERMS:3992,MIXS:Sediment,ENVO:01000254,ENVO:00000051,ENVO:00002007,,,,subclass
+GOLDTERMS:4818,Environmental > Aquatic > Thermal springs > Near-boiling (>90C),4,GOLDTERMS:3991,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3993,Environmental > Aquatic > Thermal springs > Near-boiling (>90C) > Alkaline,5,GOLDTERMS:4818,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3999,Environmental > Aquatic > Thermal springs > Sediment,4,GOLDTERMS:3991,MIXS:Sediment,ENVO:01000254,ENVO:00000051,ENVO:00002007,,,,equivalent
+GOLDTERMS:3989,Environmental > Aquatic > Thermal springs > Tepid (25-34C),4,GOLDTERMS:3991,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3990,Environmental > Aquatic > Thermal springs > Tepid (25-34C) > Sediment,5,GOLDTERMS:3989,MIXS:Sediment,ENVO:01000254,ENVO:00000051,ENVO:00002007,,,,subclass
+GOLDTERMS:3986,Environmental > Aquatic > Thermal springs > Warm (34-42C),4,GOLDTERMS:3991,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:4546,Environmental > Aquatic > Thermal springs > Warm (34-42C) > Acidic,5,GOLDTERMS:3986,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3987,Environmental > Aquatic > Thermal springs > Warm (34-42C) > Neutral,5,GOLDTERMS:3986,,ENVO:01000254,ENVO:00000051,,,,,subclass
+GOLDTERMS:3988,Environmental > Aquatic > Thermal springs > Warm (34-42C) > Sediment,5,GOLDTERMS:3986,MIXS:Sediment,ENVO:01000254,ENVO:00000051,ENVO:00002007,,,,subclass
+GOLDTERMS:4198,Environmental > Terrestrial,2,GOLDTERMS:3964,,ENVO:01000254,ENVO:00000446,,,,,equivalent
+GOLDTERMS:4199,Environmental > Terrestrial > Agricultural field,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000114,,,,,equivalent
+GOLDTERMS:4718,Environmental > Terrestrial > Asphalt lakes,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000165,,,,,equivalent
+GOLDTERMS:4195,Environmental > Terrestrial > Asphalt lakes > Tar,4,GOLDTERMS:4718,,ENVO:01000254,ENVO:00000165,ENVO:01000460,,,,equivalent
+GOLDTERMS:4491,Environmental > Terrestrial > Cave,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000067,,,,,equivalent
+GOLDTERMS:4822,Environmental > Terrestrial > Cave > Wall,4,GOLDTERMS:4491,,ENVO:01000254,ENVO:00002144,,,,,equivalent
+GOLDTERMS:4643,Environmental > Terrestrial > Cave > Wall > Biofilm,5,GOLDTERMS:4822,,ENVO:01000254,ENVO:00002144,,,,ENVO:00002034,equivalent
+GOLDTERMS:4245,Environmental > Terrestrial > Deep subsurface,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:4423,Environmental > Terrestrial > Deep subsurface > Aquifer,4,GOLDTERMS:4245,,ENVO:01000254,ENVO:00000446,,,,ENVO:00012408,subclass
+GOLDTERMS:4246,Environmental > Terrestrial > Deep subsurface > Clay,4,GOLDTERMS:4245,,ENVO:01000254,ENVO:00000446,ENVO:00002982,,,,subclass
+GOLDTERMS:4533,Environmental > Terrestrial > Deep subsurface > Fracking water,4,GOLDTERMS:4245,,ENVO:01000254,ENVO:00000446,ENVO:01001869,,,,subclass
+GOLDTERMS:5584,Environmental > Terrestrial > Deep subsurface > Fracking water > Shale carbon reservoir,5,GOLDTERMS:4533,,ENVO:01000254,ENVO:00000446,ENVO:02000119,,,,subclass
+GOLDTERMS:4605,Environmental > Terrestrial > Deep subsurface > Oil well,4,GOLDTERMS:4245,,ENVO:01000254,ENVO:01000003,,,,,subclass
+GOLDTERMS:5326,Environmental > Terrestrial > Deep subsurface > Rock,4,GOLDTERMS:4245,,ENVO:01000254,ENVO:00000446,ENVO:00001995,,,,subclass
+GOLDTERMS:4607,Environmental > Terrestrial > Deep subsurface > Water well,4,GOLDTERMS:4245,,ENVO:01000254,ENVO:01000002,,,,,subclass
+GOLDTERMS:5442,Environmental > Terrestrial > Desert,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:01001357,,,,,equivalent
+GOLDTERMS:Environmental-Terrestrial-Floodplain,Environmental > Terrestrial > Floodplain,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000255,,,,,equivalent
+GOLDTERMS:4668,Environmental > Terrestrial > Floodplain > Sediment,4,GOLDTERMS:Environmental-Terrestrial-Floodplain,MIXS:Sediment,ENVO:01000254,ENVO:00000255,ENVO:00002007,,,,equivalent
+GOLDTERMS:4716,Environmental > Terrestrial > Floodplain > Soil,4,GOLDTERMS:Environmental-Terrestrial-Floodplain,MIXS:Soil,ENVO:01000254,ENVO:00000255,ENVO:00001998,,,,equivalent
+GOLDTERMS:4192,Environmental > Terrestrial > Geologic,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:4193,Environmental > Terrestrial > Geologic > Mine,4,GOLDTERMS:4192,,ENVO:01000254,ENVO:00000076,,,,,subclass
+GOLDTERMS:Environmental-Terrestrial-Geologic-Mine-pit-pond,Environmental > Terrestrial > Geologic > Mine pit pond,4,GOLDTERMS:4192,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:5719,Environmental > Terrestrial > Geologic > Mine pit pond > Asbestos,5,GOLDTERMS:Environmental-Terrestrial-Geologic-Mine-pit-pond,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:5772,Environmental > Terrestrial > Geologic > Oil-contaminated sediment,4,GOLDTERMS:4192,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:4543,Environmental > Terrestrial > Geologic > Sediment,4,GOLDTERMS:4192,MIXS:Sediment,ENVO:01000254,ENVO:00000446,ENVO:00002007,,,,subclass
+GOLDTERMS:4689,Environmental > Terrestrial > Mud volcano,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000402,,,,,equivalent
+GOLDTERMS:Environmental-Terrestrial-Nest,Environmental > Terrestrial > Nest,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,,,,ENVO:00005803,equivalent
+GOLDTERMS:4841,Environmental > Terrestrial > Nest > Alligator nest,4,GOLDTERMS:Environmental-Terrestrial-Nest,,ENVO:01000254,ENVO:00000446,,,,ENVO:00005803,subclass
+GOLDTERMS:4194,Environmental > Terrestrial > Oil reservoir,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00002185,,,,,equivalent
+GOLDTERMS:5426,Environmental > Terrestrial > Oil reservoir > Oil,4,GOLDTERMS:4194,,ENVO:01000254,ENVO:00002185,ENVO:00002985,,,,equivalent
+GOLDTERMS:5428,Environmental > Terrestrial > Oil reservoir > Produced water,4,GOLDTERMS:4194,,ENVO:01000254,ENVO:00002185,,,,,subclass
+GOLDTERMS:5432,Environmental > Terrestrial > Oil reservoir > Sediment,4,GOLDTERMS:4194,MIXS:Sediment,ENVO:01000254,ENVO:00002185,ENVO:00002007,,,,equivalent
+GOLDTERMS:4553,Environmental > Terrestrial > Peat,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,ENVO:00005774,,,,equivalent
+GOLDTERMS:4541,Environmental > Terrestrial > Plant litter,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,ENVO:01000628,,,,equivalent
+GOLDTERMS:4650,Environmental > Terrestrial > Rock-dwelling (endoliths),3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:4201,Environmental > Terrestrial > Rock-dwelling (subaerial biofilms),3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000446,,,,,subclass
+GOLDTERMS:4212,Environmental > Terrestrial > Soil,3,GOLDTERMS:4198,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,,equivalent
+GOLDTERMS:Environmental-Terrestrial-Soil-Arable,Environmental > Terrestrial > Soil > Arable,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:01001177,ENVO:00005742,,,,equivalent
+GOLDTERMS:5768,Environmental > Terrestrial > Soil > Arable > Agricultural land,5,GOLDTERMS:Environmental-Terrestrial-Soil-Arable,MIXS:Soil,ENVO:00000077,ENVO:01001177,ENVO:00005742,,,,equivalent
+GOLDTERMS:Environmental-Terrestrial-Soil-Biochar,Environmental > Terrestrial > Soil > Biochar,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:2000007,,,,equivalent
+GOLDTERMS:5776,Environmental > Terrestrial > Soil > Biochar > Agricultural land,5,GOLDTERMS:Environmental-Terrestrial-Soil-Biochar,MIXS:Soil,ENVO:00000077,ENVO:00000446,ENVO:2000007,,,,equivalent
+GOLDTERMS:4711,Environmental > Terrestrial > Soil > Biocrust,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:01000910,ENVO:00001998,,,ENVO:01000909,equivalent
+GOLDTERMS:5434,Environmental > Terrestrial > Soil > Biofilm,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,ENVO:00002034,equivalent
+GOLDTERMS:5780,Environmental > Terrestrial > Soil > Bulk soil,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00005802,,,,equivalent
+GOLDTERMS:5424,Environmental > Terrestrial > Soil > Bulk soil > Agricultural land,5,GOLDTERMS:5780,MIXS:Soil,ENVO:00000077,ENVO:00000446,ENVO:00005802,,,,equivalent
+GOLDTERMS:5725,Environmental > Terrestrial > Soil > Bulk soil > Contaminated,5,GOLDTERMS:5780,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00005802,,,,subclass
+GOLDTERMS:5585,Environmental > Terrestrial > Soil > Bulk soil > Meadow,5,GOLDTERMS:5780,MIXS:Soil,ENVO:01000254,ENVO:00000108,ENVO:00005802,,,,equivalent
+GOLDTERMS:5823,Environmental > Terrestrial > Soil > Bulk soil > Plant pot,5,GOLDTERMS:5780,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00005802,,,ENVO:03600045,equivalent
+GOLDTERMS:4229,Environmental > Terrestrial > Soil > Clay,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002982,,,,equivalent
+GOLDTERMS:4230,Environmental > Terrestrial > Soil > Clay > Agricultural land,5,GOLDTERMS:4229,MIXS:Soil,ENVO:00000077,ENVO:00000446,ENVO:00002982,,,,equivalent
+GOLDTERMS:4231,Environmental > Terrestrial > Soil > Clay > Contaminated,5,GOLDTERMS:4229,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002982,,,,subclass
+GOLDTERMS:4228,Environmental > Terrestrial > Soil > Clay > Grasslands,5,GOLDTERMS:4229,MIXS:Soil,ENVO:01000254,ENVO:01000177,ENVO:00002982,,,,equivalent
+GOLDTERMS:4232,Environmental > Terrestrial > Soil > Clay > Oil-contaminated,5,GOLDTERMS:4229,MIXS:Soil,ENVO:01000254,ENVO:00002061,ENVO:00002982,,,,equivalent
+GOLDTERMS:5610,Environmental > Terrestrial > Soil > Floodplain,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000255,ENVO:00001998,,,,equivalent
+GOLDTERMS:4418,Environmental > Terrestrial > Soil > Fossil,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,,subclass
+GOLDTERMS:5774,Environmental > Terrestrial > Soil > Garden,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000011,ENVO:00001998,,,,equivalent
+GOLDTERMS:4745,Environmental > Terrestrial > Soil > Glacier,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,ENVO:00000133,equivalent
+GOLDTERMS:5777,Environmental > Terrestrial > Soil > Greenhouse,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:03600087,ENVO:00001998,,,,equivalent
+GOLDTERMS:5770,Environmental > Terrestrial > Soil > Greenhouse > Agricultural land,5,GOLDTERMS:5777,MIXS:Soil,ENVO:00000077,ENVO:03600087,ENVO:00001998,,,,equivalent
+GOLDTERMS:4241,Environmental > Terrestrial > Soil > Loam,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002258,,,,equivalent
+GOLDTERMS:4237,Environmental > Terrestrial > Soil > Loam > Agricultural,5,GOLDTERMS:4241,MIXS:Agriculture,ENVO:00000077,ENVO:00000446,ENVO:00002258,,,,equivalent
+GOLDTERMS:4242,Environmental > Terrestrial > Soil > Loam > Agricultural land,5,GOLDTERMS:4241,MIXS:Soil,ENVO:00000077,ENVO:00000446,ENVO:00002258,,,,equivalent
+GOLDTERMS:4244,Environmental > Terrestrial > Soil > Loam > Agricultural soil,5,GOLDTERMS:4241,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002259,,,,equivalent
+GOLDTERMS:4243,Environmental > Terrestrial > Soil > Loam > Contaminated,5,GOLDTERMS:4241,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002258,,,,subclass
+GOLDTERMS:4239,Environmental > Terrestrial > Soil > Loam > Forest soil,5,GOLDTERMS:4241,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002261,,,,equivalent
+GOLDTERMS:4238,Environmental > Terrestrial > Soil > Loam > Grasslands,5,GOLDTERMS:4241,MIXS:Soil,ENVO:01000254,ENVO:01000177,ENVO:00002258,,,,equivalent
+GOLDTERMS:5800,Environmental > Terrestrial > Soil > Mangrove soil,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:02000138,,,,equivalent
+GOLDTERMS:5754,Environmental > Terrestrial > Soil > Manure-fertilized,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,,subclass
+GOLDTERMS:Environmental-Terrestrial-Soil-Mineral-horizon,Environmental > Terrestrial > Soil > Mineral horizon,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,ENVO:03600011,equivalent
+GOLDTERMS:5589,Environmental > Terrestrial > Soil > Mineral horizon > Forest soil,5,GOLDTERMS:Environmental-Terrestrial-Soil-Mineral-horizon,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002261,,,ENVO:03600011,equivalent
+GOLDTERMS:Environmental-Terrestrial-Soil-Nature-reserve,Environmental > Terrestrial > Soil > Nature reserve,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,ENVO:00000363,equivalent
+GOLDTERMS:5617,Environmental > Terrestrial > Soil > Nature reserve > Meadow,5,GOLDTERMS:Environmental-Terrestrial-Soil-Nature-reserve,MIXS:Soil,ENVO:01000254,ENVO:00000108,ENVO:00001998,,,ENVO:00000363,equivalent
+GOLDTERMS:5822,Environmental > Terrestrial > Soil > Organic layer,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,ENVO:03600018,equivalent
+GOLDTERMS:5587,Environmental > Terrestrial > Soil > Organic layer > Forest soil,5,GOLDTERMS:5822,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002261,,,ENVO:03600018,equivalent
+GOLDTERMS:5613,Environmental > Terrestrial > Soil > Paddy field/soil,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,,subclass
+GOLDTERMS:5612,Environmental > Terrestrial > Soil > Paddy field/soil > Contaminated,5,GOLDTERMS:5613,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,,subclass
+GOLDTERMS:Environmental-Terrestrial-Soil-Pasture,Environmental > Terrestrial > Soil > Pasture,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000266,ENVO:00005773,,,,equivalent
+GOLDTERMS:5729,Environmental > Terrestrial > Soil > Pasture > Agricultural land,5,GOLDTERMS:Environmental-Terrestrial-Soil-Pasture,MIXS:Soil,ENVO:00000077,ENVO:00000266,ENVO:00005773,,,,equivalent
+GOLDTERMS:5803,Environmental > Terrestrial > Soil > Peat,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00005774,,,,equivalent
+GOLDTERMS:5621,Environmental > Terrestrial > Soil > Peat > Bog,5,GOLDTERMS:5803,MIXS:Soil,ENVO:01001209,ENVO:00000446,ENVO:00005774,,,,equivalent
+GOLDTERMS:5804,Environmental > Terrestrial > Soil > Peat > Fen,5,GOLDTERMS:5803,MIXS:Soil,ENVO:00000232,ENVO:00000446,ENVO:00005774,,,,equivalent
+GOLDTERMS:5817,Environmental > Terrestrial > Soil > Peat > Forest,5,GOLDTERMS:5803,MIXS:Soil,ENVO:01000254,ENVO:01001243,ENVO:00005774,,,,equivalent
+GOLDTERMS:5809,Environmental > Terrestrial > Soil > Peat > Mire,5,GOLDTERMS:5803,MIXS:Soil,ENVO:01001209,ENVO:00000446,ENVO:00005774,,,,equivalent
+GOLDTERMS:5816,Environmental > Terrestrial > Soil > Peat > Palsa,5,GOLDTERMS:5803,MIXS:Soil,ENVO:01000254,ENVO:00000489,ENVO:00005774,,,,equivalent
+GOLDTERMS:5808,Environmental > Terrestrial > Soil > Peat > Permafrost,5,GOLDTERMS:5803,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00000134,,,,equivalent
+GOLDTERMS:5818,Environmental > Terrestrial > Soil > Peat > Thermokarst pond,5,GOLDTERMS:5803,MIXS:Soil,ENVO:01000254,ENVO:03000085,ENVO:00005774,,,,equivalent
+GOLDTERMS:5779,Environmental > Terrestrial > Soil > Potting soil,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:03000133,,,,equivalent
+GOLDTERMS:Environmental-Terrestrial-Soil-Ranch,Environmental > Terrestrial > Soil > Ranch,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:01001207,ENVO:00001998,,,,equivalent
+GOLDTERMS:5727,Environmental > Terrestrial > Soil > Ranch > Agricultural land,5,GOLDTERMS:Environmental-Terrestrial-Soil-Ranch,MIXS:Soil,ENVO:00000077,ENVO:01001207,ENVO:00001998,,,,equivalent
+GOLDTERMS:4203,Environmental > Terrestrial > Soil > Sand,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:01000017,,,,equivalent
+GOLDTERMS:4202,Environmental > Terrestrial > Soil > Sand > Desert,5,GOLDTERMS:4203,MIXS:Soil,ENVO:01000254,ENVO:01001357,ENVO:00005800,,,,equivalent
+GOLDTERMS:4224,Environmental > Terrestrial > Soil > Sand > Forest soil,5,GOLDTERMS:4203,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002261,,,,equivalent
+GOLDTERMS:4223,Environmental > Terrestrial > Soil > Sand > Grasslands,5,GOLDTERMS:4203,MIXS:Soil,ENVO:01000254,ENVO:01000177,ENVO:01000017,,,,equivalent
+GOLDTERMS:4204,Environmental > Terrestrial > Soil > Sand > Oil-contaminated,5,GOLDTERMS:4203,MIXS:Soil,ENVO:01000254,ENVO:00002061,ENVO:01000017,,,,equivalent
+GOLDTERMS:4227,Environmental > Terrestrial > Soil > Silt,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:01000016,,,,equivalent
+GOLDTERMS:4578,Environmental > Terrestrial > Soil > Soil crust,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,,subclass
+GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,Environmental > Terrestrial > Soil > Unclassified,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4213,Environmental > Terrestrial > Soil > Unclassified > Agricultural land,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:00000077,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:5439,Environmental > Terrestrial > Soil > Unclassified > Alpine,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:01001835,ENVO:00005741,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4217,Environmental > Terrestrial > Soil > Unclassified > Boreal forest,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:01000250,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4215,Environmental > Terrestrial > Soil > Unclassified > Contaminated,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,subclass
+GOLDTERMS:5792,Environmental > Terrestrial > Soil > Unclassified > Creek,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000023,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4210,Environmental > Terrestrial > Soil > Unclassified > Desert,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:01001357,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:5438,Environmental > Terrestrial > Soil > Unclassified > Farm,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:00000078,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4205,Environmental > Terrestrial > Soil > Unclassified > Forest Soil,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00002261,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4209,Environmental > Terrestrial > Soil > Unclassified > Grasslands,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:01000177,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:5420,Environmental > Terrestrial > Soil > Unclassified > Meadow,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000108,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4218,Environmental > Terrestrial > Soil > Unclassified > Mine,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000076,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4221,Environmental > Terrestrial > Soil > Unclassified > Mine drainage,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00001996,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4220,Environmental > Terrestrial > Soil > Unclassified > Oil-contaminated,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00002061,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:5414,Environmental > Terrestrial > Soil > Unclassified > Orchard soil,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00005772,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4206,Environmental > Terrestrial > Soil > Unclassified > Permafrost,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00000134,NCBITaxon:12908,,,equivalent
+GOLDTERMS:5244,Environmental > Terrestrial > Soil > Unclassified > Riparian soil,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,subclass
+GOLDTERMS:5421,Environmental > Terrestrial > Soil > Unclassified > River,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000022,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4214,Environmental > Terrestrial > Soil > Unclassified > Shrubland,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000300,ENVO:00001998,NCBITaxon:12908,,,equivalent
+GOLDTERMS:4216,Environmental > Terrestrial > Soil > Unclassified > Tropical rainforest,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,subclass
+GOLDTERMS:4211,Environmental > Terrestrial > Soil > Unclassified > Uranium contaminated,5,GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,NCBITaxon:12908,,,subclass
+GOLDTERMS:5820,Environmental > Terrestrial > Soil > Vadose zone,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:00001998,,,ENVO:00000328,equivalent
+GOLDTERMS:5821,Environmental > Terrestrial > Soil > Vadose zone > Saprolite,5,GOLDTERMS:5820,MIXS:Soil,ENVO:01000254,ENVO:00000446,ENVO:03600016,,,ENVO:00000328,equivalent
+GOLDTERMS:5615,Environmental > Terrestrial > Soil > Watershed,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01000254,ENVO:00000292,ENVO:00001998,,,,equivalent
+GOLDTERMS:4235,Environmental > Terrestrial > Soil > Wetlands,4,GOLDTERMS:4212,MIXS:Soil,ENVO:01001209,ENVO:00000446,ENVO:00001998,,,,equivalent
+GOLDTERMS:4234,Environmental > Terrestrial > Soil > Wetlands > Permafrost,5,GOLDTERMS:4235,MIXS:Soil,ENVO:01001209,ENVO:00000446,ENVO:00000134,,,,equivalent
+GOLDTERMS:4197,Environmental > Terrestrial > Volcanic,3,GOLDTERMS:4198,,ENVO:01000254,ENVO:00000247,,,,,equivalent
+GOLDTERMS:4196,Environmental > Terrestrial > Volcanic > Fumaroles,4,GOLDTERMS:4197,,ENVO:01000254,ENVO:00000216,,,,,equivalent
+GOLDTERMS:4086,Host-associated,1,,MIXS:HostAssociated,,,,,,,equivalent
+GOLDTERMS:3957,Host-associated > Algae,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:96475,,,equivalent
+GOLDTERMS:5815,Host-associated > Algae > Biocrust,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:96475,,ENVO:01000909,equivalent
+GOLDTERMS:3960,Host-associated > Algae > Brown Algae,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03412395,NCBITaxon:2870,,,equivalent
+GOLDTERMS:4675,Host-associated > Algae > Diatoms,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:2836,,,equivalent
+GOLDTERMS:4835,Host-associated > Algae > Golden Algae,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:2825,,,equivalent
+GOLDTERMS:4760,Host-associated > Algae > Green algae,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03412502,NCBITaxon:3041,,,equivalent
+GOLDTERMS:3956,Host-associated > Algae > Green algae > Ectosymbionts,4,GOLDTERMS:4760,MIXS:HostAssociated,,,FOODON:03412502,NCBITaxon:3041,,,subclass
+GOLDTERMS:4678,Host-associated > Algae > Haptophytes,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:2830,,,equivalent
+GOLDTERMS:4815,Host-associated > Algae > Microalgae,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:96475,,,subclass
+GOLDTERMS:3959,Host-associated > Algae > Red algae,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411743,NCBITaxon:2763,,,equivalent
+GOLDTERMS:3958,Host-associated > Algae > Red algae > Ectosymbionts,4,GOLDTERMS:3959,MIXS:HostAssociated,,,FOODON:03411743,NCBITaxon:2763,,,subclass
+GOLDTERMS:4829,Host-associated > Algae > Yellow-green algae,3,GOLDTERMS:3957,MIXS:HostAssociated,,,FOODON:03411301,NCBITaxon:2833,,,equivalent
+GOLDTERMS:Host-associated-Amoebozoa,Host-associated > Amoebozoa,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:554915,,,equivalent
+GOLDTERMS:5293,Host-associated > Amoebozoa > Pessonella,3,GOLDTERMS:Host-associated-Amoebozoa,MIXS:HostAssociated,,,,NCBITaxon:554915,,,subclass
+GOLDTERMS:4084,Host-associated > Amphibia,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:8292,,,equivalent
+GOLDTERMS:4083,Host-associated > Amphibia > Digestive system,3,GOLDTERMS:4084,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:0001007,,equivalent
+GOLDTERMS:5167,Host-associated > Amphibia > Digestive system > Intestine,4,GOLDTERMS:4083,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:0000160,,equivalent
+GOLDTERMS:4085,Host-associated > Amphibia > Excretory system,3,GOLDTERMS:4084,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:8450002,,equivalent
+GOLDTERMS:5148,Host-associated > Amphibia > Excretory system > Kidney,4,GOLDTERMS:4085,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:0002113,,equivalent
+GOLDTERMS:5165,Host-associated > Amphibia > Excretory system > Liver,4,GOLDTERMS:4085,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:0002107,,equivalent
+GOLDTERMS:Host-associated-Amphibia-Respiratory-system,Host-associated > Amphibia > Respiratory system,3,GOLDTERMS:4084,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:0001004,,equivalent
+GOLDTERMS:5170,Host-associated > Amphibia > Respiratory system > Lung,4,GOLDTERMS:Host-associated-Amphibia-Respiratory-system,MIXS:HostAssociated,,,,NCBITaxon:8292,UBERON:0002048,,equivalent
+GOLDTERMS:4331,Host-associated > Annelida,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:6340,,,equivalent
+GOLDTERMS:4330,Host-associated > Annelida > Digestive system,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0001007,,equivalent
+GOLDTERMS:5070,Host-associated > Annelida > Digestive system > Crop,4,GOLDTERMS:4330,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0007356,,equivalent
+GOLDTERMS:4767,Host-associated > Annelida > Digestive system > Digestive tube,4,GOLDTERMS:4330,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0001555,,equivalent
+GOLDTERMS:4329,Host-associated > Annelida > Digestive system > Digestive tube > Extracellular symbionts,5,GOLDTERMS:4767,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0001555,,subclass
+GOLDTERMS:Host-associated-Annelida-Excretory-system,Host-associated > Annelida > Excretory system,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:8450002,,equivalent
+GOLDTERMS:5195,Host-associated > Annelida > Excretory system > Nephridia,4,GOLDTERMS:Host-associated-Annelida-Excretory-system,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:8450002,,subclass
+GOLDTERMS:4821,Host-associated > Annelida > Gills,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0002535,,equivalent
+GOLDTERMS:4336,Host-associated > Annelida > Integument,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0002199,,equivalent
+GOLDTERMS:4768,Host-associated > Annelida > Integument > Cuticle,4,GOLDTERMS:4336,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0001002,,equivalent
+GOLDTERMS:4337,Host-associated > Annelida > Integument > Cuticle > Epibionts,5,GOLDTERMS:4768,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0001002,,subclass
+GOLDTERMS:4769,Host-associated > Annelida > Integument > Subcuticular space,4,GOLDTERMS:4336,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0002199,,subclass
+GOLDTERMS:4335,Host-associated > Annelida > Integument > Subcuticular space > Extracellular symbionts,5,GOLDTERMS:4769,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0002199,,subclass
+GOLDTERMS:Host-associated-Annelida-Intracellular-endosymbionts,Host-associated > Annelida > Intracellular endosymbionts,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,,,subclass
+GOLDTERMS:4334,Host-associated > Annelida > Intracellular endosymbionts > Trophosome,4,GOLDTERMS:Host-associated-Annelida-Intracellular-endosymbionts,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0012644,ENVO:01000165,subclass
+GOLDTERMS:4771,Host-associated > Annelida > Reproductive system,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0000990,,equivalent
+GOLDTERMS:4333,Host-associated > Annelida > Reproductive system > Egg capsule,4,GOLDTERMS:4771,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:3010636,,equivalent
+GOLDTERMS:4332,Host-associated > Annelida > Reproductive system > Egg capsule > Extracellular,5,GOLDTERMS:4333,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:3010636,,subclass
+GOLDTERMS:5115,Host-associated > Annelida > Tissue,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0000479,,equivalent
+GOLDTERMS:4531,Host-associated > Annelida > Whole body,3,GOLDTERMS:4331,MIXS:HostAssociated,,,,NCBITaxon:6340,UBERON:0000468,,equivalent
+GOLDTERMS:3901,Host-associated > Arthropoda,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:6656,,,equivalent
+GOLDTERMS:4904,Host-associated > Arthropoda > Ant,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:36668,,,equivalent
+GOLDTERMS:5208,Host-associated > Arthropoda > Ant > Cuticle,4,GOLDTERMS:4904,MIXS:HostAssociated,,,,NCBITaxon:36668,UBERON:0001002,,equivalent
+GOLDTERMS:4556,Host-associated > Arthropoda > Ant dump,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:5299,Host-associated > Arthropoda > Aphids,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:33380,,,equivalent
+GOLDTERMS:Host-associated-Arthropoda-Bee,Host-associated > Arthropoda > Bee,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:34735,,,equivalent
+GOLDTERMS:4838,Host-associated > Arthropoda > Bee > Abdomen,4,GOLDTERMS:Host-associated-Arthropoda-Bee,MIXS:HostAssociated,,,,NCBITaxon:34735,UBERON:0000916,,equivalent
+GOLDTERMS:Host-associated-Arthropoda-Bee-Beehive,Host-associated > Arthropoda > Bee > Beehive,4,GOLDTERMS:Host-associated-Arthropoda-Bee,MIXS:HostAssociated,,,,NCBITaxon:34735,,,subclass
+GOLDTERMS:4880,Host-associated > Arthropoda > Bee > Beehive > Honey,5,GOLDTERMS:Host-associated-Arthropoda-Bee-Beehive,MIXS:HostAssociated,,,,NCBITaxon:34735,UBERON:0036016,,subclass
+GOLDTERMS:4882,Host-associated > Arthropoda > Bee > Royal jelly,4,GOLDTERMS:Host-associated-Arthropoda-Bee,MIXS:HostAssociated,,,FOODON:03301033,NCBITaxon:34735,,,equivalent
+GOLDTERMS:4603,Host-associated > Arthropoda > Beetle,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:03414645,NCBITaxon:7041,,,equivalent
+GOLDTERMS:5205,Host-associated > Arthropoda > Bugs,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:7524,,,equivalent
+GOLDTERMS:5229,Host-associated > Arthropoda > Butterfly,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4773,Host-associated > Arthropoda > Crustacea,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6657,,,equivalent
+GOLDTERMS:4774,Host-associated > Arthropoda > Crustacea > Copepoda,4,GOLDTERMS:4773,MIXS:HostAssociated,,,,NCBITaxon:6830,,,equivalent
+GOLDTERMS:4681,Host-associated > Arthropoda > Crustacea > Copepoda > Tissue,5,GOLDTERMS:4774,MIXS:HostAssociated,,,,NCBITaxon:6830,UBERON:0000479,,equivalent
+GOLDTERMS:4065,Host-associated > Arthropoda > Digestive system,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001007,,equivalent
+GOLDTERMS:4069,Host-associated > Arthropoda > Digestive system > Foregut,4,GOLDTERMS:4065,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001041,,equivalent
+GOLDTERMS:4072,Host-associated > Arthropoda > Digestive system > Gut,4,GOLDTERMS:4065,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001555,,equivalent
+GOLDTERMS:4070,Host-associated > Arthropoda > Digestive system > Gut > P3 segment,5,GOLDTERMS:4072,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001555,,subclass
+GOLDTERMS:4071,Host-associated > Arthropoda > Digestive system > Gut > Proctodeal segment,5,GOLDTERMS:4072,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001555,,subclass
+GOLDTERMS:4067,Host-associated > Arthropoda > Digestive system > Hindgut,4,GOLDTERMS:4065,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001046,,equivalent
+GOLDTERMS:4955,Host-associated > Arthropoda > Digestive system > Hindgut > Fecal,5,GOLDTERMS:4067,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001046,,subclass
+GOLDTERMS:4068,Host-associated > Arthropoda > Digestive system > Hindgut > P1 segment,5,GOLDTERMS:4067,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001046,,subclass
+GOLDTERMS:4066,Host-associated > Arthropoda > Digestive system > Hindgut > P3 segment,5,GOLDTERMS:4067,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001046,,subclass
+GOLDTERMS:4064,Host-associated > Arthropoda > Digestive system > Midgut,4,GOLDTERMS:4065,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001045,,equivalent
+GOLDTERMS:5419,Host-associated > Arthropoda > Fly,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:00002717,NCBITaxon:6656,,,equivalent
+GOLDTERMS:5108,Host-associated > Arthropoda > Grasshopper,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:03412496,NCBITaxon:7001,,,equivalent
+GOLDTERMS:5631,Host-associated > Arthropoda > Insecta,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:03411220,NCBITaxon:50557,,,equivalent
+GOLDTERMS:4776,Host-associated > Arthropoda > Integument,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0002199,,equivalent
+GOLDTERMS:4082,Host-associated > Arthropoda > Integument > Cuticle,4,GOLDTERMS:4776,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001002,,equivalent
+GOLDTERMS:4081,Host-associated > Arthropoda > Integument > Cuticle > Thoracic segments,5,GOLDTERMS:4082,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001002,,subclass
+GOLDTERMS:4078,Host-associated > Arthropoda > Intracellular endosymbionts,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4777,Host-associated > Arthropoda > Intracellular endosymbionts > Primary,4,GOLDTERMS:4078,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4077,Host-associated > Arthropoda > Intracellular endosymbionts > Primary > Bacteriomes,5,GOLDTERMS:4777,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4079,Host-associated > Arthropoda > Intracellular endosymbionts > Secondary,4,GOLDTERMS:4078,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:5202,Host-associated > Arthropoda > Lobster,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:00002468,NCBITaxon:6656,,,equivalent
+GOLDTERMS:5118,Host-associated > Arthropoda > Mealybug,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:30190,,,equivalent
+GOLDTERMS:5280,Host-associated > Arthropoda > Mites/Ticks,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4590,Host-associated > Arthropoda > Mosquito,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:7157,,,equivalent
+GOLDTERMS:5093,Host-associated > Arthropoda > Mosquito > Gut,4,GOLDTERMS:4590,MIXS:HostAssociated,,,,NCBITaxon:7157,UBERON:0001555,,equivalent
+GOLDTERMS:5105,Host-associated > Arthropoda > Moth,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:03414644,NCBITaxon:7088,,,equivalent
+GOLDTERMS:Host-associated-Arthropoda-Oral-fluid,Host-associated > Arthropoda > Oral fluid,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:Host-associated-Arthropoda-Oral-fluid-Unclassified,Host-associated > Arthropoda > Oral fluid > Unclassified,4,GOLDTERMS:Host-associated-Arthropoda-Oral-fluid,MIXS:HostAssociated,,,,NCBITaxon:12908,,,subclass
+GOLDTERMS:4624,Host-associated > Arthropoda > Oral fluid > Unclassified > Pollen,5,GOLDTERMS:Host-associated-Arthropoda-Oral-fluid-Unclassified,MIXS:HostAssociated,,,,NCBITaxon:12908,PO:0025281,,subclass
+GOLDTERMS:4779,Host-associated > Arthropoda > Reproductive system,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0000990,,equivalent
+GOLDTERMS:4429,Host-associated > Arthropoda > Reproductive system > Ovaries,4,GOLDTERMS:4779,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0000992,,equivalent
+GOLDTERMS:4781,Host-associated > Arthropoda > Respiratory system,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0001004,,equivalent
+GOLDTERMS:4080,Host-associated > Arthropoda > Respiratory system > Gills,4,GOLDTERMS:4781,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0002535,,equivalent
+GOLDTERMS:5400,Host-associated > Arthropoda > Shrimp,3,GOLDTERMS:3901,MIXS:HostAssociated,,,FOODON:03411237,NCBITaxon:6656,,,equivalent
+GOLDTERMS:5220,Host-associated > Arthropoda > Shrimp > Hepatopancreas,4,GOLDTERMS:5400,MIXS:HostAssociated,,,FOODON:03411237,NCBITaxon:6656,UBERON:0010264,,equivalent
+GOLDTERMS:5146,Host-associated > Arthropoda > Spider,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6893,,,equivalent
+GOLDTERMS:4073,Host-associated > Arthropoda > Symbiotic fungal gardens and galleries,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4076,Host-associated > Arthropoda > Symbiotic fungal gardens and galleries > Fungus gallery,4,GOLDTERMS:4073,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4074,Host-associated > Arthropoda > Symbiotic fungal gardens and galleries > Fungus garden,4,GOLDTERMS:4073,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4075,Host-associated > Arthropoda > Symbiotic fungal gardens and galleries > Fungus garden > Garden dump,5,GOLDTERMS:4074,MIXS:HostAssociated,,,,NCBITaxon:6656,,,subclass
+GOLDTERMS:4457,Host-associated > Arthropoda > Tissue,3,GOLDTERMS:3901,MIXS:HostAssociated,,,,NCBITaxon:6656,UBERON:0000479,,equivalent
+GOLDTERMS:4154,Host-associated > Birds,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:8782,,,equivalent
+GOLDTERMS:4786,Host-associated > Birds > Circulatory system,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001009,,equivalent
+GOLDTERMS:4153,Host-associated > Birds > Circulatory system > Blood,4,GOLDTERMS:4786,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000178,,equivalent
+GOLDTERMS:4150,Host-associated > Birds > Digestive system,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001007,,equivalent
+GOLDTERMS:4147,Host-associated > Birds > Digestive system > Ceca,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001153,,equivalent
+GOLDTERMS:4148,Host-associated > Birds > Digestive system > Ceca > Lumen,5,GOLDTERMS:4147,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000464,,equivalent
+GOLDTERMS:4641,Host-associated > Birds > Digestive system > Cloaca,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:547,UBERON:0000162,,equivalent
+GOLDTERMS:4782,Host-associated > Birds > Digestive system > Crop,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0007356,,equivalent
+GOLDTERMS:4151,Host-associated > Birds > Digestive system > Crop > Lumen,5,GOLDTERMS:4782,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000464,,equivalent
+GOLDTERMS:4783,Host-associated > Birds > Digestive system > Digestive tube,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001555,,equivalent
+GOLDTERMS:4149,Host-associated > Birds > Digestive system > Digestive tube > Cecum,5,GOLDTERMS:4783,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001153,,equivalent
+GOLDTERMS:4146,Host-associated > Birds > Digestive system > Fecal,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001007,,subclass
+GOLDTERMS:5066,Host-associated > Birds > Digestive system > Intestine,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000160,,equivalent
+GOLDTERMS:Host-associated-Birds-Digestive-system-Large-intestine,Host-associated > Birds > Digestive system > Large intestine,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000059,,equivalent
+GOLDTERMS:4957,Host-associated > Birds > Digestive system > Large intestine > Fecal,5,GOLDTERMS:Host-associated-Birds-Digestive-system-Large-intestine,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000059,,subclass
+GOLDTERMS:4784,Host-associated > Birds > Digestive system > Small intestine,4,GOLDTERMS:4150,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0002108,,equivalent
+GOLDTERMS:4152,Host-associated > Birds > Digestive system > Small intestine > Duodenal,5,GOLDTERMS:4784,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0002108,,subclass
+GOLDTERMS:Host-associated-Birds-Excretory-system,Host-associated > Birds > Excretory system,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:8450002,,equivalent
+GOLDTERMS:5235,Host-associated > Birds > Excretory system > Liver,4,GOLDTERMS:Host-associated-Birds-Excretory-system,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0002107,,equivalent
+GOLDTERMS:Host-associated-Birds-Lymphatic-system,Host-associated > Birds > Lymphatic system,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0006558,,equivalent
+GOLDTERMS:5135,Host-associated > Birds > Lymphatic system > Spleen,4,GOLDTERMS:Host-associated-Birds-Lymphatic-system,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0002106,,equivalent
+GOLDTERMS:4157,Host-associated > Birds > Reproductive system,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000990,,equivalent
+GOLDTERMS:4155,Host-associated > Birds > Respiratory system,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0001004,,equivalent
+GOLDTERMS:4876,Host-associated > Birds > Respiratory system > Lung,4,GOLDTERMS:4155,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0002048,,equivalent
+GOLDTERMS:4447,Host-associated > Birds > Skin,3,GOLDTERMS:4154,MIXS:HostAssociated,,,,NCBITaxon:8782,UBERON:0000014,,equivalent
+GOLDTERMS:5173,Host-associated > Cephalochordata,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:7735,,,equivalent
+GOLDTERMS:Host-associated-Cephalochordata-Digestive-system,Host-associated > Cephalochordata > Digestive system,3,GOLDTERMS:5173,MIXS:HostAssociated,,,,NCBITaxon:7735,UBERON:0001007,,equivalent
+GOLDTERMS:Host-associated-Cephalochordata-Digestive-system-Intestine,Host-associated > Cephalochordata > Digestive system > Intestine,4,GOLDTERMS:Host-associated-Cephalochordata-Digestive-system,MIXS:HostAssociated,,,,NCBITaxon:7735,UBERON:0000160,,equivalent
+GOLDTERMS:4963,Host-associated > Cephalochordata > Digestive system > Intestine > Fecal,5,GOLDTERMS:Host-associated-Cephalochordata-Digestive-system-Intestine,MIXS:HostAssociated,,,,NCBITaxon:7735,UBERON:0000160,,subclass
+GOLDTERMS:5156,Host-associated > Chordata,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:7711,,,equivalent
+GOLDTERMS:5281,Host-associated > Cnidaria,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:6073,,,equivalent
+GOLDTERMS:5289,Host-associated > Echinodermata,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03412115,NCBITaxon:7586,,,equivalent
+GOLDTERMS:4751,Host-associated > Endosymbionts,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:4732,Host-associated > Endosymbionts > Bacteria,3,GOLDTERMS:4751,MIXS:HostAssociated,,,,NCBITaxon:2,,,subclass
+GOLDTERMS:4734,Host-associated > Endosymbionts > Fungi,3,GOLDTERMS:4751,MIXS:HostAssociated,,,FOODON:03411261,NCBITaxon:4751,,,subclass
+GOLDTERMS:4095,Host-associated > Fish,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03411222,,,,equivalent
+GOLDTERMS:Host-associated-Fish-Abdomen,Host-associated > Fish > Abdomen,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000916,,equivalent
+GOLDTERMS:5054,Host-associated > Fish > Abdomen > Ascites,4,GOLDTERMS:Host-associated-Fish-Abdomen,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000916,,subclass
+GOLDTERMS:4788,Host-associated > Fish > Circulatory system,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0001009,,equivalent
+GOLDTERMS:3902,Host-associated > Fish > Circulatory system > Blood,4,GOLDTERMS:4788,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000178,,equivalent
+GOLDTERMS:4090,Host-associated > Fish > Digestive system,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0001007,,equivalent
+GOLDTERMS:4789,Host-associated > Fish > Digestive system > Foregut,4,GOLDTERMS:4090,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0001041,,equivalent
+GOLDTERMS:4092,Host-associated > Fish > Digestive system > Intestine,4,GOLDTERMS:4090,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000160,,equivalent
+GOLDTERMS:4968,Host-associated > Fish > Digestive system > Intestine > Fecal,5,GOLDTERMS:4092,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000160,,subclass
+GOLDTERMS:4791,Host-associated > Fish > Excretory system,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:8450002,,equivalent
+GOLDTERMS:4097,Host-associated > Fish > Excretory system > Kidneys,4,GOLDTERMS:4791,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:8450002,,subclass
+GOLDTERMS:5150,Host-associated > Fish > Excretory system > Liver,4,GOLDTERMS:4791,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0002107,,equivalent
+GOLDTERMS:Host-associated-Fish-Nervous-system,Host-associated > Fish > Nervous system,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0001016,,equivalent
+GOLDTERMS:5288,Host-associated > Fish > Nervous system > Cerebrospinal fluid,4,GOLDTERMS:Host-associated-Fish-Nervous-system,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0001359,,equivalent
+GOLDTERMS:4096,Host-associated > Fish > Reproductive system,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000990,,equivalent
+GOLDTERMS:Host-associated-Fish-Respiratory-system,Host-associated > Fish > Respiratory system,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0001004,,equivalent
+GOLDTERMS:4921,Host-associated > Fish > Respiratory system > Gill,4,GOLDTERMS:Host-associated-Fish-Respiratory-system,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0002535,,equivalent
+GOLDTERMS:5152,Host-associated > Fish > Respiratory system > Lung,4,GOLDTERMS:Host-associated-Fish-Respiratory-system,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0002048,,equivalent
+GOLDTERMS:4093,Host-associated > Fish > Skin,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000014,,equivalent
+GOLDTERMS:4422,Host-associated > Fish > Skin > Epidermal mucus,4,GOLDTERMS:4093,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0010152,,equivalent
+GOLDTERMS:4740,Host-associated > Fish > Skin > Scales,4,GOLDTERMS:4093,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0007380,,equivalent
+GOLDTERMS:4094,Host-associated > Fish > Skin > Slime,4,GOLDTERMS:4093,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000014,,subclass
+GOLDTERMS:4714,Host-associated > Fish > Tissue,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000479,,equivalent
+GOLDTERMS:4793,Host-associated > Fish > Whole body,3,GOLDTERMS:4095,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0000468,,equivalent
+GOLDTERMS:4794,Host-associated > Fish > Whole body > Carcass,4,GOLDTERMS:4793,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0008979,ENVO:00002033,equivalent
+GOLDTERMS:4743,Host-associated > Fish > Whole body > Carcass > Decomposed,5,GOLDTERMS:4794,MIXS:HostAssociated,,,FOODON:03411222,,UBERON:0008979,ENVO:00002033,subclass
+GOLDTERMS:4098,Host-associated > Fungi,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03411261,NCBITaxon:4751,,,equivalent
+GOLDTERMS:4550,Host-associated > Fungi > Fruiting body,3,GOLDTERMS:4098,MIXS:HostAssociated,,,FOODON:03411261,NCBITaxon:4751,,FAO:0000007,equivalent
+GOLDTERMS:4412,Host-associated > Fungi > Lichen,3,GOLDTERMS:4098,MIXS:HostAssociated,,,FOODON:03412345,NCBITaxon:4751,,,equivalent
+GOLDTERMS:4463,Host-associated > Fungi > Mycelium,3,GOLDTERMS:4098,MIXS:HostAssociated,,,FOODON:03411261,NCBITaxon:4751,,FAO:0000011,equivalent
+GOLDTERMS:5296,Host-associated > Fungi > Mycorrhiza,3,GOLDTERMS:4098,MIXS:HostAssociated,,,FOODON:03411261,NCBITaxon:4751,,FAO:0001027,equivalent
+GOLDTERMS:4528,Host-associated > Fungi > Sclerotium,3,GOLDTERMS:4098,MIXS:HostAssociated,,,FOODON:03411261,NCBITaxon:4751,,FAO:0001008,equivalent
+GOLDTERMS:4476,Host-associated > Horse,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,,,equivalent
+GOLDTERMS:Host-associated-Horse-Circulatory-system,Host-associated > Horse > Circulatory system,3,GOLDTERMS:4476,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001009,,equivalent
+GOLDTERMS:5102,Host-associated > Horse > Circulatory system > Blood,4,GOLDTERMS:Host-associated-Horse-Circulatory-system,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0000178,,equivalent
+GOLDTERMS:Host-associated-Horse-Digestive-system,Host-associated > Horse > Digestive system,3,GOLDTERMS:4476,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001007,,equivalent
+GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine,Host-associated > Horse > Digestive system > Large intestine,4,GOLDTERMS:Host-associated-Horse-Digestive-system,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0000059,,equivalent
+GOLDTERMS:5064,Host-associated > Horse > Digestive system > Large intestine > Cecum,5,GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001153,,equivalent
+GOLDTERMS:5060,Host-associated > Horse > Digestive system > Large intestine > Fecal,5,GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0000059,,subclass
+GOLDTERMS:Host-associated-Horse-Excretory-system,Host-associated > Horse > Excretory system,3,GOLDTERMS:4476,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:8450002,,equivalent
+GOLDTERMS:Host-associated-Horse-Excretory-system-Urethra,Host-associated > Horse > Excretory system > Urethra,4,GOLDTERMS:Host-associated-Horse-Excretory-system,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0000057,,equivalent
+GOLDTERMS:5034,Host-associated > Horse > Excretory system > Urethra > Urine,5,GOLDTERMS:Host-associated-Horse-Excretory-system-Urethra,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001088,,equivalent
+GOLDTERMS:Host-associated-Horse-Respiratory-system,Host-associated > Horse > Respiratory system,3,GOLDTERMS:4476,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001004,,equivalent
+GOLDTERMS:5099,Host-associated > Horse > Respiratory system > Lung,4,GOLDTERMS:Host-associated-Horse-Respiratory-system,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0002048,,equivalent
+GOLDTERMS:5057,Host-associated > Horse > Respiratory system > Nasopharyngeal,4,GOLDTERMS:Host-associated-Horse-Respiratory-system,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001004,,subclass
+GOLDTERMS:5063,Host-associated > Horse > Tooth,3,GOLDTERMS:4476,MIXS:HostAssociated,,,FOODON:03411229,NCBITaxon:9796,UBERON:0001091,,equivalent
+GOLDTERMS:4138,Host-associated > Human,2,GOLDTERMS:4086,MIXS:HumanAssociated,,,,NCBITaxon:9606,,,equivalent
+GOLDTERMS:5717,Host-associated > Human > Abdomen,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000916,,equivalent
+GOLDTERMS:5120,Host-associated > Human > Abdomen > Peritoneal dialysate,4,GOLDTERMS:5717,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000916,,subclass
+GOLDTERMS:5037,Host-associated > Human > Abdomen > Peritoneal fluid,4,GOLDTERMS:5717,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001268,,equivalent
+GOLDTERMS:4581,Host-associated > Human > Bone,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002481,,equivalent
+GOLDTERMS:5460,Host-associated > Human > Cell Line,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,,,subclass
+GOLDTERMS:4832,Host-associated > Human > Cell Line > HeLa,4,GOLDTERMS:5460,MIXS:HumanAssociated,,,,NCBITaxon:9606,,OBI:1110032,subclass
+GOLDTERMS:4764,Host-associated > Human > Circulatory system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001009,,equivalent
+GOLDTERMS:3932,Host-associated > Human > Circulatory system > Blood,4,GOLDTERMS:4764,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000178,,equivalent
+GOLDTERMS:4416,Host-associated > Human > Circulatory system > Blood > Plasma,5,GOLDTERMS:3932,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001969,,equivalent
+GOLDTERMS:4430,Host-associated > Human > Circulatory system > Blood > Serum,5,GOLDTERMS:3932,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001977,,equivalent
+GOLDTERMS:4998,Host-associated > Human > Circulatory system > Heart,4,GOLDTERMS:4764,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000948,,equivalent
+GOLDTERMS:5075,Host-associated > Human > Circulatory system > Heart > Heart valve,5,GOLDTERMS:4998,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000946,,equivalent
+GOLDTERMS:3919,Host-associated > Human > Digestive system,3,GOLDTERMS:4138,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001007,,equivalent
+GOLDTERMS:4762,Host-associated > Human > Digestive system > Hindgut,4,GOLDTERMS:3919,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001046,,equivalent
+GOLDTERMS:3924,Host-associated > Human > Digestive system > Intestine,4,GOLDTERMS:3919,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000160,,equivalent
+GOLDTERMS:3922,Host-associated > Human > Digestive system > Large intestine,4,GOLDTERMS:3919,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000059,,equivalent
+GOLDTERMS:5029,Host-associated > Human > Digestive system > Large intestine > Colon,5,GOLDTERMS:3922,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001155,,equivalent
+GOLDTERMS:5028,Host-associated > Human > Digestive system > Large intestine > Descending colon,5,GOLDTERMS:3922,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001158,,equivalent
+GOLDTERMS:3920,Host-associated > Human > Digestive system > Large intestine > Fecal,5,GOLDTERMS:3922,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000059,,subclass
+GOLDTERMS:5030,Host-associated > Human > Digestive system > Large intestine > Rectum,5,GOLDTERMS:3922,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001052,,equivalent
+GOLDTERMS:3921,Host-associated > Human > Digestive system > Large intestine > Sigmoid colon,5,GOLDTERMS:3922,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001159,,equivalent
+GOLDTERMS:3912,Host-associated > Human > Digestive system > Oral cavity,4,GOLDTERMS:3919,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000167,,equivalent
+GOLDTERMS:3910,Host-associated > Human > Digestive system > Oral cavity > Attached/Keratinized gingiva,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000167,,subclass
+GOLDTERMS:3915,Host-associated > Human > Digestive system > Oral cavity > Buccal mucosa,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0006956,,equivalent
+GOLDTERMS:5038,Host-associated > Human > Digestive system > Oral cavity > Dental plaque,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0016482,,equivalent
+GOLDTERMS:5083,Host-associated > Human > Digestive system > Oral cavity > Dental pulp,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001754,,equivalent
+GOLDTERMS:5192,Host-associated > Human > Digestive system > Oral cavity > Gingival crevice,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000167,,subclass
+GOLDTERMS:3918,Host-associated > Human > Digestive system > Oral cavity > Hard palate,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0003216,,equivalent
+GOLDTERMS:3909,Host-associated > Human > Digestive system > Oral cavity > Palatine tonsils,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0002373,,equivalent
+GOLDTERMS:3908,Host-associated > Human > Digestive system > Oral cavity > Periodontal pockets,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000167,,subclass
+GOLDTERMS:3907,Host-associated > Human > Digestive system > Oral cavity > Saliva,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001836,,equivalent
+GOLDTERMS:3913,Host-associated > Human > Digestive system > Oral cavity > Subgingival plaque,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0016484,,equivalent
+GOLDTERMS:3916,Host-associated > Human > Digestive system > Oral cavity > Supragingival plaque,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0016485,,equivalent
+GOLDTERMS:3914,Host-associated > Human > Digestive system > Oral cavity > Throat,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000341,,equivalent
+GOLDTERMS:3911,Host-associated > Human > Digestive system > Oral cavity > tongue dorsum,5,GOLDTERMS:3912,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0009471,,equivalent
+GOLDTERMS:Host-associated-Human-Digestive-system-Small-intestine,Host-associated > Human > Digestive system > Small intestine,4,GOLDTERMS:3919,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0002108,,equivalent
+GOLDTERMS:5023,Host-associated > Human > Digestive system > Small intestine > Duodenum,5,GOLDTERMS:Host-associated-Human-Digestive-system-Small-intestine,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0002114,,equivalent
+GOLDTERMS:5025,Host-associated > Human > Digestive system > Small intestine > Ileum,5,GOLDTERMS:Host-associated-Human-Digestive-system-Small-intestine,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0002116,,equivalent
+GOLDTERMS:5080,Host-associated > Human > Digestive system > Stomach,4,GOLDTERMS:3919,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000945,,equivalent
+GOLDTERMS:5126,Host-associated > Human > Digestive system > Stomach > Gastric biopsy,5,GOLDTERMS:5080,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0000945,,subclass
+GOLDTERMS:5079,Host-associated > Human > Digestive system > Stomach > Gastric mucosa,5,GOLDTERMS:5080,MIXS:HumanGut,,,,NCBITaxon:9606,UBERON:0001199,,equivalent
+GOLDTERMS:4502,Host-associated > Human > Ear,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001690,,equivalent
+GOLDTERMS:5002,Host-associated > Human > Ear > Ear fluid,4,GOLDTERMS:4502,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001690,,subclass
+GOLDTERMS:4144,Host-associated > Human > Excretory system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:8450002,,equivalent
+GOLDTERMS:5027,Host-associated > Human > Excretory system > Gallbladder,4,GOLDTERMS:4144,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002110,,equivalent
+GOLDTERMS:5000,Host-associated > Human > Excretory system > Liver,4,GOLDTERMS:4144,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002107,,equivalent
+GOLDTERMS:5024,Host-associated > Human > Excretory system > Liver > Bile,5,GOLDTERMS:5000,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001970,,equivalent
+GOLDTERMS:4761,Host-associated > Human > Excretory system > Urethra,4,GOLDTERMS:4144,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000057,,equivalent
+GOLDTERMS:4145,Host-associated > Human > Excretory system > Urethra > Urine,5,GOLDTERMS:4761,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001088,,equivalent
+GOLDTERMS:4996,Host-associated > Human > Excretory system > Urinary bladder,4,GOLDTERMS:4144,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001255,,equivalent
+GOLDTERMS:5082,Host-associated > Human > Excretory system > Urinary tract,4,GOLDTERMS:4144,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001008,,equivalent
+GOLDTERMS:4499,Host-associated > Human > Eye,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000970,,equivalent
+GOLDTERMS:5240,Host-associated > Human > Eye > Conjunctiva,4,GOLDTERMS:4499,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001811,,equivalent
+GOLDTERMS:4584,Host-associated > Human > Hair,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001037,,equivalent
+GOLDTERMS:4797,Host-associated > Human > Lymphatic system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0006558,,equivalent
+GOLDTERMS:4128,Host-associated > Human > Lymphatic system > Lymph nodes,4,GOLDTERMS:4797,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0006558,,subclass
+GOLDTERMS:5085,Host-associated > Human > Lymphatic system > Spleen,4,GOLDTERMS:4797,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002106,,equivalent
+GOLDTERMS:4129,Host-associated > Human > Milk,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,FOODON:03307455,NCBITaxon:9606,UBERON:0001913,,equivalent
+GOLDTERMS:3934,Host-associated > Human > Nervous system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001016,,equivalent
+GOLDTERMS:4496,Host-associated > Human > Nervous system > Brain,4,GOLDTERMS:3934,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000955,,equivalent
+GOLDTERMS:3933,Host-associated > Human > Nervous system > Cerebrospinal fluid,4,GOLDTERMS:3934,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001359,,equivalent
+GOLDTERMS:5073,Host-associated > Human > Pus,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000177,,equivalent
+GOLDTERMS:4143,Host-associated > Human > Reproductive system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000990,,equivalent
+GOLDTERMS:Host-associated-Human-Reproductive-system-Amniotic-sac,Host-associated > Human > Reproductive system > Amniotic sac,4,GOLDTERMS:4143,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000990,,subclass
+GOLDTERMS:4870,Host-associated > Human > Reproductive system > Amniotic sac > Amniotic fluid,5,GOLDTERMS:Host-associated-Human-Reproductive-system-Amniotic-sac,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000173,,subclass
+GOLDTERMS:5089,Host-associated > Human > Reproductive system > Breast,4,GOLDTERMS:4143,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000310,,equivalent
+GOLDTERMS:4982,Host-associated > Human > Reproductive system > Cervix,4,GOLDTERMS:4143,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000002,,equivalent
+GOLDTERMS:4900,Host-associated > Human > Reproductive system > Penis,4,GOLDTERMS:4143,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000989,,equivalent
+GOLDTERMS:5019,Host-associated > Human > Reproductive system > Prostate,4,GOLDTERMS:4143,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002367,,equivalent
+GOLDTERMS:4140,Host-associated > Human > Reproductive system > Vagina,4,GOLDTERMS:4143,MIXS:HumanVaginal,,,,NCBITaxon:9606,UBERON:0000996,,equivalent
+GOLDTERMS:4141,Host-associated > Human > Reproductive system > Vagina > Introitus,5,GOLDTERMS:4140,MIXS:HumanVaginal,,,,NCBITaxon:9606,UBERON:0012317,,equivalent
+GOLDTERMS:4139,Host-associated > Human > Reproductive system > Vagina > Midpoint vagina,5,GOLDTERMS:4140,MIXS:HumanVaginal,,,,NCBITaxon:9606,UBERON:0000996,,subclass
+GOLDTERMS:4142,Host-associated > Human > Reproductive system > Vagina > posterior fornix,5,GOLDTERMS:4140,MIXS:HumanVaginal,,,,NCBITaxon:9606,UBERON:0016486,,equivalent
+GOLDTERMS:4137,Host-associated > Human > Respiratory system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001004,,equivalent
+GOLDTERMS:5004,Host-associated > Human > Respiratory system > Lung,4,GOLDTERMS:4137,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002048,,equivalent
+GOLDTERMS:5251,Host-associated > Human > Respiratory system > Lung > Bronchi,5,GOLDTERMS:5004,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002185,,equivalent
+GOLDTERMS:5074,Host-associated > Human > Respiratory system > Lung > Empyema,5,GOLDTERMS:5004,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002048,,subclass
+GOLDTERMS:5005,Host-associated > Human > Respiratory system > Lung > Pleural fluid,5,GOLDTERMS:5004,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001087,,equivalent
+GOLDTERMS:5252,Host-associated > Human > Respiratory system > Lung > Pulmonary fluid,5,GOLDTERMS:5004,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002048,,subclass
+GOLDTERMS:4131,Host-associated > Human > Respiratory system > Nasopharyngeal,4,GOLDTERMS:4137,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001004,,subclass
+GOLDTERMS:4132,Host-associated > Human > Respiratory system > Nasopharyngeal > Pharynx,5,GOLDTERMS:4131,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001042,,subclass
+GOLDTERMS:4130,Host-associated > Human > Respiratory system > Nasopharyngeal > anterior nares,5,GOLDTERMS:4131,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0005928,,subclass
+GOLDTERMS:5009,Host-associated > Human > Respiratory system > Sputum,4,GOLDTERMS:4137,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0007311,,equivalent
+GOLDTERMS:5007,Host-associated > Human > Respiratory system > Throat,4,GOLDTERMS:4137,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000341,,equivalent
+GOLDTERMS:5021,Host-associated > Human > Respiratory system > Trachea,4,GOLDTERMS:4137,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0003126,,equivalent
+GOLDTERMS:Host-associated-Human-Skeletal-system,Host-associated > Human > Skeletal system,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001434,,equivalent
+GOLDTERMS:5250,Host-associated > Human > Skeletal system > Bone,4,GOLDTERMS:Host-associated-Human-Skeletal-system,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002481,,equivalent
+GOLDTERMS:5313,Host-associated > Human > Skeletal system > Bone > Ancient bone,5,GOLDTERMS:5250,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002481,,subclass
+GOLDTERMS:5314,Host-associated > Human > Skeletal system > Bone > Bone marrow,5,GOLDTERMS:5250,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002371,,equivalent
+GOLDTERMS:5312,Host-associated > Human > Skeletal system > Bone > Ethmoid,5,GOLDTERMS:5250,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001679,,equivalent
+GOLDTERMS:5311,Host-associated > Human > Skeletal system > Bone > Periprosthetic joint,5,GOLDTERMS:5250,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002481,,subclass
+GOLDTERMS:Host-associated-Human-Skeletal-system-Synovial-membrane,Host-associated > Human > Skeletal system > Synovial membrane,4,GOLDTERMS:Host-associated-Human-Skeletal-system,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0002018,,equivalent
+GOLDTERMS:5213,Host-associated > Human > Skeletal system > Synovial membrane > Synovial fluid,5,GOLDTERMS:Host-associated-Human-Skeletal-system-Synovial-membrane,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001090,,equivalent
+GOLDTERMS:3928,Host-associated > Human > Skin,3,GOLDTERMS:4138,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0000014,,equivalent
+GOLDTERMS:3926,Host-associated > Human > Skin > Axilla,4,GOLDTERMS:3928,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0009472,,equivalent
+GOLDTERMS:4795,Host-associated > Human > Skin > Medial distal leg,4,GOLDTERMS:3928,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0000014,,subclass
+GOLDTERMS:3931,Host-associated > Human > Skin > Medial distal leg > Venous leg ulcers,5,GOLDTERMS:4795,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0000014,,subclass
+GOLDTERMS:3929,Host-associated > Human > Skin > Naris,4,GOLDTERMS:3928,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0005928,,equivalent
+GOLDTERMS:3925,Host-associated > Human > Skin > Umbilicus,4,GOLDTERMS:3928,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0007118,,equivalent
+GOLDTERMS:3927,Host-associated > Human > Skin > Volar forearm,4,GOLDTERMS:3928,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0000014,,subclass
+GOLDTERMS:3930,Host-associated > Human > Skin > retroauricular crease,4,GOLDTERMS:3928,MIXS:HumanSkin,,,,NCBITaxon:9606,UBERON:0000014,,subclass
+GOLDTERMS:4826,Host-associated > Human > Soft tissue,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,,,subclass
+GOLDTERMS:5256,Host-associated > Human > Thorax,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0000915,,equivalent
+GOLDTERMS:4587,Host-associated > Human > Tooth,3,GOLDTERMS:4138,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001091,,equivalent
+GOLDTERMS:5091,Host-associated > Human > Tooth > Enamel,4,GOLDTERMS:4587,MIXS:HumanAssociated,,,,NCBITaxon:9606,UBERON:0001752,,equivalent
+GOLDTERMS:4320,Host-associated > Insecta,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03411220,NCBITaxon:50557,,,equivalent
+GOLDTERMS:4319,Host-associated > Insecta > Digestive system,3,GOLDTERMS:4320,MIXS:HostAssociated,,,FOODON:03411220,NCBITaxon:50557,UBERON:0001007,,equivalent
+GOLDTERMS:5051,Host-associated > Insecta > Digestive system > Intestine,4,GOLDTERMS:4319,MIXS:HostAssociated,,,FOODON:03411220,NCBITaxon:50557,UBERON:0000160,,equivalent
+GOLDTERMS:4754,Host-associated > Invertebrates,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:4799,Host-associated > Invertebrates > Bryozoans,3,GOLDTERMS:4754,MIXS:HostAssociated,,,,NCBITaxon:10205,,,subclass
+GOLDTERMS:4087,Host-associated > Invertebrates > Bryozoans > Gymnolaemates,4,GOLDTERMS:4799,MIXS:HostAssociated,,,,NCBITaxon:10205,,,subclass
+GOLDTERMS:4801,Host-associated > Invertebrates > Cnidaria,3,GOLDTERMS:4754,MIXS:HostAssociated,,,,NCBITaxon:6073,,,subclass
+GOLDTERMS:4088,Host-associated > Invertebrates > Cnidaria > Coral,4,GOLDTERMS:4801,MIXS:HostAssociated,,,,NCBITaxon:6073,,,subclass
+GOLDTERMS:4651,Host-associated > Invertebrates > Cnidaria > Coral > Surface,5,GOLDTERMS:4088,MIXS:HostAssociated,,,,NCBITaxon:6073,,,subclass
+GOLDTERMS:5745,Host-associated > Invertebrates > Cnidaria > Coral > Tissue,5,GOLDTERMS:4088,MIXS:HostAssociated,,,,NCBITaxon:6073,UBERON:0000479,,subclass
+GOLDTERMS:4615,Host-associated > Invertebrates > Ctenophora,3,GOLDTERMS:4754,MIXS:HostAssociated,,,,NCBITaxon:10197,,,subclass
+GOLDTERMS:4803,Host-associated > Invertebrates > Echinodermata,3,GOLDTERMS:4754,MIXS:HostAssociated,,,FOODON:03412115,NCBITaxon:7586,,,subclass
+GOLDTERMS:4683,Host-associated > Invertebrates > Echinodermata > Sea Star,4,GOLDTERMS:4803,MIXS:HostAssociated,,,FOODON:03412115,NCBITaxon:7588,,,subclass
+GOLDTERMS:4089,Host-associated > Invertebrates > Echinodermata > Sea Urchin,4,GOLDTERMS:4803,MIXS:HostAssociated,,,FOODON:03412115,NCBITaxon:7625,,,subclass
+GOLDTERMS:5248,Host-associated > Invertebrates > Echinodermata > Sea cucumber,4,GOLDTERMS:4803,MIXS:HostAssociated,,,FOODON:03412115,NCBITaxon:7586,,,subclass
+GOLDTERMS:4425,Host-associated > Invertebrates > Nematoda,3,GOLDTERMS:4754,MIXS:HostAssociated,,,,NCBITaxon:6231,,,subclass
+GOLDTERMS:Host-associated-Invertebrates-Nematoda-Digestive-system,Host-associated > Invertebrates > Nematoda > Digestive system,4,GOLDTERMS:4425,MIXS:HostAssociated,,,,NCBITaxon:6231,UBERON:0001007,,subclass
+GOLDTERMS:5246,Host-associated > Invertebrates > Nematoda > Digestive system > Intestine,5,GOLDTERMS:Host-associated-Invertebrates-Nematoda-Digestive-system,MIXS:HostAssociated,,,,NCBITaxon:6231,UBERON:0000160,,subclass
+GOLDTERMS:4736,Host-associated > Invertebrates > Platyhelminthes,3,GOLDTERMS:4754,MIXS:HostAssociated,,,,NCBITaxon:6157,,,subclass
+GOLDTERMS:5336,Host-associated > Invertebrates > Tissue,3,GOLDTERMS:4754,MIXS:HostAssociated,,,,,UBERON:0000479,,subclass
+GOLDTERMS:4118,Host-associated > Mammals,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:40674,,,equivalent
+GOLDTERMS:4115,Host-associated > Mammals > Circulatory system,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001009,,equivalent
+GOLDTERMS:4114,Host-associated > Mammals > Circulatory system > Blood,4,GOLDTERMS:4115,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000178,,equivalent
+GOLDTERMS:5112,Host-associated > Mammals > Circulatory system > Blood > Peripheral blood mononuclear cells,5,GOLDTERMS:4114,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000178,,subclass
+GOLDTERMS:4988,Host-associated > Mammals > Circulatory system > Heart,4,GOLDTERMS:4115,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000948,,equivalent
+GOLDTERMS:4107,Host-associated > Mammals > Digestive system,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001007,,equivalent
+GOLDTERMS:4381,Host-associated > Mammals > Digestive system > Foregut,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001041,,equivalent
+GOLDTERMS:4108,Host-associated > Mammals > Digestive system > Foregut > Rumen,5,GOLDTERMS:4381,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0007365,,equivalent
+GOLDTERMS:Host-associated-Mammals-Digestive-system-Hindgut,Host-associated > Mammals > Digestive system > Hindgut,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001046,,equivalent
+GOLDTERMS:5011,Host-associated > Mammals > Digestive system > Hindgut > Rectum,5,GOLDTERMS:Host-associated-Mammals-Digestive-system-Hindgut,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001052,,equivalent
+GOLDTERMS:5043,Host-associated > Mammals > Digestive system > Intestine,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000160,,equivalent
+GOLDTERMS:4106,Host-associated > Mammals > Digestive system > Large intestine,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000059,,equivalent
+GOLDTERMS:4105,Host-associated > Mammals > Digestive system > Large intestine > Cecum,5,GOLDTERMS:4106,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001153,,equivalent
+GOLDTERMS:5041,Host-associated > Mammals > Digestive system > Large intestine > Colon,5,GOLDTERMS:4106,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001155,,equivalent
+GOLDTERMS:4858,Host-associated > Mammals > Digestive system > Large intestine > Cow Dung,5,GOLDTERMS:4106,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001988,,equivalent
+GOLDTERMS:4104,Host-associated > Mammals > Digestive system > Large intestine > Fecal,5,GOLDTERMS:4106,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000059,,subclass
+GOLDTERMS:4103,Host-associated > Mammals > Digestive system > Midgut,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001045,,equivalent
+GOLDTERMS:4109,Host-associated > Mammals > Digestive system > Oral cavity,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000167,,equivalent
+GOLDTERMS:4110,Host-associated > Mammals > Digestive system > Oral cavity > Buccal mucosa,5,GOLDTERMS:4109,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0006956,,equivalent
+GOLDTERMS:5031,Host-associated > Mammals > Digestive system > Oral cavity > Dental plaque,5,GOLDTERMS:4109,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0016482,,equivalent
+GOLDTERMS:5121,Host-associated > Mammals > Digestive system > Oral cavity > Gingiva,5,GOLDTERMS:4109,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001828,,equivalent
+GOLDTERMS:5097,Host-associated > Mammals > Digestive system > Oral cavity > Gingival sulcus,5,GOLDTERMS:4109,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0008805,,equivalent
+GOLDTERMS:5017,Host-associated > Mammals > Digestive system > Oral cavity > Periodontal pockets,5,GOLDTERMS:4109,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000167,,subclass
+GOLDTERMS:4992,Host-associated > Mammals > Digestive system > Oral cavity > Saliva,5,GOLDTERMS:4109,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001836,,equivalent
+GOLDTERMS:5040,Host-associated > Mammals > Digestive system > Small intestine,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0002108,,equivalent
+GOLDTERMS:5253,Host-associated > Mammals > Digestive system > Small intestine > Jejunum,5,GOLDTERMS:5040,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0002115,,equivalent
+GOLDTERMS:4112,Host-associated > Mammals > Digestive system > Stomach,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000945,,equivalent
+GOLDTERMS:4113,Host-associated > Mammals > Digestive system > Stomach > Endoperitrophic space,5,GOLDTERMS:4112,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000945,,subclass
+GOLDTERMS:5206,Host-associated > Mammals > Digestive system > Stomach > Gastric mucosa,5,GOLDTERMS:4112,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001199,,equivalent
+GOLDTERMS:4111,Host-associated > Mammals > Digestive system > Stomach > Rumen,5,GOLDTERMS:4112,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0007365,,equivalent
+GOLDTERMS:4984,Host-associated > Mammals > Digestive system > Throat,4,GOLDTERMS:4107,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000341,,equivalent
+GOLDTERMS:5049,Host-associated > Mammals > Ear,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001690,,equivalent
+GOLDTERMS:4850,Host-associated > Mammals > Ear > Ear discharge,4,GOLDTERMS:5049,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001690,,subclass
+GOLDTERMS:3903,Host-associated > Mammals > Excretory system,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:8450002,,equivalent
+GOLDTERMS:5132,Host-associated > Mammals > Excretory system > Liver,4,GOLDTERMS:3903,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0002107,,equivalent
+GOLDTERMS:4852,Host-associated > Mammals > Excretory system > Urine,4,GOLDTERMS:3903,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001088,,equivalent
+GOLDTERMS:4991,Host-associated > Mammals > Eye,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000970,,equivalent
+GOLDTERMS:Host-associated-Mammals-Gastrointestinal-tract,Host-associated > Mammals > Gastrointestinal tract,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0005409,,equivalent
+GOLDTERMS:3905,Host-associated > Mammals > Gastrointestinal tract > Intestine,4,GOLDTERMS:Host-associated-Mammals-Gastrointestinal-tract,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000160,,equivalent
+GOLDTERMS:4701,Host-associated > Mammals > Hoof,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0008963,,equivalent
+GOLDTERMS:4126,Host-associated > Mammals > Lymphatic,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,,,subclass
+GOLDTERMS:4127,Host-associated > Mammals > Lymphatic > Lymph nodes,4,GOLDTERMS:4126,MIXS:HostAssociated,,,,NCBITaxon:40674,,,subclass
+GOLDTERMS:4117,Host-associated > Mammals > Milk,3,GOLDTERMS:4118,MIXS:HostAssociated,,,FOODON:03307455,NCBITaxon:40674,UBERON:0001913,,equivalent
+GOLDTERMS:4124,Host-associated > Mammals > Nervous system,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001016,,equivalent
+GOLDTERMS:4125,Host-associated > Mammals > Nervous system > Brain,4,GOLDTERMS:4124,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000955,,equivalent
+GOLDTERMS:4698,Host-associated > Mammals > Primate,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:9443,,,equivalent
+GOLDTERMS:5096,Host-associated > Mammals > Pus,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000177,,equivalent
+GOLDTERMS:4119,Host-associated > Mammals > Reproductive system,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000990,,equivalent
+GOLDTERMS:4986,Host-associated > Mammals > Reproductive system > Udder,4,GOLDTERMS:4119,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0013216,,equivalent
+GOLDTERMS:4972,Host-associated > Mammals > Reproductive system > Uterus,4,GOLDTERMS:4119,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000995,,equivalent
+GOLDTERMS:5047,Host-associated > Mammals > Reproductive system > Vagina,4,GOLDTERMS:4119,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000996,,equivalent
+GOLDTERMS:4122,Host-associated > Mammals > Respiratory system,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001004,,equivalent
+GOLDTERMS:Host-associated-Mammals-Respiratory-system-Laryngopharyngeal,Host-associated > Mammals > Respiratory system > Laryngopharyngeal,4,GOLDTERMS:4122,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001004,,subclass
+GOLDTERMS:4970,Host-associated > Mammals > Respiratory system > Laryngopharyngeal > Lymph node,5,GOLDTERMS:Host-associated-Mammals-Respiratory-system-Laryngopharyngeal,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000029,,subclass
+GOLDTERMS:4444,Host-associated > Mammals > Respiratory system > Lung,4,GOLDTERMS:4122,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0002048,,equivalent
+GOLDTERMS:4120,Host-associated > Mammals > Respiratory system > Nasopharyngeal,4,GOLDTERMS:4122,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001004,,subclass
+GOLDTERMS:4121,Host-associated > Mammals > Respiratory system > Nasopharyngeal > Nasal cavity,5,GOLDTERMS:4120,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001707,,subclass
+GOLDTERMS:4980,Host-associated > Mammals > Respiratory system > Nose,4,GOLDTERMS:4122,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0007827,,equivalent
+GOLDTERMS:5045,Host-associated > Mammals > Respiratory system > Throat,4,GOLDTERMS:4122,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000341,,equivalent
+GOLDTERMS:5175,Host-associated > Mammals > Respiratory system > Trachea,4,GOLDTERMS:4122,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0003126,,equivalent
+GOLDTERMS:4116,Host-associated > Mammals > Skin,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000014,,equivalent
+GOLDTERMS:4409,Host-associated > Mammals > Tissue,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0000479,,equivalent
+GOLDTERMS:5016,Host-associated > Mammals > Tooth,3,GOLDTERMS:4118,MIXS:HostAssociated,,,,NCBITaxon:40674,UBERON:0001091,,equivalent
+GOLDTERMS:4317,Host-associated > Microbial,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:4318,Host-associated > Microbial > Bacteria,3,GOLDTERMS:4317,MIXS:HostAssociated,,,,NCBITaxon:2,,,subclass
+GOLDTERMS:5764,Host-associated > Microbial > Bacterivore,3,GOLDTERMS:4317,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:4756,Host-associated > Microbial > Dinoflagellates,3,GOLDTERMS:4317,MIXS:HostAssociated,,,,NCBITaxon:2864,,,subclass
+GOLDTERMS:4316,Host-associated > Microbial > Dinoflagellates > Endosymbionts,4,GOLDTERMS:4756,MIXS:HostAssociated,,,,NCBITaxon:2864,,,subclass
+GOLDTERMS:4324,Host-associated > Mollusca,2,GOLDTERMS:4086,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,,,equivalent
+GOLDTERMS:5761,Host-associated > Mollusca > Bivalves,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6544,,,equivalent
+GOLDTERMS:Host-associated-Mollusca-Circulatory-system,Host-associated > Mollusca > Circulatory system,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0001009,,equivalent
+GOLDTERMS:4978,Host-associated > Mollusca > Circulatory system > Hemolymph,4,GOLDTERMS:Host-associated-Mollusca-Circulatory-system,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0001011,,equivalent
+GOLDTERMS:4322,Host-associated > Mollusca > Digestive system,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0001007,,equivalent
+GOLDTERMS:4866,Host-associated > Mollusca > Digestive system > Ceca,4,GOLDTERMS:4322,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0001153,,equivalent
+GOLDTERMS:4323,Host-associated > Mollusca > Digestive system > Glands,4,GOLDTERMS:4322,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0002530,,equivalent
+GOLDTERMS:5068,Host-associated > Mollusca > Digestive system > Gut,4,GOLDTERMS:4322,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0001555,,equivalent
+GOLDTERMS:4632,Host-associated > Mollusca > Larvae,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,,,subclass
+GOLDTERMS:5198,Host-associated > Mollusca > Oyster,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03411224,NCBITaxon:6563,,,equivalent
+GOLDTERMS:4806,Host-associated > Mollusca > Respiratory system,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0001004,,equivalent
+GOLDTERMS:4327,Host-associated > Mollusca > Respiratory system > Gills,4,GOLDTERMS:4806,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0002535,,equivalent
+GOLDTERMS:4325,Host-associated > Mollusca > Respiratory system > Gills > Extracellular,5,GOLDTERMS:4327,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0002535,,subclass
+GOLDTERMS:4326,Host-associated > Mollusca > Respiratory system > Gills > Intracellular,5,GOLDTERMS:4327,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0002535,,subclass
+GOLDTERMS:4328,Host-associated > Mollusca > Shell,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0006612,,equivalent
+GOLDTERMS:4709,Host-associated > Mollusca > Tissue,3,GOLDTERMS:4324,MIXS:HostAssociated,,,FOODON:03412112,NCBITaxon:6447,UBERON:0000479,,equivalent
+GOLDTERMS:5187,Host-associated > Petromyzon,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:7756,,,equivalent
+GOLDTERMS:Host-associated-Plankton,Host-associated > Plankton,2,GOLDTERMS:4086,MIXS:HostAssociated,,,ENVO:01000063,,,,equivalent
+GOLDTERMS:5217,Host-associated > Plankton > Zooplankton,3,GOLDTERMS:Host-associated-Plankton,MIXS:HostAssociated,,,ENVO:01000063,,,,subclass
+GOLDTERMS:3938,Host-associated > Plants,2,GOLDTERMS:4086,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,equivalent
+GOLDTERMS:5812,Host-associated > Plants > Biocrust,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,,ENVO:01000909,equivalent
+GOLDTERMS:3945,Host-associated > Plants > Endosphere,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:Host-associated-Plants-Macrophytes,Host-associated > Plants > Macrophytes,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5407,Host-associated > Plants > Macrophytes > Emergent macrophytes,4,GOLDTERMS:Host-associated-Plants-Macrophytes,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5405,Host-associated > Plants > Macrophytes > Submerged macrophytes,4,GOLDTERMS:Host-associated-Plants-Macrophytes,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:4865,Host-associated > Plants > Mixed parts,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:4450,Host-associated > Plants > Nodule,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0003023,,equivalent
+GOLDTERMS:4433,Host-associated > Plants > Peat moss,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:4460,Host-associated > Plants > Phyllosphere,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:4538,Host-associated > Plants > Phyllosphere > Anthosphere,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5826,Host-associated > Plants > Phyllosphere > Anthosphere > Nectar,5,GOLDTERMS:4538,MIXS:PlantAssociated,,,FOODON:03315553,NCBITaxon:3193,,,subclass
+GOLDTERMS:4621,Host-associated > Plants > Phyllosphere > Anthosphere > Pollen,5,GOLDTERMS:4538,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025281,,subclass
+GOLDTERMS:4600,Host-associated > Plants > Phyllosphere > Carposphere,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5265,Host-associated > Plants > Phyllosphere > Carposphere > Endophytes,5,GOLDTERMS:4600,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5264,Host-associated > Plants > Phyllosphere > Carposphere > Epiphytes,5,GOLDTERMS:4600,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:4525,Host-associated > Plants > Phyllosphere > Caulosphere,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5752,Host-associated > Plants > Phyllosphere > Caulosphere > Bark,5,GOLDTERMS:4525,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0004518,,subclass
+GOLDTERMS:5740,Host-associated > Plants > Phyllosphere > Cob,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025623,,subclass
+GOLDTERMS:5269,Host-associated > Plants > Phyllosphere > Leaf,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025034,,subclass
+GOLDTERMS:5268,Host-associated > Plants > Phyllosphere > Leaf > Endophytes,5,GOLDTERMS:5269,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025034,,subclass
+GOLDTERMS:5321,Host-associated > Plants > Phyllosphere > Leaf > Leaf lesion,5,GOLDTERMS:5269,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025034,,subclass
+GOLDTERMS:5274,Host-associated > Plants > Phyllosphere > Leaf > Leaf nodule,5,GOLDTERMS:5269,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025034,,subclass
+GOLDTERMS:5270,Host-associated > Plants > Phyllosphere > Leaf > Xylem vessels,5,GOLDTERMS:5269,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025417,,subclass
+GOLDTERMS:5320,Host-associated > Plants > Phyllosphere > Petiole,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0020038,,subclass
+GOLDTERMS:5263,Host-associated > Plants > Phyllosphere > Phylloplane/Leaf surface,4,GOLDTERMS:4460,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5322,Host-associated > Plants > Phyllosphere > Phylloplane/Leaf surface > Biofilm,5,GOLDTERMS:5263,MIXS:PlantAssociated,,,,NCBITaxon:3193,,ENVO:00002034,subclass
+GOLDTERMS:5266,Host-associated > Plants > Phyllosphere > Phylloplane/Leaf surface > Endophytes,5,GOLDTERMS:5263,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5262,Host-associated > Plants > Phyllosphere > Phylloplane/Leaf surface > Epiphytes,5,GOLDTERMS:5263,MIXS:PlantAssociated,,,,NCBITaxon:3193,,,subclass
+GOLDTERMS:5277,Host-associated > Plants > Plant callus,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0005052,,equivalent
+GOLDTERMS:5796,Host-associated > Plants > Rhizoid,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0030078,,equivalent
+GOLDTERMS:3943,Host-associated > Plants > Rhizome,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0004542,,equivalent
+GOLDTERMS:5416,Host-associated > Plants > Rhizome > Bulb,4,GOLDTERMS:3943,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0025356,,equivalent
+GOLDTERMS:3944,Host-associated > Plants > Rhizome > Epiphytes,4,GOLDTERMS:3943,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0004542,,subclass
+GOLDTERMS:4994,Host-associated > Plants > Rhizome > Stem tuber,4,GOLDTERMS:3943,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0004542,,subclass
+GOLDTERMS:5793,Host-associated > Plants > Rhizome > Stem tuber > Soil,5,GOLDTERMS:4994,MIXS:Soil,,,ENVO:00001998,NCBITaxon:3193,PO:0004542,,subclass
+GOLDTERMS:4466,Host-associated > Plants > Roots,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009005,,equivalent
+GOLDTERMS:5318,Host-associated > Plants > Roots > Bulk soil,4,GOLDTERMS:4466,MIXS:PlantAssociated,,,ENVO:00005802,NCBITaxon:3193,PO:0009005,,equivalent
+GOLDTERMS:5304,Host-associated > Plants > Roots > Endosphere,4,GOLDTERMS:4466,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009005,,subclass
+GOLDTERMS:5306,Host-associated > Plants > Roots > Epiphytes,4,GOLDTERMS:4466,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009005,,subclass
+GOLDTERMS:5786,Host-associated > Plants > Roots > Galls,4,GOLDTERMS:4466,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009005,,subclass
+GOLDTERMS:4523,Host-associated > Plants > Roots > Nodule,4,GOLDTERMS:4466,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0003023,ENVO:01000164,equivalent
+GOLDTERMS:5784,Host-associated > Plants > Roots > Rhizoplane,4,GOLDTERMS:4466,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009005,ENVO:01001181,equivalent
+GOLDTERMS:5449,Host-associated > Plants > Roots > Rhizoplane > Endophytes,5,GOLDTERMS:5784,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009005,ENVO:01001181,subclass
+GOLDTERMS:5301,Host-associated > Plants > Roots > Rhizosphere,4,GOLDTERMS:4466,MIXS:PlantAssociated,,ENVO:00005801,,NCBITaxon:3193,PO:0009005,,equivalent
+GOLDTERMS:5302,Host-associated > Plants > Roots > Rhizosphere > Soil,5,GOLDTERMS:5301,MIXS:Soil,,ENVO:00005801,ENVO:00001998,NCBITaxon:3193,PO:0009005,,equivalent
+GOLDTERMS:4572,Host-associated > Plants > Seeds,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009010,,equivalent
+GOLDTERMS:5448,Host-associated > Plants > Seeds > Seed radicle,4,GOLDTERMS:4572,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0009010,,subclass
+GOLDTERMS:5273,Host-associated > Plants > Tissue,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,,NCBITaxon:3193,UBERON:0000479,,equivalent
+GOLDTERMS:5782,Host-associated > Plants > Tissue > Bark,4,GOLDTERMS:5273,MIXS:PlantAssociated,,,,NCBITaxon:3193,PO:0004518,,equivalent
+GOLDTERMS:4560,Host-associated > Plants > Wood,3,GOLDTERMS:3938,MIXS:PlantAssociated,,,ENVO:00002040,NCBITaxon:3193,PO:0005848,,equivalent
+GOLDTERMS:4341,Host-associated > Porifera,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:6040,,,equivalent
+GOLDTERMS:4439,Host-associated > Porifera > Sponge,3,GOLDTERMS:4341,MIXS:HostAssociated,,,,NCBITaxon:6040,,,subclass
+GOLDTERMS:4738,Host-associated > Protists,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:4598,Host-associated > Protists > Breviatea,3,GOLDTERMS:4738,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:4626,Host-associated > Protists > Breviatea > Dinoflagellates,4,GOLDTERMS:4598,MIXS:HostAssociated,,,,NCBITaxon:2864,,,subclass
+GOLDTERMS:4629,Host-associated > Protists > Dinoflagellates,3,GOLDTERMS:4738,MIXS:HostAssociated,,,,NCBITaxon:2864,,,subclass
+GOLDTERMS:4472,Host-associated > Protists > Oomycetes,3,GOLDTERMS:4738,MIXS:HostAssociated,,,,NCBITaxon:4762,,,subclass
+GOLDTERMS:4339,Host-associated > Protozoa,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:5654,Host-associated > Protozoa > Oxymonads,3,GOLDTERMS:4339,MIXS:HostAssociated,,,,,,,subclass
+GOLDTERMS:3906,Host-associated > Reptilia,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:8504,,,equivalent
+GOLDTERMS:4808,Host-associated > Reptilia > Digestive system,3,GOLDTERMS:3906,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0001007,,equivalent
+GOLDTERMS:5160,Host-associated > Reptilia > Digestive system > Intestine,4,GOLDTERMS:4808,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0000160,,equivalent
+GOLDTERMS:4809,Host-associated > Reptilia > Digestive system > Large intestine,4,GOLDTERMS:4808,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0000059,,equivalent
+GOLDTERMS:4693,Host-associated > Reptilia > Digestive system > Large intestine > Fecal,5,GOLDTERMS:4809,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0000059,,subclass
+GOLDTERMS:Host-associated-Reptilia-Excretory-system,Host-associated > Reptilia > Excretory system,3,GOLDTERMS:3906,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:8450002,,equivalent
+GOLDTERMS:5163,Host-associated > Reptilia > Excretory system > Liver,4,GOLDTERMS:Host-associated-Reptilia-Excretory-system,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0002107,,equivalent
+GOLDTERMS:5013,Host-associated > Reptilia > Respiratory system,3,GOLDTERMS:3906,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0001004,,equivalent
+GOLDTERMS:5158,Host-associated > Reptilia > Respiratory system > Lung,4,GOLDTERMS:5013,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0002048,,equivalent
+GOLDTERMS:4975,Host-associated > Reptilia > Respiratory system > Trachea,4,GOLDTERMS:5013,MIXS:HostAssociated,,,,NCBITaxon:8504,UBERON:0003126,,equivalent
+GOLDTERMS:4569,Host-associated > Tunicates,2,GOLDTERMS:4086,MIXS:HostAssociated,,,,NCBITaxon:7712,,,equivalent
+GOLDTERMS:4099,Host-associated > Tunicates > Ascidians,3,GOLDTERMS:4569,MIXS:HostAssociated,,,,NCBITaxon:7712,,,subclass
