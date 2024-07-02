@@ -10,6 +10,8 @@ all: gold.owl gold.obo gold_definitions.yaml gold_definitions_propagated.csv gol
 test:
 	$(RUN) pytest
 
+## Ontology Build ##
+
 CODE = gold_ontology/gold_transform.py
 gold.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv $(CURATED_MAPPING_FILES)
 	$(RUN) python $(CODE) -s config/gold-env-synonyms.tsv $(patsubst %,-m %,$(CURATED_MAPPING_FILES))  $< -o $@
@@ -33,6 +35,9 @@ gold.db: gold.owl
 
 data/gold-biosample-subset.db: data/gold-biosample-subset.tsv
 	sqlite3 $@ -cmd ".mode tabs" ".import $< biosample"
+
+
+## Mappings ##
 
 
 gold_definitions.yaml: gold.obo
