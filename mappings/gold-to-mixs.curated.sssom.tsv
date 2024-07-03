@@ -9,7 +9,7 @@ GOLDVOCAB:Built-environment	Built environment	skos:exactMatch	MIXS:BuiltEnvironm
 GOLDVOCAB:Host-associated	Host-associated	skos:exactMatch	MIXS:HostAssociated	Host-Associated	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	host-associated	
 GOLDVOCAB:Sediment	Sediment	skos:exactMatch	MIXS:Sediment	Sediment	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sediment	
 GOLDVOCAB:Soil	Soil	skos:exactMatch	MIXS:Soil	Soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soil	
-GOLDVOCAB:Soil-%28non-planted%29	Soil (non-planted)	skos:exactMatch	MIXS:Soil	Soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soil	semapv:RegularExpressionReplacement
+GOLDVOCAB:Soil-_28non-planted_29	Soil (non-planted)	skos:exactMatch	MIXS:Soil	Soil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	soil	semapv:RegularExpressionReplacement
 GOLDVOCAB:Water	Water	skos:exactMatch	MIXS:Water	Water	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	water	
 GOLDTERMS:3919	Host-associated > Human > Digestive system	skos:exactMatch	MIXS:HumanGut	Human Gut	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	digestive host-associated human system	
 GOLDTERMS:3938	Host-associated > Plants	skos:exactMatch	MIXS:PlantAssociated	Plant-Associated	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	host-associated plant	semapv:RegularExpressionReplacement
