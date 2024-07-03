@@ -1,0 +1,9 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing	object_preprocessing
+GOLDVOCAB:Acidic	Acidic	skos:exactMatch	PATO:0001429	acidic	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	acidic		
+GOLDVOCAB:Aerobic	Aerobic	skos:exactMatch	PATO:0001455	aerobic	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	aerobic		
+GOLDVOCAB:Alkaline	Alkaline	skos:exactMatch	PATO:0001430	alkaline	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alkaline		
+GOLDVOCAB:Anaerobic	Anaerobic	skos:exactMatch	PATO:0001456	anaerobic	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anaerobic		
+GOLDVOCAB:Contaminated	Contaminated	skos:exactMatch	PATO:0015032	increased contamination	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	contaminated		
+GOLDVOCAB:Hot-%2842-90C%29	Hot (42-90C)	skos:exactMatch	PATO:0001305	increased temperature	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hot	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Secondary	Secondary	skos:exactMatch	PATO:0002632	secondary	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	secondary		
+

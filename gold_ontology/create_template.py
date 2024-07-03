@@ -187,7 +187,11 @@ def create_template(gold: MappingProviderInterface) -> Iterator[GoldTerm]:
             if obj.startswith("UBERON:") or obj.startswith("PO:"):
                 slot = "anatomical_site"
             elif obj.startswith("FOODON:"):
-                slot = "env_medium"
+                if "Host-associated" in label:
+                    # FOODON is also used for grouping taxa
+                    slot = "host_taxon"
+                else:
+                    slot = "env_medium"
             elif obj.startswith("MIXS:"):
                 slot = "mixs_extension"
             elif obj.startswith("NCBITaxon:"):
@@ -284,6 +288,71 @@ def write_csv(terms: List[GoldTerm]) -> None:
     writer.writeheader()
     writer.writerows(rows)
 
+def write_simple_robot_csv(terms: List[GoldTerm]) -> None:
+    """
+    Write a list of GoldTerms to a simple robot template
+
+    :param terms:
+    :return:
+    """
+    import csv
+
+    rows = []
+    cols = []
+    hmap = {
+        "id": "ID",
+    }
+    for term in terms:
+        row = {}
+        status = "partial"
+        if term.curated:
+            status = "complete"
+        for slot in vars(term):
+            if slot in ["label", "level", "curated", "parent", "vocab_differentia"]:
+                continue
+            obj = getattr(term, slot)
+            if obj is None:
+                obj = ""
+            if isinstance(obj, OntologyClass):
+                row[f"{slot}_id"] = obj.id
+                row[f"{slot}_label"] = obj.label
+                slots = [f"{slot}_id", f"{slot}_label"]
+            else:
+                row[slot] = str(obj)
+                slots = [slot]
+            for slot in slots:
+                if slot not in cols:
+                    cols.append(slot)
+        info = {}
+        for k, v in row.items():
+            if k.endswith("_id"):
+                if k not in hmap:
+                    hmap[k] = f"AI MIXS:{k.replace('_id', '')}"
+            elif k.endswith("_label"):
+                k2 = k.replace("_label", "")
+                info[k2] = v
+                if k not in hmap:
+                    hmap[k] = ""
+            elif k == "id":
+                pass
+            else:
+                if ":" in v and " " not in v:
+                    hmap[k] = f"AI MIXS:{k}"
+                else:
+                    hmap[k] = f"A MIXS:{k}"
+                if k not in hmap:
+                    hmap[k] = v
+        if info:
+            hmap["info"] = "A rdfs:comment"
+            row["info"] = yaml.dump(info).strip().replace("\n", "; ")
+            row["info"] += f"; {status}"
+
+        rows.append(row)
+
+    writer = csv.DictWriter(sys.stdout, fieldnames=hmap.keys())
+    writer.writeheader()
+    writer.writerows([hmap] + rows)
+
 @click.command()
 @click.option('-o', '--output')
 @click.option(
@@ -344,6 +413,8 @@ def cli(input: str, output: str, curated_only: bool, uncurated_only: bool, forma
         print(yaml.dump(parent, sort_keys=False))
     elif format == "csv":
         write_csv(objs)
+    elif format == "simple-robot":
+        write_simple_robot_csv(objs)
     elif format == "robot":
         write_robot_template(objs)
     else:

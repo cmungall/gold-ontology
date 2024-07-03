@@ -185,8 +185,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002126
-    label: aerobic bioreactor
+    id: PATO:0001455
+    label: aerobic
 - id: GOLDTERMS:5471
   label: Engineered > Bioreactor > Aerobic > Activated sludge
   parent: GOLDTERMS:4536
@@ -202,8 +202,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002126
-    label: aerobic bioreactor
+    id: PATO:0001455
+    label: aerobic
   curated: false
 - id: GOLDTERMS:5473
   label: Engineered > Bioreactor > Aerobic > Biofilm
@@ -240,8 +240,8 @@ terms:
     id: ENVO:00002044
     label: sludge
   other:
-    id: ENVO:00002126
-    label: aerobic bioreactor
+    id: PATO:0001455
+    label: aerobic
 - id: GOLDTERMS:4442
   label: Engineered > Bioreactor > Anaerobic
   parent: GOLDTERMS:4280
@@ -257,8 +257,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5557
   label: Engineered > Bioreactor > Anaerobic > Acid mine drainage material
   parent: GOLDTERMS:4442
@@ -274,8 +274,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:5475
   label: Engineered > Bioreactor > Anaerobic > Activated sludge
@@ -292,8 +292,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:5566
   label: Engineered > Bioreactor > Anaerobic > Biogas
@@ -313,8 +313,8 @@ terms:
     id: ENVO:01000556
     label: biogas
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5583
   label: Engineered > Bioreactor > Anaerobic > Digestate
   parent: GOLDTERMS:4442
@@ -330,8 +330,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:4912
   label: Engineered > Bioreactor > Anaerobic > Food waste
@@ -351,8 +351,8 @@ terms:
     id: ENVO:03600006
     label: food waste
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5669
   label: Engineered > Bioreactor > Anaerobic > Leachate
   parent: GOLDTERMS:4442
@@ -371,8 +371,8 @@ terms:
     id: ENVO:00002141
     label: leachate
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:4914
   label: Engineered > Bioreactor > Anaerobic > Manure
   parent: GOLDTERMS:4442
@@ -391,8 +391,8 @@ terms:
     id: ENVO:03501300
     label: manure
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5591
   label: Engineered > Bioreactor > Anaerobic > Manure > Composting
   parent: GOLDTERMS:4914
@@ -411,8 +411,8 @@ terms:
     id: ENVO:03501300
     label: manure
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:5639
   label: Engineered > Bioreactor > Anaerobic > Reservoir sediment inoculum
@@ -429,8 +429,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:5608
   label: Engineered > Bioreactor > Anaerobic > Settled granule
@@ -447,8 +447,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:5482
   label: Engineered > Bioreactor > Anaerobic > Sludge
@@ -468,8 +468,8 @@ terms:
     id: ENVO:00002044
     label: sludge
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5567
   label: Engineered > Bioreactor > Anaerobic > Sludge > Manure
   parent: GOLDTERMS:5482
@@ -488,8 +488,8 @@ terms:
     id: ENVO:03501300
     label: manure
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5699
   label: Engineered > Bioreactor > Anaerobic > Sludge > Palm oil
   parent: GOLDTERMS:5482
@@ -508,8 +508,8 @@ terms:
     id: FOODON:03310232
     label: palm oil
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater
   label: Engineered > Bioreactor > Anaerobic > Soft drink wastewater
   parent: GOLDTERMS:4442
@@ -525,8 +525,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
   curated: false
 - id: GOLDTERMS:5641
   label: Engineered > Bioreactor > Anaerobic > Soft drink wastewater > Biofilm
@@ -564,8 +564,8 @@ terms:
     id: ENVO:00002001
     label: waste water
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:4283
   label: Engineered > Bioreactor > Continuous culture
   parent: GOLDTERMS:4280
@@ -4054,7 +4054,9 @@ terms:
   env_local:
     id: ENVO:00002272
     label: waste treatment plant
-  curated: false
+  other:
+    id: PATO:0001455
+    label: aerobic
 - id: GOLDTERMS:5674
   label: Engineered > WWTP > Aerobic > Activated sludge
   parent: GOLDTERMS:Engineered-WWTP-Aerobic
@@ -4069,6 +4071,9 @@ terms:
   env_local:
     id: ENVO:00002272
     label: waste treatment plant
+  other:
+    id: PATO:0001455
+    label: aerobic
   curated: false
 - id: GOLDTERMS:Engineered-WWTP-Anaerobic-digester
   label: Engineered > WWTP > Anaerobic digester
@@ -5102,7 +5107,9 @@ terms:
   env_medium:
     id: ENVO:01001004
     label: groundwater
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:4168
   label: Environmental > Aquatic > Freshwater > Groundwater > Mine
   parent: GOLDTERMS:4165
@@ -7070,6 +7077,9 @@ terms:
   env_local:
     id: ENVO:00002030
     label: aquatic biome
+  other:
+    id: PATO:0001430
+    label: alkaline
   curated: false
 - id: GOLDTERMS:3969
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Carbonate
@@ -7082,6 +7092,9 @@ terms:
   env_local:
     id: ENVO:00002030
     label: aquatic biome
+  other:
+    id: PATO:0001430
+    label: alkaline
   curated: false
 - id: GOLDTERMS:3967
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Microbial
@@ -7111,6 +7124,9 @@ terms:
   env_local:
     id: ENVO:00002030
     label: aquatic biome
+  other:
+    id: PATO:0001430
+    label: alkaline
   curated: false
 - id: GOLDTERMS:3968
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Sediment
@@ -7129,6 +7145,9 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  other:
+    id: PATO:0001430
+    label: alkaline
   curated: false
 - id: GOLDTERMS:4695
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Fracking water
@@ -7249,6 +7268,9 @@ terms:
   env_local:
     id: ENVO:00002030
     label: aquatic biome
+  other:
+    id: PATO:0001430
+    label: alkaline
   curated: false
 - id: GOLDTERMS:3973
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline
@@ -7459,7 +7481,9 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
-  curated: false
+  other:
+    id: PATO:0001305
+    label: increased temperature
 - id: GOLDTERMS:3995
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Acidic
   parent: GOLDTERMS:3992
@@ -7471,7 +7495,9 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
-  curated: false
+  other:
+    id: PATO:0001429
+    label: acidic
 - id: GOLDTERMS:3994
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Alkaline
   parent: GOLDTERMS:3992
@@ -7483,7 +7509,9 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
-  curated: false
+  other:
+    id: PATO:0001430
+    label: alkaline
 - id: GOLDTERMS:4655
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Microbial mats
   parent: GOLDTERMS:3992
@@ -7498,7 +7526,6 @@ terms:
   other:
     id: ENVO:01000008
     label: microbial mat
-  curated: false
 - id: GOLDTERMS:3998
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Neutral
   parent: GOLDTERMS:3992
@@ -7510,6 +7537,9 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
+  other:
+    id: PATO:0001305
+    label: increased temperature
   curated: false
 - id: GOLDTERMS:3997
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Sediment
@@ -7528,7 +7558,9 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
-  curated: false
+  other:
+    id: PATO:0001305
+    label: increased temperature
 - id: GOLDTERMS:4818
   label: Environmental > Aquatic > Thermal springs > Near-boiling (>90C)
   parent: GOLDTERMS:3991
@@ -7552,6 +7584,9 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
+  other:
+    id: PATO:0001430
+    label: alkaline
   curated: false
 - id: GOLDTERMS:3999
   label: Environmental > Aquatic > Thermal springs > Sediment
@@ -7623,6 +7658,9 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
+  other:
+    id: PATO:0001429
+    label: acidic
   curated: false
 - id: GOLDTERMS:3987
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C) > Neutral
@@ -8305,7 +8343,9 @@ terms:
   env_medium:
     id: ENVO:00005802
     label: bulk soil
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:5585
   label: Environmental > Terrestrial > Soil > Bulk soil > Meadow
   parent: GOLDTERMS:5780
@@ -8394,7 +8434,9 @@ terms:
   env_medium:
     id: ENVO:00002982
     label: clay
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:4228
   label: Environmental > Terrestrial > Soil > Clay > Grasslands
   parent: GOLDTERMS:4229
@@ -8620,7 +8662,9 @@ terms:
   env_medium:
     id: ENVO:00002258
     label: loam
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:4239
   label: Environmental > Terrestrial > Soil > Loam > Forest soil
   parent: GOLDTERMS:4241
@@ -8845,6 +8889,9 @@ terms:
   env_medium:
     id: ENVO:00001998
     label: soil
+  other:
+    id: PATO:0015032
+    label: increased contamination
   curated: false
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Pasture
   label: Environmental > Terrestrial > Soil > Pasture
@@ -9287,7 +9334,9 @@ terms:
   host_taxon:
     id: NCBITaxon:12908
     label: unclassified sequences
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:5792
   label: Environmental > Terrestrial > Soil > Unclassified > Creek
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -10799,6 +10848,9 @@ terms:
   host_taxon:
     id: NCBITaxon:6656
     label: Arthropoda
+  other:
+    id: PATO:0002632
+    label: secondary
   curated: false
 - id: GOLDTERMS:5202
   label: Host-associated > Arthropoda > Lobster

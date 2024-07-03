@@ -59,6 +59,8 @@ gold.vocab:Thoracic-segments	insect thoracic segment
 gold.vocab:Oral-fluid	oral cavity
 gold.vocab:Engineered	human construction
 gold.vocab:Pulp-and-paper-wastewater	pulp-bleaching waste water
+gold.vocab:Paddy-field/soil	paddy field soil
+gold.vocab:Manure-fertilized	manure
 
 
 

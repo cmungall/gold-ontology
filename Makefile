@@ -1,6 +1,6 @@
 RUN = poetry run
 OBO = http://purl.obolibrary.org/obo
-MAPPED_ONTS = envo po uberon obi foodon ncbitaxon fao mixs
+MAPPED_ONTS = envo po uberon obi foodon ncbitaxon fao mixs pato
 #MAPPINGS = mappings/gold-to-envo.curated.sssom.tsv 
 
 CURATED_MAPPING_FILES = $(patsubst %,mappings/gold-to-%.curated.sssom.tsv,$(MAPPED_ONTS))
@@ -13,14 +13,14 @@ test:
 ## Ontology Build ##
 
 CODE = gold_ontology/gold_transform.py
-gold.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv $(CURATED_MAPPING_FILES)
+gold_pre.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv $(CURATED_MAPPING_FILES)
 	$(RUN) python $(CODE) -s config/gold-env-synonyms.tsv $(patsubst %,-m %,$(CURATED_MAPPING_FILES))  $< -o $@
 gold-no-mappings.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv 
 	$(RUN) python $(CODE) -s config/gold-env-synonyms.tsv   $< -o $@
-.PRECIOUS: gold.ofn
+.PRECIOUS: gold_pre.ofn
 
-gold.owl: gold.ofn
-	robot relax -i $< reason -r elk -o $@
+gold.owl: gold_pre.ofn
+	robot merge -i $< -i gold_definitions_simple.owl relax reason -r elk -o $@
 .PRECIOUS: gold.owl
 
 gold.json: gold.owl
@@ -44,11 +44,21 @@ gold_definitions.yaml: gold.obo
 	$(RUN) create-template simpleobo:$< -t gold_definitions.csv > $@.tmp && mv $@.tmp $@
 
 gold_definitions_propagated.yaml: gold.obo
-	$(RUN) create-template simpleobo:$< -t gold_definitions.csv --propagate > $@.tmp && mv $@.tmp $@
+	$(RUN) create-template simpleobo:$<  --propagate > $@.tmp && mv $@.tmp $@
 
 gold_definitions_propagated.csv: gold.obo
-	$(RUN) create-template simpleobo:$< -t gold_definitions.csv --propagate -f csv > $@.tmp && mv $@.tmp $@
+	$(RUN) create-template simpleobo:$<  --propagate -f csv > $@.tmp && mv $@.tmp $@
 
+gold_definitions_simple.csv: gold.obo
+	$(RUN) create-template simpleobo:$<  --propagate -f simple-robot > $@.tmp && mv $@.tmp $@
+gold_definitions_simple.owl: gold_definitions_simple.csv
+	robot template -t $< -o $@ -p "GOLDTERMS: https://w3id.org/gold.path/" -p "MIXS: https://w3id.org/mixs/"
+
+
+# Atomated mappings.
+# Note that the curated versions of these have file pattern X.curated.csv;
+# these get incorporated into gold.obo, and hence are excluded when we ask for *new* mappings
+# (via --exclude-mapped)
 all_mappings: $(patsubst %,mappings/gold-to-%.sssom.tsv,$(MAPPED_ONTS))
 
 
@@ -75,12 +85,16 @@ mappings/gold-to-obi.sssom.tsv: gold.obo
 mappings/gold-to-foodon.sssom.tsv: gold.obo
 	runoak -i simpleobo:$< -a sqlite:obo:foodon lexmatch $(LEX_ARGS) i^GOLD @ i^FOODON: > $@.tmp && mv $@.tmp $@
 
+mappings/gold-to-pato.sssom.tsv: gold.obo
+	runoak -i simpleobo:$< -a sqlite:obo:pato lexmatch $(LEX_ARGS) i^GOLD @ i^PATO: > $@.tmp && mv $@.tmp $@
+
 mappings/gold-to-mixs.sssom.tsv: gold.obo
 	runoak -i simpleobo:$< -a simpleobo:data/mixs-extensions.obo lexmatch $(LEX_ARGS) i^GOLD @ i^MIXS: > $@.tmp && mv $@.tmp $@
 
 #mappings/gold-to-mixs-packages.sssom.tsv:
 #	runoak -i $(DB)/goldterms.db -a sqlite:obo:envo lexmatch $(LEX_ARGS) i^ENVO: @ i^GOLD > $@.tmp && mv $@.tmp $@
 
+# note that the CSV already has the ROBOT template
 gold_definitions.owl: gold_definitions.csv
 	robot template -t gold_definitions.csv -o $@ -p "GOLDTERMS: https://w3id.org/gold.path/" -p "MIXS: $(OBO)/MIXS_"
 

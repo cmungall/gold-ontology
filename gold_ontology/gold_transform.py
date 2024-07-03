@@ -1,4 +1,5 @@
 import csv
+import re
 from collections import defaultdict
 from copy import copy
 
@@ -34,7 +35,11 @@ def make_label(row: List[str], sep=' > ', rev=False) -> Label:
 
 
 def safe_id(atom: str) -> str:
-    return urllib.parse.quote(atom.replace(' ', '-'))
+    #atom = atom.replace("(", "")
+    #atom = atom.replace(")", "")
+    safe = urllib.parse.quote(atom.replace(' ', '-'))
+    safe = safe.replace('%', '_')
+    return safe
 
 
 def make_uri(id: str) -> str:
@@ -273,7 +278,9 @@ def cli(input: str, output: str, synonyms: str, mappings: Tuple[str]):
         for mappings_file in mappings:
             parse_sssom(doc, mappings_file)
     with open(output, 'w') as stream:
-        stream.write(str(doc))
+        owl_str = str(doc)
+        # owl_str = re.sub(r'<(\S+)>', r'$\1', owl_str)
+        stream.write(owl_str)
 
 
 if __name__ == '__main__':

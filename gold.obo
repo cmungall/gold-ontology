@@ -1,12 +1,7 @@
 format-version: 1.2
 idspace: GOLDTERMS https://w3id.org/gold.path/ 
 idspace: GOLDVOCAB https://w3id.org/gold.vocab/ 
-idspace: owl http://www.w3.org/2002/07/owl# 
-idspace: rdf http://www.w3.org/1999/02/22-rdf-syntax-ns# 
-idspace: rdfs http://www.w3.org/2000/01/rdf-schema# 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
-idspace: xml http://www.w3.org/XML/1998/namespace 
-idspace: xsd http://www.w3.org/2001/XMLSchema# 
 ontology: gold
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<https://w3id.org/gold.path/AtomicElement>))\nDeclaration(Class(<https://w3id.org/gold.path/3964>))\nDeclaration(Class(<https://w3id.org/gold.path/4086>))\nDeclaration(Class(<https://w3id.org/gold.path/4292>))\nDeclaration(Class(<https://w3id.org/gold.vocab/Engineered>))\nDeclaration(Class(<https://w3id.org/gold.vocab/Environmental>))\nDeclaration(Class(<https://w3id.org/gold.vocab/Host-associated>))\nDeclaration(ObjectProperty(<https://w3id.org/gold.vocab/ECOSYSTEM-PATH-ID>))\n\n############################\n#   Classes\n############################\n\n# Class: <https://w3id.org/gold.path/AtomicElement> (<https://w3id.org/gold.path/AtomicElement>)\n\nSubClassOf(<https://w3id.org/gold.path/AtomicElement> owl:Thing)\n\n# Class: <https://w3id.org/gold.path/3964> (<https://w3id.org/gold.path/3964>)\n\nEquivalentClasses(<https://w3id.org/gold.path/3964> ObjectSomeValuesFrom(<https://w3id.org/gold.vocab/ECOSYSTEM-PATH-ID> <https://w3id.org/gold.vocab/Environmental>))\nSubClassOf(<https://w3id.org/gold.path/3964> owl:Thing)\n\n# Class: <https://w3id.org/gold.path/4086> (<https://w3id.org/gold.path/4086>)\n\nEquivalentClasses(<https://w3id.org/gold.path/4086> ObjectSomeValuesFrom(<https://w3id.org/gold.vocab/ECOSYSTEM-PATH-ID> <https://w3id.org/gold.vocab/Host-associated>))\nSubClassOf(<https://w3id.org/gold.path/4086> owl:Thing)\n\n# Class: <https://w3id.org/gold.path/4292> (<https://w3id.org/gold.path/4292>)\n\nEquivalentClasses(<https://w3id.org/gold.path/4292> ObjectSomeValuesFrom(<https://w3id.org/gold.vocab/ECOSYSTEM-PATH-ID> <https://w3id.org/gold.vocab/Engineered>))\nSubClassOf(<https://w3id.org/gold.path/4292> owl:Thing)\n\n\n)
 name: gold
@@ -18492,6 +18487,7 @@ property_value: skos:inScheme GOLDTERMS:Engineered
 id: GOLDVOCAB:Acidic
 name: Acidic
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0001429 {name="acidic"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -18511,6 +18507,7 @@ property_value: skos:inScheme GOLDTERMS:Engineered
 id: GOLDVOCAB:Aerobic
 name: Aerobic
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0001455 {name="aerobic"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
@@ -18593,6 +18590,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Alkaline
 name: Alkaline
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0001430 {name="alkaline"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -18639,6 +18637,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Anaerobic
 name: Anaerobic
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0001456 {name="anaerobic"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
@@ -19432,6 +19431,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Contaminated
 name: Contaminated
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0015032 {name="increased contamination"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -20518,6 +20518,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Hot-%2842-90C%29
 name: Hot (42-90C)
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0001305 {name="increased temperature"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -20983,6 +20984,7 @@ property_value: skos:inScheme GOLDTERMS:Engineered
 [Term]
 id: GOLDVOCAB:Manure-fertilized
 name: Manure-fertilized
+synonym: "manure" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Environmental
 
@@ -21623,6 +21625,7 @@ property_value: skos:inScheme GOLDTERMS:Engineered
 [Term]
 id: GOLDVOCAB:Paddy-field/soil
 name: Paddy field/soil
+synonym: "paddy field soil" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Environmental
 
@@ -22313,6 +22316,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Secondary
 name: Secondary
 is_a: GOLDTERMS:AtomicElement
+xref: PATO:0002632 {name="secondary"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]

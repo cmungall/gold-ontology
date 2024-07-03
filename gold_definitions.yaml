@@ -92,8 +92,8 @@ terms:
   level: 3
   vocab_differentia: GOLDVOCAB:Aerobic
   other:
-    id: ENVO:00002126
-    label: aerobic bioreactor
+    id: PATO:0001455
+    label: aerobic
 - id: GOLDTERMS:5471
   label: Engineered > Bioreactor > Aerobic > Activated sludge
   parent: GOLDTERMS:4536
@@ -122,8 +122,8 @@ terms:
   level: 3
   vocab_differentia: GOLDVOCAB:Anaerobic
   other:
-    id: ENVO:00002124
-    label: anaerobic bioreactor
+    id: PATO:0001456
+    label: anaerobic
 - id: GOLDTERMS:5557
   label: Engineered > Bioreactor > Anaerobic > Acid mine drainage material
   parent: GOLDTERMS:4442
@@ -1932,7 +1932,9 @@ terms:
   parent: GOLDTERMS:Engineered-WWTP
   level: 3
   vocab_differentia: GOLDVOCAB:Aerobic
-  curated: false
+  other:
+    id: PATO:0001455
+    label: aerobic
 - id: GOLDTERMS:5674
   label: Engineered > WWTP > Aerobic > Activated sludge
   parent: GOLDTERMS:Engineered-WWTP-Aerobic
@@ -2449,7 +2451,9 @@ terms:
   parent: GOLDTERMS:4165
   level: 5
   vocab_differentia: GOLDVOCAB:Contaminated
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:4168
   label: Environmental > Aquatic > Freshwater > Groundwater > Mine
   parent: GOLDTERMS:4165
@@ -3623,7 +3627,9 @@ terms:
   parent: GOLDTERMS:3970
   level: 4
   vocab_differentia: GOLDVOCAB:Alkaline
-  curated: false
+  other:
+    id: PATO:0001430
+    label: alkaline
 - id: GOLDTERMS:3969
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Carbonate
   parent: GOLDTERMS:3966
@@ -3722,7 +3728,9 @@ terms:
   parent: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29
   level: 5
   vocab_differentia: GOLDVOCAB:Alkaline
-  curated: false
+  other:
+    id: PATO:0001430
+    label: alkaline
 - id: GOLDTERMS:3973
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline
   parent: GOLDTERMS:3970
@@ -3847,19 +3855,25 @@ terms:
   parent: GOLDTERMS:3991
   level: 4
   vocab_differentia: GOLDVOCAB:Hot-%2842-90C%29
-  curated: false
+  other:
+    id: PATO:0001305
+    label: increased temperature
 - id: GOLDTERMS:3995
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Acidic
   parent: GOLDTERMS:3992
   level: 5
   vocab_differentia: GOLDVOCAB:Acidic
-  curated: false
+  other:
+    id: PATO:0001429
+    label: acidic
 - id: GOLDTERMS:3994
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Alkaline
   parent: GOLDTERMS:3992
   level: 5
   vocab_differentia: GOLDVOCAB:Alkaline
-  curated: false
+  other:
+    id: PATO:0001430
+    label: alkaline
 - id: GOLDTERMS:4655
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Microbial mats
   parent: GOLDTERMS:3992
@@ -3896,7 +3910,9 @@ terms:
   parent: GOLDTERMS:4818
   level: 5
   vocab_differentia: GOLDVOCAB:Alkaline
-  curated: false
+  other:
+    id: PATO:0001430
+    label: alkaline
 - id: GOLDTERMS:3999
   label: Environmental > Aquatic > Thermal springs > Sediment
   parent: GOLDTERMS:3991
@@ -3936,7 +3952,9 @@ terms:
   parent: GOLDTERMS:3986
   level: 5
   vocab_differentia: GOLDVOCAB:Acidic
-  curated: false
+  other:
+    id: PATO:0001429
+    label: acidic
 - id: GOLDTERMS:3987
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C) > Neutral
   parent: GOLDTERMS:3986
@@ -4323,7 +4341,9 @@ terms:
   parent: GOLDTERMS:5780
   level: 5
   vocab_differentia: GOLDVOCAB:Contaminated
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:5585
   label: Environmental > Terrestrial > Soil > Bulk soil > Meadow
   parent: GOLDTERMS:5780
@@ -4361,7 +4381,9 @@ terms:
   parent: GOLDTERMS:4229
   level: 5
   vocab_differentia: GOLDVOCAB:Contaminated
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:4228
   label: Environmental > Terrestrial > Soil > Clay > Grasslands
   parent: GOLDTERMS:4229
@@ -4464,7 +4486,9 @@ terms:
   parent: GOLDTERMS:4241
   level: 5
   vocab_differentia: GOLDVOCAB:Contaminated
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:4239
   label: Environmental > Terrestrial > Soil > Loam > Forest soil
   parent: GOLDTERMS:4241
@@ -4554,7 +4578,9 @@ terms:
   parent: GOLDTERMS:5613
   level: 5
   vocab_differentia: GOLDVOCAB:Contaminated
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Pasture
   label: Environmental > Terrestrial > Soil > Pasture
   parent: GOLDTERMS:4212
@@ -4759,7 +4785,9 @@ terms:
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
   level: 5
   vocab_differentia: GOLDVOCAB:Contaminated
-  curated: false
+  other:
+    id: PATO:0015032
+    label: increased contamination
 - id: GOLDTERMS:5792
   label: Environmental > Terrestrial > Soil > Unclassified > Creek
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -5546,7 +5574,9 @@ terms:
   parent: GOLDTERMS:4078
   level: 4
   vocab_differentia: GOLDVOCAB:Secondary
-  curated: false
+  other:
+    id: PATO:0002632
+    label: secondary
 - id: GOLDTERMS:5202
   label: Host-associated > Arthropoda > Lobster
   parent: GOLDTERMS:3901
