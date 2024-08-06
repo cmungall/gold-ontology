@@ -357,6 +357,12 @@ GOLDVOCAB:Oil-seeps	Oil seeps	skos:exactMatch	ENVO:00002063	oil seep	semapv:Lexi
 GOLDVOCAB:Thermal-springs	Thermal springs	skos:exactMatch	ENVO:00000051	hot spring	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	thermal spring	semapv:RegularExpressionReplacement	
 GOLDVOCAB:Wetlands	Wetlands	skos:exactMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 GOLDVOCAB:Environmental	Environmental	skos:exactMatch	ENVO:01000254	environmental system	semapv:ManuallyCurated	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDTERMS:4562	Environmental > Aquatic > Freshwater > Subterranean lake	skos:exactMatch	ENVO:02000145	subterranean lake	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	subterranean lake		
+GOLDTERMS:5364	Environmental > Aquatic > Marine > Intertidal zone > Mangrove sediment	skos:exactMatch	ENVO:02000152	mangrove biome sediment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mangrove sediment		
+GOLDTERMS:5536	Engineered > Wastewater > Industrial wastewater > Organic dairy farm	skos:exactMatch	ENVO:02000156	organic dairy farm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	organic dairy farm		
+GOLDTERMS:5747	Environmental > Aquatic > Freshwater > Puddle	skos:exactMatch	ENVO:01000871	puddle of water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	puddle		
+GOLDTERMS:Engineered-Wastewater-Municipal-landfill	Engineered > Wastewater > Municipal landfill	skos:exactMatch	ENVO:02000157	municipal landfill	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	municipal landfill		
+GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs	Environmental > Aquatic > Freshwater > Desert springs	skos:closeMatch	ENVO:02000139	desert spring	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	desert spring	semapv:RegularExpressionReplacement	
 GOLDTERMS:4034	Environmental > Aquatic > Marine > Neritic zone	skos:exactMatch	ENVO:00000206	marine neritic zone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	marine neritic zone		
 GOLDTERMS:4179	Environmental > Aquatic > Freshwater > Lake	skos:exactMatch	ENVO:00000021	freshwater lake	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	freshwater lake		
 GOLDTERMS:4202	Environmental > Terrestrial > Soil > Sand > Desert	skos:exactMatch	ENVO:00005800	desert sand	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	desert sand		
@@ -370,6 +376,8 @@ GOLDTERMS:4564	Environmental > Aquatic > Marine > Sediment	skos:exactMatch	ENVO:
 GOLDTERMS:4711	Environmental > Terrestrial > Soil > Biocrust	skos:exactMatch	ENVO:01000910	soil biocrust	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	biocrust soil		
 GOLDTERMS:4822	Environmental > Terrestrial > Cave > Wall	skos:exactMatch	ENVO:00002144	cave wall	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cave wall		
 GOLDTERMS:5482	Engineered > Bioreactor > Anaerobic > Sludge	skos:exactMatch	ENVO:00002129	anaerobic sludge	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anaerobic sludge		
+GOLDTERMS:4266	Engineered > Wastewater > Industrial wastewater > Pulp and paper wastewater	skos:closeMatch	ENVO:00002193	pulp-bleaching waste water	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	pulp and paper wastewater		
+GOLDTERMS:4276	Engineered > Solid waste	skos:closeMatch	ENVO:02000155	solid waste material	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	solid waste		
 GOLDTERMS:5803	Environmental > Terrestrial > Soil > Peat	skos:exactMatch	ENVO:00005774	peat soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	peat soil		
 GOLDTERMS:5822	Environmental > Terrestrial > Soil > Organic layer	skos:exactMatch	ENVO:03600018	organic horizon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	layer organic soil		
 GOLDTERMS:Environmental-Aquatic-Marine-Benthic	Environmental > Aquatic > Marine > Benthic	skos:closeMatch	ENVO:01000024	marine benthic biome	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	benthic marine		semapv:RegularExpressionReplacement
@@ -391,3 +399,13 @@ GOLDVOCAB:Thermokarst-pond	Thermokarst pond	skos:exactMatch	ENVO:03000085	thermo
 GOLDVOCAB:Wastewater	Wastewater	skos:exactMatch	ENVO:00002001	waste water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	waste water		
 GOLDVOCAB:Engineered	Engineered	skos:closeMatch	ENVO:01000313	anthropogenic environment	semapv:ManuallyCurated	cjm	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	plant	semapv:RegularExpressionReplacement
 GOLDVOCAB:Built-environment	Built environment	skos:closeMatch	ENVO:01000313	built environment	semapv:ManuallyCurated	cjm	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	plant	semapv:RegularExpressionReplacement
+GOLDVOCAB:Desert-springs	Desert springs	skos:closeMatch	ENVO:02000139	desert spring	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	desert spring	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Mangrove-sediment	Mangrove sediment	skos:exactMatch	ENVO:02000152	mangrove biome sediment	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mangrove sediment		
+GOLDVOCAB:Municipal-landfill	Municipal landfill	skos:exactMatch	ENVO:02000157	municipal landfill	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	municipal landfill		
+GOLDVOCAB:Organic-dairy-farm	Organic dairy farm	skos:exactMatch	ENVO:02000156	organic dairy farm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	organic dairy farm		
+GOLDVOCAB:Paddy-field/soil	Paddy field/soil	skos:exactMatch	ENVO:00005740	paddy field soil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	paddy field soil		
+GOLDVOCAB:Pulp-and-paper-wastewater	Pulp and paper wastewater	skos:closeMatch	ENVO:00002193	pulp-bleaching waste water	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	pulp and paper wastewater		
+GOLDVOCAB:Pulp-and-paper-wastewater	Pulp and paper wastewater	skos:exactMatch	ENVO:00002193	pulp-bleaching waste water	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pulp-bleaching waste water		
+GOLDVOCAB:Solar-panel	Solar panel	skos:exactMatch	ENVO:01000867	solar panel array	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	solar panel array		
+GOLDVOCAB:Solid-waste	Solid waste	skos:closeMatch	ENVO:02000155	solid waste material	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	solid waste		
+GOLDVOCAB:Subterranean-lake	Subterranean lake	skos:exactMatch	ENVO:02000145	subterranean lake	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	subterranean lake		

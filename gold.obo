@@ -6248,6 +6248,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Pulp-and-paper-wastewater ! Pul
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_medium ENVO:01000964
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
+xref: ENVO:00002193 {name="pulp-bleaching waste water"}
 
 [Term]
 id: GOLDTERMS:4267
@@ -6378,6 +6379,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Solid-waste ! Solid waste
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
+xref: ENVO:02000155 {name="solid waste material"}
 
 [Term]
 id: GOLDTERMS:4277
@@ -8691,6 +8693,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Subterranean-lake ! Subterranea
 property_value: mixs:env_broad ENVO:01000254
 property_value: mixs:env_local ENVO:00002030
 property_value: mixs:env_medium ENVO:00002011
+xref: ENVO:02000145 {name="subterranean lake"}
 
 [Term]
 id: GOLDTERMS:4564
@@ -15564,6 +15567,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Mangrove-sediment ! Mangrove
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Intertidal-zone ! Intertidal zone
 property_value: mixs:env_broad ENVO:01000254
 property_value: mixs:env_local ENVO:00000316
+xref: ENVO:02000152 {name="mangrove biome sediment"}
 
 [Term]
 id: GOLDTERMS:5367
@@ -17389,6 +17393,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Organic-dairy-farm ! Organic da
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_medium ENVO:01000964
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
+xref: ENVO:02000156 {name="organic dairy farm"}
 
 [Term]
 id: GOLDTERMS:5539
@@ -19634,6 +19639,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Puddle ! Puddle
 property_value: mixs:env_broad ENVO:01000254
 property_value: mixs:env_local ENVO:01000871
 property_value: mixs:env_medium ENVO:00002011
+xref: ENVO:01000871 {name="puddle of water"}
 
 [Term]
 id: GOLDTERMS:5748
@@ -21790,6 +21796,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
+xref: ENVO:02000157 {name="municipal landfill"}
 
 [Term]
 id: GOLDTERMS:Environmental-Air-Indoor-Air-Air-scrubber
@@ -21868,6 +21875,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Desert-springs ! Desert springs
 property_value: mixs:env_broad ENVO:01000254
 property_value: mixs:env_local ENVO:00002030
 property_value: mixs:env_medium ENVO:00002011
+xref: ENVO:02000139 {name="desert spring"}
 
 [Term]
 id: GOLDTERMS:Environmental-Aquatic-Marine-Aquifer
@@ -23158,7 +23166,9 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Anthosphere
 name: Anthosphere
+synonym: "flower" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0009046 {name="flower"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -23235,6 +23245,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 [Term]
 id: GOLDVOCAB:Ascidians
 name: Ascidians
+synonym: "Ascidiacea" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
@@ -23242,6 +23253,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Ascites
 name: Ascites
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:0007795 {name="ascitic fluid"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -23617,6 +23629,7 @@ property_value: skos:inScheme GOLDTERMS:Engineered
 id: GOLDVOCAB:Bulb
 name: Bulb
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:0001896 {name="medulla oblongata"}
 xref: PO:0025356 {name="bulb"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
@@ -23659,13 +23672,17 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Carposphere
 name: Carposphere
+synonym: "fruit" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0009001 {name="fruit"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
 id: GOLDVOCAB:Caulosphere
 name: Caulosphere
+synonym: "stem" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0009047 {name="stem"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -23835,6 +23852,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Cob
 name: Cob
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0025623 {name="ear infructescence axis"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -24088,6 +24106,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Desert-springs
 name: Desert springs
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:02000139 {name="desert spring"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -24158,6 +24177,7 @@ id: GOLDVOCAB:Drinking-water
 name: Drinking water
 is_a: GOLDTERMS:AtomicElement
 xref: ENVO:00003064 {name="drinking water"}
+xref: FOODON:03301647 {name="drinking water (purified)"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 property_value: skos:inScheme GOLDTERMS:Environmental
 
@@ -24397,6 +24417,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 [Term]
 id: GOLDVOCAB:Fecal
 name: Fecal
+synonym: "faeces" EXACT []
 synonym: "feces" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Host-associated
@@ -24503,6 +24524,7 @@ id: GOLDVOCAB:Fish
 name: Fish
 is_a: GOLDTERMS:AtomicElement
 xref: FOODON:03411222 {name="fish"}
+xref: NCBITaxon:7777 {name="Chondrichthyes"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -24656,6 +24678,7 @@ id: GOLDVOCAB:Galls
 name: Galls
 synonym: "plant gall" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0025626 {name="plant gall"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -24836,7 +24859,9 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Gymnolaemates
 name: Gymnolaemates
+synonym: "Gymnolaemata" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: NCBITaxon:10206 {name="Gymnolaemata"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -25106,7 +25131,6 @@ name: Insecta
 is_a: GOLDTERMS:AtomicElement
 xref: NCBITaxon:50557 {name="Insecta"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
-xref: FOODON:03411220 {name="insect"}
 
 [Term]
 id: GOLDVOCAB:Integument
@@ -25251,6 +25275,7 @@ id: GOLDVOCAB:Larvae
 name: Larvae
 synonym: "larva" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:0002548 {name="larva"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -25393,6 +25418,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Macrophytes
 name: Macrophytes
+synonym: "plant in water" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
@@ -25407,6 +25433,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Mangrove-sediment
 name: Mangrove sediment
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:02000152 {name="mangrove biome sediment"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -25723,7 +25750,6 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Moth
 name: Moth
 is_a: GOLDTERMS:AtomicElement
-xref: FOODON:03414644 {name="moth"}
 xref: NCBITaxon:7088 {name="Lepidoptera"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
@@ -25751,6 +25777,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Municipal-landfill
 name: Municipal landfill
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:02000157 {name="municipal landfill"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
@@ -25786,6 +25813,7 @@ id: GOLDVOCAB:Nasopharyngeal
 name: Nasopharyngeal
 synonym: "nasopharynx" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:0001728 {name="nasopharynx"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -25820,6 +25848,7 @@ id: GOLDVOCAB:Nephridia
 name: Nephridia
 synonym: "nephridium" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:0006972 {name="nephridium"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -26019,6 +26048,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Organic-dairy-farm
 name: Organic dairy farm
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:02000156 {name="organic dairy farm"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
@@ -26077,6 +26107,7 @@ id: GOLDVOCAB:Paddy-field/soil
 name: Paddy field/soil
 synonym: "paddy field soil" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:00005740 {name="paddy field soil"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -26137,7 +26168,9 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 [Term]
 id: GOLDVOCAB:Peat-moss
 name: Peat moss
+synonym: "Sphagnum" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: NCBITaxon:13804 {name="Sphagnum"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -26261,12 +26294,15 @@ property_value: skos:inScheme GOLDTERMS:Engineered
 [Term]
 id: GOLDVOCAB:Phylloplane/Leaf-surface
 name: Phylloplane/Leaf surface
+synonym: "leaf suface" EXACT []
+synonym: "phylloplane" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
 id: GOLDVOCAB:Phyllosphere
 name: Phyllosphere
+synonym: "above-ground surfaces of plant" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
@@ -26459,6 +26495,8 @@ id: GOLDVOCAB:Pulp-and-paper-wastewater
 name: Pulp and paper wastewater
 synonym: "pulp-bleaching waste water" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:00002193 {name="pulp-bleaching waste water"}
+xref: ENVO:00002193 {name="pulp-bleaching waste water"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
@@ -26732,7 +26770,9 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Sea-cucumber
 name: Sea cucumber
+synonym: "Holothuroidea" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: NCBITaxon:7705 {name="Holothuroidea"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -26782,6 +26822,7 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Seed-radicle
 name: Seed radicle
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0020031 {name="seed radicle"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -26923,6 +26964,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Slime
 name: Slime
+synonym: "mucus" EXACT []
 is_a: GOLDTERMS:AtomicElement
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
@@ -26992,12 +27034,14 @@ id: GOLDVOCAB:Solar-panel
 name: Solar panel
 synonym: "solar panel array" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:01000867 {name="solar panel array"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
 id: GOLDVOCAB:Solid-waste
 name: Solid waste
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:02000155 {name="solid waste material"}
 property_value: skos:inScheme GOLDTERMS:Engineered
 
 [Term]
@@ -27071,6 +27115,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Stem-tuber
 name: Stem tuber
 is_a: GOLDTERMS:AtomicElement
+xref: PO:0025522 {name="tuber"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -27130,6 +27175,7 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 id: GOLDVOCAB:Subterranean-lake
 name: Subterranean lake
 is_a: GOLDTERMS:AtomicElement
+xref: ENVO:02000145 {name="subterranean lake"}
 property_value: skos:inScheme GOLDTERMS:Environmental
 
 [Term]
@@ -27167,7 +27213,9 @@ property_value: skos:inScheme GOLDTERMS:Host-associated
 [Term]
 id: GOLDVOCAB:Surface
 name: Surface
+synonym: "anatomical surface" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:0002416 {name="integumental system"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]
@@ -27304,6 +27352,7 @@ id: GOLDVOCAB:Thoracic-segments
 name: Thoracic segments
 synonym: "insect thoracic segment" EXACT []
 is_a: GOLDTERMS:AtomicElement
+xref: UBERON:6000016 {name="insect thoracic segment"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 
 [Term]

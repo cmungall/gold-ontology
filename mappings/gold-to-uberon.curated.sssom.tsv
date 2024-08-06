@@ -197,4 +197,11 @@ GOLDVOCAB:tongue-dorsum	tongue dorsum	skos:exactMatch	UBERON:0009471	dorsum of t
 GOLDTERMS:3909	Host-associated > Human > Digestive system > Oral cavity > Palatine tonsils	skos:exactMatch	UBERON:0002373	palatine tonsil	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	palatine tonsil	semapv:RegularExpressionReplacement	
 GOLDVOCAB:Glands	Glands	skos:exactMatch	UBERON:0002530	gland	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	gland	semapv:RegularExpressionReplacement	
 GOLDVOCAB:Palatine-tonsils	Palatine tonsils	skos:exactMatch	UBERON:0002373	palatine tonsil	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	palatine tonsil	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Ascites	Ascites	skos:closeMatch	UBERON:0007795	ascitic fluid	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	ascite	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Bulb	Bulb	skos:broadMatch	UBERON:0001896	medulla oblongata	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	bulb		
+GOLDVOCAB:Larvae	Larvae	skos:exactMatch	UBERON:0002548	larva	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	larva		
+GOLDVOCAB:Nasopharyngeal	Nasopharyngeal	skos:exactMatch	UBERON:0001728	nasopharynx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nasopharynx		
+GOLDVOCAB:Nephridia	Nephridia	skos:exactMatch	UBERON:0006972	nephridium	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nephridium		
+GOLDVOCAB:Surface	Surface	skos:closeMatch	UBERON:0002416	integumental system	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	surface		
+GOLDVOCAB:Thoracic-segments	Thoracic segments	skos:exactMatch	UBERON:6000016	insect thoracic segment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	insect thoracic segment		
 

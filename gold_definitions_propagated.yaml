@@ -127,7 +127,7 @@ terms:
     > Soil (non-planted)
   parent: GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media
   level: 5
-  vocab_differentia: GOLDVOCAB:Soil-%28non-planted%29
+  vocab_differentia: GOLDVOCAB:Soil-_28non-planted_29
   mixs_extension:
     id: MIXS:Soil
     label: MIXS:Soil
@@ -1206,7 +1206,7 @@ terms:
   label: Engineered > Bioremediation > Persistent organic pollutants (POP)
   parent: GOLDTERMS:4304
   level: 3
-  vocab_differentia: GOLDVOCAB:Persistent-organic-pollutants-%28POP%29
+  vocab_differentia: GOLDVOCAB:Persistent-organic-pollutants-_28POP_29
   mixs_extension:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
@@ -1756,8 +1756,8 @@ terms:
     id: ENVO:03600004
     label: drinking water treatment plant
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
 - id: GOLDTERMS:5493
   label: Engineered > Built environment > Drinking water treatment plant > Drinking
     water filter
@@ -2129,7 +2129,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  curated: false
+  other:
+    id: ENVO:01000867
+    label: solar panel array
 - id: GOLDTERMS:4635
   label: Engineered > Built environment > Spacecraft Assembly Cleanrooms
   parent: GOLDTERMS:4279
@@ -2631,7 +2633,7 @@ terms:
     label: anthropogenic environment
   env_medium:
     id: FOODON:00001041
-    label: beef food product
+    label: cow food product
 - id: GOLDTERMS:5454
   label: Engineered > Food production > Meat products > Fermented meat products
   parent: GOLDTERMS:4488
@@ -3230,7 +3232,7 @@ terms:
   label: Engineered > Modeled > Simulated communities (DNA mixture)
   parent: GOLDTERMS:4307
   level: 3
-  vocab_differentia: GOLDVOCAB:Simulated-communities-%28DNA-mixture%29
+  vocab_differentia: GOLDVOCAB:Simulated-communities-_28DNA-mixture_29
   mixs_extension:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
@@ -3242,7 +3244,7 @@ terms:
   label: Engineered > Modeled > Simulated communities (microbial mixture)
   parent: GOLDTERMS:4307
   level: 3
-  vocab_differentia: GOLDVOCAB:Simulated-communities-%28microbial-mixture%29
+  vocab_differentia: GOLDVOCAB:Simulated-communities-_28microbial-mixture_29
   mixs_extension:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
@@ -3269,7 +3271,7 @@ terms:
   label: Engineered > Modeled > Simulated communities (sequence read mixture)
   parent: GOLDTERMS:4307
   level: 3
-  vocab_differentia: GOLDVOCAB:Simulated-communities-%28sequence-read-mixture%29
+  vocab_differentia: GOLDVOCAB:Simulated-communities-_28sequence-read-mixture_29
   mixs_extension:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
@@ -3409,7 +3411,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  curated: false
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
 - id: GOLDTERMS:Engineered-Solid-waste-Agricultural-waste
   label: Engineered > Solid waste > Agricultural waste
   parent: GOLDTERMS:4276
@@ -3424,7 +3428,6 @@ terms:
   env_medium:
     id: ENVO:01000371
     label: agricultural waste material
-  curated: false
 - id: GOLDTERMS:4910
   label: Engineered > Solid waste > Agricultural waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Agricultural-waste
@@ -3485,7 +3488,6 @@ terms:
   env_medium:
     id: ENVO:00002276
     label: animal waste material
-  curated: false
 - id: GOLDTERMS:4936
   label: Engineered > Solid waste > Animal waste > Composting
   parent: GOLDTERMS:4278
@@ -3515,7 +3517,6 @@ terms:
   env_medium:
     id: ENVO:03501300
     label: manure
-  curated: false
 - id: GOLDTERMS:5758
   label: Engineered > Solid waste > Bagasse
   parent: GOLDTERMS:4276
@@ -3530,7 +3531,6 @@ terms:
   env_medium:
     id: ENVO:00002872
     label: bagasse
-  curated: false
 - id: GOLDTERMS:4927
   label: Engineered > Solid waste > Bagasse > Composting
   parent: GOLDTERMS:5758
@@ -3557,6 +3557,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4930
   label: Engineered > Solid waste > Cellulose associated waste > Composting
@@ -3569,6 +3572,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4273
   label: Engineered > Solid waste > Composting
@@ -3581,6 +3587,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:5756
   label: Engineered > Solid waste > Composting > Oil palm
@@ -3593,6 +3602,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Feedstock
   label: Engineered > Solid waste > Feedstock
@@ -3605,6 +3617,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4893
   label: Engineered > Solid waste > Feedstock > Composting
@@ -3617,6 +3632,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Food-waste
   label: Engineered > Solid waste > Food waste
@@ -3632,7 +3650,6 @@ terms:
   env_medium:
     id: ENVO:03600006
     label: food waste
-  curated: false
 - id: GOLDTERMS:4948
   label: Engineered > Solid waste > Food waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Food-waste
@@ -3659,6 +3676,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4874
   label: Engineered > Solid waste > Grass > Composting
@@ -3671,6 +3691,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4873
   label: Engineered > Solid waste > Grass > Composting > Bioreactor
@@ -3686,6 +3709,9 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   other:
     id: ENVO:00002123
     label: bioreactor
@@ -3701,6 +3727,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:5508
   label: Engineered > Solid waste > Grass > Fermentation > Bioreactor
@@ -3716,6 +3745,9 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   other:
     id: ENVO:00002123
     label: bioreactor
@@ -3734,7 +3766,6 @@ terms:
   env_medium:
     id: ENVO:01000372
     label: household waste material
-  curated: false
 - id: GOLDTERMS:4907
   label: Engineered > Solid waste > Household waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Household-waste
@@ -3764,7 +3795,6 @@ terms:
   env_medium:
     id: ENVO:00002267
     label: industrial waste material
-  curated: false
 - id: GOLDTERMS:4939
   label: Engineered > Solid waste > Industrial waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Industrial-waste
@@ -3794,7 +3824,9 @@ terms:
   env_local:
     id: ENVO:00000533
     label: landfill
-  curated: false
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
 - id: GOLDTERMS:Engineered-Solid-waste-Latrine-chamber
   label: Engineered > Solid waste > Latrine chamber
   parent: GOLDTERMS:4276
@@ -3806,6 +3838,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4954
   label: Engineered > Solid waste > Latrine chamber > Composting
@@ -3818,6 +3853,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Unknown-material
   label: Engineered > Solid waste > Unknown material
@@ -3830,6 +3868,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4967
   label: Engineered > Solid waste > Unknown material > Composting
@@ -3842,6 +3883,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4966
   label: Engineered > Solid waste > Unknown material > Composting > Bioreactor
@@ -3857,6 +3901,9 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   other:
     id: ENVO:00002123
     label: bioreactor
@@ -3872,6 +3919,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4945
   label: Engineered > Solid waste > Urban waste > Composting
@@ -3884,6 +3934,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Vegetable
   label: Engineered > Solid waste > Vegetable
@@ -3899,7 +3952,6 @@ terms:
   env_medium:
     id: FOODON:03315308
     label: vegetable (whole or pieces)
-  curated: false
 - id: GOLDTERMS:4934
   label: Engineered > Solid waste > Vegetable > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Vegetable
@@ -3926,6 +3978,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Wood
   label: Engineered > Solid waste > Wood
@@ -3944,7 +3999,6 @@ terms:
   anatomical_site:
     id: PO:0005848
     label: secondary xylem
-  curated: false
 - id: GOLDTERMS:4857
   label: Engineered > Solid waste > Wood > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Wood
@@ -3998,6 +4052,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:4924
   label: Engineered > Solid waste > Zoo waste > Composting
@@ -4010,6 +4067,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
   curated: false
 - id: GOLDTERMS:Engineered-WWTP
   label: Engineered > WWTP
@@ -4355,12 +4415,11 @@ terms:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:02000156
+    label: organic dairy farm
   env_medium:
     id: ENVO:01000964
     label: industrial wastewater
-  curated: false
 - id: GOLDTERMS:4265
   label: Engineered > Wastewater > Industrial wastewater > Petrochemical
   parent: GOLDTERMS:4267
@@ -4403,9 +4462,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:01000964
-    label: industrial wastewater
-  curated: false
+    id: ENVO:00002193
+    label: pulp-bleaching waste water
 - id: GOLDTERMS:Engineered-Wastewater-Municipal-landfill
   label: Engineered > Wastewater > Municipal landfill
   parent: GOLDTERMS:4264
@@ -4417,10 +4475,12 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000157
+    label: municipal landfill
   env_medium:
     id: ENVO:00002001
     label: waste water
-  curated: false
 - id: GOLDTERMS:5667
   label: Engineered > Wastewater > Municipal landfill > Leachate
   parent: GOLDTERMS:Engineered-Wastewater-Municipal-landfill
@@ -4432,10 +4492,12 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000157
+    label: municipal landfill
   env_medium:
     id: ENVO:00002141
     label: leachate
-  curated: false
 - id: GOLDTERMS:4261
   label: Engineered > Wastewater > Nutrient removal
   parent: GOLDTERMS:4264
@@ -4508,7 +4570,7 @@ terms:
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic)
   parent: GOLDTERMS:4261
   level: 4
-  vocab_differentia: GOLDVOCAB:Dissolved-organics-%28aerobic%29
+  vocab_differentia: GOLDVOCAB:Dissolved-organics-_28aerobic_29
   mixs_extension:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
@@ -4539,7 +4601,7 @@ terms:
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic)
   parent: GOLDTERMS:4261
   level: 4
-  vocab_differentia: GOLDVOCAB:Dissolved-organics-%28anaerobic%29
+  vocab_differentia: GOLDVOCAB:Dissolved-organics-_28anaerobic_29
   mixs_extension:
     id: MIXS:MiscellaneousNaturalOrArtificialEnvironment
     label: MIXS:MiscellaneousNaturalOrArtificialEnvironment
@@ -4923,12 +4985,11 @@ terms:
     id: ENVO:01000254
     label: environmental system
   env_local:
-    id: ENVO:00002030
-    label: aquatic biome
+    id: ENVO:02000139
+    label: desert spring
   env_medium:
     id: ENVO:00002011
     label: fresh water
-  curated: false
 - id: GOLDTERMS:5402
   label: Environmental > Aquatic > Freshwater > Desert springs > Benthic
   parent: GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs
@@ -4943,7 +5004,6 @@ terms:
   env_medium:
     id: ENVO:00002011
     label: fresh water
-  curated: false
 - id: GOLDTERMS:4057
   label: Environmental > Aquatic > Freshwater > Drinking water
   parent: GOLDTERMS:4159
@@ -4956,8 +5016,8 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
 - id: GOLDTERMS:4059
   label: Environmental > Aquatic > Freshwater > Drinking water > Chlorinated
   parent: GOLDTERMS:4057
@@ -4970,8 +5030,8 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
   curated: false
 - id: GOLDTERMS:4058
   label: Environmental > Aquatic > Freshwater > Drinking water > Delivery networks
@@ -4985,8 +5045,8 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
   curated: false
 - id: GOLDTERMS:5122
   label: Environmental > Aquatic > Freshwater > Drinking water > Filtered water
@@ -5000,8 +5060,8 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
   curated: false
 - id: GOLDTERMS:4547
   label: Environmental > Aquatic > Freshwater > Drinking water > Unchlorinated
@@ -5015,8 +5075,8 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
   curated: false
 - id: GOLDTERMS:4165
   label: Environmental > Aquatic > Freshwater > Groundwater
@@ -5643,7 +5703,7 @@ terms:
   label: Environmental > Aquatic > Freshwater > River > River's source/headwaters
   parent: GOLDTERMS:4512
   level: 5
-  vocab_differentia: GOLDVOCAB:River%27s-source/headwaters
+  vocab_differentia: GOLDVOCAB:River_27s-source/headwaters
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -5774,9 +5834,8 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:00002011
-    label: fresh water
-  curated: false
+    id: ENVO:02000145
+    label: subterranean lake
 - id: GOLDTERMS:5360
   label: Environmental > Aquatic > Freshwater > Tap water
   parent: GOLDTERMS:4159
@@ -6421,7 +6480,9 @@ terms:
   env_local:
     id: ENVO:00000316
     label: intertidal zone
-  curated: false
+  env_medium:
+    id: ENVO:02000152
+    label: mangrove biome sediment
 - id: GOLDTERMS:5422
   label: Environmental > Aquatic > Marine > Intertidal zone > Mangrove soil
   parent: GOLDTERMS:4013
@@ -7244,11 +7305,11 @@ terms:
     id: ENVO:00003044
     label: brine
   curated: false
-- id: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29
+- id: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C)
   parent: GOLDTERMS:3970
   level: 4
-  vocab_differentia: GOLDVOCAB:Near-boiling-%28%3E90C%29
+  vocab_differentia: GOLDVOCAB:Near-boiling-_28_3E90C_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -7259,7 +7320,7 @@ terms:
 - id: GOLDTERMS:3983
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C)
     > Alkaline
-  parent: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29
+  parent: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29
   level: 5
   vocab_differentia: GOLDVOCAB:Alkaline
   env_broad:
@@ -7474,7 +7535,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Hot-%2842-90C%29
+  vocab_differentia: GOLDVOCAB:Hot-_2842-90C_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -7565,7 +7626,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Near-boiling (>90C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Near-boiling-%28%3E90C%29
+  vocab_differentia: GOLDVOCAB:Near-boiling-_28_3E90C_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -7609,7 +7670,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Tepid (25-34C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Tepid-%2825-34C%29
+  vocab_differentia: GOLDVOCAB:Tepid-_2825-34C_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -7639,7 +7700,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Warm-%2834-42C%29
+  vocab_differentia: GOLDVOCAB:Warm-_2834-42C_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -8147,7 +8208,7 @@ terms:
   label: Environmental > Terrestrial > Rock-dwelling (endoliths)
   parent: GOLDTERMS:4198
   level: 3
-  vocab_differentia: GOLDVOCAB:Rock-dwelling-%28endoliths%29
+  vocab_differentia: GOLDVOCAB:Rock-dwelling-_28endoliths_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -8159,7 +8220,7 @@ terms:
   label: Environmental > Terrestrial > Rock-dwelling (subaerial biofilms)
   parent: GOLDTERMS:4198
   level: 3
-  vocab_differentia: GOLDVOCAB:Rock-dwelling-%28subaerial-biofilms%29
+  vocab_differentia: GOLDVOCAB:Rock-dwelling-_28subaerial-biofilms_29
   env_broad:
     id: ENVO:01000254
     label: environmental system
@@ -8869,9 +8930,8 @@ terms:
     id: ENVO:00000446
     label: terrestrial biome
   env_medium:
-    id: ENVO:00001998
-    label: soil
-  curated: false
+    id: ENVO:00005740
+    label: paddy field soil
 - id: GOLDTERMS:5612
   label: Environmental > Terrestrial > Soil > Paddy field/soil > Contaminated
   parent: GOLDTERMS:5613
@@ -8887,12 +8947,11 @@ terms:
     id: ENVO:00000446
     label: terrestrial biome
   env_medium:
-    id: ENVO:00001998
-    label: soil
+    id: ENVO:00005740
+    label: paddy field soil
   other:
     id: PATO:0015032
     label: increased contamination
-  curated: false
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Pasture
   label: Environmental > Terrestrial > Soil > Pasture
   parent: GOLDTERMS:4212
@@ -9788,12 +9847,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03411301
     label: algae
-  host_taxon:
-    id: NCBITaxon:96475
-    label: Mesostigmatophyceae
 - id: GOLDTERMS:5815
   label: Host-associated > Algae > Biocrust
   parent: GOLDTERMS:3957
@@ -9802,12 +9858,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03411301
     label: algae
-  host_taxon:
-    id: NCBITaxon:96475
-    label: Mesostigmatophyceae
   other:
     id: ENVO:01000909
     label: biocrust
@@ -9819,9 +9872,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412395
-    label: brown algae
   host_taxon:
     id: NCBITaxon:2870
     label: Phaeophyceae
@@ -9833,9 +9883,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411301
-    label: algae
   host_taxon:
     id: NCBITaxon:2836
     label: Bacillariophyta
@@ -9847,9 +9894,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411301
-    label: algae
   host_taxon:
     id: NCBITaxon:2825
     label: Chrysophyceae
@@ -9861,9 +9905,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412502
-    label: green algae
   host_taxon:
     id: NCBITaxon:3041
     label: Chlorophyta
@@ -9875,9 +9916,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412502
-    label: green algae
   host_taxon:
     id: NCBITaxon:3041
     label: Chlorophyta
@@ -9890,9 +9928,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411301
-    label: algae
   host_taxon:
     id: NCBITaxon:2830
     label: Haptophyta
@@ -9904,12 +9939,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03411301
     label: algae
-  host_taxon:
-    id: NCBITaxon:96475
-    label: Mesostigmatophyceae
   curated: false
 - id: GOLDTERMS:3959
   label: Host-associated > Algae > Red algae
@@ -9919,9 +9951,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411743
-    label: red algae
   host_taxon:
     id: NCBITaxon:2763
     label: Rhodophyta
@@ -9933,9 +9962,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411743
-    label: red algae
   host_taxon:
     id: NCBITaxon:2763
     label: Rhodophyta
@@ -9948,9 +9974,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411301
-    label: algae
   host_taxon:
     id: NCBITaxon:2833
     label: Xanthophyceae
@@ -10181,9 +10204,8 @@ terms:
     id: NCBITaxon:6340
     label: Annelida
   anatomical_site:
-    id: UBERON:8450002
-    label: excretory system
-  curated: false
+    id: UBERON:0006972
+    label: nephridium
 - id: GOLDTERMS:4821
   label: Host-associated > Annelida > Gills
   parent: GOLDTERMS:4331
@@ -10492,12 +10514,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03301033
     label: royal jelly
-  host_taxon:
-    id: NCBITaxon:34735
-    label: Apoidea
 - id: GOLDTERMS:4603
   label: Host-associated > Arthropoda > Beetle
   parent: GOLDTERMS:3901
@@ -10506,9 +10525,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03414645
-    label: beetle
   host_taxon:
     id: NCBITaxon:7041
     label: Coleoptera
@@ -10724,12 +10740,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:00002717
     label: fly
-  host_taxon:
-    id: NCBITaxon:6656
-    label: Arthropoda
 - id: GOLDTERMS:5108
   label: Host-associated > Arthropoda > Grasshopper
   parent: GOLDTERMS:3901
@@ -10738,9 +10751,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412496
-    label: grasshopper
   host_taxon:
     id: NCBITaxon:7001
     label: Caelifera
@@ -10752,9 +10762,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411220
-    label: insect
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
@@ -10798,9 +10805,8 @@ terms:
     id: NCBITaxon:6656
     label: Arthropoda
   anatomical_site:
-    id: UBERON:0001002
-    label: cuticle
-  curated: false
+    id: UBERON:6000016
+    label: insect thoracic segment
 - id: GOLDTERMS:4078
   label: Host-associated > Arthropoda > Intracellular endosymbionts
   parent: GOLDTERMS:3901
@@ -10860,12 +10866,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:00002468
-    label: lobster
   host_taxon:
-    id: NCBITaxon:6656
-    label: Arthropoda
+    id: FOODON:00002468
+    label: lobster (whole)
 - id: GOLDTERMS:5118
   label: Host-associated > Arthropoda > Mealybug
   parent: GOLDTERMS:3901
@@ -10922,9 +10925,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03414644
-    label: moth
   host_taxon:
     id: NCBITaxon:7088
     label: Lepidoptera
@@ -11031,12 +11031,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03411237
     label: shrimp
-  host_taxon:
-    id: NCBITaxon:6656
-    label: Arthropoda
 - id: GOLDTERMS:5220
   label: Host-associated > Arthropoda > Shrimp > Hepatopancreas
   parent: GOLDTERMS:5400
@@ -11045,12 +11042,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03411237
     label: shrimp
-  host_taxon:
-    id: NCBITaxon:6656
-    label: Arthropoda
   anatomical_site:
     id: UBERON:0010264
     label: hepatopancreas
@@ -11564,12 +11558,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03412115
     label: echinoderm
-  host_taxon:
-    id: NCBITaxon:7586
-    label: Echinodermata
 - id: GOLDTERMS:4751
   label: Host-associated > Endosymbionts
   parent: GOLDTERMS:4086
@@ -11599,9 +11590,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -11614,9 +11602,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
 - id: GOLDTERMS:Host-associated-Fish-Abdomen
   label: Host-associated > Fish > Abdomen
   parent: GOLDTERMS:4095
@@ -11625,9 +11613,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000916
     label: abdomen
@@ -11639,13 +11627,12 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
-    id: UBERON:0000916
-    label: abdomen
-  curated: false
+    id: UBERON:0007795
+    label: ascitic fluid
 - id: GOLDTERMS:4788
   label: Host-associated > Fish > Circulatory system
   parent: GOLDTERMS:4095
@@ -11654,9 +11641,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
@@ -11668,9 +11655,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000178
     label: blood
@@ -11682,9 +11669,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
@@ -11696,9 +11683,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0001041
     label: foregut
@@ -11710,9 +11697,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000160
     label: intestine
@@ -11724,9 +11711,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000160
     label: intestine
@@ -11739,9 +11726,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
@@ -11753,9 +11740,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
@@ -11768,9 +11755,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0002107
     label: liver
@@ -11782,9 +11769,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0001016
     label: nervous system
@@ -11796,9 +11783,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0001359
     label: cerebrospinal fluid
@@ -11810,9 +11797,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
@@ -11824,9 +11811,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
@@ -11838,9 +11825,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0002535
     label: gill
@@ -11852,9 +11839,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0002048
     label: lung
@@ -11866,9 +11853,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
@@ -11880,9 +11867,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0010152
     label: skin mucus
@@ -11894,9 +11881,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0007380
     label: dermal scale
@@ -11908,9 +11895,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
@@ -11923,9 +11910,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000479
     label: tissue
@@ -11937,9 +11924,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000468
     label: multicellular organism
@@ -11951,9 +11938,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0008979
     label: carcass
@@ -11968,9 +11955,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
   anatomical_site:
     id: UBERON:0008979
     label: carcass
@@ -11986,9 +11973,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -12000,9 +11984,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -12017,12 +11998,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03412345
     label: lichen
-  host_taxon:
-    id: NCBITaxon:4751
-    label: Fungi
 - id: GOLDTERMS:4463
   label: Host-associated > Fungi > Mycelium
   parent: GOLDTERMS:4098
@@ -12031,9 +12009,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -12048,9 +12023,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -12065,9 +12037,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -12082,9 +12051,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12096,9 +12062,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12113,9 +12076,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12130,9 +12090,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12147,9 +12104,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12164,9 +12118,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12181,9 +12132,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12199,9 +12147,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12216,9 +12161,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12233,9 +12175,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12250,9 +12189,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12267,9 +12203,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12284,16 +12217,12 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
   anatomical_site:
-    id: UBERON:0001004
-    label: respiratory system
-  curated: false
+    id: UBERON:0001728
+    label: nasopharynx
 - id: GOLDTERMS:5063
   label: Host-associated > Horse > Tooth
   parent: GOLDTERMS:4476
@@ -12302,9 +12231,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -13138,12 +13064,9 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03307455
     label: cow milk (raw)
-  host_taxon:
-    id: NCBITaxon:9606
-    label: Homo sapiens
   anatomical_site:
     id: UBERON:0001913
     label: milk
@@ -13458,9 +13381,8 @@ terms:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001004
-    label: respiratory system
-  curated: false
+    id: UBERON:0001728
+    label: nasopharynx
 - id: GOLDTERMS:4132
   label: Host-associated > Human > Respiratory system > Nasopharyngeal > Pharynx
   parent: GOLDTERMS:4131
@@ -13475,7 +13397,6 @@ terms:
   anatomical_site:
     id: UBERON:0001042
     label: chordate pharynx
-  curated: false
 - id: GOLDTERMS:4130
   label: Host-associated > Human > Respiratory system > Nasopharyngeal > anterior
     nares
@@ -13491,7 +13412,6 @@ terms:
   anatomical_site:
     id: UBERON:0005928
     label: external naris
-  curated: false
 - id: GOLDTERMS:5009
   label: Host-associated > Human > Respiratory system > Sputum
   parent: GOLDTERMS:4137
@@ -13827,9 +13747,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411220
-    label: insect
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
@@ -13841,9 +13758,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411220
-    label: insect
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
@@ -13858,9 +13772,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411220
-    label: insect
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
@@ -13897,8 +13808,8 @@ terms:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
   host_taxon:
-    id: NCBITaxon:10205
-    label: Bryozoa
+    id: NCBITaxon:10206
+    label: Gymnolaemata
   curated: false
 - id: GOLDTERMS:4801
   label: Host-associated > Invertebrates > Cnidaria
@@ -13935,6 +13846,9 @@ terms:
   host_taxon:
     id: NCBITaxon:6073
     label: Cnidaria
+  anatomical_site:
+    id: UBERON:0002416
+    label: integumental system
   curated: false
 - id: GOLDTERMS:5745
   label: Host-associated > Invertebrates > Cnidaria > Coral > Tissue
@@ -13971,12 +13885,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03412115
     label: echinoderm
-  host_taxon:
-    id: NCBITaxon:7586
-    label: Echinodermata
   curated: false
 - id: GOLDTERMS:4683
   label: Host-associated > Invertebrates > Echinodermata > Sea Star
@@ -13986,9 +13897,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412115
-    label: echinoderm
   host_taxon:
     id: NCBITaxon:7588
     label: Asteroidea
@@ -14001,9 +13909,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412115
-    label: echinoderm
   host_taxon:
     id: NCBITaxon:7625
     label: Echinoidea
@@ -14016,12 +13921,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412115
-    label: echinoderm
   host_taxon:
-    id: NCBITaxon:7586
-    label: Echinodermata
+    id: NCBITaxon:7705
+    label: Holothuroidea
   curated: false
 - id: GOLDTERMS:4425
   label: Host-associated > Invertebrates > Nematoda
@@ -14686,12 +14588,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03307455
     label: cow milk (raw)
-  host_taxon:
-    id: NCBITaxon:40674
-    label: Mammalia
   anatomical_site:
     id: UBERON:0001913
     label: milk
@@ -14875,9 +14774,8 @@ terms:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0001004
-    label: respiratory system
-  curated: false
+    id: UBERON:0001728
+    label: nasopharynx
 - id: GOLDTERMS:4121
   label: Host-associated > Mammals > Respiratory system > Nasopharyngeal > Nasal cavity
   parent: GOLDTERMS:4120
@@ -14892,7 +14790,6 @@ terms:
   anatomical_site:
     id: UBERON:0001707
     label: nasal cavity
-  curated: false
 - id: GOLDTERMS:4980
   label: Host-associated > Mammals > Respiratory system > Nose
   parent: GOLDTERMS:4122
@@ -15039,9 +14936,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15053,9 +14947,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6544
     label: Bivalvia
@@ -15067,9 +14958,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15084,9 +14972,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15101,9 +14986,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15118,9 +15000,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15135,9 +15014,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15152,9 +15028,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15169,13 +15042,12 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
-  curated: false
+  anatomical_site:
+    id: UBERON:0002548
+    label: larva
 - id: GOLDTERMS:5198
   label: Host-associated > Mollusca > Oyster
   parent: GOLDTERMS:4324
@@ -15184,9 +15056,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03411224
-    label: oyster
   host_taxon:
     id: NCBITaxon:6563
     label: Ostreidae
@@ -15198,9 +15067,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15215,9 +15081,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15232,9 +15095,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15250,9 +15110,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15268,9 +15125,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15285,9 +15139,6 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -15436,9 +15287,8 @@ terms:
     id: MIXS:PlantAssociated
     label: MIXS:PlantAssociated
   host_taxon:
-    id: NCBITaxon:3193
-    label: Embryophyta
-  curated: false
+    id: NCBITaxon:13804
+    label: Sphagnum
 - id: GOLDTERMS:4460
   label: Host-associated > Plants > Phyllosphere
   parent: GOLDTERMS:3938
@@ -15462,6 +15312,9 @@ terms:
   host_taxon:
     id: NCBITaxon:3193
     label: Embryophyta
+  anatomical_site:
+    id: PO:0009046
+    label: flower
   curated: false
 - id: GOLDTERMS:5826
   label: Host-associated > Plants > Phyllosphere > Anthosphere > Nectar
@@ -15471,12 +15324,12 @@ terms:
   mixs_extension:
     id: MIXS:PlantAssociated
     label: MIXS:PlantAssociated
-  env_medium:
+  host_taxon:
     id: FOODON:03315553
     label: nectar (food product)
-  host_taxon:
-    id: NCBITaxon:3193
-    label: Embryophyta
+  anatomical_site:
+    id: PO:0009046
+    label: flower
   curated: false
 - id: GOLDTERMS:4621
   label: Host-associated > Plants > Phyllosphere > Anthosphere > Pollen
@@ -15504,6 +15357,9 @@ terms:
   host_taxon:
     id: NCBITaxon:3193
     label: Embryophyta
+  anatomical_site:
+    id: PO:0009001
+    label: fruit
   curated: false
 - id: GOLDTERMS:5265
   label: Host-associated > Plants > Phyllosphere > Carposphere > Endophytes
@@ -15516,6 +15372,9 @@ terms:
   host_taxon:
     id: NCBITaxon:3193
     label: Embryophyta
+  anatomical_site:
+    id: PO:0009001
+    label: fruit
   curated: false
 - id: GOLDTERMS:5264
   label: Host-associated > Plants > Phyllosphere > Carposphere > Epiphytes
@@ -15528,6 +15387,9 @@ terms:
   host_taxon:
     id: NCBITaxon:3193
     label: Embryophyta
+  anatomical_site:
+    id: PO:0009001
+    label: fruit
   curated: false
 - id: GOLDTERMS:4525
   label: Host-associated > Plants > Phyllosphere > Caulosphere
@@ -15540,6 +15402,9 @@ terms:
   host_taxon:
     id: NCBITaxon:3193
     label: Embryophyta
+  anatomical_site:
+    id: PO:0009047
+    label: stem
   curated: false
 - id: GOLDTERMS:5752
   label: Host-associated > Plants > Phyllosphere > Caulosphere > Bark
@@ -15795,9 +15660,8 @@ terms:
     id: NCBITaxon:3193
     label: Embryophyta
   anatomical_site:
-    id: PO:0004542
-    label: rhizome
-  curated: false
+    id: PO:0025522
+    label: tuber
 - id: GOLDTERMS:5793
   label: Host-associated > Plants > Rhizome > Stem tuber > Soil
   parent: GOLDTERMS:4994
@@ -15813,9 +15677,8 @@ terms:
     id: NCBITaxon:3193
     label: Embryophyta
   anatomical_site:
-    id: PO:0004542
-    label: rhizome
-  curated: false
+    id: PO:0025522
+    label: tuber
 - id: GOLDTERMS:4466
   label: Host-associated > Plants > Roots
   parent: GOLDTERMS:3938
@@ -15889,9 +15752,8 @@ terms:
     id: NCBITaxon:3193
     label: Embryophyta
   anatomical_site:
-    id: PO:0009005
-    label: root
-  curated: false
+    id: PO:0025626
+    label: plant gall
 - id: GOLDTERMS:4523
   label: Host-associated > Plants > Roots > Nodule
   parent: GOLDTERMS:4466
@@ -16007,9 +15869,8 @@ terms:
     id: NCBITaxon:3193
     label: Embryophyta
   anatomical_site:
-    id: PO:0009010
-    label: seed
-  curated: false
+    id: PO:0020031
+    label: radicle
 - id: GOLDTERMS:5273
   label: Host-associated > Plants > Tissue
   parent: GOLDTERMS:3938

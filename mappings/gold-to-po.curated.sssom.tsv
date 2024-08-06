@@ -25,3 +25,10 @@ GOLDVOCAB:Seeds	Seeds	skos:exactMatch	PO:0009010	seed	semapv:LexicalMatching	oak
 GOLDVOCAB:Wood	Wood	skos:exactMatch	PO:0005848	secondary xylem	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	wood		semapv:RegularExpressionReplacement
 GOLDVOCAB:Xylem-vessels	Xylem vessels	skos:exactMatch	PO:0025417	xylem vessel	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	xylem vessel	semapv:RegularExpressionReplacement	
 GOLDTERMS:4523	Host-associated > Plants > Roots > Nodule	skos:exactMatch	PO:0003023	root nodule	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	nodule root	semapv:RegularExpressionReplacement
+GOLDVOCAB:Anthosphere	Anthosphere	skos:exactMatch	PO:0009046	flower	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	flower		
+GOLDVOCAB:Carposphere	Carposphere	skos:exactMatch	PO:0009001	fruit	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fruit		
+GOLDVOCAB:Caulosphere	Caulosphere	skos:exactMatch	PO:0009047	stem	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	stem		
+GOLDVOCAB:Cob	Cob	skos:exactMatch	PO:0025623	ear infructescence axis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cob		semapv:RegularExpressionReplacement
+GOLDVOCAB:Galls	Galls	skos:exactMatch	PO:0025626	plant gall	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	plant gall		
+GOLDVOCAB:Seed-radicle	Seed radicle	skos:closeMatch	PO:0020031	seed radicle	semapv:LexicalMatching	oaklib	0.8	oio:hasRelatedSynonym	oio:hasRelatedSynonym	radicle		
+GOLDVOCAB:Stem-tuber	Stem tuber	skos:closeMatch	PO:0025522	tuber	semapv:LexicalMatching	oaklib	0.8	oio:hasRelatedSynonym	oio:hasRelatedSynonym	tuber		

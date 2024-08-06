@@ -65,7 +65,7 @@ terms:
     > Soil (non-planted)
   parent: GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media
   level: 5
-  vocab_differentia: GOLDVOCAB:Soil-%28non-planted%29
+  vocab_differentia: GOLDVOCAB:Soil-_28non-planted_29
   mixs_extension:
     id: MIXS:Soil
     label: MIXS:Soil
@@ -507,7 +507,7 @@ terms:
   label: Engineered > Bioremediation > Persistent organic pollutants (POP)
   parent: GOLDTERMS:4304
   level: 3
-  vocab_differentia: GOLDVOCAB:Persistent-organic-pollutants-%28POP%29
+  vocab_differentia: GOLDVOCAB:Persistent-organic-pollutants-_28POP_29
   curated: false
 - id: GOLDTERMS:4305
   label: Engineered > Bioremediation > Persistent organic pollutants (POP) > Polycyclic
@@ -793,8 +793,8 @@ terms:
   level: 4
   vocab_differentia: GOLDVOCAB:Drinking-water
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
 - id: GOLDTERMS:5493
   label: Engineered > Built environment > Drinking water treatment plant > Drinking
     water filter
@@ -972,7 +972,9 @@ terms:
   parent: GOLDTERMS:4279
   level: 3
   vocab_differentia: GOLDVOCAB:Solar-panel
-  curated: false
+  other:
+    id: ENVO:01000867
+    label: solar panel array
 - id: GOLDTERMS:4635
   label: Engineered > Built environment > Spacecraft Assembly Cleanrooms
   parent: GOLDTERMS:4279
@@ -1225,7 +1227,7 @@ terms:
   vocab_differentia: GOLDVOCAB:Beef
   env_medium:
     id: FOODON:00001041
-    label: beef food product
+    label: cow food product
 - id: GOLDTERMS:5454
   label: Engineered > Food production > Meat products > Fermented meat products
   parent: GOLDTERMS:4488
@@ -1531,13 +1533,13 @@ terms:
   label: Engineered > Modeled > Simulated communities (DNA mixture)
   parent: GOLDTERMS:4307
   level: 3
-  vocab_differentia: GOLDVOCAB:Simulated-communities-%28DNA-mixture%29
+  vocab_differentia: GOLDVOCAB:Simulated-communities-_28DNA-mixture_29
   curated: false
 - id: GOLDTERMS:4308
   label: Engineered > Modeled > Simulated communities (microbial mixture)
   parent: GOLDTERMS:4307
   level: 3
-  vocab_differentia: GOLDVOCAB:Simulated-communities-%28microbial-mixture%29
+  vocab_differentia: GOLDVOCAB:Simulated-communities-_28microbial-mixture_29
   curated: false
 - id: GOLDTERMS:5606
   label: Engineered > Modeled > Simulated communities (microbial mixture) > Sea water
@@ -1551,7 +1553,7 @@ terms:
   label: Engineered > Modeled > Simulated communities (sequence read mixture)
   parent: GOLDTERMS:4307
   level: 3
-  vocab_differentia: GOLDVOCAB:Simulated-communities-%28sequence-read-mixture%29
+  vocab_differentia: GOLDVOCAB:Simulated-communities-_28sequence-read-mixture_29
   curated: false
 - id: GOLDTERMS:4310
   label: Engineered > Modeled > Simulated communities (sequence read mixture) > Sanger
@@ -1616,7 +1618,9 @@ terms:
   parent: GOLDTERMS:4292
   level: 2
   vocab_differentia: GOLDVOCAB:Solid-waste
-  curated: false
+  env_medium:
+    id: ENVO:02000155
+    label: solid waste material
 - id: GOLDTERMS:Engineered-Solid-waste-Agricultural-waste
   label: Engineered > Solid waste > Agricultural waste
   parent: GOLDTERMS:4276
@@ -2076,7 +2080,9 @@ terms:
   parent: GOLDTERMS:4267
   level: 4
   vocab_differentia: GOLDVOCAB:Organic-dairy-farm
-  curated: false
+  env_broad:
+    id: ENVO:02000156
+    label: organic dairy farm
 - id: GOLDTERMS:4265
   label: Engineered > Wastewater > Industrial wastewater > Petrochemical
   parent: GOLDTERMS:4267
@@ -2096,13 +2102,17 @@ terms:
   parent: GOLDTERMS:4267
   level: 4
   vocab_differentia: GOLDVOCAB:Pulp-and-paper-wastewater
-  curated: false
+  env_medium:
+    id: ENVO:00002193
+    label: pulp-bleaching waste water
 - id: GOLDTERMS:Engineered-Wastewater-Municipal-landfill
   label: Engineered > Wastewater > Municipal landfill
   parent: GOLDTERMS:4264
   level: 3
   vocab_differentia: GOLDVOCAB:Municipal-landfill
-  curated: false
+  env_local:
+    id: ENVO:02000157
+    label: municipal landfill
 - id: GOLDTERMS:5667
   label: Engineered > Wastewater > Municipal landfill > Leachate
   parent: GOLDTERMS:Engineered-Wastewater-Municipal-landfill
@@ -2146,7 +2156,7 @@ terms:
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic)
   parent: GOLDTERMS:4261
   level: 4
-  vocab_differentia: GOLDVOCAB:Dissolved-organics-%28aerobic%29
+  vocab_differentia: GOLDVOCAB:Dissolved-organics-_28aerobic_29
   curated: false
 - id: GOLDTERMS:4257
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic)
@@ -2159,7 +2169,7 @@ terms:
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic)
   parent: GOLDTERMS:4261
   level: 4
-  vocab_differentia: GOLDVOCAB:Dissolved-organics-%28anaerobic%29
+  vocab_differentia: GOLDVOCAB:Dissolved-organics-_28anaerobic_29
   curated: false
 - id: GOLDTERMS:4259
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic)
@@ -2369,7 +2379,9 @@ terms:
   parent: GOLDTERMS:4159
   level: 4
   vocab_differentia: GOLDVOCAB:Desert-springs
-  curated: false
+  env_local:
+    id: ENVO:02000139
+    label: desert spring
 - id: GOLDTERMS:5402
   label: Environmental > Aquatic > Freshwater > Desert springs > Benthic
   parent: GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs
@@ -2384,8 +2396,8 @@ terms:
   level: 4
   vocab_differentia: GOLDVOCAB:Drinking-water
   env_medium:
-    id: ENVO:00003064
-    label: drinking water
+    id: FOODON:03301647
+    label: drinking water (purified)
 - id: GOLDTERMS:4059
   label: Environmental > Aquatic > Freshwater > Drinking water > Chlorinated
   parent: GOLDTERMS:4057
@@ -2750,7 +2762,7 @@ terms:
   label: Environmental > Aquatic > Freshwater > River > River's source/headwaters
   parent: GOLDTERMS:4512
   level: 5
-  vocab_differentia: GOLDVOCAB:River%27s-source/headwaters
+  vocab_differentia: GOLDVOCAB:River_27s-source/headwaters
   curated: false
 - id: GOLDTERMS:5109
   label: Environmental > Aquatic > Freshwater > River > Sediment
@@ -2817,7 +2829,9 @@ terms:
   parent: GOLDTERMS:4159
   level: 4
   vocab_differentia: GOLDVOCAB:Subterranean-lake
-  curated: false
+  env_medium:
+    id: ENVO:02000145
+    label: subterranean lake
 - id: GOLDTERMS:5360
   label: Environmental > Aquatic > Freshwater > Tap water
   parent: GOLDTERMS:4159
@@ -3216,7 +3230,9 @@ terms:
   parent: GOLDTERMS:4013
   level: 5
   vocab_differentia: GOLDVOCAB:Mangrove-sediment
-  curated: false
+  env_medium:
+    id: ENVO:02000152
+    label: mangrove biome sediment
 - id: GOLDTERMS:5422
   label: Environmental > Aquatic > Marine > Intertidal zone > Mangrove soil
   parent: GOLDTERMS:4013
@@ -3716,16 +3732,16 @@ terms:
   env_medium:
     id: ENVO:00003044
     label: brine
-- id: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29
+- id: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C)
   parent: GOLDTERMS:3970
   level: 4
-  vocab_differentia: GOLDVOCAB:Near-boiling-%28%3E90C%29
+  vocab_differentia: GOLDVOCAB:Near-boiling-_28_3E90C_29
   curated: false
 - id: GOLDTERMS:3983
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C)
     > Alkaline
-  parent: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29
+  parent: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29
   level: 5
   vocab_differentia: GOLDVOCAB:Alkaline
   other:
@@ -3854,7 +3870,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Hot-%2842-90C%29
+  vocab_differentia: GOLDVOCAB:Hot-_2842-90C_29
   other:
     id: PATO:0001305
     label: increased temperature
@@ -3903,7 +3919,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Near-boiling (>90C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Near-boiling-%28%3E90C%29
+  vocab_differentia: GOLDVOCAB:Near-boiling-_28_3E90C_29
   curated: false
 - id: GOLDTERMS:3993
   label: Environmental > Aquatic > Thermal springs > Near-boiling (>90C) > Alkaline
@@ -3928,7 +3944,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Tepid (25-34C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Tepid-%2825-34C%29
+  vocab_differentia: GOLDVOCAB:Tepid-_2825-34C_29
   curated: false
 - id: GOLDTERMS:3990
   label: Environmental > Aquatic > Thermal springs > Tepid (25-34C) > Sediment
@@ -3945,7 +3961,7 @@ terms:
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C)
   parent: GOLDTERMS:3991
   level: 4
-  vocab_differentia: GOLDVOCAB:Warm-%2834-42C%29
+  vocab_differentia: GOLDVOCAB:Warm-_2834-42C_29
   curated: false
 - id: GOLDTERMS:4546
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C) > Acidic
@@ -4247,13 +4263,13 @@ terms:
   label: Environmental > Terrestrial > Rock-dwelling (endoliths)
   parent: GOLDTERMS:4198
   level: 3
-  vocab_differentia: GOLDVOCAB:Rock-dwelling-%28endoliths%29
+  vocab_differentia: GOLDVOCAB:Rock-dwelling-_28endoliths_29
   curated: false
 - id: GOLDTERMS:4201
   label: Environmental > Terrestrial > Rock-dwelling (subaerial biofilms)
   parent: GOLDTERMS:4198
   level: 3
-  vocab_differentia: GOLDVOCAB:Rock-dwelling-%28subaerial-biofilms%29
+  vocab_differentia: GOLDVOCAB:Rock-dwelling-_28subaerial-biofilms_29
   curated: false
 - id: GOLDTERMS:4212
   label: Environmental > Terrestrial > Soil
@@ -4572,7 +4588,9 @@ terms:
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Paddy-field/soil
-  curated: false
+  env_medium:
+    id: ENVO:00005740
+    label: paddy field soil
 - id: GOLDTERMS:5612
   label: Environmental > Terrestrial > Soil > Paddy field/soil > Contaminated
   parent: GOLDTERMS:5613
@@ -4978,12 +4996,9 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Algae
-  env_medium:
+  host_taxon:
     id: FOODON:03411301
     label: algae
-  host_taxon:
-    id: NCBITaxon:96475
-    label: Mesostigmatophyceae
 - id: GOLDTERMS:5815
   label: Host-associated > Algae > Biocrust
   parent: GOLDTERMS:3957
@@ -4997,9 +5012,6 @@ terms:
   parent: GOLDTERMS:3957
   level: 3
   vocab_differentia: GOLDVOCAB:Brown-Algae
-  env_medium:
-    id: FOODON:03412395
-    label: brown algae
   host_taxon:
     id: NCBITaxon:2870
     label: Phaeophyceae
@@ -5024,9 +5036,6 @@ terms:
   parent: GOLDTERMS:3957
   level: 3
   vocab_differentia: GOLDVOCAB:Green-algae
-  env_medium:
-    id: FOODON:03412502
-    label: green algae
   host_taxon:
     id: NCBITaxon:3041
     label: Chlorophyta
@@ -5055,9 +5064,6 @@ terms:
   parent: GOLDTERMS:3957
   level: 3
   vocab_differentia: GOLDVOCAB:Red-algae
-  env_medium:
-    id: FOODON:03411743
-    label: red algae
   host_taxon:
     id: NCBITaxon:2763
     label: Rhodophyta
@@ -5205,7 +5211,9 @@ terms:
   parent: GOLDTERMS:Host-associated-Annelida-Excretory-system
   level: 4
   vocab_differentia: GOLDVOCAB:Nephridia
-  curated: false
+  anatomical_site:
+    id: UBERON:0006972
+    label: nephridium
 - id: GOLDTERMS:4821
   label: Host-associated > Annelida > Gills
   parent: GOLDTERMS:4331
@@ -5377,7 +5385,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
   level: 4
   vocab_differentia: GOLDVOCAB:Royal-jelly
-  env_medium:
+  host_taxon:
     id: FOODON:03301033
     label: royal jelly
 - id: GOLDTERMS:4603
@@ -5385,9 +5393,6 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Beetle
-  env_medium:
-    id: FOODON:03414645
-    label: beetle
   host_taxon:
     id: NCBITaxon:7041
     label: Coleoptera
@@ -5504,7 +5509,7 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Fly
-  env_medium:
+  host_taxon:
     id: FOODON:00002717
     label: fly
 - id: GOLDTERMS:5108
@@ -5512,9 +5517,6 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Grasshopper
-  env_medium:
-    id: FOODON:03412496
-    label: grasshopper
   host_taxon:
     id: NCBITaxon:7001
     label: Caelifera
@@ -5523,9 +5525,6 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Insecta
-  env_medium:
-    id: FOODON:03411220
-    label: insect
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
@@ -5550,7 +5549,9 @@ terms:
   parent: GOLDTERMS:4082
   level: 5
   vocab_differentia: GOLDVOCAB:Thoracic-segments
-  curated: false
+  anatomical_site:
+    id: UBERON:6000016
+    label: insect thoracic segment
 - id: GOLDTERMS:4078
   label: Host-associated > Arthropoda > Intracellular endosymbionts
   parent: GOLDTERMS:3901
@@ -5582,9 +5583,9 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Lobster
-  env_medium:
+  host_taxon:
     id: FOODON:00002468
-    label: lobster
+    label: lobster (whole)
 - id: GOLDTERMS:5118
   label: Host-associated > Arthropoda > Mealybug
   parent: GOLDTERMS:3901
@@ -5620,9 +5621,6 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Moth
-  env_medium:
-    id: FOODON:03414644
-    label: moth
   host_taxon:
     id: NCBITaxon:7088
     label: Lepidoptera
@@ -5685,7 +5683,7 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Shrimp
-  env_medium:
+  host_taxon:
     id: FOODON:03411237
     label: shrimp
 - id: GOLDTERMS:5220
@@ -5987,12 +5985,9 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Echinodermata
-  env_medium:
+  host_taxon:
     id: FOODON:03412115
     label: echinoderm
-  host_taxon:
-    id: NCBITaxon:7586
-    label: Echinodermata
 - id: GOLDTERMS:4751
   label: Host-associated > Endosymbionts
   parent: GOLDTERMS:4086
@@ -6012,9 +6007,6 @@ terms:
   parent: GOLDTERMS:4751
   level: 3
   vocab_differentia: GOLDVOCAB:Fungi
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -6023,9 +6015,9 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Fish
-  env_medium:
-    id: FOODON:03411222
-    label: fish
+  host_taxon:
+    id: NCBITaxon:7777
+    label: Chondrichthyes
 - id: GOLDTERMS:Host-associated-Fish-Abdomen
   label: Host-associated > Fish > Abdomen
   parent: GOLDTERMS:4095
@@ -6039,7 +6031,9 @@ terms:
   parent: GOLDTERMS:Host-associated-Fish-Abdomen
   level: 4
   vocab_differentia: GOLDVOCAB:Ascites
-  curated: false
+  anatomical_site:
+    id: UBERON:0007795
+    label: ascitic fluid
 - id: GOLDTERMS:4788
   label: Host-associated > Fish > Circulatory system
   parent: GOLDTERMS:4095
@@ -6224,9 +6218,6 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Fungi
-  env_medium:
-    id: FOODON:03411261
-    label: fungus
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
@@ -6243,7 +6234,7 @@ terms:
   parent: GOLDTERMS:4098
   level: 3
   vocab_differentia: GOLDVOCAB:Lichen
-  env_medium:
+  host_taxon:
     id: FOODON:03412345
     label: lichen
 - id: GOLDTERMS:4463
@@ -6275,9 +6266,6 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Horse
-  env_medium:
-    id: FOODON:03411229
-    label: horse
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -6372,7 +6360,9 @@ terms:
   parent: GOLDTERMS:Host-associated-Horse-Respiratory-system
   level: 4
   vocab_differentia: GOLDVOCAB:Nasopharyngeal
-  curated: false
+  anatomical_site:
+    id: UBERON:0001728
+    label: nasopharynx
 - id: GOLDTERMS:5063
   label: Host-associated > Horse > Tooth
   parent: GOLDTERMS:4476
@@ -6841,7 +6831,7 @@ terms:
   parent: GOLDTERMS:4138
   level: 3
   vocab_differentia: GOLDVOCAB:Milk
-  env_medium:
+  host_taxon:
     id: FOODON:03307455
     label: cow milk (raw)
   anatomical_site:
@@ -7015,7 +7005,9 @@ terms:
   parent: GOLDTERMS:4137
   level: 4
   vocab_differentia: GOLDVOCAB:Nasopharyngeal
-  curated: false
+  anatomical_site:
+    id: UBERON:0001728
+    label: nasopharynx
 - id: GOLDTERMS:4132
   label: Host-associated > Human > Respiratory system > Nasopharyngeal > Pharynx
   parent: GOLDTERMS:4131
@@ -7212,9 +7204,6 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Insecta
-  env_medium:
-    id: FOODON:03411220
-    label: insect
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
@@ -7253,7 +7242,9 @@ terms:
   parent: GOLDTERMS:4799
   level: 4
   vocab_differentia: GOLDVOCAB:Gymnolaemates
-  curated: false
+  host_taxon:
+    id: NCBITaxon:10206
+    label: Gymnolaemata
 - id: GOLDTERMS:4801
   label: Host-associated > Invertebrates > Cnidaria
   parent: GOLDTERMS:4754
@@ -7273,7 +7264,9 @@ terms:
   parent: GOLDTERMS:4088
   level: 5
   vocab_differentia: GOLDVOCAB:Surface
-  curated: false
+  anatomical_site:
+    id: UBERON:0002416
+    label: integumental system
 - id: GOLDTERMS:5745
   label: Host-associated > Invertebrates > Cnidaria > Coral > Tissue
   parent: GOLDTERMS:4088
@@ -7295,12 +7288,9 @@ terms:
   parent: GOLDTERMS:4754
   level: 3
   vocab_differentia: GOLDVOCAB:Echinodermata
-  env_medium:
+  host_taxon:
     id: FOODON:03412115
     label: echinoderm
-  host_taxon:
-    id: NCBITaxon:7586
-    label: Echinodermata
 - id: GOLDTERMS:4683
   label: Host-associated > Invertebrates > Echinodermata > Sea Star
   parent: GOLDTERMS:4803
@@ -7322,7 +7312,9 @@ terms:
   parent: GOLDTERMS:4803
   level: 4
   vocab_differentia: GOLDVOCAB:Sea-cucumber
-  curated: false
+  host_taxon:
+    id: NCBITaxon:7705
+    label: Holothuroidea
 - id: GOLDTERMS:4425
   label: Host-associated > Invertebrates > Nematoda
   parent: GOLDTERMS:4754
@@ -7693,7 +7685,7 @@ terms:
   parent: GOLDTERMS:4118
   level: 3
   vocab_differentia: GOLDVOCAB:Milk
-  env_medium:
+  host_taxon:
     id: FOODON:03307455
     label: cow milk (raw)
   anatomical_site:
@@ -7799,7 +7791,9 @@ terms:
   parent: GOLDTERMS:4122
   level: 4
   vocab_differentia: GOLDVOCAB:Nasopharyngeal
-  curated: false
+  anatomical_site:
+    id: UBERON:0001728
+    label: nasopharynx
 - id: GOLDTERMS:4121
   label: Host-associated > Mammals > Respiratory system > Nasopharyngeal > Nasal cavity
   parent: GOLDTERMS:4120
@@ -7895,9 +7889,6 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Mollusca
-  env_medium:
-    id: FOODON:03412112
-    label: mollusc
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
@@ -7962,15 +7953,14 @@ terms:
   parent: GOLDTERMS:4324
   level: 3
   vocab_differentia: GOLDVOCAB:Larvae
-  curated: false
+  anatomical_site:
+    id: UBERON:0002548
+    label: larva
 - id: GOLDTERMS:5198
   label: Host-associated > Mollusca > Oyster
   parent: GOLDTERMS:4324
   level: 3
   vocab_differentia: GOLDVOCAB:Oyster
-  env_medium:
-    id: FOODON:03411224
-    label: oyster
   host_taxon:
     id: NCBITaxon:6563
     label: Ostreidae
@@ -8102,7 +8092,9 @@ terms:
   parent: GOLDTERMS:3938
   level: 3
   vocab_differentia: GOLDVOCAB:Peat-moss
-  curated: false
+  host_taxon:
+    id: NCBITaxon:13804
+    label: Sphagnum
 - id: GOLDTERMS:4460
   label: Host-associated > Plants > Phyllosphere
   parent: GOLDTERMS:3938
@@ -8114,13 +8106,15 @@ terms:
   parent: GOLDTERMS:4460
   level: 4
   vocab_differentia: GOLDVOCAB:Anthosphere
-  curated: false
+  anatomical_site:
+    id: PO:0009046
+    label: flower
 - id: GOLDTERMS:5826
   label: Host-associated > Plants > Phyllosphere > Anthosphere > Nectar
   parent: GOLDTERMS:4538
   level: 5
   vocab_differentia: GOLDVOCAB:Nectar
-  env_medium:
+  host_taxon:
     id: FOODON:03315553
     label: nectar (food product)
 - id: GOLDTERMS:4621
@@ -8136,7 +8130,9 @@ terms:
   parent: GOLDTERMS:4460
   level: 4
   vocab_differentia: GOLDVOCAB:Carposphere
-  curated: false
+  anatomical_site:
+    id: PO:0009001
+    label: fruit
 - id: GOLDTERMS:5265
   label: Host-associated > Plants > Phyllosphere > Carposphere > Endophytes
   parent: GOLDTERMS:4600
@@ -8154,7 +8150,9 @@ terms:
   parent: GOLDTERMS:4460
   level: 4
   vocab_differentia: GOLDVOCAB:Caulosphere
-  curated: false
+  anatomical_site:
+    id: PO:0009047
+    label: stem
 - id: GOLDTERMS:5752
   label: Host-associated > Plants > Phyllosphere > Caulosphere > Bark
   parent: GOLDTERMS:4525
@@ -8282,7 +8280,9 @@ terms:
   parent: GOLDTERMS:3943
   level: 4
   vocab_differentia: GOLDVOCAB:Stem-tuber
-  curated: false
+  anatomical_site:
+    id: PO:0025522
+    label: tuber
 - id: GOLDTERMS:5793
   label: Host-associated > Plants > Rhizome > Stem tuber > Soil
   parent: GOLDTERMS:4994
@@ -8327,7 +8327,9 @@ terms:
   parent: GOLDTERMS:4466
   level: 4
   vocab_differentia: GOLDVOCAB:Galls
-  curated: false
+  anatomical_site:
+    id: PO:0025626
+    label: plant gall
 - id: GOLDTERMS:4523
   label: Host-associated > Plants > Roots > Nodule
   parent: GOLDTERMS:4466
@@ -8385,7 +8387,9 @@ terms:
   parent: GOLDTERMS:4572
   level: 4
   vocab_differentia: GOLDVOCAB:Seed-radicle
-  curated: false
+  anatomical_site:
+    id: PO:0020031
+    label: radicle
 - id: GOLDTERMS:5273
   label: Host-associated > Plants > Tissue
   parent: GOLDTERMS:3938

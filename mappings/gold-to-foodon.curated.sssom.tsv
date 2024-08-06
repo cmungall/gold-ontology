@@ -37,12 +37,10 @@ GOLDVOCAB:Grasshopper	Grasshopper	skos:closeMatch	FOODON:03412496	grasshopper	se
 GOLDVOCAB:Green-algae	Green algae	skos:closeMatch	FOODON:03412502	green algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	green algae
 GOLDVOCAB:Horse	Horse	skos:closeMatch	FOODON:03411229	horse	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	horse
 GOLDVOCAB:Ice-cream	Ice cream	skos:exactMatch	FOODON:00001045	ice cream food product	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ice cream
-GOLDVOCAB:Insecta	Insecta	skos:narrowMatch	FOODON:03411220	insect	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	insecta
 GOLDVOCAB:Lichen	Lichen	skos:closeMatch	FOODON:03412345	lichen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lichen
 GOLDVOCAB:Lobster	Lobster	skos:closeMatch	FOODON:00002468	lobster	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lobster
 GOLDVOCAB:Milk	Milk	skos:exactMatch	FOODON:03307455	cow milk (raw)	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	milk
 GOLDVOCAB:Mollusca	Mollusca	skos:closeMatch	FOODON:03412112	mollusc	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mollusca
-GOLDVOCAB:Moth	Moth	skos:closeMatch	FOODON:03414644	moth	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	moth
 GOLDVOCAB:Oyster	Oyster	skos:closeMatch	FOODON:03411224	oyster	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oyster
 GOLDVOCAB:Palm-oil	Palm oil	skos:closeMatch	FOODON:03310232	palm oil	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	palm oil
 GOLDVOCAB:Red-algae	Red algae	skos:closeMatch	FOODON:03411743	red algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	red algae
@@ -65,5 +63,6 @@ GOLDVOCAB:Fermented-beverages	Fermented beverages	skos:exactMatch	FOODON:0000109
 GOLDVOCAB:Fermented-meat-products	Fermented meat products	skos:exactMatch	FOODON:00001314	fermented meat product	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fermented meat product	semapv:RegularExpressionReplacement	
 GOLDVOCAB:Meat-products	Meat products	skos:exactMatch	FOODON:03317170	meat (whole or pieces)	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	meat product	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 GOLDVOCAB:Nectar	Nectar	skos:exactMatch	FOODON:03315553	nectar (food product)	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nectar		semapv:RegularExpressionReplacement
+GOLDVOCAB:Drinking-water	Drinking water	skos:exactMatch	FOODON:03301647	drinking water (purified)	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drinking water		semapv:RegularExpressionReplacement
 
 
