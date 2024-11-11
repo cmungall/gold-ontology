@@ -1,0 +1,11 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing	object_preprocessing
+GOLDVOCAB:Asbestos	Asbestos	skos:closeMatch	CHEBI:46661	asbestos	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	asbesto	semapv:RegularExpressionReplacement	
+GOLDVOCAB:Carbonate	Carbonate	skos:exactMatch	CHEBI:41609	carbonate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	carbonate		
+GOLDVOCAB:Chloroethene	Chloroethene	skos:exactMatch	CHEBI:28509	chloroethene	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	chloroethene		
+GOLDVOCAB:Hydrocarbon	Hydrocarbon	skos:exactMatch	CHEBI:24632	hydrocarbon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hydrocarbon		
+GOLDVOCAB:Polycyclic-aromatic-hydrocarbons	Polycyclic aromatic hydrocarbons	skos:closeMatch	CHEBI:33848	polycyclic arene	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	polycyclic aromatic hydrocarbon	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Shale-carbon-reservoir	Shale carbon reservoir	skos:closeMatch	CHEBI:80506	Shale oils	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	oil shale		
+GOLDVOCAB:Terephthalate	Terephthalate	skos:exactMatch	CHEBI:30043	terephthalate(2-)	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	terephthalate		semapv:RegularExpressionReplacement
+GOLDVOCAB:Tetrachloroethylene	Tetrachloroethylene	skos:closeMatch	CHEBI:17300	tetrachloroethene	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	tetrachloroethylene		
+GOLDVOCAB:Thiocyanate	Thiocyanate	skos:exactMatch	CHEBI:18022	thiocyanate	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	thiocyanate		
+GOLDVOCAB:Xylene	Xylene	skos:exactMatch	CHEBI:27338	xylene	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	xylene		

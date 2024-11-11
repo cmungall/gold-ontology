@@ -1,0 +1,107 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+GOLDTERMS:3901	Host-associated > Arthropoda	skos:exactMatch	NCBITaxon:6656	Arthropoda	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	arthropoda
+GOLDTERMS:3906	Host-associated > Reptilia	skos:closeMatch	NCBITaxon:1294634	Crocodylia	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	reptilia
+GOLDTERMS:3906	Host-associated > Reptilia	skos:closeMatch	NCBITaxon:8459	Testudines	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	reptilia
+GOLDTERMS:3906	Host-associated > Reptilia	skos:closeMatch	NCBITaxon:8504	Lepidosauria	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	reptilia
+GOLDTERMS:3938	Host-associated > Plants	skos:exactMatch	NCBITaxon:3193	Embryophyta	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	plants
+GOLDTERMS:3959	Host-associated > Algae > Red algae	skos:exactMatch	NCBITaxon:2763	Rhodophyta	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	red algae
+GOLDTERMS:3960	Host-associated > Algae > Brown Algae	skos:exactMatch	NCBITaxon:2870	Phaeophyceae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	brown algae
+GOLDTERMS:4084	Host-associated > Amphibia	skos:exactMatch	NCBITaxon:8292	Amphibia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	amphibia
+GOLDTERMS:4089	Host-associated > Invertebrates > Echinodermata > Sea Urchin	skos:exactMatch	NCBITaxon:7625	Echinoidea	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sea urchin
+GOLDTERMS:4118	Host-associated > Mammals	skos:exactMatch	NCBITaxon:40674	Mammalia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mammals
+GOLDTERMS:4138	Host-associated > Human	skos:exactMatch	NCBITaxon:9606	Homo sapiens	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	human
+GOLDTERMS:4154	Host-associated > Birds	skos:exactMatch	NCBITaxon:8782	Aves	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	birds
+GOLDTERMS:4324	Host-associated > Mollusca	skos:exactMatch	NCBITaxon:6447	Mollusca	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mollusca
+GOLDTERMS:4331	Host-associated > Annelida	skos:exactMatch	NCBITaxon:6340	Annelida	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	annelida
+GOLDTERMS:4341	Host-associated > Porifera	skos:exactMatch	NCBITaxon:6040	Porifera	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	porifera
+GOLDTERMS:4425	Host-associated > Invertebrates > Nematoda	skos:exactMatch	NCBITaxon:6231	Nematoda	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nematoda
+GOLDTERMS:4472	Host-associated > Protists > Oomycetes	skos:exactMatch	NCBITaxon:4762	Oomycota	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	oomycetes
+GOLDTERMS:4476	Host-associated > Horse	skos:exactMatch	NCBITaxon:9796	Equus caballus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	horse
+GOLDTERMS:4569	Host-associated > Tunicates	skos:exactMatch	NCBITaxon:7712	Tunicata	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tunicates
+GOLDTERMS:4615	Host-associated > Invertebrates > Ctenophora	skos:exactMatch	NCBITaxon:10197	Ctenophora <comb jellies>	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ctenophora
+GOLDTERMS:4675	Host-associated > Algae > Diatoms	skos:closeMatch	NCBITaxon:2836	Bacillariophyta	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diatoms
+GOLDTERMS:4678	Host-associated > Algae > Haptophytes	skos:closeMatch	NCBITaxon:2830	Haptophyta	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	haptophytes
+GOLDTERMS:4698	Host-associated > Mammals > Primate	skos:exactMatch	NCBITaxon:9443	Primates	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primate
+GOLDTERMS:4736	Host-associated > Invertebrates > Platyhelminthes	skos:exactMatch	NCBITaxon:6157	Platyhelminthes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	platyhelminthes
+GOLDTERMS:4760	Host-associated > Algae > Green algae	skos:exactMatch	NCBITaxon:3041	Chlorophyta	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	green algae
+GOLDTERMS:4773	Host-associated > Arthropoda > Crustacea	skos:exactMatch	NCBITaxon:6657	Crustacea	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	crustacea
+GOLDTERMS:4774	Host-associated > Arthropoda > Crustacea > Copepoda	skos:exactMatch	NCBITaxon:6830	Copepoda	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	copepoda
+GOLDTERMS:4799	Host-associated > Invertebrates > Bryozoans	skos:exactMatch	NCBITaxon:10205	Bryozoa	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bryozoans
+GOLDTERMS:4829	Host-associated > Algae > Yellow-green algae	skos:exactMatch	NCBITaxon:2833	Xanthophyceae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	yellow-green algae
+GOLDTERMS:4835	Host-associated > Algae > Golden Algae	skos:exactMatch	NCBITaxon:2825	Chrysophyceae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	golden algae
+GOLDTERMS:5156	Host-associated > Chordata	skos:exactMatch	NCBITaxon:7711	Chordata	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chordata
+GOLDTERMS:5173	Host-associated > Cephalochordata	skos:exactMatch	NCBITaxon:7735	Cephalochordata	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cephalochordata
+GOLDTERMS:5187	Host-associated > Petromyzon	skos:exactMatch	NCBITaxon:7756	Petromyzon	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	petromyzon
+GOLDTERMS:5299	Host-associated > Arthropoda > Aphids	skos:exactMatch	NCBITaxon:33380	Aphidomorpha	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	aphids
+GOLDTERMS:5761	Host-associated > Mollusca > Bivalves	skos:exactMatch	NCBITaxon:6544	Bivalvia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bivalves
+GOLDTERMS:Host-associated-Amoebozoa	Host-associated > Amoebozoa	skos:exactMatch	NCBITaxon:554915	Amoebozoa	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	amoebozoa
+GOLDTERMS:Host-associated-Arthropoda-Bee	Host-associated > Arthropoda > Bee	skos:exactMatch	NCBITaxon:34735	Apoidea	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bee
+GOLDVOCAB:Amoebozoa	Amoebozoa	skos:exactMatch	NCBITaxon:554915	Amoebozoa	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	amoebozoa
+GOLDVOCAB:Amphibia	Amphibia	skos:exactMatch	NCBITaxon:8292	Amphibia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	amphibia
+GOLDVOCAB:Annelida	Annelida	skos:exactMatch	NCBITaxon:6340	Annelida	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	annelida
+GOLDVOCAB:Aphids	Aphids	skos:exactMatch	NCBITaxon:33380	Aphidomorpha	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	aphids
+GOLDVOCAB:Arthropoda	Arthropoda	skos:exactMatch	NCBITaxon:6656	Arthropoda	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	arthropoda
+GOLDVOCAB:Bacteria	Bacteria	skos:exactMatch	NCBITaxon:2	Bacteria	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	bacteria
+GOLDVOCAB:Bee	Bee	skos:exactMatch	NCBITaxon:34735	Apoidea	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	bee
+GOLDVOCAB:Birds	Birds	skos:exactMatch	NCBITaxon:8782	Aves	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	birds
+GOLDVOCAB:Bivalves	Bivalves	skos:exactMatch	NCBITaxon:6544	Bivalvia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	bivalves
+GOLDVOCAB:Brown-Algae	Brown Algae	skos:exactMatch	NCBITaxon:2870	Phaeophyceae	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	brown algae
+GOLDVOCAB:Bryozoans	Bryozoans	skos:exactMatch	NCBITaxon:10205	Bryozoa	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	bryozoans
+GOLDVOCAB:Cephalochordata	Cephalochordata	skos:exactMatch	NCBITaxon:7735	Cephalochordata	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cephalochordata
+GOLDVOCAB:Chordata	Chordata	skos:exactMatch	NCBITaxon:7711	Chordata	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	chordata
+GOLDVOCAB:Cnidaria	Cnidaria	skos:exactMatch	NCBITaxon:6073	Cnidaria	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cnidaria
+GOLDVOCAB:Copepoda	Copepoda	skos:exactMatch	NCBITaxon:6830	Copepoda	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	copepoda
+GOLDVOCAB:Crustacea	Crustacea	skos:exactMatch	NCBITaxon:6657	Crustacea	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	crustacea
+GOLDVOCAB:Ctenophora	Ctenophora	skos:exactMatch	NCBITaxon:10197	Ctenophora <comb jellies>	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ctenophora
+GOLDVOCAB:Dinoflagellates	Dinoflagellates	skos:exactMatch	NCBITaxon:2864	Dinophyceae	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	dinoflagellates
+GOLDVOCAB:Echinodermata	Echinodermata	skos:exactMatch	NCBITaxon:7586	Echinodermata	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	echinodermata
+GOLDVOCAB:Fungi	Fungi	skos:exactMatch	NCBITaxon:4751	Fungi	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fungi
+GOLDVOCAB:Golden-Algae	Golden Algae	skos:exactMatch	NCBITaxon:2825	Chrysophyceae	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	golden algae
+GOLDVOCAB:Green-algae	Green algae	skos:exactMatch	NCBITaxon:3041	Chlorophyta	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	green algae
+GOLDVOCAB:Haptophytes	Haptophytes	skos:closeMatch	NCBITaxon:2830	Haptophyta	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	haptophytes
+GOLDVOCAB:Horse	Horse	skos:exactMatch	NCBITaxon:9796	Equus caballus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	horse
+GOLDVOCAB:Human	Human	skos:exactMatch	NCBITaxon:9606	Homo sapiens	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	human
+GOLDVOCAB:Insecta	Insecta	skos:exactMatch	NCBITaxon:50557	Insecta	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	insecta
+GOLDVOCAB:Mammals	Mammals	skos:exactMatch	NCBITaxon:40674	Mammalia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mammals
+GOLDVOCAB:Mollusca	Mollusca	skos:exactMatch	NCBITaxon:6447	Mollusca	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mollusca
+GOLDVOCAB:Nematoda	Nematoda	skos:exactMatch	NCBITaxon:6231	Nematoda	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nematoda
+GOLDVOCAB:Oomycetes	Oomycetes	skos:closeMatch	NCBITaxon:4762	Oomycota	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	oomycetes
+GOLDVOCAB:Oomycetes	Oomycetes	skos:closeMatch	NCBITaxon:4762	Oomycota	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	oomycetes
+GOLDVOCAB:Petromyzon	Petromyzon	skos:exactMatch	NCBITaxon:7756	Petromyzon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	petromyzon
+GOLDVOCAB:Plants	Plants	skos:exactMatch	NCBITaxon:3193	Embryophyta	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	plants
+GOLDVOCAB:Platyhelminthes	Platyhelminthes	skos:exactMatch	NCBITaxon:6157	Platyhelminthes	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	platyhelminthes
+GOLDVOCAB:Porifera	Porifera	skos:exactMatch	NCBITaxon:6040	Porifera	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	porifera
+GOLDVOCAB:Primate	Primate	skos:exactMatch	NCBITaxon:9443	Primates	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	primate
+GOLDVOCAB:Red-algae	Red algae	skos:exactMatch	NCBITaxon:2763	Rhodophyta	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	red algae
+GOLDVOCAB:Reptilia	Reptilia	skos:closeMatch	NCBITaxon:1294634	Crocodylia	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	reptilia
+GOLDVOCAB:Reptilia	Reptilia	skos:closeMatch	NCBITaxon:8459	Testudines	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	reptilia
+GOLDVOCAB:Reptilia	Reptilia	skos:closeMatch	NCBITaxon:8504	Lepidosauria	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	reptilia
+GOLDVOCAB:Sea-Urchin	Sea Urchin	skos:exactMatch	NCBITaxon:7625	Echinoidea	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	sea urchin
+GOLDVOCAB:Tunicates	Tunicates	skos:exactMatch	NCBITaxon:7712	Tunicata	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	tunicates
+GOLDVOCAB:Unclassified	Unclassified	skos:closeMatch	NCBITaxon:12908	unclassified sequences	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	unclassified
+GOLDVOCAB:Yellow-green-algae	Yellow-green algae	skos:exactMatch	NCBITaxon:2833	Xanthophyceae	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	yellow-green algae
+GOLDTERMS:4590	Host-associated > Arthropoda > Mosquito	skos:exactMatch	NCBITaxon:7157	Culicidae	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	mosquito		semapv:RegularExpressionReplacement
+GOLDTERMS:4603	Host-associated > Arthropoda > Beetle	skos:exactMatch	NCBITaxon:7041	Coleoptera	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	beetle		semapv:RegularExpressionReplacement
+GOLDTERMS:4683	Host-associated > Invertebrates > Echinodermata > Sea Star	skos:exactMatch	NCBITaxon:7588	Asteroidea	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	sea star		semapv:RegularExpressionReplacement
+GOLDTERMS:4904	Host-associated > Arthropoda > Ant	skos:exactMatch	NCBITaxon:36668	Formicidae	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	ant		semapv:RegularExpressionReplacement
+GOLDTERMS:5105	Host-associated > Arthropoda > Moth	skos:exactMatch	NCBITaxon:7088	Lepidoptera	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	moth		semapv:RegularExpressionReplacement
+GOLDTERMS:5108	Host-associated > Arthropoda > Grasshopper	skos:exactMatch	NCBITaxon:7001	Caelifera	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	grasshopper		semapv:RegularExpressionReplacement
+GOLDTERMS:5118	Host-associated > Arthropoda > Mealybug	skos:exactMatch	NCBITaxon:30190	Pseudococcidae	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	mealybug		semapv:RegularExpressionReplacement
+GOLDTERMS:5146	Host-associated > Arthropoda > Spider	skos:exactMatch	NCBITaxon:6893	Araneae	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	spider		semapv:RegularExpressionReplacement
+GOLDTERMS:5198	Host-associated > Mollusca > Oyster	skos:exactMatch	NCBITaxon:6563	Ostreidae	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	oyster		semapv:RegularExpressionReplacement
+GOLDVOCAB:Ant	Ant	skos:exactMatch	NCBITaxon:36668	Formicidae	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	ant		semapv:RegularExpressionReplacement
+GOLDVOCAB:Beetle	Beetle	skos:exactMatch	NCBITaxon:7041	Coleoptera	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	beetle		semapv:RegularExpressionReplacement
+GOLDVOCAB:Bugs	Bugs	skos:closeMatch	NCBITaxon:33343	Prosorrhyncha	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	bug	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Bugs	Bugs	skos:closeMatch	NCBITaxon:7524	Hemiptera	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	bug	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Grasshopper	Grasshopper	skos:exactMatch	NCBITaxon:7001	Caelifera	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	grasshopper		semapv:RegularExpressionReplacement
+GOLDVOCAB:Mealybug	Mealybug	skos:exactMatch	NCBITaxon:30190	Pseudococcidae	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	mealybug		semapv:RegularExpressionReplacement
+GOLDVOCAB:Mosquito	Mosquito	skos:exactMatch	NCBITaxon:7157	Culicidae	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	mosquito		semapv:RegularExpressionReplacement
+GOLDVOCAB:Moth	Moth	skos:exactMatch	NCBITaxon:7088	Lepidoptera	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	moth		semapv:RegularExpressionReplacement
+GOLDVOCAB:Oyster	Oyster	skos:exactMatch	NCBITaxon:6563	Ostreidae	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	oyster		semapv:RegularExpressionReplacement
+GOLDVOCAB:Sea-Star	Sea Star	skos:exactMatch	NCBITaxon:7588	Asteroidea	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	sea star		semapv:RegularExpressionReplacement
+GOLDVOCAB:Spider	Spider	skos:exactMatch	NCBITaxon:6893	Araneae	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	spider		semapv:RegularExpressionReplacement
+GOLDVOCAB:Gymnolaemates	Gymnolaemates	skos:exactMatch	NCBITaxon:10206	Gymnolaemata	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	gymnolaemata		
+GOLDVOCAB:Peat-moss	Peat moss	skos:exactMatch	NCBITaxon:13804	Sphagnum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sphagnum		
+GOLDVOCAB:Sea-cucumber	Sea cucumber	skos:closeMatch	NCBITaxon:7705	Holothuroidea	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	sea cucumber		semapv:RegularExpressionReplacement
+GOLDVOCAB:Fish	Fish	skos:closeMatch	NCBITaxon:7777	Chondrichthyes	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	fish		
+

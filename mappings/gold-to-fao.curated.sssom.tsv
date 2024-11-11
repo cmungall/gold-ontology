@@ -1,0 +1,10 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
+GOLDTERMS:4463	Host-associated > Fungi > Mycelium	skos:exactMatch	FAO:0000011	mycelium	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mycelium
+GOLDTERMS:4528	Host-associated > Fungi > Sclerotium	skos:exactMatch	FAO:0001008	sclerotium	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sclerotium
+GOLDTERMS:4550	Host-associated > Fungi > Fruiting body	skos:exactMatch	FAO:0000007	fruitbody	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	body fruiting
+GOLDTERMS:5296	Host-associated > Fungi > Mycorrhiza	skos:exactMatch	FAO:0001027	mycorrhiza	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mycorrhiza
+GOLDVOCAB:Fruiting-body	Fruiting body	skos:exactMatch	FAO:0000007	fruitbody	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	body fruiting
+GOLDVOCAB:Mycelium	Mycelium	skos:exactMatch	FAO:0000011	mycelium	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mycelium
+GOLDVOCAB:Mycorrhiza	Mycorrhiza	skos:exactMatch	FAO:0001027	mycorrhiza	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mycorrhiza
+GOLDVOCAB:Sclerotium	Sclerotium	skos:exactMatch	FAO:0001008	sclerotium	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	sclerotium
+
