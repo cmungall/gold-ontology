@@ -2,13 +2,14 @@ import csv
 import re
 from collections import defaultdict
 from copy import copy
+from pathlib import Path
 
 import click
 import urllib
 import hashlib
 from rdflib import Namespace, URIRef
 from rdflib.namespace import RDFS, SKOS
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Union
 from funowl import OntologyDocument, Ontology, ObjectSomeValuesFrom, ClassAssertion, \
     SubClassOf, ObjectHasValue, AnnotationAssertion, ObjectIntersectionOf, Prefix, AnnotationSubject, Annotation
 
@@ -70,11 +71,26 @@ def count_distinct_subtuples(row2id: dict) -> Dict[tuple, int]:
             subtuple_counts[subt] += 1
     return subtuple_counts
 
-def translate_goldpaths(f: str):
+def translate_goldpath_file_to_owl(f: Union[str, Path]):
     """
-    Translate a GOLD path file into an ontology
+    Translate a GOLD path file into an ontology.
 
-    :param f:
+    The ontology will have 4 roots:
+
+    - one root per GOLD ECOSYSTEM (Engineered, Environmental, Host-associated)
+    - one root AtomicElement
+
+    the gold ecosystem path terms will have equivalence axioms, e.g.
+
+    .. code-block:: owl
+
+      'Engineered > Bioreactor > Anaerobic > Biogas'
+       EquivalentTo:
+        ECOSYSTEM-PATH-ID some Engineered and
+        ECOSYSTEM some Bioreactor and
+        ECOSYSTEM_CATEGORY some Anaerobic and
+
+    :param f: path to the GOLD path file
     :return:
     """
     o = Ontology("http://purl.obolibrary.org/obo/gold.owl")
@@ -269,7 +285,7 @@ def cli(input: str, output: str, synonyms: str, mappings: Tuple[str]):
     """
 
     """
-    doc = translate_goldpaths(input)
+    doc = translate_goldpath_file_to_owl(input)
     if synonyms is not None:
         # inject synonyms
         parse_synonyms(doc, synonyms)

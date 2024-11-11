@@ -1,13 +1,15 @@
-from gold_ontology.gold_transform import translate_goldpaths
+from pathlib import Path
+
+from gold_ontology.gold_transform import translate_goldpath_file_to_owl
 import os
 
-cwd = os.path.abspath(os.path.dirname(__file__))
-INPUT_DIR = os.path.join(cwd, 'inputs')
-OUTPUT_DIR = os.path.join(cwd, 'outputs')
+TEST_DIR = Path(__file__).parent
+INPUT_DIR = TEST_DIR / 'inputs'
+OUTPUT_DIR = TEST_DIR / 'outputs'
 
 def test_convert():
-    print('TESTING')
-    o = translate_goldpaths(os.path.join(INPUT_DIR, 'goldpaths.tsv'))
-    with open(os.path.join(OUTPUT_DIR, 'gold.ofn')) as stream:
+    o = translate_goldpath_file_to_owl(INPUT_DIR / 'goldpaths.tsv')
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT_DIR /'gold.ofn', "w") as stream:
         stream.write(str(o))
 

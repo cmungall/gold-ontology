@@ -3833,6 +3833,15 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+        <rdfs:label>volatile organic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_138675 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_138675">
@@ -4005,6 +4014,30 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24870"/>
+        <obo:IAO_0000115>A monoatomic or polyatomic species having one or more elementary charges of the electron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Anion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>anion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Anionen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aniones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>anions</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>anion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33836"/>
+        <rdfs:label>benzenes</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23014">
@@ -4159,6 +4192,21 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24870">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>A molecular entity having a net electric charge.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Ionen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>iones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ions</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>ion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25362">
@@ -4183,6 +4231,26 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasRelatedSynonym>molecules</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>neutral molecular compounds</oboInOwl:hasRelatedSynonym>
         <rdfs:label>molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22563"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25699"/>
+        <rdfs:label>organic anion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24870"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>organic ion</rdfs:label>
     </owl:Class>
     
 
@@ -4259,6 +4327,16 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasExactSynonym>sulfur molecular entity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>sulfur molecular entities</oboInOwl:hasRelatedSynonym>
         <rdfs:label>sulfur molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134179"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38975"/>
+        <rdfs:label>xylene</rdfs:label>
     </owl:Class>
     
 
@@ -4371,6 +4449,18 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33465"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
         <rdfs:label>elemental nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22563"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36358"/>
+        <obo:IAO_0000115>An anion consisting of more than one atom.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>polyatomic anions</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>polyatomic anion</rdfs:label>
     </owl:Class>
     
 
@@ -4520,6 +4610,36 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+        <obo:IAO_0000115>Any molecule that consists of a series of atoms joined together to form a ring.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>cyclic compounds</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>cyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:label>homocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:label>carbocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33608">
@@ -4531,11 +4651,74 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:label>polycyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33653 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33653">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <rdfs:label>aliphatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <obo:IAO_0000115>A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>aromatic compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>aromatic molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>aromatics</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aromatische Verbindungen</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>aromatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33663"/>
+        <rdfs:label>arene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:label>organic aromatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33598"/>
+        <rdfs:label>cyclic hydrocarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33663"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35294"/>
+        <rdfs:label>polycyclic hydrocarbon</rdfs:label>
     </owl:Class>
     
 
@@ -4611,6 +4794,26 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+        <rdfs:label>organic cyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+        <rdfs:label>benzenoid aromatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839">
@@ -4622,6 +4825,25 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasRelatedSynonym>polymer molecule</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>polymers</oboInOwl:hasRelatedSynonym>
         <rdfs:label>macromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33658"/>
+        <rdfs:label>monocyclic arene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33658"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33666"/>
+        <rdfs:label>polycyclic arene</rdfs:label>
     </owl:Class>
     
 
@@ -4645,12 +4867,57 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35295"/>
+        <rdfs:label>carbopolycyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33635"/>
+        <rdfs:label>homopolycyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25741"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33273"/>
+        <obo:IAO_0000115>An oxoanion is an anion derived from an oxoacid by loss of hydron(s) bound to oxygen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>oxoanion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>oxoacid anions</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxoanions</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35479 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35479">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33296"/>
         <rdfs:label>alkali metal salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25696"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <rdfs:label>carbon oxoanion</rdfs:label>
     </owl:Class>
     
 
@@ -4683,6 +4950,18 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>Any molecular entity consisting of more than one atom.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>polyatomic entities</oboInOwl:hasRelatedSynonym>
         <rdfs:label>polyatomic entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24870"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <obo:IAO_0000115>An ion consisting of more than one atom.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>polyatomic ions</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>polyatomic ion</rdfs:label>
     </owl:Class>
     
 
@@ -4785,6 +5064,43 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38975">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38976"/>
+        <rdfs:label>methylbenzene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38976">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22712"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33847"/>
+        <rdfs:label>alkylbenzene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_41609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_41609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label>carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46663"/>
+        <rdfs:label>asbestos</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_46662 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46662">
@@ -4796,6 +5112,15 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasRelatedSynonym>minerals</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mineraux</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mineral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46662"/>
+        <rdfs:label>silicate mineral</rdfs:label>
     </owl:Class>
     
 
@@ -10506,6 +10831,23 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000114"/>
+        <obo:IAO_0000115>A flooded parcel of arable land used for growing rice and other semiaquatic crops.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Paddy_field</oboInOwl:hasDbXref>
+        <rdfs:label>paddy field</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000297"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A flooded parcel of arable land used for growing rice and other semiaquatic crops.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Rice_paddy</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000300">
@@ -13979,6 +14321,17 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002001"/>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ENVO:00002193</oboInOwl:id>
+        <rdfs:label>pulp-bleaching waste water</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002199">
@@ -14698,6 +15051,24 @@ https://en.wikipedia.org/wiki/ Hydrologically, an oceanic basin may be anywhere 
         <oboInOwl:hasRelatedSynonym>jet fuel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>ENVO:00003903</oboInOwl:id>
         <rdfs:label>aviation fuel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005755"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000297"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Soil which is part of a paddy field.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>rice paddy soil</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>paddy field soil</rdfs:label>
     </owl:Class>
     
 
@@ -21004,6 +21375,23 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
         <owl:annotatedTarget>Any one of a number of macroscopic, crystalline forms in which ice appears, including hexagonal columns, hexagonal platelets, dendritic crystals, ice needles, and combinations of these forms.  The crystal lattice of ice is hexagonal in its symmetry under most atmospheric conditions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000867">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A group of solar panels, typically belonging to the same photovoltaic system, arranged to maximise interception of solar radiation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>photovoltaic panel array</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">solar panel array</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000867"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A group of solar panels, typically belonging to the same photovoltaic system, arranged to maximise interception of solar radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Photovoltaic_system</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -33645,6 +34033,25 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03600069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03600069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005803"/>
+        <obo:IAO_0000115 xml:lang="en">An animal habitation which is built by alligators from plants and decomposing vegetation in order to protect their eggs from predators.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6670-9157"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-03T00:22:16.764Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">nest of alligator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An animal habitation which is built by alligators from plants and decomposing vegetation in order to protect their eggs from predators.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Nest"/>
+        <oboInOwl:hasDbXref rdf:resource="https://new.smm.org/learn/activities/build-an-alligator-nest"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03600070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03600070">
@@ -34330,19 +34737,19 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-                    <rdf:Description rdf:nodeID="genid4639"/>
+                    <rdf:Description rdf:nodeID="genid4643"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2100003"/>
-        <rdfs:subClassOf rdf:nodeID="genid4639"/>
+        <rdfs:subClassOf rdf:nodeID="genid4643"/>
         <obo:IAO_0000115>An environment that is determined by an axilla skin.</obo:IAO_0000115>
         <oboInOwl:created_by>TermGenie</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-15T22:32:00Z</oboInOwl:creation_date>
         <oboInOwl:inSubset>envoMeo</oboInOwl:inSubset>
         <rdfs:label>axilla skin environment</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4639">
+    <owl:Restriction rdf:nodeID="genid4643">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015474"/>
     </owl:Restriction>
@@ -34355,7 +34762,7 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_08000001"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4639"/>
+        <owl:annotatedTarget rdf:nodeID="genid4643"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
@@ -34374,19 +34781,19 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-                    <rdf:Description rdf:nodeID="genid4646"/>
+                    <rdf:Description rdf:nodeID="genid4650"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-        <rdfs:subClassOf rdf:nodeID="genid4646"/>
+        <rdfs:subClassOf rdf:nodeID="genid4650"/>
         <obo:IAO_0000115>An environment that is determined by a mouth.</obo:IAO_0000115>
         <oboInOwl:created_by>TermGenie</oboInOwl:created_by>
         <oboInOwl:creation_date>2015-04-10T23:34:03Z</oboInOwl:creation_date>
         <oboInOwl:inSubset>envoMeo</oboInOwl:inSubset>
         <rdfs:label>mouth environment</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4646">
+    <owl:Restriction rdf:nodeID="genid4650">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000165"/>
     </owl:Restriction>
@@ -34399,7 +34806,7 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_08000002"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4646"/>
+        <owl:annotatedTarget rdf:nodeID="genid4650"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
@@ -36437,6 +36844,15 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_133551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_133551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7586"/>
+        <rdfs:label>Eleutherozoa</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1338369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1338369">
@@ -37090,6 +37506,28 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
         <oboInOwl:hasExactSynonym>echinoderms</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>echinoderms</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Echinodermata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_133551"/>
+        <rdfs:label>Echinozoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7624"/>
+        <oboInOwl:hasExactSynonym>holothurians</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sea cucumbers</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Holothurioidea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sea cucumbers</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Holothuroidea</rdfs:label>
     </owl:Class>
     
 
@@ -39884,7 +40322,7 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf rdf:nodeID="genid5105"/>
+        <rdfs:subClassOf rdf:nodeID="genid5109"/>
         <obo:IAO_0000115>An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
         <oboInOwl:created_by>rwalls</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-11-15T11:41:38Z</oboInOwl:creation_date>
@@ -39896,14 +40334,14 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
         <rdfs:comment>Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 &apos;anatomical entity&apos; is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 &apos;independent continuant&apos;.</rdfs:comment>
         <rdfs:label>plant anatomical entity</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid5105">
+    <owl:Restriction rdf:nodeID="genid5109">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid5105"/>
+        <owl:annotatedTarget rdf:nodeID="genid5109"/>
         <oboInOwl:source>cjm</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>

@@ -2743,6 +2743,44 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+        <obo:IAO_0000115>A root (PO:0009005) that is initiated in a developing plant embryo (PO:0009009).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PO_GIT:594</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>embryonic root (exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ra&amp;#237z embri&amp;#243nica (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>初期の根、胚根 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PO:0000045</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+        <rdfs:label>embryo root</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A root (PO:0009005) that is initiated in a developing plant embryo (PO:0009009).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Laurel_Cooper</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAIR_curator:Katica_Ilic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ra&amp;#237z embri&amp;#243nica (Spanish, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Maria_Alejandra_Gandolfo</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Spanish"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>初期の根、胚根 (Japanese, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NIG:Yukiko_Yamazaki</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Japanese"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0000225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000225">
@@ -4670,6 +4708,123 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025029"/>
+        <obo:IAO_0000115>A shoot axis (PO:0025029) that is the primary axis of a plant.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FNA:201dbd71-51cd-4138-8f61-3c3fdd55d02d</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:3c0e37e8-e363-4962-847e-5f9f2906d0f8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:58fb080c-dd6b-4172-b564-737091c72980</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:a5ba9e16-e0af-4430-a3a0-7aeb052fbffd</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:cea24c10-d5ff-435f-aa40-db77dcbd27f0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PO_GIT:52</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PO_GIT:96</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ca&amp;#241a (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>culm (exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>eje primario (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary axis (exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary stem (exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tallo (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tronco (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>茎 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>bole (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cane (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>caudex (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>caudices (narrow, plural)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>core (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>primocane (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>scape (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>stalk (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>trunk (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PO:0009047</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+        <rdfs:comment>A stem often bears leaves and buds. It is usually above ground, and is more or less negatively geotropic.</rdfs:comment>
+        <rdfs:label>stem</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A shoot axis (PO:0025029) that is the primary axis of a plant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:curators</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ca&amp;#241a (Spanish, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Maria_Alejandra_Gandolfo</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Spanish"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>eje primario (Spanish, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Maria_Alejandra_Gandolfo</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Spanish"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>primary stem (exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FNA:e3b142f6-37cf-4c1f-be07-b64a90feb131</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>tallo (Spanish, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Maria_Alejandra_Gandolfo</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Spanish"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>tronco (Spanish, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Maria_Alejandra_Gandolfo</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Spanish"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>茎 (Japanese, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NIG:Yukiko_Yamazaki</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Japanese"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>bole (narrow)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FNA:a5ba9e16-e0af-4430-a3a0-7aeb052fbffd</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>caudex (narrow)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FNA:cea24c10-d5ff-435f-aa40-db77dcbd27f0</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>caudices (narrow, plural)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FNA:3c0e37e8-e363-4962-847e-5f9f2906d0f8</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>primocane (narrow)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FNA:58fb080c-dd6b-4172-b564-737091c72980</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>scape (narrow)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FNA:201dbd71-51cd-4138-8f61-3c3fdd55d02d</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009049">
@@ -4878,6 +5033,43 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>胚珠 (Japanese, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NIG:Yukiko_Yamazaki</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Japanese"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000045"/>
+        <obo:IAO_0000115>An embryo root (PO:0000045) that is the basal continuation of a hypocotyl (PO:0020100) in a plant embryo (PO:0009009) or a seedling (PO:0000003).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PO_GIT:344</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>rad&amp;#237cula (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>幼根 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PO:0020031</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+        <rdfs:comment>May develop into the primary root (PO:0020127) and eventually the root system (PO:0025025) of an adult plant. Sometimes abortive.</rdfs:comment>
+        <rdfs:label>radicle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An embryo root (PO:0000045) that is the basal continuation of a hypocotyl (PO:0020100) in a plant embryo (PO:0009009) or a seedling (PO:0000003).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0471245208</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020031"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rad&amp;#237cula (Spanish, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:Maria_Alejandra_Gandolfo</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Spanish"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020031"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>幼根 (Japanese, exact)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NIG:Yukiko_Yamazaki</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Japanese"/>
     </owl:Axiom>
@@ -5940,7 +6132,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf rdf:nodeID="genid503"/>
+        <rdfs:subClassOf rdf:nodeID="genid521"/>
         <obo:IAO_0000115>An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
         <oboInOwl:created_by>rwalls</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-11-15T11:41:38Z</oboInOwl:creation_date>
@@ -5952,14 +6144,14 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:comment>Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 &apos;anatomical entity&apos; is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 &apos;independent continuant&apos;.</rdfs:comment>
         <rdfs:label>plant anatomical entity</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid503">
+    <owl:Restriction rdf:nodeID="genid521">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid503"/>
+        <owl:annotatedTarget rdf:nodeID="genid521"/>
         <oboInOwl:source>cjm</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -7069,6 +7261,37 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:IAO_0000115>A plant axis (PO:0025004) that is radially enlarged.</obo:IAO_0000115>
+        <oboInOwl:created_by>Laurel_Cooper</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-11-20T18:35:45Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>PO_GIT:127</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>塊茎 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>plant_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PO:0025522</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Potato"/>
+        <rdfs:comment>Functions in storage of photosynthate metabolites. May develop from a branch (PO:0025073) or a root (PO:0009005).  If you are annotating to tuber, you should pick the more specific child term: shoot axis tuber (PO:0004543) or tuberous root tuber (PO:0025476).</rdfs:comment>
+        <rdfs:label>tuber</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025522"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plant axis (PO:0025004) that is radially enlarged.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>POC:curators</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025522"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>塊茎 (Japanese, exact)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NIG:Yukiko_Yamazaki</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Japanese"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025527">
@@ -7158,6 +7381,27 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A first order infructescence axis (PO:0025244) in an ear infructescence (PO:0025597) that bears kernels (i.e. caryopsis fruit; PO:0030104).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>POC:Laurel_Cooper</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:IAO_0000115>A multi-tissue plant structure (PO:0025496) that develops in response to a biotic stress (PSO:0000011).</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0002-6379-8932</oboInOwl:created_by>
+        <oboInOwl:creation_date>2024-02-14T18:01:56Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>PO_GIT:641</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>plant_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PO:0025626</oboInOwl:id>
+        <rdfs:label>plant gall</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025626"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A multi-tissue plant structure (PO:0025496) that develops in response to a biotic stress (PSO:0000011).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PO:cooperl</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

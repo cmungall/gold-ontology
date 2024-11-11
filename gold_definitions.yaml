@@ -9,6 +9,7 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  curated: true
 - id: GOLDTERMS:Engineered-Artificial-ecosystem
   label: Engineered > Artificial ecosystem
   parent: GOLDTERMS:4292
@@ -17,6 +18,7 @@ terms:
   other:
     id: ENVO:00010622
     label: vivarium
+  curated: true
 - id: GOLDTERMS:4845
   label: Engineered > Artificial ecosystem > Mud microcosm
   parent: GOLDTERMS:Engineered-Artificial-ecosystem
@@ -44,6 +46,7 @@ terms:
   env_medium:
     id: ENVO:00005802
     label: bulk soil
+  curated: true
 - id: GOLDTERMS:5552
   label: Engineered > Artificial ecosystem > Plant growth chamber > Defined media
     > Enriched plant cells
@@ -60,6 +63,7 @@ terms:
   env_local:
     id: ENVO:00005801
     label: rhizosphere
+  curated: true
 - id: GOLDTERMS:5554
   label: Engineered > Artificial ecosystem > Plant growth chamber > Defined media
     > Soil (non-planted)
@@ -69,6 +73,7 @@ terms:
   mixs_extension:
     id: MIXS:Soil
     label: MIXS:Soil
+  curated: true
 - id: GOLDTERMS:5849
   label: Engineered > Artificial ecosystem > Soil microcosm
   parent: GOLDTERMS:Engineered-Artificial-ecosystem
@@ -86,6 +91,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:4536
   label: Engineered > Bioreactor > Aerobic
   parent: GOLDTERMS:4280
@@ -94,6 +100,7 @@ terms:
   other:
     id: PATO:0001455
     label: aerobic
+  curated: true
 - id: GOLDTERMS:5471
   label: Engineered > Bioreactor > Aerobic > Activated sludge
   parent: GOLDTERMS:4536
@@ -105,9 +112,10 @@ terms:
   parent: GOLDTERMS:4536
   level: 4
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5830
   label: Engineered > Bioreactor > Aerobic > Sludge
   parent: GOLDTERMS:4536
@@ -116,6 +124,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:4442
   label: Engineered > Bioreactor > Anaerobic
   parent: GOLDTERMS:4280
@@ -124,6 +133,7 @@ terms:
   other:
     id: PATO:0001456
     label: anaerobic
+  curated: true
 - id: GOLDTERMS:5557
   label: Engineered > Bioreactor > Anaerobic > Acid mine drainage material
   parent: GOLDTERMS:4442
@@ -144,6 +154,7 @@ terms:
   env_medium:
     id: ENVO:01000556
     label: biogas
+  curated: true
 - id: GOLDTERMS:5583
   label: Engineered > Bioreactor > Anaerobic > Digestate
   parent: GOLDTERMS:4442
@@ -158,6 +169,7 @@ terms:
   env_medium:
     id: ENVO:03600006
     label: food waste
+  curated: true
 - id: GOLDTERMS:5669
   label: Engineered > Bioreactor > Anaerobic > Leachate
   parent: GOLDTERMS:4442
@@ -166,6 +178,7 @@ terms:
   env_medium:
     id: ENVO:00002141
     label: leachate
+  curated: true
 - id: GOLDTERMS:4914
   label: Engineered > Bioreactor > Anaerobic > Manure
   parent: GOLDTERMS:4442
@@ -174,6 +187,7 @@ terms:
   env_medium:
     id: ENVO:03501300
     label: manure
+  curated: true
 - id: GOLDTERMS:5591
   label: Engineered > Bioreactor > Anaerobic > Manure > Composting
   parent: GOLDTERMS:4914
@@ -200,6 +214,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:5567
   label: Engineered > Bioreactor > Anaerobic > Sludge > Manure
   parent: GOLDTERMS:5482
@@ -208,6 +223,7 @@ terms:
   env_medium:
     id: ENVO:03501300
     label: manure
+  curated: true
 - id: GOLDTERMS:5699
   label: Engineered > Bioreactor > Anaerobic > Sludge > Palm oil
   parent: GOLDTERMS:5482
@@ -216,6 +232,7 @@ terms:
   env_medium:
     id: FOODON:03310232
     label: palm oil
+  curated: true
 - id: GOLDTERMS:Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater
   label: Engineered > Bioreactor > Anaerobic > Soft drink wastewater
   parent: GOLDTERMS:4442
@@ -227,9 +244,10 @@ terms:
   parent: GOLDTERMS:Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5679
   label: Engineered > Bioreactor > Anaerobic > Wastewater
   parent: GOLDTERMS:4442
@@ -238,6 +256,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:4283
   label: Engineered > Bioreactor > Continuous culture
   parent: GOLDTERMS:4280
@@ -283,6 +302,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:5838
   label: Engineered > Bioreactor > DHS reactor > Wastewater
   parent: GOLDTERMS:Engineered-Bioreactor-DHS-reactor
@@ -291,6 +311,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor
   label: Engineered > Bioreactor > Membrane bioreactor
   parent: GOLDTERMS:4280
@@ -299,6 +320,7 @@ terms:
   other:
     id: ENVO:03600010
     label: membrane bioreactor
+  curated: true
 - id: GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor-Produced-water
   label: Engineered > Bioreactor > Membrane bioreactor > Produced water
   parent: GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor
@@ -313,6 +335,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:5549
   label: Engineered > Bioreactor > Membrane bioreactor > Wastewater retentate
   parent: GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor
@@ -339,14 +362,16 @@ terms:
   other:
     id: ENVO:03600077
     label: photobioreactor
+  curated: true
 - id: GOLDTERMS:5846
   label: Engineered > Bioreactor > Photobioreactor > Biofilm
   parent: GOLDTERMS:Engineered-Bioreactor-Photobioreactor
   level: 4
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5637
   label: Engineered > Bioreactor > Sulphur Autotrophic Denitrification
   parent: GOLDTERMS:4280
@@ -362,6 +387,7 @@ terms:
   env_medium:
     id: ENVO:03600009
     label: interstitial water
+  curated: true
 - id: GOLDTERMS:5828
   label: Engineered > Bioreactor > Wastewater
   parent: GOLDTERMS:4280
@@ -370,6 +396,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:5681
   label: Engineered > Bioreactor > Wastewater > Activated sludge
   parent: GOLDTERMS:5828
@@ -390,6 +417,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:4304
   label: Engineered > Bioremediation
   parent: GOLDTERMS:4292
@@ -404,6 +432,10 @@ terms:
   mixs_extension:
     id: MIXS:HydrocarbonResourcesCores
     label: MIXS:HydrocarbonResourcesCores
+  other:
+    id: CHEBI:24632
+    label: hydrocarbon
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Asphalt-lakes
   label: Engineered > Bioremediation > Hydrocarbon > Asphalt-lakes
   parent: GOLDTERMS:4300
@@ -412,6 +444,7 @@ terms:
   env_local:
     id: ENVO:00000165
     label: asphalt lake
+  curated: true
 - id: GOLDTERMS:5647
   label: Engineered > Bioremediation > Hydrocarbon > Asphalt-lakes > Tar
   parent: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Asphalt-lakes
@@ -420,6 +453,7 @@ terms:
   env_medium:
     id: ENVO:01000460
     label: asphalt
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Benzene
   label: Engineered > Bioremediation > Hydrocarbon > Benzene
   parent: GOLDTERMS:4300
@@ -437,6 +471,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:5643
   label: Engineered > Bioremediation > Hydrocarbon > Coal
   parent: GOLDTERMS:4300
@@ -445,6 +480,7 @@ terms:
   env_medium:
     id: ENVO:02000091
     label: coal
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine
   label: Engineered > Bioremediation > Hydrocarbon > Coal mine
   parent: GOLDTERMS:4300
@@ -453,6 +489,7 @@ terms:
   env_local:
     id: ENVO:00002169
     label: coal mine
+  curated: true
 - id: GOLDTERMS:5651
   label: Engineered > Bioremediation > Hydrocarbon > Coal mine > Coal
   parent: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine
@@ -461,6 +498,7 @@ terms:
   env_medium:
     id: ENVO:02000091
     label: coal
+  curated: true
 - id: GOLDTERMS:5650
   label: Engineered > Bioremediation > Hydrocarbon > Coal mine > Produced water
   parent: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine
@@ -475,6 +513,7 @@ terms:
   env_medium:
     id: ENVO:03000033
     label: marine sediment
+  curated: true
 - id: GOLDTERMS:4452
   label: Engineered > Bioremediation > Hydrocarbon > Methane
   parent: GOLDTERMS:4300
@@ -489,12 +528,16 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:5087
   label: Engineered > Bioremediation > Hydrocarbon > Xylene
   parent: GOLDTERMS:4300
   level: 4
   vocab_differentia: GOLDVOCAB:Xylene
-  curated: false
+  other:
+    id: CHEBI:27338
+    label: xylene
+  curated: true
 - id: GOLDTERMS:4306
   label: Engineered > Bioremediation > Metal
   parent: GOLDTERMS:4304
@@ -503,6 +546,7 @@ terms:
   env_medium:
     id: ENVO:01001069
     label: metallic material
+  curated: true
 - id: GOLDTERMS:4724
   label: Engineered > Bioremediation > Persistent organic pollutants (POP)
   parent: GOLDTERMS:4304
@@ -515,13 +559,19 @@ terms:
   parent: GOLDTERMS:4724
   level: 4
   vocab_differentia: GOLDVOCAB:Polycyclic-aromatic-hydrocarbons
-  curated: false
+  other:
+    id: CHEBI:33848
+    label: polycyclic arene
+  curated: true
 - id: GOLDTERMS:4722
   label: Engineered > Bioremediation > Terephthalate
   parent: GOLDTERMS:4304
   level: 3
   vocab_differentia: GOLDVOCAB:Terephthalate
-  curated: false
+  other:
+    id: CHEBI:30043
+    label: terephthalate(2-)
+  curated: true
 - id: GOLDTERMS:4303
   label: Engineered > Bioremediation > Terephthalate > Wastewater
   parent: GOLDTERMS:4722
@@ -530,6 +580,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:4301
   label: Engineered > Bioremediation > Terephthalate > Wastewater > Activated sludge
   parent: GOLDTERMS:4303
@@ -547,6 +598,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives
   parent: GOLDTERMS:4304
@@ -558,7 +610,10 @@ terms:
   parent: GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives
   level: 4
   vocab_differentia: GOLDVOCAB:Chloroethene
-  curated: false
+  other:
+    id: CHEBI:28509
+    label: chloroethene
+  curated: true
 - id: GOLDTERMS:4297
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Chloroethene
     > Bioreactor
@@ -571,12 +626,16 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:4296
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Tetrachloroethylene
   parent: GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives
   level: 4
   vocab_differentia: GOLDVOCAB:Tetrachloroethylene
-  curated: false
+  other:
+    id: CHEBI:17300
+    label: tetrachloroethene
+  curated: true
 - id: GOLDTERMS:4295
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Tetrachloroethylene
     > Bioreactor
@@ -589,20 +648,25 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:4436
   label: Engineered > Bioremediation > Thiocyanate
   parent: GOLDTERMS:4304
   level: 3
   vocab_differentia: GOLDVOCAB:Thiocyanate
-  curated: false
+  other:
+    id: CHEBI:18022
+    label: thiocyanate
+  curated: true
 - id: GOLDTERMS:5498
   label: Engineered > Bioremediation > Thiocyanate > Biofilm
   parent: GOLDTERMS:4436
   level: 4
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:4314
   label: Engineered > Biotransformation
   parent: GOLDTERMS:4292
@@ -617,6 +681,7 @@ terms:
   env_medium:
     id: ENVO:02000091
     label: coal
+  curated: true
 - id: GOLDTERMS:4313
   label: Engineered > Biotransformation > Microbial enhanced oil recovery
   parent: GOLDTERMS:4314
@@ -646,6 +711,7 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  curated: true
 - id: GOLDTERMS:5572
   label: Engineered > Built environment > Building
   parent: GOLDTERMS:4279
@@ -654,6 +720,7 @@ terms:
   env_local:
     id: ENVO:00000073
     label: building
+  curated: true
 - id: GOLDTERMS:4401
   label: Engineered > Built environment > Canal
   parent: GOLDTERMS:4279
@@ -662,6 +729,7 @@ terms:
   env_local:
     id: ENVO:00000014
     label: canal
+  curated: true
 - id: GOLDTERMS:Engineered-Built-environment-Canal-Irrigation-canal
   label: Engineered > Built environment > Canal > Irrigation canal
   parent: GOLDTERMS:4401
@@ -670,6 +738,7 @@ terms:
   env_local:
     id: ENVO:00000036
     label: irrigation canal
+  curated: true
 - id: GOLDTERMS:5111
   label: Engineered > Built environment > Canal > Irrigation canal > Sediment
   parent: GOLDTERMS:Engineered-Built-environment-Canal-Irrigation-canal
@@ -681,6 +750,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5562
   label: Engineered > Built environment > Canal > Water
   parent: GOLDTERMS:4401
@@ -692,6 +762,7 @@ terms:
   env_medium:
     id: ENVO:00002006
     label: liquid water
+  curated: true
 - id: GOLDTERMS:4812
   label: Engineered > Built environment > Cement wall
   parent: GOLDTERMS:4279
@@ -706,6 +777,7 @@ terms:
   env_local:
     id: ENVO:00000856
     label: city
+  curated: true
 - id: GOLDTERMS:4398
   label: Engineered > Built environment > City > Park
   parent: GOLDTERMS:4403
@@ -714,6 +786,7 @@ terms:
   env_local:
     id: ENVO:00000562
     label: park
+  curated: true
 - id: GOLDTERMS:4396
   label: Engineered > Built environment > City > Subway
   parent: GOLDTERMS:4403
@@ -722,6 +795,7 @@ terms:
   env_local:
     id: ENVO:03501109
     label: subway train
+  curated: true
 - id: GOLDTERMS:5464
   label: Engineered > Built environment > City > Subway > Bench surface
   parent: GOLDTERMS:4396
@@ -766,6 +840,7 @@ terms:
   env_local:
     id: ENVO:00002169
     label: coal mine
+  curated: true
 - id: GOLDTERMS:5704
   label: Engineered > Built environment > Coal mine > Produced water
   parent: GOLDTERMS:Engineered-Built-environment-Coal-mine
@@ -786,6 +861,7 @@ terms:
   env_local:
     id: ENVO:03600004
     label: drinking water treatment plant
+  curated: true
 - id: GOLDTERMS:5500
   label: Engineered > Built environment > Drinking water treatment plant > Drinking
     water
@@ -793,8 +869,12 @@ terms:
   level: 4
   vocab_differentia: GOLDVOCAB:Drinking-water
   env_medium:
+    id: ENVO:00003064
+    label: drinking water
+  other:
     id: FOODON:03301647
     label: drinking water (purified)
+  curated: true
 - id: GOLDTERMS:5493
   label: Engineered > Built environment > Drinking water treatment plant > Drinking
     water filter
@@ -810,6 +890,7 @@ terms:
   env_local:
     id: ENVO:03600039
     label: fermentation pit
+  curated: true
 - id: GOLDTERMS:5452
   label: Engineered > Built environment > Fermentation pit > Mud
   parent: GOLDTERMS:Engineered-Built-environment-Fermentation-pit
@@ -818,6 +899,7 @@ terms:
   env_medium:
     id: ENVO:01000001
     label: mud
+  curated: true
 - id: GOLDTERMS:4494
   label: Engineered > Built environment > Hospital
   parent: GOLDTERMS:4279
@@ -826,6 +908,7 @@ terms:
   env_local:
     id: ENVO:00002173
     label: hospital
+  curated: true
 - id: GOLDTERMS:Engineered-Built-environment-Hospital-Hospital-bedroom
   label: Engineered > Built environment > Hospital > Hospital bedroom
   parent: GOLDTERMS:4494
@@ -846,6 +929,7 @@ terms:
   env_local:
     id: ENVO:03501152
     label: intensive care unit facility
+  curated: true
 - id: GOLDTERMS:5574
   label: Engineered > Built environment > Hospital > ICU > Floor
   parent: GOLDTERMS:Engineered-Built-environment-Hospital-ICU
@@ -860,6 +944,7 @@ terms:
   env_local:
     id: ENVO:01000417
     label: house
+  curated: true
 - id: GOLDTERMS:4847
   label: Engineered > Built environment > House > Doormat
   parent: GOLDTERMS:4405
@@ -874,6 +959,7 @@ terms:
   env_medium:
     id: ENVO:00002008
     label: dust
+  curated: true
 - id: GOLDTERMS:4659
   label: Engineered > Built environment > International Space Station
   parent: GOLDTERMS:4279
@@ -888,6 +974,7 @@ terms:
   env_local:
     id: ENVO:00000076
     label: mine
+  curated: true
 - id: GOLDTERMS:5841
   label: Engineered > Built environment > Mine > Oil sands
   parent: GOLDTERMS:Engineered-Built-environment-Mine
@@ -896,6 +983,7 @@ terms:
   env_medium:
     id: ENVO:03600013
     label: bituminous sand
+  curated: true
 - id: GOLDTERMS:Engineered-Built-environment-Nuclear-test-reactor
   label: Engineered > Built environment > Nuclear test reactor
   parent: GOLDTERMS:4279
@@ -904,6 +992,7 @@ terms:
   env_local:
     id: ENVO:02000136
     label: research nuclear reactor
+  curated: true
 - id: GOLDTERMS:5710
   label: Engineered > Built environment > Nuclear test reactor > Cooling water
   parent: GOLDTERMS:Engineered-Built-environment-Nuclear-test-reactor
@@ -912,6 +1001,7 @@ terms:
   env_medium:
     id: ENVO:03600002
     label: cooling water
+  curated: true
 - id: GOLDTERMS:4817
   label: Engineered > Built environment > Oil refinery
   parent: GOLDTERMS:4279
@@ -920,6 +1010,7 @@ terms:
   env_local:
     id: ENVO:02000142
     label: petroleum oil refinery
+  curated: true
 - id: GOLDTERMS:Engineered-Built-environment-Oil-refinery-Crude-oil-sludge
   label: Engineered > Built environment > Oil refinery > Crude oil sludge
   parent: GOLDTERMS:4817
@@ -959,14 +1050,16 @@ terms:
   env_local:
     id: ENVO:03600003
     label: drinking water pipeline network
+  curated: true
 - id: GOLDTERMS:5701
   label: Engineered > Built environment > Pipeline > Drinking water pipeline > Biofilm
   parent: GOLDTERMS:Engineered-Built-environment-Pipeline-Drinking-water-pipeline
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:4639
   label: Engineered > Built environment > Solar panel
   parent: GOLDTERMS:4279
@@ -975,6 +1068,7 @@ terms:
   other:
     id: ENVO:01000867
     label: solar panel array
+  curated: true
 - id: GOLDTERMS:4635
   label: Engineered > Built environment > Spacecraft Assembly Cleanrooms
   parent: GOLDTERMS:4279
@@ -992,6 +1086,7 @@ terms:
   env_medium:
     id: ENVO:00002005
     label: air
+  curated: true
 - id: GOLDTERMS:5488
   label: Engineered > Built environment > Spacecraft Assembly Cleanrooms > Floor
   parent: GOLDTERMS:4635
@@ -1020,6 +1115,7 @@ terms:
   env_local:
     id: ENVO:01000965
     label: constructed swimming pool
+  curated: true
 - id: GOLDTERMS:5596
   label: Engineered > Built environment > Swimming pool > Sand filter
   parent: GOLDTERMS:Engineered-Built-environment-Swimming-pool
@@ -1040,6 +1136,7 @@ terms:
   env_local:
     id: ENVO:03600021
     label: tailings pond
+  curated: true
 - id: GOLDTERMS:5850
   label: Engineered > Built environment > Tailings pond > Petrochemical
   parent: GOLDTERMS:4469
@@ -1054,6 +1151,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:5656
   label: Engineered > Built environment > Tailings pond > Wastewater
   parent: GOLDTERMS:4469
@@ -1062,6 +1160,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:4407
   label: Engineered > Built environment > Water treatment plant
   parent: GOLDTERMS:4279
@@ -1076,6 +1175,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:Engineered-Feedstock
   label: Engineered > Feedstock
   parent: GOLDTERMS:4292
@@ -1096,9 +1196,10 @@ terms:
   mixs_extension:
     id: MIXS:FoodFoodProductionFacility
     label: MIXS:FoodFoodProductionFacility
-  env_medium:
+  other:
     id: FOODON:03530206
     label: food production
+  curated: true
 - id: GOLDTERMS:5627
   label: Engineered > Food production > Baby formula
   parent: GOLDTERMS:4250
@@ -1119,6 +1220,7 @@ terms:
   env_medium:
     id: FOODON:00001256
     label: dairy food product
+  curated: true
 - id: GOLDTERMS:5456
   label: Engineered > Food production > Dairy products > Fermented dairy products
   parent: GOLDTERMS:4253
@@ -1134,6 +1236,7 @@ terms:
   env_medium:
     id: FOODON:00001013
     label: cheese food product
+  curated: true
 - id: GOLDTERMS:5458
   label: Engineered > Food production > Dairy products > Ice cream
   parent: GOLDTERMS:4253
@@ -1142,6 +1245,7 @@ terms:
   env_medium:
     id: FOODON:00001045
     label: ice cream food product
+  curated: true
 - id: GOLDTERMS:Engineered-Food-production-Fermentation-cellar
   label: Engineered > Food production > Fermentation cellar
   parent: GOLDTERMS:4250
@@ -1162,6 +1266,7 @@ terms:
   other:
     id: ENVO:03600040
     label: fermentation starter
+  curated: true
 - id: GOLDTERMS:4252
   label: Engineered > Food production > Fermented beverages
   parent: GOLDTERMS:4250
@@ -1170,6 +1275,7 @@ terms:
   env_medium:
     id: FOODON:00001094
     label: fermented beverage
+  curated: true
 - id: GOLDTERMS:5532
   label: Engineered > Food production > Fermented beverages > Vinegar
   parent: GOLDTERMS:4252
@@ -1178,6 +1284,7 @@ terms:
   env_medium:
     id: FOODON:03301705
     label: vinegar
+  curated: true
 - id: GOLDTERMS:5744
   label: Engineered > Food production > Fermented food
   parent: GOLDTERMS:4250
@@ -1192,6 +1299,7 @@ terms:
   env_medium:
     id: FOODON:03301115
     label: soy sauce
+  curated: true
 - id: GOLDTERMS:5750
   label: Engineered > Food production > Fermented food > Soybean paste
   parent: GOLDTERMS:5744
@@ -1200,6 +1308,7 @@ terms:
   env_medium:
     id: FOODON:03310002
     label: soybean paste
+  curated: true
 - id: GOLDTERMS:4251
   label: Engineered > Food production > Fermented seafood
   parent: GOLDTERMS:4250
@@ -1220,6 +1329,7 @@ terms:
   env_medium:
     id: FOODON:03317170
     label: meat (whole or pieces)
+  curated: true
 - id: GOLDTERMS:5469
   label: Engineered > Food production > Meat products > Beef
   parent: GOLDTERMS:4488
@@ -1228,6 +1338,7 @@ terms:
   env_medium:
     id: FOODON:00001041
     label: cow food product
+  curated: true
 - id: GOLDTERMS:5454
   label: Engineered > Food production > Meat products > Fermented meat products
   parent: GOLDTERMS:4488
@@ -1236,6 +1347,7 @@ terms:
   env_medium:
     id: FOODON:00001314
     label: fermented meat product
+  curated: true
 - id: GOLDTERMS:4248
   label: Engineered > Food production > Silage fermentation
   parent: GOLDTERMS:4250
@@ -1250,6 +1362,7 @@ terms:
   env_medium:
     id: FOODON:03302481
     label: sourdough bread
+  curated: true
 - id: GOLDTERMS:4293
   label: Engineered > Industrial production
   parent: GOLDTERMS:4292
@@ -1264,6 +1377,7 @@ terms:
   env_medium:
     id: ENVO:2000007
     label: biochar
+  curated: true
 - id: GOLDTERMS:5788
   label: Engineered > Industrial production > Chemical products
   parent: GOLDTERMS:4293
@@ -1272,6 +1386,7 @@ terms:
   other:
     id: ENVO:2000000
     label: chemical product
+  curated: true
 - id: GOLDTERMS:5692
   label: Engineered > Industrial production > Chemical products > Buffer
   parent: GOLDTERMS:5788
@@ -1298,6 +1413,7 @@ terms:
   env_medium:
     id: ENVO:00003903
     label: aviation fuel
+  curated: true
 - id: GOLDTERMS:4595
   label: Engineered > Industrial production > Engineered product > Bioanode
   parent: GOLDTERMS:4294
@@ -1309,9 +1425,10 @@ terms:
   parent: GOLDTERMS:4595
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:4612
   label: Engineered > Industrial production > Engineered product > Biocathode
   parent: GOLDTERMS:4294
@@ -1323,9 +1440,10 @@ terms:
   parent: GOLDTERMS:4612
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5310
   label: Engineered > Industrial production > Engineered product > Tobacco product
   parent: GOLDTERMS:4294
@@ -1340,6 +1458,7 @@ terms:
   other:
     id: ENVO:03600051
     label: train car
+  curated: true
 - id: GOLDTERMS:5578
   label: Engineered > Industrial production > Train car > Seat surface
   parent: GOLDTERMS:Engineered-Industrial-production-Train-car
@@ -1378,6 +1497,7 @@ terms:
   env_medium:
     id: ENVO:01000063
     label: planktonic material
+  curated: true
 - id: GOLDTERMS:4289
   label: Engineered > Lab enrichment > Defined media > Anaerobic media
   parent: GOLDTERMS:4287
@@ -1392,6 +1512,7 @@ terms:
   anatomical_site:
     id: UBERON:0001988
     label: feces
+  curated: true
 - id: GOLDTERMS:5706
   label: Engineered > Lab enrichment > Defined media > Anaerobic media > Intertidal
     sediment
@@ -1401,6 +1522,7 @@ terms:
   env_medium:
     id: ENVO:00002179
     label: intertidal sediment
+  curated: true
 - id: GOLDTERMS:5707
   label: Engineered > Lab enrichment > Defined media > Anaerobic media > Marine sediment
   parent: GOLDTERMS:4289
@@ -1409,6 +1531,7 @@ terms:
   env_medium:
     id: ENVO:03000033
     label: marine sediment
+  curated: true
 - id: GOLDTERMS:5698
   label: Engineered > Lab enrichment > Defined media > Anaerobic media > Oil refinery
     sediment
@@ -1427,6 +1550,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:Engineered-Lab-enrichment-Defined-media-Compost
   label: Engineered > Lab enrichment > Defined media > Compost
   parent: GOLDTERMS:4287
@@ -1435,6 +1559,7 @@ terms:
   env_medium:
     id: ENVO:00002170
     label: compost
+  curated: true
 - id: GOLDTERMS:5664
   label: Engineered > Lab enrichment > Defined media > Compost > Grass
   parent: GOLDTERMS:Engineered-Lab-enrichment-Defined-media-Compost
@@ -1455,6 +1580,7 @@ terms:
   env_medium:
     id: ENVO:03000033
     label: marine sediment
+  curated: true
 - id: GOLDTERMS:Engineered-Lab-enrichment-Freshwater
   label: Engineered > Lab enrichment > Freshwater
   parent: GOLDTERMS:4285
@@ -1463,6 +1589,7 @@ terms:
   env_medium:
     id: ENVO:00002011
     label: fresh water
+  curated: true
 - id: GOLDTERMS:5689
   label: Engineered > Lab enrichment > Freshwater > Aquifer
   parent: GOLDTERMS:Engineered-Lab-enrichment-Freshwater
@@ -1471,6 +1598,7 @@ terms:
   other:
     id: ENVO:00012408
     label: aquifer
+  curated: true
 - id: GOLDTERMS:Engineered-Lab-enrichment-Rock
   label: Engineered > Lab enrichment > Rock
   parent: GOLDTERMS:4285
@@ -1479,6 +1607,7 @@ terms:
   env_medium:
     id: ENVO:00001995
     label: rock
+  curated: true
 - id: GOLDTERMS:5677
   label: Engineered > Lab enrichment > Rock > Bedrock-saprolite interface
   parent: GOLDTERMS:Engineered-Lab-enrichment-Rock
@@ -1493,6 +1622,7 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
+  curated: true
 - id: GOLDTERMS:4286
   label: Engineered > Lab enrichment > Undefined media
   parent: GOLDTERMS:4285
@@ -1549,6 +1679,7 @@ terms:
   env_medium:
     id: ENVO:00002149
     label: sea water
+  curated: true
 - id: GOLDTERMS:4309
   label: Engineered > Modeled > Simulated communities (sequence read mixture)
   parent: GOLDTERMS:4307
@@ -1569,6 +1700,7 @@ terms:
   other:
     id: ENVO:03501256
     label: sheet of paper
+  curated: true
 - id: GOLDTERMS:4390
   label: Engineered > Paper > Currency notes
   parent: GOLDTERMS:Engineered-Paper
@@ -1577,6 +1709,7 @@ terms:
   other:
     id: ENVO:00003896
     label: currency note
+  curated: true
 - id: GOLDTERMS:Engineered-Sewage-treatment-plant
   label: Engineered > Sewage treatment plant
   parent: GOLDTERMS:4292
@@ -1585,6 +1718,7 @@ terms:
   env_local:
     id: ENVO:00003043
     label: sewage plant
+  curated: true
 - id: GOLDTERMS:5624
   label: Engineered > Sewage treatment plant > Activated sludge
   parent: GOLDTERMS:Engineered-Sewage-treatment-plant
@@ -1599,6 +1733,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:5523
   label: Engineered > Sewage treatment plant > Wastewater
   parent: GOLDTERMS:Engineered-Sewage-treatment-plant
@@ -1607,6 +1742,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:5593
   label: Engineered > Sewage treatment plant > Wastewater > Activated sludge
   parent: GOLDTERMS:5523
@@ -1621,6 +1757,7 @@ terms:
   env_medium:
     id: ENVO:02000155
     label: solid waste material
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Agricultural-waste
   label: Engineered > Solid waste > Agricultural waste
   parent: GOLDTERMS:4276
@@ -1629,6 +1766,7 @@ terms:
   env_medium:
     id: ENVO:01000371
     label: agricultural waste material
+  curated: true
 - id: GOLDTERMS:4910
   label: Engineered > Solid waste > Agricultural waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Agricultural-waste
@@ -1656,6 +1794,7 @@ terms:
   env_medium:
     id: ENVO:00002276
     label: animal waste material
+  curated: true
 - id: GOLDTERMS:4936
   label: Engineered > Solid waste > Animal waste > Composting
   parent: GOLDTERMS:4278
@@ -1670,6 +1809,7 @@ terms:
   env_medium:
     id: ENVO:03501300
     label: manure
+  curated: true
 - id: GOLDTERMS:5758
   label: Engineered > Solid waste > Bagasse
   parent: GOLDTERMS:4276
@@ -1678,6 +1818,7 @@ terms:
   env_medium:
     id: ENVO:00002872
     label: bagasse
+  curated: true
 - id: GOLDTERMS:4927
   label: Engineered > Solid waste > Bagasse > Composting
   parent: GOLDTERMS:5758
@@ -1728,6 +1869,7 @@ terms:
   env_medium:
     id: ENVO:03600006
     label: food waste
+  curated: true
 - id: GOLDTERMS:4948
   label: Engineered > Solid waste > Food waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Food-waste
@@ -1757,6 +1899,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Grass-Fermentation
   label: Engineered > Solid waste > Grass > Fermentation
   parent: GOLDTERMS:Engineered-Solid-waste-Grass
@@ -1774,6 +1917,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Household-waste
   label: Engineered > Solid waste > Household waste
   parent: GOLDTERMS:4276
@@ -1782,6 +1926,7 @@ terms:
   env_medium:
     id: ENVO:01000372
     label: household waste material
+  curated: true
 - id: GOLDTERMS:4907
   label: Engineered > Solid waste > Household waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Household-waste
@@ -1796,6 +1941,7 @@ terms:
   env_medium:
     id: ENVO:00002267
     label: industrial waste material
+  curated: true
 - id: GOLDTERMS:4939
   label: Engineered > Solid waste > Industrial waste > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Industrial-waste
@@ -1810,6 +1956,7 @@ terms:
   env_local:
     id: ENVO:00000533
     label: landfill
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Latrine-chamber
   label: Engineered > Solid waste > Latrine chamber
   parent: GOLDTERMS:4276
@@ -1845,6 +1992,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Urban-waste
   label: Engineered > Solid waste > Urban waste
   parent: GOLDTERMS:4276
@@ -1865,6 +2013,7 @@ terms:
   env_medium:
     id: FOODON:03315308
     label: vegetable (whole or pieces)
+  curated: true
 - id: GOLDTERMS:4934
   label: Engineered > Solid waste > Vegetable > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Vegetable
@@ -1888,6 +2037,7 @@ terms:
   anatomical_site:
     id: PO:0005848
     label: secondary xylem
+  curated: true
 - id: GOLDTERMS:4857
   label: Engineered > Solid waste > Wood > Composting
   parent: GOLDTERMS:Engineered-Solid-waste-Wood
@@ -1905,6 +2055,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Zoo-waste
   label: Engineered > Solid waste > Zoo waste
   parent: GOLDTERMS:4276
@@ -1925,6 +2076,7 @@ terms:
   env_local:
     id: ENVO:00002272
     label: waste treatment plant
+  curated: true
 - id: GOLDTERMS:5530
   label: Engineered > WWTP > Activated sludge
   parent: GOLDTERMS:Engineered-WWTP
@@ -1939,6 +2091,7 @@ terms:
   other:
     id: PATO:0001455
     label: aerobic
+  curated: true
 - id: GOLDTERMS:5674
   label: Engineered > WWTP > Aerobic > Activated sludge
   parent: GOLDTERMS:Engineered-WWTP-Aerobic
@@ -1971,6 +2124,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:4264
   label: Engineered > Wastewater
   parent: GOLDTERMS:4292
@@ -1979,6 +2133,7 @@ terms:
   env_medium:
     id: ENVO:00002001
     label: waste water
+  curated: true
 - id: GOLDTERMS:4254
   label: Engineered > Wastewater > Activated Sludge
   parent: GOLDTERMS:4264
@@ -1987,6 +2142,7 @@ terms:
   env_medium:
     id: ENVO:00002046
     label: activated sludge
+  curated: true
 - id: GOLDTERMS:4271
   label: Engineered > Wastewater > Anaerobic digestor
   parent: GOLDTERMS:4264
@@ -2001,6 +2157,7 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:5833
   label: Engineered > Wastewater > Digestate
   parent: GOLDTERMS:4264
@@ -2015,6 +2172,7 @@ terms:
   env_medium:
     id: ENVO:01000964
     label: industrial wastewater
+  curated: true
 - id: GOLDTERMS:4268
   label: Engineered > Wastewater > Industrial wastewater > Agricultural wastewater
   parent: GOLDTERMS:4267
@@ -2029,6 +2187,7 @@ terms:
   env_broad:
     id: ENVO:03501120
     label: dairy farm
+  curated: true
 - id: GOLDTERMS:5516
   label: Engineered > Wastewater > Industrial wastewater > Feedlot
   parent: GOLDTERMS:4267
@@ -2037,6 +2196,7 @@ terms:
   env_broad:
     id: ENVO:01000627
     label: feedlot
+  curated: true
 - id: GOLDTERMS:4918
   label: Engineered > Wastewater > Industrial wastewater > Hospital wastewater
   parent: GOLDTERMS:4267
@@ -2064,6 +2224,7 @@ terms:
   env_local:
     id: ENVO:00001997
     label: acid mine drainage
+  curated: true
 - id: GOLDTERMS:4690
   label: Engineered > Wastewater > Industrial wastewater > Mine water > Sediment
   parent: GOLDTERMS:4270
@@ -2075,6 +2236,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5536
   label: Engineered > Wastewater > Industrial wastewater > Organic dairy farm
   parent: GOLDTERMS:4267
@@ -2083,6 +2245,7 @@ terms:
   env_broad:
     id: ENVO:02000156
     label: organic dairy farm
+  curated: true
 - id: GOLDTERMS:4265
   label: Engineered > Wastewater > Industrial wastewater > Petrochemical
   parent: GOLDTERMS:4267
@@ -2097,6 +2260,7 @@ terms:
   env_medium:
     id: ENVO:00002060
     label: oil sludge
+  curated: true
 - id: GOLDTERMS:4266
   label: Engineered > Wastewater > Industrial wastewater > Pulp and paper wastewater
   parent: GOLDTERMS:4267
@@ -2105,6 +2269,7 @@ terms:
   env_medium:
     id: ENVO:00002193
     label: pulp-bleaching waste water
+  curated: true
 - id: GOLDTERMS:Engineered-Wastewater-Municipal-landfill
   label: Engineered > Wastewater > Municipal landfill
   parent: GOLDTERMS:4264
@@ -2113,6 +2278,7 @@ terms:
   env_local:
     id: ENVO:02000157
     label: municipal landfill
+  curated: true
 - id: GOLDTERMS:5667
   label: Engineered > Wastewater > Municipal landfill > Leachate
   parent: GOLDTERMS:Engineered-Wastewater-Municipal-landfill
@@ -2121,6 +2287,7 @@ terms:
   env_medium:
     id: ENVO:00002141
     label: leachate
+  curated: true
 - id: GOLDTERMS:4261
   label: Engineered > Wastewater > Nutrient removal
   parent: GOLDTERMS:4264
@@ -2152,6 +2319,7 @@ terms:
   other:
     id: ENVO:00002123
     label: bioreactor
+  curated: true
 - id: GOLDTERMS:4258
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic)
   parent: GOLDTERMS:4261
@@ -2198,6 +2366,7 @@ terms:
   env_local:
     id: ENVO:00000022
     label: river
+  curated: true
 - id: GOLDTERMS:4662
   label: Engineered > Wastewater > Sewage
   parent: GOLDTERMS:4264
@@ -2206,6 +2375,7 @@ terms:
   env_medium:
     id: ENVO:00002018
     label: sewage
+  curated: true
 - id: GOLDTERMS:5503
   label: Engineered > Wastewater > Sludge
   parent: GOLDTERMS:4264
@@ -2217,13 +2387,15 @@ terms:
   env_medium:
     id: ENVO:00002044
     label: sludge
+  curated: true
 - id: GOLDTERMS:3964
   label: Environmental
   level: 1
   vocab_differentia: GOLDVOCAB:Environmental
   env_broad:
-    id: ENVO:01000254
-    label: environmental system
+    id: ENVO:00000428
+    label: biome
+  curated: true
 - id: GOLDTERMS:3963
   label: Environmental > Air
   parent: GOLDTERMS:3964
@@ -2235,6 +2407,7 @@ terms:
   env_medium:
     id: ENVO:00002005
     label: air
+  curated: true
 - id: GOLDTERMS:3961
   label: Environmental > Air > Indoor Air
   parent: GOLDTERMS:3963
@@ -2252,9 +2425,10 @@ terms:
   parent: GOLDTERMS:Environmental-Air-Indoor-Air-Air-scrubber
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:4620
   label: Environmental > Air > Indoor Air > Dust
   parent: GOLDTERMS:3961
@@ -2263,6 +2437,7 @@ terms:
   env_medium:
     id: ENVO:00002008
     label: dust
+  curated: true
 - id: GOLDTERMS:3962
   label: Environmental > Air > Outdoor Air
   parent: GOLDTERMS:3963
@@ -2274,9 +2449,10 @@ terms:
   parent: GOLDTERMS:3964
   level: 2
   vocab_differentia: GOLDVOCAB:Aquatic
-  env_local:
+  env_broad:
     id: ENVO:00002030
     label: aquatic biome
+  curated: true
 - id: GOLDTERMS:3965
   label: Environmental > Aquatic > Aquaculture
   parent: GOLDTERMS:3984
@@ -2285,6 +2461,7 @@ terms:
   env_broad:
     id: ENVO:03600074
     label: aquaculture farm
+  curated: true
 - id: GOLDTERMS:5363
   label: Environmental > Aquatic > Aquaculture > Shrimp pond
   parent: GOLDTERMS:3965
@@ -2293,6 +2470,7 @@ terms:
   env_local:
     id: ENVO:01000905
     label: shrimp pond
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Floodplain
   label: Environmental > Aquatic > Floodplain
   parent: GOLDTERMS:3984
@@ -2301,6 +2479,7 @@ terms:
   env_local:
     id: ENVO:00000255
     label: flood plain
+  curated: true
 - id: GOLDTERMS:5413
   label: Environmental > Aquatic > Floodplain > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Floodplain
@@ -2312,6 +2491,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4159
   label: Environmental > Aquatic > Freshwater
   parent: GOLDTERMS:3984
@@ -2320,6 +2500,7 @@ terms:
   env_medium:
     id: ENVO:00002011
     label: fresh water
+  curated: true
 - id: GOLDTERMS:5742
   label: Environmental > Aquatic > Freshwater > Agricultural field
   parent: GOLDTERMS:4159
@@ -2328,6 +2509,7 @@ terms:
   env_local:
     id: ENVO:00000114
     label: agricultural field
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer
   label: Environmental > Aquatic > Freshwater > Aquifer
   parent: GOLDTERMS:4159
@@ -2336,14 +2518,16 @@ terms:
   other:
     id: ENVO:00012408
     label: aquifer
+  curated: true
 - id: GOLDTERMS:5446
   label: Environmental > Aquatic > Freshwater > Aquifer > Biofilm
   parent: GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5374
   label: Environmental > Aquatic > Freshwater > Aquifer > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer
@@ -2355,6 +2539,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4514
   label: Environmental > Aquatic > Freshwater > Creek
   parent: GOLDTERMS:4159
@@ -2363,6 +2548,7 @@ terms:
   env_local:
     id: ENVO:00000023
     label: stream
+  curated: true
 - id: GOLDTERMS:5385
   label: Environmental > Aquatic > Freshwater > Creek > Sediment
   parent: GOLDTERMS:4514
@@ -2374,6 +2560,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs
   label: Environmental > Aquatic > Freshwater > Desert springs
   parent: GOLDTERMS:4159
@@ -2382,22 +2569,28 @@ terms:
   env_local:
     id: ENVO:02000139
     label: desert spring
+  curated: true
 - id: GOLDTERMS:5402
   label: Environmental > Aquatic > Freshwater > Desert springs > Benthic
   parent: GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs
   level: 5
   vocab_differentia: GOLDVOCAB:Benthic
-  env_local:
+  env_broad:
     id: ENVO:01000024
     label: marine benthic biome
+  curated: true
 - id: GOLDTERMS:4057
   label: Environmental > Aquatic > Freshwater > Drinking water
   parent: GOLDTERMS:4159
   level: 4
   vocab_differentia: GOLDVOCAB:Drinking-water
   env_medium:
+    id: ENVO:00003064
+    label: drinking water
+  other:
     id: FOODON:03301647
     label: drinking water (purified)
+  curated: true
 - id: GOLDTERMS:4059
   label: Environmental > Aquatic > Freshwater > Drinking water > Chlorinated
   parent: GOLDTERMS:4057
@@ -2430,6 +2623,7 @@ terms:
   env_medium:
     id: ENVO:01001004
     label: groundwater
+  curated: true
 - id: GOLDTERMS:4164
   label: Environmental > Aquatic > Freshwater > Groundwater > Acid Mine Drainage
   parent: GOLDTERMS:4165
@@ -2438,6 +2632,7 @@ terms:
   env_local:
     id: ENVO:00001997
     label: acid mine drainage
+  curated: true
 - id: GOLDTERMS:5430
   label: Environmental > Aquatic > Freshwater > Groundwater > Aquifer
   parent: GOLDTERMS:4165
@@ -2446,6 +2641,7 @@ terms:
   other:
     id: ENVO:00012408
     label: aquifer
+  curated: true
 - id: GOLDTERMS:4167
   label: Environmental > Aquatic > Freshwater > Groundwater > Cave water
   parent: GOLDTERMS:4165
@@ -2466,6 +2662,7 @@ terms:
   other:
     id: PATO:0015032
     label: increased contamination
+  curated: true
 - id: GOLDTERMS:4168
   label: Environmental > Aquatic > Freshwater > Groundwater > Mine
   parent: GOLDTERMS:4165
@@ -2474,6 +2671,7 @@ terms:
   env_local:
     id: ENVO:00000076
     label: mine
+  curated: true
 - id: GOLDTERMS:4170
   label: Environmental > Aquatic > Freshwater > Groundwater > Mine drainage
   parent: GOLDTERMS:4165
@@ -2482,6 +2680,7 @@ terms:
   env_local:
     id: ENVO:00001996
     label: mine drainage
+  curated: true
 - id: GOLDTERMS:4654
   label: Environmental > Aquatic > Freshwater > Groundwater > Spring
   parent: GOLDTERMS:4165
@@ -2490,6 +2689,7 @@ terms:
   env_local:
     id: ENVO:00000027
     label: spring
+  curated: true
 - id: GOLDTERMS:4420
   label: Environmental > Aquatic > Freshwater > Harbor
   parent: GOLDTERMS:4159
@@ -2498,6 +2698,7 @@ terms:
   env_local:
     id: ENVO:00000463
     label: harbour
+  curated: true
 - id: GOLDTERMS:4061
   label: Environmental > Aquatic > Freshwater > Ice
   parent: GOLDTERMS:4159
@@ -2506,6 +2707,7 @@ terms:
   env_medium:
     id: ENVO:01000277
     label: water ice
+  curated: true
 - id: GOLDTERMS:5379
   label: Environmental > Aquatic > Freshwater > Ice > Cryoconite
   parent: GOLDTERMS:4061
@@ -2520,14 +2722,16 @@ terms:
   env_local:
     id: ENVO:00000488
     label: glacial lake
+  curated: true
 - id: GOLDTERMS:4063
   label: Environmental > Aquatic > Freshwater > Ice > Glacier
   parent: GOLDTERMS:4061
   level: 5
   vocab_differentia: GOLDVOCAB:Glacier
-  other:
+  env_medium:
     id: ENVO:00000133
     label: glacier
+  curated: true
 - id: GOLDTERMS:4062
   label: Environmental > Aquatic > Freshwater > Ice > Ice accretions
   parent: GOLDTERMS:4061
@@ -2542,6 +2746,7 @@ terms:
   env_medium:
     id: ENVO:01000406
     label: snow
+  curated: true
 - id: GOLDTERMS:4179
   label: Environmental > Aquatic > Freshwater > Lake
   parent: GOLDTERMS:4159
@@ -2550,6 +2755,7 @@ terms:
   env_local:
     id: ENVO:00000020
     label: lake
+  curated: true
 - id: GOLDTERMS:5349
   label: Environmental > Aquatic > Freshwater > Lake > Algal bloom
   parent: GOLDTERMS:4179
@@ -2558,6 +2764,7 @@ terms:
   env_local:
     id: ENVO:2000004
     label: algal bloom
+  curated: true
 - id: GOLDTERMS:5392
   label: Environmental > Aquatic > Freshwater > Lake > Anoxic zone
   parent: GOLDTERMS:4179
@@ -2569,6 +2776,7 @@ terms:
   env_medium:
     id: ENVO:01000173
     label: anoxic water
+  curated: true
 - id: GOLDTERMS:5356
   label: Environmental > Aquatic > Freshwater > Lake > Cyanobacterial bloom
   parent: GOLDTERMS:4179
@@ -2577,6 +2785,7 @@ terms:
   env_local:
     id: ENVO:03600071
     label: cyanobacterial bloom
+  curated: true
 - id: GOLDTERMS:5357
   label: Environmental > Aquatic > Freshwater > Lake > Epilimnion
   parent: GOLDTERMS:4179
@@ -2585,6 +2794,7 @@ terms:
   env_local:
     id: ENVO:00002131
     label: epilimnion
+  curated: true
 - id: GOLDTERMS:5358
   label: Environmental > Aquatic > Freshwater > Lake > Hypolimnion
   parent: GOLDTERMS:4179
@@ -2593,14 +2803,16 @@ terms:
   env_local:
     id: ENVO:00002130
     label: hypolimnion
+  curated: true
 - id: GOLDTERMS:5375
   label: Environmental > Aquatic > Freshwater > Lake > Microbial mats
   parent: GOLDTERMS:4179
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:4426
   label: Environmental > Aquatic > Freshwater > Lake > Sediment
   parent: GOLDTERMS:4179
@@ -2612,6 +2824,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4174
   label: Environmental > Aquatic > Freshwater > Lentic
   parent: GOLDTERMS:4159
@@ -2620,6 +2833,7 @@ terms:
   env_local:
     id: ENVO:01000617
     label: lentic water body
+  curated: true
 - id: GOLDTERMS:4177
   label: Environmental > Aquatic > Freshwater > Lentic > Epilimnion
   parent: GOLDTERMS:4174
@@ -2628,6 +2842,7 @@ terms:
   env_local:
     id: ENVO:00002131
     label: epilimnion
+  curated: true
 - id: GOLDTERMS:4173
   label: Environmental > Aquatic > Freshwater > Lentic > Hypolimnion
   parent: GOLDTERMS:4174
@@ -2636,6 +2851,7 @@ terms:
   env_local:
     id: ENVO:00002130
     label: hypolimnion
+  curated: true
 - id: GOLDTERMS:4176
   label: Environmental > Aquatic > Freshwater > Lentic > Limnetic zone
   parent: GOLDTERMS:4174
@@ -2650,6 +2866,7 @@ terms:
   env_local:
     id: ENVO:01000407
     label: littoral zone
+  curated: true
 - id: GOLDTERMS:4175
   label: Environmental > Aquatic > Freshwater > Lentic > Sediment
   parent: GOLDTERMS:4174
@@ -2661,6 +2878,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4645
   label: Environmental > Aquatic > Freshwater > Lotic
   parent: GOLDTERMS:4159
@@ -2669,6 +2887,7 @@ terms:
   env_local:
     id: ENVO:01000618
     label: lotic water body
+  curated: true
 - id: GOLDTERMS:4191
   label: Environmental > Aquatic > Freshwater > Microbialites
   parent: GOLDTERMS:4159
@@ -2677,6 +2896,7 @@ terms:
   env_medium:
     id: ENVO:03600064
     label: microbialite
+  curated: true
 - id: GOLDTERMS:4380
   label: Environmental > Aquatic > Freshwater > Pond
   parent: GOLDTERMS:4159
@@ -2685,6 +2905,7 @@ terms:
   env_local:
     id: ENVO:00000033
     label: pond
+  curated: true
 - id: GOLDTERMS:4180
   label: Environmental > Aquatic > Freshwater > Pond > Sediment
   parent: GOLDTERMS:4380
@@ -2696,6 +2917,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5747
   label: Environmental > Aquatic > Freshwater > Puddle
   parent: GOLDTERMS:4159
@@ -2704,14 +2926,16 @@ terms:
   env_local:
     id: ENVO:01000871
     label: puddle of water
+  curated: true
 - id: GOLDTERMS:5748
   label: Environmental > Aquatic > Freshwater > Puddle > Microbial mats
   parent: GOLDTERMS:5747
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:5237
   label: Environmental > Aquatic > Freshwater > Reservoir
   parent: GOLDTERMS:4159
@@ -2720,6 +2944,7 @@ terms:
   env_local:
     id: ENVO:00000025
     label: reservoir
+  curated: true
 - id: GOLDTERMS:4512
   label: Environmental > Aquatic > Freshwater > River
   parent: GOLDTERMS:4159
@@ -2728,14 +2953,16 @@ terms:
   env_local:
     id: ENVO:00000022
     label: river
+  curated: true
 - id: GOLDTERMS:5347
   label: Environmental > Aquatic > Freshwater > River > Microbial mats
   parent: GOLDTERMS:4512
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:5345
   label: Environmental > Aquatic > Freshwater > River > Periphyton
   parent: GOLDTERMS:4512
@@ -2744,6 +2971,7 @@ terms:
   env_medium:
     id: ENVO:03605000
     label: periphytic biofilm
+  curated: true
 - id: GOLDTERMS:5346
   label: Environmental > Aquatic > Freshwater > River > Plankton
   parent: GOLDTERMS:4512
@@ -2752,6 +2980,7 @@ terms:
   env_medium:
     id: ENVO:01000063
     label: planktonic material
+  curated: true
 - id: GOLDTERMS:5348
   label: Environmental > Aquatic > Freshwater > River > River biofilm
   parent: GOLDTERMS:4512
@@ -2775,6 +3004,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4171
   label: Environmental > Aquatic > Freshwater > Sediment
   parent: GOLDTERMS:4159
@@ -2786,6 +3016,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4653
   label: Environmental > Aquatic > Freshwater > Sinkhole
   parent: GOLDTERMS:4159
@@ -2794,14 +3025,16 @@ terms:
   env_local:
     id: ENVO:00000195
     label: sinkhole
+  curated: true
 - id: GOLDTERMS:5361
   label: Environmental > Aquatic > Freshwater > Sinkhole > Microbial mats
   parent: GOLDTERMS:4653
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:4189
   label: Environmental > Aquatic > Freshwater > Storm water
   parent: GOLDTERMS:4159
@@ -2810,6 +3043,7 @@ terms:
   env_medium:
     id: ENVO:01001267
     label: stormwater
+  curated: true
 - id: GOLDTERMS:4190
   label: Environmental > Aquatic > Freshwater > Storm water > Drainage pipe biofilm
   parent: GOLDTERMS:4189
@@ -2824,6 +3058,7 @@ terms:
   env_local:
     id: ENVO:03000120
     label: subglacial lake
+  curated: true
 - id: GOLDTERMS:4562
   label: Environmental > Aquatic > Freshwater > Subterranean lake
   parent: GOLDTERMS:4159
@@ -2832,6 +3067,7 @@ terms:
   env_medium:
     id: ENVO:02000145
     label: subterranean lake
+  curated: true
 - id: GOLDTERMS:5360
   label: Environmental > Aquatic > Freshwater > Tap water
   parent: GOLDTERMS:4159
@@ -2840,6 +3076,7 @@ terms:
   env_medium:
     id: ENVO:00003096
     label: tap water
+  curated: true
 - id: GOLDTERMS:5210
   label: Environmental > Aquatic > Freshwater > Water tank
   parent: GOLDTERMS:4159
@@ -2848,6 +3085,7 @@ terms:
   other:
     id: ENVO:03501254
     label: water tank
+  curated: true
 - id: GOLDTERMS:4181
   label: Environmental > Aquatic > Freshwater > Wetlands
   parent: GOLDTERMS:4159
@@ -2856,6 +3094,7 @@ terms:
   env_broad:
     id: ENVO:01001209
     label: wetland ecosystem
+  curated: true
 - id: GOLDTERMS:4185
   label: Environmental > Aquatic > Freshwater > Wetlands > Bog
   parent: GOLDTERMS:4181
@@ -2864,6 +3103,7 @@ terms:
   env_broad:
     id: ENVO:01001209
     label: wetland ecosystem
+  curated: true
 - id: GOLDTERMS:5285
   label: Environmental > Aquatic > Freshwater > Wetlands > Fen
   parent: GOLDTERMS:4181
@@ -2872,6 +3112,7 @@ terms:
   env_broad:
     id: ENVO:00000232
     label: fen
+  curated: true
 - id: GOLDTERMS:4184
   label: Environmental > Aquatic > Freshwater > Wetlands > Marsh
   parent: GOLDTERMS:4181
@@ -2880,6 +3121,7 @@ terms:
   env_broad:
     id: ENVO:00000035
     label: marsh
+  curated: true
 - id: GOLDTERMS:4183
   label: Environmental > Aquatic > Freshwater > Wetlands > Sediment
   parent: GOLDTERMS:4181
@@ -2891,6 +3133,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5376
   label: Environmental > Aquatic > Freshwater > Wetlands > Soil
   parent: GOLDTERMS:4181
@@ -2902,6 +3145,7 @@ terms:
   env_medium:
     id: ENVO:00001998
     label: soil
+  curated: true
 - id: GOLDTERMS:4182
   label: Environmental > Aquatic > Freshwater > Wetlands > Swamp
   parent: GOLDTERMS:4181
@@ -2910,22 +3154,25 @@ terms:
   env_broad:
     id: ENVO:00000233
     label: swamp ecosystem
+  curated: true
 - id: GOLDTERMS:4003
   label: Environmental > Aquatic > Marine
   parent: GOLDTERMS:3984
   level: 3
   vocab_differentia: GOLDVOCAB:Marine
-  env_local:
+  env_broad:
     id: ENVO:00000447
     label: marine biome
+  curated: true
 - id: GOLDTERMS:5340
   label: Environmental > Aquatic > Marine > Abyssopelagic
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Abyssopelagic
-  env_local:
+  env_broad:
     id: ENVO:01000038
     label: oceanic abyssopelagic zone biome
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Aquifer
   label: Environmental > Aquatic > Marine > Aquifer
   parent: GOLDTERMS:4003
@@ -2934,6 +3181,7 @@ terms:
   other:
     id: ENVO:00012408
     label: aquifer
+  curated: true
 - id: GOLDTERMS:5737
   label: Environmental > Aquatic > Marine > Aquifer > Formation fluid
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Aquifer
@@ -2942,6 +3190,7 @@ terms:
   env_medium:
     id: ENVO:03600007
     label: formation fluid
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Archipelago
   label: Environmental > Aquatic > Marine > Archipelago
   parent: GOLDTERMS:4003
@@ -2950,6 +3199,7 @@ terms:
   env_local:
     id: ENVO:00000220
     label: archipelago
+  curated: true
 - id: GOLDTERMS:5383
   label: Environmental > Aquatic > Marine > Archipelago > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Archipelago
@@ -2961,6 +3211,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5338
   label: Environmental > Aquatic > Marine > Bathypelagic
   parent: GOLDTERMS:4003
@@ -2969,22 +3220,25 @@ terms:
   env_local:
     id: ENVO:00000211
     label: marine bathypelagic zone
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Benthic
   label: Environmental > Aquatic > Marine > Benthic
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Benthic
-  env_local:
+  env_broad:
     id: ENVO:01000024
     label: marine benthic biome
+  curated: true
 - id: GOLDTERMS:5712
   label: Environmental > Aquatic > Marine > Benthic > Wood fall
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Benthic
   level: 5
   vocab_differentia: GOLDVOCAB:Wood-fall
-  other:
+  env_medium:
     id: ENVO:01000142
     label: wood fall
+  curated: true
 - id: GOLDTERMS:4044
   label: Environmental > Aquatic > Marine > Coastal
   parent: GOLDTERMS:4003
@@ -2993,6 +3247,7 @@ terms:
   env_local:
     id: ENVO:01000687
     label: coast
+  curated: true
 - id: GOLDTERMS:5391
   label: Environmental > Aquatic > Marine > Coastal > Brine
   parent: GOLDTERMS:4044
@@ -3001,6 +3256,7 @@ terms:
   env_medium:
     id: ENVO:00003044
     label: brine
+  curated: true
 - id: GOLDTERMS:5825
   label: Environmental > Aquatic > Marine > Coastal > Phytoplankton bloom
   parent: GOLDTERMS:4044
@@ -3018,6 +3274,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4023
   label: Environmental > Aquatic > Marine > Cold seeps
   parent: GOLDTERMS:4003
@@ -3026,6 +3283,7 @@ terms:
   env_local:
     id: ENVO:01000263
     label: cold seep
+  curated: true
 - id: GOLDTERMS:4024
   label: Environmental > Aquatic > Marine > Cold seeps > Sediment
   parent: GOLDTERMS:4023
@@ -3037,6 +3295,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Continental-margin
   label: Environmental > Aquatic > Marine > Continental margin
   parent: GOLDTERMS:4003
@@ -3045,6 +3304,7 @@ terms:
   env_local:
     id: ENVO:01000298
     label: continental margin
+  curated: true
 - id: GOLDTERMS:5387
   label: Environmental > Aquatic > Marine > Continental margin > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Continental-margin
@@ -3056,6 +3316,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5369
   label: Environmental > Aquatic > Marine > Deep subsurface
   parent: GOLDTERMS:4003
@@ -3070,6 +3331,10 @@ terms:
   mixs_extension:
     id: MIXS:HydrocarbonResourcesCores
     label: MIXS:HydrocarbonResourcesCores
+  other:
+    id: CHEBI:24632
+    label: hydrocarbon
+  curated: true
 - id: GOLDTERMS:5370
   label: Environmental > Aquatic > Marine > Deep subsurface > Rock
   parent: GOLDTERMS:5369
@@ -3078,14 +3343,16 @@ terms:
   env_medium:
     id: ENVO:00001995
     label: rock
+  curated: true
 - id: GOLDTERMS:5331
   label: Environmental > Aquatic > Marine > Epipelagic
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Epipelagic
-  env_local:
+  env_broad:
     id: ENVO:01000035
     label: oceanic epipelagic zone biome
+  curated: true
 - id: GOLDTERMS:5355
   label: Environmental > Aquatic > Marine > Fjord
   parent: GOLDTERMS:4003
@@ -3094,6 +3361,7 @@ terms:
   env_local:
     id: ENVO:00000039
     label: fjord
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Fossil
   label: Environmental > Aquatic > Marine > Fossil
   parent: GOLDTERMS:4003
@@ -3105,9 +3373,10 @@ terms:
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Fossil
   level: 5
   vocab_differentia: GOLDVOCAB:Whale-fall
-  other:
+  env_medium:
     id: ENVO:01000140
     label: whale fall
+  curated: true
 - id: GOLDTERMS:4576
   label: Environmental > Aquatic > Marine > Gulf
   parent: GOLDTERMS:4003
@@ -3122,6 +3391,7 @@ terms:
   env_local:
     id: ENVO:00000214
     label: hadalpelagic zone
+  curated: true
 - id: GOLDTERMS:4454
   label: Environmental > Aquatic > Marine > Harbor
   parent: GOLDTERMS:4003
@@ -3130,6 +3400,7 @@ terms:
   env_local:
     id: ENVO:00000463
     label: harbour
+  curated: true
 - id: GOLDTERMS:4027
   label: Environmental > Aquatic > Marine > Hydrothermal vents
   parent: GOLDTERMS:4003
@@ -3138,6 +3409,7 @@ terms:
   env_local:
     id: ENVO:00000215
     label: hydrothermal vent
+  curated: true
 - id: GOLDTERMS:4031
   label: Environmental > Aquatic > Marine > Hydrothermal vents > Black smokers
   parent: GOLDTERMS:4027
@@ -3146,6 +3418,7 @@ terms:
   env_local:
     id: ENVO:00000218
     label: black smoker
+  curated: true
 - id: GOLDTERMS:4030
   label: Environmental > Aquatic > Marine > Hydrothermal vents > Diffuse flow
   parent: GOLDTERMS:4027
@@ -3157,9 +3430,10 @@ terms:
   parent: GOLDTERMS:4027
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:4029
   label: Environmental > Aquatic > Marine > Hydrothermal vents > Sediment
   parent: GOLDTERMS:4027
@@ -3171,6 +3445,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5751
   label: Environmental > Aquatic > Marine > Hydrothermal vents > Tubeworm bush
   parent: GOLDTERMS:4027
@@ -3185,6 +3460,7 @@ terms:
   env_medium:
     id: ENVO:01001064
     label: hypoxic water
+  curated: true
 - id: GOLDTERMS:4574
   label: Environmental > Aquatic > Marine > Inlet
   parent: GOLDTERMS:4003
@@ -3193,6 +3469,7 @@ terms:
   env_local:
     id: ENVO:00000475
     label: inlet
+  curated: true
 - id: GOLDTERMS:4013
   label: Environmental > Aquatic > Marine > Intertidal zone
   parent: GOLDTERMS:4003
@@ -3201,6 +3478,7 @@ terms:
   env_local:
     id: ENVO:00000316
     label: intertidal zone
+  curated: true
 - id: GOLDTERMS:4017
   label: Environmental > Aquatic > Marine > Intertidal zone > Beach
   parent: GOLDTERMS:4013
@@ -3209,6 +3487,7 @@ terms:
   env_local:
     id: ENVO:00000091
     label: beach
+  curated: true
 - id: GOLDTERMS:4014
   label: Environmental > Aquatic > Marine > Intertidal zone > Coral reef
   parent: GOLDTERMS:4013
@@ -3217,6 +3496,7 @@ terms:
   env_local:
     id: ENVO:00000150
     label: coral reef
+  curated: true
 - id: GOLDTERMS:4015
   label: Environmental > Aquatic > Marine > Intertidal zone > Estuary
   parent: GOLDTERMS:4013
@@ -3225,6 +3505,7 @@ terms:
   env_local:
     id: ENVO:00000045
     label: estuary
+  curated: true
 - id: GOLDTERMS:5364
   label: Environmental > Aquatic > Marine > Intertidal zone > Mangrove sediment
   parent: GOLDTERMS:4013
@@ -3233,6 +3514,7 @@ terms:
   env_medium:
     id: ENVO:02000152
     label: mangrove biome sediment
+  curated: true
 - id: GOLDTERMS:5422
   label: Environmental > Aquatic > Marine > Intertidal zone > Mangrove soil
   parent: GOLDTERMS:4013
@@ -3241,6 +3523,7 @@ terms:
   env_medium:
     id: ENVO:02000138
     label: mangrove biome soil
+  curated: true
 - id: GOLDTERMS:4018
   label: Environmental > Aquatic > Marine > Intertidal zone > Mangrove swamp
   parent: GOLDTERMS:4013
@@ -3249,6 +3532,7 @@ terms:
   env_broad:
     id: ENVO:00000057
     label: mangrove swamp
+  curated: true
 - id: GOLDTERMS:4019
   label: Environmental > Aquatic > Marine > Intertidal zone > Microbialites
   parent: GOLDTERMS:4013
@@ -3257,6 +3541,7 @@ terms:
   env_medium:
     id: ENVO:03600064
     label: microbialite
+  curated: true
 - id: GOLDTERMS:4020
   label: Environmental > Aquatic > Marine > Intertidal zone > Oil-contaminated
   parent: GOLDTERMS:4013
@@ -3265,6 +3550,7 @@ terms:
   env_local:
     id: ENVO:00002061
     label: oil spill
+  curated: true
 - id: GOLDTERMS:4012
   label: Environmental > Aquatic > Marine > Intertidal zone > Salt marsh
   parent: GOLDTERMS:4013
@@ -3273,6 +3559,7 @@ terms:
   env_broad:
     id: ENVO:00000054
     label: saline marsh
+  curated: true
 - id: GOLDTERMS:5590
   label: Environmental > Aquatic > Marine > Intertidal zone > Salt marsh sediment
   parent: GOLDTERMS:4013
@@ -3290,6 +3577,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4032
   label: Environmental > Aquatic > Marine > Marginal Sea
   parent: GOLDTERMS:4003
@@ -3298,6 +3586,7 @@ terms:
   env_local:
     id: ENVO:00000016
     label: sea
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Marine-basin-floor
   label: Environmental > Aquatic > Marine > Marine basin floor
   parent: GOLDTERMS:4003
@@ -3315,6 +3604,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5342
   label: Environmental > Aquatic > Marine > Marine lake
   parent: GOLDTERMS:4003
@@ -3323,6 +3613,7 @@ terms:
   env_local:
     id: ENVO:03600041
     label: marine lake
+  curated: true
 - id: GOLDTERMS:5333
   label: Environmental > Aquatic > Marine > Mesopelagic
   parent: GOLDTERMS:4003
@@ -3331,6 +3622,7 @@ terms:
   env_local:
     id: ENVO:00000213
     label: marine mesopelagic zone
+  curated: true
 - id: GOLDTERMS:4545
   label: Environmental > Aquatic > Marine > Mud volcano
   parent: GOLDTERMS:4003
@@ -3339,6 +3631,7 @@ terms:
   env_local:
     id: ENVO:00000402
     label: mud volcano
+  curated: true
 - id: GOLDTERMS:5377
   label: Environmental > Aquatic > Marine > Mud volcano > Sediment
   parent: GOLDTERMS:4545
@@ -3350,6 +3643,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4034
   label: Environmental > Aquatic > Marine > Neritic zone
   parent: GOLDTERMS:4003
@@ -3358,6 +3652,7 @@ terms:
   env_local:
     id: ENVO:00000206
     label: marine neritic zone
+  curated: true
 - id: GOLDTERMS:4033
   label: Environmental > Aquatic > Marine > Neritic zone > Oil-contaminated sediment
   parent: GOLDTERMS:4034
@@ -3375,6 +3670,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5389
   label: Environmental > Aquatic > Marine > Ocean trench
   parent: GOLDTERMS:4003
@@ -3383,6 +3679,7 @@ terms:
   env_local:
     id: ENVO:00000275
     label: ocean trench
+  curated: true
 - id: GOLDTERMS:5390
   label: Environmental > Aquatic > Marine > Ocean trench > Sediment
   parent: GOLDTERMS:5389
@@ -3394,6 +3691,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4008
   label: Environmental > Aquatic > Marine > Oceanic
   parent: GOLDTERMS:4003
@@ -3402,6 +3700,7 @@ terms:
   env_local:
     id: ENVO:00000015
     label: ocean
+  curated: true
 - id: GOLDTERMS:4006
   label: Environmental > Aquatic > Marine > Oceanic > Abyssal plane
   parent: GOLDTERMS:4008
@@ -3410,6 +3709,7 @@ terms:
   env_local:
     id: ENVO:00000244
     label: abyssal plain
+  curated: true
 - id: GOLDTERMS:4010
   label: Environmental > Aquatic > Marine > Oceanic > Aphotic zone
   parent: GOLDTERMS:4008
@@ -3418,14 +3718,16 @@ terms:
   env_local:
     id: ENVO:00000210
     label: marine aphotic zone
+  curated: true
 - id: GOLDTERMS:4040
   label: Environmental > Aquatic > Marine > Oceanic > Benthic
   parent: GOLDTERMS:4008
   level: 5
   vocab_differentia: GOLDVOCAB:Benthic
-  env_local:
+  env_broad:
     id: ENVO:01000024
     label: marine benthic biome
+  curated: true
 - id: GOLDTERMS:4656
   label: Environmental > Aquatic > Marine > Oceanic > Crustal Fluids
   parent: GOLDTERMS:4008
@@ -3434,14 +3736,16 @@ terms:
   env_medium:
     id: ENVO:03600082
     label: crustal fluid
+  curated: true
 - id: GOLDTERMS:4557
   label: Environmental > Aquatic > Marine > Oceanic > Microbial mats
   parent: GOLDTERMS:4008
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:4636
   label: Environmental > Aquatic > Marine > Oceanic > Oceanic crust
   parent: GOLDTERMS:4008
@@ -3450,6 +3754,7 @@ terms:
   env_local:
     id: ENVO:01000749
     label: oceanic crust
+  curated: true
 - id: GOLDTERMS:4011
   label: Environmental > Aquatic > Marine > Oceanic > Oil-contaminated
   parent: GOLDTERMS:4008
@@ -3458,6 +3763,7 @@ terms:
   env_local:
     id: ENVO:00002061
     label: oil spill
+  curated: true
 - id: GOLDTERMS:4007
   label: Environmental > Aquatic > Marine > Oceanic > Oil-contaminated sediment
   parent: GOLDTERMS:4008
@@ -3472,6 +3778,7 @@ terms:
   env_local:
     id: ENVO:00000209
     label: marine photic zone
+  curated: true
 - id: GOLDTERMS:5378
   label: Environmental > Aquatic > Marine > Oceanic > Plankton
   parent: GOLDTERMS:4008
@@ -3480,6 +3787,7 @@ terms:
   env_medium:
     id: ENVO:01000063
     label: planktonic material
+  curated: true
 - id: GOLDTERMS:5738
   label: Environmental > Aquatic > Marine > Oceanic > Rock
   parent: GOLDTERMS:4008
@@ -3488,6 +3796,7 @@ terms:
   env_medium:
     id: ENVO:00001995
     label: rock
+  curated: true
 - id: GOLDTERMS:4009
   label: Environmental > Aquatic > Marine > Oceanic > Sediment
   parent: GOLDTERMS:4008
@@ -3499,6 +3808,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4026
   label: Environmental > Aquatic > Marine > Oil seeps
   parent: GOLDTERMS:4003
@@ -3507,6 +3817,7 @@ terms:
   env_local:
     id: ENVO:00002063
     label: oil seep
+  curated: true
 - id: GOLDTERMS:4021
   label: Environmental > Aquatic > Marine > Pelagic
   parent: GOLDTERMS:4003
@@ -3515,6 +3826,7 @@ terms:
   env_local:
     id: ENVO:00000208
     label: marine pelagic zone
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-River-plume
   label: Environmental > Aquatic > Marine > River plume
   parent: GOLDTERMS:4003
@@ -3523,6 +3835,7 @@ terms:
   other:
     id: ENVO:03600070
     label: river plume
+  curated: true
 - id: GOLDTERMS:5367
   label: Environmental > Aquatic > Marine > River plume > Plankton
   parent: GOLDTERMS:Environmental-Aquatic-Marine-River-plume
@@ -3531,6 +3844,7 @@ terms:
   env_medium:
     id: ENVO:01000063
     label: planktonic material
+  curated: true
 - id: GOLDTERMS:5384
   label: Environmental > Aquatic > Marine > Sea ice
   parent: GOLDTERMS:4003
@@ -3539,6 +3853,7 @@ terms:
   env_medium:
     id: ENVO:00002200
     label: sea ice
+  curated: true
 - id: GOLDTERMS:5381
   label: Environmental > Aquatic > Marine > Sea ice > Cryoconite
   parent: GOLDTERMS:5384
@@ -3553,14 +3868,16 @@ terms:
   env_local:
     id: ENVO:03000040
     label: melt pond
+  curated: true
 - id: GOLDTERMS:4686
   label: Environmental > Aquatic > Marine > Seaweed
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Seaweed
-  env_medium:
+  other:
     id: FOODON:03412266
     label: seaweed
+  curated: true
 - id: GOLDTERMS:4564
   label: Environmental > Aquatic > Marine > Sediment
   parent: GOLDTERMS:4003
@@ -3572,6 +3889,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5722
   label: Environmental > Aquatic > Marine > Shipwreck
   parent: GOLDTERMS:4003
@@ -3580,6 +3898,7 @@ terms:
   other:
     id: ENVO:03600061
     label: shipwreck
+  curated: true
 - id: GOLDTERMS:4516
   label: Environmental > Aquatic > Marine > Strait
   parent: GOLDTERMS:4003
@@ -3588,6 +3907,7 @@ terms:
   env_local:
     id: ENVO:00000394
     label: strait
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Marine-Subtidal-zone
   label: Environmental > Aquatic > Marine > Subtidal zone
   parent: GOLDTERMS:4003
@@ -3605,6 +3925,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4022
   label: Environmental > Aquatic > Marine > Volcanic
   parent: GOLDTERMS:4003
@@ -3613,6 +3934,7 @@ terms:
   env_local:
     id: ENVO:00000247
     label: volcano
+  curated: true
 - id: GOLDTERMS:4055
   label: Environmental > Aquatic > Marine > Wetlands
   parent: GOLDTERMS:4003
@@ -3621,6 +3943,7 @@ terms:
   env_broad:
     id: ENVO:01001209
     label: wetland ecosystem
+  curated: true
 - id: GOLDTERMS:4056
   label: Environmental > Aquatic > Marine > Wetlands > Sediment
   parent: GOLDTERMS:4055
@@ -3632,6 +3955,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:3970
   label: Environmental > Aquatic > Non-marine Saline and Alkaline
   parent: GOLDTERMS:3984
@@ -3646,21 +3970,26 @@ terms:
   other:
     id: PATO:0001430
     label: alkaline
+  curated: true
 - id: GOLDTERMS:3969
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Carbonate
   parent: GOLDTERMS:3966
   level: 5
   vocab_differentia: GOLDVOCAB:Carbonate
-  curated: false
+  other:
+    id: CHEBI:41609
+    label: carbonate
+  curated: true
 - id: GOLDTERMS:3967
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Microbial
     mats
   parent: GOLDTERMS:3966
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:5720
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Alkaline > Mine
     pit pond
@@ -3679,6 +4008,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4695
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Fracking water
   parent: GOLDTERMS:3970
@@ -3687,6 +4017,7 @@ terms:
   env_medium:
     id: ENVO:01001869
     label: fracking liquid
+  curated: true
 - id: GOLDTERMS:3978
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Hypersaline
   parent: GOLDTERMS:3970
@@ -3695,15 +4026,17 @@ terms:
   env_medium:
     id: ENVO:00002012
     label: hypersaline water
+  curated: true
 - id: GOLDTERMS:3979
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Hypersaline >
     Microbial mats
   parent: GOLDTERMS:3978
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:3980
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Hypersaline >
     Sediment
@@ -3716,6 +4049,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:5410
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Lake
   parent: GOLDTERMS:3970
@@ -3724,6 +4058,7 @@ terms:
   env_local:
     id: ENVO:00000020
     label: lake
+  curated: true
 - id: GOLDTERMS:5372
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Lake > Brine
   parent: GOLDTERMS:5410
@@ -3732,6 +4067,7 @@ terms:
   env_medium:
     id: ENVO:00003044
     label: brine
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Near-boiling (>90C)
   parent: GOLDTERMS:3970
@@ -3747,6 +4083,7 @@ terms:
   other:
     id: PATO:0001430
     label: alkaline
+  curated: true
 - id: GOLDTERMS:3973
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline
   parent: GOLDTERMS:3970
@@ -3767,6 +4104,7 @@ terms:
   env_local:
     id: ENVO:00002131
     label: epilimnion
+  curated: true
 - id: GOLDTERMS:3972
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Hypolimnion
   parent: GOLDTERMS:3973
@@ -3775,15 +4113,17 @@ terms:
   env_local:
     id: ENVO:00002130
     label: hypolimnion
+  curated: true
 - id: GOLDTERMS:3974
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Microbial
     mats
   parent: GOLDTERMS:3973
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:3975
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Sediment
   parent: GOLDTERMS:3973
@@ -3795,6 +4135,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:3976
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Thalassic
   parent: GOLDTERMS:3973
@@ -3803,6 +4144,7 @@ terms:
   other:
     id: ENVO:01001667
     label: thalassic
+  curated: true
 - id: GOLDTERMS:3981
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Salt crystallizer
     ponds
@@ -3816,9 +4158,10 @@ terms:
   parent: GOLDTERMS:3981
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:5807
   label: Environmental > Aquatic > Non-marine Saline and Alkaline > Salt crystallizer
     ponds > Saline water
@@ -3828,6 +4171,7 @@ terms:
   env_medium:
     id: ENVO:00002010
     label: saline water
+  curated: true
 - id: GOLDTERMS:3985
   label: Environmental > Aquatic > Sediment
   parent: GOLDTERMS:3984
@@ -3839,6 +4183,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:Environmental-Aquatic-Spring
   label: Environmental > Aquatic > Spring
   parent: GOLDTERMS:3984
@@ -3847,6 +4192,7 @@ terms:
   env_local:
     id: ENVO:00000027
     label: spring
+  curated: true
 - id: GOLDTERMS:5437
   label: Environmental > Aquatic > Spring > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Spring
@@ -3858,6 +4204,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:3991
   label: Environmental > Aquatic > Thermal springs
   parent: GOLDTERMS:3984
@@ -3866,6 +4213,7 @@ terms:
   env_local:
     id: ENVO:00000051
     label: hot spring
+  curated: true
 - id: GOLDTERMS:3992
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C)
   parent: GOLDTERMS:3991
@@ -3874,6 +4222,7 @@ terms:
   other:
     id: PATO:0001305
     label: increased temperature
+  curated: true
 - id: GOLDTERMS:3995
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Acidic
   parent: GOLDTERMS:3992
@@ -3882,6 +4231,7 @@ terms:
   other:
     id: PATO:0001429
     label: acidic
+  curated: true
 - id: GOLDTERMS:3994
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Alkaline
   parent: GOLDTERMS:3992
@@ -3890,14 +4240,16 @@ terms:
   other:
     id: PATO:0001430
     label: alkaline
+  curated: true
 - id: GOLDTERMS:4655
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Microbial mats
   parent: GOLDTERMS:3992
   level: 5
   vocab_differentia: GOLDVOCAB:Microbial-mats
-  other:
+  env_medium:
     id: ENVO:01000008
     label: microbial mat
+  curated: true
 - id: GOLDTERMS:3998
   label: Environmental > Aquatic > Thermal springs > Hot (42-90C) > Neutral
   parent: GOLDTERMS:3992
@@ -3915,6 +4267,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4818
   label: Environmental > Aquatic > Thermal springs > Near-boiling (>90C)
   parent: GOLDTERMS:3991
@@ -3929,6 +4282,7 @@ terms:
   other:
     id: PATO:0001430
     label: alkaline
+  curated: true
 - id: GOLDTERMS:3999
   label: Environmental > Aquatic > Thermal springs > Sediment
   parent: GOLDTERMS:3991
@@ -3940,6 +4294,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:3989
   label: Environmental > Aquatic > Thermal springs > Tepid (25-34C)
   parent: GOLDTERMS:3991
@@ -3957,6 +4312,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:3986
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C)
   parent: GOLDTERMS:3991
@@ -3971,6 +4327,7 @@ terms:
   other:
     id: PATO:0001429
     label: acidic
+  curated: true
 - id: GOLDTERMS:3987
   label: Environmental > Aquatic > Thermal springs > Warm (34-42C) > Neutral
   parent: GOLDTERMS:3986
@@ -3988,14 +4345,16 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4198
   label: Environmental > Terrestrial
   parent: GOLDTERMS:3964
   level: 2
   vocab_differentia: GOLDVOCAB:Terrestrial
-  env_local:
+  env_broad:
     id: ENVO:00000446
     label: terrestrial biome
+  curated: true
 - id: GOLDTERMS:4199
   label: Environmental > Terrestrial > Agricultural field
   parent: GOLDTERMS:4198
@@ -4004,6 +4363,7 @@ terms:
   env_local:
     id: ENVO:00000114
     label: agricultural field
+  curated: true
 - id: GOLDTERMS:4718
   label: Environmental > Terrestrial > Asphalt lakes
   parent: GOLDTERMS:4198
@@ -4012,6 +4372,7 @@ terms:
   env_local:
     id: ENVO:00000165
     label: asphalt lake
+  curated: true
 - id: GOLDTERMS:4195
   label: Environmental > Terrestrial > Asphalt lakes > Tar
   parent: GOLDTERMS:4718
@@ -4020,6 +4381,7 @@ terms:
   env_medium:
     id: ENVO:01000460
     label: asphalt
+  curated: true
 - id: GOLDTERMS:4491
   label: Environmental > Terrestrial > Cave
   parent: GOLDTERMS:4198
@@ -4028,6 +4390,7 @@ terms:
   env_local:
     id: ENVO:00000067
     label: cave
+  curated: true
 - id: GOLDTERMS:4822
   label: Environmental > Terrestrial > Cave > Wall
   parent: GOLDTERMS:4491
@@ -4036,14 +4399,16 @@ terms:
   env_local:
     id: ENVO:00002144
     label: cave wall
+  curated: true
 - id: GOLDTERMS:4643
   label: Environmental > Terrestrial > Cave > Wall > Biofilm
   parent: GOLDTERMS:4822
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:4245
   label: Environmental > Terrestrial > Deep subsurface
   parent: GOLDTERMS:4198
@@ -4058,6 +4423,7 @@ terms:
   other:
     id: ENVO:00012408
     label: aquifer
+  curated: true
 - id: GOLDTERMS:4246
   label: Environmental > Terrestrial > Deep subsurface > Clay
   parent: GOLDTERMS:4245
@@ -4066,6 +4432,7 @@ terms:
   env_medium:
     id: ENVO:00002982
     label: clay
+  curated: true
 - id: GOLDTERMS:4533
   label: Environmental > Terrestrial > Deep subsurface > Fracking water
   parent: GOLDTERMS:4245
@@ -4074,6 +4441,7 @@ terms:
   env_medium:
     id: ENVO:01001869
     label: fracking liquid
+  curated: true
 - id: GOLDTERMS:5584
   label: Environmental > Terrestrial > Deep subsurface > Fracking water > Shale carbon
     reservoir
@@ -4083,6 +4451,10 @@ terms:
   env_medium:
     id: ENVO:02000119
     label: oil shale
+  other:
+    id: CHEBI:80506
+    label: Shale oils
+  curated: true
 - id: GOLDTERMS:4605
   label: Environmental > Terrestrial > Deep subsurface > Oil well
   parent: GOLDTERMS:4245
@@ -4091,6 +4463,7 @@ terms:
   env_local:
     id: ENVO:01000003
     label: oil well
+  curated: true
 - id: GOLDTERMS:5326
   label: Environmental > Terrestrial > Deep subsurface > Rock
   parent: GOLDTERMS:4245
@@ -4099,6 +4472,7 @@ terms:
   env_medium:
     id: ENVO:00001995
     label: rock
+  curated: true
 - id: GOLDTERMS:4607
   label: Environmental > Terrestrial > Deep subsurface > Water well
   parent: GOLDTERMS:4245
@@ -4107,6 +4481,7 @@ terms:
   env_local:
     id: ENVO:01000002
     label: water well
+  curated: true
 - id: GOLDTERMS:5442
   label: Environmental > Terrestrial > Desert
   parent: GOLDTERMS:4198
@@ -4115,6 +4490,7 @@ terms:
   env_local:
     id: ENVO:01001357
     label: desert
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Floodplain
   label: Environmental > Terrestrial > Floodplain
   parent: GOLDTERMS:4198
@@ -4123,6 +4499,7 @@ terms:
   env_local:
     id: ENVO:00000255
     label: flood plain
+  curated: true
 - id: GOLDTERMS:4668
   label: Environmental > Terrestrial > Floodplain > Sediment
   parent: GOLDTERMS:Environmental-Terrestrial-Floodplain
@@ -4134,6 +4511,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4716
   label: Environmental > Terrestrial > Floodplain > Soil
   parent: GOLDTERMS:Environmental-Terrestrial-Floodplain
@@ -4145,6 +4523,7 @@ terms:
   env_medium:
     id: ENVO:00001998
     label: soil
+  curated: true
 - id: GOLDTERMS:4192
   label: Environmental > Terrestrial > Geologic
   parent: GOLDTERMS:4198
@@ -4159,6 +4538,7 @@ terms:
   env_local:
     id: ENVO:00000076
     label: mine
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Geologic-Mine-pit-pond
   label: Environmental > Terrestrial > Geologic > Mine pit pond
   parent: GOLDTERMS:4192
@@ -4170,7 +4550,10 @@ terms:
   parent: GOLDTERMS:Environmental-Terrestrial-Geologic-Mine-pit-pond
   level: 5
   vocab_differentia: GOLDVOCAB:Asbestos
-  curated: false
+  other:
+    id: CHEBI:46661
+    label: asbestos
+  curated: true
 - id: GOLDTERMS:5772
   label: Environmental > Terrestrial > Geologic > Oil-contaminated sediment
   parent: GOLDTERMS:4192
@@ -4188,6 +4571,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4689
   label: Environmental > Terrestrial > Mud volcano
   parent: GOLDTERMS:4198
@@ -4196,6 +4580,7 @@ terms:
   env_local:
     id: ENVO:00000402
     label: mud volcano
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Nest
   label: Environmental > Terrestrial > Nest
   parent: GOLDTERMS:4198
@@ -4204,12 +4589,16 @@ terms:
   other:
     id: ENVO:00005803
     label: animal habitation
+  curated: true
 - id: GOLDTERMS:4841
   label: Environmental > Terrestrial > Nest > Alligator nest
   parent: GOLDTERMS:Environmental-Terrestrial-Nest
   level: 4
   vocab_differentia: GOLDVOCAB:Alligator-nest
-  curated: false
+  other:
+    id: ENVO:03600069
+    label: nest of alligator
+  curated: true
 - id: GOLDTERMS:4194
   label: Environmental > Terrestrial > Oil reservoir
   parent: GOLDTERMS:4198
@@ -4218,6 +4607,7 @@ terms:
   env_local:
     id: ENVO:00002185
     label: oil reservoir
+  curated: true
 - id: GOLDTERMS:5426
   label: Environmental > Terrestrial > Oil reservoir > Oil
   parent: GOLDTERMS:4194
@@ -4226,6 +4616,7 @@ terms:
   env_medium:
     id: ENVO:00002985
     label: oil
+  curated: true
 - id: GOLDTERMS:5428
   label: Environmental > Terrestrial > Oil reservoir > Produced water
   parent: GOLDTERMS:4194
@@ -4243,6 +4634,7 @@ terms:
   env_medium:
     id: ENVO:00002007
     label: sediment
+  curated: true
 - id: GOLDTERMS:4553
   label: Environmental > Terrestrial > Peat
   parent: GOLDTERMS:4198
@@ -4251,6 +4643,7 @@ terms:
   env_medium:
     id: ENVO:00005774
     label: peat soil
+  curated: true
 - id: GOLDTERMS:4541
   label: Environmental > Terrestrial > Plant litter
   parent: GOLDTERMS:4198
@@ -4259,6 +4652,7 @@ terms:
   env_medium:
     id: ENVO:01000628
     label: plant litter
+  curated: true
 - id: GOLDTERMS:4650
   label: Environmental > Terrestrial > Rock-dwelling (endoliths)
   parent: GOLDTERMS:4198
@@ -4282,6 +4676,7 @@ terms:
   env_medium:
     id: ENVO:00001998
     label: soil
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Arable
   label: Environmental > Terrestrial > Soil > Arable
   parent: GOLDTERMS:4212
@@ -4293,6 +4688,7 @@ terms:
   env_medium:
     id: ENVO:00005742
     label: arable soil
+  curated: true
 - id: GOLDTERMS:5768
   label: Environmental > Terrestrial > Soil > Arable > Agricultural land
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Arable
@@ -4301,6 +4697,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Biochar
   label: Environmental > Terrestrial > Soil > Biochar
   parent: GOLDTERMS:4212
@@ -4309,6 +4706,7 @@ terms:
   env_medium:
     id: ENVO:2000007
     label: biochar
+  curated: true
 - id: GOLDTERMS:5776
   label: Environmental > Terrestrial > Soil > Biochar > Agricultural land
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Biochar
@@ -4317,6 +4715,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:4711
   label: Environmental > Terrestrial > Soil > Biocrust
   parent: GOLDTERMS:4212
@@ -4328,14 +4727,16 @@ terms:
   other:
     id: ENVO:01000909
     label: biocrust
+  curated: true
 - id: GOLDTERMS:5434
   label: Environmental > Terrestrial > Soil > Biofilm
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5780
   label: Environmental > Terrestrial > Soil > Bulk soil
   parent: GOLDTERMS:4212
@@ -4344,6 +4745,7 @@ terms:
   env_medium:
     id: ENVO:00005802
     label: bulk soil
+  curated: true
 - id: GOLDTERMS:5424
   label: Environmental > Terrestrial > Soil > Bulk soil > Agricultural land
   parent: GOLDTERMS:5780
@@ -4352,6 +4754,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:5725
   label: Environmental > Terrestrial > Soil > Bulk soil > Contaminated
   parent: GOLDTERMS:5780
@@ -4360,6 +4763,7 @@ terms:
   other:
     id: PATO:0015032
     label: increased contamination
+  curated: true
 - id: GOLDTERMS:5585
   label: Environmental > Terrestrial > Soil > Bulk soil > Meadow
   parent: GOLDTERMS:5780
@@ -4368,6 +4772,7 @@ terms:
   env_local:
     id: ENVO:00000108
     label: meadow ecosystem
+  curated: true
 - id: GOLDTERMS:5823
   label: Environmental > Terrestrial > Soil > Bulk soil > Plant pot
   parent: GOLDTERMS:5780
@@ -4376,6 +4781,7 @@ terms:
   other:
     id: ENVO:03600045
     label: plant pot
+  curated: true
 - id: GOLDTERMS:4229
   label: Environmental > Terrestrial > Soil > Clay
   parent: GOLDTERMS:4212
@@ -4384,6 +4790,7 @@ terms:
   env_medium:
     id: ENVO:00002982
     label: clay
+  curated: true
 - id: GOLDTERMS:4230
   label: Environmental > Terrestrial > Soil > Clay > Agricultural land
   parent: GOLDTERMS:4229
@@ -4392,6 +4799,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:4231
   label: Environmental > Terrestrial > Soil > Clay > Contaminated
   parent: GOLDTERMS:4229
@@ -4400,14 +4808,16 @@ terms:
   other:
     id: PATO:0015032
     label: increased contamination
+  curated: true
 - id: GOLDTERMS:4228
   label: Environmental > Terrestrial > Soil > Clay > Grasslands
   parent: GOLDTERMS:4229
   level: 5
   vocab_differentia: GOLDVOCAB:Grasslands
-  env_local:
+  env_broad:
     id: ENVO:01000177
     label: grassland biome
+  curated: true
 - id: GOLDTERMS:4232
   label: Environmental > Terrestrial > Soil > Clay > Oil-contaminated
   parent: GOLDTERMS:4229
@@ -4416,6 +4826,7 @@ terms:
   env_local:
     id: ENVO:00002061
     label: oil spill
+  curated: true
 - id: GOLDTERMS:5610
   label: Environmental > Terrestrial > Soil > Floodplain
   parent: GOLDTERMS:4212
@@ -4424,6 +4835,7 @@ terms:
   env_local:
     id: ENVO:00000255
     label: flood plain
+  curated: true
 - id: GOLDTERMS:4418
   label: Environmental > Terrestrial > Soil > Fossil
   parent: GOLDTERMS:4212
@@ -4438,14 +4850,16 @@ terms:
   env_local:
     id: ENVO:00000011
     label: garden
+  curated: true
 - id: GOLDTERMS:4745
   label: Environmental > Terrestrial > Soil > Glacier
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Glacier
-  other:
+  env_medium:
     id: ENVO:00000133
     label: glacier
+  curated: true
 - id: GOLDTERMS:5777
   label: Environmental > Terrestrial > Soil > Greenhouse
   parent: GOLDTERMS:4212
@@ -4454,6 +4868,7 @@ terms:
   env_local:
     id: ENVO:03600087
     label: greenhouse
+  curated: true
 - id: GOLDTERMS:5770
   label: Environmental > Terrestrial > Soil > Greenhouse > Agricultural land
   parent: GOLDTERMS:5777
@@ -4462,6 +4877,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:4241
   label: Environmental > Terrestrial > Soil > Loam
   parent: GOLDTERMS:4212
@@ -4470,6 +4886,7 @@ terms:
   env_medium:
     id: ENVO:00002258
     label: loam
+  curated: true
 - id: GOLDTERMS:4237
   label: Environmental > Terrestrial > Soil > Loam > Agricultural
   parent: GOLDTERMS:4241
@@ -4481,6 +4898,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:4242
   label: Environmental > Terrestrial > Soil > Loam > Agricultural land
   parent: GOLDTERMS:4241
@@ -4489,6 +4907,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:4244
   label: Environmental > Terrestrial > Soil > Loam > Agricultural soil
   parent: GOLDTERMS:4241
@@ -4497,6 +4916,7 @@ terms:
   env_medium:
     id: ENVO:00002259
     label: agricultural soil
+  curated: true
 - id: GOLDTERMS:4243
   label: Environmental > Terrestrial > Soil > Loam > Contaminated
   parent: GOLDTERMS:4241
@@ -4505,6 +4925,7 @@ terms:
   other:
     id: PATO:0015032
     label: increased contamination
+  curated: true
 - id: GOLDTERMS:4239
   label: Environmental > Terrestrial > Soil > Loam > Forest soil
   parent: GOLDTERMS:4241
@@ -4513,14 +4934,16 @@ terms:
   env_medium:
     id: ENVO:00002261
     label: forest soil
+  curated: true
 - id: GOLDTERMS:4238
   label: Environmental > Terrestrial > Soil > Loam > Grasslands
   parent: GOLDTERMS:4241
   level: 5
   vocab_differentia: GOLDVOCAB:Grasslands
-  env_local:
+  env_broad:
     id: ENVO:01000177
     label: grassland biome
+  curated: true
 - id: GOLDTERMS:5800
   label: Environmental > Terrestrial > Soil > Mangrove soil
   parent: GOLDTERMS:4212
@@ -4529,6 +4952,7 @@ terms:
   env_medium:
     id: ENVO:02000138
     label: mangrove biome soil
+  curated: true
 - id: GOLDTERMS:5754
   label: Environmental > Terrestrial > Soil > Manure-fertilized
   parent: GOLDTERMS:4212
@@ -4543,6 +4967,7 @@ terms:
   other:
     id: ENVO:03600011
     label: mineral horizon
+  curated: true
 - id: GOLDTERMS:5589
   label: Environmental > Terrestrial > Soil > Mineral horizon > Forest soil
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Mineral-horizon
@@ -4551,6 +4976,7 @@ terms:
   env_medium:
     id: ENVO:00002261
     label: forest soil
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Nature-reserve
   label: Environmental > Terrestrial > Soil > Nature reserve
   parent: GOLDTERMS:4212
@@ -4559,6 +4985,7 @@ terms:
   other:
     id: ENVO:00000363
     label: area designated as a nature reserve
+  curated: true
 - id: GOLDTERMS:5617
   label: Environmental > Terrestrial > Soil > Nature reserve > Meadow
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Nature-reserve
@@ -4567,6 +4994,7 @@ terms:
   env_local:
     id: ENVO:00000108
     label: meadow ecosystem
+  curated: true
 - id: GOLDTERMS:5822
   label: Environmental > Terrestrial > Soil > Organic layer
   parent: GOLDTERMS:4212
@@ -4575,6 +5003,7 @@ terms:
   other:
     id: ENVO:03600018
     label: organic horizon
+  curated: true
 - id: GOLDTERMS:5587
   label: Environmental > Terrestrial > Soil > Organic layer > Forest soil
   parent: GOLDTERMS:5822
@@ -4583,6 +5012,7 @@ terms:
   env_medium:
     id: ENVO:00002261
     label: forest soil
+  curated: true
 - id: GOLDTERMS:5613
   label: Environmental > Terrestrial > Soil > Paddy field/soil
   parent: GOLDTERMS:4212
@@ -4591,6 +5021,7 @@ terms:
   env_medium:
     id: ENVO:00005740
     label: paddy field soil
+  curated: true
 - id: GOLDTERMS:5612
   label: Environmental > Terrestrial > Soil > Paddy field/soil > Contaminated
   parent: GOLDTERMS:5613
@@ -4599,6 +5030,7 @@ terms:
   other:
     id: PATO:0015032
     label: increased contamination
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Pasture
   label: Environmental > Terrestrial > Soil > Pasture
   parent: GOLDTERMS:4212
@@ -4610,6 +5042,7 @@ terms:
   env_medium:
     id: ENVO:00005773
     label: pasture soil
+  curated: true
 - id: GOLDTERMS:5729
   label: Environmental > Terrestrial > Soil > Pasture > Agricultural land
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Pasture
@@ -4618,6 +5051,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:5803
   label: Environmental > Terrestrial > Soil > Peat
   parent: GOLDTERMS:4212
@@ -4626,6 +5060,7 @@ terms:
   env_medium:
     id: ENVO:00005774
     label: peat soil
+  curated: true
 - id: GOLDTERMS:5621
   label: Environmental > Terrestrial > Soil > Peat > Bog
   parent: GOLDTERMS:5803
@@ -4634,6 +5069,7 @@ terms:
   env_broad:
     id: ENVO:01001209
     label: wetland ecosystem
+  curated: true
 - id: GOLDTERMS:5804
   label: Environmental > Terrestrial > Soil > Peat > Fen
   parent: GOLDTERMS:5803
@@ -4642,6 +5078,7 @@ terms:
   env_broad:
     id: ENVO:00000232
     label: fen
+  curated: true
 - id: GOLDTERMS:5817
   label: Environmental > Terrestrial > Soil > Peat > Forest
   parent: GOLDTERMS:5803
@@ -4650,6 +5087,7 @@ terms:
   env_local:
     id: ENVO:01001243
     label: forest ecosystem
+  curated: true
 - id: GOLDTERMS:5809
   label: Environmental > Terrestrial > Soil > Peat > Mire
   parent: GOLDTERMS:5803
@@ -4658,6 +5096,7 @@ terms:
   env_broad:
     id: ENVO:01001209
     label: wetland ecosystem
+  curated: true
 - id: GOLDTERMS:5816
   label: Environmental > Terrestrial > Soil > Peat > Palsa
   parent: GOLDTERMS:5803
@@ -4666,6 +5105,7 @@ terms:
   env_local:
     id: ENVO:00000489
     label: palsa
+  curated: true
 - id: GOLDTERMS:5808
   label: Environmental > Terrestrial > Soil > Peat > Permafrost
   parent: GOLDTERMS:5803
@@ -4674,6 +5114,7 @@ terms:
   env_medium:
     id: ENVO:00000134
     label: permafrost
+  curated: true
 - id: GOLDTERMS:5818
   label: Environmental > Terrestrial > Soil > Peat > Thermokarst pond
   parent: GOLDTERMS:5803
@@ -4682,6 +5123,7 @@ terms:
   env_local:
     id: ENVO:03000085
     label: thermokarst
+  curated: true
 - id: GOLDTERMS:5779
   label: Environmental > Terrestrial > Soil > Potting soil
   parent: GOLDTERMS:4212
@@ -4690,6 +5132,7 @@ terms:
   env_medium:
     id: ENVO:03000133
     label: agricultural potting mixture
+  curated: true
 - id: GOLDTERMS:Environmental-Terrestrial-Soil-Ranch
   label: Environmental > Terrestrial > Soil > Ranch
   parent: GOLDTERMS:4212
@@ -4698,6 +5141,7 @@ terms:
   env_local:
     id: ENVO:01001207
     label: ranch
+  curated: true
 - id: GOLDTERMS:5727
   label: Environmental > Terrestrial > Soil > Ranch > Agricultural land
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Ranch
@@ -4706,6 +5150,7 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:4203
   label: Environmental > Terrestrial > Soil > Sand
   parent: GOLDTERMS:4212
@@ -4714,6 +5159,7 @@ terms:
   env_medium:
     id: ENVO:01000017
     label: sand
+  curated: true
 - id: GOLDTERMS:4202
   label: Environmental > Terrestrial > Soil > Sand > Desert
   parent: GOLDTERMS:4203
@@ -4725,6 +5171,7 @@ terms:
   env_medium:
     id: ENVO:00005800
     label: desert sand
+  curated: true
 - id: GOLDTERMS:4224
   label: Environmental > Terrestrial > Soil > Sand > Forest soil
   parent: GOLDTERMS:4203
@@ -4733,14 +5180,16 @@ terms:
   env_medium:
     id: ENVO:00002261
     label: forest soil
+  curated: true
 - id: GOLDTERMS:4223
   label: Environmental > Terrestrial > Soil > Sand > Grasslands
   parent: GOLDTERMS:4203
   level: 5
   vocab_differentia: GOLDVOCAB:Grasslands
-  env_local:
+  env_broad:
     id: ENVO:01000177
     label: grassland biome
+  curated: true
 - id: GOLDTERMS:4204
   label: Environmental > Terrestrial > Soil > Sand > Oil-contaminated
   parent: GOLDTERMS:4203
@@ -4749,6 +5198,7 @@ terms:
   env_local:
     id: ENVO:00002061
     label: oil spill
+  curated: true
 - id: GOLDTERMS:4227
   label: Environmental > Terrestrial > Soil > Silt
   parent: GOLDTERMS:4212
@@ -4757,6 +5207,7 @@ terms:
   env_medium:
     id: ENVO:01000016
     label: silt
+  curated: true
 - id: GOLDTERMS:4578
   label: Environmental > Terrestrial > Soil > Soil crust
   parent: GOLDTERMS:4212
@@ -4771,6 +5222,7 @@ terms:
   host_taxon:
     id: NCBITaxon:12908
     label: unclassified sequences
+  curated: true
 - id: GOLDTERMS:4213
   label: Environmental > Terrestrial > Soil > Unclassified > Agricultural land
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4779,25 +5231,28 @@ terms:
   env_broad:
     id: ENVO:00000077
     label: agricultural ecosystem
+  curated: true
 - id: GOLDTERMS:5439
   label: Environmental > Terrestrial > Soil > Unclassified > Alpine
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
   level: 5
   vocab_differentia: GOLDVOCAB:Alpine
-  env_local:
+  env_broad:
     id: ENVO:01001835
     label: alpine biome
   env_medium:
     id: ENVO:00005741
     label: alpine soil
+  curated: true
 - id: GOLDTERMS:4217
   label: Environmental > Terrestrial > Soil > Unclassified > Boreal forest
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
   level: 5
   vocab_differentia: GOLDVOCAB:Boreal-forest
-  env_local:
+  env_broad:
     id: ENVO:01000250
     label: subpolar coniferous forest biome
+  curated: true
 - id: GOLDTERMS:4215
   label: Environmental > Terrestrial > Soil > Unclassified > Contaminated
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4806,6 +5261,7 @@ terms:
   other:
     id: PATO:0015032
     label: increased contamination
+  curated: true
 - id: GOLDTERMS:5792
   label: Environmental > Terrestrial > Soil > Unclassified > Creek
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4814,6 +5270,7 @@ terms:
   env_local:
     id: ENVO:00000023
     label: stream
+  curated: true
 - id: GOLDTERMS:4210
   label: Environmental > Terrestrial > Soil > Unclassified > Desert
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4822,6 +5279,7 @@ terms:
   env_local:
     id: ENVO:01001357
     label: desert
+  curated: true
 - id: GOLDTERMS:5438
   label: Environmental > Terrestrial > Soil > Unclassified > Farm
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4830,6 +5288,7 @@ terms:
   env_broad:
     id: ENVO:00000078
     label: farm
+  curated: true
 - id: GOLDTERMS:4205
   label: Environmental > Terrestrial > Soil > Unclassified > Forest Soil
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4838,14 +5297,16 @@ terms:
   env_medium:
     id: ENVO:00002261
     label: forest soil
+  curated: true
 - id: GOLDTERMS:4209
   label: Environmental > Terrestrial > Soil > Unclassified > Grasslands
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
   level: 5
   vocab_differentia: GOLDVOCAB:Grasslands
-  env_local:
+  env_broad:
     id: ENVO:01000177
     label: grassland biome
+  curated: true
 - id: GOLDTERMS:5420
   label: Environmental > Terrestrial > Soil > Unclassified > Meadow
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4854,6 +5315,7 @@ terms:
   env_local:
     id: ENVO:00000108
     label: meadow ecosystem
+  curated: true
 - id: GOLDTERMS:4218
   label: Environmental > Terrestrial > Soil > Unclassified > Mine
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4862,6 +5324,7 @@ terms:
   env_local:
     id: ENVO:00000076
     label: mine
+  curated: true
 - id: GOLDTERMS:4221
   label: Environmental > Terrestrial > Soil > Unclassified > Mine drainage
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4870,6 +5333,7 @@ terms:
   env_local:
     id: ENVO:00001996
     label: mine drainage
+  curated: true
 - id: GOLDTERMS:4220
   label: Environmental > Terrestrial > Soil > Unclassified > Oil-contaminated
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4878,6 +5342,7 @@ terms:
   env_local:
     id: ENVO:00002061
     label: oil spill
+  curated: true
 - id: GOLDTERMS:5414
   label: Environmental > Terrestrial > Soil > Unclassified > Orchard soil
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4886,6 +5351,7 @@ terms:
   env_medium:
     id: ENVO:00005772
     label: orchard soil
+  curated: true
 - id: GOLDTERMS:4206
   label: Environmental > Terrestrial > Soil > Unclassified > Permafrost
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4894,6 +5360,7 @@ terms:
   env_medium:
     id: ENVO:00000134
     label: permafrost
+  curated: true
 - id: GOLDTERMS:5244
   label: Environmental > Terrestrial > Soil > Unclassified > Riparian soil
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4908,6 +5375,7 @@ terms:
   env_local:
     id: ENVO:00000022
     label: river
+  curated: true
 - id: GOLDTERMS:4214
   label: Environmental > Terrestrial > Soil > Unclassified > Shrubland
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4916,6 +5384,7 @@ terms:
   env_local:
     id: ENVO:00000300
     label: scrubland area
+  curated: true
 - id: GOLDTERMS:4216
   label: Environmental > Terrestrial > Soil > Unclassified > Tropical rainforest
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -4936,6 +5405,7 @@ terms:
   other:
     id: ENVO:00000328
     label: vadose zone
+  curated: true
 - id: GOLDTERMS:5821
   label: Environmental > Terrestrial > Soil > Vadose zone > Saprolite
   parent: GOLDTERMS:5820
@@ -4944,6 +5414,7 @@ terms:
   env_medium:
     id: ENVO:03600016
     label: saprolite
+  curated: true
 - id: GOLDTERMS:5615
   label: Environmental > Terrestrial > Soil > Watershed
   parent: GOLDTERMS:4212
@@ -4952,6 +5423,7 @@ terms:
   env_local:
     id: ENVO:00000292
     label: watershed
+  curated: true
 - id: GOLDTERMS:4235
   label: Environmental > Terrestrial > Soil > Wetlands
   parent: GOLDTERMS:4212
@@ -4960,6 +5432,7 @@ terms:
   env_broad:
     id: ENVO:01001209
     label: wetland ecosystem
+  curated: true
 - id: GOLDTERMS:4234
   label: Environmental > Terrestrial > Soil > Wetlands > Permafrost
   parent: GOLDTERMS:4235
@@ -4968,6 +5441,7 @@ terms:
   env_medium:
     id: ENVO:00000134
     label: permafrost
+  curated: true
 - id: GOLDTERMS:4197
   label: Environmental > Terrestrial > Volcanic
   parent: GOLDTERMS:4198
@@ -4976,6 +5450,7 @@ terms:
   env_local:
     id: ENVO:00000247
     label: volcano
+  curated: true
 - id: GOLDTERMS:4196
   label: Environmental > Terrestrial > Volcanic > Fumaroles
   parent: GOLDTERMS:4197
@@ -4984,6 +5459,7 @@ terms:
   env_local:
     id: ENVO:00000216
     label: fumarole
+  curated: true
 - id: GOLDTERMS:4086
   label: Host-associated
   level: 1
@@ -4991,14 +5467,19 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  curated: true
 - id: GOLDTERMS:3957
   label: Host-associated > Algae
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Algae
   host_taxon:
+    id: NCBITaxon:96475
+    label: Mesostigmatophyceae
+  other:
     id: FOODON:03411301
     label: algae
+  curated: true
 - id: GOLDTERMS:5815
   label: Host-associated > Algae > Biocrust
   parent: GOLDTERMS:3957
@@ -5007,6 +5488,7 @@ terms:
   other:
     id: ENVO:01000909
     label: biocrust
+  curated: true
 - id: GOLDTERMS:3960
   label: Host-associated > Algae > Brown Algae
   parent: GOLDTERMS:3957
@@ -5015,6 +5497,10 @@ terms:
   host_taxon:
     id: NCBITaxon:2870
     label: Phaeophyceae
+  other:
+    id: FOODON:03412395
+    label: brown algae
+  curated: true
 - id: GOLDTERMS:4675
   label: Host-associated > Algae > Diatoms
   parent: GOLDTERMS:3957
@@ -5023,6 +5509,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2836
     label: Bacillariophyta
+  curated: true
 - id: GOLDTERMS:4835
   label: Host-associated > Algae > Golden Algae
   parent: GOLDTERMS:3957
@@ -5031,6 +5518,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2825
     label: Chrysophyceae
+  curated: true
 - id: GOLDTERMS:4760
   label: Host-associated > Algae > Green algae
   parent: GOLDTERMS:3957
@@ -5039,6 +5527,10 @@ terms:
   host_taxon:
     id: NCBITaxon:3041
     label: Chlorophyta
+  other:
+    id: FOODON:03412502
+    label: green algae
+  curated: true
 - id: GOLDTERMS:3956
   label: Host-associated > Algae > Green algae > Ectosymbionts
   parent: GOLDTERMS:4760
@@ -5053,6 +5545,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2830
     label: Haptophyta
+  curated: true
 - id: GOLDTERMS:4815
   label: Host-associated > Algae > Microalgae
   parent: GOLDTERMS:3957
@@ -5067,6 +5560,10 @@ terms:
   host_taxon:
     id: NCBITaxon:2763
     label: Rhodophyta
+  other:
+    id: FOODON:03411743
+    label: red algae
+  curated: true
 - id: GOLDTERMS:3958
   label: Host-associated > Algae > Red algae > Ectosymbionts
   parent: GOLDTERMS:3959
@@ -5081,6 +5578,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2833
     label: Xanthophyceae
+  curated: true
 - id: GOLDTERMS:Host-associated-Amoebozoa
   label: Host-associated > Amoebozoa
   parent: GOLDTERMS:4086
@@ -5089,6 +5587,7 @@ terms:
   host_taxon:
     id: NCBITaxon:554915
     label: Amoebozoa
+  curated: true
 - id: GOLDTERMS:5293
   label: Host-associated > Amoebozoa > Pessonella
   parent: GOLDTERMS:Host-associated-Amoebozoa
@@ -5103,6 +5602,7 @@ terms:
   host_taxon:
     id: NCBITaxon:8292
     label: Amphibia
+  curated: true
 - id: GOLDTERMS:4083
   label: Host-associated > Amphibia > Digestive system
   parent: GOLDTERMS:4084
@@ -5111,6 +5611,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:5167
   label: Host-associated > Amphibia > Digestive system > Intestine
   parent: GOLDTERMS:4083
@@ -5119,6 +5620,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4085
   label: Host-associated > Amphibia > Excretory system
   parent: GOLDTERMS:4084
@@ -5127,6 +5629,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:5148
   label: Host-associated > Amphibia > Excretory system > Kidney
   parent: GOLDTERMS:4085
@@ -5135,6 +5638,7 @@ terms:
   anatomical_site:
     id: UBERON:0002113
     label: kidney
+  curated: true
 - id: GOLDTERMS:5165
   label: Host-associated > Amphibia > Excretory system > Liver
   parent: GOLDTERMS:4085
@@ -5143,6 +5647,7 @@ terms:
   anatomical_site:
     id: UBERON:0002107
     label: liver
+  curated: true
 - id: GOLDTERMS:Host-associated-Amphibia-Respiratory-system
   label: Host-associated > Amphibia > Respiratory system
   parent: GOLDTERMS:4084
@@ -5151,6 +5656,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:5170
   label: Host-associated > Amphibia > Respiratory system > Lung
   parent: GOLDTERMS:Host-associated-Amphibia-Respiratory-system
@@ -5159,6 +5665,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:4331
   label: Host-associated > Annelida
   parent: GOLDTERMS:4086
@@ -5167,6 +5674,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6340
     label: Annelida
+  curated: true
 - id: GOLDTERMS:4330
   label: Host-associated > Annelida > Digestive system
   parent: GOLDTERMS:4331
@@ -5175,6 +5683,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:5070
   label: Host-associated > Annelida > Digestive system > Crop
   parent: GOLDTERMS:4330
@@ -5183,6 +5692,7 @@ terms:
   anatomical_site:
     id: UBERON:0007356
     label: crop
+  curated: true
 - id: GOLDTERMS:4767
   label: Host-associated > Annelida > Digestive system > Digestive tube
   parent: GOLDTERMS:4330
@@ -5191,6 +5701,7 @@ terms:
   anatomical_site:
     id: UBERON:0001555
     label: digestive tract
+  curated: true
 - id: GOLDTERMS:4329
   label: Host-associated > Annelida > Digestive system > Digestive tube > Extracellular
     symbionts
@@ -5206,6 +5717,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:5195
   label: Host-associated > Annelida > Excretory system > Nephridia
   parent: GOLDTERMS:Host-associated-Annelida-Excretory-system
@@ -5214,6 +5726,7 @@ terms:
   anatomical_site:
     id: UBERON:0006972
     label: nephridium
+  curated: true
 - id: GOLDTERMS:4821
   label: Host-associated > Annelida > Gills
   parent: GOLDTERMS:4331
@@ -5222,6 +5735,7 @@ terms:
   anatomical_site:
     id: UBERON:0002535
     label: gill
+  curated: true
 - id: GOLDTERMS:4336
   label: Host-associated > Annelida > Integument
   parent: GOLDTERMS:4331
@@ -5230,6 +5744,7 @@ terms:
   anatomical_site:
     id: UBERON:0002199
     label: integument
+  curated: true
 - id: GOLDTERMS:4768
   label: Host-associated > Annelida > Integument > Cuticle
   parent: GOLDTERMS:4336
@@ -5238,6 +5753,7 @@ terms:
   anatomical_site:
     id: UBERON:0001002
     label: cuticle
+  curated: true
 - id: GOLDTERMS:4337
   label: Host-associated > Annelida > Integument > Cuticle > Epibionts
   parent: GOLDTERMS:4768
@@ -5268,12 +5784,13 @@ terms:
   parent: GOLDTERMS:Host-associated-Annelida-Intracellular-endosymbionts
   level: 4
   vocab_differentia: GOLDVOCAB:Trophosome
+  env_medium:
+    id: ENVO:01000165
+    label: trophosome
   anatomical_site:
     id: UBERON:0012644
     label: trophosome
-  other:
-    id: ENVO:01000165
-    label: trophosome
+  curated: true
 - id: GOLDTERMS:4771
   label: Host-associated > Annelida > Reproductive system
   parent: GOLDTERMS:4331
@@ -5282,6 +5799,7 @@ terms:
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
+  curated: true
 - id: GOLDTERMS:4333
   label: Host-associated > Annelida > Reproductive system > Egg capsule
   parent: GOLDTERMS:4771
@@ -5290,6 +5808,7 @@ terms:
   anatomical_site:
     id: UBERON:3010636
     label: egg capsule
+  curated: true
 - id: GOLDTERMS:4332
   label: Host-associated > Annelida > Reproductive system > Egg capsule > Extracellular
   parent: GOLDTERMS:4333
@@ -5304,6 +5823,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:4531
   label: Host-associated > Annelida > Whole body
   parent: GOLDTERMS:4331
@@ -5312,6 +5832,7 @@ terms:
   anatomical_site:
     id: UBERON:0000468
     label: multicellular organism
+  curated: true
 - id: GOLDTERMS:3901
   label: Host-associated > Arthropoda
   parent: GOLDTERMS:4086
@@ -5320,6 +5841,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6656
     label: Arthropoda
+  curated: true
 - id: GOLDTERMS:4904
   label: Host-associated > Arthropoda > Ant
   parent: GOLDTERMS:3901
@@ -5328,6 +5850,7 @@ terms:
   host_taxon:
     id: NCBITaxon:36668
     label: Formicidae
+  curated: true
 - id: GOLDTERMS:5208
   label: Host-associated > Arthropoda > Ant > Cuticle
   parent: GOLDTERMS:4904
@@ -5336,6 +5859,7 @@ terms:
   anatomical_site:
     id: UBERON:0001002
     label: cuticle
+  curated: true
 - id: GOLDTERMS:4556
   label: Host-associated > Arthropoda > Ant dump
   parent: GOLDTERMS:3901
@@ -5350,6 +5874,7 @@ terms:
   host_taxon:
     id: NCBITaxon:33380
     label: Aphidomorpha
+  curated: true
 - id: GOLDTERMS:Host-associated-Arthropoda-Bee
   label: Host-associated > Arthropoda > Bee
   parent: GOLDTERMS:3901
@@ -5358,6 +5883,7 @@ terms:
   host_taxon:
     id: NCBITaxon:34735
     label: Apoidea
+  curated: true
 - id: GOLDTERMS:4838
   label: Host-associated > Arthropoda > Bee > Abdomen
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
@@ -5366,6 +5892,7 @@ terms:
   anatomical_site:
     id: UBERON:0000916
     label: abdomen
+  curated: true
 - id: GOLDTERMS:Host-associated-Arthropoda-Bee-Beehive
   label: Host-associated > Arthropoda > Bee > Beehive
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
@@ -5380,14 +5907,16 @@ terms:
   anatomical_site:
     id: UBERON:0036016
     label: honey
+  curated: true
 - id: GOLDTERMS:4882
   label: Host-associated > Arthropoda > Bee > Royal jelly
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
   level: 4
   vocab_differentia: GOLDVOCAB:Royal-jelly
-  host_taxon:
+  env_medium:
     id: FOODON:03301033
     label: royal jelly
+  curated: true
 - id: GOLDTERMS:4603
   label: Host-associated > Arthropoda > Beetle
   parent: GOLDTERMS:3901
@@ -5396,6 +5925,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7041
     label: Coleoptera
+  curated: true
 - id: GOLDTERMS:5205
   label: Host-associated > Arthropoda > Bugs
   parent: GOLDTERMS:3901
@@ -5404,6 +5934,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7524
     label: Hemiptera
+  curated: true
 - id: GOLDTERMS:5229
   label: Host-associated > Arthropoda > Butterfly
   parent: GOLDTERMS:3901
@@ -5418,6 +5949,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6657
     label: Crustacea
+  curated: true
 - id: GOLDTERMS:4774
   label: Host-associated > Arthropoda > Crustacea > Copepoda
   parent: GOLDTERMS:4773
@@ -5426,6 +5958,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6830
     label: Copepoda
+  curated: true
 - id: GOLDTERMS:4681
   label: Host-associated > Arthropoda > Crustacea > Copepoda > Tissue
   parent: GOLDTERMS:4774
@@ -5434,6 +5967,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:4065
   label: Host-associated > Arthropoda > Digestive system
   parent: GOLDTERMS:3901
@@ -5442,6 +5976,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:4069
   label: Host-associated > Arthropoda > Digestive system > Foregut
   parent: GOLDTERMS:4065
@@ -5450,6 +5985,7 @@ terms:
   anatomical_site:
     id: UBERON:0001041
     label: foregut
+  curated: true
 - id: GOLDTERMS:4072
   label: Host-associated > Arthropoda > Digestive system > Gut
   parent: GOLDTERMS:4065
@@ -5458,6 +5994,7 @@ terms:
   anatomical_site:
     id: UBERON:0001555
     label: digestive tract
+  curated: true
 - id: GOLDTERMS:4070
   label: Host-associated > Arthropoda > Digestive system > Gut > P3 segment
   parent: GOLDTERMS:4072
@@ -5478,6 +6015,7 @@ terms:
   anatomical_site:
     id: UBERON:0001046
     label: hindgut
+  curated: true
 - id: GOLDTERMS:4955
   label: Host-associated > Arthropoda > Digestive system > Hindgut > Fecal
   parent: GOLDTERMS:4067
@@ -5504,6 +6042,7 @@ terms:
   anatomical_site:
     id: UBERON:0001045
     label: midgut
+  curated: true
 - id: GOLDTERMS:5419
   label: Host-associated > Arthropoda > Fly
   parent: GOLDTERMS:3901
@@ -5512,6 +6051,7 @@ terms:
   host_taxon:
     id: FOODON:00002717
     label: fly
+  curated: true
 - id: GOLDTERMS:5108
   label: Host-associated > Arthropoda > Grasshopper
   parent: GOLDTERMS:3901
@@ -5520,6 +6060,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7001
     label: Caelifera
+  curated: true
 - id: GOLDTERMS:5631
   label: Host-associated > Arthropoda > Insecta
   parent: GOLDTERMS:3901
@@ -5528,6 +6069,7 @@ terms:
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
+  curated: true
 - id: GOLDTERMS:4776
   label: Host-associated > Arthropoda > Integument
   parent: GOLDTERMS:3901
@@ -5536,6 +6078,7 @@ terms:
   anatomical_site:
     id: UBERON:0002199
     label: integument
+  curated: true
 - id: GOLDTERMS:4082
   label: Host-associated > Arthropoda > Integument > Cuticle
   parent: GOLDTERMS:4776
@@ -5544,6 +6087,7 @@ terms:
   anatomical_site:
     id: UBERON:0001002
     label: cuticle
+  curated: true
 - id: GOLDTERMS:4081
   label: Host-associated > Arthropoda > Integument > Cuticle > Thoracic segments
   parent: GOLDTERMS:4082
@@ -5552,6 +6096,7 @@ terms:
   anatomical_site:
     id: UBERON:6000016
     label: insect thoracic segment
+  curated: true
 - id: GOLDTERMS:4078
   label: Host-associated > Arthropoda > Intracellular endosymbionts
   parent: GOLDTERMS:3901
@@ -5578,6 +6123,7 @@ terms:
   other:
     id: PATO:0002632
     label: secondary
+  curated: true
 - id: GOLDTERMS:5202
   label: Host-associated > Arthropoda > Lobster
   parent: GOLDTERMS:3901
@@ -5586,6 +6132,7 @@ terms:
   host_taxon:
     id: FOODON:00002468
     label: lobster (whole)
+  curated: true
 - id: GOLDTERMS:5118
   label: Host-associated > Arthropoda > Mealybug
   parent: GOLDTERMS:3901
@@ -5594,6 +6141,7 @@ terms:
   host_taxon:
     id: NCBITaxon:30190
     label: Pseudococcidae
+  curated: true
 - id: GOLDTERMS:5280
   label: Host-associated > Arthropoda > Mites/Ticks
   parent: GOLDTERMS:3901
@@ -5608,6 +6156,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7157
     label: Culicidae
+  curated: true
 - id: GOLDTERMS:5093
   label: Host-associated > Arthropoda > Mosquito > Gut
   parent: GOLDTERMS:4590
@@ -5616,6 +6165,7 @@ terms:
   anatomical_site:
     id: UBERON:0001555
     label: digestive tract
+  curated: true
 - id: GOLDTERMS:5105
   label: Host-associated > Arthropoda > Moth
   parent: GOLDTERMS:3901
@@ -5624,6 +6174,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7088
     label: Lepidoptera
+  curated: true
 - id: GOLDTERMS:Host-associated-Arthropoda-Oral-fluid
   label: Host-associated > Arthropoda > Oral fluid
   parent: GOLDTERMS:3901
@@ -5638,6 +6189,7 @@ terms:
   host_taxon:
     id: NCBITaxon:12908
     label: unclassified sequences
+  curated: true
 - id: GOLDTERMS:4624
   label: Host-associated > Arthropoda > Oral fluid > Unclassified > Pollen
   parent: GOLDTERMS:Host-associated-Arthropoda-Oral-fluid-Unclassified
@@ -5646,6 +6198,7 @@ terms:
   anatomical_site:
     id: PO:0025281
     label: pollen
+  curated: true
 - id: GOLDTERMS:4779
   label: Host-associated > Arthropoda > Reproductive system
   parent: GOLDTERMS:3901
@@ -5654,6 +6207,7 @@ terms:
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
+  curated: true
 - id: GOLDTERMS:4429
   label: Host-associated > Arthropoda > Reproductive system > Ovaries
   parent: GOLDTERMS:4779
@@ -5662,6 +6216,7 @@ terms:
   anatomical_site:
     id: UBERON:0000992
     label: ovary
+  curated: true
 - id: GOLDTERMS:4781
   label: Host-associated > Arthropoda > Respiratory system
   parent: GOLDTERMS:3901
@@ -5670,6 +6225,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:4080
   label: Host-associated > Arthropoda > Respiratory system > Gills
   parent: GOLDTERMS:4781
@@ -5678,6 +6234,7 @@ terms:
   anatomical_site:
     id: UBERON:0002535
     label: gill
+  curated: true
 - id: GOLDTERMS:5400
   label: Host-associated > Arthropoda > Shrimp
   parent: GOLDTERMS:3901
@@ -5686,6 +6243,7 @@ terms:
   host_taxon:
     id: FOODON:03411237
     label: shrimp
+  curated: true
 - id: GOLDTERMS:5220
   label: Host-associated > Arthropoda > Shrimp > Hepatopancreas
   parent: GOLDTERMS:5400
@@ -5694,6 +6252,7 @@ terms:
   anatomical_site:
     id: UBERON:0010264
     label: hepatopancreas
+  curated: true
 - id: GOLDTERMS:5146
   label: Host-associated > Arthropoda > Spider
   parent: GOLDTERMS:3901
@@ -5702,6 +6261,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6893
     label: Araneae
+  curated: true
 - id: GOLDTERMS:4073
   label: Host-associated > Arthropoda > Symbiotic fungal gardens and galleries
   parent: GOLDTERMS:3901
@@ -5737,6 +6297,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:4154
   label: Host-associated > Birds
   parent: GOLDTERMS:4086
@@ -5745,6 +6306,7 @@ terms:
   host_taxon:
     id: NCBITaxon:8782
     label: Aves
+  curated: true
 - id: GOLDTERMS:4786
   label: Host-associated > Birds > Circulatory system
   parent: GOLDTERMS:4154
@@ -5753,6 +6315,7 @@ terms:
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
+  curated: true
 - id: GOLDTERMS:4153
   label: Host-associated > Birds > Circulatory system > Blood
   parent: GOLDTERMS:4786
@@ -5761,6 +6324,7 @@ terms:
   anatomical_site:
     id: UBERON:0000178
     label: blood
+  curated: true
 - id: GOLDTERMS:4150
   label: Host-associated > Birds > Digestive system
   parent: GOLDTERMS:4154
@@ -5769,6 +6333,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:4147
   label: Host-associated > Birds > Digestive system > Ceca
   parent: GOLDTERMS:4150
@@ -5777,6 +6342,7 @@ terms:
   anatomical_site:
     id: UBERON:0001153
     label: caecum
+  curated: true
 - id: GOLDTERMS:4148
   label: Host-associated > Birds > Digestive system > Ceca > Lumen
   parent: GOLDTERMS:4147
@@ -5785,6 +6351,7 @@ terms:
   anatomical_site:
     id: UBERON:0000464
     label: anatomical space
+  curated: true
 - id: GOLDTERMS:4641
   label: Host-associated > Birds > Digestive system > Cloaca
   parent: GOLDTERMS:4150
@@ -5796,6 +6363,7 @@ terms:
   anatomical_site:
     id: UBERON:0000162
     label: cloaca
+  curated: true
 - id: GOLDTERMS:4782
   label: Host-associated > Birds > Digestive system > Crop
   parent: GOLDTERMS:4150
@@ -5804,6 +6372,7 @@ terms:
   anatomical_site:
     id: UBERON:0007356
     label: crop
+  curated: true
 - id: GOLDTERMS:4151
   label: Host-associated > Birds > Digestive system > Crop > Lumen
   parent: GOLDTERMS:4782
@@ -5812,6 +6381,7 @@ terms:
   anatomical_site:
     id: UBERON:0000464
     label: anatomical space
+  curated: true
 - id: GOLDTERMS:4783
   label: Host-associated > Birds > Digestive system > Digestive tube
   parent: GOLDTERMS:4150
@@ -5820,6 +6390,7 @@ terms:
   anatomical_site:
     id: UBERON:0001555
     label: digestive tract
+  curated: true
 - id: GOLDTERMS:4149
   label: Host-associated > Birds > Digestive system > Digestive tube > Cecum
   parent: GOLDTERMS:4783
@@ -5828,6 +6399,7 @@ terms:
   anatomical_site:
     id: UBERON:0001153
     label: caecum
+  curated: true
 - id: GOLDTERMS:4146
   label: Host-associated > Birds > Digestive system > Fecal
   parent: GOLDTERMS:4150
@@ -5842,6 +6414,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:Host-associated-Birds-Digestive-system-Large-intestine
   label: Host-associated > Birds > Digestive system > Large intestine
   parent: GOLDTERMS:4150
@@ -5850,6 +6423,7 @@ terms:
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
+  curated: true
 - id: GOLDTERMS:4957
   label: Host-associated > Birds > Digestive system > Large intestine > Fecal
   parent: GOLDTERMS:Host-associated-Birds-Digestive-system-Large-intestine
@@ -5864,6 +6438,7 @@ terms:
   anatomical_site:
     id: UBERON:0002108
     label: small intestine
+  curated: true
 - id: GOLDTERMS:4152
   label: Host-associated > Birds > Digestive system > Small intestine > Duodenal
   parent: GOLDTERMS:4784
@@ -5878,6 +6453,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:5235
   label: Host-associated > Birds > Excretory system > Liver
   parent: GOLDTERMS:Host-associated-Birds-Excretory-system
@@ -5886,6 +6462,7 @@ terms:
   anatomical_site:
     id: UBERON:0002107
     label: liver
+  curated: true
 - id: GOLDTERMS:Host-associated-Birds-Lymphatic-system
   label: Host-associated > Birds > Lymphatic system
   parent: GOLDTERMS:4154
@@ -5894,6 +6471,7 @@ terms:
   anatomical_site:
     id: UBERON:0006558
     label: lymphatic part of lymphoid system
+  curated: true
 - id: GOLDTERMS:5135
   label: Host-associated > Birds > Lymphatic system > Spleen
   parent: GOLDTERMS:Host-associated-Birds-Lymphatic-system
@@ -5902,6 +6480,7 @@ terms:
   anatomical_site:
     id: UBERON:0002106
     label: spleen
+  curated: true
 - id: GOLDTERMS:4157
   label: Host-associated > Birds > Reproductive system
   parent: GOLDTERMS:4154
@@ -5910,6 +6489,7 @@ terms:
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
+  curated: true
 - id: GOLDTERMS:4155
   label: Host-associated > Birds > Respiratory system
   parent: GOLDTERMS:4154
@@ -5918,6 +6498,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:4876
   label: Host-associated > Birds > Respiratory system > Lung
   parent: GOLDTERMS:4155
@@ -5926,6 +6507,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:4447
   label: Host-associated > Birds > Skin
   parent: GOLDTERMS:4154
@@ -5934,6 +6516,7 @@ terms:
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
+  curated: true
 - id: GOLDTERMS:5173
   label: Host-associated > Cephalochordata
   parent: GOLDTERMS:4086
@@ -5942,6 +6525,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7735
     label: Cephalochordata
+  curated: true
 - id: GOLDTERMS:Host-associated-Cephalochordata-Digestive-system
   label: Host-associated > Cephalochordata > Digestive system
   parent: GOLDTERMS:5173
@@ -5950,6 +6534,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:Host-associated-Cephalochordata-Digestive-system-Intestine
   label: Host-associated > Cephalochordata > Digestive system > Intestine
   parent: GOLDTERMS:Host-associated-Cephalochordata-Digestive-system
@@ -5958,6 +6543,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4963
   label: Host-associated > Cephalochordata > Digestive system > Intestine > Fecal
   parent: GOLDTERMS:Host-associated-Cephalochordata-Digestive-system-Intestine
@@ -5972,6 +6558,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7711
     label: Chordata
+  curated: true
 - id: GOLDTERMS:5281
   label: Host-associated > Cnidaria
   parent: GOLDTERMS:4086
@@ -5980,6 +6567,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6073
     label: Cnidaria
+  curated: true
 - id: GOLDTERMS:5289
   label: Host-associated > Echinodermata
   parent: GOLDTERMS:4086
@@ -5988,6 +6576,7 @@ terms:
   host_taxon:
     id: FOODON:03412115
     label: echinoderm
+  curated: true
 - id: GOLDTERMS:4751
   label: Host-associated > Endosymbionts
   parent: GOLDTERMS:4086
@@ -6002,6 +6591,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2
     label: Bacteria
+  curated: true
 - id: GOLDTERMS:4734
   label: Host-associated > Endosymbionts > Fungi
   parent: GOLDTERMS:4751
@@ -6010,6 +6600,10 @@ terms:
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
+  other:
+    id: FOODON:03411261
+    label: fungus
+  curated: true
 - id: GOLDTERMS:4095
   label: Host-associated > Fish
   parent: GOLDTERMS:4086
@@ -6018,6 +6612,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
+  curated: true
 - id: GOLDTERMS:Host-associated-Fish-Abdomen
   label: Host-associated > Fish > Abdomen
   parent: GOLDTERMS:4095
@@ -6026,6 +6621,7 @@ terms:
   anatomical_site:
     id: UBERON:0000916
     label: abdomen
+  curated: true
 - id: GOLDTERMS:5054
   label: Host-associated > Fish > Abdomen > Ascites
   parent: GOLDTERMS:Host-associated-Fish-Abdomen
@@ -6034,6 +6630,7 @@ terms:
   anatomical_site:
     id: UBERON:0007795
     label: ascitic fluid
+  curated: true
 - id: GOLDTERMS:4788
   label: Host-associated > Fish > Circulatory system
   parent: GOLDTERMS:4095
@@ -6042,6 +6639,7 @@ terms:
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
+  curated: true
 - id: GOLDTERMS:3902
   label: Host-associated > Fish > Circulatory system > Blood
   parent: GOLDTERMS:4788
@@ -6050,6 +6648,7 @@ terms:
   anatomical_site:
     id: UBERON:0000178
     label: blood
+  curated: true
 - id: GOLDTERMS:4090
   label: Host-associated > Fish > Digestive system
   parent: GOLDTERMS:4095
@@ -6058,6 +6657,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:4789
   label: Host-associated > Fish > Digestive system > Foregut
   parent: GOLDTERMS:4090
@@ -6066,6 +6666,7 @@ terms:
   anatomical_site:
     id: UBERON:0001041
     label: foregut
+  curated: true
 - id: GOLDTERMS:4092
   label: Host-associated > Fish > Digestive system > Intestine
   parent: GOLDTERMS:4090
@@ -6074,6 +6675,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4968
   label: Host-associated > Fish > Digestive system > Intestine > Fecal
   parent: GOLDTERMS:4092
@@ -6088,6 +6690,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:4097
   label: Host-associated > Fish > Excretory system > Kidneys
   parent: GOLDTERMS:4791
@@ -6102,6 +6705,7 @@ terms:
   anatomical_site:
     id: UBERON:0002107
     label: liver
+  curated: true
 - id: GOLDTERMS:Host-associated-Fish-Nervous-system
   label: Host-associated > Fish > Nervous system
   parent: GOLDTERMS:4095
@@ -6110,6 +6714,7 @@ terms:
   anatomical_site:
     id: UBERON:0001016
     label: nervous system
+  curated: true
 - id: GOLDTERMS:5288
   label: Host-associated > Fish > Nervous system > Cerebrospinal fluid
   parent: GOLDTERMS:Host-associated-Fish-Nervous-system
@@ -6118,6 +6723,7 @@ terms:
   anatomical_site:
     id: UBERON:0001359
     label: cerebrospinal fluid
+  curated: true
 - id: GOLDTERMS:4096
   label: Host-associated > Fish > Reproductive system
   parent: GOLDTERMS:4095
@@ -6126,6 +6732,7 @@ terms:
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
+  curated: true
 - id: GOLDTERMS:Host-associated-Fish-Respiratory-system
   label: Host-associated > Fish > Respiratory system
   parent: GOLDTERMS:4095
@@ -6134,6 +6741,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:4921
   label: Host-associated > Fish > Respiratory system > Gill
   parent: GOLDTERMS:Host-associated-Fish-Respiratory-system
@@ -6142,6 +6750,7 @@ terms:
   anatomical_site:
     id: UBERON:0002535
     label: gill
+  curated: true
 - id: GOLDTERMS:5152
   label: Host-associated > Fish > Respiratory system > Lung
   parent: GOLDTERMS:Host-associated-Fish-Respiratory-system
@@ -6150,6 +6759,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:4093
   label: Host-associated > Fish > Skin
   parent: GOLDTERMS:4095
@@ -6158,6 +6768,7 @@ terms:
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
+  curated: true
 - id: GOLDTERMS:4422
   label: Host-associated > Fish > Skin > Epidermal mucus
   parent: GOLDTERMS:4093
@@ -6166,6 +6777,7 @@ terms:
   anatomical_site:
     id: UBERON:0010152
     label: skin mucus
+  curated: true
 - id: GOLDTERMS:4740
   label: Host-associated > Fish > Skin > Scales
   parent: GOLDTERMS:4093
@@ -6174,6 +6786,7 @@ terms:
   anatomical_site:
     id: UBERON:0007380
     label: dermal scale
+  curated: true
 - id: GOLDTERMS:4094
   label: Host-associated > Fish > Skin > Slime
   parent: GOLDTERMS:4093
@@ -6188,6 +6801,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:4793
   label: Host-associated > Fish > Whole body
   parent: GOLDTERMS:4095
@@ -6196,17 +6810,19 @@ terms:
   anatomical_site:
     id: UBERON:0000468
     label: multicellular organism
+  curated: true
 - id: GOLDTERMS:4794
   label: Host-associated > Fish > Whole body > Carcass
   parent: GOLDTERMS:4793
   level: 4
   vocab_differentia: GOLDVOCAB:Carcass
+  env_medium:
+    id: ENVO:00002033
+    label: carcass
   anatomical_site:
     id: UBERON:0008979
     label: carcass
-  other:
-    id: ENVO:00002033
-    label: carcass
+  curated: true
 - id: GOLDTERMS:4743
   label: Host-associated > Fish > Whole body > Carcass > Decomposed
   parent: GOLDTERMS:4794
@@ -6221,6 +6837,10 @@ terms:
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
+  other:
+    id: FOODON:03411261
+    label: fungus
+  curated: true
 - id: GOLDTERMS:4550
   label: Host-associated > Fungi > Fruiting body
   parent: GOLDTERMS:4098
@@ -6229,14 +6849,16 @@ terms:
   other:
     id: FAO:0000007
     label: fruitbody
+  curated: true
 - id: GOLDTERMS:4412
   label: Host-associated > Fungi > Lichen
   parent: GOLDTERMS:4098
   level: 3
   vocab_differentia: GOLDVOCAB:Lichen
-  host_taxon:
+  other:
     id: FOODON:03412345
     label: lichen
+  curated: true
 - id: GOLDTERMS:4463
   label: Host-associated > Fungi > Mycelium
   parent: GOLDTERMS:4098
@@ -6245,6 +6867,7 @@ terms:
   other:
     id: FAO:0000011
     label: mycelium
+  curated: true
 - id: GOLDTERMS:5296
   label: Host-associated > Fungi > Mycorrhiza
   parent: GOLDTERMS:4098
@@ -6253,6 +6876,7 @@ terms:
   other:
     id: FAO:0001027
     label: mycorrhiza
+  curated: true
 - id: GOLDTERMS:4528
   label: Host-associated > Fungi > Sclerotium
   parent: GOLDTERMS:4098
@@ -6261,6 +6885,7 @@ terms:
   other:
     id: FAO:0001008
     label: sclerotium
+  curated: true
 - id: GOLDTERMS:4476
   label: Host-associated > Horse
   parent: GOLDTERMS:4086
@@ -6269,6 +6894,10 @@ terms:
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
+  other:
+    id: FOODON:03411229
+    label: 'obsolete: horse'
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Circulatory-system
   label: Host-associated > Horse > Circulatory system
   parent: GOLDTERMS:4476
@@ -6277,6 +6906,7 @@ terms:
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
+  curated: true
 - id: GOLDTERMS:5102
   label: Host-associated > Horse > Circulatory system > Blood
   parent: GOLDTERMS:Host-associated-Horse-Circulatory-system
@@ -6285,6 +6915,7 @@ terms:
   anatomical_site:
     id: UBERON:0000178
     label: blood
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Digestive-system
   label: Host-associated > Horse > Digestive system
   parent: GOLDTERMS:4476
@@ -6293,6 +6924,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine
   label: Host-associated > Horse > Digestive system > Large intestine
   parent: GOLDTERMS:Host-associated-Horse-Digestive-system
@@ -6301,6 +6933,7 @@ terms:
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
+  curated: true
 - id: GOLDTERMS:5064
   label: Host-associated > Horse > Digestive system > Large intestine > Cecum
   parent: GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine
@@ -6309,6 +6942,7 @@ terms:
   anatomical_site:
     id: UBERON:0001153
     label: caecum
+  curated: true
 - id: GOLDTERMS:5060
   label: Host-associated > Horse > Digestive system > Large intestine > Fecal
   parent: GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine
@@ -6323,6 +6957,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Excretory-system-Urethra
   label: Host-associated > Horse > Excretory system > Urethra
   parent: GOLDTERMS:Host-associated-Horse-Excretory-system
@@ -6331,6 +6966,7 @@ terms:
   anatomical_site:
     id: UBERON:0000057
     label: urethra
+  curated: true
 - id: GOLDTERMS:5034
   label: Host-associated > Horse > Excretory system > Urethra > Urine
   parent: GOLDTERMS:Host-associated-Horse-Excretory-system-Urethra
@@ -6339,6 +6975,7 @@ terms:
   anatomical_site:
     id: UBERON:0001088
     label: urine
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Respiratory-system
   label: Host-associated > Horse > Respiratory system
   parent: GOLDTERMS:4476
@@ -6347,6 +6984,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:5099
   label: Host-associated > Horse > Respiratory system > Lung
   parent: GOLDTERMS:Host-associated-Horse-Respiratory-system
@@ -6355,6 +6993,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:5057
   label: Host-associated > Horse > Respiratory system > Nasopharyngeal
   parent: GOLDTERMS:Host-associated-Horse-Respiratory-system
@@ -6363,6 +7002,7 @@ terms:
   anatomical_site:
     id: UBERON:0001728
     label: nasopharynx
+  curated: true
 - id: GOLDTERMS:5063
   label: Host-associated > Horse > Tooth
   parent: GOLDTERMS:4476
@@ -6371,6 +7011,7 @@ terms:
   anatomical_site:
     id: UBERON:0001091
     label: calcareous tooth
+  curated: true
 - id: GOLDTERMS:4138
   label: Host-associated > Human
   parent: GOLDTERMS:4086
@@ -6382,6 +7023,7 @@ terms:
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
+  curated: true
 - id: GOLDTERMS:5717
   label: Host-associated > Human > Abdomen
   parent: GOLDTERMS:4138
@@ -6390,6 +7032,7 @@ terms:
   anatomical_site:
     id: UBERON:0000916
     label: abdomen
+  curated: true
 - id: GOLDTERMS:5120
   label: Host-associated > Human > Abdomen > Peritoneal dialysate
   parent: GOLDTERMS:5717
@@ -6404,6 +7047,7 @@ terms:
   anatomical_site:
     id: UBERON:0001268
     label: peritoneal fluid
+  curated: true
 - id: GOLDTERMS:4581
   label: Host-associated > Human > Bone
   parent: GOLDTERMS:4138
@@ -6412,6 +7056,7 @@ terms:
   anatomical_site:
     id: UBERON:0002481
     label: bone tissue
+  curated: true
 - id: GOLDTERMS:5460
   label: Host-associated > Human > Cell Line
   parent: GOLDTERMS:4138
@@ -6426,6 +7071,7 @@ terms:
   other:
     id: OBI:1110032
     label: HeLa cell line
+  curated: true
 - id: GOLDTERMS:4764
   label: Host-associated > Human > Circulatory system
   parent: GOLDTERMS:4138
@@ -6434,6 +7080,7 @@ terms:
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
+  curated: true
 - id: GOLDTERMS:3932
   label: Host-associated > Human > Circulatory system > Blood
   parent: GOLDTERMS:4764
@@ -6442,6 +7089,7 @@ terms:
   anatomical_site:
     id: UBERON:0000178
     label: blood
+  curated: true
 - id: GOLDTERMS:4416
   label: Host-associated > Human > Circulatory system > Blood > Plasma
   parent: GOLDTERMS:3932
@@ -6450,6 +7098,7 @@ terms:
   anatomical_site:
     id: UBERON:0001969
     label: blood plasma
+  curated: true
 - id: GOLDTERMS:4430
   label: Host-associated > Human > Circulatory system > Blood > Serum
   parent: GOLDTERMS:3932
@@ -6458,6 +7107,7 @@ terms:
   anatomical_site:
     id: UBERON:0001977
     label: blood serum
+  curated: true
 - id: GOLDTERMS:4998
   label: Host-associated > Human > Circulatory system > Heart
   parent: GOLDTERMS:4764
@@ -6466,6 +7116,7 @@ terms:
   anatomical_site:
     id: UBERON:0000948
     label: heart
+  curated: true
 - id: GOLDTERMS:5075
   label: Host-associated > Human > Circulatory system > Heart > Heart valve
   parent: GOLDTERMS:4998
@@ -6474,6 +7125,7 @@ terms:
   anatomical_site:
     id: UBERON:0000946
     label: cardiac valve
+  curated: true
 - id: GOLDTERMS:3919
   label: Host-associated > Human > Digestive system
   parent: GOLDTERMS:4138
@@ -6485,6 +7137,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:4762
   label: Host-associated > Human > Digestive system > Hindgut
   parent: GOLDTERMS:3919
@@ -6493,6 +7146,7 @@ terms:
   anatomical_site:
     id: UBERON:0001046
     label: hindgut
+  curated: true
 - id: GOLDTERMS:3924
   label: Host-associated > Human > Digestive system > Intestine
   parent: GOLDTERMS:3919
@@ -6501,6 +7155,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:3922
   label: Host-associated > Human > Digestive system > Large intestine
   parent: GOLDTERMS:3919
@@ -6509,6 +7164,7 @@ terms:
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
+  curated: true
 - id: GOLDTERMS:5029
   label: Host-associated > Human > Digestive system > Large intestine > Colon
   parent: GOLDTERMS:3922
@@ -6517,6 +7173,7 @@ terms:
   anatomical_site:
     id: UBERON:0001155
     label: colon
+  curated: true
 - id: GOLDTERMS:5028
   label: Host-associated > Human > Digestive system > Large intestine > Descending
     colon
@@ -6526,6 +7183,7 @@ terms:
   anatomical_site:
     id: UBERON:0001158
     label: descending colon
+  curated: true
 - id: GOLDTERMS:3920
   label: Host-associated > Human > Digestive system > Large intestine > Fecal
   parent: GOLDTERMS:3922
@@ -6540,6 +7198,7 @@ terms:
   anatomical_site:
     id: UBERON:0001052
     label: rectum
+  curated: true
 - id: GOLDTERMS:3921
   label: Host-associated > Human > Digestive system > Large intestine > Sigmoid colon
   parent: GOLDTERMS:3922
@@ -6548,6 +7207,7 @@ terms:
   anatomical_site:
     id: UBERON:0001159
     label: sigmoid colon
+  curated: true
 - id: GOLDTERMS:3912
   label: Host-associated > Human > Digestive system > Oral cavity
   parent: GOLDTERMS:3919
@@ -6556,6 +7216,7 @@ terms:
   anatomical_site:
     id: UBERON:0000167
     label: oral cavity
+  curated: true
 - id: GOLDTERMS:3910
   label: Host-associated > Human > Digestive system > Oral cavity > Attached/Keratinized
     gingiva
@@ -6571,6 +7232,7 @@ terms:
   anatomical_site:
     id: UBERON:0006956
     label: buccal mucosa
+  curated: true
 - id: GOLDTERMS:5038
   label: Host-associated > Human > Digestive system > Oral cavity > Dental plaque
   parent: GOLDTERMS:3912
@@ -6579,6 +7241,7 @@ terms:
   anatomical_site:
     id: UBERON:0016482
     label: dental plaque
+  curated: true
 - id: GOLDTERMS:5083
   label: Host-associated > Human > Digestive system > Oral cavity > Dental pulp
   parent: GOLDTERMS:3912
@@ -6587,6 +7250,7 @@ terms:
   anatomical_site:
     id: UBERON:0001754
     label: dental pulp
+  curated: true
 - id: GOLDTERMS:5192
   label: Host-associated > Human > Digestive system > Oral cavity > Gingival crevice
   parent: GOLDTERMS:3912
@@ -6601,6 +7265,7 @@ terms:
   anatomical_site:
     id: UBERON:0003216
     label: hard palate
+  curated: true
 - id: GOLDTERMS:3909
   label: Host-associated > Human > Digestive system > Oral cavity > Palatine tonsils
   parent: GOLDTERMS:3912
@@ -6609,6 +7274,7 @@ terms:
   anatomical_site:
     id: UBERON:0002373
     label: palatine tonsil
+  curated: true
 - id: GOLDTERMS:3908
   label: Host-associated > Human > Digestive system > Oral cavity > Periodontal pockets
   parent: GOLDTERMS:3912
@@ -6623,6 +7289,7 @@ terms:
   anatomical_site:
     id: UBERON:0001836
     label: saliva
+  curated: true
 - id: GOLDTERMS:3913
   label: Host-associated > Human > Digestive system > Oral cavity > Subgingival plaque
   parent: GOLDTERMS:3912
@@ -6631,6 +7298,7 @@ terms:
   anatomical_site:
     id: UBERON:0016484
     label: subgingival dental plaque
+  curated: true
 - id: GOLDTERMS:3916
   label: Host-associated > Human > Digestive system > Oral cavity > Supragingival
     plaque
@@ -6640,6 +7308,7 @@ terms:
   anatomical_site:
     id: UBERON:0016485
     label: supragingival dental plaque
+  curated: true
 - id: GOLDTERMS:3914
   label: Host-associated > Human > Digestive system > Oral cavity > Throat
   parent: GOLDTERMS:3912
@@ -6648,6 +7317,7 @@ terms:
   anatomical_site:
     id: UBERON:0000341
     label: throat
+  curated: true
 - id: GOLDTERMS:3911
   label: Host-associated > Human > Digestive system > Oral cavity > tongue dorsum
   parent: GOLDTERMS:3912
@@ -6656,6 +7326,7 @@ terms:
   anatomical_site:
     id: UBERON:0009471
     label: dorsum of tongue
+  curated: true
 - id: GOLDTERMS:Host-associated-Human-Digestive-system-Small-intestine
   label: Host-associated > Human > Digestive system > Small intestine
   parent: GOLDTERMS:3919
@@ -6664,6 +7335,7 @@ terms:
   anatomical_site:
     id: UBERON:0002108
     label: small intestine
+  curated: true
 - id: GOLDTERMS:5023
   label: Host-associated > Human > Digestive system > Small intestine > Duodenum
   parent: GOLDTERMS:Host-associated-Human-Digestive-system-Small-intestine
@@ -6672,6 +7344,7 @@ terms:
   anatomical_site:
     id: UBERON:0002114
     label: duodenum
+  curated: true
 - id: GOLDTERMS:5025
   label: Host-associated > Human > Digestive system > Small intestine > Ileum
   parent: GOLDTERMS:Host-associated-Human-Digestive-system-Small-intestine
@@ -6680,6 +7353,7 @@ terms:
   anatomical_site:
     id: UBERON:0002116
     label: ileum
+  curated: true
 - id: GOLDTERMS:5080
   label: Host-associated > Human > Digestive system > Stomach
   parent: GOLDTERMS:3919
@@ -6688,6 +7362,7 @@ terms:
   anatomical_site:
     id: UBERON:0000945
     label: stomach
+  curated: true
 - id: GOLDTERMS:5126
   label: Host-associated > Human > Digestive system > Stomach > Gastric biopsy
   parent: GOLDTERMS:5080
@@ -6702,6 +7377,7 @@ terms:
   anatomical_site:
     id: UBERON:0001199
     label: mucosa of stomach
+  curated: true
 - id: GOLDTERMS:4502
   label: Host-associated > Human > Ear
   parent: GOLDTERMS:4138
@@ -6710,6 +7386,7 @@ terms:
   anatomical_site:
     id: UBERON:0001690
     label: ear
+  curated: true
 - id: GOLDTERMS:5002
   label: Host-associated > Human > Ear > Ear fluid
   parent: GOLDTERMS:4502
@@ -6724,6 +7401,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:5027
   label: Host-associated > Human > Excretory system > Gallbladder
   parent: GOLDTERMS:4144
@@ -6732,6 +7410,7 @@ terms:
   anatomical_site:
     id: UBERON:0002110
     label: gallbladder
+  curated: true
 - id: GOLDTERMS:5000
   label: Host-associated > Human > Excretory system > Liver
   parent: GOLDTERMS:4144
@@ -6740,6 +7419,7 @@ terms:
   anatomical_site:
     id: UBERON:0002107
     label: liver
+  curated: true
 - id: GOLDTERMS:5024
   label: Host-associated > Human > Excretory system > Liver > Bile
   parent: GOLDTERMS:5000
@@ -6748,6 +7428,7 @@ terms:
   anatomical_site:
     id: UBERON:0001970
     label: bile
+  curated: true
 - id: GOLDTERMS:4761
   label: Host-associated > Human > Excretory system > Urethra
   parent: GOLDTERMS:4144
@@ -6756,6 +7437,7 @@ terms:
   anatomical_site:
     id: UBERON:0000057
     label: urethra
+  curated: true
 - id: GOLDTERMS:4145
   label: Host-associated > Human > Excretory system > Urethra > Urine
   parent: GOLDTERMS:4761
@@ -6764,6 +7446,7 @@ terms:
   anatomical_site:
     id: UBERON:0001088
     label: urine
+  curated: true
 - id: GOLDTERMS:4996
   label: Host-associated > Human > Excretory system > Urinary bladder
   parent: GOLDTERMS:4144
@@ -6772,6 +7455,7 @@ terms:
   anatomical_site:
     id: UBERON:0001255
     label: urinary bladder
+  curated: true
 - id: GOLDTERMS:5082
   label: Host-associated > Human > Excretory system > Urinary tract
   parent: GOLDTERMS:4144
@@ -6780,6 +7464,7 @@ terms:
   anatomical_site:
     id: UBERON:0001008
     label: renal system
+  curated: true
 - id: GOLDTERMS:4499
   label: Host-associated > Human > Eye
   parent: GOLDTERMS:4138
@@ -6788,6 +7473,7 @@ terms:
   anatomical_site:
     id: UBERON:0000970
     label: eye
+  curated: true
 - id: GOLDTERMS:5240
   label: Host-associated > Human > Eye > Conjunctiva
   parent: GOLDTERMS:4499
@@ -6796,6 +7482,7 @@ terms:
   anatomical_site:
     id: UBERON:0001811
     label: conjunctiva
+  curated: true
 - id: GOLDTERMS:4584
   label: Host-associated > Human > Hair
   parent: GOLDTERMS:4138
@@ -6804,6 +7491,7 @@ terms:
   anatomical_site:
     id: UBERON:0001037
     label: strand of hair
+  curated: true
 - id: GOLDTERMS:4797
   label: Host-associated > Human > Lymphatic system
   parent: GOLDTERMS:4138
@@ -6812,6 +7500,7 @@ terms:
   anatomical_site:
     id: UBERON:0006558
     label: lymphatic part of lymphoid system
+  curated: true
 - id: GOLDTERMS:4128
   label: Host-associated > Human > Lymphatic system > Lymph nodes
   parent: GOLDTERMS:4797
@@ -6826,17 +7515,19 @@ terms:
   anatomical_site:
     id: UBERON:0002106
     label: spleen
+  curated: true
 - id: GOLDTERMS:4129
   label: Host-associated > Human > Milk
   parent: GOLDTERMS:4138
   level: 3
   vocab_differentia: GOLDVOCAB:Milk
-  host_taxon:
+  env_medium:
     id: FOODON:03307455
     label: cow milk (raw)
   anatomical_site:
     id: UBERON:0001913
     label: milk
+  curated: true
 - id: GOLDTERMS:3934
   label: Host-associated > Human > Nervous system
   parent: GOLDTERMS:4138
@@ -6845,6 +7536,7 @@ terms:
   anatomical_site:
     id: UBERON:0001016
     label: nervous system
+  curated: true
 - id: GOLDTERMS:4496
   label: Host-associated > Human > Nervous system > Brain
   parent: GOLDTERMS:3934
@@ -6853,6 +7545,7 @@ terms:
   anatomical_site:
     id: UBERON:0000955
     label: brain
+  curated: true
 - id: GOLDTERMS:3933
   label: Host-associated > Human > Nervous system > Cerebrospinal fluid
   parent: GOLDTERMS:3934
@@ -6861,6 +7554,7 @@ terms:
   anatomical_site:
     id: UBERON:0001359
     label: cerebrospinal fluid
+  curated: true
 - id: GOLDTERMS:5073
   label: Host-associated > Human > Pus
   parent: GOLDTERMS:4138
@@ -6869,6 +7563,7 @@ terms:
   anatomical_site:
     id: UBERON:0000177
     label: pus
+  curated: true
 - id: GOLDTERMS:4143
   label: Host-associated > Human > Reproductive system
   parent: GOLDTERMS:4138
@@ -6877,6 +7572,7 @@ terms:
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
+  curated: true
 - id: GOLDTERMS:Host-associated-Human-Reproductive-system-Amniotic-sac
   label: Host-associated > Human > Reproductive system > Amniotic sac
   parent: GOLDTERMS:4143
@@ -6891,6 +7587,7 @@ terms:
   anatomical_site:
     id: UBERON:0000173
     label: amniotic fluid
+  curated: true
 - id: GOLDTERMS:5089
   label: Host-associated > Human > Reproductive system > Breast
   parent: GOLDTERMS:4143
@@ -6899,6 +7596,7 @@ terms:
   anatomical_site:
     id: UBERON:0000310
     label: breast
+  curated: true
 - id: GOLDTERMS:4982
   label: Host-associated > Human > Reproductive system > Cervix
   parent: GOLDTERMS:4143
@@ -6907,6 +7605,7 @@ terms:
   anatomical_site:
     id: UBERON:0000002
     label: uterine cervix
+  curated: true
 - id: GOLDTERMS:4900
   label: Host-associated > Human > Reproductive system > Penis
   parent: GOLDTERMS:4143
@@ -6915,6 +7614,7 @@ terms:
   anatomical_site:
     id: UBERON:0000989
     label: penis
+  curated: true
 - id: GOLDTERMS:5019
   label: Host-associated > Human > Reproductive system > Prostate
   parent: GOLDTERMS:4143
@@ -6923,6 +7623,7 @@ terms:
   anatomical_site:
     id: UBERON:0002367
     label: prostate gland
+  curated: true
 - id: GOLDTERMS:4140
   label: Host-associated > Human > Reproductive system > Vagina
   parent: GOLDTERMS:4143
@@ -6934,6 +7635,7 @@ terms:
   anatomical_site:
     id: UBERON:0000996
     label: vagina
+  curated: true
 - id: GOLDTERMS:4141
   label: Host-associated > Human > Reproductive system > Vagina > Introitus
   parent: GOLDTERMS:4140
@@ -6942,6 +7644,7 @@ terms:
   anatomical_site:
     id: UBERON:0012317
     label: vagina orifice
+  curated: true
 - id: GOLDTERMS:4139
   label: Host-associated > Human > Reproductive system > Vagina > Midpoint vagina
   parent: GOLDTERMS:4140
@@ -6956,6 +7659,7 @@ terms:
   anatomical_site:
     id: UBERON:0016486
     label: posterior fornix of vagina
+  curated: true
 - id: GOLDTERMS:4137
   label: Host-associated > Human > Respiratory system
   parent: GOLDTERMS:4138
@@ -6964,6 +7668,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:5004
   label: Host-associated > Human > Respiratory system > Lung
   parent: GOLDTERMS:4137
@@ -6972,6 +7677,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:5251
   label: Host-associated > Human > Respiratory system > Lung > Bronchi
   parent: GOLDTERMS:5004
@@ -6980,6 +7686,7 @@ terms:
   anatomical_site:
     id: UBERON:0002185
     label: bronchus
+  curated: true
 - id: GOLDTERMS:5074
   label: Host-associated > Human > Respiratory system > Lung > Empyema
   parent: GOLDTERMS:5004
@@ -6994,6 +7701,7 @@ terms:
   anatomical_site:
     id: UBERON:0001087
     label: pleural fluid
+  curated: true
 - id: GOLDTERMS:5252
   label: Host-associated > Human > Respiratory system > Lung > Pulmonary fluid
   parent: GOLDTERMS:5004
@@ -7008,6 +7716,7 @@ terms:
   anatomical_site:
     id: UBERON:0001728
     label: nasopharynx
+  curated: true
 - id: GOLDTERMS:4132
   label: Host-associated > Human > Respiratory system > Nasopharyngeal > Pharynx
   parent: GOLDTERMS:4131
@@ -7016,6 +7725,7 @@ terms:
   anatomical_site:
     id: UBERON:0001042
     label: chordate pharynx
+  curated: true
 - id: GOLDTERMS:4130
   label: Host-associated > Human > Respiratory system > Nasopharyngeal > anterior
     nares
@@ -7025,6 +7735,7 @@ terms:
   anatomical_site:
     id: UBERON:0005928
     label: external naris
+  curated: true
 - id: GOLDTERMS:5009
   label: Host-associated > Human > Respiratory system > Sputum
   parent: GOLDTERMS:4137
@@ -7033,6 +7744,7 @@ terms:
   anatomical_site:
     id: UBERON:0007311
     label: sputum
+  curated: true
 - id: GOLDTERMS:5007
   label: Host-associated > Human > Respiratory system > Throat
   parent: GOLDTERMS:4137
@@ -7041,6 +7753,7 @@ terms:
   anatomical_site:
     id: UBERON:0000341
     label: throat
+  curated: true
 - id: GOLDTERMS:5021
   label: Host-associated > Human > Respiratory system > Trachea
   parent: GOLDTERMS:4137
@@ -7049,6 +7762,7 @@ terms:
   anatomical_site:
     id: UBERON:0003126
     label: trachea
+  curated: true
 - id: GOLDTERMS:Host-associated-Human-Skeletal-system
   label: Host-associated > Human > Skeletal system
   parent: GOLDTERMS:4138
@@ -7057,6 +7771,7 @@ terms:
   anatomical_site:
     id: UBERON:0001434
     label: skeletal system
+  curated: true
 - id: GOLDTERMS:5250
   label: Host-associated > Human > Skeletal system > Bone
   parent: GOLDTERMS:Host-associated-Human-Skeletal-system
@@ -7065,6 +7780,7 @@ terms:
   anatomical_site:
     id: UBERON:0002481
     label: bone tissue
+  curated: true
 - id: GOLDTERMS:5313
   label: Host-associated > Human > Skeletal system > Bone > Ancient bone
   parent: GOLDTERMS:5250
@@ -7079,6 +7795,7 @@ terms:
   anatomical_site:
     id: UBERON:0002371
     label: bone marrow
+  curated: true
 - id: GOLDTERMS:5312
   label: Host-associated > Human > Skeletal system > Bone > Ethmoid
   parent: GOLDTERMS:5250
@@ -7087,6 +7804,7 @@ terms:
   anatomical_site:
     id: UBERON:0001679
     label: ethmoid bone
+  curated: true
 - id: GOLDTERMS:5311
   label: Host-associated > Human > Skeletal system > Bone > Periprosthetic joint
   parent: GOLDTERMS:5250
@@ -7101,6 +7819,7 @@ terms:
   anatomical_site:
     id: UBERON:0002018
     label: synovial membrane of synovial joint
+  curated: true
 - id: GOLDTERMS:5213
   label: Host-associated > Human > Skeletal system > Synovial membrane > Synovial
     fluid
@@ -7110,6 +7829,7 @@ terms:
   anatomical_site:
     id: UBERON:0001090
     label: synovial fluid
+  curated: true
 - id: GOLDTERMS:3928
   label: Host-associated > Human > Skin
   parent: GOLDTERMS:4138
@@ -7121,6 +7841,7 @@ terms:
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
+  curated: true
 - id: GOLDTERMS:3926
   label: Host-associated > Human > Skin > Axilla
   parent: GOLDTERMS:3928
@@ -7129,6 +7850,7 @@ terms:
   anatomical_site:
     id: UBERON:0009472
     label: axilla
+  curated: true
 - id: GOLDTERMS:4795
   label: Host-associated > Human > Skin > Medial distal leg
   parent: GOLDTERMS:3928
@@ -7149,6 +7871,7 @@ terms:
   anatomical_site:
     id: UBERON:0005928
     label: external naris
+  curated: true
 - id: GOLDTERMS:3925
   label: Host-associated > Human > Skin > Umbilicus
   parent: GOLDTERMS:3928
@@ -7157,6 +7880,7 @@ terms:
   anatomical_site:
     id: UBERON:0007118
     label: umbilicus
+  curated: true
 - id: GOLDTERMS:3927
   label: Host-associated > Human > Skin > Volar forearm
   parent: GOLDTERMS:3928
@@ -7183,6 +7907,7 @@ terms:
   anatomical_site:
     id: UBERON:0000915
     label: thoracic segment of trunk
+  curated: true
 - id: GOLDTERMS:4587
   label: Host-associated > Human > Tooth
   parent: GOLDTERMS:4138
@@ -7191,6 +7916,7 @@ terms:
   anatomical_site:
     id: UBERON:0001091
     label: calcareous tooth
+  curated: true
 - id: GOLDTERMS:5091
   label: Host-associated > Human > Tooth > Enamel
   parent: GOLDTERMS:4587
@@ -7199,6 +7925,7 @@ terms:
   anatomical_site:
     id: UBERON:0001752
     label: enamel
+  curated: true
 - id: GOLDTERMS:4320
   label: Host-associated > Insecta
   parent: GOLDTERMS:4086
@@ -7207,6 +7934,7 @@ terms:
   host_taxon:
     id: NCBITaxon:50557
     label: Insecta
+  curated: true
 - id: GOLDTERMS:4319
   label: Host-associated > Insecta > Digestive system
   parent: GOLDTERMS:4320
@@ -7215,6 +7943,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:5051
   label: Host-associated > Insecta > Digestive system > Intestine
   parent: GOLDTERMS:4319
@@ -7223,6 +7952,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4754
   label: Host-associated > Invertebrates
   parent: GOLDTERMS:4086
@@ -7237,6 +7967,7 @@ terms:
   host_taxon:
     id: NCBITaxon:10205
     label: Bryozoa
+  curated: true
 - id: GOLDTERMS:4087
   label: Host-associated > Invertebrates > Bryozoans > Gymnolaemates
   parent: GOLDTERMS:4799
@@ -7245,6 +7976,7 @@ terms:
   host_taxon:
     id: NCBITaxon:10206
     label: Gymnolaemata
+  curated: true
 - id: GOLDTERMS:4801
   label: Host-associated > Invertebrates > Cnidaria
   parent: GOLDTERMS:4754
@@ -7253,6 +7985,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6073
     label: Cnidaria
+  curated: true
 - id: GOLDTERMS:4088
   label: Host-associated > Invertebrates > Cnidaria > Coral
   parent: GOLDTERMS:4801
@@ -7267,6 +8000,7 @@ terms:
   anatomical_site:
     id: UBERON:0002416
     label: integumental system
+  curated: true
 - id: GOLDTERMS:5745
   label: Host-associated > Invertebrates > Cnidaria > Coral > Tissue
   parent: GOLDTERMS:4088
@@ -7275,6 +8009,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:4615
   label: Host-associated > Invertebrates > Ctenophora
   parent: GOLDTERMS:4754
@@ -7283,6 +8018,7 @@ terms:
   host_taxon:
     id: NCBITaxon:10197
     label: Ctenophora <comb jellies>
+  curated: true
 - id: GOLDTERMS:4803
   label: Host-associated > Invertebrates > Echinodermata
   parent: GOLDTERMS:4754
@@ -7291,6 +8027,7 @@ terms:
   host_taxon:
     id: FOODON:03412115
     label: echinoderm
+  curated: true
 - id: GOLDTERMS:4683
   label: Host-associated > Invertebrates > Echinodermata > Sea Star
   parent: GOLDTERMS:4803
@@ -7299,6 +8036,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7588
     label: Asteroidea
+  curated: true
 - id: GOLDTERMS:4089
   label: Host-associated > Invertebrates > Echinodermata > Sea Urchin
   parent: GOLDTERMS:4803
@@ -7307,6 +8045,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7625
     label: Echinoidea
+  curated: true
 - id: GOLDTERMS:5248
   label: Host-associated > Invertebrates > Echinodermata > Sea cucumber
   parent: GOLDTERMS:4803
@@ -7315,6 +8054,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7705
     label: Holothuroidea
+  curated: true
 - id: GOLDTERMS:4425
   label: Host-associated > Invertebrates > Nematoda
   parent: GOLDTERMS:4754
@@ -7323,6 +8063,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6231
     label: Nematoda
+  curated: true
 - id: GOLDTERMS:Host-associated-Invertebrates-Nematoda-Digestive-system
   label: Host-associated > Invertebrates > Nematoda > Digestive system
   parent: GOLDTERMS:4425
@@ -7331,6 +8072,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:5246
   label: Host-associated > Invertebrates > Nematoda > Digestive system > Intestine
   parent: GOLDTERMS:Host-associated-Invertebrates-Nematoda-Digestive-system
@@ -7339,6 +8081,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4736
   label: Host-associated > Invertebrates > Platyhelminthes
   parent: GOLDTERMS:4754
@@ -7347,6 +8090,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6157
     label: Platyhelminthes
+  curated: true
 - id: GOLDTERMS:5336
   label: Host-associated > Invertebrates > Tissue
   parent: GOLDTERMS:4754
@@ -7355,6 +8099,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:4118
   label: Host-associated > Mammals
   parent: GOLDTERMS:4086
@@ -7363,6 +8108,7 @@ terms:
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
+  curated: true
 - id: GOLDTERMS:4115
   label: Host-associated > Mammals > Circulatory system
   parent: GOLDTERMS:4118
@@ -7371,6 +8117,7 @@ terms:
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
+  curated: true
 - id: GOLDTERMS:4114
   label: Host-associated > Mammals > Circulatory system > Blood
   parent: GOLDTERMS:4115
@@ -7379,6 +8126,7 @@ terms:
   anatomical_site:
     id: UBERON:0000178
     label: blood
+  curated: true
 - id: GOLDTERMS:5112
   label: Host-associated > Mammals > Circulatory system > Blood > Peripheral blood
     mononuclear cells
@@ -7394,6 +8142,7 @@ terms:
   anatomical_site:
     id: UBERON:0000948
     label: heart
+  curated: true
 - id: GOLDTERMS:4107
   label: Host-associated > Mammals > Digestive system
   parent: GOLDTERMS:4118
@@ -7402,6 +8151,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:4381
   label: Host-associated > Mammals > Digestive system > Foregut
   parent: GOLDTERMS:4107
@@ -7410,6 +8160,7 @@ terms:
   anatomical_site:
     id: UBERON:0001041
     label: foregut
+  curated: true
 - id: GOLDTERMS:4108
   label: Host-associated > Mammals > Digestive system > Foregut > Rumen
   parent: GOLDTERMS:4381
@@ -7418,6 +8169,7 @@ terms:
   anatomical_site:
     id: UBERON:0007365
     label: rumen
+  curated: true
 - id: GOLDTERMS:Host-associated-Mammals-Digestive-system-Hindgut
   label: Host-associated > Mammals > Digestive system > Hindgut
   parent: GOLDTERMS:4107
@@ -7426,6 +8178,7 @@ terms:
   anatomical_site:
     id: UBERON:0001046
     label: hindgut
+  curated: true
 - id: GOLDTERMS:5011
   label: Host-associated > Mammals > Digestive system > Hindgut > Rectum
   parent: GOLDTERMS:Host-associated-Mammals-Digestive-system-Hindgut
@@ -7434,6 +8187,7 @@ terms:
   anatomical_site:
     id: UBERON:0001052
     label: rectum
+  curated: true
 - id: GOLDTERMS:5043
   label: Host-associated > Mammals > Digestive system > Intestine
   parent: GOLDTERMS:4107
@@ -7442,6 +8196,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4106
   label: Host-associated > Mammals > Digestive system > Large intestine
   parent: GOLDTERMS:4107
@@ -7450,6 +8205,7 @@ terms:
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
+  curated: true
 - id: GOLDTERMS:4105
   label: Host-associated > Mammals > Digestive system > Large intestine > Cecum
   parent: GOLDTERMS:4106
@@ -7458,6 +8214,7 @@ terms:
   anatomical_site:
     id: UBERON:0001153
     label: caecum
+  curated: true
 - id: GOLDTERMS:5041
   label: Host-associated > Mammals > Digestive system > Large intestine > Colon
   parent: GOLDTERMS:4106
@@ -7466,6 +8223,7 @@ terms:
   anatomical_site:
     id: UBERON:0001155
     label: colon
+  curated: true
 - id: GOLDTERMS:4858
   label: Host-associated > Mammals > Digestive system > Large intestine > Cow Dung
   parent: GOLDTERMS:4106
@@ -7474,6 +8232,7 @@ terms:
   anatomical_site:
     id: UBERON:0001988
     label: feces
+  curated: true
 - id: GOLDTERMS:4104
   label: Host-associated > Mammals > Digestive system > Large intestine > Fecal
   parent: GOLDTERMS:4106
@@ -7488,6 +8247,7 @@ terms:
   anatomical_site:
     id: UBERON:0001045
     label: midgut
+  curated: true
 - id: GOLDTERMS:4109
   label: Host-associated > Mammals > Digestive system > Oral cavity
   parent: GOLDTERMS:4107
@@ -7496,6 +8256,7 @@ terms:
   anatomical_site:
     id: UBERON:0000167
     label: oral cavity
+  curated: true
 - id: GOLDTERMS:4110
   label: Host-associated > Mammals > Digestive system > Oral cavity > Buccal mucosa
   parent: GOLDTERMS:4109
@@ -7504,6 +8265,7 @@ terms:
   anatomical_site:
     id: UBERON:0006956
     label: buccal mucosa
+  curated: true
 - id: GOLDTERMS:5031
   label: Host-associated > Mammals > Digestive system > Oral cavity > Dental plaque
   parent: GOLDTERMS:4109
@@ -7512,6 +8274,7 @@ terms:
   anatomical_site:
     id: UBERON:0016482
     label: dental plaque
+  curated: true
 - id: GOLDTERMS:5121
   label: Host-associated > Mammals > Digestive system > Oral cavity > Gingiva
   parent: GOLDTERMS:4109
@@ -7520,6 +8283,7 @@ terms:
   anatomical_site:
     id: UBERON:0001828
     label: gingiva
+  curated: true
 - id: GOLDTERMS:5097
   label: Host-associated > Mammals > Digestive system > Oral cavity > Gingival sulcus
   parent: GOLDTERMS:4109
@@ -7528,6 +8292,7 @@ terms:
   anatomical_site:
     id: UBERON:0008805
     label: gingival groove
+  curated: true
 - id: GOLDTERMS:5017
   label: Host-associated > Mammals > Digestive system > Oral cavity > Periodontal
     pockets
@@ -7543,6 +8308,7 @@ terms:
   anatomical_site:
     id: UBERON:0001836
     label: saliva
+  curated: true
 - id: GOLDTERMS:5040
   label: Host-associated > Mammals > Digestive system > Small intestine
   parent: GOLDTERMS:4107
@@ -7551,6 +8317,7 @@ terms:
   anatomical_site:
     id: UBERON:0002108
     label: small intestine
+  curated: true
 - id: GOLDTERMS:5253
   label: Host-associated > Mammals > Digestive system > Small intestine > Jejunum
   parent: GOLDTERMS:5040
@@ -7559,6 +8326,7 @@ terms:
   anatomical_site:
     id: UBERON:0002115
     label: jejunum
+  curated: true
 - id: GOLDTERMS:4112
   label: Host-associated > Mammals > Digestive system > Stomach
   parent: GOLDTERMS:4107
@@ -7567,6 +8335,7 @@ terms:
   anatomical_site:
     id: UBERON:0000945
     label: stomach
+  curated: true
 - id: GOLDTERMS:4113
   label: Host-associated > Mammals > Digestive system > Stomach > Endoperitrophic
     space
@@ -7582,6 +8351,7 @@ terms:
   anatomical_site:
     id: UBERON:0001199
     label: mucosa of stomach
+  curated: true
 - id: GOLDTERMS:4111
   label: Host-associated > Mammals > Digestive system > Stomach > Rumen
   parent: GOLDTERMS:4112
@@ -7590,6 +8360,7 @@ terms:
   anatomical_site:
     id: UBERON:0007365
     label: rumen
+  curated: true
 - id: GOLDTERMS:4984
   label: Host-associated > Mammals > Digestive system > Throat
   parent: GOLDTERMS:4107
@@ -7598,6 +8369,7 @@ terms:
   anatomical_site:
     id: UBERON:0000341
     label: throat
+  curated: true
 - id: GOLDTERMS:5049
   label: Host-associated > Mammals > Ear
   parent: GOLDTERMS:4118
@@ -7606,6 +8378,7 @@ terms:
   anatomical_site:
     id: UBERON:0001690
     label: ear
+  curated: true
 - id: GOLDTERMS:4850
   label: Host-associated > Mammals > Ear > Ear discharge
   parent: GOLDTERMS:5049
@@ -7620,6 +8393,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:5132
   label: Host-associated > Mammals > Excretory system > Liver
   parent: GOLDTERMS:3903
@@ -7628,6 +8402,7 @@ terms:
   anatomical_site:
     id: UBERON:0002107
     label: liver
+  curated: true
 - id: GOLDTERMS:4852
   label: Host-associated > Mammals > Excretory system > Urine
   parent: GOLDTERMS:3903
@@ -7636,6 +8411,7 @@ terms:
   anatomical_site:
     id: UBERON:0001088
     label: urine
+  curated: true
 - id: GOLDTERMS:4991
   label: Host-associated > Mammals > Eye
   parent: GOLDTERMS:4118
@@ -7644,6 +8420,7 @@ terms:
   anatomical_site:
     id: UBERON:0000970
     label: eye
+  curated: true
 - id: GOLDTERMS:Host-associated-Mammals-Gastrointestinal-tract
   label: Host-associated > Mammals > Gastrointestinal tract
   parent: GOLDTERMS:4118
@@ -7652,6 +8429,7 @@ terms:
   anatomical_site:
     id: UBERON:0005409
     label: alimentary part of gastrointestinal system
+  curated: true
 - id: GOLDTERMS:3905
   label: Host-associated > Mammals > Gastrointestinal tract > Intestine
   parent: GOLDTERMS:Host-associated-Mammals-Gastrointestinal-tract
@@ -7660,6 +8438,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4701
   label: Host-associated > Mammals > Hoof
   parent: GOLDTERMS:4118
@@ -7668,6 +8447,7 @@ terms:
   anatomical_site:
     id: UBERON:0008963
     label: hoof
+  curated: true
 - id: GOLDTERMS:4126
   label: Host-associated > Mammals > Lymphatic
   parent: GOLDTERMS:4118
@@ -7685,12 +8465,13 @@ terms:
   parent: GOLDTERMS:4118
   level: 3
   vocab_differentia: GOLDVOCAB:Milk
-  host_taxon:
+  env_medium:
     id: FOODON:03307455
     label: cow milk (raw)
   anatomical_site:
     id: UBERON:0001913
     label: milk
+  curated: true
 - id: GOLDTERMS:4124
   label: Host-associated > Mammals > Nervous system
   parent: GOLDTERMS:4118
@@ -7699,6 +8480,7 @@ terms:
   anatomical_site:
     id: UBERON:0001016
     label: nervous system
+  curated: true
 - id: GOLDTERMS:4125
   label: Host-associated > Mammals > Nervous system > Brain
   parent: GOLDTERMS:4124
@@ -7707,6 +8489,7 @@ terms:
   anatomical_site:
     id: UBERON:0000955
     label: brain
+  curated: true
 - id: GOLDTERMS:4698
   label: Host-associated > Mammals > Primate
   parent: GOLDTERMS:4118
@@ -7715,6 +8498,7 @@ terms:
   host_taxon:
     id: NCBITaxon:9443
     label: Primates
+  curated: true
 - id: GOLDTERMS:5096
   label: Host-associated > Mammals > Pus
   parent: GOLDTERMS:4118
@@ -7723,6 +8507,7 @@ terms:
   anatomical_site:
     id: UBERON:0000177
     label: pus
+  curated: true
 - id: GOLDTERMS:4119
   label: Host-associated > Mammals > Reproductive system
   parent: GOLDTERMS:4118
@@ -7731,6 +8516,7 @@ terms:
   anatomical_site:
     id: UBERON:0000990
     label: reproductive system
+  curated: true
 - id: GOLDTERMS:4986
   label: Host-associated > Mammals > Reproductive system > Udder
   parent: GOLDTERMS:4119
@@ -7739,6 +8525,7 @@ terms:
   anatomical_site:
     id: UBERON:0013216
     label: udder
+  curated: true
 - id: GOLDTERMS:4972
   label: Host-associated > Mammals > Reproductive system > Uterus
   parent: GOLDTERMS:4119
@@ -7747,6 +8534,7 @@ terms:
   anatomical_site:
     id: UBERON:0000995
     label: uterus
+  curated: true
 - id: GOLDTERMS:5047
   label: Host-associated > Mammals > Reproductive system > Vagina
   parent: GOLDTERMS:4119
@@ -7755,6 +8543,7 @@ terms:
   anatomical_site:
     id: UBERON:0000996
     label: vagina
+  curated: true
 - id: GOLDTERMS:4122
   label: Host-associated > Mammals > Respiratory system
   parent: GOLDTERMS:4118
@@ -7763,6 +8552,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:Host-associated-Mammals-Respiratory-system-Laryngopharyngeal
   label: Host-associated > Mammals > Respiratory system > Laryngopharyngeal
   parent: GOLDTERMS:4122
@@ -7778,6 +8568,7 @@ terms:
   anatomical_site:
     id: UBERON:0000029
     label: lymph node
+  curated: true
 - id: GOLDTERMS:4444
   label: Host-associated > Mammals > Respiratory system > Lung
   parent: GOLDTERMS:4122
@@ -7786,6 +8577,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:4120
   label: Host-associated > Mammals > Respiratory system > Nasopharyngeal
   parent: GOLDTERMS:4122
@@ -7794,6 +8586,7 @@ terms:
   anatomical_site:
     id: UBERON:0001728
     label: nasopharynx
+  curated: true
 - id: GOLDTERMS:4121
   label: Host-associated > Mammals > Respiratory system > Nasopharyngeal > Nasal cavity
   parent: GOLDTERMS:4120
@@ -7802,6 +8595,7 @@ terms:
   anatomical_site:
     id: UBERON:0001707
     label: nasal cavity
+  curated: true
 - id: GOLDTERMS:4980
   label: Host-associated > Mammals > Respiratory system > Nose
   parent: GOLDTERMS:4122
@@ -7810,6 +8604,7 @@ terms:
   anatomical_site:
     id: UBERON:0007827
     label: external nose
+  curated: true
 - id: GOLDTERMS:5045
   label: Host-associated > Mammals > Respiratory system > Throat
   parent: GOLDTERMS:4122
@@ -7818,6 +8613,7 @@ terms:
   anatomical_site:
     id: UBERON:0000341
     label: throat
+  curated: true
 - id: GOLDTERMS:5175
   label: Host-associated > Mammals > Respiratory system > Trachea
   parent: GOLDTERMS:4122
@@ -7826,6 +8622,7 @@ terms:
   anatomical_site:
     id: UBERON:0003126
     label: trachea
+  curated: true
 - id: GOLDTERMS:4116
   label: Host-associated > Mammals > Skin
   parent: GOLDTERMS:4118
@@ -7834,6 +8631,7 @@ terms:
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
+  curated: true
 - id: GOLDTERMS:4409
   label: Host-associated > Mammals > Tissue
   parent: GOLDTERMS:4118
@@ -7842,6 +8640,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:5016
   label: Host-associated > Mammals > Tooth
   parent: GOLDTERMS:4118
@@ -7850,6 +8649,7 @@ terms:
   anatomical_site:
     id: UBERON:0001091
     label: calcareous tooth
+  curated: true
 - id: GOLDTERMS:4317
   label: Host-associated > Microbial
   parent: GOLDTERMS:4086
@@ -7864,6 +8664,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2
     label: Bacteria
+  curated: true
 - id: GOLDTERMS:5764
   label: Host-associated > Microbial > Bacterivore
   parent: GOLDTERMS:4317
@@ -7878,6 +8679,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2864
     label: Dinophyceae
+  curated: true
 - id: GOLDTERMS:4316
   label: Host-associated > Microbial > Dinoflagellates > Endosymbionts
   parent: GOLDTERMS:4756
@@ -7892,6 +8694,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
+  curated: true
 - id: GOLDTERMS:5761
   label: Host-associated > Mollusca > Bivalves
   parent: GOLDTERMS:4324
@@ -7900,6 +8703,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6544
     label: Bivalvia
+  curated: true
 - id: GOLDTERMS:Host-associated-Mollusca-Circulatory-system
   label: Host-associated > Mollusca > Circulatory system
   parent: GOLDTERMS:4324
@@ -7908,6 +8712,7 @@ terms:
   anatomical_site:
     id: UBERON:0001009
     label: circulatory system
+  curated: true
 - id: GOLDTERMS:4978
   label: Host-associated > Mollusca > Circulatory system > Hemolymph
   parent: GOLDTERMS:Host-associated-Mollusca-Circulatory-system
@@ -7916,6 +8721,7 @@ terms:
   anatomical_site:
     id: UBERON:0001011
     label: hemolymph
+  curated: true
 - id: GOLDTERMS:4322
   label: Host-associated > Mollusca > Digestive system
   parent: GOLDTERMS:4324
@@ -7924,6 +8730,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:4866
   label: Host-associated > Mollusca > Digestive system > Ceca
   parent: GOLDTERMS:4322
@@ -7932,6 +8739,7 @@ terms:
   anatomical_site:
     id: UBERON:0001153
     label: caecum
+  curated: true
 - id: GOLDTERMS:4323
   label: Host-associated > Mollusca > Digestive system > Glands
   parent: GOLDTERMS:4322
@@ -7940,6 +8748,7 @@ terms:
   anatomical_site:
     id: UBERON:0002530
     label: gland
+  curated: true
 - id: GOLDTERMS:5068
   label: Host-associated > Mollusca > Digestive system > Gut
   parent: GOLDTERMS:4322
@@ -7948,6 +8757,7 @@ terms:
   anatomical_site:
     id: UBERON:0001555
     label: digestive tract
+  curated: true
 - id: GOLDTERMS:4632
   label: Host-associated > Mollusca > Larvae
   parent: GOLDTERMS:4324
@@ -7956,6 +8766,7 @@ terms:
   anatomical_site:
     id: UBERON:0002548
     label: larva
+  curated: true
 - id: GOLDTERMS:5198
   label: Host-associated > Mollusca > Oyster
   parent: GOLDTERMS:4324
@@ -7964,6 +8775,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6563
     label: Ostreidae
+  curated: true
 - id: GOLDTERMS:4806
   label: Host-associated > Mollusca > Respiratory system
   parent: GOLDTERMS:4324
@@ -7972,6 +8784,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:4327
   label: Host-associated > Mollusca > Respiratory system > Gills
   parent: GOLDTERMS:4806
@@ -7980,6 +8793,7 @@ terms:
   anatomical_site:
     id: UBERON:0002535
     label: gill
+  curated: true
 - id: GOLDTERMS:4325
   label: Host-associated > Mollusca > Respiratory system > Gills > Extracellular
   parent: GOLDTERMS:4327
@@ -8000,6 +8814,7 @@ terms:
   anatomical_site:
     id: UBERON:0006612
     label: shell
+  curated: true
 - id: GOLDTERMS:4709
   label: Host-associated > Mollusca > Tissue
   parent: GOLDTERMS:4324
@@ -8008,6 +8823,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:5187
   label: Host-associated > Petromyzon
   parent: GOLDTERMS:4086
@@ -8016,6 +8832,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7756
     label: Petromyzon
+  curated: true
 - id: GOLDTERMS:Host-associated-Plankton
   label: Host-associated > Plankton
   parent: GOLDTERMS:4086
@@ -8024,6 +8841,7 @@ terms:
   env_medium:
     id: ENVO:01000063
     label: planktonic material
+  curated: true
 - id: GOLDTERMS:5217
   label: Host-associated > Plankton > Zooplankton
   parent: GOLDTERMS:Host-associated-Plankton
@@ -8041,6 +8859,7 @@ terms:
   host_taxon:
     id: NCBITaxon:3193
     label: Embryophyta
+  curated: true
 - id: GOLDTERMS:5812
   label: Host-associated > Plants > Biocrust
   parent: GOLDTERMS:3938
@@ -8049,6 +8868,7 @@ terms:
   other:
     id: ENVO:01000909
     label: biocrust
+  curated: true
 - id: GOLDTERMS:3945
   label: Host-associated > Plants > Endosphere
   parent: GOLDTERMS:3938
@@ -8087,6 +8907,7 @@ terms:
   anatomical_site:
     id: PO:0003023
     label: root nodule
+  curated: true
 - id: GOLDTERMS:4433
   label: Host-associated > Plants > Peat moss
   parent: GOLDTERMS:3938
@@ -8095,6 +8916,7 @@ terms:
   host_taxon:
     id: NCBITaxon:13804
     label: Sphagnum
+  curated: true
 - id: GOLDTERMS:4460
   label: Host-associated > Plants > Phyllosphere
   parent: GOLDTERMS:3938
@@ -8109,14 +8931,16 @@ terms:
   anatomical_site:
     id: PO:0009046
     label: flower
+  curated: true
 - id: GOLDTERMS:5826
   label: Host-associated > Plants > Phyllosphere > Anthosphere > Nectar
   parent: GOLDTERMS:4538
   level: 5
   vocab_differentia: GOLDVOCAB:Nectar
-  host_taxon:
+  env_medium:
     id: FOODON:03315553
     label: nectar (food product)
+  curated: true
 - id: GOLDTERMS:4621
   label: Host-associated > Plants > Phyllosphere > Anthosphere > Pollen
   parent: GOLDTERMS:4538
@@ -8125,6 +8949,7 @@ terms:
   anatomical_site:
     id: PO:0025281
     label: pollen
+  curated: true
 - id: GOLDTERMS:4600
   label: Host-associated > Plants > Phyllosphere > Carposphere
   parent: GOLDTERMS:4460
@@ -8133,6 +8958,7 @@ terms:
   anatomical_site:
     id: PO:0009001
     label: fruit
+  curated: true
 - id: GOLDTERMS:5265
   label: Host-associated > Plants > Phyllosphere > Carposphere > Endophytes
   parent: GOLDTERMS:4600
@@ -8153,6 +8979,7 @@ terms:
   anatomical_site:
     id: PO:0009047
     label: stem
+  curated: true
 - id: GOLDTERMS:5752
   label: Host-associated > Plants > Phyllosphere > Caulosphere > Bark
   parent: GOLDTERMS:4525
@@ -8161,6 +8988,7 @@ terms:
   anatomical_site:
     id: PO:0004518
     label: bark
+  curated: true
 - id: GOLDTERMS:5740
   label: Host-associated > Plants > Phyllosphere > Cob
   parent: GOLDTERMS:4460
@@ -8169,6 +8997,7 @@ terms:
   anatomical_site:
     id: PO:0025623
     label: ear infructescence axis
+  curated: true
 - id: GOLDTERMS:5269
   label: Host-associated > Plants > Phyllosphere > Leaf
   parent: GOLDTERMS:4460
@@ -8177,6 +9006,7 @@ terms:
   anatomical_site:
     id: PO:0025034
     label: leaf
+  curated: true
 - id: GOLDTERMS:5268
   label: Host-associated > Plants > Phyllosphere > Leaf > Endophytes
   parent: GOLDTERMS:5269
@@ -8203,6 +9033,7 @@ terms:
   anatomical_site:
     id: PO:0025417
     label: xylem vessel
+  curated: true
 - id: GOLDTERMS:5320
   label: Host-associated > Plants > Phyllosphere > Petiole
   parent: GOLDTERMS:4460
@@ -8211,6 +9042,7 @@ terms:
   anatomical_site:
     id: PO:0020038
     label: petiole
+  curated: true
 - id: GOLDTERMS:5263
   label: Host-associated > Plants > Phyllosphere > Phylloplane/Leaf surface
   parent: GOLDTERMS:4460
@@ -8222,9 +9054,10 @@ terms:
   parent: GOLDTERMS:5263
   level: 5
   vocab_differentia: GOLDVOCAB:Biofilm
-  other:
+  env_medium:
     id: ENVO:00002034
     label: biofilm
+  curated: true
 - id: GOLDTERMS:5266
   label: Host-associated > Plants > Phyllosphere > Phylloplane/Leaf surface > Endophytes
   parent: GOLDTERMS:5263
@@ -8245,6 +9078,7 @@ terms:
   anatomical_site:
     id: PO:0005052
     label: plant callus
+  curated: true
 - id: GOLDTERMS:5796
   label: Host-associated > Plants > Rhizoid
   parent: GOLDTERMS:3938
@@ -8253,6 +9087,7 @@ terms:
   anatomical_site:
     id: PO:0030078
     label: rhizoid
+  curated: true
 - id: GOLDTERMS:3943
   label: Host-associated > Plants > Rhizome
   parent: GOLDTERMS:3938
@@ -8261,6 +9096,7 @@ terms:
   anatomical_site:
     id: PO:0004542
     label: rhizome
+  curated: true
 - id: GOLDTERMS:5416
   label: Host-associated > Plants > Rhizome > Bulb
   parent: GOLDTERMS:3943
@@ -8269,6 +9105,7 @@ terms:
   anatomical_site:
     id: PO:0025356
     label: bulb
+  curated: true
 - id: GOLDTERMS:3944
   label: Host-associated > Plants > Rhizome > Epiphytes
   parent: GOLDTERMS:3943
@@ -8283,6 +9120,7 @@ terms:
   anatomical_site:
     id: PO:0025522
     label: tuber
+  curated: true
 - id: GOLDTERMS:5793
   label: Host-associated > Plants > Rhizome > Stem tuber > Soil
   parent: GOLDTERMS:4994
@@ -8294,6 +9132,7 @@ terms:
   env_medium:
     id: ENVO:00001998
     label: soil
+  curated: true
 - id: GOLDTERMS:4466
   label: Host-associated > Plants > Roots
   parent: GOLDTERMS:3938
@@ -8302,6 +9141,7 @@ terms:
   anatomical_site:
     id: PO:0009005
     label: root
+  curated: true
 - id: GOLDTERMS:5318
   label: Host-associated > Plants > Roots > Bulk soil
   parent: GOLDTERMS:4466
@@ -8310,6 +9150,7 @@ terms:
   env_medium:
     id: ENVO:00005802
     label: bulk soil
+  curated: true
 - id: GOLDTERMS:5304
   label: Host-associated > Plants > Roots > Endosphere
   parent: GOLDTERMS:4466
@@ -8330,17 +9171,19 @@ terms:
   anatomical_site:
     id: PO:0025626
     label: plant gall
+  curated: true
 - id: GOLDTERMS:4523
   label: Host-associated > Plants > Roots > Nodule
   parent: GOLDTERMS:4466
   level: 4
   vocab_differentia: GOLDVOCAB:Nodule
+  env_medium:
+    id: ENVO:01000164
+    label: root nodule
   anatomical_site:
     id: PO:0003023
     label: root nodule
-  other:
-    id: ENVO:01000164
-    label: root nodule
+  curated: true
 - id: GOLDTERMS:5784
   label: Host-associated > Plants > Roots > Rhizoplane
   parent: GOLDTERMS:4466
@@ -8349,6 +9192,7 @@ terms:
   other:
     id: ENVO:01001181
     label: rhizoplane
+  curated: true
 - id: GOLDTERMS:5449
   label: Host-associated > Plants > Roots > Rhizoplane > Endophytes
   parent: GOLDTERMS:5784
@@ -8363,6 +9207,7 @@ terms:
   env_local:
     id: ENVO:00005801
     label: rhizosphere
+  curated: true
 - id: GOLDTERMS:5302
   label: Host-associated > Plants > Roots > Rhizosphere > Soil
   parent: GOLDTERMS:5301
@@ -8374,6 +9219,7 @@ terms:
   env_medium:
     id: ENVO:00001998
     label: soil
+  curated: true
 - id: GOLDTERMS:4572
   label: Host-associated > Plants > Seeds
   parent: GOLDTERMS:3938
@@ -8382,6 +9228,7 @@ terms:
   anatomical_site:
     id: PO:0009010
     label: seed
+  curated: true
 - id: GOLDTERMS:5448
   label: Host-associated > Plants > Seeds > Seed radicle
   parent: GOLDTERMS:4572
@@ -8390,6 +9237,7 @@ terms:
   anatomical_site:
     id: PO:0020031
     label: radicle
+  curated: true
 - id: GOLDTERMS:5273
   label: Host-associated > Plants > Tissue
   parent: GOLDTERMS:3938
@@ -8398,6 +9246,7 @@ terms:
   anatomical_site:
     id: UBERON:0000479
     label: tissue
+  curated: true
 - id: GOLDTERMS:5782
   label: Host-associated > Plants > Tissue > Bark
   parent: GOLDTERMS:5273
@@ -8406,6 +9255,7 @@ terms:
   anatomical_site:
     id: PO:0004518
     label: bark
+  curated: true
 - id: GOLDTERMS:4560
   label: Host-associated > Plants > Wood
   parent: GOLDTERMS:3938
@@ -8417,6 +9267,7 @@ terms:
   anatomical_site:
     id: PO:0005848
     label: secondary xylem
+  curated: true
 - id: GOLDTERMS:4341
   label: Host-associated > Porifera
   parent: GOLDTERMS:4086
@@ -8425,6 +9276,7 @@ terms:
   host_taxon:
     id: NCBITaxon:6040
     label: Porifera
+  curated: true
 - id: GOLDTERMS:4439
   label: Host-associated > Porifera > Sponge
   parent: GOLDTERMS:4341
@@ -8451,6 +9303,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2864
     label: Dinophyceae
+  curated: true
 - id: GOLDTERMS:4629
   label: Host-associated > Protists > Dinoflagellates
   parent: GOLDTERMS:4738
@@ -8459,6 +9312,7 @@ terms:
   host_taxon:
     id: NCBITaxon:2864
     label: Dinophyceae
+  curated: true
 - id: GOLDTERMS:4472
   label: Host-associated > Protists > Oomycetes
   parent: GOLDTERMS:4738
@@ -8467,6 +9321,7 @@ terms:
   host_taxon:
     id: NCBITaxon:4762
     label: Oomycota
+  curated: true
 - id: GOLDTERMS:4339
   label: Host-associated > Protozoa
   parent: GOLDTERMS:4086
@@ -8487,6 +9342,7 @@ terms:
   host_taxon:
     id: NCBITaxon:8504
     label: Lepidosauria
+  curated: true
 - id: GOLDTERMS:4808
   label: Host-associated > Reptilia > Digestive system
   parent: GOLDTERMS:3906
@@ -8495,6 +9351,7 @@ terms:
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
+  curated: true
 - id: GOLDTERMS:5160
   label: Host-associated > Reptilia > Digestive system > Intestine
   parent: GOLDTERMS:4808
@@ -8503,6 +9360,7 @@ terms:
   anatomical_site:
     id: UBERON:0000160
     label: intestine
+  curated: true
 - id: GOLDTERMS:4809
   label: Host-associated > Reptilia > Digestive system > Large intestine
   parent: GOLDTERMS:4808
@@ -8511,6 +9369,7 @@ terms:
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
+  curated: true
 - id: GOLDTERMS:4693
   label: Host-associated > Reptilia > Digestive system > Large intestine > Fecal
   parent: GOLDTERMS:4809
@@ -8525,6 +9384,7 @@ terms:
   anatomical_site:
     id: UBERON:8450002
     label: excretory system
+  curated: true
 - id: GOLDTERMS:5163
   label: Host-associated > Reptilia > Excretory system > Liver
   parent: GOLDTERMS:Host-associated-Reptilia-Excretory-system
@@ -8533,6 +9393,7 @@ terms:
   anatomical_site:
     id: UBERON:0002107
     label: liver
+  curated: true
 - id: GOLDTERMS:5013
   label: Host-associated > Reptilia > Respiratory system
   parent: GOLDTERMS:3906
@@ -8541,6 +9402,7 @@ terms:
   anatomical_site:
     id: UBERON:0001004
     label: respiratory system
+  curated: true
 - id: GOLDTERMS:5158
   label: Host-associated > Reptilia > Respiratory system > Lung
   parent: GOLDTERMS:5013
@@ -8549,6 +9411,7 @@ terms:
   anatomical_site:
     id: UBERON:0002048
     label: lung
+  curated: true
 - id: GOLDTERMS:4975
   label: Host-associated > Reptilia > Respiratory system > Trachea
   parent: GOLDTERMS:5013
@@ -8557,6 +9420,7 @@ terms:
   anatomical_site:
     id: UBERON:0003126
     label: trachea
+  curated: true
 - id: GOLDTERMS:4569
   label: Host-associated > Tunicates
   parent: GOLDTERMS:4086
@@ -8565,6 +9429,7 @@ terms:
   host_taxon:
     id: NCBITaxon:7712
     label: Tunicata
+  curated: true
 - id: GOLDTERMS:4099
   label: Host-associated > Tunicates > Ascidians
   parent: GOLDTERMS:4569

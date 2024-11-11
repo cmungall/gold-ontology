@@ -69,7 +69,6 @@ GOLDTERMS:5690	Engineered > Lab enrichment > Defined media > Anaerobic media > F
 GOLDTERMS:Host-associated-Human-Skeletal-system	Host-associated > Human > Skeletal system	skos:exactMatch	UBERON:0001434	skeletal system	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	skeletal system
 GOLDTERMS:Host-associated-Human-Skeletal-system-Synovial-membrane	Host-associated > Human > Skeletal system > Synovial membrane	skos:exactMatch	UBERON:0002018	synovial membrane of synovial joint	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	synovial membrane
 GOLDTERMS:Host-associated-Mammals-Gastrointestinal-tract	Host-associated > Mammals > Gastrointestinal tract	skos:exactMatch	UBERON:0005409	alimentary part of gastrointestinal system	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	gastrointestinal tract
-GOLDVOCAB:Abdomen	Abdomen	skos:exactMatch	UBERON:0000916	abdomen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	abdomen
 GOLDVOCAB:Amniotic-fluid	Amniotic fluid	skos:exactMatch	UBERON:0000173	amniotic fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	amniotic fluid
 GOLDVOCAB:Ascites	Ascites	owl:differentFrom	UBERON:0007795	ascitic fluid	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	ascites
 GOLDVOCAB:Axilla	Axilla	skos:exactMatch	UBERON:0009472	axilla	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	axilla
@@ -83,7 +82,6 @@ GOLDVOCAB:Bronchi	Bronchi	skos:exactMatch	UBERON:0002185	bronchus	semapv:Lexical
 GOLDVOCAB:Buccal-mucosa	Buccal mucosa	skos:exactMatch	UBERON:0006956	buccal mucosa	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	buccal mucosa
 GOLDVOCAB:Bulb	Bulb	owl:differentFrom	UBERON:0001896	medulla oblongata	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	bulb
 GOLDVOCAB:Carcass	Carcass	skos:exactMatch	UBERON:0008979	carcass	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	carcass
-GOLDVOCAB:Ceca	Ceca	skos:exactMatch	UBERON:0001153	caecum	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	ceca
 GOLDVOCAB:Cecum	Cecum	skos:exactMatch	UBERON:0001153	caecum	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cecum
 GOLDVOCAB:Cerebrospinal-fluid	Cerebrospinal fluid	skos:exactMatch	UBERON:0001359	cerebrospinal fluid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cerebrospinal fluid
 GOLDVOCAB:Cervix	Cervix	skos:exactMatch	UBERON:0000002	uterine cervix	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	cervix
@@ -92,7 +90,6 @@ GOLDVOCAB:Cloaca	Cloaca	skos:exactMatch	UBERON:0000162	cloaca	semapv:LexicalMatc
 GOLDVOCAB:Colon	Colon	skos:exactMatch	UBERON:0001155	colon	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	colon
 GOLDVOCAB:Conjunctiva	Conjunctiva	skos:exactMatch	UBERON:0001811	conjunctiva	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	conjunctiva
 GOLDVOCAB:Cow-Dung	Cow Dung	skos:exactMatch	UBERON:0001988	feces	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	cow dung
-GOLDVOCAB:Crop	Crop	skos:exactMatch	UBERON:0007356	crop	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	crop
 GOLDVOCAB:Cuticle	Cuticle	skos:exactMatch	UBERON:0001002	cuticle	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cuticle
 GOLDVOCAB:Dental-plaque	Dental plaque	skos:exactMatch	UBERON:0016482	dental plaque	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dental plaque
 GOLDVOCAB:Dental-pulp	Dental pulp	skos:exactMatch	UBERON:0001754	dental pulp	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dental pulp
@@ -127,7 +124,7 @@ GOLDVOCAB:Hindgut	Hindgut	skos:exactMatch	UBERON:0001046	hindgut	semapv:LexicalM
 GOLDVOCAB:Honey	Honey	skos:exactMatch	UBERON:0036016	honey	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	honey
 GOLDVOCAB:Hoof	Hoof	skos:exactMatch	UBERON:0008963	hoof	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hoof
 GOLDVOCAB:Ileum	Ileum	skos:exactMatch	UBERON:0002116	ileum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ileum
-GOLDVOCAB:Integument	Integument	skos:exactMatch	UBERON:0002199	integument	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	integument
+GOLDVOCAB:Integument	Integument	skos:exactMatch	UBERON:0002416	integumental system	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	integument
 GOLDVOCAB:Intestine	Intestine	skos:exactMatch	UBERON:0000160	intestine	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intestine
 GOLDVOCAB:Introitus	Introitus	skos:exactMatch	UBERON:0012317	vagina orifice	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	introitus
 GOLDVOCAB:Jejunum	Jejunum	skos:exactMatch	UBERON:0002115	jejunum	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	jejunum

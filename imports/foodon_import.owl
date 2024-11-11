@@ -303,6 +303,12 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006"/>
@@ -1215,32 +1221,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001292 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001292">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002044"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411224"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002044"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411224"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">oyster food product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001293">
@@ -1639,33 +1619,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">milk based gravy or sauce food product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002044">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001293"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412112"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001293"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412112"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym xml:lang="en-us">mollusk food product</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">mollusc food product</rdfs:label>
     </owl:Class>
     
 
@@ -3724,6 +3677,22 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Drinking water that has been treated by heat, filtration, chemical disinfection, and/or exposure to ultraviolet radiation (including solar UV).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
+        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F1647"/>
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* liquid, low viscosity, with no visible particles FOODON:03430123</rdfs:comment>
+        <rdfs:label xml:lang="en">drinking water (purified)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301705 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301705">
@@ -3986,6 +3955,42 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
 * whole, natural shape FOODON:03430150
 * seed (anatomical part) FOODON:03420155</rdfs:comment>
         <rdfs:label xml:lang="en">edible seed food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03304644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304644">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000116 xml:lang="en">Note that this allows for several kinds of fruit in one sample, e.g. &quot;some fruit (raw)&quot; allows &quot;apple (raw)&quot; and &quot;orange (raw)&quot;.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
+        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F4644"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">fruit</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* whole, natural shape FOODON:03430150
+* not heat-treated FOODON:03440003
+* fruit part FOODON:03420167</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -5219,28 +5224,6 @@ However, this disjunction appears to be a burden on reasoners, and so this is cu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411224 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001292"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412113"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Oyster is the common name for a number of different families of salt-water bivalve molluscs that live in marine or brackish habitats. In some species the valves are highly calcified, and many are somewhat irregular in shape. 
-True oysters are members of the family *Ostreidae*. This family includes the edible oysters, which mainly belong to the genera *Ostrea, Crassostrea, Ostreola, Magallana, Saccostrea*.  Pearl oysters are not closely related to true oysters, being members of a distinct family, the feathered oysters (*Pteriidae*).</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Oyster</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref>eolife:2267</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>langual:B1224</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">ostreidae</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">crassostrea spp.</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">ostrea spp.</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym xml:lang="en">pteriidae</oboInOwl:hasNarrowSynonym>
-        <rdfs:label xml:lang="en">oyster</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03411229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411229">
@@ -5551,42 +5534,6 @@ True oysters are members of the family *Ostreidae*. This family includes the edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412112 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411433"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">*Mollusca* is a large phylum of invertebrate animals whose members are known as molluscs or mollusks. Molluscs are the largest marine phylum, comprising about 23% of all the named marine organisms. Numerous molluscs also live in freshwater and terrestrial habitats. [https://en.wikipedia.org/wiki/Mollusca]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://eol.org/pages/2195"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B2112"/>
-        <oboInOwl:hasDbXref rdf:resource="https://www.fao.org/fishery/en/aqspecies/mol"/>
-        <oboInOwl:hasDbXref>EC:No 216/2009 MOL</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Mollusca</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">mollusk</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">mollusc</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412113 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412112"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">*Bivalvia*, in previous centuries referred to as the *Lamellibranchiata* and *Pelecypoda*, is a class of marine and freshwater molluscs that have laterally compressed bodies enclosed by a shell consisting of two hinged parts. Bivalves as a group have no head and they lack some usual molluscan organs like the radula and the odontophore. They include the clams, oysters, cockles, mussels, scallops, and numerous other families that live in saltwater, as well as a number of families that live in freshwater.[https://en.wikipedia.org/wiki/Bivalvia]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://eol.org/pages/2215"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B2113"/>
-        <oboInOwl:hasSynonym xml:lang="en">bivalvia</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">lamellibranchiata</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pelecypod</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">pelecypoda</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">bivalve</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03412115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412115">
@@ -5676,23 +5623,6 @@ True oysters are members of the family *Ostreidae*. This family includes the edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412496 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412496">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411220"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">The grasshopper is an insect of the suborder *Caelifera* in the order *Orthoptera*. To distinguish it from bush crickets or katydids, it is sometimes referred to as the short-horned grasshopper. Species that change colour and behaviour at high population densities are called locusts.</obo:IAO_0000115>
-        <obo:IAO_0000119>WIKIPEDIA:Grasshopper</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://eol.org/pages/2634375"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B2496"/>
-        <oboInOwl:hasNarrowSynonym>Acheta domesticus</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">caelifera</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">grasshopper</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03412502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412502">
@@ -5757,45 +5687,6 @@ The family is widespread, being native to Asia, Africa, Europe and North America
         <oboInOwl:hasSynonym xml:lang="en">sea squirt</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">tunicata</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">tunicate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414644 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414644">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411220"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Moths comprise a group of insects related to butterflies, belonging to the order *Lepidoptera*. Most lepidopterans are moths; and there are thought to be approximately 160,000 species of moth, many of which are yet to be described. Most species of moth are nocturnal, but there are also crepuscular and diurnal species. [https://en.wikipedia.org/wiki/Moth]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://eol.org/pages/747"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B4644"/>
-        <oboInOwl:hasSynonym xml:lang="en">agrotis</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">butterfly</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">cossidae</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">moth</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414645 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414645">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411220"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7041"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Beetles are a group of insects that form the order *Coleoptera*, in the superorder *Endopterygota*. Their front pair of wings is hardened into wing-cases, elytra, distinguishing them from most other insects. The *Coleoptera*, with about 400,000 species, is the largest of all orders, constituting almost 40% of described insects and 25% of all known animal life-forms; new species are discovered frequently. [https://en.wikipedia.org/wiki/Beetle]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://eol.org/pages/345"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=B4645"/>
-        <oboInOwl:hasSynonym xml:lang="en">coleoptera</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">passilidae spp.</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">beetle</rdfs:label>
     </owl:Class>
     
 
@@ -5895,6 +5786,39 @@ The family is widespread, being native to Asia, Africa, Europe and North America
         <rdfs:comment xml:lang="en">Langual note: Includes eggs and milk that, although separated from the animal, are produced as integral parts and are affected by the animal&apos;s food intake and metabolism.</rdfs:comment>
         <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
         <rdfs:label xml:lang="en">animal material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420167">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The fleshy fruit of any plant. *FRUIT* includes vegetables berries and pods as well. The bulk of a fruit is its fleshy part, which is covered by a peel (skin) and which encloses a core, pit or seeds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0167"/>
+        <oboInOwl:hasSynonym xml:lang="en">berry</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">berry or fruit (anatomical part)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">fruit or berry, peel undetermined</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">hip (fruit)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">infructescence</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: The descriptors under *FRUIT* are arrayed so that the indexer can check first whether the peel is present, removed or undetermined; then check the same informationfor the core, pit or seeds. For juices, beverages or jellies made from fruit, Index the entire part from which the product is derived.
+
+Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
+        <rdfs:label xml:lang="en">fruit part</rdfs:label>
     </owl:Class>
     
 
@@ -6282,6 +6206,12 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
@@ -6291,6 +6221,12 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     <!-- http://purl.obolibrary.org/obo/PO_0009010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009047"/>
     
 
 
@@ -6315,6 +6251,12 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     <!-- http://purl.obolibrary.org/obo/PO_0025496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025496"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025522"/>
     
 
 
@@ -6411,6 +6353,12 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     <!-- http://purl.obolibrary.org/obo/UBERON_0002371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002548"/>
     
 
 

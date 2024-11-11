@@ -39,6 +39,66 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17300 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_17300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18022 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_18022"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24632 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27338 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_27338"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28509 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_28509"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30043 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_30043"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33848 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_33848"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_41609 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_41609"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46661 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_46661"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80506 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/CHEBI_80506"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000011 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00000011"/>
@@ -369,6 +429,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00000446"/>
@@ -621,6 +687,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002193 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00002193"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002200 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00002200"/>
@@ -714,6 +786,12 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00003903 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00003903"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005740 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_00005740"/>
     
 
 
@@ -885,12 +963,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000254 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_01000254"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01000263 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_01000263"/>
@@ -990,6 +1062,12 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_01000749 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_01000749"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000867 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_01000867"/>
     
 
 
@@ -1137,9 +1215,45 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000139 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000139"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_02000142 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000142"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000145 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000145"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000152 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000152"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000155 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000155"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000156 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000156"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000157 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_02000157"/>
     
 
 
@@ -1323,6 +1437,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03600069 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_03600069"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03600070 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/ENVO_03600070"/>
@@ -1467,6 +1587,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301647 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03301647"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301705 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03301705"/>
@@ -1515,24 +1641,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411220 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03411220"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411222 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03411222"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03411224 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03411224"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03411229 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03411229"/>
@@ -1563,12 +1671,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412112 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03412112"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03412115 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03412115"/>
@@ -1593,27 +1695,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412496 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03412496"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03412502 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03412502"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414644 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03414644"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03414645 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/FOODON_03414645"/>
     
 
 
@@ -1731,9 +1815,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10206 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10206"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12908 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12908"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13804 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13804"/>
     
 
 
@@ -1959,12 +2055,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7586 -->
-
-    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7586"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7588 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7588"/>
@@ -1974,6 +2064,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7625 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7625"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7705 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7705"/>
     
 
 
@@ -1998,6 +2094,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7756 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7756"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7777 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7777"/>
     
 
 
@@ -2127,6 +2229,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0009001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
@@ -2136,6 +2244,24 @@
     <!-- http://purl.obolibrary.org/obo/PO_0009010 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009046 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0009046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009047 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0009047"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020031 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0020031"/>
     
 
 
@@ -2169,9 +2295,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025522 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0025522"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025623 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0025623"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025626 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/PO_0025626"/>
     
 
 
@@ -2529,6 +2667,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001728 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0001728"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001752 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0001752"/>
@@ -2679,6 +2823,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002416 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0002416"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002481 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0002481"/>
@@ -2694,6 +2844,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002535 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0002535"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002548 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0002548"/>
     
 
 
@@ -2739,6 +2895,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006972 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0006972"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0007118 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0007118"/>
@@ -2766,6 +2928,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0007380 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0007380"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795"/>
     
 
 
@@ -2868,6 +3036,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_3010636 -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_3010636"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_6000016 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/UBERON_6000016"/>
     
 
 
@@ -3728,7 +3902,17 @@
     <!-- https://w3id.org/gold.path/Engineered-Wastewater-Municipal-landfill -->
 
     <Class rdf:about="https://w3id.org/gold.path/Engineered-Wastewater-Municipal-landfill">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4264"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4264"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000157"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>3</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Wastewater &gt; Municipal landfill</rdfs:label>
     </Class>
@@ -3788,7 +3972,17 @@
     <!-- https://w3id.org/gold.path/Environmental-Aquatic-Freshwater-Desert-springs -->
 
     <Class rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Freshwater-Desert-springs">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4159"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4159"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000139"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Aquatic &gt; Freshwater &gt; Desert springs</rdfs:label>
     </Class>
@@ -3843,7 +4037,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4003"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
                     </Restriction>
                 </intersectionOf>
@@ -3921,6 +4115,16 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4003"/>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Aquatic &gt; Marine &gt; Subtidal zone</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/gold.path/Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29 -->
+
+    <Class rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/3970"/>
+        <oboInOwl:inSubset>4</oboInOwl:inSubset>
+        <rdfs:label>Environmental &gt; Aquatic &gt; Non-marine Saline and Alkaline &gt; Near-boiling (&gt;90C)</rdfs:label>
     </Class>
     
 
@@ -5417,7 +5621,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_96475"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411301"/>
                     </Restriction>
                 </intersectionOf>
@@ -5451,7 +5655,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2763"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411743"/>
                     </Restriction>
                 </intersectionOf>
@@ -5475,7 +5679,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2870"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412395"/>
                     </Restriction>
                 </intersectionOf>
@@ -5537,7 +5741,7 @@
         <equivalentClass>
             <Restriction>
                 <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
             </Restriction>
         </equivalentClass>
         <oboInOwl:inSubset>1</oboInOwl:inSubset>
@@ -5594,7 +5798,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3966"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -5633,7 +5837,17 @@
     <!-- https://w3id.org/gold.path/3969 -->
 
     <Class rdf:about="https://w3id.org/gold.path/3969">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/3966"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/3966"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_41609"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>5</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Aquatic &gt; Non-marine Saline and Alkaline &gt; Alkaline &gt; Carbonate</rdfs:label>
     </Class>
@@ -5698,7 +5912,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3973"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -5802,7 +6016,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3978"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -5856,7 +6070,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3981"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -5874,7 +6088,7 @@
         <equivalentClass>
             <Class>
                 <intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29"/>
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-_28_3E90C_29"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
@@ -5896,7 +6110,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3964"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002030"/>
                     </Restriction>
                 </intersectionOf>
@@ -6176,7 +6390,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Marine-Fossil"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000140"/>
                     </Restriction>
                 </intersectionOf>
@@ -6196,7 +6410,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3984"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000447"/>
                     </Restriction>
                 </intersectionOf>
@@ -6658,7 +6872,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4027"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -6782,7 +6996,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4008"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
                     </Restriction>
                 </intersectionOf>
@@ -6917,6 +7131,10 @@
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301647"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
         </equivalentClass>
@@ -7004,7 +7222,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4061"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000133"/>
                     </Restriction>
                 </intersectionOf>
@@ -7259,7 +7477,17 @@
     <!-- https://w3id.org/gold.path/4081 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4081">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4082"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4082"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_6000016"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>5</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Arthropoda &gt; Integument &gt; Cuticle &gt; Thoracic segments</rdfs:label>
     </Class>
@@ -7364,7 +7592,17 @@
     <!-- https://w3id.org/gold.path/4087 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4087">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4799"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4799"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10206"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Invertebrates &gt; Bryozoans &gt; Gymnolaemates</rdfs:label>
     </Class>
@@ -7479,8 +7717,8 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4086"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411222"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7777"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -7533,7 +7771,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411261"/>
                     </Restriction>
                 </intersectionOf>
@@ -7882,7 +8120,17 @@
     <!-- https://w3id.org/gold.path/4120 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4120">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4122"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4122"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001728"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Mammals &gt; Respiratory system &gt; Nasopharyngeal</rdfs:label>
     </Class>
@@ -8046,7 +8294,17 @@
     <!-- https://w3id.org/gold.path/4131 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4131">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4137"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4137"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001728"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Human &gt; Respiratory system &gt; Nasopharyngeal</rdfs:label>
     </Class>
@@ -9045,7 +9303,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3964"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
                     </Restriction>
                 </intersectionOf>
@@ -9199,7 +9457,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Terrestrial-Soil-Unclassified"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000177"/>
                     </Restriction>
                 </intersectionOf>
@@ -9343,7 +9601,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Terrestrial-Soil-Unclassified"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000250"/>
                     </Restriction>
                 </intersectionOf>
@@ -9423,7 +9681,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4203"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000177"/>
                     </Restriction>
                 </intersectionOf>
@@ -9483,7 +9741,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4229"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000177"/>
                     </Restriction>
                 </intersectionOf>
@@ -9647,7 +9905,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4241"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000177"/>
                     </Restriction>
                 </intersectionOf>
@@ -9831,7 +10089,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIXS_FoodFoodProductionFacility"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530206"/>
                     </Restriction>
                 </intersectionOf>
@@ -10050,7 +10308,17 @@
     <!-- https://w3id.org/gold.path/4266 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4266">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4267"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4267"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002193"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Wastewater &gt; Industrial wastewater &gt; Pulp and paper wastewater</rdfs:label>
     </Class>
@@ -10130,7 +10398,17 @@
     <!-- https://w3id.org/gold.path/4276 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4276">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4292"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4292"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000155"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>2</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Solid waste</rdfs:label>
     </Class>
@@ -10365,7 +10643,17 @@
     <!-- https://w3id.org/gold.path/4296 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4296">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Engineered-Bioremediation-Tetrachloroethylene-and-derivatives"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Engineered-Bioremediation-Tetrachloroethylene-and-derivatives"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17300"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Bioremediation &gt; Tetrachloroethylene and derivatives &gt; Tetrachloroethylene</rdfs:label>
     </Class>
@@ -10399,7 +10687,17 @@
     <!-- https://w3id.org/gold.path/4298 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4298">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Engineered-Bioremediation-Tetrachloroethylene-and-derivatives"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Engineered-Bioremediation-Tetrachloroethylene-and-derivatives"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28509"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Bioremediation &gt; Tetrachloroethylene and derivatives &gt; Chloroethene</rdfs:label>
     </Class>
@@ -10440,6 +10738,10 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIXS_HydrocarbonResourcesCores"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -10517,7 +10819,17 @@
     <!-- https://w3id.org/gold.path/4305 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4305">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4724"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4724"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33848"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Bioremediation &gt; Persistent organic pollutants (POP) &gt; Polycyclic aromatic hydrocarbons</rdfs:label>
     </Class>
@@ -10705,10 +11017,6 @@
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
                     </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411220"/>
-                    </Restriction>
                 </intersectionOf>
             </Class>
         </equivalentClass>
@@ -10768,10 +11076,6 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6447"/>
-                    </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412112"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -10934,7 +11238,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012644"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000165"/>
                     </Restriction>
                 </intersectionOf>
@@ -11214,7 +11518,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4098"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412345"/>
                     </Restriction>
                 </intersectionOf>
@@ -11403,7 +11707,17 @@
     <!-- https://w3id.org/gold.path/4433 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4433">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/3938"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/3938"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13804"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>3</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Peat moss</rdfs:label>
     </Class>
@@ -11413,7 +11727,17 @@
     <!-- https://w3id.org/gold.path/4436 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4436">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4304"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4304"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18022"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>3</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Bioremediation &gt; Thiocyanate</rdfs:label>
     </Class>
@@ -11662,7 +11986,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411229"/>
                     </Restriction>
                 </intersectionOf>
@@ -11876,7 +12200,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0003023"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000164"/>
                     </Restriction>
                 </intersectionOf>
@@ -11891,7 +12215,17 @@
     <!-- https://w3id.org/gold.path/4525 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4525">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4460"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4460"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Phyllosphere &gt; Caulosphere</rdfs:label>
     </Class>
@@ -11981,7 +12315,17 @@
     <!-- https://w3id.org/gold.path/4538 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4538">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4460"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4460"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009046"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Phyllosphere &gt; Anthosphere</rdfs:label>
     </Class>
@@ -12140,7 +12484,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4008"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -12179,7 +12523,17 @@
     <!-- https://w3id.org/gold.path/4562 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4562">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4159"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4159"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000145"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Aquatic &gt; Freshwater &gt; Subterranean lake</rdfs:label>
     </Class>
@@ -12393,7 +12747,17 @@
     <!-- https://w3id.org/gold.path/4600 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4600">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4460"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4460"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Phyllosphere &gt; Carposphere</rdfs:label>
     </Class>
@@ -12410,10 +12774,6 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7041"/>
-                    </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414645"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -12617,7 +12977,17 @@
     <!-- https://w3id.org/gold.path/4632 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4632">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4324"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4324"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002548"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>3</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Mollusca &gt; Larvae</rdfs:label>
     </Class>
@@ -12657,7 +13027,17 @@
     <!-- https://w3id.org/gold.path/4639 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4639">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4279"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4279"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000867"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>3</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Built environment &gt; Solar panel</rdfs:label>
     </Class>
@@ -12696,7 +13076,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4822"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -12765,7 +13145,17 @@
     <!-- https://w3id.org/gold.path/4651 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4651">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4088"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4088"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002416"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>5</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Invertebrates &gt; Cnidaria &gt; Coral &gt; Surface</rdfs:label>
     </Class>
@@ -12820,7 +13210,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3992"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -13024,7 +13414,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4003"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412266"/>
                     </Restriction>
                 </intersectionOf>
@@ -13281,7 +13671,17 @@
     <!-- https://w3id.org/gold.path/4722 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4722">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4304"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4304"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30043"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>3</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Bioremediation &gt; Terephthalate</rdfs:label>
     </Class>
@@ -13360,7 +13760,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411261"/>
                     </Restriction>
                 </intersectionOf>
@@ -13460,7 +13860,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4212"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000133"/>
                     </Restriction>
                 </intersectionOf>
@@ -13524,7 +13924,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3041"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412502"/>
                     </Restriction>
                 </intersectionOf>
@@ -13948,7 +14348,7 @@
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008979"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002033"/>
                     </Restriction>
                 </intersectionOf>
@@ -14039,10 +14439,6 @@
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4754"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7586"/>
-                    </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412115"/>
                     </Restriction>
                 </intersectionOf>
@@ -14297,7 +14693,17 @@
     <!-- https://w3id.org/gold.path/4841 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4841">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Environmental-Terrestrial-Nest"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Terrestrial-Nest"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_03600069"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Terrestrial &gt; Nest &gt; Alligator nest</rdfs:label>
     </Class>
@@ -15149,7 +15555,17 @@
     <!-- https://w3id.org/gold.path/4994 -->
 
     <Class rdf:about="https://w3id.org/gold.path/4994">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/3943"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/3943"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025522"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Rhizome &gt; Stem tuber</rdfs:label>
     </Class>
@@ -15779,7 +16195,17 @@
     <!-- https://w3id.org/gold.path/5054 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5054">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Host-associated-Fish-Abdomen"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Host-associated-Fish-Abdomen"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Fish &gt; Abdomen &gt; Ascites</rdfs:label>
     </Class>
@@ -15789,7 +16215,17 @@
     <!-- https://w3id.org/gold.path/5057 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5057">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Host-associated-Horse-Respiratory-system"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Host-associated-Horse-Respiratory-system"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001728"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Horse &gt; Respiratory system &gt; Nasopharyngeal</rdfs:label>
     </Class>
@@ -16059,7 +16495,17 @@
     <!-- https://w3id.org/gold.path/5087 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5087">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4300"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4300"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27338"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Bioremediation &gt; Hydrocarbon &gt; Xylene</rdfs:label>
     </Class>
@@ -16217,10 +16663,6 @@
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7088"/>
                     </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414644"/>
-                    </Restriction>
                 </intersectionOf>
             </Class>
         </equivalentClass>
@@ -16240,10 +16682,6 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7001"/>
-                    </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412496"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -16735,7 +17173,17 @@
     <!-- https://w3id.org/gold.path/5195 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5195">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Host-associated-Annelida-Excretory-system"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Host-associated-Annelida-Excretory-system"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006972"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Annelida &gt; Excretory system &gt; Nephridia</rdfs:label>
     </Class>
@@ -16752,10 +17200,6 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6563"/>
-                    </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411224"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -16774,7 +17218,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3901"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002468"/>
                     </Restriction>
                 </intersectionOf>
@@ -17019,7 +17463,17 @@
     <!-- https://w3id.org/gold.path/5248 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5248">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4803"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4803"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7705"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Invertebrates &gt; Echinodermata &gt; Sea cucumber</rdfs:label>
     </Class>
@@ -17355,10 +17809,6 @@
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4086"/>
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7586"/>
-                    </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412115"/>
                     </Restriction>
                 </intersectionOf>
@@ -17636,7 +18086,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/5263"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -17696,7 +18146,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4003"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000035"/>
                     </Restriction>
                 </intersectionOf>
@@ -17776,7 +18226,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4003"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000038"/>
                     </Restriction>
                 </intersectionOf>
@@ -17876,7 +18326,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4512"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -18070,7 +18520,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4653"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -18105,7 +18555,17 @@
     <!-- https://w3id.org/gold.path/5364 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5364">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4013"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4013"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000152"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>5</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Aquatic &gt; Marine &gt; Intertidal zone &gt; Mangrove sediment</rdfs:label>
     </Class>
@@ -18214,7 +18674,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4179"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -18522,7 +18982,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3901"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411237"/>
                     </Restriction>
                 </intersectionOf>
@@ -18542,7 +19002,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Freshwater-Desert-springs"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
                     </Restriction>
                 </intersectionOf>
@@ -18666,7 +19126,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/3901"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002717"/>
                     </Restriction>
                 </intersectionOf>
@@ -18840,7 +19300,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4212"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -18904,12 +19364,12 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Terrestrial-Soil-Unclassified"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005741"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001835"/>
                     </Restriction>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001835"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005741"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -18948,7 +19408,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Freshwater-Aquifer"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -18963,7 +19423,17 @@
     <!-- https://w3id.org/gold.path/5448 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5448">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4572"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4572"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020031"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Seeds &gt; Seed radicle</rdfs:label>
     </Class>
@@ -19158,7 +19628,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4536"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -19298,7 +19768,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4436"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -19320,6 +19790,10 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301647"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -19571,7 +20045,17 @@
     <!-- https://w3id.org/gold.path/5536 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5536">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4267"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4267"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000156"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Wastewater &gt; Industrial wastewater &gt; Organic dairy farm</rdfs:label>
     </Class>
@@ -19943,6 +20427,10 @@
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000119"/>
                     </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_80506"/>
+                    </Restriction>
                 </intersectionOf>
             </Class>
         </equivalentClass>
@@ -20175,7 +20663,17 @@
     <!-- https://w3id.org/gold.path/5613 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5613">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4212"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4212"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005740"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Terrestrial &gt; Soil &gt; Paddy field/soil</rdfs:label>
     </Class>
@@ -20293,10 +20791,6 @@
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
                     </Restriction>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
-                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411220"/>
-                    </Restriction>
                 </intersectionOf>
             </Class>
         </equivalentClass>
@@ -20344,7 +20838,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -20424,7 +20918,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4595"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -20664,7 +21158,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/4612"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -20824,7 +21318,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Engineered-Built-environment-Pipeline-Drinking-water-pipeline"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -20938,7 +21432,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Marine-Benthic"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000142"/>
                     </Restriction>
                 </intersectionOf>
@@ -20983,7 +21477,17 @@
     <!-- https://w3id.org/gold.path/5719 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5719">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/Environmental-Terrestrial-Geologic-Mine-pit-pond"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Terrestrial-Geologic-Mine-pit-pond"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46661"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>5</oboInOwl:inSubset>
         <rdfs:label>Environmental &gt; Terrestrial &gt; Geologic &gt; Mine pit pond &gt; Asbestos</rdfs:label>
     </Class>
@@ -21030,6 +21534,10 @@
                     <Restriction>
                         <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MIXS_HydrocarbonResourcesCores"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
                     </Restriction>
                 </intersectionOf>
             </Class>
@@ -21248,7 +21756,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/5747"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000008"/>
                     </Restriction>
                 </intersectionOf>
@@ -21583,7 +22091,17 @@
     <!-- https://w3id.org/gold.path/5786 -->
 
     <Class rdf:about="https://w3id.org/gold.path/5786">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4466"/>
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/gold.path/4466"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025626"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Host-associated &gt; Plants &gt; Roots &gt; Galls</rdfs:label>
     </Class>
@@ -21762,7 +22280,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Environmental-Air-Indoor-Air-Air-scrubber"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -22172,7 +22690,7 @@
                 <intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/gold.path/Engineered-Bioreactor-Photobioreactor"/>
                     <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002219"/>
                         <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002034"/>
                     </Restriction>
                 </intersectionOf>
@@ -22200,16 +22718,6 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/4469"/>
         <oboInOwl:inSubset>4</oboInOwl:inSubset>
         <rdfs:label>Engineered &gt; Built environment &gt; Tailings pond &gt; Petrochemical</rdfs:label>
-    </Class>
-    
-
-
-    <!-- https://w3id.org/gold.path/Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29 -->
-
-    <Class rdf:about="https://w3id.org/gold.path/Environmental-Aquatic-Non-marine-Saline-and-Alkaline-Near-boiling-%28%3E90C%29">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gold.path/3970"/>
-        <oboInOwl:inSubset>4</oboInOwl:inSubset>
-        <rdfs:label>Environmental &gt; Aquatic &gt; Non-marine Saline and Alkaline &gt; Near-boiling (&gt;90C)</rdfs:label>
     </Class>
 </rdf:RDF>
 

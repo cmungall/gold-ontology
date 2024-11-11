@@ -5285,6 +5285,18 @@ class labels for these objects. The resulting predictor can be used to attach cl
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <obo:IAO_0000111>nasopharynx</obo:IAO_0000111>
+        <obo:IAO_0000115>The section of the pharynx that lies above the soft palate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <rdfs:label>nasopharynx</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001811 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001811">

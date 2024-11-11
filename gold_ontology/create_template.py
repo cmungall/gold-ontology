@@ -1,24 +1,32 @@
 import logging
 import sys
 from functools import lru_cache
+from pathlib import Path
 from typing import Optional, Iterator, Dict, TextIO, List
 
 import click
 import yaml
 from oaklib import get_adapter
 from oaklib.datamodels.vocabulary import IS_A, OWL_CLASS
-from oaklib.interfaces import MappingProviderInterface
+from oaklib.interfaces import MappingProviderInterface, OboGraphInterface
+from oaklib.types import CURIE
 from pydantic import BaseModel
 
 from gold_ontology.gold_transform import parse_sssom
 
+logger = logging.getLogger(__name__)
+
 MATERIAL = "ENVO:00010483"
+MASS_OF_ENVIRONMENTAL_MATERIAL = "ENVO:01001686"
 BIOME = "ENVO:00000428"
 ECOSYSTEM = "ENVO:01001110"
 ENVIRONMENTAL_SYSTEM = "ENVO:01000254"
 ABP = "ENVO:01000813"
 PRODUCT = "ENVO:00003074"
 DEVICE = "OBI:0000968"
+FOOD_MATERIAL = "FOODON:00002403"
+ANATOMICAL_STRUCTURE = "UBERON:0000061"
+MULTICELLULAR_ORGANISM = "UBERON:0000468"
 
 ROBOT_HEADER = {
     "id": "ID",
@@ -62,15 +70,22 @@ def write_robot_template(terms: Iterator[GoldTerm], file: TextIO=sys.stdout) -> 
     """
     Convert a list of GoldTerms to a list of dictionaries suitable for a robot template
 
-    >>> env1 = OntologyClass(id="ENVO:0000001", label="bar")
-    >>> env2 = OntologyClass(id="ENVO:0000002", label="baz")
-    >>> term1 = GoldTerm(id="GOLDTERMS:0001", label="foo", level=1, env_medium=env1)
-    >>> term2 = GoldTerm(id="GOLDTERMS:0002", label="foo2", level=2, env_local=env2)
-    >>> write_robot_template([term1, term2])
-    id,label,level,vocab_differentia,mixs_extension,env_broad,env_local,env_medium,taxon,anatomical_site,other,interpretation
-    ID,LABEL,A gold.level,C %,C RO:0001000 some %,C RO:0001025 some %,C RO:0002507 some %,C RO:0002219 some %,C RO:0002162 some %,C BFO:0000050 some %,C RO:0002321 some %,CLASS_TYPE
-    GOLDTERMS:0001,foo,1,,,,,ENVO:0000001,,,,equivalent
-    GOLDTERMS:0002,foo2,2,,,,ENVO:0000002,,,,,equivalent
+    Example:
+
+        >>> env1 = OntologyClass(id="ENVO:0000001", label="bar")
+        >>> env2 = OntologyClass(id="ENVO:0000002", label="baz")
+        >>> term1 = GoldTerm(id="GOLDTERMS:0001", label="foo", level=1, env_medium=env1)
+        >>> term2 = GoldTerm(id="GOLDTERMS:0002", label="foo2", level=2, env_local=env2)
+        >>> write_robot_template([term1, term2])
+
+    This will generate a file:
+
+    .. code-block:: csv
+
+        id,label,level,vocab_differentia,mixs_extension,env_broad,env_local,env_medium,taxon,anatomical_site,other,interpretation
+        ID,LABEL,A gold.level,C %,C RO:0001000 some %,C RO:0001025 some %,C RO:0002507 some %,C RO:0002219 some %,C RO:0002162 some %,C BFO:0000050 some %,C RO:0002321 some %,CLASS_TYPE
+        GOLDTERMS:0001,foo,1,,,,,ENVO:0000001,,,,equivalent
+        GOLDTERMS:0002,foo2,2,,,,ENVO:0000002,,,,,equivalent
 
 
     """
@@ -95,21 +110,24 @@ def as_robot_template_row(term: GoldTerm) -> Dict[str, str]:
     """
     Convert a GoldTerm to a dictionary suitable for a robot template row
 
-    >>> env = OntologyClass(id="ENVO:0000001", label="bar")
-    >>> term = GoldTerm(id="GOLDTERMS:0001", label="foo", level=1, env_medium=env)
-    >>> as_robot_template_row(term)
-    {'id': 'GOLDTERMS:0001', 'label': 'foo', 'level': '1', 'env_medium': 'ENVO:0000001', 'interpretation': 'equivalent'}
+    Example:
 
-    >>> term.curated = False
-    >>> as_robot_template_row(term)
-    {'id': 'GOLDTERMS:0001', 'label': 'foo', 'level': '1', 'env_medium': 'ENVO:0000001', 'interpretation': 'subclass'}
+        >>> env = OntologyClass(id="ENVO:0000001", label="bar")
+        >>> term = GoldTerm(id="GOLDTERMS:0001", label="foo", level=1, env_medium=env)
+        >>> as_robot_template_row(term)
+        {'id': 'GOLDTERMS:0001', 'label': 'foo', 'level': '1', 'env_medium': 'ENVO:0000001', 'interpretation': 'equivalent'}
+
+    And:
+
+        >>> term.curated = False
+        >>> as_robot_template_row(term)
+        {'id': 'GOLDTERMS:0001', 'label': 'foo', 'level': '1', 'env_medium': 'ENVO:0000001', 'interpretation': 'subclass'}
 
 
     :param term:
     :return:
     """
-    row = {
-    }
+    row = {}
     interp = "subclass" if term.curated is False else "equivalent"
     for slot in vars(term):
         if slot in row:
@@ -126,17 +144,33 @@ def as_robot_template_row(term: GoldTerm) -> Dict[str, str]:
     row["interpretation"] = interp
     return row
 
+adapter_cache = {}
+
 #@lru_cache
 def get_adapter_for(obj_id: str) -> Optional[MappingProviderInterface]:
+    """
+    Get an OAK adapter for a given ontology term ID
+
+    :param obj_id:
+    :return:
+    """
     prefix = obj_id.split(":")[0]
     if prefix.startswith("GOLD"):
         return None
     prefix = prefix.lower()
-    adapter = get_adapter(f"sqlite:obo:{prefix}")
+    if prefix not in adapter_cache:
+        adapter = get_adapter(f"sqlite:obo:{prefix}")
+        adapter_cache[prefix] = adapter
+    #adapter = get_adapter(f"sqlite:obo:{prefix}")
+    return adapter_cache[prefix]
+
+def get_ontology_graph_adapter_for(obj_id: str) -> Optional[OboGraphInterface]:
+    adapter = get_adapter_for(obj_id)
+    if not isinstance(adapter, OboGraphInterface):
+        raise ValueError(f"Adapter for {obj_id} is not an OboGraphInterface")
     return adapter
 
-
-def create_template(gold: MappingProviderInterface) -> Iterator[GoldTerm]:
+def create_robot_template(gold: OboGraphInterface) -> Iterator[GoldTerm]:
     """
     Create a ROBOT template from the gold ontology plus mappings.
 
@@ -148,79 +182,155 @@ def create_template(gold: MappingProviderInterface) -> Iterator[GoldTerm]:
     """
     entities = gold.entities(owl_type=OWL_CLASS)
     for term_id in entities:
-        if not term_id.startswith("GOLDTERMS:"):
+        t = create_robot_template_row(gold, term_id)
+        if t:
+            yield t
+
+def create_robot_template_row(gold: OboGraphInterface, gold_term_id: str) -> Optional[GoldTerm]:
+    """
+    Create a ROBOT template row from a single term.
+
+    Example:
+
+        >>> from oaklib import get_adapter
+        >>> path_to_obo = Path(__file__).parent.parent / "gold.obo"
+        >>> gold = get_adapter(f"simpleobo:{path_to_obo}")
+        >>> t = create_robot_template_row(gold, "GOLDTERMS:3964")
+        >>> t.env_broad.id
+        'ENVO:00000428'
+
+    :param gold:
+    :param gold_term_id:
+    :return:
+    """
+    if not gold_term_id.startswith("GOLDTERMS:"):
+        return
+    ancs = list(gold.ancestors(gold_term_id, [IS_A]))
+    label = gold.label(gold_term_id)
+    if not label:
+        raise AssertionError(f"No label for {gold_term_id}")
+    t = GoldTerm(
+        id=gold_term_id,
+        label=label,
+        level=len(ancs),
+    )
+    # Get relationships to GOLD atoms
+    rels = list(gold.relationships([gold_term_id]))
+    rels = [r[2] for r in rels if r[1] != IS_A]
+    parents = gold.hierarchical_parents(gold_term_id, isa_only=True)
+    parent_rels = []
+    if parents:
+        if len(parents) > 1:
+            raise AssertionError(f"term {gold_term_id} has >1 parents {parents}")
+        parent = parents[0]
+        t.parent = parent
+        # parent path to atoms
+        parent_rels = [r[2] for r in gold.relationships([parent]) if r[1] != IS_A]
+    rels_diff = list(set(rels).difference(set(parent_rels)))
+    if len(rels_diff) != 1:
+        raise AssertionError(f"Diff {gold_term_id} rels={rels} + diff={rels_diff} = {parent_rels}")
+    t.vocab_differentia = rels_diff[0]
+    if isinstance(gold, MappingProviderInterface):
+        gold_mapper: MappingProviderInterface = gold
+    else:
+        raise ValueError(f"Gold is not a mapping provider")
+    mappings = list(gold_mapper.sssom_mappings([gold_term_id, t.vocab_differentia]))
+    n = 0
+    for m in mappings:
+        obj = m.object_id
+        slot = guess_mixs_slot_for_mapping(obj)
+        if not slot:
             continue
-        ancs = list(gold.ancestors(term_id, [IS_A]))
-        label = gold.label(term_id)
-        if not label:
-            raise AssertionError(f"No label for {term_id}")
-        t = GoldTerm(id=term_id, label=label, level=len(ancs))
-        rels = list(gold.relationships([term_id]))
-        rels = [r[2] for r in rels if r[1] != IS_A]
-        parents = gold.hierarchical_parents(term_id, isa_only=True)
-        parent_rels = []
-        if parents:
-            if len(parents) > 1:
-                raise AssertionError(f"term {term_id} has >1 parents {parents}")
-            parent = parents[0]
-            t.parent = parent
-            parent_rels = [r[2] for r in gold.relationships([parent]) if r[1] != IS_A]
-        rels_diff = list(set(rels).difference(set(parent_rels)))
-        if len(rels_diff) != 1:
-            raise AssertionError(f"Diff {term_id} rels={rels} + diff={rels_diff} = {parent_rels}")
-        t.vocab_differentia = rels_diff[0]
-        mappings = list(gold.sssom_mappings([term_id, t.vocab_differentia]))
-        n = 0
-        for m in mappings:
-            obj = m.object_id
-            if obj.startswith("MIXS"):
-                obj_label = obj.replace("MIXS:", "MIXS:")
-            else:
-                obj_adapter = get_adapter_for(obj)
-                if not obj_adapter:
-                    logging.warning(f"No adapter for {obj} for {term_id}")
-                    continue
-                obj_label = obj_adapter.label(obj)
-                if not obj_label:
-                    raise ValueError(f"No label for {obj}")
-            ext_obj = OntologyClass(id=obj, label=obj_label)
-            if obj.startswith("UBERON:") or obj.startswith("PO:"):
-                slot = "anatomical_site"
-            elif obj.startswith("FOODON:"):
-                if "Host-associated" in label:
-                    # FOODON is also used for grouping taxa
-                    slot = "host_taxon"
-                else:
-                    slot = "env_medium"
-            elif obj.startswith("MIXS:"):
-                slot = "mixs_extension"
-            elif obj.startswith("NCBITaxon:"):
+        if obj.startswith("MIXS"):
+            obj_label = obj.replace("MIXS:", "MIXS:")
+        else:
+            obj_adapter = get_adapter_for(obj)
+            if not obj_adapter:
+                logging.warning(f"No adapter for {obj} for {gold_term_id}")
+                return
+            logger.debug(f"Mapping {gold_term_id} to {obj}")
+            obj_label = obj_adapter.label(obj)
+            if not obj_label:
+                raise ValueError(f"No label for {obj}")
+        ext_obj = OntologyClass(id=obj, label=obj_label)
+        n += 1
+        setattr(t, slot, ext_obj)
+    if n == 0 and t.parent != "GOLDVOCAB:Unclassified":
+        t.curated = False
+    else:
+        t.curated = True
+    return t
+
+
+def guess_mixs_slot_for_mapping(obj: CURIE, label: Optional[str] = None) -> Optional[str]:
+    """
+    Guess the MIXS slot for a given ontology term
+
+    Examples:
+
+        >>> guess_mixs_slot_for_mapping("PO:0025034") # leaf
+        'anatomical_site'
+
+        >>> guess_mixs_slot_for_mapping("ENVO:03600017") # slurry
+        'env_medium'
+
+        >>> guess_mixs_slot_for_mapping("ENVO:00002034") # biofilm
+        'env_medium'
+
+        >>> guess_mixs_slot_for_mapping("FOODON:03542700") # yoghurt
+        'env_medium'
+
+        >>> guess_mixs_slot_for_mapping("FOODON:03411222")
+        'host_taxon'
+
+    :param obj:
+    :param label: gold path label
+    :return:
+    """
+    if obj.startswith("UBERON:") or obj.startswith("PO:"):
+        slot = "anatomical_site"
+    elif obj.startswith("FOODON:"):
+        obj_adapter = get_ontology_graph_adapter_for(obj)
+        ancs = list(obj_adapter.ancestors(obj, predicates=[IS_A]))
+        if MULTICELLULAR_ORGANISM in ancs:
+            if not label or "Host-associated" in label:
                 slot = "host_taxon"
-            elif obj.startswith("ENVO:") or obj.startswith("OBI:"):
-                ancs = list(obj_adapter.ancestors(obj, predicates=[IS_A]))
-                if MATERIAL in ancs:
-                    slot = "env_medium"
-                elif ABP in ancs:
-                    slot = "env_local"
-                elif BIOME in ancs:
-                    slot = "env_broad"
-                elif DEVICE in ancs:
-                    slot = "env_local"
-                elif ECOSYSTEM in ancs:
-                    # TODO: check
-                    slot = "env_broad"
-                elif ENVIRONMENTAL_SYSTEM in ancs:
-                    # TODO: check
-                    slot = "env_broad"
-                else:
-                    slot = "other"
             else:
+                logger.warning(f"Organism in non-host concept {term_id} <-> {obj}")
                 slot = "other"
-            n += 1
-            setattr(t, slot, ext_obj)
-        if n == 0 and t.parent != "GOLDVOCAB:Unclassified":
-            t.curated = False
-        yield t
+        elif FOOD_MATERIAL in ancs:
+            slot = "env_medium"
+        elif label and "Host-associated" in label:
+            # FOODON is also used for grouping taxa
+            slot = "host_taxon"
+        else:
+            slot = "other"
+    elif obj.startswith("MIXS:"):
+        slot = "mixs_extension"
+    elif obj.startswith("NCBITaxon:"):
+        slot = "host_taxon"
+    elif obj.startswith("ENVO:") or obj.startswith("OBI:"):
+        obj_adapter = get_ontology_graph_adapter_for(obj)
+        ancs = list(obj_adapter.ancestors(obj, predicates=[IS_A]))
+        if MATERIAL in ancs or MASS_OF_ENVIRONMENTAL_MATERIAL in ancs:
+            slot = "env_medium"
+        elif BIOME in ancs:
+            slot = "env_broad"
+        elif ABP in ancs:
+            slot = "env_local"
+        elif DEVICE in ancs:
+            slot = "env_local"
+        elif ECOSYSTEM in ancs:
+            # TODO: check
+            slot = "env_broad"
+        elif ENVIRONMENTAL_SYSTEM in ancs:
+            # TODO: check
+            slot = "env_broad"
+        else:
+            slot = "other"
+    else:
+        slot = "other"
+    return slot
 
 
 def propagate_down(terms: List[GoldTerm]) -> List[GoldTerm]:
@@ -389,10 +499,13 @@ def write_simple_robot_csv(terms: List[GoldTerm]) -> None:
 )
 @click.argument('input')
 def cli(input: str, output: str, curated_only: bool, uncurated_only: bool, format: str, stream: bool, propagate: bool, template_output: Optional[str]):
+    """
+    Create a robot template from an ontology.
+    """
     adapter = get_adapter(input)
     dict_objs = []
     objs = []
-    for term in create_template(adapter):
+    for term in create_robot_template(adapter):
         if curated_only and term.curated is False:
             continue
         if uncurated_only and term.curated is not False:

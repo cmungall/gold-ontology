@@ -253,6 +253,7 @@ GOLDVOCAB:Mud	Mud	skos:exactMatch	ENVO:01000001	mud	semapv:LexicalMatching	oakli
 GOLDVOCAB:Mud-volcano	Mud volcano	skos:exactMatch	ENVO:00000402	mud volcano	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	mud volcano
 GOLDVOCAB:Nature-reserve	Nature reserve	skos:exactMatch	ENVO:00000363	area designated as a nature reserve	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	nature reserve
 GOLDVOCAB:Nest	Nest	skos:closeMatch	ENVO:00005803	animal habitation	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasNarrowSynonym	nest
+GOLDVOCAB:Alligator-nest	Alligator nest	skos:exactMatch	ENVO:03600069	nest of alligator	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alligator nest		
 GOLDVOCAB:Nuclear-test-reactor	Nuclear test reactor	skos:exactMatch	ENVO:02000136	research nuclear reactor	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	nuclear test reactor
 GOLDVOCAB:Ocean-trench	Ocean trench	skos:exactMatch	ENVO:00000275	ocean trench	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ocean trench
 GOLDVOCAB:Oceanic-crust	Oceanic crust	skos:exactMatch	ENVO:01000749	oceanic crust	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	oceanic crust
@@ -356,7 +357,7 @@ GOLDVOCAB:Microbialites	Microbialites	skos:exactMatch	ENVO:03600064	microbialite
 GOLDVOCAB:Oil-seeps	Oil seeps	skos:exactMatch	ENVO:00002063	oil seep	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	oil seep	semapv:RegularExpressionReplacement	
 GOLDVOCAB:Thermal-springs	Thermal springs	skos:exactMatch	ENVO:00000051	hot spring	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	thermal spring	semapv:RegularExpressionReplacement	
 GOLDVOCAB:Wetlands	Wetlands	skos:exactMatch	ENVO:01001209	wetland ecosystem	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
-GOLDVOCAB:Environmental	Environmental	skos:exactMatch	ENVO:01000254	environmental system	semapv:ManuallyCurated	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
+GOLDVOCAB:Environmental	Environmental	skos:exactMatch	ENVO:00000428	biome	semapv:ManuallyCurated	oaklib	0.5	oio:hasRelatedSynonym	oio:hasRelatedSynonym	wetland	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 GOLDTERMS:4562	Environmental > Aquatic > Freshwater > Subterranean lake	skos:exactMatch	ENVO:02000145	subterranean lake	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	subterranean lake		
 GOLDTERMS:5364	Environmental > Aquatic > Marine > Intertidal zone > Mangrove sediment	skos:exactMatch	ENVO:02000152	mangrove biome sediment	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mangrove sediment		
 GOLDTERMS:5536	Engineered > Wastewater > Industrial wastewater > Organic dairy farm	skos:exactMatch	ENVO:02000156	organic dairy farm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	organic dairy farm		
