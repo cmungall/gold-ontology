@@ -32,7 +32,6 @@ GOLDVOCAB:Echinodermata	Echinodermata	skos:narrowMatch	FOODON:03412115	echinoder
 GOLDVOCAB:Fish	Fish	skos:closeMatch	FOODON:03411222	fish	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fish
 GOLDVOCAB:Fly	Fly	skos:closeMatch	FOODON:00002717	fly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	fly
 GOLDVOCAB:Food-production	Food production	skos:exactMatch	FOODON:03530206	food production	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	food production
-GOLDVOCAB:Fungi	Fungi	skos:closeMatch	FOODON:03411261	fungus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	fungi
 GOLDVOCAB:Grasshopper	Grasshopper	skos:closeMatch	FOODON:03412496	grasshopper	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	grasshopper
 GOLDVOCAB:Green-algae	Green algae	skos:closeMatch	FOODON:03412502	green algae	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	green algae
 GOLDVOCAB:Horse	Horse	skos:closeMatch	FOODON:03411229	horse	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	horse

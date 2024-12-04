@@ -3,7 +3,9 @@
 This repo contains
 
 1. A rendering of the GOLD ecosystem classification as OWL
-2. Mappings of GOLD paths to ENVO expressions
+2. Mappings of GOLD paths to ENVO (and other ontology) *expressions*, conforming to MIxS
+
+It can be browsed [on bioportal](https://bioportal.bioontology.org/ontologies/GOLDTERMS?p=classes)
 
 ## Top level
 

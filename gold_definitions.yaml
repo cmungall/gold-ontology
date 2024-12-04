@@ -15,7 +15,7 @@ terms:
   parent: GOLDTERMS:4292
   level: 2
   vocab_differentia: GOLDVOCAB:Artificial-ecosystem
-  other:
+  env_local:
     id: ENVO:00010622
     label: vivarium
   curated: true
@@ -88,15 +88,15 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
-  other:
-    id: ENVO:00002123
-    label: bioreactor
   curated: true
 - id: GOLDTERMS:4536
   label: Engineered > Bioreactor > Aerobic
   parent: GOLDTERMS:4280
   level: 3
   vocab_differentia: GOLDVOCAB:Aerobic
+  env_local:
+    id: ENVO:00002126
+    label: aerobic bioreactor
   other:
     id: PATO:0001455
     label: aerobic
@@ -130,6 +130,9 @@ terms:
   parent: GOLDTERMS:4280
   level: 3
   vocab_differentia: GOLDVOCAB:Anaerobic
+  env_local:
+    id: ENVO:00002124
+    label: anaerobic bioreactor
   other:
     id: PATO:0001456
     label: anaerobic
@@ -317,7 +320,7 @@ terms:
   parent: GOLDTERMS:4280
   level: 3
   vocab_differentia: GOLDVOCAB:Membrane-bioreactor
-  other:
+  env_local:
     id: ENVO:03600010
     label: membrane bioreactor
   curated: true
@@ -359,7 +362,7 @@ terms:
   parent: GOLDTERMS:4280
   level: 3
   vocab_differentia: GOLDVOCAB:Photobioreactor
-  other:
+  env_local:
     id: ENVO:03600077
     label: photobioreactor
   curated: true
@@ -467,9 +470,6 @@ terms:
   vocab_differentia: GOLDVOCAB:Bioreactor
   env_local:
     id: OBI:0001046
-    label: bioreactor
-  other:
-    id: ENVO:00002123
     label: bioreactor
   curated: true
 - id: GOLDTERMS:5643
@@ -595,9 +595,6 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
-  other:
-    id: ENVO:00002123
-    label: bioreactor
   curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives
@@ -623,9 +620,6 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
-  other:
-    id: ENVO:00002123
-    label: bioreactor
   curated: true
 - id: GOLDTERMS:4296
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Tetrachloroethylene
@@ -644,9 +638,6 @@ terms:
   vocab_differentia: GOLDVOCAB:Bioreactor
   env_local:
     id: OBI:0001046
-    label: bioreactor
-  other:
-    id: ENVO:00002123
     label: bioreactor
   curated: true
 - id: GOLDTERMS:4436
@@ -1065,7 +1056,7 @@ terms:
   parent: GOLDTERMS:4279
   level: 3
   vocab_differentia: GOLDVOCAB:Solar-panel
-  other:
+  env_local:
     id: ENVO:01000867
     label: solar panel array
   curated: true
@@ -1263,7 +1254,7 @@ terms:
   parent: GOLDTERMS:4250
   level: 3
   vocab_differentia: GOLDVOCAB:Fermentation-starter
-  other:
+  env_local:
     id: ENVO:03600040
     label: fermentation starter
   curated: true
@@ -1383,7 +1374,7 @@ terms:
   parent: GOLDTERMS:4293
   level: 3
   vocab_differentia: GOLDVOCAB:Chemical-products
-  other:
+  env_local:
     id: ENVO:2000000
     label: chemical product
   curated: true
@@ -1455,7 +1446,7 @@ terms:
   parent: GOLDTERMS:4293
   level: 3
   vocab_differentia: GOLDVOCAB:Train-car
-  other:
+  env_local:
     id: ENVO:03600051
     label: train car
   curated: true
@@ -1595,7 +1586,7 @@ terms:
   parent: GOLDTERMS:Engineered-Lab-enrichment-Freshwater
   level: 4
   vocab_differentia: GOLDVOCAB:Aquifer
-  other:
+  env_local:
     id: ENVO:00012408
     label: aquifer
   curated: true
@@ -1697,7 +1688,7 @@ terms:
   parent: GOLDTERMS:4292
   level: 2
   vocab_differentia: GOLDVOCAB:Paper
-  other:
+  env_local:
     id: ENVO:03501256
     label: sheet of paper
   curated: true
@@ -1706,7 +1697,7 @@ terms:
   parent: GOLDTERMS:Engineered-Paper
   level: 3
   vocab_differentia: GOLDVOCAB:Currency-notes
-  other:
+  env_local:
     id: ENVO:00003896
     label: currency note
   curated: true
@@ -1896,9 +1887,6 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
-  other:
-    id: ENVO:00002123
-    label: bioreactor
   curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Grass-Fermentation
   label: Engineered > Solid waste > Grass > Fermentation
@@ -1913,9 +1901,6 @@ terms:
   vocab_differentia: GOLDVOCAB:Bioreactor
   env_local:
     id: OBI:0001046
-    label: bioreactor
-  other:
-    id: ENVO:00002123
     label: bioreactor
   curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Household-waste
@@ -1989,9 +1974,6 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
-  other:
-    id: ENVO:00002123
-    label: bioreactor
   curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Urban-waste
   label: Engineered > Solid waste > Urban waste
@@ -2051,9 +2033,6 @@ terms:
   vocab_differentia: GOLDVOCAB:Bioreactor
   env_local:
     id: OBI:0001046
-    label: bioreactor
-  other:
-    id: ENVO:00002123
     label: bioreactor
   curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Zoo-waste
@@ -2316,9 +2295,6 @@ terms:
   env_local:
     id: OBI:0001046
     label: bioreactor
-  other:
-    id: ENVO:00002123
-    label: bioreactor
   curated: true
 - id: GOLDTERMS:4258
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (aerobic)
@@ -2515,7 +2491,7 @@ terms:
   parent: GOLDTERMS:4159
   level: 4
   vocab_differentia: GOLDVOCAB:Aquifer
-  other:
+  env_local:
     id: ENVO:00012408
     label: aquifer
   curated: true
@@ -2638,7 +2614,7 @@ terms:
   parent: GOLDTERMS:4165
   level: 5
   vocab_differentia: GOLDVOCAB:Aquifer
-  other:
+  env_local:
     id: ENVO:00012408
     label: aquifer
   curated: true
@@ -3082,7 +3058,7 @@ terms:
   parent: GOLDTERMS:4159
   level: 4
   vocab_differentia: GOLDVOCAB:Water-tank
-  other:
+  env_local:
     id: ENVO:03501254
     label: water tank
   curated: true
@@ -3178,7 +3154,7 @@ terms:
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Aquifer
-  other:
+  env_local:
     id: ENVO:00012408
     label: aquifer
   curated: true
@@ -3832,7 +3808,7 @@ terms:
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:River-plume
-  other:
+  env_local:
     id: ENVO:03600070
     label: river plume
   curated: true
@@ -3895,7 +3871,7 @@ terms:
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Shipwreck
-  other:
+  env_local:
     id: ENVO:03600061
     label: shipwreck
   curated: true
@@ -4141,7 +4117,7 @@ terms:
   parent: GOLDTERMS:3973
   level: 5
   vocab_differentia: GOLDVOCAB:Thalassic
-  other:
+  env_local:
     id: ENVO:01001667
     label: thalassic
   curated: true
@@ -4420,7 +4396,7 @@ terms:
   parent: GOLDTERMS:4245
   level: 4
   vocab_differentia: GOLDVOCAB:Aquifer
-  other:
+  env_local:
     id: ENVO:00012408
     label: aquifer
   curated: true
@@ -4586,7 +4562,7 @@ terms:
   parent: GOLDTERMS:4198
   level: 3
   vocab_differentia: GOLDVOCAB:Nest
-  other:
+  env_local:
     id: ENVO:00005803
     label: animal habitation
   curated: true
@@ -4595,7 +4571,7 @@ terms:
   parent: GOLDTERMS:Environmental-Terrestrial-Nest
   level: 4
   vocab_differentia: GOLDVOCAB:Alligator-nest
-  other:
+  env_local:
     id: ENVO:03600069
     label: nest of alligator
   curated: true
@@ -4722,9 +4698,6 @@ terms:
   level: 4
   vocab_differentia: GOLDVOCAB:Biocrust
   env_local:
-    id: ENVO:01000910
-    label: soil biocrust
-  other:
     id: ENVO:01000909
     label: biocrust
   curated: true
@@ -4778,7 +4751,7 @@ terms:
   parent: GOLDTERMS:5780
   level: 5
   vocab_differentia: GOLDVOCAB:Plant-pot
-  other:
+  env_local:
     id: ENVO:03600045
     label: plant pot
   curated: true
@@ -4964,7 +4937,7 @@ terms:
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Mineral-horizon
-  other:
+  env_local:
     id: ENVO:03600011
     label: mineral horizon
   curated: true
@@ -4982,7 +4955,7 @@ terms:
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Nature-reserve
-  other:
+  env_local:
     id: ENVO:00000363
     label: area designated as a nature reserve
   curated: true
@@ -5000,7 +4973,7 @@ terms:
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Organic-layer
-  other:
+  env_local:
     id: ENVO:03600018
     label: organic horizon
   curated: true
@@ -5402,7 +5375,7 @@ terms:
   parent: GOLDTERMS:4212
   level: 4
   vocab_differentia: GOLDVOCAB:Vadose-zone
-  other:
+  env_local:
     id: ENVO:00000328
     label: vadose zone
   curated: true
@@ -5473,9 +5446,6 @@ terms:
   parent: GOLDTERMS:4086
   level: 2
   vocab_differentia: GOLDVOCAB:Algae
-  host_taxon:
-    id: NCBITaxon:96475
-    label: Mesostigmatophyceae
   other:
     id: FOODON:03411301
     label: algae
@@ -5485,7 +5455,7 @@ terms:
   parent: GOLDTERMS:3957
   level: 3
   vocab_differentia: GOLDVOCAB:Biocrust
-  other:
+  env_local:
     id: ENVO:01000909
     label: biocrust
   curated: true
@@ -5689,10 +5659,7 @@ terms:
   parent: GOLDTERMS:4330
   level: 4
   vocab_differentia: GOLDVOCAB:Crop
-  anatomical_site:
-    id: UBERON:0007356
-    label: crop
-  curated: true
+  curated: false
 - id: GOLDTERMS:4767
   label: Host-associated > Annelida > Digestive system > Digestive tube
   parent: GOLDTERMS:4330
@@ -5742,8 +5709,8 @@ terms:
   level: 3
   vocab_differentia: GOLDVOCAB:Integument
   anatomical_site:
-    id: UBERON:0002199
-    label: integument
+    id: UBERON:0002416
+    label: integumental system
   curated: true
 - id: GOLDTERMS:4768
   label: Host-associated > Annelida > Integument > Cuticle
@@ -5889,10 +5856,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
   level: 4
   vocab_differentia: GOLDVOCAB:Abdomen
-  anatomical_site:
-    id: UBERON:0000916
-    label: abdomen
-  curated: true
+  curated: false
 - id: GOLDTERMS:Host-associated-Arthropoda-Bee-Beehive
   label: Host-associated > Arthropoda > Bee > Beehive
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
@@ -6076,8 +6040,8 @@ terms:
   level: 3
   vocab_differentia: GOLDVOCAB:Integument
   anatomical_site:
-    id: UBERON:0002199
-    label: integument
+    id: UBERON:0002416
+    label: integumental system
   curated: true
 - id: GOLDTERMS:4082
   label: Host-associated > Arthropoda > Integument > Cuticle
@@ -6339,10 +6303,7 @@ terms:
   parent: GOLDTERMS:4150
   level: 4
   vocab_differentia: GOLDVOCAB:Ceca
-  anatomical_site:
-    id: UBERON:0001153
-    label: caecum
-  curated: true
+  curated: false
 - id: GOLDTERMS:4148
   label: Host-associated > Birds > Digestive system > Ceca > Lumen
   parent: GOLDTERMS:4147
@@ -6357,9 +6318,6 @@ terms:
   parent: GOLDTERMS:4150
   level: 4
   vocab_differentia: GOLDVOCAB:Cloaca
-  host_taxon:
-    id: NCBITaxon:547
-    label: Enterobacter
   anatomical_site:
     id: UBERON:0000162
     label: cloaca
@@ -6369,10 +6327,7 @@ terms:
   parent: GOLDTERMS:4150
   level: 4
   vocab_differentia: GOLDVOCAB:Crop
-  anatomical_site:
-    id: UBERON:0007356
-    label: crop
-  curated: true
+  curated: false
 - id: GOLDTERMS:4151
   label: Host-associated > Birds > Digestive system > Crop > Lumen
   parent: GOLDTERMS:4782
@@ -6600,9 +6555,6 @@ terms:
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
-  other:
-    id: FOODON:03411261
-    label: fungus
   curated: true
 - id: GOLDTERMS:4095
   label: Host-associated > Fish
@@ -6618,10 +6570,7 @@ terms:
   parent: GOLDTERMS:4095
   level: 3
   vocab_differentia: GOLDVOCAB:Abdomen
-  anatomical_site:
-    id: UBERON:0000916
-    label: abdomen
-  curated: true
+  curated: false
 - id: GOLDTERMS:5054
   label: Host-associated > Fish > Abdomen > Ascites
   parent: GOLDTERMS:Host-associated-Fish-Abdomen
@@ -6837,16 +6786,13 @@ terms:
   host_taxon:
     id: NCBITaxon:4751
     label: Fungi
-  other:
-    id: FOODON:03411261
-    label: fungus
   curated: true
 - id: GOLDTERMS:4550
   label: Host-associated > Fungi > Fruiting body
   parent: GOLDTERMS:4098
   level: 3
   vocab_differentia: GOLDVOCAB:Fruiting-body
-  other:
+  anatomical_site:
     id: FAO:0000007
     label: fruitbody
   curated: true
@@ -6864,7 +6810,7 @@ terms:
   parent: GOLDTERMS:4098
   level: 3
   vocab_differentia: GOLDVOCAB:Mycelium
-  other:
+  anatomical_site:
     id: FAO:0000011
     label: mycelium
   curated: true
@@ -6873,7 +6819,7 @@ terms:
   parent: GOLDTERMS:4098
   level: 3
   vocab_differentia: GOLDVOCAB:Mycorrhiza
-  other:
+  anatomical_site:
     id: FAO:0001027
     label: mycorrhiza
   curated: true
@@ -6882,7 +6828,7 @@ terms:
   parent: GOLDTERMS:4098
   level: 3
   vocab_differentia: GOLDVOCAB:Sclerotium
-  other:
+  anatomical_site:
     id: FAO:0001008
     label: sclerotium
   curated: true
@@ -7029,10 +6975,7 @@ terms:
   parent: GOLDTERMS:4138
   level: 3
   vocab_differentia: GOLDVOCAB:Abdomen
-  anatomical_site:
-    id: UBERON:0000916
-    label: abdomen
-  curated: true
+  curated: false
 - id: GOLDTERMS:5120
   label: Host-associated > Human > Abdomen > Peritoneal dialysate
   parent: GOLDTERMS:5717
@@ -8736,10 +8679,7 @@ terms:
   parent: GOLDTERMS:4322
   level: 4
   vocab_differentia: GOLDVOCAB:Ceca
-  anatomical_site:
-    id: UBERON:0001153
-    label: caecum
-  curated: true
+  curated: false
 - id: GOLDTERMS:4323
   label: Host-associated > Mollusca > Digestive system > Glands
   parent: GOLDTERMS:4322
@@ -8865,7 +8805,7 @@ terms:
   parent: GOLDTERMS:3938
   level: 3
   vocab_differentia: GOLDVOCAB:Biocrust
-  other:
+  env_local:
     id: ENVO:01000909
     label: biocrust
   curated: true
@@ -9189,7 +9129,7 @@ terms:
   parent: GOLDTERMS:4466
   level: 4
   vocab_differentia: GOLDVOCAB:Rhizoplane
-  other:
+  env_local:
     id: ENVO:01001181
     label: rhizoplane
   curated: true

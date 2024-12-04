@@ -6,6 +6,7 @@ from typing import Optional, Iterator, Dict, TextIO, List
 
 import click
 import yaml
+from SPARQLWrapper import CONSTRUCT
 from oaklib import get_adapter
 from oaklib.datamodels.vocabulary import IS_A, OWL_CLASS
 from oaklib.interfaces import MappingProviderInterface, OboGraphInterface
@@ -27,6 +28,9 @@ DEVICE = "OBI:0000968"
 FOOD_MATERIAL = "FOODON:00002403"
 ANATOMICAL_STRUCTURE = "UBERON:0000061"
 MULTICELLULAR_ORGANISM = "UBERON:0000468"
+CONSTRUCTION = "ENVO:01001813"
+MANUFACTURED_PRODUCT = "ENVO:00003074"
+LAYER = "ENVO:01000281"
 
 ROBOT_HEADER = {
     "id": "ID",
@@ -97,7 +101,6 @@ def write_robot_template(terms: Iterator[GoldTerm], file: TextIO=sys.stdout) -> 
 def as_robot_template(terms: Iterator[GoldTerm]) -> Iterator[Dict[str, str]]:
     """
     Convert a list of GoldTerms to a list of dictionaries suitable for a robot template
-
 
     :param terms:
     :return:
@@ -287,7 +290,7 @@ def guess_mixs_slot_for_mapping(obj: CURIE, label: Optional[str] = None) -> Opti
     :param label: gold path label
     :return:
     """
-    if obj.startswith("UBERON:") or obj.startswith("PO:"):
+    if obj.startswith("UBERON:") or obj.startswith("PO:") or obj.startswith("FAO:"):
         slot = "anatomical_site"
     elif obj.startswith("FOODON:"):
         obj_adapter = get_ontology_graph_adapter_for(obj)
@@ -320,12 +323,21 @@ def guess_mixs_slot_for_mapping(obj: CURIE, label: Optional[str] = None) -> Opti
             slot = "env_local"
         elif DEVICE in ancs:
             slot = "env_local"
+        elif MANUFACTURED_PRODUCT in ancs:
+            slot = "env_local"
+        elif CONSTRUCTION in ancs:
+            slot = "env_local"
+        elif LAYER in ancs:
+            slot = "env_local"
         elif ECOSYSTEM in ancs:
             # TODO: check
             slot = "env_broad"
         elif ENVIRONMENTAL_SYSTEM in ancs:
             # TODO: check
             slot = "env_broad"
+        elif obj.startswith("ENVO:"):
+            # TODO: check
+            slot = "env_local"
         else:
             slot = "other"
     else:

@@ -750,7 +750,7 @@ property_value: mixs:other FOODON:03412502
 [Term]
 id: GOLDTERMS:3957
 name: Host-associated > Algae
-comment: host_taxon: Mesostigmatophyceae; mixs_extension: MIXS:HostAssociated; other: algae; complete
+comment: mixs_extension: MIXS:HostAssociated; other: algae; complete
 synonym: "Algae" EXACT []
 synonym: "Algae, Host-associated" EXACT []
 is_a: GOLDTERMS:4086 ! Host-associated
@@ -758,7 +758,6 @@ intersection_of: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Algae ! Algae
 intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Algae ! Algae
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:host_taxon NCBITaxon:96475
 property_value: mixs:mixs_extension mixs:HostAssociated
 property_value: mixs:other FOODON:03411301
 xref: FOODON:03411301 {name="algae"}
@@ -1113,7 +1112,7 @@ property_value: mixs:mixs_extension mixs:Sediment
 [Term]
 id: GOLDTERMS:3976
 name: Environmental > Aquatic > Non-marine Saline and Alkaline > Saline > Thalassic
-comment: env_broad: aquatic biome; other: thalassic; partial
+comment: env_broad: aquatic biome; env_local: thalassic; partial
 synonym: "Thalassic" EXACT []
 synonym: "Thalassic, Saline" EXACT []
 synonym: "Thalassic, Saline, Non-marine Saline and Alkaline" EXACT []
@@ -1131,7 +1130,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Thalassic ! Thalassic
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Saline ! Saline
 property_value: mixs:env_broad ENVO:00002030
-property_value: mixs:other ENVO:01001667
+property_value: mixs:env_local ENVO:01001667
 
 [Term]
 id: GOLDTERMS:3977
@@ -3222,7 +3221,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4098
 name: Host-associated > Fungi
-comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; other: fungus; complete
+comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Fungi, Host-associated" EXACT []
 is_a: GOLDTERMS:4086 ! Host-associated
 intersection_of: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fungi ! Fungi
@@ -3231,7 +3230,6 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fungi ! Fungi
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 property_value: mixs:host_taxon NCBITaxon:4751
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other FOODON:03411261
 
 [Term]
 id: GOLDTERMS:4099
@@ -4024,7 +4022,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4147
 name: Host-associated > Birds > Digestive system > Ceca
-comment: anatomical_site: caecum; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: digestive system; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Ceca, Digestive system, Birds" EXACT []
 synonym: "Ceca, Digestive system, Birds, Host-associated" EXACT []
 is_a: GOLDTERMS:4150 ! Host-associated > Birds > Digestive system
@@ -4036,14 +4034,14 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Birds ! Birds
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Digestive-system ! Digestive system
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Ceca ! Ceca
-property_value: mixs:anatomical_site UBERON:0001153
+property_value: mixs:anatomical_site UBERON:0001007
 property_value: mixs:host_taxon NCBITaxon:8782
 property_value: mixs:mixs_extension mixs:HostAssociated
 
 [Term]
 id: GOLDTERMS:4148
 name: Host-associated > Birds > Digestive system > Ceca > Lumen
-comment: anatomical_site: anatomical space; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: anatomical space; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Lumen, Ceca" EXACT []
 synonym: "Lumen, Ceca, Digestive system" EXACT []
 synonym: "Lumen, Ceca, Digestive system, Birds" EXACT []
@@ -4106,7 +4104,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4151
 name: Host-associated > Birds > Digestive system > Crop > Lumen
-comment: anatomical_site: anatomical space; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: anatomical space; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Lumen, Crop" EXACT []
 synonym: "Lumen, Crop, Digestive system" EXACT []
 synonym: "Lumen, Crop, Digestive system, Birds" EXACT []
@@ -6090,7 +6088,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:4263
 name: Engineered > Wastewater > Nutrient removal > Biological phosphorus removal > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Bioreactor, Biological phosphorus removal" EXACT []
 synonym: "Bioreactor, Biological phosphorus removal, Nutrient removal" EXACT []
 synonym: "Bioreactor, Biological phosphorus removal, Nutrient removal, Wastewater" EXACT []
@@ -6110,7 +6108,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4264
@@ -6358,7 +6355,7 @@ xref: MIXS:BuiltEnvironment {name="Built Environment"}
 [Term]
 id: GOLDTERMS:4280
 name: Engineered > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; complete
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Bioreactor, Engineered" EXACT []
 is_a: GOLDTERMS:4292 ! Engineered
 intersection_of: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Bioreactor ! Bioreactor
@@ -6368,12 +6365,11 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4283
 name: Engineered > Bioreactor > Continuous culture
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Continuous culture" EXACT []
 synonym: "Continuous culture, Bioreactor" EXACT []
 synonym: "Continuous culture, Bioreactor, Engineered" EXACT []
@@ -6387,7 +6383,6 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4285
@@ -6538,7 +6533,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:4295
 name: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Tetrachloroethylene > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: tetrachloroethene; partial
 synonym: "Bioreactor, Tetrachloroethylene" EXACT []
 synonym: "Bioreactor, Tetrachloroethylene, Tetrachloroethylene and derivatives" EXACT []
 synonym: "Bioreactor, Tetrachloroethylene, Tetrachloroethylene and derivatives, Bioremediation" EXACT []
@@ -6557,7 +6552,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Tetrachloroethylene ! Tetrachlo
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
+property_value: mixs:other CHEBI:17300
 
 [Term]
 id: GOLDTERMS:4296
@@ -6583,7 +6578,7 @@ property_value: mixs:other CHEBI:17300
 [Term]
 id: GOLDTERMS:4297
 name: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Chloroethene > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: chloroethene; partial
 synonym: "Bioreactor, Chloroethene" EXACT []
 synonym: "Bioreactor, Chloroethene, Tetrachloroethylene and derivatives" EXACT []
 synonym: "Bioreactor, Chloroethene, Tetrachloroethylene and derivatives, Bioremediation" EXACT []
@@ -6602,7 +6597,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Chloroethene ! Chloroethene
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
+property_value: mixs:other CHEBI:28509
 
 [Term]
 id: GOLDTERMS:4298
@@ -6628,7 +6623,7 @@ property_value: mixs:other CHEBI:28509
 [Term]
 id: GOLDTERMS:4299
 name: Engineered > Bioremediation > Hydrocarbon > Benzene > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:HydrocarbonResourcesCores; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:HydrocarbonResourcesCores; other: hydrocarbon; partial
 synonym: "Bioreactor, Benzene" EXACT []
 synonym: "Bioreactor, Benzene, Hydrocarbon" EXACT []
 synonym: "Bioreactor, Benzene, Hydrocarbon, Bioremediation" EXACT []
@@ -6647,7 +6642,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Benzene ! Benzene
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:HydrocarbonResourcesCores
-property_value: mixs:other ENVO:00002123
+property_value: mixs:other CHEBI:24632
 
 [Term]
 id: GOLDTERMS:4300
@@ -6692,7 +6687,7 @@ property_value: mixs:other CHEBI:30043
 [Term]
 id: GOLDTERMS:4302
 name: Engineered > Bioremediation > Terephthalate > Wastewater > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: terephthalate(2-); partial
 synonym: "Bioreactor, Wastewater" EXACT []
 synonym: "Bioreactor, Wastewater, Terephthalate" EXACT []
 synonym: "Bioreactor, Wastewater, Terephthalate, Bioremediation" EXACT []
@@ -6712,7 +6707,7 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
+property_value: mixs:other CHEBI:30043
 
 [Term]
 id: GOLDTERMS:4303
@@ -7283,7 +7278,7 @@ xref: UBERON:0012644 {name="trophosome"}
 [Term]
 id: GOLDTERMS:4335
 name: Host-associated > Annelida > Integument > Subcuticular space > Extracellular symbionts
-comment: anatomical_site: integument; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; partial
+comment: anatomical_site: integumental system; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Extracellular symbionts, Subcuticular space" EXACT []
 synonym: "Extracellular symbionts, Subcuticular space, Integument" EXACT []
 synonym: "Extracellular symbionts, Subcuticular space, Integument, Annelida" EXACT []
@@ -7299,14 +7294,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Integument ! Integument
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Extracellular-symbionts ! Extracellular symbionts
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Subcuticular-space ! Subcuticular space
-property_value: mixs:anatomical_site UBERON:0002199
+property_value: mixs:anatomical_site UBERON:0002416
 property_value: mixs:host_taxon NCBITaxon:6340
 property_value: mixs:mixs_extension mixs:HostAssociated
 
 [Term]
 id: GOLDTERMS:4336
 name: Host-associated > Annelida > Integument
-comment: anatomical_site: integument; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: integumental system; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Integument, Annelida" EXACT []
 synonym: "Integument, Annelida, Host-associated" EXACT []
 is_a: GOLDTERMS:4331 ! Host-associated > Annelida
@@ -7316,7 +7311,7 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Annelida ! Annelida
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Integument ! Integument
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:anatomical_site UBERON:0002199
+property_value: mixs:anatomical_site UBERON:0002416
 property_value: mixs:host_taxon NCBITaxon:6340
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -7416,7 +7411,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4390
 name: Engineered > Paper > Currency notes
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: currency note; complete
+comment: env_broad: anthropogenic environment; env_local: currency note; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Currency notes" EXACT []
 synonym: "Currency notes, Paper" EXACT []
 synonym: "Currency notes, Paper, Engineered" EXACT []
@@ -7428,8 +7423,8 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Paper ! Paper
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Currency-notes ! Currency notes
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00003896
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00003896
 xref: ENVO:00003896 {name="currency note"}
 
 [Term]
@@ -7676,7 +7671,7 @@ xref: UBERON:0010152 {name="skin mucus"}
 [Term]
 id: GOLDTERMS:4423
 name: Environmental > Terrestrial > Deep subsurface > Aquifer
-comment: env_broad: terrestrial biome; other: aquifer; partial
+comment: env_broad: terrestrial biome; env_local: aquifer; partial
 synonym: "Aquifer, Deep subsurface" EXACT []
 synonym: "Aquifer, Deep subsurface, Terrestrial" EXACT []
 synonym: "Aquifer, Deep subsurface, Terrestrial, Environmental" EXACT []
@@ -7690,7 +7685,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Deep-subsurface ! Deep subs
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:00000446
-property_value: mixs:other ENVO:00012408
+property_value: mixs:env_local ENVO:00012408
 
 [Term]
 id: GOLDTERMS:4425
@@ -7837,7 +7832,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4442
 name: Engineered > Bioreactor > Anaerobic
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Anaerobic" EXACT []
 synonym: "Anaerobic, Bioreactor" EXACT []
 synonym: "Anaerobic, Bioreactor, Engineered" EXACT []
@@ -7849,7 +7844,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Bioreactor ! Bioreactor
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 xref: ENVO:00002124 {name="anaerobic bioreactor"}
@@ -7984,7 +7979,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:4463
 name: Host-associated > Fungi > Mycelium
-comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; other: mycelium; complete
+comment: anatomical_site: mycelium; host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Mycelium" EXACT []
 synonym: "Mycelium, Fungi" EXACT []
 synonym: "Mycelium, Fungi, Host-associated" EXACT []
@@ -7995,9 +7990,9 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fungi ! Fungi
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Mycelium ! Mycelium
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
+property_value: mixs:anatomical_site FAO:0000011
 property_value: mixs:host_taxon NCBITaxon:4751
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other FAO:0000011
 xref: FAO:0000011 {name="mycelium"}
 
 [Term]
@@ -8312,7 +8307,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:4528
 name: Host-associated > Fungi > Sclerotium
-comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; other: sclerotium; complete
+comment: anatomical_site: sclerotium; host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Sclerotium" EXACT []
 synonym: "Sclerotium, Fungi" EXACT []
 synonym: "Sclerotium, Fungi, Host-associated" EXACT []
@@ -8323,9 +8318,9 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fungi ! Fungi
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Sclerotium ! Sclerotium
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
+property_value: mixs:anatomical_site FAO:0001008
 property_value: mixs:host_taxon NCBITaxon:4751
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other FAO:0001008
 xref: FAO:0001008 {name="sclerotium"}
 
 [Term]
@@ -8367,7 +8362,7 @@ property_value: mixs:env_medium ENVO:01001869
 [Term]
 id: GOLDTERMS:4536
 name: Engineered > Bioreactor > Aerobic
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; complete
+comment: env_broad: anthropogenic environment; env_local: aerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; complete
 synonym: "Aerobic, Bioreactor" EXACT []
 synonym: "Aerobic, Bioreactor, Engineered" EXACT []
 is_a: GOLDTERMS:4280 ! Engineered > Bioreactor
@@ -8378,7 +8373,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Bioreactor ! Bioreactor
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Aerobic ! Aerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002126
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001455
 xref: ENVO:00002126 {name="aerobic bioreactor"}
@@ -8511,7 +8506,7 @@ property_value: mixs:other FOODON:03301647
 [Term]
 id: GOLDTERMS:4550
 name: Host-associated > Fungi > Fruiting body
-comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; other: fruitbody; complete
+comment: anatomical_site: fruitbody; host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Fruiting body" EXACT []
 synonym: "Fruiting body, Fungi" EXACT []
 synonym: "Fruiting body, Fungi, Host-associated" EXACT []
@@ -8522,9 +8517,9 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fungi ! Fungi
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Fruiting-body ! Fruiting body
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
+property_value: mixs:anatomical_site FAO:0000007
 property_value: mixs:host_taxon NCBITaxon:4751
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other FAO:0000007
 xref: FAO:0000007 {name="fruitbody"}
 
 [Term]
@@ -9145,7 +9140,7 @@ xref: ENVO:01000749 {name="oceanic crust"}
 [Term]
 id: GOLDTERMS:4639
 name: Engineered > Built environment > Solar panel
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:BuiltEnvironment; other: solar panel array; complete
+comment: env_broad: anthropogenic environment; env_local: solar panel array; mixs_extension: MIXS:BuiltEnvironment; complete
 synonym: "Solar panel" EXACT []
 synonym: "Solar panel, Built environment" EXACT []
 synonym: "Solar panel, Built environment, Engineered" EXACT []
@@ -9157,13 +9152,13 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Built-environment ! Built environmen
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Solar-panel ! Solar panel
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:01000867
 property_value: mixs:mixs_extension mixs:BuiltEnvironment
-property_value: mixs:other ENVO:01000867
 
 [Term]
 id: GOLDTERMS:4641
 name: Host-associated > Birds > Digestive system > Cloaca
-comment: anatomical_site: cloaca; host_taxon: Enterobacter; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: cloaca; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Cloaca" EXACT []
 synonym: "Cloaca, Digestive system" EXACT []
 synonym: "Cloaca, Digestive system, Birds" EXACT []
@@ -9178,7 +9173,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Digestive-system ! Digestiv
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Cloaca ! Cloaca
 property_value: mixs:anatomical_site UBERON:0000162
-property_value: mixs:host_taxon NCBITaxon:547
+property_value: mixs:host_taxon NCBITaxon:8782
 property_value: mixs:mixs_extension mixs:HostAssociated
 xref: UBERON:0000162 {name="cloaca"}
 
@@ -9730,7 +9725,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4711
 name: Environmental > Terrestrial > Soil > Biocrust
-comment: env_broad: terrestrial biome; env_local: soil biocrust; env_medium: soil; mixs_extension: MIXS:Soil; other: biocrust; complete
+comment: env_broad: terrestrial biome; env_local: biocrust; env_medium: soil; mixs_extension: MIXS:Soil; complete
 synonym: "Biocrust, Soil" EXACT []
 synonym: "Biocrust, Soil, Terrestrial" EXACT []
 synonym: "Biocrust, Soil, Terrestrial, Environmental" EXACT []
@@ -9744,10 +9739,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Soil ! Soil
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Biocrust ! Biocrust
 property_value: mixs:env_broad ENVO:00000446
-property_value: mixs:env_local ENVO:01000910
+property_value: mixs:env_local ENVO:01000909
 property_value: mixs:env_medium ENVO:00001998
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:01000909
 xref: ENVO:01000910 {name="soil biocrust"}
 
 [Term]
@@ -9929,7 +9923,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4734
 name: Host-associated > Endosymbionts > Fungi
-comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; other: fungus; partial
+comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Fungi, Endosymbionts" EXACT []
 synonym: "Fungi, Endosymbionts, Host-associated" EXACT []
 is_a: GOLDTERMS:4751 ! Host-associated > Endosymbionts
@@ -9941,7 +9935,6 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Fungi ! Fungi
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 property_value: mixs:host_taxon NCBITaxon:4751
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other FOODON:03411261
 
 [Term]
 id: GOLDTERMS:4736
@@ -10220,7 +10213,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4769
 name: Host-associated > Annelida > Integument > Subcuticular space
-comment: anatomical_site: integument; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; partial
+comment: anatomical_site: integumental system; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Subcuticular space" EXACT []
 synonym: "Subcuticular space, Integument" EXACT []
 synonym: "Subcuticular space, Integument, Annelida" EXACT []
@@ -10234,7 +10227,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Annelida ! Annelida
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Integument ! Integument
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Subcuticular-space ! Subcuticular space
-property_value: mixs:anatomical_site UBERON:0002199
+property_value: mixs:anatomical_site UBERON:0002416
 property_value: mixs:host_taxon NCBITaxon:6340
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -10297,7 +10290,7 @@ xref: NCBITaxon:6830 {name="Copepoda"}
 [Term]
 id: GOLDTERMS:4776
 name: Host-associated > Arthropoda > Integument
-comment: anatomical_site: integument; host_taxon: Arthropoda; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: integumental system; host_taxon: Arthropoda; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Integument, Arthropoda" EXACT []
 synonym: "Integument, Arthropoda, Host-associated" EXACT []
 is_a: GOLDTERMS:3901 ! Host-associated > Arthropoda
@@ -10307,7 +10300,7 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Arthropoda ! Arthropoda
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Integument ! Integument
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:anatomical_site UBERON:0002199
+property_value: mixs:anatomical_site UBERON:0002416
 property_value: mixs:host_taxon NCBITaxon:6656
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -10368,7 +10361,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4782
 name: Host-associated > Birds > Digestive system > Crop
-comment: anatomical_site: crop; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: digestive system; host_taxon: Aves; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Crop, Digestive system, Birds" EXACT []
 synonym: "Crop, Digestive system, Birds, Host-associated" EXACT []
 is_a: GOLDTERMS:4150 ! Host-associated > Birds > Digestive system
@@ -10380,7 +10373,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Birds ! Birds
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Digestive-system ! Digestive system
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Crop ! Crop
-property_value: mixs:anatomical_site UBERON:0007356
+property_value: mixs:anatomical_site UBERON:0001007
 property_value: mixs:host_taxon NCBITaxon:8782
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -10694,7 +10687,7 @@ property_value: mixs:mixs_extension mixs:BuiltEnvironment
 [Term]
 id: GOLDTERMS:4815
 name: Host-associated > Algae > Microalgae
-comment: host_taxon: Mesostigmatophyceae; mixs_extension: MIXS:HostAssociated; other: algae; partial
+comment: mixs_extension: MIXS:HostAssociated; other: algae; partial
 synonym: "Microalgae" EXACT []
 synonym: "Microalgae, Algae" EXACT []
 synonym: "Microalgae, Algae, Host-associated" EXACT []
@@ -10705,7 +10698,6 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Algae ! Algae
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Microalgae ! Microalgae
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:host_taxon NCBITaxon:96475
 property_value: mixs:mixs_extension mixs:HostAssociated
 property_value: mixs:other FOODON:03411301
 
@@ -10865,7 +10857,7 @@ xref: NCBITaxon:2825 {name="Chrysophyceae"}
 [Term]
 id: GOLDTERMS:4838
 name: Host-associated > Arthropoda > Bee > Abdomen
-comment: anatomical_site: abdomen; host_taxon: Apoidea; mixs_extension: MIXS:HostAssociated; complete
+comment: host_taxon: Apoidea; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Abdomen, Bee" EXACT []
 synonym: "Abdomen, Bee, Arthropoda" EXACT []
 synonym: "Abdomen, Bee, Arthropoda, Host-associated" EXACT []
@@ -10878,14 +10870,13 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Arthropoda ! Arthropoda
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Bee ! Bee
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Abdomen ! Abdomen
-property_value: mixs:anatomical_site UBERON:0000916
 property_value: mixs:host_taxon NCBITaxon:34735
 property_value: mixs:mixs_extension mixs:HostAssociated
 
 [Term]
 id: GOLDTERMS:4841
 name: Environmental > Terrestrial > Nest > Alligator nest
-comment: env_broad: terrestrial biome; other: nest of alligator; complete
+comment: env_broad: terrestrial biome; env_local: nest of alligator; complete
 synonym: "Alligator nest" EXACT []
 synonym: "Alligator nest, Nest" EXACT []
 synonym: "Alligator nest, Nest, Terrestrial" EXACT []
@@ -10900,12 +10891,12 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Nest ! Nest
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Alligator-nest ! Alligator nest
 property_value: mixs:env_broad ENVO:00000446
-property_value: mixs:other ENVO:03600069
+property_value: mixs:env_local ENVO:03600069
 
 [Term]
 id: GOLDTERMS:4845
 name: Engineered > Artificial ecosystem > Mud microcosm
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Mud microcosm" EXACT []
 synonym: "Mud microcosm, Artificial ecosystem" EXACT []
 synonym: "Mud microcosm, Artificial ecosystem, Engineered" EXACT []
@@ -10917,8 +10908,8 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Artificial-ecosystem ! Artificial ec
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Mud-microcosm ! Mud microcosm
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:4847
@@ -10985,7 +10976,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4853
 name: Engineered > Bioreactor > Continuous culture > Marine sediment inoculum
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Marine sediment inoculum" EXACT []
 synonym: "Marine sediment inoculum, Continuous culture" EXACT []
 synonym: "Marine sediment inoculum, Continuous culture, Bioreactor" EXACT []
@@ -11002,12 +10993,11 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Marine-sediment-inoculum ! Mari
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4856
 name: Engineered > Solid waste > Wood > Composting > Bioreactor
-comment: anatomical_site: secondary xylem; env_broad: anthropogenic environment; env_local: bioreactor; env_medium: wood; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: anatomical_site: secondary xylem; env_broad: anthropogenic environment; env_local: bioreactor; env_medium: wood; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Bioreactor, Composting, Wood" EXACT []
 synonym: "Bioreactor, Composting, Wood, Solid waste" EXACT []
 synonym: "Bioreactor, Composting, Wood, Solid waste, Engineered" EXACT []
@@ -11027,7 +11017,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002040
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4857
@@ -11078,7 +11067,7 @@ xref: UBERON:0001988 {name="feces"}
 [Term]
 id: GOLDTERMS:4860
 name: Engineered > Bioreactor > Continuous culture > Marine intertidal flat sediment inoculum
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Marine intertidal flat sediment inoculum" EXACT []
 synonym: "Marine intertidal flat sediment inoculum, Continuous culture" EXACT []
 synonym: "Marine intertidal flat sediment inoculum, Continuous culture, Bioreactor" EXACT []
@@ -11095,7 +11084,6 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Marine-intertidal-flat-sediment
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4865
@@ -11117,7 +11105,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:4866
 name: Host-associated > Mollusca > Digestive system > Ceca
-comment: anatomical_site: caecum; host_taxon: Mollusca; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: digestive system; host_taxon: Mollusca; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Ceca, Digestive system, Mollusca" EXACT []
 synonym: "Ceca, Digestive system, Mollusca, Host-associated" EXACT []
 is_a: GOLDTERMS:4322 ! Host-associated > Mollusca > Digestive system
@@ -11129,7 +11117,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Mollusca ! Mollusca
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Digestive-system ! Digestive system
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Ceca ! Ceca
-property_value: mixs:anatomical_site UBERON:0001153
+property_value: mixs:anatomical_site UBERON:0001007
 property_value: mixs:host_taxon NCBITaxon:6447
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -11184,7 +11172,7 @@ xref: UBERON:0000173 {name="amniotic fluid"}
 [Term]
 id: GOLDTERMS:4873
 name: Engineered > Solid waste > Grass > Composting > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: solid waste material; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: solid waste material; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Bioreactor, Composting, Grass" EXACT []
 synonym: "Bioreactor, Composting, Grass, Solid waste" EXACT []
 synonym: "Bioreactor, Composting, Grass, Solid waste, Engineered" EXACT []
@@ -11203,7 +11191,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:02000155
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4874
@@ -11408,7 +11395,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:4912
 name: Engineered > Bioreactor > Anaerobic > Food waste
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: food waste; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: food waste; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Food waste, Anaerobic" EXACT []
 synonym: "Food waste, Anaerobic, Bioreactor" EXACT []
 synonym: "Food waste, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -11422,7 +11409,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Food-waste ! Food waste
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:03600006
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -11430,7 +11417,7 @@ property_value: mixs:other PATO:0001456
 [Term]
 id: GOLDTERMS:4914
 name: Engineered > Bioreactor > Anaerobic > Manure
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: manure; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: manure; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Manure, Anaerobic" EXACT []
 synonym: "Manure, Anaerobic, Bioreactor" EXACT []
 synonym: "Manure, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -11444,7 +11431,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Manure ! Manure
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:03501300
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -11778,7 +11765,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:4966
 name: Engineered > Solid waste > Unknown material > Composting > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: solid waste material; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: solid waste material; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Bioreactor, Composting, Unknown material" EXACT []
 synonym: "Bioreactor, Composting, Unknown material, Solid waste" EXACT []
 synonym: "Bioreactor, Composting, Unknown material, Solid waste, Engineered" EXACT []
@@ -11797,7 +11784,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:02000155
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:4967
@@ -12589,7 +12575,7 @@ property_value: mixs:other FOODON:03411229
 [Term]
 id: GOLDTERMS:5037
 name: Host-associated > Human > Abdomen > Peritoneal fluid
-comment: anatomical_site: peritoneal fluid; host_taxon: Homo sapiens; mixs_extension: MIXS:HumanAssociated; complete
+comment: anatomical_site: peritoneal fluid; host_taxon: Homo sapiens; mixs_extension: MIXS:HumanAssociated; partial
 synonym: "Peritoneal fluid" EXACT []
 synonym: "Peritoneal fluid, Abdomen" EXACT []
 synonym: "Peritoneal fluid, Abdomen, Human" EXACT []
@@ -12765,7 +12751,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:5054
 name: Host-associated > Fish > Abdomen > Ascites
-comment: anatomical_site: ascitic fluid; host_taxon: Chondrichthyes; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: ascitic fluid; host_taxon: Chondrichthyes; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Ascites" EXACT []
 synonym: "Ascites, Abdomen" EXACT []
 synonym: "Ascites, Abdomen, Fish" EXACT []
@@ -12906,7 +12892,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:5070
 name: Host-associated > Annelida > Digestive system > Crop
-comment: anatomical_site: crop; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; complete
+comment: anatomical_site: digestive system; host_taxon: Annelida; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Crop, Digestive system, Annelida" EXACT []
 synonym: "Crop, Digestive system, Annelida, Host-associated" EXACT []
 is_a: GOLDTERMS:4330 ! Host-associated > Annelida > Digestive system
@@ -12918,7 +12904,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Annelida ! Annelida
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Digestive-system ! Digestive system
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Crop ! Crop
-property_value: mixs:anatomical_site UBERON:0007356
+property_value: mixs:anatomical_site UBERON:0001007
 property_value: mixs:host_taxon NCBITaxon:6340
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -13409,7 +13395,7 @@ xref: NCBITaxon:30190 {name="Pseudococcidae"}
 [Term]
 id: GOLDTERMS:5120
 name: Host-associated > Human > Abdomen > Peritoneal dialysate
-comment: anatomical_site: abdomen; host_taxon: Homo sapiens; mixs_extension: MIXS:HumanAssociated; partial
+comment: host_taxon: Homo sapiens; mixs_extension: MIXS:HumanAssociated; partial
 synonym: "Peritoneal dialysate" EXACT []
 synonym: "Peritoneal dialysate, Abdomen" EXACT []
 synonym: "Peritoneal dialysate, Abdomen, Human" EXACT []
@@ -13423,7 +13409,6 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Human ! Human
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Abdomen ! Abdomen
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Peritoneal-dialysate ! Peritoneal dialysate
-property_value: mixs:anatomical_site UBERON:0000916
 property_value: mixs:host_taxon NCBITaxon:9606
 property_value: mixs:mixs_extension mixs:HumanAssociated
 
@@ -13937,7 +13922,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:5210
 name: Environmental > Aquatic > Freshwater > Water tank
-comment: env_broad: aquatic biome; env_medium: fresh water; other: water tank; complete
+comment: env_broad: aquatic biome; env_local: water tank; env_medium: fresh water; complete
 synonym: "Water tank" EXACT []
 synonym: "Water tank, Freshwater" EXACT []
 synonym: "Water tank, Freshwater, Aquatic" EXACT []
@@ -13952,8 +13937,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Freshwater ! Freshwater
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Water-tank ! Water tank
 property_value: mixs:env_broad ENVO:00002030
+property_value: mixs:env_local ENVO:03501254
 property_value: mixs:env_medium ENVO:00002011
-property_value: mixs:other ENVO:03501254
 xref: ENVO:03501254 {name="water tank"}
 
 [Term]
@@ -14642,7 +14627,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:5296
 name: Host-associated > Fungi > Mycorrhiza
-comment: host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; other: mycorrhiza; complete
+comment: anatomical_site: mycorrhiza; host_taxon: Fungi; mixs_extension: MIXS:HostAssociated; complete
 synonym: "Mycorrhiza" EXACT []
 synonym: "Mycorrhiza, Fungi" EXACT []
 synonym: "Mycorrhiza, Fungi, Host-associated" EXACT []
@@ -14653,9 +14638,9 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fungi ! Fungi
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Mycorrhiza ! Mycorrhiza
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
+property_value: mixs:anatomical_site FAO:0001027
 property_value: mixs:host_taxon NCBITaxon:4751
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other FAO:0001027
 xref: FAO:0001027 {name="mycorrhiza"}
 
 [Term]
@@ -15514,7 +15499,7 @@ xref: ENVO:02000152 {name="mangrove biome sediment"}
 [Term]
 id: GOLDTERMS:5367
 name: Environmental > Aquatic > Marine > River plume > Plankton
-comment: env_broad: marine biome; env_medium: planktonic material; other: river plume; complete
+comment: env_broad: marine biome; env_local: river plume; env_medium: planktonic material; complete
 synonym: "Plankton, River plume" EXACT []
 synonym: "Plankton, River plume, Marine" EXACT []
 synonym: "Plankton, River plume, Marine, Aquatic" EXACT []
@@ -15531,8 +15516,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Plankton ! Plankton
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:River-plume ! River plume
 property_value: mixs:env_broad ENVO:00000447
+property_value: mixs:env_local ENVO:03600070
 property_value: mixs:env_medium ENVO:01000063
-property_value: mixs:other ENVO:03600070
 
 [Term]
 id: GOLDTERMS:5369
@@ -15599,7 +15584,7 @@ property_value: mixs:env_medium ENVO:00003044
 [Term]
 id: GOLDTERMS:5374
 name: Environmental > Aquatic > Freshwater > Aquifer > Sediment
-comment: env_broad: aquatic biome; env_medium: sediment; mixs_extension: MIXS:Sediment; other: aquifer; complete
+comment: env_broad: aquatic biome; env_local: aquifer; env_medium: sediment; mixs_extension: MIXS:Sediment; complete
 synonym: "Sediment, Aquifer" EXACT []
 synonym: "Sediment, Aquifer, Freshwater" EXACT []
 synonym: "Sediment, Aquifer, Freshwater, Aquatic" EXACT []
@@ -15616,9 +15601,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Sediment ! Sediment
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:00002030
+property_value: mixs:env_local ENVO:00012408
 property_value: mixs:env_medium ENVO:00002007
 property_value: mixs:mixs_extension mixs:Sediment
-property_value: mixs:other ENVO:00012408
 
 [Term]
 id: GOLDTERMS:5375
@@ -16286,7 +16271,7 @@ property_value: mixs:env_local ENVO:00002185
 [Term]
 id: GOLDTERMS:5430
 name: Environmental > Aquatic > Freshwater > Groundwater > Aquifer
-comment: env_broad: aquatic biome; env_medium: groundwater; other: aquifer; complete
+comment: env_broad: aquatic biome; env_local: aquifer; env_medium: groundwater; complete
 synonym: "Aquifer, Groundwater" EXACT []
 synonym: "Aquifer, Groundwater, Freshwater" EXACT []
 synonym: "Aquifer, Groundwater, Freshwater, Aquatic" EXACT []
@@ -16303,8 +16288,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Aquifer ! Aquifer
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Groundwater ! Groundwater
 property_value: mixs:env_broad ENVO:00002030
+property_value: mixs:env_local ENVO:00012408
 property_value: mixs:env_medium ENVO:01001004
-property_value: mixs:other ENVO:00012408
 
 [Term]
 id: GOLDTERMS:5432
@@ -16439,7 +16424,7 @@ property_value: mixs:env_local ENVO:01001357
 [Term]
 id: GOLDTERMS:5446
 name: Environmental > Aquatic > Freshwater > Aquifer > Biofilm
-comment: env_broad: aquatic biome; env_medium: biofilm; other: aquifer; complete
+comment: env_broad: aquatic biome; env_local: aquifer; env_medium: biofilm; complete
 synonym: "Biofilm, Aquifer" EXACT []
 synonym: "Biofilm, Aquifer, Freshwater" EXACT []
 synonym: "Biofilm, Aquifer, Freshwater, Aquatic" EXACT []
@@ -16456,8 +16441,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Biofilm ! Biofilm
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:00002030
+property_value: mixs:env_local ENVO:00012408
 property_value: mixs:env_medium ENVO:00002034
-property_value: mixs:other ENVO:00012408
 
 [Term]
 id: GOLDTERMS:5448
@@ -16483,7 +16468,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:5449
 name: Host-associated > Plants > Roots > Rhizoplane > Endophytes
-comment: anatomical_site: root; host_taxon: Embryophyta; mixs_extension: MIXS:PlantAssociated; other: rhizoplane; partial
+comment: anatomical_site: root; env_local: rhizoplane; host_taxon: Embryophyta; mixs_extension: MIXS:PlantAssociated; partial
 synonym: "Endophytes, Rhizoplane" EXACT []
 synonym: "Endophytes, Rhizoplane, Roots" EXACT []
 synonym: "Endophytes, Rhizoplane, Roots, Plants" EXACT []
@@ -16500,9 +16485,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-assoc
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Endophytes ! Endophytes
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Rhizoplane ! Rhizoplane
 property_value: mixs:anatomical_site PO:0009005
+property_value: mixs:env_local ENVO:01001181
 property_value: mixs:host_taxon NCBITaxon:3193
 property_value: mixs:mixs_extension mixs:PlantAssociated
-property_value: mixs:other ENVO:01001181
 
 [Term]
 id: GOLDTERMS:5452
@@ -16782,7 +16767,7 @@ xref: FOODON:00001041 {name="cow food product"}
 [Term]
 id: GOLDTERMS:5471
 name: Engineered > Bioreactor > Aerobic > Activated sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; partial
+comment: env_broad: anthropogenic environment; env_local: aerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; partial
 synonym: "Activated sludge, Aerobic, Bioreactor" EXACT []
 synonym: "Activated sludge, Aerobic, Bioreactor, Engineered" EXACT []
 is_a: GOLDTERMS:4536 ! Engineered > Bioreactor > Aerobic
@@ -16795,14 +16780,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Aerobic ! Aerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Activated-sludge ! Activated sludge
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002126
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001455
 
 [Term]
 id: GOLDTERMS:5473
 name: Engineered > Bioreactor > Aerobic > Biofilm
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: biofilm; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; complete
+comment: env_broad: anthropogenic environment; env_local: aerobic bioreactor; env_medium: biofilm; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; complete
 synonym: "Biofilm, Aerobic" EXACT []
 synonym: "Biofilm, Aerobic, Bioreactor" EXACT []
 synonym: "Biofilm, Aerobic, Bioreactor, Engineered" EXACT []
@@ -16816,7 +16801,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Aerobic ! Aerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Biofilm ! Biofilm
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002126
 property_value: mixs:env_medium ENVO:00002034
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001455
@@ -16824,7 +16809,7 @@ property_value: mixs:other PATO:0001455
 [Term]
 id: GOLDTERMS:5475
 name: Engineered > Bioreactor > Anaerobic > Activated sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Activated sludge, Anaerobic" EXACT []
 synonym: "Activated sludge, Anaerobic, Bioreactor" EXACT []
 synonym: "Activated sludge, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -16838,7 +16823,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Activated-sludge ! Activated sludge
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 
@@ -16885,7 +16870,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5482
 name: Engineered > Bioreactor > Anaerobic > Sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Sludge, Anaerobic" EXACT []
 synonym: "Sludge, Anaerobic, Bioreactor" EXACT []
 synonym: "Sludge, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -16899,7 +16884,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Sludge ! Sludge
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:00002044
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -16994,7 +16979,7 @@ property_value: mixs:mixs_extension mixs:BuiltEnvironment
 [Term]
 id: GOLDTERMS:5496
 name: Engineered > Food production > Fermentation starter
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:FoodFoodProductionFacility; other: fermentation starter; complete
+comment: env_broad: anthropogenic environment; env_local: fermentation starter; mixs_extension: MIXS:FoodFoodProductionFacility; other: food production; complete
 synonym: "Fermentation starter" EXACT []
 synonym: "Fermentation starter, Food production" EXACT []
 synonym: "Fermentation starter, Food production, Engineered" EXACT []
@@ -17006,8 +16991,9 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Food-production ! Food production
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Fermentation-starter ! Fermentation starter
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:03600040
 property_value: mixs:mixs_extension mixs:FoodFoodProductionFacility
-property_value: mixs:other ENVO:03600040
+property_value: mixs:other FOODON:03530206
 xref: ENVO:03600040 {name="fermentation starter"}
 
 [Term]
@@ -17073,7 +17059,7 @@ xref: MIXS:WastewaterSludge {name="Wastewater Sludge"}
 [Term]
 id: GOLDTERMS:5506
 name: Engineered > Bioreactor > Membrane bioreactor > Produced water > Sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: membrane bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: membrane bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Sludge, Produced water" EXACT []
 synonym: "Sludge, Produced water, Membrane bioreactor" EXACT []
 synonym: "Sludge, Produced water, Membrane bioreactor, Bioreactor" EXACT []
@@ -17090,15 +17076,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Sludge ! Sludge
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Produced-water ! Produced water
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:03600010
 property_value: mixs:env_medium ENVO:00002044
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600010
 
 [Term]
 id: GOLDTERMS:5508
 name: Engineered > Solid waste > Grass > Fermentation > Bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: solid waste material; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: solid waste material; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Bioreactor, Fermentation" EXACT []
 synonym: "Bioreactor, Fermentation, Grass" EXACT []
 synonym: "Bioreactor, Fermentation, Grass, Solid waste" EXACT []
@@ -17118,7 +17103,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:02000155
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5509
@@ -17391,7 +17375,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5549
 name: Engineered > Bioreactor > Membrane bioreactor > Wastewater retentate
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: membrane bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: membrane bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Wastewater retentate" EXACT []
 synonym: "Wastewater retentate, Membrane bioreactor" EXACT []
 synonym: "Wastewater retentate, Membrane bioreactor, Bioreactor" EXACT []
@@ -17406,14 +17390,13 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Membrane-bioreactor ! Membr
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Wastewater-retentate ! Wastewater retentate
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:03600010
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600010
 
 [Term]
 id: GOLDTERMS:5552
 name: Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Enriched plant cells
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Enriched plant cells" EXACT []
 synonym: "Enriched plant cells, Defined media" EXACT []
 synonym: "Enriched plant cells, Defined media, Plant growth chamber" EXACT []
@@ -17431,13 +17414,13 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Enriched-plant-cells ! Enriched plant cells
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Defined-media ! Defined media
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:5553
 name: Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Bulk soil
-comment: env_broad: anthropogenic environment; env_medium: bulk soil; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; env_medium: bulk soil; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Bulk soil, Defined media" EXACT []
 synonym: "Bulk soil, Defined media, Plant growth chamber" EXACT []
 synonym: "Bulk soil, Defined media, Plant growth chamber, Artificial ecosystem" EXACT []
@@ -17454,14 +17437,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Bulk-soil ! Bulk soil
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Defined-media ! Defined media
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:env_medium ENVO:00005802
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:5554
 name: Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Soil (non-planted)
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:Soil; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:Soil; partial
 synonym: "Soil (non-planted)" EXACT []
 synonym: "Soil (non-planted), Defined media" EXACT []
 synonym: "Soil (non-planted), Defined media, Plant growth chamber" EXACT []
@@ -17479,8 +17462,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Soil-_28non-planted_29 ! Soil (non-planted)
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Defined-media ! Defined media
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:00010622
 xref: MIXS:Soil {name="Soil"}
 
 [Term]
@@ -17512,7 +17495,7 @@ xref: ENVO:00001997 {name="acid mine drainage"}
 [Term]
 id: GOLDTERMS:5557
 name: Engineered > Bioreactor > Anaerobic > Acid mine drainage material
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Acid mine drainage material, Anaerobic" EXACT []
 synonym: "Acid mine drainage material, Anaerobic, Bioreactor" EXACT []
 synonym: "Acid mine drainage material, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -17526,14 +17509,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Acid-mine-drainage-material ! Acid mine drainage material
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 
 [Term]
 id: GOLDTERMS:5560
 name: Engineered > Bioreactor > Passive bioreactor > Acid mine drainage material
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Acid mine drainage material, Passive bioreactor" EXACT []
 synonym: "Acid mine drainage material, Passive bioreactor, Bioreactor" EXACT []
 synonym: "Acid mine drainage material, Passive bioreactor, Bioreactor, Engineered" EXACT []
@@ -17549,7 +17532,6 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Acid-mine-drainage-material ! A
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5562
@@ -17600,7 +17582,7 @@ xref: ENVO:00003903 {name="aviation fuel"}
 [Term]
 id: GOLDTERMS:5566
 name: Engineered > Bioreactor > Anaerobic > Biogas
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: biogas; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: biogas; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Biogas" EXACT []
 synonym: "Biogas, Anaerobic" EXACT []
 synonym: "Biogas, Anaerobic, Bioreactor" EXACT []
@@ -17615,7 +17597,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Biogas ! Biogas
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:01000556
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -17624,7 +17606,7 @@ xref: ENVO:01000556 {name="biogas"}
 [Term]
 id: GOLDTERMS:5567
 name: Engineered > Bioreactor > Anaerobic > Sludge > Manure
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: manure; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: manure; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Manure, Sludge" EXACT []
 synonym: "Manure, Sludge, Anaerobic" EXACT []
 synonym: "Manure, Sludge, Anaerobic, Bioreactor" EXACT []
@@ -17641,7 +17623,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Manure ! Manure
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Sludge ! Sludge
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:03501300
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -17649,7 +17631,7 @@ property_value: mixs:other PATO:0001456
 [Term]
 id: GOLDTERMS:5568
 name: Engineered > Artificial ecosystem > Plant growth chamber > Defined media > Rhizosphere
-comment: env_broad: anthropogenic environment; env_local: rhizosphere; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: rhizosphere; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Rhizosphere, Defined media" EXACT []
 synonym: "Rhizosphere, Defined media, Plant growth chamber" EXACT []
 synonym: "Rhizosphere, Defined media, Plant growth chamber, Artificial ecosystem" EXACT []
@@ -17668,7 +17650,6 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Defined-media ! Defined media
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local ENVO:00005801
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:5569
@@ -17762,7 +17743,7 @@ property_value: mixs:env_medium ENVO:00002011
 [Term]
 id: GOLDTERMS:5578
 name: Engineered > Industrial production > Train car > Seat surface
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: train car; partial
+comment: env_broad: anthropogenic environment; env_local: train car; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Seat surface" EXACT []
 synonym: "Seat surface, Train car" EXACT []
 synonym: "Seat surface, Train car, Industrial production" EXACT []
@@ -17777,13 +17758,13 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Train-car ! Train car
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Seat-surface ! Seat surface
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:03600051
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600051
 
 [Term]
 id: GOLDTERMS:5581
 name: Engineered > Industrial production > Chemical products > PCR blank control
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: chemical product; partial
+comment: env_broad: anthropogenic environment; env_local: chemical product; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "PCR blank control" EXACT []
 synonym: "PCR blank control, Chemical products" EXACT []
 synonym: "PCR blank control, Chemical products, Industrial production" EXACT []
@@ -17798,13 +17779,13 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Chemical-products ! Chemica
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:PCR-blank-control ! PCR blank control
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:2000000
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:2000000
 
 [Term]
 id: GOLDTERMS:5583
 name: Engineered > Bioreactor > Anaerobic > Digestate
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Digestate, Anaerobic" EXACT []
 synonym: "Digestate, Anaerobic, Bioreactor" EXACT []
 synonym: "Digestate, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -17818,7 +17799,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Digestate ! Digestate
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 
@@ -17873,7 +17854,7 @@ property_value: mixs:mixs_extension mixs:Soil
 [Term]
 id: GOLDTERMS:5587
 name: Environmental > Terrestrial > Soil > Organic layer > Forest soil
-comment: env_broad: terrestrial biome; env_medium: forest soil; mixs_extension: MIXS:Soil; other: organic horizon; complete
+comment: env_broad: terrestrial biome; env_local: organic horizon; env_medium: forest soil; mixs_extension: MIXS:Soil; complete
 synonym: "Forest soil, Organic layer" EXACT []
 synonym: "Forest soil, Organic layer, Soil" EXACT []
 synonym: "Forest soil, Organic layer, Soil, Terrestrial" EXACT []
@@ -17890,14 +17871,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Forest-soil ! Forest soil
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Organic-layer ! Organic layer
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:03600018
 property_value: mixs:env_medium ENVO:00002261
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:03600018
 
 [Term]
 id: GOLDTERMS:5589
 name: Environmental > Terrestrial > Soil > Mineral horizon > Forest soil
-comment: env_broad: terrestrial biome; env_medium: forest soil; mixs_extension: MIXS:Soil; other: mineral horizon; complete
+comment: env_broad: terrestrial biome; env_local: mineral horizon; env_medium: forest soil; mixs_extension: MIXS:Soil; complete
 synonym: "Forest soil, Mineral horizon" EXACT []
 synonym: "Forest soil, Mineral horizon, Soil" EXACT []
 synonym: "Forest soil, Mineral horizon, Soil, Terrestrial" EXACT []
@@ -17914,9 +17895,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Forest-soil ! Forest soil
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Mineral-horizon ! Mineral horizon
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:03600011
 property_value: mixs:env_medium ENVO:00002261
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:03600011
 
 [Term]
 id: GOLDTERMS:5590
@@ -17944,7 +17925,7 @@ property_value: mixs:env_local ENVO:00000316
 [Term]
 id: GOLDTERMS:5591
 name: Engineered > Bioreactor > Anaerobic > Manure > Composting
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: manure; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: manure; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Composting, Manure" EXACT []
 synonym: "Composting, Manure, Anaerobic" EXACT []
 synonym: "Composting, Manure, Anaerobic, Bioreactor" EXACT []
@@ -17961,7 +17942,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Composting ! Composting
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Manure ! Manure
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:03501300
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -18033,7 +18014,7 @@ xref: FOODON:03301115 {name="soy sauce"}
 [Term]
 id: GOLDTERMS:5602
 name: Engineered > Bioreactor > Wastewater > Sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; complete
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Sludge, Wastewater, Bioreactor" EXACT []
 synonym: "Sludge, Wastewater, Bioreactor, Engineered" EXACT []
 is_a: GOLDTERMS:5828 ! Engineered > Bioreactor > Wastewater
@@ -18049,12 +18030,11 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002044
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5604
 name: Engineered > Bioreactor > Continuous culture > Tailings pond sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Tailings pond sludge" EXACT []
 synonym: "Tailings pond sludge, Continuous culture" EXACT []
 synonym: "Tailings pond sludge, Continuous culture, Bioreactor" EXACT []
@@ -18071,7 +18051,6 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Tailings-pond-sludge ! Tailings
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5606
@@ -18098,7 +18077,7 @@ xref: ENVO:00002149 {name="sea water"}
 [Term]
 id: GOLDTERMS:5608
 name: Engineered > Bioreactor > Anaerobic > Settled granule
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Settled granule" EXACT []
 synonym: "Settled granule, Anaerobic" EXACT []
 synonym: "Settled granule, Anaerobic, Bioreactor" EXACT []
@@ -18113,7 +18092,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Settled-granule ! Settled granule
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 
@@ -18209,7 +18188,7 @@ xref: ENVO:00000292 {name="watershed"}
 [Term]
 id: GOLDTERMS:5617
 name: Environmental > Terrestrial > Soil > Nature reserve > Meadow
-comment: env_broad: terrestrial biome; env_local: meadow ecosystem; env_medium: soil; mixs_extension: MIXS:Soil; other: area designated as a nature reserve; complete
+comment: env_broad: terrestrial biome; env_local: meadow ecosystem; env_medium: soil; mixs_extension: MIXS:Soil; complete
 synonym: "Meadow, Nature reserve" EXACT []
 synonym: "Meadow, Nature reserve, Soil" EXACT []
 synonym: "Meadow, Nature reserve, Soil, Terrestrial" EXACT []
@@ -18229,7 +18208,6 @@ property_value: mixs:env_broad ENVO:00000446
 property_value: mixs:env_local ENVO:00000108
 property_value: mixs:env_medium ENVO:00001998
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:00000363
 
 [Term]
 id: GOLDTERMS:5621
@@ -18354,7 +18332,7 @@ property_value: mixs:other FOODON:03530206
 [Term]
 id: GOLDTERMS:5637
 name: Engineered > Bioreactor > Sulphur Autotrophic Denitrification
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Sulphur Autotrophic Denitrification" EXACT []
 synonym: "Sulphur Autotrophic Denitrification, Bioreactor" EXACT []
 synonym: "Sulphur Autotrophic Denitrification, Bioreactor, Engineered" EXACT []
@@ -18368,12 +18346,11 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5639
 name: Engineered > Bioreactor > Anaerobic > Reservoir sediment inoculum
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Reservoir sediment inoculum" EXACT []
 synonym: "Reservoir sediment inoculum, Anaerobic" EXACT []
 synonym: "Reservoir sediment inoculum, Anaerobic, Bioreactor" EXACT []
@@ -18388,14 +18365,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Reservoir-sediment-inoculum ! Reservoir sediment inoculum
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 
 [Term]
 id: GOLDTERMS:5641
 name: Engineered > Bioreactor > Anaerobic > Soft drink wastewater > Biofilm
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: biofilm; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: biofilm; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Biofilm, Soft drink wastewater" EXACT []
 synonym: "Biofilm, Soft drink wastewater, Anaerobic" EXACT []
 synonym: "Biofilm, Soft drink wastewater, Anaerobic, Bioreactor" EXACT []
@@ -18412,7 +18389,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Biofilm ! Biofilm
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Soft-drink-wastewater ! Soft drink wastewater
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:00002034
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -18620,7 +18597,7 @@ xref: ENVO:00002060 {name="oil sludge"}
 [Term]
 id: GOLDTERMS:5662
 name: Engineered > Bioreactor > Sulphur Autotrophic Denitrification > Interstitial water
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: interstitial water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: interstitial water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Interstitial water" EXACT []
 synonym: "Interstitial water, Sulphur Autotrophic Denitrification" EXACT []
 synonym: "Interstitial water, Sulphur Autotrophic Denitrification, Bioreactor" EXACT []
@@ -18638,7 +18615,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:03600009
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 xref: ENVO:03600009 {name="interstitial water"}
 
 [Term]
@@ -18688,7 +18664,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5669
 name: Engineered > Bioreactor > Anaerobic > Leachate
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: leachate; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: leachate; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Leachate, Anaerobic" EXACT []
 synonym: "Leachate, Anaerobic, Bioreactor" EXACT []
 synonym: "Leachate, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -18702,7 +18678,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Leachate ! Leachate
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:00002141
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -18771,7 +18747,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5679
 name: Engineered > Bioreactor > Anaerobic > Wastewater
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Wastewater, Anaerobic" EXACT []
 synonym: "Wastewater, Anaerobic, Bioreactor" EXACT []
 synonym: "Wastewater, Anaerobic, Bioreactor, Engineered" EXACT []
@@ -18785,7 +18761,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Wastewater ! Wastewater
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -18793,7 +18769,7 @@ property_value: mixs:other PATO:0001456
 [Term]
 id: GOLDTERMS:5681
 name: Engineered > Bioreactor > Wastewater > Activated sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Activated sludge, Wastewater, Bioreactor" EXACT []
 synonym: "Activated sludge, Wastewater, Bioreactor, Engineered" EXACT []
 is_a: GOLDTERMS:5828 ! Engineered > Bioreactor > Wastewater
@@ -18809,7 +18785,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5682
@@ -18837,7 +18812,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5684
 name: Engineered > Bioreactor > Wastewater > Cyanide/thiocyanate
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Cyanide/thiocyanate" EXACT []
 synonym: "Cyanide/thiocyanate, Wastewater" EXACT []
 synonym: "Cyanide/thiocyanate, Wastewater, Bioreactor" EXACT []
@@ -18855,7 +18830,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5686
@@ -18881,7 +18855,7 @@ property_value: mixs:other CHEBI:24632
 [Term]
 id: GOLDTERMS:5689
 name: Engineered > Lab enrichment > Freshwater > Aquifer
-comment: env_broad: anthropogenic environment; env_medium: fresh water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aquifer; partial
+comment: env_broad: anthropogenic environment; env_local: aquifer; env_medium: fresh water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Aquifer, Freshwater, Lab enrichment" EXACT []
 synonym: "Aquifer, Freshwater, Lab enrichment, Engineered" EXACT []
 is_a: GOLDTERMS:Engineered-Lab-enrichment-Freshwater ! Engineered > Lab enrichment > Freshwater
@@ -18894,9 +18868,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Freshwater ! Freshwater
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00012408
 property_value: mixs:env_medium ENVO:00002011
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00012408
 
 [Term]
 id: GOLDTERMS:5690
@@ -18926,7 +18900,7 @@ xref: UBERON:0001988 {name="feces"}
 [Term]
 id: GOLDTERMS:5692
 name: Engineered > Industrial production > Chemical products > Buffer
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: chemical product; partial
+comment: env_broad: anthropogenic environment; env_local: chemical product; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Buffer" EXACT []
 synonym: "Buffer, Chemical products" EXACT []
 synonym: "Buffer, Chemical products, Industrial production" EXACT []
@@ -18941,8 +18915,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Chemical-products ! Chemica
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Buffer ! Buffer
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:2000000
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:2000000
 
 [Term]
 id: GOLDTERMS:5694
@@ -19017,7 +18991,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5699
 name: Engineered > Bioreactor > Anaerobic > Sludge > Palm oil
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: palm oil; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; env_medium: palm oil; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; complete
 synonym: "Palm oil" EXACT []
 synonym: "Palm oil, Sludge" EXACT []
 synonym: "Palm oil, Sludge, Anaerobic" EXACT []
@@ -19035,7 +19009,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Palm-oil ! Palm oil
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Sludge ! Sludge
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:env_medium FOODON:03310232
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
@@ -19221,7 +19195,7 @@ property_value: mixs:mixs_extension mixs:BuiltEnvironment
 [Term]
 id: GOLDTERMS:5717
 name: Host-associated > Human > Abdomen
-comment: anatomical_site: abdomen; host_taxon: Homo sapiens; mixs_extension: MIXS:HumanAssociated; complete
+comment: host_taxon: Homo sapiens; mixs_extension: MIXS:HumanAssociated; partial
 synonym: "Abdomen, Human" EXACT []
 synonym: "Abdomen, Human, Host-associated" EXACT []
 is_a: GOLDTERMS:4138 ! Host-associated > Human
@@ -19231,7 +19205,6 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Human ! Human
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Abdomen ! Abdomen
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:anatomical_site UBERON:0000916
 property_value: mixs:host_taxon NCBITaxon:9606
 property_value: mixs:mixs_extension mixs:HumanAssociated
 
@@ -19283,7 +19256,7 @@ property_value: mixs:other PATO:0001430
 [Term]
 id: GOLDTERMS:5722
 name: Environmental > Aquatic > Marine > Shipwreck
-comment: env_broad: marine biome; other: shipwreck; complete
+comment: env_broad: marine biome; env_local: shipwreck; complete
 synonym: "Shipwreck" EXACT []
 synonym: "Shipwreck, Marine" EXACT []
 synonym: "Shipwreck, Marine, Aquatic" EXACT []
@@ -19298,7 +19271,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Marine ! Marine
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Shipwreck ! Shipwreck
 property_value: mixs:env_broad ENVO:00000447
-property_value: mixs:other ENVO:03600061
+property_value: mixs:env_local ENVO:03600061
 xref: ENVO:03600061 {name="shipwreck"}
 
 [Term]
@@ -19423,7 +19396,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5737
 name: Environmental > Aquatic > Marine > Aquifer > Formation fluid
-comment: env_broad: marine biome; env_medium: formation fluid; other: aquifer; complete
+comment: env_broad: marine biome; env_local: aquifer; env_medium: formation fluid; complete
 synonym: "Formation fluid" EXACT []
 synonym: "Formation fluid, Aquifer" EXACT []
 synonym: "Formation fluid, Aquifer, Marine" EXACT []
@@ -19441,8 +19414,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Formation-fluid ! Formation fluid
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:00000447
+property_value: mixs:env_local ENVO:00012408
 property_value: mixs:env_medium ENVO:03600007
-property_value: mixs:other ENVO:00012408
 xref: ENVO:03600007 {name="formation fluid"}
 
 [Term]
@@ -19980,7 +19953,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:5784
 name: Host-associated > Plants > Roots > Rhizoplane
-comment: anatomical_site: root; host_taxon: Embryophyta; mixs_extension: MIXS:PlantAssociated; other: rhizoplane; complete
+comment: anatomical_site: root; env_local: rhizoplane; host_taxon: Embryophyta; mixs_extension: MIXS:PlantAssociated; complete
 synonym: "Rhizoplane" EXACT []
 synonym: "Rhizoplane, Roots" EXACT []
 synonym: "Rhizoplane, Roots, Plants" EXACT []
@@ -19995,9 +19968,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Roots ! Roots
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Rhizoplane ! Rhizoplane
 property_value: mixs:anatomical_site PO:0009005
+property_value: mixs:env_local ENVO:01001181
 property_value: mixs:host_taxon NCBITaxon:3193
 property_value: mixs:mixs_extension mixs:PlantAssociated
-property_value: mixs:other ENVO:01001181
 xref: ENVO:01001181 {name="rhizoplane"}
 
 [Term]
@@ -20024,7 +19997,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:5788
 name: Engineered > Industrial production > Chemical products
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: chemical product; partial
+comment: env_broad: anthropogenic environment; env_local: chemical product; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Chemical products" EXACT []
 synonym: "Chemical products, Industrial production" EXACT []
 synonym: "Chemical products, Industrial production, Engineered" EXACT []
@@ -20036,8 +20009,8 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Industrial-production ! Industrial p
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Chemical-products ! Chemical products
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:2000000
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:2000000
 xref: ENVO:2000000 {name="chemical product"}
 
 [Term]
@@ -20310,7 +20283,7 @@ xref: ENVO:01001209 {name="wetland ecosystem"}
 [Term]
 id: GOLDTERMS:5812
 name: Host-associated > Plants > Biocrust
-comment: host_taxon: Embryophyta; mixs_extension: MIXS:PlantAssociated; other: biocrust; complete
+comment: env_local: biocrust; host_taxon: Embryophyta; mixs_extension: MIXS:PlantAssociated; complete
 synonym: "Biocrust, Plants" EXACT []
 synonym: "Biocrust, Plants, Host-associated" EXACT []
 is_a: GOLDTERMS:3938 ! Host-associated > Plants
@@ -20320,14 +20293,14 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Plants ! Plants
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Biocrust ! Biocrust
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
+property_value: mixs:env_local ENVO:01000909
 property_value: mixs:host_taxon NCBITaxon:3193
 property_value: mixs:mixs_extension mixs:PlantAssociated
-property_value: mixs:other ENVO:01000909
 
 [Term]
 id: GOLDTERMS:5815
 name: Host-associated > Algae > Biocrust
-comment: host_taxon: Mesostigmatophyceae; mixs_extension: MIXS:HostAssociated; other: biocrust; complete
+comment: env_local: biocrust; mixs_extension: MIXS:HostAssociated; other: algae; complete
 synonym: "Biocrust, Algae" EXACT []
 synonym: "Biocrust, Algae, Host-associated" EXACT []
 is_a: GOLDTERMS:3957 ! Host-associated > Algae
@@ -20337,9 +20310,9 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Algae ! Algae
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Biocrust ! Biocrust
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:host_taxon NCBITaxon:96475
+property_value: mixs:env_local ENVO:01000909
 property_value: mixs:mixs_extension mixs:HostAssociated
-property_value: mixs:other ENVO:01000909
+property_value: mixs:other FOODON:03411301
 
 [Term]
 id: GOLDTERMS:5816
@@ -20421,7 +20394,7 @@ property_value: mixs:mixs_extension mixs:Soil
 [Term]
 id: GOLDTERMS:5820
 name: Environmental > Terrestrial > Soil > Vadose zone
-comment: env_broad: terrestrial biome; env_medium: soil; mixs_extension: MIXS:Soil; other: vadose zone; complete
+comment: env_broad: terrestrial biome; env_local: vadose zone; env_medium: soil; mixs_extension: MIXS:Soil; complete
 synonym: "Vadose zone" EXACT []
 synonym: "Vadose zone, Soil" EXACT []
 synonym: "Vadose zone, Soil, Terrestrial" EXACT []
@@ -20436,15 +20409,15 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Soil ! Soil
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Vadose-zone ! Vadose zone
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:00000328
 property_value: mixs:env_medium ENVO:00001998
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:00000328
 xref: ENVO:00000328 {name="vadose zone"}
 
 [Term]
 id: GOLDTERMS:5821
 name: Environmental > Terrestrial > Soil > Vadose zone > Saprolite
-comment: env_broad: terrestrial biome; env_medium: saprolite; mixs_extension: MIXS:Soil; other: vadose zone; complete
+comment: env_broad: terrestrial biome; env_local: vadose zone; env_medium: saprolite; mixs_extension: MIXS:Soil; complete
 synonym: "Saprolite" EXACT []
 synonym: "Saprolite, Vadose zone" EXACT []
 synonym: "Saprolite, Vadose zone, Soil" EXACT []
@@ -20462,15 +20435,15 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Saprolite ! Saprolite
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Vadose-zone ! Vadose zone
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:00000328
 property_value: mixs:env_medium ENVO:03600016
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:00000328
 xref: ENVO:03600016 {name="saprolite"}
 
 [Term]
 id: GOLDTERMS:5822
 name: Environmental > Terrestrial > Soil > Organic layer
-comment: env_broad: terrestrial biome; env_medium: soil; mixs_extension: MIXS:Soil; other: organic horizon; complete
+comment: env_broad: terrestrial biome; env_local: organic horizon; env_medium: soil; mixs_extension: MIXS:Soil; complete
 synonym: "Organic layer" EXACT []
 synonym: "Organic layer, Soil" EXACT []
 synonym: "Organic layer, Soil, Terrestrial" EXACT []
@@ -20485,15 +20458,15 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Soil ! Soil
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Organic-layer ! Organic layer
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:03600018
 property_value: mixs:env_medium ENVO:00001998
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:03600018
 xref: ENVO:03600018 {name="organic horizon"}
 
 [Term]
 id: GOLDTERMS:5823
 name: Environmental > Terrestrial > Soil > Bulk soil > Plant pot
-comment: env_broad: terrestrial biome; env_medium: bulk soil; mixs_extension: MIXS:Soil; other: plant pot; complete
+comment: env_broad: terrestrial biome; env_local: plant pot; env_medium: bulk soil; mixs_extension: MIXS:Soil; complete
 synonym: "Plant pot" EXACT []
 synonym: "Plant pot, Bulk soil" EXACT []
 synonym: "Plant pot, Bulk soil, Soil" EXACT []
@@ -20511,9 +20484,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmenta
 relationship: GOLDVOCAB:ECOSYSTEM-SUBTYPE GOLDVOCAB:Plant-pot ! Plant pot
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Bulk-soil ! Bulk soil
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:03600045
 property_value: mixs:env_medium ENVO:00005802
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:03600045
 xref: ENVO:03600045 {name="plant pot"}
 
 [Term]
@@ -20567,7 +20540,7 @@ property_value: mixs:mixs_extension mixs:PlantAssociated
 [Term]
 id: GOLDTERMS:5828
 name: Engineered > Bioreactor > Wastewater
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; complete
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Wastewater, Bioreactor" EXACT []
 synonym: "Wastewater, Bioreactor, Engineered" EXACT []
 is_a: GOLDTERMS:4280 ! Engineered > Bioreactor
@@ -20581,12 +20554,11 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5830
 name: Engineered > Bioreactor > Aerobic > Sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; complete
+comment: env_broad: anthropogenic environment; env_local: aerobic bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: aerobic; complete
 synonym: "Sludge, Aerobic" EXACT []
 synonym: "Sludge, Aerobic, Bioreactor" EXACT []
 synonym: "Sludge, Aerobic, Bioreactor, Engineered" EXACT []
@@ -20600,7 +20572,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Aerobic ! Aerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Sludge ! Sludge
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002126
 property_value: mixs:env_medium ENVO:00002044
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001455
@@ -20625,7 +20597,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:5836
 name: Engineered > Bioreactor > DHS reactor > Sludge
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: sludge; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Sludge, DHS reactor" EXACT []
 synonym: "Sludge, DHS reactor, Bioreactor" EXACT []
 synonym: "Sludge, DHS reactor, Bioreactor, Engineered" EXACT []
@@ -20642,12 +20614,11 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002044
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5838
 name: Engineered > Bioreactor > DHS reactor > Wastewater
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: waste water; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Wastewater, DHS reactor" EXACT []
 synonym: "Wastewater, DHS reactor, Bioreactor" EXACT []
 synonym: "Wastewater, DHS reactor, Bioreactor, Engineered" EXACT []
@@ -20664,7 +20635,6 @@ property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:env_medium ENVO:00002001
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5841
@@ -20692,7 +20662,7 @@ xref: ENVO:03600013 {name="bituminous sand"}
 [Term]
 id: GOLDTERMS:5843
 name: Engineered > Bioreactor > Continuous culture > Freshwater sediment inoculum
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Freshwater sediment inoculum" EXACT []
 synonym: "Freshwater sediment inoculum, Continuous culture" EXACT []
 synonym: "Freshwater sediment inoculum, Continuous culture, Bioreactor" EXACT []
@@ -20709,12 +20679,11 @@ relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Freshwater-sediment-inoculum ! 
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:5846
 name: Engineered > Bioreactor > Photobioreactor > Biofilm
-comment: env_broad: anthropogenic environment; env_local: bioreactor; env_medium: biofilm; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: photobioreactor; complete
+comment: env_broad: anthropogenic environment; env_local: photobioreactor; env_medium: biofilm; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Biofilm, Photobioreactor" EXACT []
 synonym: "Biofilm, Photobioreactor, Bioreactor" EXACT []
 synonym: "Biofilm, Photobioreactor, Bioreactor, Engineered" EXACT []
@@ -20728,15 +20697,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Photobioreactor ! Photobior
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Biofilm ! Biofilm
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:03600077
 property_value: mixs:env_medium ENVO:00002034
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600077
 
 [Term]
 id: GOLDTERMS:5849
 name: Engineered > Artificial ecosystem > Soil microcosm
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Soil microcosm" EXACT []
 synonym: "Soil microcosm, Artificial ecosystem" EXACT []
 synonym: "Soil microcosm, Artificial ecosystem, Engineered" EXACT []
@@ -20748,8 +20716,8 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Artificial-ecosystem ! Artificial ec
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Soil-microcosm ! Soil microcosm
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:5850
@@ -20774,7 +20742,7 @@ property_value: mixs:mixs_extension mixs:BuiltEnvironment
 [Term]
 id: GOLDTERMS:Engineered-Artificial-ecosystem
 name: Engineered > Artificial ecosystem
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; complete
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Artificial ecosystem" EXACT []
 synonym: "Artificial ecosystem, Engineered" EXACT []
 is_a: GOLDTERMS:4292 ! Engineered
@@ -20783,13 +20751,13 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Artificial-ecosystem ! Artificial ecosystem
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber
 name: Engineered > Artificial ecosystem > Plant growth chamber
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Plant growth chamber" EXACT []
 synonym: "Plant growth chamber, Artificial ecosystem" EXACT []
 synonym: "Plant growth chamber, Artificial ecosystem, Engineered" EXACT []
@@ -20801,13 +20769,13 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Artificial-ecosystem ! Artificial ec
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Plant-growth-chamber ! Plant growth chamber
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:Engineered-Artificial-ecosystem-Plant-growth-chamber-Defined-media
 name: Engineered > Artificial ecosystem > Plant growth chamber > Defined media
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: vivarium; partial
+comment: env_broad: anthropogenic environment; env_local: vivarium; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Defined media, Plant growth chamber" EXACT []
 synonym: "Defined media, Plant growth chamber, Artificial ecosystem" EXACT []
 synonym: "Defined media, Plant growth chamber, Artificial ecosystem, Engineered" EXACT []
@@ -20821,13 +20789,13 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Plant-growth-chamber ! Plan
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Defined-media ! Defined media
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:00010622
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00010622
 
 [Term]
 id: GOLDTERMS:Engineered-Bioreactor-Anaerobic-Soft-drink-wastewater
 name: Engineered > Bioreactor > Anaerobic > Soft drink wastewater
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
+comment: env_broad: anthropogenic environment; env_local: anaerobic bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: anaerobic; partial
 synonym: "Soft drink wastewater" EXACT []
 synonym: "Soft drink wastewater, Anaerobic" EXACT []
 synonym: "Soft drink wastewater, Anaerobic, Bioreactor" EXACT []
@@ -20842,14 +20810,14 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Anaerobic ! Anaerobic
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Soft-drink-wastewater ! Soft drink wastewater
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:00002124
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
 property_value: mixs:other PATO:0001456
 
 [Term]
 id: GOLDTERMS:Engineered-Bioreactor-DHS-reactor
 name: Engineered > Bioreactor > DHS reactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "DHS reactor" EXACT []
 synonym: "DHS reactor, Bioreactor" EXACT []
 synonym: "DHS reactor, Bioreactor, Engineered" EXACT []
@@ -20863,12 +20831,11 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor
 name: Engineered > Bioreactor > Membrane bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: membrane bioreactor; complete
+comment: env_broad: anthropogenic environment; env_local: membrane bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Membrane bioreactor" EXACT []
 synonym: "Membrane bioreactor, Bioreactor" EXACT []
 synonym: "Membrane bioreactor, Bioreactor, Engineered" EXACT []
@@ -20880,15 +20847,14 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Bioreactor ! Bioreactor
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Membrane-bioreactor ! Membrane bioreactor
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:03600010
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600010
 xref: ENVO:03600010 {name="membrane bioreactor"}
 
 [Term]
 id: GOLDTERMS:Engineered-Bioreactor-Membrane-bioreactor-Produced-water
 name: Engineered > Bioreactor > Membrane bioreactor > Produced water
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: membrane bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: membrane bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Produced water, Membrane bioreactor" EXACT []
 synonym: "Produced water, Membrane bioreactor, Bioreactor" EXACT []
 synonym: "Produced water, Membrane bioreactor, Bioreactor, Engineered" EXACT []
@@ -20902,14 +20868,13 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Membrane-bioreactor ! Membr
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Produced-water ! Produced water
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:03600010
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600010
 
 [Term]
 id: GOLDTERMS:Engineered-Bioreactor-Passive-bioreactor
 name: Engineered > Bioreactor > Passive bioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: bioreactor; partial
+comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Passive bioreactor" EXACT []
 synonym: "Passive bioreactor, Bioreactor" EXACT []
 synonym: "Passive bioreactor, Bioreactor, Engineered" EXACT []
@@ -20923,12 +20888,11 @@ relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
 property_value: mixs:env_local OBI:0001046
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:00002123
 
 [Term]
 id: GOLDTERMS:Engineered-Bioreactor-Photobioreactor
 name: Engineered > Bioreactor > Photobioreactor
-comment: env_broad: anthropogenic environment; env_local: bioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: photobioreactor; complete
+comment: env_broad: anthropogenic environment; env_local: photobioreactor; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Photobioreactor" EXACT []
 synonym: "Photobioreactor, Bioreactor" EXACT []
 synonym: "Photobioreactor, Bioreactor, Engineered" EXACT []
@@ -20940,9 +20904,8 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Bioreactor ! Bioreactor
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Photobioreactor ! Photobioreactor
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
-property_value: mixs:env_local OBI:0001046
+property_value: mixs:env_local ENVO:03600077
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600077
 xref: ENVO:03600077 {name="photobioreactor"}
 
 [Term]
@@ -21298,7 +21261,7 @@ property_value: mixs:other FOODON:03530206
 [Term]
 id: GOLDTERMS:Engineered-Industrial-production-Train-car
 name: Engineered > Industrial production > Train car
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: train car; partial
+comment: env_broad: anthropogenic environment; env_local: train car; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; partial
 synonym: "Train car" EXACT []
 synonym: "Train car, Industrial production" EXACT []
 synonym: "Train car, Industrial production, Engineered" EXACT []
@@ -21310,8 +21273,8 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Industrial-production ! Industrial p
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Train-car ! Train car
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:03600051
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03600051
 xref: ENVO:03600051 {name="train car"}
 
 [Term]
@@ -21373,7 +21336,7 @@ property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnviron
 [Term]
 id: GOLDTERMS:Engineered-Paper
 name: Engineered > Paper
-comment: env_broad: anthropogenic environment; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; other: sheet of paper; complete
+comment: env_broad: anthropogenic environment; env_local: sheet of paper; mixs_extension: MIXS:MiscellaneousNaturalOrArtificialEnvironment; complete
 synonym: "Paper" EXACT []
 synonym: "Paper, Engineered" EXACT []
 is_a: GOLDTERMS:4292 ! Engineered
@@ -21382,8 +21345,8 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Paper ! Paper
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Engineered ! Engineered
 property_value: mixs:env_broad ENVO:01000313
+property_value: mixs:env_local ENVO:03501256
 property_value: mixs:mixs_extension mixs:MiscellaneousNaturalOrArtificialEnvironment
-property_value: mixs:other ENVO:03501256
 xref: ENVO:03501256 {name="sheet of paper"}
 
 [Term]
@@ -21770,7 +21733,7 @@ property_value: mixs:env_local ENVO:00000255
 [Term]
 id: GOLDTERMS:Environmental-Aquatic-Freshwater-Aquifer
 name: Environmental > Aquatic > Freshwater > Aquifer
-comment: env_broad: aquatic biome; env_medium: fresh water; other: aquifer; complete
+comment: env_broad: aquatic biome; env_local: aquifer; env_medium: fresh water; complete
 synonym: "Aquifer, Freshwater, Aquatic" EXACT []
 synonym: "Aquifer, Freshwater, Aquatic, Environmental" EXACT []
 is_a: GOLDTERMS:4159 ! Environmental > Aquatic > Freshwater
@@ -21783,8 +21746,8 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Freshwater ! Freshwater
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:00002030
+property_value: mixs:env_local ENVO:00012408
 property_value: mixs:env_medium ENVO:00002011
-property_value: mixs:other ENVO:00012408
 
 [Term]
 id: GOLDTERMS:Environmental-Aquatic-Freshwater-Desert-springs
@@ -21811,7 +21774,7 @@ xref: ENVO:02000139 {name="desert spring"}
 [Term]
 id: GOLDTERMS:Environmental-Aquatic-Marine-Aquifer
 name: Environmental > Aquatic > Marine > Aquifer
-comment: env_broad: marine biome; other: aquifer; complete
+comment: env_broad: marine biome; env_local: aquifer; complete
 synonym: "Aquifer, Marine" EXACT []
 synonym: "Aquifer, Marine, Aquatic" EXACT []
 synonym: "Aquifer, Marine, Aquatic, Environmental" EXACT []
@@ -21825,7 +21788,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Marine ! Marine
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Aquifer ! Aquifer
 property_value: mixs:env_broad ENVO:00000447
-property_value: mixs:other ENVO:00012408
+property_value: mixs:env_local ENVO:00012408
 
 [Term]
 id: GOLDTERMS:Environmental-Aquatic-Marine-Archipelago
@@ -21928,7 +21891,7 @@ property_value: mixs:env_broad ENVO:00000447
 [Term]
 id: GOLDTERMS:Environmental-Aquatic-Marine-River-plume
 name: Environmental > Aquatic > Marine > River plume
-comment: env_broad: marine biome; other: river plume; complete
+comment: env_broad: marine biome; env_local: river plume; complete
 synonym: "River plume" EXACT []
 synonym: "River plume, Marine" EXACT []
 synonym: "River plume, Marine, Aquatic" EXACT []
@@ -21943,7 +21906,7 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Marine ! Marine
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:River-plume ! River plume
 property_value: mixs:env_broad ENVO:00000447
-property_value: mixs:other ENVO:03600070
+property_value: mixs:env_local ENVO:03600070
 xref: ENVO:03600070 {name="river plume"}
 
 [Term]
@@ -22036,7 +21999,7 @@ property_value: mixs:env_broad ENVO:00000446
 [Term]
 id: GOLDTERMS:Environmental-Terrestrial-Nest
 name: Environmental > Terrestrial > Nest
-comment: env_broad: terrestrial biome; other: animal habitation; complete
+comment: env_broad: terrestrial biome; env_local: animal habitation; complete
 synonym: "Nest" EXACT []
 synonym: "Nest, Terrestrial" EXACT []
 synonym: "Nest, Terrestrial, Environmental" EXACT []
@@ -22048,7 +22011,7 @@ relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Terrestrial ! Terrestrial
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Nest ! Nest
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 property_value: mixs:env_broad ENVO:00000446
-property_value: mixs:other ENVO:00005803
+property_value: mixs:env_local ENVO:00005803
 xref: ENVO:00005803 {name="animal habitation"}
 
 [Term]
@@ -22097,7 +22060,7 @@ property_value: mixs:mixs_extension mixs:Soil
 [Term]
 id: GOLDTERMS:Environmental-Terrestrial-Soil-Mineral-horizon
 name: Environmental > Terrestrial > Soil > Mineral horizon
-comment: env_broad: terrestrial biome; env_medium: soil; mixs_extension: MIXS:Soil; other: mineral horizon; complete
+comment: env_broad: terrestrial biome; env_local: mineral horizon; env_medium: soil; mixs_extension: MIXS:Soil; complete
 synonym: "Mineral horizon" EXACT []
 synonym: "Mineral horizon, Soil" EXACT []
 synonym: "Mineral horizon, Soil, Terrestrial" EXACT []
@@ -22112,15 +22075,15 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Soil ! Soil
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Mineral-horizon ! Mineral horizon
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:03600011
 property_value: mixs:env_medium ENVO:00001998
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:03600011
 xref: ENVO:03600011 {name="mineral horizon"}
 
 [Term]
 id: GOLDTERMS:Environmental-Terrestrial-Soil-Nature-reserve
 name: Environmental > Terrestrial > Soil > Nature reserve
-comment: env_broad: terrestrial biome; env_medium: soil; mixs_extension: MIXS:Soil; other: area designated as a nature reserve; complete
+comment: env_broad: terrestrial biome; env_local: area designated as a nature reserve; env_medium: soil; mixs_extension: MIXS:Soil; complete
 synonym: "Nature reserve" EXACT []
 synonym: "Nature reserve, Soil" EXACT []
 synonym: "Nature reserve, Soil, Terrestrial" EXACT []
@@ -22135,9 +22098,9 @@ relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Soil ! Soil
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Environmental ! Environmental
 relationship: GOLDVOCAB:ECOSYSTEM-TYPE GOLDVOCAB:Nature-reserve ! Nature reserve
 property_value: mixs:env_broad ENVO:00000446
+property_value: mixs:env_local ENVO:00000363
 property_value: mixs:env_medium ENVO:00001998
 property_value: mixs:mixs_extension mixs:Soil
-property_value: mixs:other ENVO:00000363
 xref: ENVO:00000363 {name="area designated as a nature reserve"}
 
 [Term]
@@ -22438,7 +22401,7 @@ property_value: mixs:mixs_extension mixs:HostAssociated
 [Term]
 id: GOLDTERMS:Host-associated-Fish-Abdomen
 name: Host-associated > Fish > Abdomen
-comment: anatomical_site: abdomen; host_taxon: Chondrichthyes; mixs_extension: MIXS:HostAssociated; complete
+comment: host_taxon: Chondrichthyes; mixs_extension: MIXS:HostAssociated; partial
 synonym: "Abdomen, Fish" EXACT []
 synonym: "Abdomen, Fish, Host-associated" EXACT []
 is_a: GOLDTERMS:4095 ! Host-associated > Fish
@@ -22448,7 +22411,6 @@ intersection_of: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-as
 relationship: GOLDVOCAB:ECOSYSTEM GOLDVOCAB:Fish ! Fish
 relationship: GOLDVOCAB:ECOSYSTEM-CATEGORY GOLDVOCAB:Abdomen ! Abdomen
 relationship: GOLDVOCAB:ECOSYSTEM-PATH-ID GOLDVOCAB:Host-associated ! Host-associated
-property_value: mixs:anatomical_site UBERON:0000916
 property_value: mixs:host_taxon NCBITaxon:7777
 property_value: mixs:mixs_extension mixs:HostAssociated
 
@@ -24574,7 +24536,6 @@ property_value: skos:inScheme GOLDTERMS:Environmental
 id: GOLDVOCAB:Fungi
 name: Fungi
 is_a: GOLDTERMS:AtomicElement
-xref: FOODON:03411261 {name="fungus"}
 xref: NCBITaxon:4751 {name="Fungi"}
 property_value: skos:inScheme GOLDTERMS:Host-associated
 

@@ -18,6 +18,7 @@ doctest:
 	find $(DOCTEST_DIR) -type f \( -name "*.rst" -o -name "*.md" -o -name "*.py" \) -print0 | xargs -0 $(RUN) python -m doctest --option ELLIPSIS --option NORMALIZE_WHITESPACE
 
 rebuild:
+	rm gold-core.obo
 	touch tests/inputs/goldpaths.tsv
 	make all
 

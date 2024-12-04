@@ -21712,44 +21712,6 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000910 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000910">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000191"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000909"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001483"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_04000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A biocrust which is formed by photosynthetic microbial assemblages colonising the surface layer of a portion of arid soil. Through their successional dynamics, these communities reduce the soil surface&apos;s albedo, impart it with stability against erosion, modify its hydrology, and promote its fertility.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>biological soil crust</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>cryptobiotic soil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>cryptogamic soil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>microbiotic soil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>microphytic soil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>soil biological crust</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Couradeau et al. (2016) assert that any albedo reductions associated with biocrust development are due largely to the accumulation of the microbial sunscreen, scytonemin.</rdfs:comment>
-        <rdfs:label xml:lang="en">soil biocrust</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000910"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A biocrust which is formed by photosynthetic microbial assemblages colonising the surface layer of a portion of arid soil. Through their successional dynamics, these communities reduce the soil surface&apos;s albedo, impart it with stability against erosion, modify its hydrology, and promote its fertility.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dx.doi.org/10.1038/ncomms10373</oboInOwl:hasDbXref>
-        <rdfs:comment>https://en.wikipedia.org/wiki/Biological_soil_crust</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000910"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>Couradeau et al. (2016) assert that any albedo reductions associated with biocrust development are due largely to the accumulation of the microbial sunscreen, scytonemin.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dx.doi.org/10.1038/ncomms10373</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01000941 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000941">
@@ -34737,19 +34699,19 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-                    <rdf:Description rdf:nodeID="genid4643"/>
+                    <rdf:Description rdf:nodeID="genid4640"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2100003"/>
-        <rdfs:subClassOf rdf:nodeID="genid4643"/>
+        <rdfs:subClassOf rdf:nodeID="genid4640"/>
         <obo:IAO_0000115>An environment that is determined by an axilla skin.</obo:IAO_0000115>
         <oboInOwl:created_by>TermGenie</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-15T22:32:00Z</oboInOwl:creation_date>
         <oboInOwl:inSubset>envoMeo</oboInOwl:inSubset>
         <rdfs:label>axilla skin environment</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4643">
+    <owl:Restriction rdf:nodeID="genid4640">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015474"/>
     </owl:Restriction>
@@ -34762,7 +34724,7 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_08000001"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4643"/>
+        <owl:annotatedTarget rdf:nodeID="genid4640"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
@@ -34781,19 +34743,19 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-                    <rdf:Description rdf:nodeID="genid4650"/>
+                    <rdf:Description rdf:nodeID="genid4647"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-        <rdfs:subClassOf rdf:nodeID="genid4650"/>
+        <rdfs:subClassOf rdf:nodeID="genid4647"/>
         <obo:IAO_0000115>An environment that is determined by a mouth.</obo:IAO_0000115>
         <oboInOwl:created_by>TermGenie</oboInOwl:created_by>
         <oboInOwl:creation_date>2015-04-10T23:34:03Z</oboInOwl:creation_date>
         <oboInOwl:inSubset>envoMeo</oboInOwl:inSubset>
         <rdfs:label>mouth environment</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4650">
+    <owl:Restriction rdf:nodeID="genid4647">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000165"/>
     </owl:Restriction>
@@ -34806,7 +34768,7 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_08000002"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4650"/>
+        <owl:annotatedTarget rdf:nodeID="genid4647"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
@@ -40322,7 +40284,7 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf rdf:nodeID="genid5109"/>
+        <rdfs:subClassOf rdf:nodeID="genid5106"/>
         <obo:IAO_0000115>An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
         <oboInOwl:created_by>rwalls</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-11-15T11:41:38Z</oboInOwl:creation_date>
@@ -40334,14 +40296,14 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
         <rdfs:comment>Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 &apos;anatomical entity&apos; is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 &apos;independent continuant&apos;.</rdfs:comment>
         <rdfs:label>plant anatomical entity</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid5109">
+    <owl:Restriction rdf:nodeID="genid5106">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid5109"/>
+        <owl:annotatedTarget rdf:nodeID="genid5106"/>
         <oboInOwl:source>cjm</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
