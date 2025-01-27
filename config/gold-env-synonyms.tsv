@@ -46,6 +46,9 @@ gold.vocab:Plankton	planktonic material
 gold.vocab:Shale-carbon-reservoir	oil shale
 gold.vocab:Rock-dwelling-%28endoliths%29	endolithic environment
 gold.vocab:Thermokarst-pond	thermokarst
+gold.vocab:Lymphatic	lymphatic system
+gold.vocab:Lymph nodes	lymph node
+gold.vocab:Duodenal	duodenum
 gold.vocab:Fecal	feces
 gold.vocab:Fecal	faeces
 gold.vocab:Solar-panel	solar panel array
@@ -62,12 +65,14 @@ gold.vocab:Engineered	human construction
 gold.vocab:Pulp-and-paper-wastewater	pulp-bleaching waste water
 gold.vocab:Paddy-field/soil	paddy field soil
 gold.vocab:Manure-fertilized	manure
+gold.vocab:Phylloplane	aboveground part of plant
 gold.vocab:Phyllosphere	above-ground surfaces of plant
 gold.vocab:Anthosphere	flower
 gold.vocab:Carposphere	fruit
 gold.vocab:Caulosphere	stem
+gold.vocab:Macrophyte	aquatic plant
 gold.vocab:Phylloplane/Leaf surface	leaf suface
-gold.vocab:Phylloplane/Leaf surface	phylloplane
+gold.vocab:Phylloplane/Leaf surface	leaf epidermis
 gold.vocab:Macrophytes	plant in water
 gold.vocab:Peat-moss	Sphagnum
 gold.vocab:Larvae	larva
@@ -78,14 +83,24 @@ gold.vocab:Gymnolaemates	Gymnolaemata
 gold.vocab:Ascidians	Ascidiacea
 gold.vocab:Nasopharyngeal	nasopharynx
 gold.vocab:Slime	mucus
-
-
-
-
-
-
-
-
-
-
-
+gold.vocab:Attached/Keratinized-gingiva	gingiva
+gold.vocab:retroauricular-crease	retroauricular region
+gold.vocab:Indoor-Air	room
+gold.vocab:Outdoor-Air	atmosphere
+gold.vocab:Marine-basin-floor	ocean basin
+gold.vocab:International-space-station	space station
+gold.vocab:Medial-distal-leg	hindlimb
+gold.vocab:Cryoconite	cryoconite deposit
+gold.vocab:River_27s-source/headwaters	headwater
+gold.vocab:Tubeworm-bush	Riftia pachyptila
+gold.vocab:Gulf	coastal inlet
+gold.vocab:Fermented-vegetables	fermented vegetable food product
+gold.vocab:Fermented-seafood	fermented fish or seafood food product
+gold.vocab:Kidneys	kidney
+gold.vocab:Laryngopharyngeal	hypopharynx
+gold.vocab:Composting	compost
+gold.vocab:Water-treatment-plant	wastewater treatment plant
+gold.vocab:Acid-mine-drainage-material	acid mine drainage
+gold.vocab:Drinking-water-filter	water filter
+gold.vocab:Petroleum-sludge	oil sludge
+gold.vocab:Ear-discharge	cerumen

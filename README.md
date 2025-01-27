@@ -125,10 +125,22 @@ Environmental:
     label: sediment
 ```
 
+In the primary OWL file, these are rendered as follows:
 
-* [gold_definitions.yaml](gold_definitions.yaml) - base definitions
-* [gold_definitions_propagated.yaml](gold_definitions_propagated.yaml) - base definitions with slots propagated down
-* [gold_definitions.owl](gold_definitions.owl) - OWL
+1. each slot (mixs_extension, env_broad, etc) is translated to an *annotation property*, the value of which is the ontology IRI
+2. An rdfs:comment is added whether labels are used
+
+Other products:
+
+* gold_definitions - base definitions
+    * [gold_definitions.yaml](gold_definitions.yaml) - base definitions in YAML
+    * [gold_definitions.csv](gold_definitions.csv) - base definitions as a CSV
+* gold_definitions_propagated - base definitions with slots propagated down
+    * [gold_definitions_propagated.yaml](gold_definitions_propagated.yaml) - propagated definitions in YAML
+    * [gold_definitions_propagated.yaml](gold_definitions_propagated.yaml) - propagated definitions as CSV
+* OWL
+    * [gold_definitions.owl](gold_definitions.owl) - base file
+    * [gold_definitions_merged.owl](gold_definitions_merged.owl) - merged ontology
 
 TODO: Document semi-automated process
 

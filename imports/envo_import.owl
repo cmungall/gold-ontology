@@ -9485,6 +9485,78 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The upper part of a river system, denoting the upper basin and source streams of a river.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>stream</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>FTT:105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FTT:1221</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FTT:1259</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FTT:220</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FTT:644</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Geonames:H.STMH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TGN:21181</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Headwater</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>HEADWATER</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>headwaters</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>drainage basin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>headstream</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>source</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>headwater</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The upper part of a river system, denoting the upper basin and source streams of a river.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>USGS:SDTS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>stream</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ADL:FTT</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HEADWATER</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>USGS:SDTS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>headwaters</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Geonames:feature</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>drainage basin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ADL:FTT</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>headstream</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ADL:FTT</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000156">
@@ -19277,6 +19349,23 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000420"/>
+        <obo:IAO_0000115>A building part which is separated from other building parts by one or more interior walls and, optionally, outdoor areas by one or more exterior walls.</obo:IAO_0000115>
+        <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <rdfs:label>room</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000426"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A building part which is separated from other building parts by one or more interior walls and, optionally, outdoor areas by one or more exterior walls.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Room</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000433 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000433">
@@ -20814,6 +20903,52 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <rdfs:comment>Created for SDGIO and intended to be a more general form of resource extraction process.</rdfs:comment>
         <rdfs:label xml:lang="en">material extraction process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A process whereby a large volume of gas moves due to a disequilibrium of physical forces.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>wind</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>This class refers to all forms of &quot;wind&quot;: from the familiar movement of air in the Earth&apos;s atmosphere to the solar wind. Use a subclass to be more precise.</rdfs:comment>
+        <rdfs:label xml:lang="en">mass gaseous flow</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000792"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A process whereby a large volume of gas moves due to a disequilibrium of physical forces.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Wind</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000792"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500003"/>
+        <oboInOwl:hasBroadSynonym>wind</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym>A mass gaseous flow which occurrs in a planet&apos;s atmosphere due to internal pressure disequilibria.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">atmospheric wind</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000793"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>A mass gaseous flow which occurrs in a planet&apos;s atmosphere due to internal pressure disequilibria.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Wind</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -30048,6 +30183,24 @@ Some definitions include additional discussion of the the physics involved which
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001334"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000140"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An advective transport process during which a fluid moves.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-05T05:47:26Z</dc:date>
+        <rdfs:label xml:lang="en">mass fluid flow</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001776 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001776">
@@ -32281,6 +32434,65 @@ Some definitions include additional discussion of the the physics involved which
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A material transport process during which one or more environmental materials are transported by the action of wind.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>eolian</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>æolian</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">aeolian transport process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A material transport process during which one or more environmental materials are transported by the action of wind.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Aeolian_processes</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Particulate environmental material which is composed primarily of carbon particles formed through the incomplete combustion of hydrocarbons.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Do not oversimplify the particulate environmental material subclasses with design patterns or similar. The materials have properties that their components do not - write full definitions including these where possible.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">soot</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Particulate environmental material which is composed primarily of carbon particles formed through the incomplete combustion of hydrocarbons.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Soot</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000033">
@@ -32372,6 +32584,53 @@ Some definitions include additional discussion of the the physics involved which
         <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">sedimentation in a water body</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Particulate environmental material which is composed primarily of dust, rock, and soot, as well as the microbial communities associated with these materials, deposited on an ice mass by an aeolian process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Do not oversimplify the particulate environmental material subclasses with design patterns or similar. The materials have properties that their components do not - write full definitions including these where possible.</obo:IAO_0000116>
+        <obo:IAO_0000116>This actually is formed as a result of an accumulation process involving the constituents of cryoconite. When their semantics are more stable, we can axiomatise this fully.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0001-5812-6405</obo:IAO_0000117>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">cryoconite deposit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Particulate environmental material which is composed primarily of dust, rock, and soot, as well as the microbial communities associated with these materials, deposited on an ice mass by an aeolian process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.nature.com/nrmicro/journal/v13/n11/full/nrmicro3522.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Cryoconite</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -34699,19 +34958,19 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-                    <rdf:Description rdf:nodeID="genid4640"/>
+                    <rdf:Description rdf:nodeID="genid4663"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2100003"/>
-        <rdfs:subClassOf rdf:nodeID="genid4640"/>
+        <rdfs:subClassOf rdf:nodeID="genid4663"/>
         <obo:IAO_0000115>An environment that is determined by an axilla skin.</obo:IAO_0000115>
         <oboInOwl:created_by>TermGenie</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-12-15T22:32:00Z</oboInOwl:creation_date>
         <oboInOwl:inSubset>envoMeo</oboInOwl:inSubset>
         <rdfs:label>axilla skin environment</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4640">
+    <owl:Restriction rdf:nodeID="genid4663">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015474"/>
     </owl:Restriction>
@@ -34724,7 +34983,7 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_08000001"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4640"/>
+        <owl:annotatedTarget rdf:nodeID="genid4663"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
@@ -34743,19 +35002,19 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-                    <rdf:Description rdf:nodeID="genid4647"/>
+                    <rdf:Description rdf:nodeID="genid4670"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2100000"/>
-        <rdfs:subClassOf rdf:nodeID="genid4647"/>
+        <rdfs:subClassOf rdf:nodeID="genid4670"/>
         <obo:IAO_0000115>An environment that is determined by a mouth.</obo:IAO_0000115>
         <oboInOwl:created_by>TermGenie</oboInOwl:created_by>
         <oboInOwl:creation_date>2015-04-10T23:34:03Z</oboInOwl:creation_date>
         <oboInOwl:inSubset>envoMeo</oboInOwl:inSubset>
         <rdfs:label>mouth environment</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4647">
+    <owl:Restriction rdf:nodeID="genid4670">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002507"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000165"/>
     </owl:Restriction>
@@ -34768,7 +35027,7 @@ consider revising &apos;pond&apos; semantics</obo:IAO_0000116>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_08000002"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4647"/>
+        <owl:annotatedTarget rdf:nodeID="genid4670"/>
         <oboInOwl:is_inferred>true</oboInOwl:is_inferred>
     </owl:Axiom>
     <owl:Axiom>
@@ -40284,7 +40543,7 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf rdf:nodeID="genid5106"/>
+        <rdfs:subClassOf rdf:nodeID="genid5129"/>
         <obo:IAO_0000115>An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
         <oboInOwl:created_by>rwalls</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-11-15T11:41:38Z</oboInOwl:creation_date>
@@ -40296,14 +40555,14 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
         <rdfs:comment>Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 &apos;anatomical entity&apos; is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 &apos;independent continuant&apos;.</rdfs:comment>
         <rdfs:label>plant anatomical entity</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid5106">
+    <owl:Restriction rdf:nodeID="genid5129">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid5106"/>
+        <owl:annotatedTarget rdf:nodeID="genid5129"/>
         <oboInOwl:source>cjm</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -41692,6 +41951,17 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
         <oboInOwl:hasExactSynonym>simple epithelium</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>unilaminar epithelia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>unilaminar epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000912">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>Mucus is a bodily fluid consisting of a slippery secretion of the lining of the mucous membranes in the body. It is a viscous colloid containing antiseptic enzymes (such as lysozyme) and immunoglobulins. Mucus is produced by goblet cells in the mucous membranes that cover the surfaces of the membranes. It is made up of mucins and inorganic salts suspended in water.</obo:IAO_0000115>
+        <rdfs:label>mucus</rdfs:label>
     </owl:Class>
     
 

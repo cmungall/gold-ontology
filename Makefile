@@ -39,7 +39,6 @@ gold.owl: gold_pre.ofn gold_mappings_as_annotations.owl
 	robot merge -i $< -i gold_mappings_as_annotations.owl relax reason -r elk -o $@
 .PRECIOUS: gold.owl
 
-
 gold_pre.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv $(CURATED_MAPPING_FILES)
 	$(RUN) python $(CODE) -s config/gold-env-synonyms.tsv $(patsubst %,-m %,$(CURATED_MAPPING_FILES))  $< -o $@.tmp && mv $@.tmp $@
 gold-no-mappings.ofn: tests/inputs/goldpaths.tsv $(CODE) config/gold-env-synonyms.tsv 

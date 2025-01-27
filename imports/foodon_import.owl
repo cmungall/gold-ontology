@@ -202,12 +202,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -253,12 +247,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
     <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0003001 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001"/>
     
 
 
@@ -705,30 +693,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
 * microbial/enzymatic modification process FOODON:03460119
 * curing or aging process FOODON:03460253</rdfs:comment>
         <rdfs:label xml:lang="en">fermented beverage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001256"/>
-        <rdfs:label xml:lang="en">bovine dairy food product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001107"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411201"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">cattle dairy food product</rdfs:label>
     </owl:Class>
     
 
@@ -1343,33 +1307,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001771 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001771">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001118"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307455"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001118"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001257"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307455"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">cow milk based food product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001792 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001792">
@@ -1532,32 +1469,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00001958 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001958">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001257"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03303918"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001257"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03303918"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">human milk based food product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00001974 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001974">
@@ -1593,32 +1504,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
         <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:40:53Z</terms:date>
         <rdfs:label xml:lang="en">lobster food product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002031">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001931"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002420"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307455"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001931"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002420"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307455"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">milk based gravy or sauce food product</rdfs:label>
     </owl:Class>
     
 
@@ -1984,19 +1869,6 @@ A soup may &apos;has ingredient&apos; some bean, but that doesn&apos;t make it a
         <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Invertebrate</obo:IAO_0000119>
         <rdfs:label xml:lang="en">invertebrate animal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00002454 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002454">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Food material which has been categorized by a characteristic such as granularity or temperature.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">This term was renamed from &quot;food product by quality&quot; to align better with COB &quot;characteristic&quot; label, and as well to disambiguate from other use of &quot;quality&quot; as a food grading. This term is useful for tasks like food inspection where little prior knowledge of how the food came to be is available. Some terms like &quot;food (frozen)&quot; are both a quality descriptor and the output of a process.</rdfs:comment>
-        <rdfs:label xml:lang="en">food material by characteristic</rdfs:label>
     </owl:Class>
     
 
@@ -2498,188 +2370,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00004348 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00004348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002470"/>
-        <obo:IAO_0000115 xml:lang="en">A characteristic of an animal, plant, fungi or algae, or a substantial piece thereof, which has not had material processing done to it that affects its biochemical composition.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-8844-9165"/>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-18T09:30:05Z</terms:date>
-        <rdfs:label xml:lang="en">raw</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_00004502 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00004502">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411222"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411222"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A whole raw fish.</obo:IAO_0000115>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8844-9165"/>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-05T21:38:04Z</terms:date>
-        <rdfs:label xml:lang="en">fish (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02010001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010001">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Material which is produced by an animal.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <rdfs:comment xml:lang="en">This includes things like eggs and milk.</rdfs:comment>
-        <rdfs:label xml:lang="en">animal substance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02010012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010012">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Milk which is produced by animal lactation.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <rdfs:label xml:lang="en">animal milk</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02010013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010013">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Raw animal milk.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <rdfs:label xml:lang="en">animal milk (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02010014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010014">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010001"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Blood from an animal.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <rdfs:label xml:lang="en">animal blood</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02010015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010015">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010014"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Raw animal blood.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <rdfs:label xml:lang="en">animal blood (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_02010020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010020">
@@ -2703,70 +2393,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
         <rdfs:comment xml:lang="en">This includes a carcass with all organs and skin.</rdfs:comment>
         <rdfs:comment xml:lang="en">This is an Uberon &apos;carcass&apos; that  &apos;has quality&apos; some &apos;dead</rdfs:comment>
         <rdfs:label xml:lang="en">animal carcass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02010021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02010021">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010020"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A raw animal carcass.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">raw animal carcass</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">animal carcass (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02020050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020050">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020051"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A material that derives from some avian.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
-        <rdfs:label xml:lang="en">avian material</rdfs:label>
     </owl:Class>
     
 
@@ -2832,131 +2458,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_02020054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020054">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02020053"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010021"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020053"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A raw avian carcass.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">raw avian carcass</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">avian carcass (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02020889 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020889">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A material that derives from some cow.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
-        <rdfs:label xml:lang="en">cow material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02020890 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020890">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020889"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Material which is produced by a cow.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:label xml:lang="en">cow substance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02020891 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020891">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020890"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Milk which is produced by cow lactation.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:label xml:lang="en">cow milk</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_02020892 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020892">
@@ -2986,69 +2487,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
         <rdfs:comment xml:lang="en">An organism which is dead or alive and has a relatively intact body.</rdfs:comment>
         <rdfs:label xml:lang="en">cow</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02020894 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02020894">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305517"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010021"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03305517"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A raw beef carcass.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">cow carcass (raw)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">raw beef carcass</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">cow carcass (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021453 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021453">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411505"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411505"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A material that derives from some lobster.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
-        <rdfs:label xml:lang="en">lobster material</rdfs:label>
     </owl:Class>
     
 
@@ -3087,67 +2525,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021455 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021455">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02021454"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010021"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021454"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A raw lobster carcass.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">raw lobster carcass</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">lobster carcass (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021462 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021462">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411237"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411237"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A material that derives from some shrimp.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
-        <rdfs:label xml:lang="en">shrimp material</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_02021463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021463">
@@ -3178,163 +2555,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
         <rdfs:comment xml:lang="en">This is an Uberon &apos;carcass&apos; that  &apos;has quality&apos; some &apos;dead</rdfs:comment>
         <rdfs:label xml:lang="en">shrimp carcass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021464 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021464">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02021463"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010021"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021463"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A raw shrimp carcass.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">raw shrimp carcass</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">shrimp carcass (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021544 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021544">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021548"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A material that derives from some horse.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
-        <rdfs:label xml:lang="en">horse material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021545 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021545">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021548"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021544"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Material which is produced by a horse.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:label xml:lang="en">horse substance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021546 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021546">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021548"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021548"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021545"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Milk which is produced by horse lactation.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:label xml:lang="en">horse milk</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021547 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021547">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02021546"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021546"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Raw horse milk.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <rdfs:label xml:lang="en">horse milk (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -3400,34 +2620,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
         <rdfs:comment xml:lang="en">This is an Uberon &apos;carcass&apos; that  &apos;has quality&apos; some &apos;dead</rdfs:comment>
         <rdfs:label xml:lang="en">horse carcass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_02021550 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_02021550">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02021549"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010021"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02021549"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A raw horse carcass.</obo:IAO_0000115>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-3410-4655</terms:contributor>
-        <terms:contributor>https://orcid.org/0000-0002-8844-9165</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-12T14:11:19Z</terms:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">raw horse carcass</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">horse carcass (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -3505,66 +2697,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
 * seed (anatomical part) FOODON:03420155
 * proteolytic fermentation process FOODON:03460102</rdfs:comment>
         <rdfs:label xml:lang="en">soy sauce</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301159 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301159">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002468"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002468"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F5705"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* whole, natural shape FOODON:03430150
-* not heat-treated FOODON:03440003
-* whole animal or most parts used FOODON:03420173</rdfs:comment>
-        <rdfs:label xml:lang="en">lobster (whole, raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03301403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301403">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002753"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002753"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302008"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F1403"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">fresh bean</oboInOwl:hasExactSynonym>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* whole, natural shape FOODON:03430150
-* not heat-treated FOODON:03440003
-* seed, skin present, germ present FOODON:03420133</rdfs:comment>
-        <rdfs:label xml:lang="en">bean (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -3731,78 +2863,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001092"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411134"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400217"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F2001"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* part of animal FOODON:03420164</rdfs:comment>
-        <rdfs:label xml:lang="en">animal-derived food</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302008">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03315308"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F2008"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* solid FOODON:03430151
-* not heat-treated FOODON:03440003
-* part of plant FOODON:03420174</rdfs:comment>
-        <rdfs:label xml:lang="en">vegetable (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03302116 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001771"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430130"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasBroadSynonym xml:lang="en">milk</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F2116"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">cow milk</oboInOwl:hasExactSynonym>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* liquid, low viscosity, with no visible particles FOODON:03430123
-* milk (mammary secretion) UBERON:0001913</rdfs:comment>
-        <rdfs:label xml:lang="en">cow milk (liquid)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03302389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03302389">
@@ -3882,45 +2942,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03303918 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303918">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001958"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Breast milk is the milk produced by the breasts (or mammary glands) of a human female.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Breast_milk</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F3918"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* liquid, low viscosity, with no visible particles FOODON:03430123
-* milk (mammary secretion) UBERON:0001913</rdfs:comment>
-        <rdfs:label xml:lang="en">human milk (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03304497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304497">
@@ -3955,42 +2976,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
 * whole, natural shape FOODON:03430150
 * seed (anatomical part) FOODON:03420155</rdfs:comment>
         <rdfs:label xml:lang="en">edible seed food product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03304644 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03304644">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000116 xml:lang="en">Note that this allows for several kinds of fruit in one sample, e.g. &quot;some fruit (raw)&quot; allows &quot;apple (raw)&quot; and &quot;orange (raw)&quot;.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Damion Dooley</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F4644"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">fruit</oboInOwl:hasExactSynonym>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* whole, natural shape FOODON:03430150
-* not heat-treated FOODON:03440003
-* fruit part FOODON:03420167</rdfs:comment>
-        <rdfs:label xml:lang="en">fruit (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -4061,96 +3046,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
         <rdfs:comment xml:lang="en">This is an Uberon &apos;carcass&apos; that  &apos;has quality&apos; some &apos;dead</rdfs:comment>
         <rdfs:label xml:lang="en">beef carcass</rdfs:label>
         <rdfs:label xml:lang="en">cow carcass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03306306 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03306306">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02010014"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001041"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02010014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020890"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020892"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Blood from a cow.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:40:53Z</terms:date>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F6306"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* semiliquid FOODON:03430103
-* blood UBERON:0000178</rdfs:comment>
-        <rdfs:label xml:lang="en">cow blood</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03307455 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307455">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_02020891"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020891"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302116"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Raw cow milk.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:40:53Z</terms:date>
-        <oboInOwl:hasBroadSynonym xml:lang="en">raw milk</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F7455"/>
-        <oboInOwl:hasExactSynonym xml:lang="en">milk</oboInOwl:hasExactSynonym>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* liquid, low viscosity, with no visible particles FOODON:03430123
-* not heat-treated FOODON:03440003
-* milk (mammary secretion) UBERON:0001913
-* not pasteurized claim or use FOODON:03510121</rdfs:comment>
-        <rdfs:label xml:lang="en">cow milk (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -4330,39 +3225,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03311126 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311126">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A food product that has not been cooked.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F11126"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* not heat-treated FOODON:03440003</rdfs:comment>
-        <rdfs:label xml:lang="en">food (raw)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03311737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311737">
@@ -4448,45 +3310,6 @@ Namely, how to characterize the threshold of ingredients that make for multi-com
 * liquid FOODON:03430130
 * part of plant FOODON:03420174</rdfs:comment>
         <rdfs:label xml:lang="en">nectar (food product)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03315769 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03315769">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03306306"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03306306"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311126"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Raw cow blood.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:40:53Z</terms:date>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F15769"/>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* liquid, low viscosity, with no visible particles FOODON:03430123
-* not heat-treated FOODON:03440003
-* blood UBERON:0000178</rdfs:comment>
-        <rdfs:label xml:lang="en">beef blood (raw)</rdfs:label>
-        <rdfs:label xml:lang="en">cow blood (raw)</rdfs:label>
     </owl:Class>
     
 
@@ -5741,55 +4564,6 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420116 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">Anatomical or other part(s) or substances derived from plant or animal or fungal organisms.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">This was renamed from &quot;part of organism&quot; (and from LanguaL&apos;s original &quot;part of plant or animal&quot;) to encompass organism material that is produced by an animal or plant rather than &quot;part of&quot; it, such as an egg, and might not be countable per se, such as milk. Additionally the existing definition&apos;s &quot;from which a food product or its major ingredient is derived.&quot; was removed as an unnecessary constraint. [2023/03/02]</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0116"/>
-        <rdfs:comment xml:lang="en">LanguaL curation note: &quot;e.g. *LEAF*, *ROOT OR TUBER*, *ORGAN MEAT*, *MILK* OR *EGG*; it also includes components of parts, such as *CREAM*, and extracts, concentrates or isolates, such as *PROTEIN EXTRACT* or *SUGAR*.&quot;</rdfs:comment>
-        <rdfs:label xml:lang="en">organism material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03420164 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A material that derives from some animal.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <terms:contributor>https://orcid.org/0000-0001-5275-8866</terms:contributor>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</terms:date>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0164"/>
-        <rdfs:comment xml:lang="en">Langual note: Includes eggs and milk that, although separated from the animal, are produced as integral parts and are affected by the animal&apos;s food intake and metabolism.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This branch isn&apos;t necessarily food material</rdfs:comment>
-        <rdfs:label xml:lang="en">animal material</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_03420167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420167">
@@ -5885,40 +4659,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=E0113"/>
         <rdfs:comment xml:lang="en">Damion Dooley&apos;s note: these categories need to be mapped over to PATO phenotypic categories, with a suitable treatment of mixtures of solids that are divided into parts.</rdfs:comment>
         <rdfs:label xml:lang="en">food physical quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03430130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430130">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002454"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000115 xml:lang="en">A state of matter between a solid and a gas, in which a substance has the capacity to flow and conforms to the shape of the container. Liquids range from water to honey, corresponding to a range in viscosity (or apparent viscosity) from 1 to 500 centipoise (viscosity is a measure of a liquid&apos;s resistance to flow). Products that are pourable but have a higher viscosity are *SEMILIQUID*.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://langual.org"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=E0130"/>
-        <oboInOwl:hasDbXref rdf:resource="https://bioregistry.io/reference/siren:F5105"/>
-        <oboInOwl:hasSynonym xml:lang="en">fluid</oboInOwl:hasSynonym>
-        <rdfs:comment xml:lang="en">SIREN DB annotation:
-* liquid FOODON:03430130</rdfs:comment>
-        <rdfs:label xml:lang="en">food (liquid)</rdfs:label>
     </owl:Class>
     
 
@@ -6188,12 +4928,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0001548 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000003"/>
@@ -6263,12 +4997,6 @@ Renamed from *FRUIT OR BERRY* in LanguaL 2008.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463"/>
     
 
 

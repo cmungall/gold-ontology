@@ -106,7 +106,10 @@ terms:
   parent: GOLDTERMS:4536
   level: 4
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5473
   label: Engineered > Bioreactor > Aerobic > Biofilm
   parent: GOLDTERMS:4536
@@ -148,7 +151,10 @@ terms:
   parent: GOLDTERMS:4442
   level: 4
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5566
   label: Engineered > Bioreactor > Anaerobic > Biogas
   parent: GOLDTERMS:4442
@@ -196,7 +202,10 @@ terms:
   parent: GOLDTERMS:4914
   level: 5
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:5639
   label: Engineered > Bioreactor > Anaerobic > Reservoir sediment inoculum
   parent: GOLDTERMS:4442
@@ -405,7 +414,10 @@ terms:
   parent: GOLDTERMS:5828
   level: 4
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5684
   label: Engineered > Bioreactor > Wastewater > Cyanide/thiocyanate
   parent: GOLDTERMS:5828
@@ -426,7 +438,10 @@ terms:
   parent: GOLDTERMS:4292
   level: 2
   vocab_differentia: GOLDVOCAB:Bioremediation
-  curated: false
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
+  curated: true
 - id: GOLDTERMS:4300
   label: Engineered > Bioremediation > Hydrocarbon
   parent: GOLDTERMS:4304
@@ -435,6 +450,9 @@ terms:
   mixs_extension:
     id: MIXS:HydrocarbonResourcesCores
     label: MIXS:HydrocarbonResourcesCores
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   other:
     id: CHEBI:24632
     label: hydrocarbon
@@ -552,7 +570,10 @@ terms:
   parent: GOLDTERMS:4304
   level: 3
   vocab_differentia: GOLDVOCAB:Persistent-organic-pollutants-_28POP_29
-  curated: false
+  env_local:
+    id: ENVO:02000182
+    label: persistent organic pollutant bioremediation
+  curated: true
 - id: GOLDTERMS:4305
   label: Engineered > Bioremediation > Persistent organic pollutants (POP) > Polycyclic
     aromatic hydrocarbons
@@ -586,7 +607,10 @@ terms:
   parent: GOLDTERMS:4303
   level: 5
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:4302
   label: Engineered > Bioremediation > Terephthalate > Wastewater > Bioreactor
   parent: GOLDTERMS:4303
@@ -663,12 +687,18 @@ terms:
   parent: GOLDTERMS:4292
   level: 2
   vocab_differentia: GOLDVOCAB:Biotransformation
-  curated: false
+  env_local:
+    id: ENVO:02000187
+    label: biotransformation process
+  curated: true
 - id: GOLDTERMS:5395
   label: Engineered > Biotransformation > Coal
   parent: GOLDTERMS:4314
   level: 3
   vocab_differentia: GOLDVOCAB:Coal
+  env_local:
+    id: ENVO:02000188
+    label: biotransformation of coal
   env_medium:
     id: ENVO:02000091
     label: coal
@@ -678,7 +708,10 @@ terms:
   parent: GOLDTERMS:4314
   level: 3
   vocab_differentia: GOLDVOCAB:Microbial-enhanced-oil-recovery
-  curated: false
+  env_local:
+    id: ENVO:02000189
+    label: microbial enhanced oil recovery
+  curated: true
 - id: GOLDTERMS:4312
   label: Engineered > Biotransformation > Microbial solubilization of coal
   parent: GOLDTERMS:4314
@@ -765,7 +798,7 @@ terms:
   parent: GOLDTERMS:4279
   level: 3
   vocab_differentia: GOLDVOCAB:City
-  env_local:
+  env_broad:
     id: ENVO:00000856
     label: city
   curated: true
@@ -1178,7 +1211,10 @@ terms:
   parent: GOLDTERMS:Engineered-Feedstock
   level: 3
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4250
   label: Engineered > Food production
   parent: GOLDTERMS:4292
@@ -1500,7 +1536,7 @@ terms:
   parent: GOLDTERMS:4289
   level: 5
   vocab_differentia: GOLDVOCAB:Feces
-  anatomical_site:
+  env_medium:
     id: UBERON:0001988
     label: feces
   curated: true
@@ -1669,7 +1705,7 @@ terms:
   vocab_differentia: GOLDVOCAB:Sea-water
   env_medium:
     id: ENVO:00002149
-    label: sea water
+    label: ocean water
   curated: true
 - id: GOLDTERMS:4309
   label: Engineered > Modeled > Simulated communities (sequence read mixture)
@@ -1715,7 +1751,10 @@ terms:
   parent: GOLDTERMS:Engineered-Sewage-treatment-plant
   level: 3
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5520
   label: Engineered > Sewage treatment plant > Sludge
   parent: GOLDTERMS:Engineered-Sewage-treatment-plant
@@ -1739,7 +1778,10 @@ terms:
   parent: GOLDTERMS:5523
   level: 4
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:4276
   label: Engineered > Solid waste
   parent: GOLDTERMS:4292
@@ -1763,7 +1805,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Agricultural-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:5735
   label: Engineered > Solid waste > Agricultural waste > Composting > Sugarcane filter
     cake
@@ -1791,7 +1836,10 @@ terms:
   parent: GOLDTERMS:4278
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4916
   label: Engineered > Solid waste > Animal waste > Manure
   parent: GOLDTERMS:4278
@@ -1815,7 +1863,10 @@ terms:
   parent: GOLDTERMS:5758
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Cellulose-associated-waste
   label: Engineered > Solid waste > Cellulose associated waste
   parent: GOLDTERMS:4276
@@ -1827,13 +1878,19 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Cellulose-associated-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4273
   label: Engineered > Solid waste > Composting
   parent: GOLDTERMS:4276
   level: 3
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:5756
   label: Engineered > Solid waste > Composting > Oil palm
   parent: GOLDTERMS:4273
@@ -1851,7 +1908,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Feedstock
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Food-waste
   label: Engineered > Solid waste > Food waste
   parent: GOLDTERMS:4276
@@ -1866,7 +1926,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Food-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Grass
   label: Engineered > Solid waste > Grass
   parent: GOLDTERMS:4276
@@ -1878,7 +1941,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Grass
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4873
   label: Engineered > Solid waste > Grass > Composting > Bioreactor
   parent: GOLDTERMS:4874
@@ -1917,7 +1983,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Household-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Industrial-waste
   label: Engineered > Solid waste > Industrial waste
   parent: GOLDTERMS:4276
@@ -1932,7 +2001,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Industrial-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4277
   label: Engineered > Solid waste > Landfill
   parent: GOLDTERMS:4276
@@ -1953,7 +2025,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Latrine-chamber
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Unknown-material
   label: Engineered > Solid waste > Unknown material
   parent: GOLDTERMS:4276
@@ -1965,7 +2040,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Unknown-material
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4966
   label: Engineered > Solid waste > Unknown material > Composting > Bioreactor
   parent: GOLDTERMS:4967
@@ -1986,7 +2064,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Urban-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Vegetable
   label: Engineered > Solid waste > Vegetable
   parent: GOLDTERMS:4276
@@ -2001,7 +2082,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Vegetable
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4942
   label: Engineered > Solid waste > Vermicompost
   parent: GOLDTERMS:4276
@@ -2025,7 +2109,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Wood
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4856
   label: Engineered > Solid waste > Wood > Composting > Bioreactor
   parent: GOLDTERMS:4857
@@ -2046,7 +2133,10 @@ terms:
   parent: GOLDTERMS:Engineered-Solid-waste-Zoo-waste
   level: 4
   vocab_differentia: GOLDVOCAB:Composting
-  curated: false
+  env_medium:
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-WWTP
   label: Engineered > WWTP
   parent: GOLDTERMS:4292
@@ -2061,7 +2151,10 @@ terms:
   parent: GOLDTERMS:Engineered-WWTP
   level: 3
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:Engineered-WWTP-Aerobic
   label: Engineered > WWTP > Aerobic
   parent: GOLDTERMS:Engineered-WWTP
@@ -2076,7 +2169,10 @@ terms:
   parent: GOLDTERMS:Engineered-WWTP-Aerobic
   level: 4
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:Engineered-WWTP-Anaerobic-digester
   label: Engineered > WWTP > Anaerobic digester
   parent: GOLDTERMS:Engineered-WWTP
@@ -2088,7 +2184,10 @@ terms:
   parent: GOLDTERMS:Engineered-WWTP-Anaerobic-digester
   level: 4
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5791
   label: Engineered > WWTP > Mixed liquor
   parent: GOLDTERMS:Engineered-WWTP
@@ -2230,7 +2329,10 @@ terms:
   parent: GOLDTERMS:4267
   level: 4
   vocab_differentia: GOLDVOCAB:Petrochemical
-  curated: false
+  env_local:
+    id: ENVO:02000142
+    label: petroleum oil refinery
+  curated: true
 - id: GOLDTERMS:5660
   label: Engineered > Wastewater > Industrial wastewater > Petrochemical > Oil sludge
   parent: GOLDTERMS:4265
@@ -2285,7 +2387,10 @@ terms:
   parent: GOLDTERMS:4730
   level: 5
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:4263
   label: Engineered > Wastewater > Nutrient removal > Biological phosphorus removal
     > Bioreactor
@@ -2308,7 +2413,10 @@ terms:
   parent: GOLDTERMS:4258
   level: 5
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:4260
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic)
   parent: GOLDTERMS:4261
@@ -2321,7 +2429,10 @@ terms:
   parent: GOLDTERMS:4260
   level: 5
   vocab_differentia: GOLDVOCAB:Activated-sludge
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:4255
   label: Engineered > Wastewater > Nutrient removal > Nitrogen removal
   parent: GOLDTERMS:4261
@@ -2389,7 +2500,10 @@ terms:
   parent: GOLDTERMS:3963
   level: 3
   vocab_differentia: GOLDVOCAB:Indoor-Air
-  curated: false
+  env_local:
+    id: ENVO:01000426
+    label: room
+  curated: true
 - id: GOLDTERMS:Environmental-Air-Indoor-Air-Air-scrubber
   label: Environmental > Air > Indoor Air > Air scrubber
   parent: GOLDTERMS:3961
@@ -2419,7 +2533,10 @@ terms:
   parent: GOLDTERMS:3963
   level: 3
   vocab_differentia: GOLDVOCAB:Outdoor-Air
-  curated: false
+  env_local:
+    id: ENVO:01000267
+    label: atmosphere
+  curated: true
 - id: GOLDTERMS:3984
   label: Environmental > Aquatic
   parent: GOLDTERMS:3964
@@ -2578,7 +2695,10 @@ terms:
   parent: GOLDTERMS:4057
   level: 5
   vocab_differentia: GOLDVOCAB:Delivery-networks
-  curated: false
+  env_local:
+    id: ENVO:03600003
+    label: drinking water pipeline network
+  curated: true
 - id: GOLDTERMS:5122
   label: Environmental > Aquatic > Freshwater > Drinking water > Filtered water
   parent: GOLDTERMS:4057
@@ -2623,7 +2743,10 @@ terms:
   parent: GOLDTERMS:4165
   level: 5
   vocab_differentia: GOLDVOCAB:Cave-water
-  curated: false
+  env_local:
+    id: ENVO:00000067
+    label: cave
+  curated: true
 - id: GOLDTERMS:4169
   label: Environmental > Aquatic > Freshwater > Groundwater > Coalbed water
   parent: GOLDTERMS:4165
@@ -2689,7 +2812,10 @@ terms:
   parent: GOLDTERMS:4061
   level: 5
   vocab_differentia: GOLDVOCAB:Cryoconite
-  curated: false
+  env_medium:
+    id: ENVO:03000038
+    label: cryoconite deposit
+  curated: true
 - id: GOLDTERMS:4060
   label: Environmental > Aquatic > Freshwater > Ice > Glacial lake
   parent: GOLDTERMS:4061
@@ -2968,7 +3094,10 @@ terms:
   parent: GOLDTERMS:4512
   level: 5
   vocab_differentia: GOLDVOCAB:River_27s-source/headwaters
-  curated: false
+  env_local:
+    id: ENVO:00000153
+    label: headwater
+  curated: true
 - id: GOLDTERMS:5109
   label: Environmental > Aquatic > Freshwater > River > Sediment
   parent: GOLDTERMS:4512
@@ -3358,7 +3487,10 @@ terms:
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Gulf
-  curated: false
+  env_local:
+    id: ENVO:00000137
+    label: coastal inlet
+  curated: true
 - id: GOLDTERMS:5344
   label: Environmental > Aquatic > Marine > Hadalpelagic
   parent: GOLDTERMS:4003
@@ -3541,7 +3673,13 @@ terms:
   parent: GOLDTERMS:4013
   level: 5
   vocab_differentia: GOLDVOCAB:Salt-marsh-sediment
-  curated: false
+  env_broad:
+    id: ENVO:00000054
+    label: saline marsh
+  env_medium:
+    id: ENVO:00002007
+    label: sediment
+  curated: true
 - id: GOLDTERMS:4016
   label: Environmental > Aquatic > Marine > Intertidal zone > Sediment
   parent: GOLDTERMS:4013
@@ -3568,7 +3706,10 @@ terms:
   parent: GOLDTERMS:4003
   level: 4
   vocab_differentia: GOLDVOCAB:Marine-basin-floor
-  curated: false
+  env_local:
+    id: ENVO:00002450
+    label: ocean basin
+  curated: true
 - id: GOLDTERMS:5353
   label: Environmental > Aquatic > Marine > Marine basin floor > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Marine-basin-floor
@@ -3835,7 +3976,10 @@ terms:
   parent: GOLDTERMS:5384
   level: 5
   vocab_differentia: GOLDVOCAB:Cryoconite
-  curated: false
+  env_medium:
+    id: ENVO:03000038
+    label: cryoconite deposit
+  curated: true
 - id: GOLDTERMS:5628
   label: Environmental > Aquatic > Marine > Sea ice > Melt pond
   parent: GOLDTERMS:5384
@@ -4634,13 +4778,25 @@ terms:
   parent: GOLDTERMS:4198
   level: 3
   vocab_differentia: GOLDVOCAB:Rock-dwelling-_28endoliths_29
-  curated: false
+  env_local:
+    id: ENVO:01000646
+    label: lithosphere
+  env_medium:
+    id: ENVO:00001995
+    label: rock
+  curated: true
 - id: GOLDTERMS:4201
   label: Environmental > Terrestrial > Rock-dwelling (subaerial biofilms)
   parent: GOLDTERMS:4198
   level: 3
   vocab_differentia: GOLDVOCAB:Rock-dwelling-_28subaerial-biofilms_29
-  curated: false
+  env_local:
+    id: ENVO:01000646
+    label: lithosphere
+  env_medium:
+    id: ENVO:00002034
+    label: biofilm
+  curated: true
 - id: GOLDTERMS:4212
   label: Environmental > Terrestrial > Soil
   parent: GOLDTERMS:4198
@@ -5059,7 +5215,7 @@ terms:
   vocab_differentia: GOLDVOCAB:Forest
   env_local:
     id: ENVO:01001243
-    label: forest ecosystem
+    label: forest
   curated: true
 - id: GOLDTERMS:5809
   label: Environmental > Terrestrial > Soil > Peat > Mire
@@ -5363,7 +5519,13 @@ terms:
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
   level: 5
   vocab_differentia: GOLDVOCAB:Tropical-rainforest
-  curated: false
+  env_broad:
+    id: ENVO:01001963
+    label: tropical rainforest biome
+  env_local:
+    id: ENVO:01001951
+    label: tropical rainforest
+  curated: true
 - id: GOLDTERMS:4211
   label: Environmental > Terrestrial > Soil > Unclassified > Uranium contaminated
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -5832,7 +5994,10 @@ terms:
   parent: GOLDTERMS:3901
   level: 3
   vocab_differentia: GOLDVOCAB:Ant-dump
-  curated: false
+  env_local:
+    id: ENVO:02000174
+    label: ant dump
+  curated: true
 - id: GOLDTERMS:5299
   label: Host-associated > Arthropoda > Aphids
   parent: GOLDTERMS:3901
@@ -5862,13 +6027,16 @@ terms:
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
   level: 4
   vocab_differentia: GOLDVOCAB:Beehive
-  curated: false
+  env_local:
+    id: ENVO:02000159
+    label: bee hive
+  curated: true
 - id: GOLDTERMS:4880
   label: Host-associated > Arthropoda > Bee > Beehive > Honey
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee-Beehive
   level: 5
   vocab_differentia: GOLDVOCAB:Honey
-  anatomical_site:
+  env_medium:
     id: UBERON:0036016
     label: honey
   curated: true
@@ -5985,7 +6153,10 @@ terms:
   parent: GOLDTERMS:4067
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:4068
   label: Host-associated > Arthropoda > Digestive system > Hindgut > P1 segment
   parent: GOLDTERMS:4067
@@ -6285,7 +6456,7 @@ terms:
   parent: GOLDTERMS:4786
   level: 4
   vocab_differentia: GOLDVOCAB:Blood
-  anatomical_site:
+  env_medium:
     id: UBERON:0000178
     label: blood
   curated: true
@@ -6303,7 +6474,10 @@ terms:
   parent: GOLDTERMS:4150
   level: 4
   vocab_differentia: GOLDVOCAB:Ceca
-  curated: false
+  anatomical_site:
+    id: UBERON:0001153
+    label: caecum
+  curated: true
 - id: GOLDTERMS:4148
   label: Host-associated > Birds > Digestive system > Ceca > Lumen
   parent: GOLDTERMS:4147
@@ -6360,7 +6534,10 @@ terms:
   parent: GOLDTERMS:4150
   level: 4
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:5066
   label: Host-associated > Birds > Digestive system > Intestine
   parent: GOLDTERMS:4150
@@ -6384,7 +6561,10 @@ terms:
   parent: GOLDTERMS:Host-associated-Birds-Digestive-system-Large-intestine
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:4784
   label: Host-associated > Birds > Digestive system > Small intestine
   parent: GOLDTERMS:4150
@@ -6399,7 +6579,10 @@ terms:
   parent: GOLDTERMS:4784
   level: 5
   vocab_differentia: GOLDVOCAB:Duodenal
-  curated: false
+  anatomical_site:
+    id: UBERON:0002114
+    label: duodenum
+  curated: true
 - id: GOLDTERMS:Host-associated-Birds-Excretory-system
   label: Host-associated > Birds > Excretory system
   parent: GOLDTERMS:4154
@@ -6504,7 +6687,10 @@ terms:
   parent: GOLDTERMS:Host-associated-Cephalochordata-Digestive-system-Intestine
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:5156
   label: Host-associated > Chordata
   parent: GOLDTERMS:4086
@@ -6576,7 +6762,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Fish-Abdomen
   level: 4
   vocab_differentia: GOLDVOCAB:Ascites
-  anatomical_site:
+  env_medium:
     id: UBERON:0007795
     label: ascitic fluid
   curated: true
@@ -6594,7 +6780,7 @@ terms:
   parent: GOLDTERMS:4788
   level: 4
   vocab_differentia: GOLDVOCAB:Blood
-  anatomical_site:
+  env_medium:
     id: UBERON:0000178
     label: blood
   curated: true
@@ -6630,7 +6816,10 @@ terms:
   parent: GOLDTERMS:4092
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:4791
   label: Host-associated > Fish > Excretory system
   parent: GOLDTERMS:4095
@@ -6645,7 +6834,10 @@ terms:
   parent: GOLDTERMS:4791
   level: 4
   vocab_differentia: GOLDVOCAB:Kidneys
-  curated: false
+  anatomical_site:
+    id: UBERON:0002113
+    label: kidney
+  curated: true
 - id: GOLDTERMS:5150
   label: Host-associated > Fish > Excretory system > Liver
   parent: GOLDTERMS:4791
@@ -6669,7 +6861,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Fish-Nervous-system
   level: 4
   vocab_differentia: GOLDVOCAB:Cerebrospinal-fluid
-  anatomical_site:
+  env_medium:
     id: UBERON:0001359
     label: cerebrospinal fluid
   curated: true
@@ -6723,7 +6915,7 @@ terms:
   parent: GOLDTERMS:4093
   level: 4
   vocab_differentia: GOLDVOCAB:Epidermal-mucus
-  anatomical_site:
+  env_medium:
     id: UBERON:0010152
     label: skin mucus
   curated: true
@@ -6741,7 +6933,10 @@ terms:
   parent: GOLDTERMS:4093
   level: 4
   vocab_differentia: GOLDVOCAB:Slime
-  curated: false
+  env_medium:
+    id: UBERON:0000912
+    label: mucus
+  curated: true
 - id: GOLDTERMS:4714
   label: Host-associated > Fish > Tissue
   parent: GOLDTERMS:4095
@@ -6858,7 +7053,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Horse-Circulatory-system
   level: 4
   vocab_differentia: GOLDVOCAB:Blood
-  anatomical_site:
+  env_medium:
     id: UBERON:0000178
     label: blood
   curated: true
@@ -6894,7 +7089,10 @@ terms:
   parent: GOLDTERMS:Host-associated-Horse-Digestive-system-Large-intestine
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Excretory-system
   label: Host-associated > Horse > Excretory system
   parent: GOLDTERMS:4476
@@ -6918,7 +7116,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Horse-Excretory-system-Urethra
   level: 5
   vocab_differentia: GOLDVOCAB:Urine
-  anatomical_site:
+  env_medium:
     id: UBERON:0001088
     label: urine
   curated: true
@@ -6975,7 +7173,10 @@ terms:
   parent: GOLDTERMS:4138
   level: 3
   vocab_differentia: GOLDVOCAB:Abdomen
-  curated: false
+  anatomical_site:
+    id: UBERON:0000916
+    label: abdomen
+  curated: true
 - id: GOLDTERMS:5120
   label: Host-associated > Human > Abdomen > Peritoneal dialysate
   parent: GOLDTERMS:5717
@@ -6987,7 +7188,7 @@ terms:
   parent: GOLDTERMS:5717
   level: 4
   vocab_differentia: GOLDVOCAB:Peritoneal-fluid
-  anatomical_site:
+  env_medium:
     id: UBERON:0001268
     label: peritoneal fluid
   curated: true
@@ -7029,7 +7230,7 @@ terms:
   parent: GOLDTERMS:4764
   level: 4
   vocab_differentia: GOLDVOCAB:Blood
-  anatomical_site:
+  env_medium:
     id: UBERON:0000178
     label: blood
   curated: true
@@ -7038,7 +7239,7 @@ terms:
   parent: GOLDTERMS:3932
   level: 5
   vocab_differentia: GOLDVOCAB:Plasma
-  anatomical_site:
+  env_medium:
     id: UBERON:0001969
     label: blood plasma
   curated: true
@@ -7047,7 +7248,7 @@ terms:
   parent: GOLDTERMS:3932
   level: 5
   vocab_differentia: GOLDVOCAB:Serum
-  anatomical_site:
+  env_medium:
     id: UBERON:0001977
     label: blood serum
   curated: true
@@ -7132,7 +7333,10 @@ terms:
   parent: GOLDTERMS:3922
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:5030
   label: Host-associated > Human > Digestive system > Large intestine > Rectum
   parent: GOLDTERMS:3922
@@ -7181,7 +7385,7 @@ terms:
   parent: GOLDTERMS:3912
   level: 5
   vocab_differentia: GOLDVOCAB:Dental-plaque
-  anatomical_site:
+  env_medium:
     id: UBERON:0016482
     label: dental plaque
   curated: true
@@ -7229,7 +7433,7 @@ terms:
   parent: GOLDTERMS:3912
   level: 5
   vocab_differentia: GOLDVOCAB:Saliva
-  anatomical_site:
+  env_medium:
     id: UBERON:0001836
     label: saliva
   curated: true
@@ -7238,7 +7442,7 @@ terms:
   parent: GOLDTERMS:3912
   level: 5
   vocab_differentia: GOLDVOCAB:Subgingival-plaque
-  anatomical_site:
+  env_medium:
     id: UBERON:0016484
     label: subgingival dental plaque
   curated: true
@@ -7248,7 +7452,7 @@ terms:
   parent: GOLDTERMS:3912
   level: 5
   vocab_differentia: GOLDVOCAB:Supragingival-plaque
-  anatomical_site:
+  env_medium:
     id: UBERON:0016485
     label: supragingival dental plaque
   curated: true
@@ -7368,7 +7572,7 @@ terms:
   parent: GOLDTERMS:5000
   level: 5
   vocab_differentia: GOLDVOCAB:Bile
-  anatomical_site:
+  env_medium:
     id: UBERON:0001970
     label: bile
   curated: true
@@ -7386,7 +7590,7 @@ terms:
   parent: GOLDTERMS:4761
   level: 5
   vocab_differentia: GOLDVOCAB:Urine
-  anatomical_site:
+  env_medium:
     id: UBERON:0001088
     label: urine
   curated: true
@@ -7465,9 +7669,6 @@ terms:
   level: 3
   vocab_differentia: GOLDVOCAB:Milk
   env_medium:
-    id: FOODON:03307455
-    label: cow milk (raw)
-  anatomical_site:
     id: UBERON:0001913
     label: milk
   curated: true
@@ -7494,7 +7695,7 @@ terms:
   parent: GOLDTERMS:3934
   level: 4
   vocab_differentia: GOLDVOCAB:Cerebrospinal-fluid
-  anatomical_site:
+  env_medium:
     id: UBERON:0001359
     label: cerebrospinal fluid
   curated: true
@@ -7503,7 +7704,7 @@ terms:
   parent: GOLDTERMS:4138
   level: 3
   vocab_differentia: GOLDVOCAB:Pus
-  anatomical_site:
+  env_medium:
     id: UBERON:0000177
     label: pus
   curated: true
@@ -7527,7 +7728,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Human-Reproductive-system-Amniotic-sac
   level: 5
   vocab_differentia: GOLDVOCAB:Amniotic-fluid
-  anatomical_site:
+  env_medium:
     id: UBERON:0000173
     label: amniotic fluid
   curated: true
@@ -7641,7 +7842,7 @@ terms:
   parent: GOLDTERMS:5004
   level: 5
   vocab_differentia: GOLDVOCAB:Pleural-fluid
-  anatomical_site:
+  env_medium:
     id: UBERON:0001087
     label: pleural fluid
   curated: true
@@ -7684,7 +7885,7 @@ terms:
   parent: GOLDTERMS:4137
   level: 4
   vocab_differentia: GOLDVOCAB:Sputum
-  anatomical_site:
+  env_medium:
     id: UBERON:0007311
     label: sputum
   curated: true
@@ -7769,7 +7970,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Human-Skeletal-system-Synovial-membrane
   level: 5
   vocab_differentia: GOLDVOCAB:Synovial-fluid
-  anatomical_site:
+  env_medium:
     id: UBERON:0001090
     label: synovial fluid
   curated: true
@@ -7799,7 +8000,10 @@ terms:
   parent: GOLDTERMS:3928
   level: 4
   vocab_differentia: GOLDVOCAB:Medial-distal-leg
-  curated: false
+  anatomical_site:
+    id: UBERON:0002103
+    label: hindlimb
+  curated: true
 - id: GOLDTERMS:3931
   label: Host-associated > Human > Skin > Medial distal leg > Venous leg ulcers
   parent: GOLDTERMS:4795
@@ -7835,7 +8039,10 @@ terms:
   parent: GOLDTERMS:3928
   level: 4
   vocab_differentia: GOLDVOCAB:retroauricular-crease
-  curated: false
+  anatomical_site:
+    id: UBERON:8480047
+    label: retroauricular region
+  curated: true
 - id: GOLDTERMS:4826
   label: Host-associated > Human > Soft tissue
   parent: GOLDTERMS:4138
@@ -8066,7 +8273,7 @@ terms:
   parent: GOLDTERMS:4115
   level: 4
   vocab_differentia: GOLDVOCAB:Blood
-  anatomical_site:
+  env_medium:
     id: UBERON:0000178
     label: blood
   curated: true
@@ -8172,7 +8379,7 @@ terms:
   parent: GOLDTERMS:4106
   level: 5
   vocab_differentia: GOLDVOCAB:Cow-Dung
-  anatomical_site:
+  env_medium:
     id: UBERON:0001988
     label: feces
   curated: true
@@ -8181,7 +8388,10 @@ terms:
   parent: GOLDTERMS:4106
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:4103
   label: Host-associated > Mammals > Digestive system > Midgut
   parent: GOLDTERMS:4107
@@ -8214,7 +8424,7 @@ terms:
   parent: GOLDTERMS:4109
   level: 5
   vocab_differentia: GOLDVOCAB:Dental-plaque
-  anatomical_site:
+  env_medium:
     id: UBERON:0016482
     label: dental plaque
   curated: true
@@ -8248,7 +8458,7 @@ terms:
   parent: GOLDTERMS:4109
   level: 5
   vocab_differentia: GOLDVOCAB:Saliva
-  anatomical_site:
+  env_medium:
     id: UBERON:0001836
     label: saliva
   curated: true
@@ -8351,7 +8561,7 @@ terms:
   parent: GOLDTERMS:3903
   level: 4
   vocab_differentia: GOLDVOCAB:Urine
-  anatomical_site:
+  env_medium:
     id: UBERON:0001088
     label: urine
   curated: true
@@ -8409,9 +8619,6 @@ terms:
   level: 3
   vocab_differentia: GOLDVOCAB:Milk
   env_medium:
-    id: FOODON:03307455
-    label: cow milk (raw)
-  anatomical_site:
     id: UBERON:0001913
     label: milk
   curated: true
@@ -8447,7 +8654,7 @@ terms:
   parent: GOLDTERMS:4118
   level: 3
   vocab_differentia: GOLDVOCAB:Pus
-  anatomical_site:
+  env_medium:
     id: UBERON:0000177
     label: pus
   curated: true
@@ -8661,7 +8868,7 @@ terms:
   parent: GOLDTERMS:Host-associated-Mollusca-Circulatory-system
   level: 4
   vocab_differentia: GOLDVOCAB:Hemolymph
-  anatomical_site:
+  env_medium:
     id: UBERON:0001011
     label: hemolymph
   curated: true
@@ -8679,7 +8886,10 @@ terms:
   parent: GOLDTERMS:4322
   level: 4
   vocab_differentia: GOLDVOCAB:Ceca
-  curated: false
+  anatomical_site:
+    id: UBERON:0001153
+    label: caecum
+  curated: true
 - id: GOLDTERMS:4323
   label: Host-associated > Mollusca > Digestive system > Glands
   parent: GOLDTERMS:4322
@@ -9315,7 +9525,10 @@ terms:
   parent: GOLDTERMS:4809
   level: 5
   vocab_differentia: GOLDVOCAB:Fecal
-  curated: false
+  env_medium:
+    id: UBERON:0001988
+    label: feces
+  curated: true
 - id: GOLDTERMS:Host-associated-Reptilia-Excretory-system
   label: Host-associated > Reptilia > Excretory system
   parent: GOLDTERMS:3906
@@ -9375,5 +9588,8 @@ terms:
   parent: GOLDTERMS:4569
   level: 3
   vocab_differentia: GOLDVOCAB:Ascidians
-  curated: false
+  host_taxon:
+    id: NCBITaxon:7713
+    label: Ascidiacea
+  curated: true
 

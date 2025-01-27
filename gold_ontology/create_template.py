@@ -13,8 +13,6 @@ from oaklib.interfaces import MappingProviderInterface, OboGraphInterface
 from oaklib.types import CURIE
 from pydantic import BaseModel
 
-from gold_ontology.gold_transform import parse_sssom
-
 logger = logging.getLogger(__name__)
 
 MATERIAL = "ENVO:00010483"
@@ -28,6 +26,7 @@ DEVICE = "OBI:0000968"
 FOOD_MATERIAL = "FOODON:00002403"
 ANATOMICAL_STRUCTURE = "UBERON:0000061"
 MULTICELLULAR_ORGANISM = "UBERON:0000468"
+ORGANISM_SUBSTANCE = "UBERON:0000463"
 CONSTRUCTION = "ENVO:01001813"
 MANUFACTURED_PRODUCT = "ENVO:00003074"
 LAYER = "ENVO:01000281"
@@ -196,13 +195,23 @@ def create_robot_template_row(gold: OboGraphInterface, gold_term_id: str) -> Opt
     Example:
 
         >>> from oaklib import get_adapter
-        >>> path_to_obo = Path(__file__).parent.parent / "gold.obo"
+        >>> path_to_obo = Path(__file__).parent.parent / "gold-core.obo"
         >>> gold = get_adapter(f"simpleobo:{path_to_obo}")
+        >>> # goldterms for 'environmental'
         >>> t = create_robot_template_row(gold, "GOLDTERMS:3964")
         >>> t.env_broad.id
         'ENVO:00000428'
+        >>> t.env_broad.label
+        'biome'
+        >>> t.curated
+        True
+        >>> # goldterms for 'indoor air'
+        >>> t = create_robot_template_row(gold, "GOLDTERMS:3961")
+        >>> t.env_local.label
+        'room'
 
-    :param gold:
+
+    :param gold: adapter for the ontology rendering of GOLD (should have mappings)
     :param gold_term_id:
     :return:
     """
@@ -267,7 +276,7 @@ def create_robot_template_row(gold: OboGraphInterface, gold_term_id: str) -> Opt
 
 def guess_mixs_slot_for_mapping(obj: CURIE, label: Optional[str] = None) -> Optional[str]:
     """
-    Guess the MIXS slot for a given ontology term
+    Guess the MIXS slot for a given ontology term.
 
     Examples:
 
@@ -286,12 +295,25 @@ def guess_mixs_slot_for_mapping(obj: CURIE, label: Optional[str] = None) -> Opti
         >>> guess_mixs_slot_for_mapping("FOODON:03411222")
         'host_taxon'
 
+        >>> guess_mixs_slot_for_mapping("ENVO:01000426") # room
+        'env_local'
+
+        >>> guess_mixs_slot_for_mapping("ENVO:01000267") # atmosphere
+        'env_local'
+
+        >>> guess_mixs_slot_for_mapping("UBERON:0001988") # feces
+        'env_medium'
+
     :param obj:
     :param label: gold path label
     :return:
     """
     if obj.startswith("UBERON:") or obj.startswith("PO:") or obj.startswith("FAO:"):
         slot = "anatomical_site"
+        obj_adapter = get_ontology_graph_adapter_for(obj)
+        ancs = list(obj_adapter.ancestors(obj, predicates=[IS_A]))
+        if ORGANISM_SUBSTANCE in ancs:
+            slot = "env_medium"
     elif obj.startswith("FOODON:"):
         obj_adapter = get_ontology_graph_adapter_for(obj)
         ancs = list(obj_adapter.ancestors(obj, predicates=[IS_A]))

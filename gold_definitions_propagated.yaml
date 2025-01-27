@@ -199,10 +199,13 @@ terms:
   env_local:
     id: ENVO:00002126
     label: aerobic bioreactor
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
   other:
     id: PATO:0001455
     label: aerobic
-  curated: false
+  curated: true
 - id: GOLDTERMS:5473
   label: Engineered > Bioreactor > Aerobic > Biofilm
   parent: GOLDTERMS:4536
@@ -295,10 +298,13 @@ terms:
   env_local:
     id: ENVO:00002124
     label: anaerobic bioreactor
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
   other:
     id: PATO:0001456
     label: anaerobic
-  curated: false
+  curated: true
 - id: GOLDTERMS:5566
   label: Engineered > Bioreactor > Anaerobic > Biogas
   parent: GOLDTERMS:4442
@@ -416,12 +422,12 @@ terms:
     id: ENVO:00002124
     label: anaerobic bioreactor
   env_medium:
-    id: ENVO:03501300
-    label: manure
+    id: ENVO:00002170
+    label: compost
   other:
     id: PATO:0001456
     label: anaerobic
-  curated: false
+  curated: true
 - id: GOLDTERMS:5639
   label: Engineered > Bioreactor > Anaerobic > Reservoir sediment inoculum
   parent: GOLDTERMS:4442
@@ -901,9 +907,9 @@ terms:
     id: OBI:0001046
     label: bioreactor
   env_medium:
-    id: ENVO:00002001
-    label: waste water
-  curated: false
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5684
   label: Engineered > Bioreactor > Wastewater > Cyanide/thiocyanate
   parent: GOLDTERMS:5828
@@ -951,7 +957,10 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  curated: false
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
+  curated: true
 - id: GOLDTERMS:4300
   label: Engineered > Bioremediation > Hydrocarbon
   parent: GOLDTERMS:4304
@@ -963,10 +972,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Asphalt-lakes
   label: Engineered > Bioremediation > Hydrocarbon > Asphalt-lakes
   parent: GOLDTERMS:4300
@@ -984,7 +996,7 @@ terms:
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:5647
   label: Engineered > Bioremediation > Hydrocarbon > Asphalt-lakes > Tar
   parent: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Asphalt-lakes
@@ -1005,7 +1017,7 @@ terms:
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Benzene
   label: Engineered > Bioremediation > Hydrocarbon > Benzene
   parent: GOLDTERMS:4300
@@ -1017,6 +1029,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   other:
     id: CHEBI:24632
     label: hydrocarbon
@@ -1050,13 +1065,16 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   env_medium:
     id: ENVO:02000091
     label: coal
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine
   label: Engineered > Bioremediation > Hydrocarbon > Coal mine
   parent: GOLDTERMS:4300
@@ -1074,7 +1092,7 @@ terms:
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:5651
   label: Engineered > Bioremediation > Hydrocarbon > Coal mine > Coal
   parent: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine
@@ -1095,7 +1113,7 @@ terms:
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:5650
   label: Engineered > Bioremediation > Hydrocarbon > Coal mine > Produced water
   parent: GOLDTERMS:Engineered-Bioremediation-Hydrocarbon-Coal-mine
@@ -1125,13 +1143,16 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   env_medium:
     id: ENVO:03000033
     label: marine sediment
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:4452
   label: Engineered > Bioremediation > Hydrocarbon > Methane
   parent: GOLDTERMS:4300
@@ -1143,6 +1164,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   other:
     id: CHEBI:24632
     label: hydrocarbon
@@ -1158,13 +1182,16 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   env_medium:
     id: ENVO:00002001
     label: waste water
   other:
     id: CHEBI:24632
     label: hydrocarbon
-  curated: false
+  curated: true
 - id: GOLDTERMS:5087
   label: Engineered > Bioremediation > Hydrocarbon > Xylene
   parent: GOLDTERMS:4300
@@ -1176,10 +1203,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000180
+    label: hydrocarbon bioremediation
   other:
     id: CHEBI:27338
     label: xylene
-  curated: false
+  curated: true
 - id: GOLDTERMS:4306
   label: Engineered > Bioremediation > Metal
   parent: GOLDTERMS:4304
@@ -1191,10 +1221,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   env_medium:
     id: ENVO:01001069
     label: metallic material
-  curated: false
+  curated: true
 - id: GOLDTERMS:4724
   label: Engineered > Bioremediation > Persistent organic pollutants (POP)
   parent: GOLDTERMS:4304
@@ -1206,7 +1239,10 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  curated: false
+  env_local:
+    id: ENVO:02000182
+    label: persistent organic pollutant bioremediation
+  curated: true
 - id: GOLDTERMS:4305
   label: Engineered > Bioremediation > Persistent organic pollutants (POP) > Polycyclic
     aromatic hydrocarbons
@@ -1219,10 +1255,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000182
+    label: persistent organic pollutant bioremediation
   other:
     id: CHEBI:33848
     label: polycyclic arene
-  curated: false
+  curated: true
 - id: GOLDTERMS:4722
   label: Engineered > Bioremediation > Terephthalate
   parent: GOLDTERMS:4304
@@ -1234,10 +1273,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   other:
     id: CHEBI:30043
     label: terephthalate(2-)
-  curated: false
+  curated: true
 - id: GOLDTERMS:4303
   label: Engineered > Bioremediation > Terephthalate > Wastewater
   parent: GOLDTERMS:4722
@@ -1249,13 +1291,16 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   env_medium:
     id: ENVO:00002001
     label: waste water
   other:
     id: CHEBI:30043
     label: terephthalate(2-)
-  curated: false
+  curated: true
 - id: GOLDTERMS:4301
   label: Engineered > Bioremediation > Terephthalate > Wastewater > Activated sludge
   parent: GOLDTERMS:4303
@@ -1267,13 +1312,16 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   env_medium:
-    id: ENVO:00002001
-    label: waste water
+    id: ENVO:00002046
+    label: activated sludge
   other:
     id: CHEBI:30043
     label: terephthalate(2-)
-  curated: false
+  curated: true
 - id: GOLDTERMS:4302
   label: Engineered > Bioremediation > Terephthalate > Wastewater > Bioreactor
   parent: GOLDTERMS:4303
@@ -1294,7 +1342,7 @@ terms:
   other:
     id: CHEBI:30043
     label: terephthalate(2-)
-  curated: false
+  curated: true
 - id: GOLDTERMS:Engineered-Bioremediation-Tetrachloroethylene-and-derivatives
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives
   parent: GOLDTERMS:4304
@@ -1306,6 +1354,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   curated: false
 - id: GOLDTERMS:4298
   label: Engineered > Bioremediation > Tetrachloroethylene and derivatives > Chloroethene
@@ -1318,6 +1369,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   other:
     id: CHEBI:28509
     label: chloroethene
@@ -1352,6 +1406,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   other:
     id: CHEBI:17300
     label: tetrachloroethene
@@ -1386,10 +1443,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   other:
     id: CHEBI:18022
     label: thiocyanate
-  curated: false
+  curated: true
 - id: GOLDTERMS:5498
   label: Engineered > Bioremediation > Thiocyanate > Biofilm
   parent: GOLDTERMS:4436
@@ -1401,13 +1461,16 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000176
+    label: bioremediation
   env_medium:
     id: ENVO:00002034
     label: biofilm
   other:
     id: CHEBI:18022
     label: thiocyanate
-  curated: false
+  curated: true
 - id: GOLDTERMS:4314
   label: Engineered > Biotransformation
   parent: GOLDTERMS:4292
@@ -1419,7 +1482,10 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  curated: false
+  env_local:
+    id: ENVO:02000187
+    label: biotransformation process
+  curated: true
 - id: GOLDTERMS:5395
   label: Engineered > Biotransformation > Coal
   parent: GOLDTERMS:4314
@@ -1431,10 +1497,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000188
+    label: biotransformation of coal
   env_medium:
     id: ENVO:02000091
     label: coal
-  curated: false
+  curated: true
 - id: GOLDTERMS:4313
   label: Engineered > Biotransformation > Microbial enhanced oil recovery
   parent: GOLDTERMS:4314
@@ -1446,7 +1515,10 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  curated: false
+  env_local:
+    id: ENVO:02000189
+    label: microbial enhanced oil recovery
+  curated: true
 - id: GOLDTERMS:4312
   label: Engineered > Biotransformation > Microbial solubilization of coal
   parent: GOLDTERMS:4314
@@ -1458,6 +1530,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000187
+    label: biotransformation process
   curated: false
 - id: GOLDTERMS:4315
   label: Engineered > Biotransformation > Mixed alcohol bioreactor
@@ -1470,6 +1545,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000187
+    label: biotransformation process
   curated: false
 - id: GOLDTERMS:4279
   label: Engineered > Built environment
@@ -1585,9 +1663,6 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
-  env_local:
     id: ENVO:00000856
     label: city
   curated: true
@@ -1600,8 +1675,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:00000562
     label: park
@@ -1615,8 +1690,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -1630,8 +1705,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -1645,8 +1720,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -1660,8 +1735,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -1675,8 +1750,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -1690,8 +1765,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -1705,8 +1780,8 @@ terms:
     id: MIXS:BuiltEnvironment
     label: MIXS:BuiltEnvironment
   env_broad:
-    id: ENVO:01000313
-    label: anthropogenic environment
+    id: ENVO:00000856
+    label: city
   env_local:
     id: ENVO:03501109
     label: subway train
@@ -2399,6 +2474,9 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_medium:
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:4250
   label: Engineered > Food production
@@ -3051,7 +3129,7 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
-  anatomical_site:
+  env_medium:
     id: UBERON:0001988
     label: feces
   curated: false
@@ -3358,7 +3436,7 @@ terms:
     label: anthropogenic environment
   env_medium:
     id: ENVO:00002149
-    label: sea water
+    label: ocean water
   curated: false
 - id: GOLDTERMS:4309
   label: Engineered > Modeled > Simulated communities (sequence read mixture)
@@ -3443,7 +3521,10 @@ terms:
   env_local:
     id: ENVO:00003043
     label: sewage plant
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:5520
   label: Engineered > Sewage treatment plant > Sludge
   parent: GOLDTERMS:Engineered-Sewage-treatment-plant
@@ -3495,9 +3576,9 @@ terms:
     id: ENVO:00003043
     label: sewage plant
   env_medium:
-    id: ENVO:00002001
-    label: waste water
-  curated: false
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:4276
   label: Engineered > Solid waste
   parent: GOLDTERMS:4292
@@ -3540,9 +3621,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:01000371
-    label: agricultural waste material
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:5735
   label: Engineered > Solid waste > Agricultural waste > Composting > Sugarcane filter
     cake
@@ -3556,8 +3637,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:01000371
-    label: agricultural waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:5802
   label: Engineered > Solid waste > Agricultural waste > Spent mushroom substrate
@@ -3601,9 +3682,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002276
-    label: animal waste material
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4916
   label: Engineered > Solid waste > Animal waste > Manure
   parent: GOLDTERMS:4278
@@ -3646,9 +3727,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002872
-    label: bagasse
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Cellulose-associated-waste
   label: Engineered > Solid waste > Cellulose associated waste
   parent: GOLDTERMS:4276
@@ -3676,8 +3757,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:4273
   label: Engineered > Solid waste > Composting
@@ -3691,9 +3772,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:5756
   label: Engineered > Solid waste > Composting > Oil palm
   parent: GOLDTERMS:4273
@@ -3706,8 +3787,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Feedstock
   label: Engineered > Solid waste > Feedstock
@@ -3736,8 +3817,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Food-waste
   label: Engineered > Solid waste > Food waste
@@ -3766,9 +3847,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:03600006
-    label: food waste
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Grass
   label: Engineered > Solid waste > Grass
   parent: GOLDTERMS:4276
@@ -3796,8 +3877,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:4873
   label: Engineered > Solid waste > Grass > Composting > Bioreactor
@@ -3814,8 +3895,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Grass-Fermentation
   label: Engineered > Solid waste > Grass > Fermentation
@@ -3877,9 +3958,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:01000372
-    label: household waste material
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Industrial-waste
   label: Engineered > Solid waste > Industrial waste
   parent: GOLDTERMS:4276
@@ -3907,9 +3988,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002267
-    label: industrial waste material
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4277
   label: Engineered > Solid waste > Landfill
   parent: GOLDTERMS:4276
@@ -3955,8 +4036,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Unknown-material
   label: Engineered > Solid waste > Unknown material
@@ -3985,8 +4066,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:4966
   label: Engineered > Solid waste > Unknown material > Composting > Bioreactor
@@ -4003,8 +4084,8 @@ terms:
     id: OBI:0001046
     label: bioreactor
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Urban-waste
   label: Engineered > Solid waste > Urban waste
@@ -4033,8 +4114,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-Solid-waste-Vegetable
   label: Engineered > Solid waste > Vegetable
@@ -4063,9 +4144,9 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: FOODON:03315308
-    label: vegetable (whole or pieces)
-  curated: false
+    id: ENVO:00002170
+    label: compost
+  curated: true
 - id: GOLDTERMS:4942
   label: Engineered > Solid waste > Vermicompost
   parent: GOLDTERMS:4276
@@ -4111,12 +4192,12 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002040
-    label: wood
+    id: ENVO:00002170
+    label: compost
   anatomical_site:
     id: PO:0005848
     label: secondary xylem
-  curated: false
+  curated: true
 - id: GOLDTERMS:4856
   label: Engineered > Solid waste > Wood > Composting > Bioreactor
   parent: GOLDTERMS:4857
@@ -4132,12 +4213,12 @@ terms:
     id: OBI:0001046
     label: bioreactor
   env_medium:
-    id: ENVO:00002040
-    label: wood
+    id: ENVO:00002170
+    label: compost
   anatomical_site:
     id: PO:0005848
     label: secondary xylem
-  curated: false
+  curated: true
 - id: GOLDTERMS:Engineered-Solid-waste-Zoo-waste
   label: Engineered > Solid waste > Zoo waste
   parent: GOLDTERMS:4276
@@ -4165,8 +4246,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:02000155
-    label: solid waste material
+    id: ENVO:00002170
+    label: compost
   curated: false
 - id: GOLDTERMS:Engineered-WWTP
   label: Engineered > WWTP
@@ -4197,7 +4278,10 @@ terms:
   env_local:
     id: ENVO:00002272
     label: waste treatment plant
-  curated: false
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
+  curated: true
 - id: GOLDTERMS:Engineered-WWTP-Aerobic
   label: Engineered > WWTP > Aerobic
   parent: GOLDTERMS:Engineered-WWTP
@@ -4230,10 +4314,13 @@ terms:
   env_local:
     id: ENVO:00002272
     label: waste treatment plant
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
   other:
     id: PATO:0001455
     label: aerobic
-  curated: false
+  curated: true
 - id: GOLDTERMS:Engineered-WWTP-Anaerobic-digester
   label: Engineered > WWTP > Anaerobic digester
   parent: GOLDTERMS:Engineered-WWTP
@@ -4263,6 +4350,9 @@ terms:
   env_local:
     id: ENVO:00002272
     label: waste treatment plant
+  env_medium:
+    id: ENVO:00002046
+    label: activated sludge
   curated: false
 - id: GOLDTERMS:5791
   label: Engineered > WWTP > Mixed liquor
@@ -4537,10 +4627,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000142
+    label: petroleum oil refinery
   env_medium:
     id: ENVO:01000964
     label: industrial wastewater
-  curated: false
+  curated: true
 - id: GOLDTERMS:5660
   label: Engineered > Wastewater > Industrial wastewater > Petrochemical > Oil sludge
   parent: GOLDTERMS:4265
@@ -4552,10 +4645,13 @@ terms:
   env_broad:
     id: ENVO:01000313
     label: anthropogenic environment
+  env_local:
+    id: ENVO:02000142
+    label: petroleum oil refinery
   env_medium:
     id: ENVO:00002060
     label: oil sludge
-  curated: false
+  curated: true
 - id: GOLDTERMS:4266
   label: Engineered > Wastewater > Industrial wastewater > Pulp and paper wastewater
   parent: GOLDTERMS:4267
@@ -4650,8 +4746,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002001
-    label: waste water
+    id: ENVO:00002046
+    label: activated sludge
   curated: false
 - id: GOLDTERMS:4263
   label: Engineered > Wastewater > Nutrient removal > Biological phosphorus removal
@@ -4700,8 +4796,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002001
-    label: waste water
+    id: ENVO:00002046
+    label: activated sludge
   curated: false
 - id: GOLDTERMS:4260
   label: Engineered > Wastewater > Nutrient removal > Dissolved organics (anaerobic)
@@ -4731,8 +4827,8 @@ terms:
     id: ENVO:01000313
     label: anthropogenic environment
   env_medium:
-    id: ENVO:00002001
-    label: waste water
+    id: ENVO:00002046
+    label: activated sludge
   curated: false
 - id: GOLDTERMS:4255
   label: Engineered > Wastewater > Nutrient removal > Nitrogen removal
@@ -4846,10 +4942,13 @@ terms:
   env_broad:
     id: ENVO:00000428
     label: biome
+  env_local:
+    id: ENVO:01000426
+    label: room
   env_medium:
     id: ENVO:00002005
     label: air
-  curated: false
+  curated: true
 - id: GOLDTERMS:Environmental-Air-Indoor-Air-Air-scrubber
   label: Environmental > Air > Indoor Air > Air scrubber
   parent: GOLDTERMS:3961
@@ -4861,6 +4960,9 @@ terms:
   env_broad:
     id: ENVO:00000428
     label: biome
+  env_local:
+    id: ENVO:01000426
+    label: room
   env_medium:
     id: ENVO:00002005
     label: air
@@ -4876,6 +4978,9 @@ terms:
   env_broad:
     id: ENVO:00000428
     label: biome
+  env_local:
+    id: ENVO:01000426
+    label: room
   env_medium:
     id: ENVO:00002034
     label: biofilm
@@ -4891,10 +4996,13 @@ terms:
   env_broad:
     id: ENVO:00000428
     label: biome
+  env_local:
+    id: ENVO:01000426
+    label: room
   env_medium:
     id: ENVO:00002008
     label: dust
-  curated: false
+  curated: true
 - id: GOLDTERMS:3962
   label: Environmental > Air > Outdoor Air
   parent: GOLDTERMS:3963
@@ -4906,10 +5014,13 @@ terms:
   env_broad:
     id: ENVO:00000428
     label: biome
+  env_local:
+    id: ENVO:01000267
+    label: atmosphere
   env_medium:
     id: ENVO:00002005
     label: air
-  curated: false
+  curated: true
 - id: GOLDTERMS:3984
   label: Environmental > Aquatic
   parent: GOLDTERMS:3964
@@ -5146,13 +5257,16 @@ terms:
   env_broad:
     id: ENVO:00002030
     label: aquatic biome
+  env_local:
+    id: ENVO:03600003
+    label: drinking water pipeline network
   env_medium:
     id: ENVO:00003064
     label: drinking water
   other:
     id: FOODON:03301647
     label: drinking water (purified)
-  curated: false
+  curated: true
 - id: GOLDTERMS:5122
   label: Environmental > Aquatic > Freshwater > Drinking water > Filtered water
   parent: GOLDTERMS:4057
@@ -5233,10 +5347,13 @@ terms:
   env_broad:
     id: ENVO:00002030
     label: aquatic biome
+  env_local:
+    id: ENVO:00000067
+    label: cave
   env_medium:
     id: ENVO:01001004
     label: groundwater
-  curated: false
+  curated: true
 - id: GOLDTERMS:4169
   label: Environmental > Aquatic > Freshwater > Groundwater > Coalbed water
   parent: GOLDTERMS:4165
@@ -5345,9 +5462,9 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_medium:
-    id: ENVO:01000277
-    label: water ice
-  curated: false
+    id: ENVO:03000038
+    label: cryoconite deposit
+  curated: true
 - id: GOLDTERMS:4060
   label: Environmental > Aquatic > Freshwater > Ice > Glacial lake
   parent: GOLDTERMS:4061
@@ -5804,12 +5921,12 @@ terms:
     id: ENVO:00002030
     label: aquatic biome
   env_local:
-    id: ENVO:00000022
-    label: river
+    id: ENVO:00000153
+    label: headwater
   env_medium:
     id: ENVO:00002011
     label: fresh water
-  curated: false
+  curated: true
 - id: GOLDTERMS:5109
   label: Environmental > Aquatic > Freshwater > River > Sediment
   parent: GOLDTERMS:4512
@@ -6352,7 +6469,10 @@ terms:
   env_broad:
     id: ENVO:00000447
     label: marine biome
-  curated: false
+  env_local:
+    id: ENVO:00000137
+    label: coastal inlet
+  curated: true
 - id: GOLDTERMS:5344
   label: Environmental > Aquatic > Marine > Hadalpelagic
   parent: GOLDTERMS:4003
@@ -6617,12 +6737,15 @@ terms:
   level: 5
   vocab_differentia: GOLDVOCAB:Salt-marsh-sediment
   env_broad:
-    id: ENVO:00000447
-    label: marine biome
+    id: ENVO:00000054
+    label: saline marsh
   env_local:
     id: ENVO:00000316
     label: intertidal zone
-  curated: false
+  env_medium:
+    id: ENVO:00002007
+    label: sediment
+  curated: true
 - id: GOLDTERMS:4016
   label: Environmental > Aquatic > Marine > Intertidal zone > Sediment
   parent: GOLDTERMS:4013
@@ -6661,7 +6784,10 @@ terms:
   env_broad:
     id: ENVO:00000447
     label: marine biome
-  curated: false
+  env_local:
+    id: ENVO:00002450
+    label: ocean basin
+  curated: true
 - id: GOLDTERMS:5353
   label: Environmental > Aquatic > Marine > Marine basin floor > Sediment
   parent: GOLDTERMS:Environmental-Aquatic-Marine-Marine-basin-floor
@@ -6673,10 +6799,13 @@ terms:
   env_broad:
     id: ENVO:00000447
     label: marine biome
+  env_local:
+    id: ENVO:00002450
+    label: ocean basin
   env_medium:
     id: ENVO:00002007
     label: sediment
-  curated: false
+  curated: true
 - id: GOLDTERMS:5342
   label: Environmental > Aquatic > Marine > Marine lake
   parent: GOLDTERMS:4003
@@ -7049,9 +7178,9 @@ terms:
     id: ENVO:00000447
     label: marine biome
   env_medium:
-    id: ENVO:00002200
-    label: sea ice
-  curated: false
+    id: ENVO:03000038
+    label: cryoconite deposit
+  curated: true
 - id: GOLDTERMS:5628
   label: Environmental > Aquatic > Marine > Sea ice > Melt pond
   parent: GOLDTERMS:5384
@@ -8201,7 +8330,13 @@ terms:
   env_broad:
     id: ENVO:00000446
     label: terrestrial biome
-  curated: false
+  env_local:
+    id: ENVO:01000646
+    label: lithosphere
+  env_medium:
+    id: ENVO:00001995
+    label: rock
+  curated: true
 - id: GOLDTERMS:4201
   label: Environmental > Terrestrial > Rock-dwelling (subaerial biofilms)
   parent: GOLDTERMS:4198
@@ -8210,7 +8345,13 @@ terms:
   env_broad:
     id: ENVO:00000446
     label: terrestrial biome
-  curated: false
+  env_local:
+    id: ENVO:01000646
+    label: lithosphere
+  env_medium:
+    id: ENVO:00002034
+    label: biofilm
+  curated: true
 - id: GOLDTERMS:4212
   label: Environmental > Terrestrial > Soil
   parent: GOLDTERMS:4198
@@ -8965,7 +9106,7 @@ terms:
     label: terrestrial biome
   env_local:
     id: ENVO:01001243
-    label: forest ecosystem
+    label: forest
   env_medium:
     id: ENVO:00005774
     label: peat soil
@@ -9576,15 +9717,18 @@ terms:
     id: MIXS:Soil
     label: MIXS:Soil
   env_broad:
-    id: ENVO:00000446
-    label: terrestrial biome
+    id: ENVO:01001963
+    label: tropical rainforest biome
+  env_local:
+    id: ENVO:01001951
+    label: tropical rainforest
   env_medium:
     id: ENVO:00001998
     label: soil
   host_taxon:
     id: NCBITaxon:12908
     label: unclassified sequences
-  curated: false
+  curated: true
 - id: GOLDTERMS:4211
   label: Environmental > Terrestrial > Soil > Unclassified > Uranium contaminated
   parent: GOLDTERMS:Environmental-Terrestrial-Soil-Unclassified
@@ -10380,10 +10524,13 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_local:
+    id: ENVO:02000174
+    label: ant dump
   host_taxon:
     id: NCBITaxon:6656
     label: Arthropoda
-  curated: false
+  curated: true
 - id: GOLDTERMS:5299
   label: Host-associated > Arthropoda > Aphids
   parent: GOLDTERMS:3901
@@ -10428,10 +10575,13 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_local:
+    id: ENVO:02000159
+    label: bee hive
   host_taxon:
     id: NCBITaxon:34735
     label: Apoidea
-  curated: false
+  curated: true
 - id: GOLDTERMS:4880
   label: Host-associated > Arthropoda > Bee > Beehive > Honey
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee-Beehive
@@ -10440,13 +10590,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_local:
+    id: ENVO:02000159
+    label: bee hive
+  env_medium:
+    id: UBERON:0036016
+    label: honey
   host_taxon:
     id: NCBITaxon:34735
     label: Apoidea
-  anatomical_site:
-    id: UBERON:0036016
-    label: honey
-  curated: false
+  curated: true
 - id: GOLDTERMS:4882
   label: Host-associated > Arthropoda > Bee > Royal jelly
   parent: GOLDTERMS:Host-associated-Arthropoda-Bee
@@ -10635,13 +10788,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:6656
     label: Arthropoda
   anatomical_site:
     id: UBERON:0001046
     label: hindgut
-  curated: false
+  curated: true
 - id: GOLDTERMS:4068
   label: Host-associated > Arthropoda > Digestive system > Hindgut > P1 segment
   parent: GOLDTERMS:4067
@@ -11133,12 +11289,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000178
+    label: blood
   host_taxon:
     id: NCBITaxon:8782
     label: Aves
   anatomical_site:
-    id: UBERON:0000178
-    label: blood
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:4150
   label: Host-associated > Birds > Digestive system
@@ -11167,9 +11326,9 @@ terms:
     id: NCBITaxon:8782
     label: Aves
   anatomical_site:
-    id: UBERON:0001007
-    label: digestive system
-  curated: false
+    id: UBERON:0001153
+    label: caecum
+  curated: true
 - id: GOLDTERMS:4148
   label: Host-associated > Birds > Digestive system > Ceca > Lumen
   parent: GOLDTERMS:4147
@@ -11184,7 +11343,7 @@ terms:
   anatomical_site:
     id: UBERON:0000464
     label: anatomical space
-  curated: false
+  curated: true
 - id: GOLDTERMS:4641
   label: Host-associated > Birds > Digestive system > Cloaca
   parent: GOLDTERMS:4150
@@ -11268,13 +11427,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:8782
     label: Aves
   anatomical_site:
     id: UBERON:0001007
     label: digestive system
-  curated: false
+  curated: true
 - id: GOLDTERMS:5066
   label: Host-associated > Birds > Digestive system > Intestine
   parent: GOLDTERMS:4150
@@ -11313,13 +11475,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:8782
     label: Aves
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
-  curated: false
+  curated: true
 - id: GOLDTERMS:4784
   label: Host-associated > Birds > Digestive system > Small intestine
   parent: GOLDTERMS:4150
@@ -11347,9 +11512,9 @@ terms:
     id: NCBITaxon:8782
     label: Aves
   anatomical_site:
-    id: UBERON:0002108
-    label: small intestine
-  curated: false
+    id: UBERON:0002114
+    label: duodenum
+  curated: true
 - id: GOLDTERMS:Host-associated-Birds-Excretory-system
   label: Host-associated > Birds > Excretory system
   parent: GOLDTERMS:4154
@@ -11520,13 +11685,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:7735
     label: Cephalochordata
   anatomical_site:
     id: UBERON:0000160
     label: intestine
-  curated: false
+  curated: true
 - id: GOLDTERMS:5156
   label: Host-associated > Chordata
   parent: GOLDTERMS:4086
@@ -11628,12 +11796,12 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0007795
+    label: ascitic fluid
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
-  anatomical_site:
-    id: UBERON:0007795
-    label: ascitic fluid
   curated: false
 - id: GOLDTERMS:4788
   label: Host-associated > Fish > Circulatory system
@@ -11658,12 +11826,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000178
+    label: blood
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
   anatomical_site:
-    id: UBERON:0000178
-    label: blood
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:4090
   label: Host-associated > Fish > Digestive system
@@ -11718,13 +11889,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000160
     label: intestine
-  curated: false
+  curated: true
 - id: GOLDTERMS:4791
   label: Host-associated > Fish > Excretory system
   parent: GOLDTERMS:4095
@@ -11752,9 +11926,9 @@ terms:
     id: NCBITaxon:7777
     label: Chondrichthyes
   anatomical_site:
-    id: UBERON:8450002
-    label: excretory system
-  curated: false
+    id: UBERON:0002113
+    label: kidney
+  curated: true
 - id: GOLDTERMS:5150
   label: Host-associated > Fish > Excretory system > Liver
   parent: GOLDTERMS:4791
@@ -11793,12 +11967,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001359
+    label: cerebrospinal fluid
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
   anatomical_site:
-    id: UBERON:0001359
-    label: cerebrospinal fluid
+    id: UBERON:0001016
+    label: nervous system
   curated: true
 - id: GOLDTERMS:4096
   label: Host-associated > Fish > Reproductive system
@@ -11883,12 +12060,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0010152
+    label: skin mucus
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
   anatomical_site:
-    id: UBERON:0010152
-    label: skin mucus
+    id: UBERON:0000014
+    label: zone of skin
   curated: true
 - id: GOLDTERMS:4740
   label: Host-associated > Fish > Skin > Scales
@@ -11913,13 +12093,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000912
+    label: mucus
   host_taxon:
     id: NCBITaxon:7777
     label: Chondrichthyes
   anatomical_site:
     id: UBERON:0000014
     label: zone of skin
-  curated: false
+  curated: true
 - id: GOLDTERMS:4714
   label: Host-associated > Fish > Tissue
   parent: GOLDTERMS:4095
@@ -12114,12 +12297,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000178
+    label: blood
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
   anatomical_site:
-    id: UBERON:0000178
-    label: blood
+    id: UBERON:0001009
+    label: circulatory system
   other:
     id: FOODON:03411229
     label: 'obsolete: horse'
@@ -12186,6 +12372,9 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
@@ -12195,7 +12384,7 @@ terms:
   other:
     id: FOODON:03411229
     label: 'obsolete: horse'
-  curated: false
+  curated: true
 - id: GOLDTERMS:Host-associated-Horse-Excretory-system
   label: Host-associated > Horse > Excretory system
   parent: GOLDTERMS:4476
@@ -12240,12 +12429,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001088
+    label: urine
   host_taxon:
     id: NCBITaxon:9796
     label: Equus caballus
   anatomical_site:
-    id: UBERON:0001088
-    label: urine
+    id: UBERON:0000057
+    label: urethra
   other:
     id: FOODON:03411229
     label: 'obsolete: horse'
@@ -12345,7 +12537,10 @@ terms:
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
-  curated: false
+  anatomical_site:
+    id: UBERON:0000916
+    label: abdomen
+  curated: true
 - id: GOLDTERMS:5120
   label: Host-associated > Human > Abdomen > Peritoneal dialysate
   parent: GOLDTERMS:5717
@@ -12357,6 +12552,9 @@ terms:
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
+  anatomical_site:
+    id: UBERON:0000916
+    label: abdomen
   curated: false
 - id: GOLDTERMS:5037
   label: Host-associated > Human > Abdomen > Peritoneal fluid
@@ -12366,13 +12564,16 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001268
+    label: peritoneal fluid
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001268
-    label: peritoneal fluid
-  curated: false
+    id: UBERON:0000916
+    label: abdomen
+  curated: true
 - id: GOLDTERMS:4581
   label: Host-associated > Human > Bone
   parent: GOLDTERMS:4138
@@ -12438,12 +12639,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0000178
+    label: blood
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0000178
-    label: blood
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:4416
   label: Host-associated > Human > Circulatory system > Blood > Plasma
@@ -12453,12 +12657,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001969
+    label: blood plasma
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001969
-    label: blood plasma
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:4430
   label: Host-associated > Human > Circulatory system > Blood > Serum
@@ -12468,12 +12675,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001977
+    label: blood serum
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001977
-    label: blood serum
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:4998
   label: Host-associated > Human > Circulatory system > Heart
@@ -12604,13 +12814,16 @@ terms:
   mixs_extension:
     id: MIXS:HumanGut
     label: MIXS:HumanGut
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
-  curated: false
+  curated: true
 - id: GOLDTERMS:5030
   label: Host-associated > Human > Digestive system > Large intestine > Rectum
   parent: GOLDTERMS:3922
@@ -12695,12 +12908,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanGut
     label: MIXS:HumanGut
+  env_medium:
+    id: UBERON:0016482
+    label: dental plaque
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0016482
-    label: dental plaque
+    id: UBERON:0000167
+    label: oral cavity
   curated: true
 - id: GOLDTERMS:5083
   label: Host-associated > Human > Digestive system > Oral cavity > Dental pulp
@@ -12785,12 +13001,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanGut
     label: MIXS:HumanGut
+  env_medium:
+    id: UBERON:0001836
+    label: saliva
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001836
-    label: saliva
+    id: UBERON:0000167
+    label: oral cavity
   curated: true
 - id: GOLDTERMS:3913
   label: Host-associated > Human > Digestive system > Oral cavity > Subgingival plaque
@@ -12800,12 +13019,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanGut
     label: MIXS:HumanGut
+  env_medium:
+    id: UBERON:0016484
+    label: subgingival dental plaque
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0016484
-    label: subgingival dental plaque
+    id: UBERON:0000167
+    label: oral cavity
   curated: true
 - id: GOLDTERMS:3916
   label: Host-associated > Human > Digestive system > Oral cavity > Supragingival
@@ -12816,12 +13038,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanGut
     label: MIXS:HumanGut
+  env_medium:
+    id: UBERON:0016485
+    label: supragingival dental plaque
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0016485
-    label: supragingival dental plaque
+    id: UBERON:0000167
+    label: oral cavity
   curated: true
 - id: GOLDTERMS:3914
   label: Host-associated > Human > Digestive system > Oral cavity > Throat
@@ -13026,12 +13251,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001970
+    label: bile
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001970
-    label: bile
+    id: UBERON:0002107
+    label: liver
   curated: true
 - id: GOLDTERMS:4761
   label: Host-associated > Human > Excretory system > Urethra
@@ -13056,12 +13284,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001088
+    label: urine
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001088
-    label: urine
+    id: UBERON:0000057
+    label: urethra
   curated: true
 - id: GOLDTERMS:4996
   label: Host-associated > Human > Excretory system > Urinary bladder
@@ -13192,14 +13423,11 @@ terms:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
   env_medium:
-    id: FOODON:03307455
-    label: cow milk (raw)
+    id: UBERON:0001913
+    label: milk
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
-  anatomical_site:
-    id: UBERON:0001913
-    label: milk
   curated: true
 - id: GOLDTERMS:3934
   label: Host-associated > Human > Nervous system
@@ -13239,12 +13467,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001359
+    label: cerebrospinal fluid
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001359
-    label: cerebrospinal fluid
+    id: UBERON:0001016
+    label: nervous system
   curated: true
 - id: GOLDTERMS:5073
   label: Host-associated > Human > Pus
@@ -13254,12 +13485,12 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0000177
+    label: pus
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
-  anatomical_site:
-    id: UBERON:0000177
-    label: pus
   curated: true
 - id: GOLDTERMS:4143
   label: Host-associated > Human > Reproductive system
@@ -13299,12 +13530,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0000173
+    label: amniotic fluid
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0000173
-    label: amniotic fluid
+    id: UBERON:0000990
+    label: reproductive system
   curated: false
 - id: GOLDTERMS:5089
   label: Host-associated > Human > Reproductive system > Breast
@@ -13494,12 +13728,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001087
+    label: pleural fluid
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001087
-    label: pleural fluid
+    id: UBERON:0002048
+    label: lung
   curated: true
 - id: GOLDTERMS:5252
   label: Host-associated > Human > Respiratory system > Lung > Pulmonary fluid
@@ -13570,12 +13807,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0007311
+    label: sputum
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0007311
-    label: sputum
+    id: UBERON:0001004
+    label: respiratory system
   curated: true
 - id: GOLDTERMS:5007
   label: Host-associated > Human > Respiratory system > Throat
@@ -13721,12 +13961,15 @@ terms:
   mixs_extension:
     id: MIXS:HumanAssociated
     label: MIXS:HumanAssociated
+  env_medium:
+    id: UBERON:0001090
+    label: synovial fluid
   host_taxon:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0001090
-    label: synovial fluid
+    id: UBERON:0002018
+    label: synovial membrane of synovial joint
   curated: true
 - id: GOLDTERMS:3928
   label: Host-associated > Human > Skin
@@ -13770,9 +14013,9 @@ terms:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0000014
-    label: zone of skin
-  curated: false
+    id: UBERON:0002103
+    label: hindlimb
+  curated: true
 - id: GOLDTERMS:3931
   label: Host-associated > Human > Skin > Medial distal leg > Venous leg ulcers
   parent: GOLDTERMS:4795
@@ -13785,8 +14028,8 @@ terms:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0000014
-    label: zone of skin
+    id: UBERON:0002103
+    label: hindlimb
   curated: false
 - id: GOLDTERMS:3929
   label: Host-associated > Human > Skin > Naris
@@ -13845,9 +14088,9 @@ terms:
     id: NCBITaxon:9606
     label: Homo sapiens
   anatomical_site:
-    id: UBERON:0000014
-    label: zone of skin
-  curated: false
+    id: UBERON:8480047
+    label: retroauricular region
+  curated: true
 - id: GOLDTERMS:4826
   label: Host-associated > Human > Soft tissue
   parent: GOLDTERMS:4138
@@ -14195,12 +14438,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000178
+    label: blood
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0000178
-    label: blood
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:5112
   label: Host-associated > Mammals > Circulatory system > Blood > Peripheral blood
@@ -14211,12 +14457,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000178
+    label: blood
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0000178
-    label: blood
+    id: UBERON:0001009
+    label: circulatory system
   curated: false
 - id: GOLDTERMS:4988
   label: Host-associated > Mammals > Circulatory system > Heart
@@ -14376,12 +14625,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0001988
-    label: feces
+    id: UBERON:0000059
+    label: large intestine
   curated: true
 - id: GOLDTERMS:4104
   label: Host-associated > Mammals > Digestive system > Large intestine > Fecal
@@ -14391,13 +14643,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
-  curated: false
+  curated: true
 - id: GOLDTERMS:4103
   label: Host-associated > Mammals > Digestive system > Midgut
   parent: GOLDTERMS:4107
@@ -14451,12 +14706,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0016482
+    label: dental plaque
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0016482
-    label: dental plaque
+    id: UBERON:0000167
+    label: oral cavity
   curated: true
 - id: GOLDTERMS:5121
   label: Host-associated > Mammals > Digestive system > Oral cavity > Gingiva
@@ -14512,12 +14770,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001836
+    label: saliva
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0001836
-    label: saliva
+    id: UBERON:0000167
+    label: oral cavity
   curated: true
 - id: GOLDTERMS:5040
   label: Host-associated > Mammals > Digestive system > Small intestine
@@ -14693,12 +14954,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001088
+    label: urine
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
   anatomical_site:
-    id: UBERON:0001088
-    label: urine
+    id: UBERON:8450002
+    label: excretory system
   curated: true
 - id: GOLDTERMS:4991
   label: Host-associated > Mammals > Eye
@@ -14793,14 +15057,11 @@ terms:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
   env_medium:
-    id: FOODON:03307455
-    label: cow milk (raw)
+    id: UBERON:0001913
+    label: milk
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
-  anatomical_site:
-    id: UBERON:0001913
-    label: milk
   curated: true
 - id: GOLDTERMS:4124
   label: Host-associated > Mammals > Nervous system
@@ -14852,12 +15113,12 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0000177
+    label: pus
   host_taxon:
     id: NCBITaxon:40674
     label: Mammalia
-  anatomical_site:
-    id: UBERON:0000177
-    label: pus
   curated: true
 - id: GOLDTERMS:4119
   label: Host-associated > Mammals > Reproductive system
@@ -15201,12 +15462,15 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001011
+    label: hemolymph
   host_taxon:
     id: NCBITaxon:6447
     label: Mollusca
   anatomical_site:
-    id: UBERON:0001011
-    label: hemolymph
+    id: UBERON:0001009
+    label: circulatory system
   curated: true
 - id: GOLDTERMS:4322
   label: Host-associated > Mollusca > Digestive system
@@ -15235,9 +15499,9 @@ terms:
     id: NCBITaxon:6447
     label: Mollusca
   anatomical_site:
-    id: UBERON:0001007
-    label: digestive system
-  curated: false
+    id: UBERON:0001153
+    label: caecum
+  curated: true
 - id: GOLDTERMS:4323
   label: Host-associated > Mollusca > Digestive system > Glands
   parent: GOLDTERMS:4322
@@ -16344,13 +16608,16 @@ terms:
   mixs_extension:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
+  env_medium:
+    id: UBERON:0001988
+    label: feces
   host_taxon:
     id: NCBITaxon:8504
     label: Lepidosauria
   anatomical_site:
     id: UBERON:0000059
     label: large intestine
-  curated: false
+  curated: true
 - id: GOLDTERMS:Host-associated-Reptilia-Excretory-system
   label: Host-associated > Reptilia > Excretory system
   parent: GOLDTERMS:3906
@@ -16447,7 +16714,7 @@ terms:
     id: MIXS:HostAssociated
     label: MIXS:HostAssociated
   host_taxon:
-    id: NCBITaxon:7712
-    label: Tunicata
-  curated: false
+    id: NCBITaxon:7713
+    label: Ascidiacea
+  curated: true
 

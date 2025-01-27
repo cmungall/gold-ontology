@@ -104,4 +104,6 @@ GOLDVOCAB:Gymnolaemates	Gymnolaemates	skos:exactMatch	NCBITaxon:10206	Gymnolaema
 GOLDVOCAB:Peat-moss	Peat moss	skos:exactMatch	NCBITaxon:13804	Sphagnum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sphagnum		
 GOLDVOCAB:Sea-cucumber	Sea cucumber	skos:closeMatch	NCBITaxon:7705	Holothuroidea	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	sea cucumber		semapv:RegularExpressionReplacement
 GOLDVOCAB:Fish	Fish	skos:closeMatch	NCBITaxon:7777	Chondrichthyes	semapv:LexicalMatching	oaklib	0.5	rdfs:label	oio:hasRelatedSynonym	fish		
+GOLDTERMS:5202	Host-associated > Arthropoda > Lobster	skos:closeMatch	NCBITaxon:6704	Nephropidae	semapv:LexicalMatching	oaklib	0.5	oio:hasExactSynonym	oio:hasRelatedSynonym	lobster		
+GOLDVOCAB:Ascidians	Ascidians	skos:exactMatch	NCBITaxon:7713	Ascidiacea	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ascidiacea		
 

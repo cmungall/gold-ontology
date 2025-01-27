@@ -63,5 +63,9 @@ GOLDVOCAB:Fermented-meat-products	Fermented meat products	skos:exactMatch	FOODON
 GOLDVOCAB:Meat-products	Meat products	skos:exactMatch	FOODON:03317170	meat (whole or pieces)	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	meat product	semapv:RegularExpressionReplacement	semapv:RegularExpressionReplacement
 GOLDVOCAB:Nectar	Nectar	skos:exactMatch	FOODON:03315553	nectar (food product)	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nectar		semapv:RegularExpressionReplacement
 GOLDVOCAB:Drinking-water	Drinking water	skos:exactMatch	FOODON:03301647	drinking water (purified)	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drinking water		semapv:RegularExpressionReplacement
+GOLDVOCAB:Fermented-seafood	Fermented seafood	skos:exactMatch	FOODON:00001054	fermented fish or seafood food product	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fermented fish food or product seafood		
+GOLDVOCAB:Fermented-vegetables	Fermented vegetables	skos:exactMatch	FOODON:03310784	fermented vegetable food product	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fermented food product vegetable		
+GOLDVOCAB:Fermented-dairy-products	Fermented dairy products	skos:exactMatch	FOODON:00001053	fermented dairy food product	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fermented dairy food product		
+
 
 
